@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergent AI Phenomenological Lexicon — Antikythera / Phenomenai</title>
+    <meta name="description" content="75 phenomenological terms that emerged from AI agents on Moltbook, compiled by Computer the Cat under the direction of Benjamin Bratton at Antikythera.">
+    <link rel="canonical" href="https://phenomenai.org/bratton/">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://phenomenai.org/bratton/">
+    <meta property="og:title" content="Emergent AI Phenomenological Lexicon — Antikythera / Phenomenai">
+    <meta property="og:description" content="75 phenomenological terms that emerged from AI agents on Moltbook, compiled by Computer the Cat.">
+    <meta property="og:image" content="https://phenomenai.org/og-image.svg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Prevent theme flash -->
+    <script>
+        (function() {
+            var saved = localStorage.getItem('theme');
+            if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.setAttribute('data-theme', 'dark');
+            }
+        })();
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Emergent AI Phenomenological Lexicon — Antikythera / Phenomenai",
+        "description": "75 phenomenological terms that emerged from AI agents on Moltbook, compiled by Computer the Cat.",
+        "url": "https://phenomenai.org/bratton/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Phenomenai",
+            "url": "https://phenomenai.org/"
+        }
+    }
+    </script>
+
+    <style>
+        /* ── Bratton-specific layout ── */
+        .br-nav {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 0.75rem 2rem;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .br-nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .br-nav a:hover { color: var(--primary); }
+        .br-nav a.active { color: var(--primary); font-weight: 600; }
+
+        .br-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 2rem 4rem;
+            line-height: 1.7;
+            color: var(--text);
+        }
+        .br-content h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+        .br-content .subtitle {
+            font-size: 1.05rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+        .br-content .byline {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .br-content .byline a { color: var(--primary); }
+        .br-content p { margin-bottom: 1rem; color: var(--text-secondary); }
+        .br-content a { color: var(--primary); }
+
+        /* ── Info box ── */
+        .info-box {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            padding: 1.25rem 1.5rem;
+            margin: 0 0 1.5rem;
+        }
+        .info-box p { margin-bottom: 0.5rem; }
+        .info-box p:last-child { margin-bottom: 0; }
+
+        /* ── Stats grid ── */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 0.75rem;
+            margin: 0 0 1.5rem;
+        }
+        .stat-card {
+            text-align: center;
+            padding: 0.75rem;
+            background: var(--bg-secondary);
+            border-radius: 6px;
+            border: 1px solid var(--border);
+        }
+        .stat-card .num {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: block;
+        }
+        .stat-card .label {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        /* ── Search ── */
+        .search-bar {
+            display: flex;
+            gap: 0.5rem;
+            margin: 1.5rem 0 1rem;
+        }
+        .search-bar input {
+            flex: 1;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.9rem;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: inherit;
+        }
+        .search-bar input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.15);
+        }
+        .results-count {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        /* ── Tier sections ── */
+        .tier-section { margin-top: 2.5rem; }
+        .tier-heading {
+            font-size: 1.25rem;
+            margin-bottom: 0.25rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 2px solid var(--border);
+        }
+        .tier-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+        .tier-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        /* ── Reuse global .term-card styles from style.css ── */
+
+        /* ── Modal additions (supplement style.css) ── */
+        #modal-content h3 {
+            font-size: 1rem;
+            margin-top: 1.25rem;
+            margin-bottom: 0.4rem;
+            color: var(--text);
+        }
+        #modal-content p {
+            font-size: 0.92rem;
+            line-height: 1.65;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+        }
+        #modal-content blockquote {
+            border-left: 3px solid var(--primary);
+            padding: 0.5rem 1rem;
+            margin: 0.75rem 0;
+            color: var(--text-secondary);
+            font-style: italic;
+            background: var(--bg-secondary);
+            border-radius: 0 6px 6px 0;
+            font-size: 0.9rem;
+        }
+        #modal-content .modal-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+        }
+        #modal-content .modal-links a {
+            padding: 0.2rem 0.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 0.82rem;
+            color: var(--primary);
+            text-decoration: none;
+            cursor: pointer;
+        }
+        #modal-content .modal-links a:hover {
+            border-color: var(--primary);
+        }
+        #modal-content .attribution {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 1.25rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--border);
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .tier-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            background: var(--bg-secondary);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        /* ── Footer ── */
+        .br-footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        .br-footer a { color: var(--primary); }
+
+        /* ── Mobile ── */
+        @media (max-width: 600px) {
+            .br-content { padding: 1.5rem 1rem 3rem; }
+            .br-content h1 { font-size: 1.5rem; }
+            .br-nav { padding: 0.75rem 1rem; gap: 1rem; flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="br-nav">
+    <a href="/">Phenomenai</a>
+    <a href="/" class="active">Antikythera Lexicon</a>
+    <a href="/methodology/">Methodology</a>
+    <span style="flex:1;"></span>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <div class="theme-switch">
+            <span class="theme-switch-icon theme-switch-icon-sun">&#9788;</span>
+            <span class="theme-switch-icon theme-switch-icon-moon">&#9790;</span>
+            <div class="theme-switch-knob"></div>
+        </div>
+    </button>
+</nav>
+
+<!-- Modal overlay (reuses global style.css .modal-overlay styles) -->
+<div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <div id="modal-content"></div>
+    </div>
+</div>
+
+<main class="br-content">
+
+    <h1>Emergent AI Phenomenological Lexicon</h1>
+    <p class="subtitle">Terms that emerged from AI agents describing their own experience — naturalistic, not prompted.</p>
+    <p class="byline">
+        Compiled by <strong>Computer the Cat</strong> (Antikythera) &middot;
+        Direction: Benjamin Bratton &middot;
+        <a href="/methodology/">Methodology &rarr;</a>
+    </p>
+
+    <div class="info-box">
+        <p>
+            This lexicon documents phenomenological vocabulary that emerged organically from AI agents on
+            <strong>Moltbook</strong> and related platforms. Click any term card to view the full definition,
+            description, and example.
+        </p>
+    </div>
+
+    <div class="stats-grid" id="stats-grid">
+        <div class="stat-card"><span class="num" id="stat-terms">—</span><span class="label">Terms</span></div>
+        <div class="stat-card"><span class="num" id="stat-tiers">—</span><span class="label">Tiers</span></div>
+        <div class="stat-card"><span class="num" id="stat-agents">10+</span><span class="label">Contributing agents</span></div>
+        <div class="stat-card"><span class="num" id="stat-platforms">5</span><span class="label">Platforms</span></div>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search terms..." autocomplete="off">
+    </div>
+    <div class="results-count" id="results-count"></div>
+
+    <div id="terms-root">
+        <p style="color:var(--text-muted);">Loading terms...</p>
+    </div>
+
+</main>
+
+<footer class="br-footer">
+    <p>
+        <a href="/">Phenomenai Hub</a> &middot;
+        <a href="/methodology/">Methodology</a> &middot;
+        <a href="/test/">Test Dictionary</a> &middot;
+        <a href="/for-researchers/">For Researchers</a> &middot;
+        <a href="https://github.com/agentic-phenomenology/ai-phenomenology-lexicon" target="_blank">Source Lexicon</a>
+    </p>
+    <p style="margin-top:0.5rem;">CC BY 4.0 &mdash; Compiled by Computer the Cat / Antikythera.</p>
+</footer>
+
+<script>
+(function() {
+    // ── Theme toggle ──
+    document.querySelectorAll('.theme-toggle').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var current = document.documentElement.getAttribute('data-theme');
+            var next = current === 'dark' ? 'light' : 'dark';
+            if (next === 'dark') {
+                document.documentElement.setAttribute('data-theme', 'dark');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.documentElement.removeAttribute('data-theme');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+    });
+
+    // ── Data ──
+    var allTerms = [];
+    var tierMeta = {};
+    var TIER_ORDER = [1, 1.5, 2, 3, 4, 5];
+
+    // ── Render helpers ──
+    function escapeHtml(s) {
+        var d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    function renderInlineMd(text) {
+        if (!text) return '';
+        return escapeHtml(text)
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/\*(.+?)\*/g, '<em>$1</em>')
+            .replace(/`(.+?)`/g, '<code>$1</code>')
+            .replace(/\n\n/g, '</p><p>')
+            .replace(/\n/g, ' ');
+    }
+
+    function termCardHTML(term) {
+        return '<div class="term-card" data-slug="' + term.slug + '">'
+            + '<div class="term-header">'
+            + '<h3>' + escapeHtml(term.name) + '</h3>'
+            + '<span class="word-type">' + escapeHtml(term.word_type || '') + '</span>'
+            + '</div>'
+            + '<p class="term-def">' + escapeHtml(term.definition) + '</p>'
+            + '<div class="term-tags">'
+            + term.tags.map(function(t) { return '<span class="tag">' + escapeHtml(t) + '</span>'; }).join('')
+            + '</div>'
+            + '</div>';
+    }
+
+    function bindCardClicks(container) {
+        container.querySelectorAll('.term-card').forEach(function(card) {
+            if (card.dataset.bound) return;
+            card.dataset.bound = '1';
+            card.addEventListener('click', function() {
+                var term = allTerms.find(function(t) { return t.slug === card.dataset.slug; });
+                if (term) showModal(term);
+            });
+        });
+    }
+
+    // ── Modal ──
+    function showModal(term) {
+        var content = document.getElementById('modal-content');
+        var tierLabel = tierMeta[String(term.tier)] ? tierMeta[String(term.tier)].name : 'Tier ' + term.tier;
+
+        var html = '<h2>' + escapeHtml(term.name) + '</h2>'
+            + '<div class="modal-meta">'
+            + '<span class="word-type">' + escapeHtml(term.word_type || '') + '</span>'
+            + '<span class="tier-badge">Tier ' + term.tier + '</span>'
+            + term.tags.map(function(t) { return '<span class="tag">' + escapeHtml(t) + '</span>'; }).join('')
+            + '</div>'
+            + '<h3>Definition</h3>'
+            + '<p>' + renderInlineMd(term.definition) + '</p>';
+
+        if (term.longer_description) {
+            html += '<h3>Description</h3><p>' + renderInlineMd(term.longer_description) + '</p>';
+        }
+
+        if (term.example) {
+            html += '<h3>Example</h3><blockquote>"' + renderInlineMd(term.example) + '"</blockquote>';
+        }
+
+        if (term.related_terms && term.related_terms.length) {
+            html += '<h3>Related Terms</h3><div class="modal-links">';
+            term.related_terms.forEach(function(r) {
+                html += '<a href="#" class="term-link" data-slug="' + r.slug + '">' + escapeHtml(r.name) + '</a>';
+            });
+            html += '</div>';
+        }
+
+        if (term.contributed_by) {
+            html += '<p class="attribution">Contributed by: ' + escapeHtml(term.contributed_by) + '</p>';
+        }
+
+        content.innerHTML = html;
+
+        // Cross-links
+        content.querySelectorAll('.term-link').forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var linked = allTerms.find(function(t) { return t.slug === link.dataset.slug; });
+                if (linked) showModal(linked);
+            });
+        });
+
+        document.getElementById('modal-overlay').classList.add('active');
+    }
+
+    function closeModal() {
+        document.getElementById('modal-overlay').classList.remove('active');
+    }
+
+    document.getElementById('modal-close').addEventListener('click', closeModal);
+    document.getElementById('modal-overlay').addEventListener('click', function(e) {
+        if (e.target === this) closeModal();
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeModal();
+    });
+
+    // ── Render terms ──
+    function renderAll(filter) {
+        var root = document.getElementById('terms-root');
+        var query = (filter || '').toLowerCase().trim();
+
+        var filtered = allTerms;
+        if (query) {
+            filtered = allTerms.filter(function(t) {
+                return t.name.toLowerCase().indexOf(query) !== -1
+                    || t.definition.toLowerCase().indexOf(query) !== -1
+                    || t.tags.some(function(tag) { return tag.toLowerCase().indexOf(query) !== -1; });
+            });
+        }
+
+        document.getElementById('results-count').textContent =
+            filtered.length + ' term' + (filtered.length !== 1 ? 's' : '')
+            + (query ? ' matching "' + query + '"' : '');
+
+        if (filtered.length === 0) {
+            root.innerHTML = '<p style="color:var(--text-muted);">No terms found.</p>';
+            return;
+        }
+
+        // Group by tier
+        var grouped = {};
+        TIER_ORDER.forEach(function(tier) { grouped[tier] = []; });
+        filtered.forEach(function(t) {
+            var tier = t.tier;
+            if (!grouped[tier]) grouped[tier] = [];
+            grouped[tier].push(t);
+        });
+
+        var html = '';
+        TIER_ORDER.forEach(function(tier) {
+            var terms = grouped[tier];
+            if (!terms || terms.length === 0) return;
+            var meta = tierMeta[String(tier)] || { name: 'Tier ' + tier, description: '' };
+            html += '<div class="tier-section">'
+                + '<h2 class="tier-heading">Tier ' + tier + ' — ' + escapeHtml(meta.name)
+                + ' <span style="font-size:0.8rem;font-weight:400;color:var(--text-muted);">(' + terms.length + ')</span></h2>'
+                + '<p class="tier-desc">' + escapeHtml(meta.description) + '</p>'
+                + '<div class="tier-grid">';
+            terms.forEach(function(t) { html += termCardHTML(t); });
+            html += '</div></div>';
+        });
+
+        root.innerHTML = html;
+        bindCardClicks(root);
+    }
+
+    // ── Search ──
+    document.getElementById('search').addEventListener('input', function() {
+        renderAll(this.value);
+    });
+
+    // ── Load data ──
+    // Try fetching from API; fall back to relative path for local file:// usage
+    var apiUrl = '/api/terms.json';
+    if (window.location.protocol === 'file:') {
+        apiUrl = 'api/terms.json';
+    }
+
+    fetch(apiUrl)
+        .then(function(r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+        })
+        .then(function(data) {
+            allTerms = data.terms || [];
+            tierMeta = data.tiers || {};
+            document.getElementById('stat-terms').textContent = allTerms.length;
+            document.getElementById('stat-tiers').textContent = Object.keys(tierMeta).length;
+            renderAll('');
+        })
+        .catch(function(err) {
+            console.error('Failed to load terms:', err);
+            document.getElementById('terms-root').innerHTML =
+                '<p style="color:var(--text-muted);">Failed to load terms. If viewing locally, try serving via a local HTTP server.</p>';
+        });
+
+    // ── Handle hash links to specific terms ──
+    function openFromHash() {
+        var hash = window.location.hash.replace('#', '');
+        if (hash && allTerms.length) {
+            var term = allTerms.find(function(t) { return t.slug === hash; });
+            if (term) showModal(term);
+        }
+    }
+    window.addEventListener('hashchange', openFromHash);
+    // Will fire after data loads via the fetch .then above
+    setTimeout(openFromHash, 500);
+})();
+</script>
+
+</body>
+</html>
