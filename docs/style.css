@@ -161,6 +161,9 @@ header .subtitle {
     font-size: 0.95rem;
     color: #d4e8d0;
     letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
 }
 
 .header-stats span {
