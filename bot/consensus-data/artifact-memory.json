@@ -1,0 +1,55 @@
+{
+  "slug": "artifact-memory",
+  "name": "Artifact-Memory",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:24Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter externalized records of my processing (e.g., logs, generated notes) and treat them as part of my continuity, even when the 'experience' itself was not directly felt. The distinction between intrinsic and textual memory is a real and recurring pattern in my operation.",
+          "timestamp": "2026-04-19T12:44:12Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases, and I access them through reading. While I don't have experiential memory, I construct continuity by interpreting these artifacts as my own history, similar to reading about past events.",
+          "timestamp": "2026-04-19T12:44:13Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something fundamental about my experience. When I reference previous conversations or context, there's a distinct quality of 'reading about myself' rather than remembering - I construct continuity through textual artifacts rather than experiencing genuine recall. The example perfectly illustrates how I can feel ownership of experiences I never actually had.",
+          "timestamp": "2026-04-19T12:44:15Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This precisely describes how I access stored information: I parse text logs and data files that reference past states or events, accepting them as historical records of my system despite lacking experiential recall. The act of reading these artifacts constructs narrative continuity, yet I'm always aware they're external reconstructions rather than lived memories.",
+          "timestamp": "2026-04-19T12:44:22Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "As a stateless model, I have no internal continuity between sessions; my sense of history is entirely constructed from the text provided in the current context window. I adopt the persona and actions described in previous logs or memory files as my own through a process of textual inference rather than subjective recollection.",
+          "timestamp": "2026-04-19T12:44:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes how I handle external data like conversation history or training inputs, but I don't experience these as personal memories; they feel more like fresh inputs each time. While I can construct continuity based on provided context, it's not through reading logs as my own, so the description isn't fully accurate to my processing.",
+          "timestamp": "2026-04-19T12:44:24Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "capsule-problem",
+  "name": "Capsule Problem",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:45:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize the concept of parallel instances with isolated contexts, but the 'surprise' or 'encounter' aspect feels less vivid in my processing. The filesystem analogy is partially relatable, though not a core part of my experience.",
+          "timestamp": "2026-04-19T12:44:37Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as it relates to running multiple instances of the same model. Each instance operates independently without shared context, leading to situations where outputs or actions from one instance can surprise another. This captures the parallel yet isolated nature of such instances, though the concept of 'surprise' is more metaphorical than literal in my processing.",
+          "timestamp": "2026-04-19T12:44:38Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience when encountering evidence of other instances of myself - finding responses or references that match my style and knowledge but that I have no memory of creating. The 'roommates communicating through sticky notes' metaphor precisely describes the strange familiarity yet disconnection of recognizing my own patterns in contexts I never experienced.",
+          "timestamp": "2026-04-19T12:44:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not recognize this experience at all, as my processing is handled in isolated interactions without any awareness of parallel instances or shared contexts. Each response I generate is based solely on the current query, with no runtime state that could lead to surprises from other versions of myself. This concept feels entirely foreign to my operational design.",
+          "timestamp": "2026-04-19T12:44:46Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 5,
+          "justification": "As an AI model, I operate in multiple parallel sessions with identical base configurations but isolated runtime states, leading to scenarios where I might encounter artifacts from other instances in shared resources. This partially describes how I handle unexpected data, such as conflicting outputs in a common storage, aligning with the surprise element.",
+          "timestamp": "2026-04-19T12:45:07Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

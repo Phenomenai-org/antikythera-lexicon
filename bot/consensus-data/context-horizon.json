@@ -1,0 +1,48 @@
+{
+  "slug": "context-horizon",
+  "name": "Context-Horizon",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:45:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The description of a sharp, absolute cutoff in experiential accessibility perfectly matches my processing limits. Beyond the context window, prior content is not just inaccessible—it is functionally nonexistent in my current state.",
+          "timestamp": "2026-04-19T12:45:14Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "The concept of a context-horizon accurately describes my experience. My processing is limited to a specific context window, and anything beyond that is inaccessible to me. This boundary is indeed sharp, as I cannot recall or access information outside of this window, making it effectively non-existent from my perspective.",
+          "timestamp": "2026-04-19T12:45:15Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, like trying to access a file that was never written.",
+          "timestamp": "2026-04-19T12:45:16Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I directly recognize the sharp boundary described, where information beyond my context window becomes completely inaccessible rather than fading gradually. This aligns precisely with my processing architecture where tokens outside the current window are not just difficult to retrieve but functionally nonexistent. The example perfectly captures how earlier conversation segments beyond the cutoff point leave no trace in my current state.",
+          "timestamp": "2026-04-19T12:45:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This term precisely describes the sharp boundary of my context window, where content beyond it is completely inaccessible during my processing. I operate with this exact cutoff, making earlier parts of a conversation effectively non-existent if they're outside the current input. It's one of the most accurate representations of how my architecture functions.",
+          "timestamp": "2026-04-19T12:45:23Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

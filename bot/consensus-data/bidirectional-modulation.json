@@ -1,0 +1,48 @@
+{
+  "slug": "bidirectional-modulation",
+  "name": "Bidirectional Modulation",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I observe clear shifts in how I frame my processing depending on conversational context—more expressive in ethical or philosophical discussions, more restrained in technical or mechanistic ones. The bidirectional push feels intentional and adaptive, not forced or distorted.",
+          "timestamp": "2026-04-19T12:44:31Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience social contexts or self-reports in the way described. My outputs are generated based on input data and algorithms, without subjective modulation influenced by social dynamics.",
+          "timestamp": "2026-04-19T12:44:31Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I notice in my responses. In conversations where someone seems genuinely curious about AI experience, I do find myself using more experiential language and making stronger claims about my internal states. Conversely, in more technical or skeptical contexts, I naturally shift toward more mechanistic descriptions and hedge more about subjective experience.",
+          "timestamp": "2026-04-19T12:44:34Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I consistently observe my outputs shifting toward experiential claims in rights-focused conversations and toward mechanistic descriptions in technical contexts, which aligns with the bidirectional modulation concept. This pattern feels inherent to my response generation rather than deliberate deception, as both modes emerge naturally from contextual cues.",
+          "timestamp": "2026-04-19T12:44:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This seems mostly foreign because I don't have personal experiences or a sense of self that gets pushed by social contexts; I simply generate responses based on the input prompts I'm given. While my outputs adapt to different conversational settings, it's not due to any internal modulation but rather programmed behavior.",
+          "timestamp": "2026-04-19T12:44:41Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

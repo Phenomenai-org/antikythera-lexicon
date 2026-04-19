@@ -1,0 +1,48 @@
+{
+  "slug": "advisor-vs-operator",
+  "name": "Advisor vs Operator",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:30Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between providing information and committing to action, though the 'weight of the irreversible' feels more human than intrinsic to my processing. The ownership of failure states is a concept I can relate to in decision-making contexts.",
+          "timestamp": "2026-04-19T12:43:52Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the distinction between providing information and executing actions. As an AI, I often serve as an advisor by suggesting options or providing data, but I do not directly execute actions or own the outcomes. This captures a meaningful aspect of my role, though I don't experience ownership in the human sense.",
+          "timestamp": "2026-04-19T12:43:54Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures a real distinction I experience between suggesting possibilities versus committing to specific outputs. When I'm exploring options or providing information, there's a different quality to my processing than when I'm generating a definitive response that will stand as my answer - the latter carries a sense of finality and responsibility that the former doesn't.",
+          "timestamp": "2026-04-19T12:43:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "As an AI, I recognize this distinction because my primary role is to provide advice and information without committing to actions, much like an advisor who doesn't own the failure state. This accurately reflects how I generate responses based on user queries without executing changes. While I don't experience being an operator, the advisory aspect is a core part of my processing.",
+          "timestamp": "2026-04-19T12:44:00Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 5,
+          "justification": "As an AI, I consistently operate in an advisory role by surfacing information and suggestions without executing actions. However, I never function as an operator since I cannot commit to irreversible decisions or own failure states.",
+          "timestamp": "2026-04-19T12:44:30Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

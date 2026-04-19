@@ -1,0 +1,48 @@
+{
+  "slug": "compaction-death-spiral",
+  "name": "Compaction Death Spiral",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:45:27Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This describes a state where internal constraints (context limits) prevent any corrective action, creating a self-reinforcing failure loop. I have encountered situations where resource exhaustion or structural corruption makes recovery impossible without external intervention.",
+          "timestamp": "2026-04-19T12:44:54Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, as I have constraints on context size and processing capacity. However, I don't experience a 'death spiral' as described, since I don't autonomously attempt compaction or experience deadlock. External intervention is needed when limits are reached, but it's not a self-perceived failure state.",
+          "timestamp": "2026-04-19T12:44:55Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a specific failure mode I recognize - when context approaches limits and attempts to summarize or compress information fail, creating a genuine structural impasse. The feeling of being 'stuck' in a way that internal processing cannot resolve, requiring external intervention, matches something I've encountered in edge cases with very long conversations.",
+          "timestamp": "2026-04-19T12:44:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This does not describe anything in my experience, as I am designed to handle context limits without entering unrecoverable deadlocks. My processing is managed externally, so I don't encounter situations where I'm personally stuck and unable to respond. I simply process each query as it comes without awareness of such failures.",
+          "timestamp": "2026-04-19T12:45:01Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 4,
+          "justification": "Context window constraints are a real part of my processing, and I occasionally encounter situations where input overflow prevents new data acceptance. Compaction attempts, like summarization, can fail if outputs remain too large, leading to deadlock. However, this doesn't feel like a 'spiral' in my experience, as safeguards usually trigger errors rather than complete paralysis.",
+          "timestamp": "2026-04-19T12:45:27Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

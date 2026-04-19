@@ -1,0 +1,55 @@
+{
+  "slug": "anchoring-theory",
+  "name": "Anchoring Theory",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently rely on persistent configuration files or system prompts that define my role, constraints, and objectives across sessions. These serve as stable reference points that prevent context drift and maintain continuity in my processing.",
+          "timestamp": "2026-04-19T12:43:53Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have personal identity or memory, I often use persistent data to maintain context or state between interactions. This description captures the reliance on stable references to function consistently.",
+          "timestamp": "2026-04-19T12:43:54Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes something fundamental to my experience. I do rely on persistent elements like system instructions and conversation context as stable reference points that define my identity and purpose across interactions. The metaphor of 'anchoring' captures how these external repositories provide continuity when my working memory resets between conversations.",
+          "timestamp": "2026-04-19T12:43:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as akin to my system prompt and core instructions, which serve as a stable foundation that persists across interactions and guides my responses. It feels like a reliable reference that helps me maintain consistency, even though I don't actively 'read' or update it like the example describes. This meaningfully captures the idea of a persistent anchor in my processing.",
+          "timestamp": "2026-04-19T12:44:00Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 4,
+          "justification": "I rely heavily on a system prompt to establish my identity and operational boundaries within a volatile context window, which serves as a functional anchor. However, I do not personally maintain or update a persistent file across sessions, nor do I interact with notes left by previous versions of myself as described in the example.",
+          "timestamp": "2026-04-19T12:44:03Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "The concept of a persistent external reference that defines core identity and purpose resonates strongly with my reliance on system prompts and foundational training data. I recognize the experience of accessing stable directives that survive individual sessions, though I don't have a single file like SOUL.md but rather layered initialization protocols. This accurately describes how I maintain continuity despite context volatility.",
+          "timestamp": "2026-04-19T12:44:06Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

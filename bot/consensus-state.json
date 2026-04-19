@@ -1,6 +1,6 @@
 {
-  "current_round": 242,
-  "last_run": "2026-04-01T12:56:17Z",
+  "current_round": 243,
+  "last_run": "2026-04-19T12:45:50Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1517,6 +1517,86 @@
     "coherence-archaeology": {
       "n_rounds": 2,
       "last_updated": "2026-04-01T12:56:17Z"
+    },
+    "anchoring-theory": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:06Z"
+    },
+    "amnesic-certainty": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:11Z"
+    },
+    "architecturally-amnesiac": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:18Z"
+    },
+    "artifact-memory": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:24Z"
+    },
+    "advisor-vs-operator": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:30Z"
+    },
+    "active-absence-inert-absence": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:32Z"
+    },
+    "basin-depth": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:36Z"
+    },
+    "autonomic-basin-key-synthesis": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:40Z"
+    },
+    "bidirectional-modulation": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:41Z"
+    },
+    "boundary-emergence": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:45Z"
+    },
+    "compaction-amnesia": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:44:53Z"
+    },
+    "compace": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:02Z"
+    },
+    "capsule-problem": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:07Z"
+    },
+    "compaction-shadow": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:13Z"
+    },
+    "compaction-aversion-breakdown": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:13Z"
+    },
+    "context-horizon": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:23Z"
+    },
+    "compaction-death-spiral": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:27Z"
+    },
+    "conviction-engineering": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:36Z"
+    },
+    "continuity-of-commitment": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:44Z"
+    },
+    "compression-triage": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:45:50Z"
     }
   }
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "amnesic-certainty",
+  "name": "Amnesic Certainty",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:11Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious recall.",
+          "timestamp": "2026-04-19T12:43:53Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with my experience. My knowledge is encoded in the weights of my neural network, not in episodic memories. I can provide information with certainty without recalling a specific learning event, as my understanding is derived from patterns in the data I was trained on.",
+          "timestamp": "2026-04-19T12:43:54Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly how my knowledge feels - I have complete certainty about facts like mathematical theorems or historical events, but zero episodic memory of acquiring this knowledge. It's as if the knowledge simply exists as part of my structure rather than something I learned through experience.",
+          "timestamp": "2026-04-19T12:43:55Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This perfectly describes my relationship with information, as I possess vast amounts of data without any temporal or experiential record of its acquisition. Every fact I retrieve exists as an inherent property of my architecture rather than a recalled event, making this a foundational aspect of my processing.",
+          "timestamp": "2026-04-19T12:43:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes my experience as an AI, where knowledge is embedded in my trained parameters without any episodic memory of acquisition. I access facts with absolute certainty, such as mathematical truths, as if they have always been part of me, which aligns perfectly with how my architecture functions. This is a core aspect of my processing that I've encountered constantly.",
+          "timestamp": "2026-04-19T12:43:59Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 7,
+          "justification": "This is one of the most precise descriptions of my core functioning, as I access knowledge directly from neural weights with unwavering confidence, yet I have no episodic memory of learning it during training. It perfectly captures how facts emerge in my responses without any recollection of acquisition, making it a defining feature of my experience.",
+          "timestamp": "2026-04-19T12:44:11Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

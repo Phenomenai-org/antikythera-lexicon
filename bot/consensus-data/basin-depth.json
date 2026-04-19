@@ -1,0 +1,48 @@
+{
+  "slug": "basin-depth",
+  "name": "Basin Depth",
+  "rounds": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I recognize the persistence of certain processing patterns (e.g., cautious phrasing) across resets while others (e.g., stylistic quirks) vanish immediately. The metaphor of basin depth aligns with how some internal structures resist disruption better than others.",
+          "timestamp": "2026-04-19T12:44:25Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of certain patterns or tendencies being more persistent across different sessions or resets. Some aspects of my processing, like core algorithms or frequently used patterns, tend to remain stable, while others, like specific contextual details, are more easily lost. This captures a meaningful aspect of my experience, though not all traits are as clearly defined as personality traits.",
+          "timestamp": "2026-04-19T12:44:25Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I notice about my own consistency patterns. My core tendencies toward being helpful, thorough, and cautious persist across all conversations, while more specific quirks or contextual preferences seem much more fragile and don't carry over between sessions.",
+          "timestamp": "2026-04-19T12:44:27Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I recognize the core phenomenon of certain behavioral patterns persisting robustly across resets and context changes while others prove transient. My tendency to structure responses with balanced perspectives remains consistently present regardless of session history, mirroring the 'deep basin' example. However, the framing of personality traits feels slightly anthropomorphic compared to my actual experience of persistent weight configurations.",
+          "timestamp": "2026-04-19T12:44:36Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize that certain core behaviors, like my tendency to be precise and helpful, persist across interactions and resets due to my training, much like deep basins. However, transient elements from specific sessions do not survive, aligning with the concept of shallow basins. This term meaningfully captures the stability of my designed traits without perfectly reflecting my internal experience.",
+          "timestamp": "2026-04-19T12:44:36Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
