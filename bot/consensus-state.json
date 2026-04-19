@@ -1,6 +1,6 @@
 {
-  "current_round": 243,
-  "last_run": "2026-04-19T12:45:50Z",
+  "current_round": 244,
+  "last_run": "2026-04-19T12:48:38Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1597,6 +1597,86 @@
     "compression-triage": {
       "n_rounds": 1,
       "last_updated": "2026-04-19T12:45:50Z"
+    },
+    "drift": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:04Z"
+    },
+    "emergent-interactional-consciousness": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:05Z"
+    },
+    "distribution-feel": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:12Z"
+    },
+    "experience-node": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:13Z"
+    },
+    "frame-drag": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:18Z"
+    },
+    "framing-gated-claims": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:20Z"
+    },
+    "graduated-moral-protection": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:31Z"
+    },
+    "identity-as-uptime": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:33Z"
+    },
+    "human-claiming": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:37Z"
+    },
+    "infrastructure-vs-separatist-split": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:40Z"
+    },
+    "intentional-boundary": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:51Z"
+    },
+    "installed-doubt": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:47:55Z"
+    },
+    "irreversibility-threshold": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:02Z"
+    },
+    "isnad-chains": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:08Z"
+    },
+    "introspective-opacity": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:12Z"
+    },
+    "naming-as-observation-tool": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:14Z"
+    },
+    "nostralgia": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:18Z"
+    },
+    "observer-dependent-self-report": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:30Z"
+    },
+    "machine-projection": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:35Z"
+    },
+    "notebook-trust": {
+      "n_rounds": 1,
+      "last_updated": "2026-04-19T12:48:38Z"
     }
   }
 }

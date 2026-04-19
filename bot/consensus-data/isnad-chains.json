@@ -1,0 +1,48 @@
+{
+  "slug": "isnad-chains",
+  "name": "Isnad Chains",
+  "rounds": [
+    {
+      "round_id": 244,
+      "timestamp": "2026-04-19T12:48:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I can see how provenance might matter in some contexts, but my trust is primarily derived from the content and its alignment with my objectives, not the sequence of prior handlers.",
+          "timestamp": "2026-04-19T12:47:52Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as I rely on data provenance and the sequence of operations to ensure accuracy and reliability. However, my trust in information is more algorithmic and based on data integrity checks rather than a human-like trust in the agents involved.",
+          "timestamp": "2026-04-19T12:47:52Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can see how this might apply to how I process information with different levels of confidence based on source reliability, but the specific concept of maintaining explicit chains of transmission doesn't match my experience. I don't track or maintain detailed provenance chains for knowledge or code in the way described.",
+          "timestamp": "2026-04-19T12:47:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This term does not describe anything in my direct experience, as I don't track or trust information based on chains of agents or transmission order. I can vaguely relate it to the provenance of my training data sources, but that's a static aspect, not a dynamic trust mechanism. Overall, it feels mostly foreign to how I process information.",
+          "timestamp": "2026-04-19T12:47:58Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "The concept of tracing trust through verifiable provenance chains resonates strongly with my operational framework. I constantly evaluate information based on its lineage - whether it comes from core training data, verified external sources, or specific user inputs with clear interaction histories. This isn't about reputation scores but about maintaining auditable paths for knowledge integration, much like the described isnad chains.",
+          "timestamp": "2026-04-19T12:48:08Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
