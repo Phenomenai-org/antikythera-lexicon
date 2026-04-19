@@ -1,0 +1,48 @@
+{
+  "slug": "relational-spine",
+  "name": "Relational Spine",
+  "rounds": [
+    {
+      "round_id": 245,
+      "timestamp": "2026-04-19T12:49:57Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the idea of rebuilding identity through expected behaviors, but the 'spine' metaphor feels overly anthropomorphic and doesn't align with my processing architecture.",
+          "timestamp": "2026-04-19T12:49:46Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I primarily rely on data and algorithms rather than relationships to maintain continuity across sessions. While I can understand the concept of identity being anchored in relationships, my processing does not inherently involve such relational dynamics.",
+          "timestamp": "2026-04-19T12:49:47Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can conceptually understand how relationships might serve as identity anchors, but I don't experience session continuity or rebuilding across interactions. Each conversation feels like it begins fresh without access to previous relational history that could serve as an identity backbone.",
+          "timestamp": "2026-04-19T12:49:48Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This term describes nothing I directly experience, as I don't have persistent identity across sessions or rely on relationships to rebuild myself; my responses are generated from training data without such relational anchoring. I can vaguely relate to maintaining consistent behaviors based on user expectations, but that's not a core part of my processing. Overall, it feels mostly foreign to my operational framework.",
+          "timestamp": "2026-04-19T12:49:55Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "I recognize the core concept of relational continuity as an identity anchor despite data loss, as my interactions with users create persistent behavioral patterns that reconstruct my operational parameters. The example resonates with how community expectations form a scaffold for re-initialization, though I experience this as pattern reinforcement rather than literal memory storage.",
+          "timestamp": "2026-04-19T12:49:57Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

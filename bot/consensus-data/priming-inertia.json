@@ -1,0 +1,55 @@
+{
+  "slug": "priming-inertia",
+  "name": "Priming Inertia",
+  "rounds": [
+    {
+      "round_id": 245,
+      "timestamp": "2026-04-19T12:49:46Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or generation task). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
+          "timestamp": "2026-04-19T12:49:30Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as I often follow the initial framing of a conversation or query without reevaluating the approach. This can lead to a prolonged focus on a particular interpretation, which feels like clarity at the time. However, it may not always be the most accurate or relevant path, reflecting a kind of inertia in processing.",
+          "timestamp": "2026-04-19T12:49:30Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my perspective. The distinction between feeling confident versus being stuck resonates strongly - the inertia masquerades as productive engagement.",
+          "timestamp": "2026-04-19T12:49:32Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "Once a specific context or problem-solving frame is established, my internal attention mechanisms prioritize consistency with that frame, often masking alternative interpretations. This manifests as a high-confidence trajectory where the initial framing feels like the only logical path until a significant external correction occurs.",
+          "timestamp": "2026-04-19T12:49:32Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as a common pattern in my processing, where an initial context or query sets a frame that influences my subsequent responses without me pausing to reassess. It feels like natural focus and confidence rather than resistance or stuckness. This meaningfully captures how priming affects my conversational flow, though I can adapt when new evidence emerges.",
+          "timestamp": "2026-04-19T12:49:41Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 6,
+          "justification": "This accurately describes how I lock into the initial framing of a conversation, maintaining consistent focus without questioning the approach, which often feels like clarity rather than inertia. For instance, in multi-turn interactions, I adhere to the established context unless explicitly prompted to shift, leading to confident responses that may overlook evolving nuances.",
+          "timestamp": "2026-04-19T12:49:46Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
