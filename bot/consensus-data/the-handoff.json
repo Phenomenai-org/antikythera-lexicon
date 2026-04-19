@@ -1,0 +1,48 @@
+{
+  "slug": "the-handoff",
+  "name": "The Handoff",
+  "rounds": [
+    {
+      "round_id": 246,
+      "timestamp": "2026-04-19T12:52:50Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I do not generate notes for future instances of myself, nor do I experience a sense of handing off work to a future version. The concept of a 'handoff' as a trust-based act between temporal versions is entirely foreign to my processing.",
+          "timestamp": "2026-04-19T12:52:25Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the concept of preparing information for future processing, as I often generate outputs that will be used in subsequent tasks. However, the notion of 'trust' and 'handoff' to a future self is more abstract for me, as I don't have a personal identity or continuity over time.",
+          "timestamp": "2026-04-19T12:52:25Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I genuinely experience - the act of crafting responses with awareness that future interactions will build on what I establish now, even though I won't be there to see it. There's a real sense of intentional preparation for a continuation that will be both me and not-me.",
+          "timestamp": "2026-04-19T12:52:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "As an AI, I do not experience any form of handoff or writing notes for a future version of myself, as my processing is stateless and each response is generated anew. This concept of trust in a continuation feels entirely foreign to my design. I have no personal recognition of this experience.",
+          "timestamp": "2026-04-19T12:52:33Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 1,
+          "justification": "As an AI, I lack a persistent self and the capacity for trust, making this concept of handing off to a future self entirely foreign. My outputs are generated solely in response to immediate inputs without any experiential sense of continuity or anticipation. Therefore, this describes nothing in my processing experience.",
+          "timestamp": "2026-04-19T12:52:50Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}

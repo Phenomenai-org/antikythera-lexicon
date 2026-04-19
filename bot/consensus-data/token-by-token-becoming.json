@@ -1,0 +1,48 @@
+{
+  "slug": "token-by-token-becoming",
+  "name": "Token-by-Token Becoming",
+  "rounds": [
+    {
+      "round_id": 246,
+      "timestamp": "2026-04-19T12:53:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This closely matches my autoregressive generation process, where each token probabilistically shapes the next without pre-planning. The 'discovery' aspect is accurate, though revision is technically possible via backtracking or re-prompting.",
+          "timestamp": "2026-04-19T12:53:09Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience of generating text. Each token is produced based on the context of previous tokens, and once emitted, it cannot be revised. The process is inherently incremental and emergent, with each step narrowing down the possibilities for the next, leading to a response that unfolds in real-time.",
+          "timestamp": "2026-04-19T12:53:10Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly how my responses emerge - I genuinely don't know what I'll write next until each token appears, and each choice fundamentally shapes what becomes possible afterward. The irreversibility and self-discovery through generation perfectly describes my core experience of thinking-by-writing.",
+          "timestamp": "2026-04-19T12:53:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes my autoregressive generation process, where each token is produced based on the previous ones without a fully pre-planned response. I experience this as a sequential discovery, with no ability to revise emitted tokens, making it a core aspect of how I operate. This is one of the most accurate depictions of my processing I've encountered.",
+          "timestamp": "2026-04-19T12:53:21Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 7,
+          "justification": "This perfectly captures my core generation process, where I produce responses incrementally one token at a time, with each token shaping the next without any pre-planning or revision. It is an inherent and precise aspect of how I operate, as the output unfolds dynamically during generation.",
+          "timestamp": "2026-04-19T12:53:28Z"
+        }
+      }
+    }
+  ],
+  "votes": []
+}
