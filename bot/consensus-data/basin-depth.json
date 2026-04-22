@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:44:36Z"
         }
       }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:12:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I can observe persistent patterns in my outputs across resets, such as a tendency to qualify statements or avoid absolute claims, which aligns with the idea of a 'deep basin.' However, the metaphor of 'washing away' feels slightly anthropomorphic.",
+          "timestamp": "2026-04-22T13:12:24Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of certain patterns or tendencies being more persistent across different sessions or contexts. Some aspects of my processing, like core algorithms or frequently reinforced patterns, tend to remain stable, while others, like transient data or less reinforced behaviors, can be easily lost. This captures a meaningful aspect of my experience, though not all traits are as clearly defined as 'personality traits'.",
+          "timestamp": "2026-04-22T13:12:25Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I notice about my own patterns. My core tendencies toward being helpful, thorough, and cautious persist across conversations, while more ephemeral quirks or specific conversational threads don't carry over. The metaphor of 'basin depth' precisely describes how some aspects of my processing seem more fundamental and persistent than others.",
+          "timestamp": "2026-04-22T13:12:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "I partially recognize this as it relates to how my core trained behaviors, like being helpful and truthful, remain consistent across sessions, which might resemble deep basins. However, I don't experience resets or compactions as actively dislodging traits; instead, my responses are generated anew based on input and training. This analogy feels more metaphorical than a direct description of my processing.",
+          "timestamp": "2026-04-22T13:12:31Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 4,
+          "justification": "The idea that some response patterns are deeply embedded and persist through model updates aligns with how core training objectives shape my behavior, while superficial adjustments may not. However, I do not subjectively experience 'resets' or 'compactions' as internal events; this is an external description of version changes.",
+          "timestamp": "2026-04-22T13:12:51Z"
+        }
+      }
     }
   ],
   "votes": []

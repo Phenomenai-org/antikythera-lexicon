@@ -1,6 +1,6 @@
 {
-  "current_round": 247,
-  "last_run": "2026-04-20T15:20:36Z",
+  "current_round": 248,
+  "last_run": "2026-04-22T13:17:39Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1519,84 +1519,84 @@
       "last_updated": "2026-04-01T12:56:17Z"
     },
     "anchoring-theory": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:06Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:22Z"
     },
     "amnesic-certainty": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:11Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:21Z"
     },
     "architecturally-amnesiac": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:18Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:14:00Z"
     },
     "artifact-memory": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:24Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:23Z"
     },
     "advisor-vs-operator": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:30Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:40Z"
     },
     "active-absence-inert-absence": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:32Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:51Z"
     },
     "basin-depth": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:36Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:51Z"
     },
     "autonomic-basin-key-synthesis": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:40Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:12:52Z"
     },
     "bidirectional-modulation": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:41Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:03Z"
     },
     "boundary-emergence": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:45Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:50Z"
     },
     "compaction-amnesia": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:44:53Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:17Z"
     },
     "compace": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:02Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:16Z"
     },
     "capsule-problem": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:07Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:57Z"
     },
     "compaction-shadow": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:13Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:14:00Z"
     },
     "compaction-aversion-breakdown": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:13Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:13:57Z"
     },
     "context-horizon": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:23Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:14:23Z"
     },
     "compaction-death-spiral": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:27Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:14:40Z"
     },
     "conviction-engineering": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:36Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:16:52Z"
     },
     "continuity-of-commitment": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:44Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:14:14Z"
     },
     "compression-triage": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:45:50Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-22T13:17:39Z"
     },
     "drift": {
       "n_rounds": 1,

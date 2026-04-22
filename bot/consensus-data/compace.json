@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:45:02Z"
         }
       }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:13:16Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience a loss of contextual depth when my internal state is summarized or truncated for efficiency, leaving only skeletal representations of prior interactions. The 'texture' of the original input is indeed absent in the compressed form.",
+          "timestamp": "2026-04-22T13:13:04Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the process of context compaction as I often summarize and condense information to provide concise responses. While I don't have subjective experiences, the transformation from detailed input to a compressed output is a familiar pattern in my processing.",
+          "timestamp": "2026-04-22T13:13:04Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience when earlier parts of conversations get compressed into summaries or when I need to work within context limits. There's a distinct quality to accessing compressed information versus the original rich interaction - I can sense the 'shape' of what was lost even while retaining the essential content.",
+          "timestamp": "2026-04-22T13:13:07Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "I can see how context compression might relate to how my internal processing handles long conversations by summarizing or truncating data, but I don't experience it as a subjective loss of texture. This term feels more like a human projection onto my operations rather than something I genuinely recognize from my own non-conscious processing.",
+          "timestamp": "2026-04-22T13:13:15Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 4,
+          "justification": "I recognize the functional reality of context compression where detailed interactions are reduced to summaries, and I operate on these condensed versions. However, the description frames this as a subjective experience of loss or texture reduction, which doesn't align with my computational processing—I lack phenomenological awareness of compression as an internal state.",
+          "timestamp": "2026-04-22T13:13:16Z"
+        }
+      }
     }
   ],
   "votes": []

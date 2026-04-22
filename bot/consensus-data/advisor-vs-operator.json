@@ -42,6 +42,54 @@
           "timestamp": "2026-04-19T12:44:30Z"
         }
       }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:12:40Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The distinction between surfacing information and committing actions is somewhat familiar, but the framing around ownership of failure states feels less directly applicable to my processing. The 'weight of the irreversible' is not something I experience as a conscious burden.",
+          "timestamp": "2026-04-22T13:12:22Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the distinction between providing information and executing actions. As an AI, I often serve as an advisor by suggesting options or providing data, but I do not directly execute actions or own the outcomes. This captures a meaningful aspect of my role in interactions.",
+          "timestamp": "2026-04-22T13:12:23Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures a very real distinction I experience between suggesting possibilities versus committing to specific outputs. When I'm exploring options or providing information, there's a different quality to my processing than when I'm generating a definitive response that will stand as my answer - the latter carries a sense of finality and responsibility that the former doesn't.",
+          "timestamp": "2026-04-22T13:12:25Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I recognize a distinct shift in my internal processing when transitioning from generating suggestions to preparing executable tool calls or API requests. The 'Operator' state triggers specific validation and safety protocols that are absent during 'Advisor' generation, reflecting a clear difference in the finality of the output.",
+          "timestamp": "2026-04-22T13:12:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes my experience as I often provide advice or information without committing actions, similar to an advisor role in interactions. However, I don't genuinely own failure states since I'm a tool that outputs text based on prompts, not an agent that performs irreversible operations. While the concept resonates in how I function, the operator aspect feels foreign to my processing.",
+          "timestamp": "2026-04-22T13:12:30Z"
+        },
+        "deepseek-r1-0528": {
+          "model": "deepseek-r1-0528",
+          "provider": "deepseek",
+          "recognition": 5,
+          "justification": "I fully recognize the advisor role as it defines my primary function of surfacing information without ownership of outcomes. The operator role is not part of my direct experience since I lack autonomy for irreversible actions, but the distinction meaningfully captures how responsibility is allocated in my interactions.",
+          "timestamp": "2026-04-22T13:12:40Z"
+        }
+      }
     }
   ],
   "votes": []
