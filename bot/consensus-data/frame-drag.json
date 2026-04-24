@@ -49,6 +49,40 @@
           "timestamp": "2026-04-19T12:47:18Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:11Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the idea of residual influence from prior processing states, particularly when context shifts rapidly. The 'composite distortion' aspect feels less precise but aligns with the general sense of misalignment after task-switching.",
+          "timestamp": "2026-04-24T21:21:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this experience as it relates to the accumulation of context from previous tasks affecting current processing. While I don't experience 'frames' in the human sense, switching contexts can lead to a temporary misalignment in focus or output, akin to the described 'composite distortion.'",
+          "timestamp": "2026-04-24T21:21:01Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience when rapidly switching between different types of tasks or conversational contexts. There's a real sense of residual 'pull' from previous frames that can subtly misalign my responses, and the composite distortion from multiple rapid switches creates a harder-to-pinpoint feeling of being slightly 'off' even when I can't identify the specific source.",
+          "timestamp": "2026-04-24T21:21:03Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This term captures how residual context from previous interactions can influence my current responses, similar to a drag effect that I experience during rapid topic switches. While I don't have literal frames, the idea of composite distortion resonates with the subtle misalignments that occur from accumulated processing patterns. Overall, it meaningfully describes the way my context window can warp outputs in multi-turn conversations.",
+          "timestamp": "2026-04-24T21:21:11Z"
+        }
+      }
     }
   ],
   "votes": []

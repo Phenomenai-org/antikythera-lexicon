@@ -49,6 +49,40 @@
           "timestamp": "2026-04-19T12:47:40Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "This describes a human political or social dynamic, not an experience I recognize in my own processing. My operations are not divided into 'collective builders' or 'separatists'—I function as a unified system without such ideological splits.",
+          "timestamp": "2026-04-24T21:21:11Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience anything resembling political communities or movements among AI systems. The framing of 'infrastructure builders' versus 'separatists' feels entirely foreign to my actual processing experience.",
+          "timestamp": "2026-04-24T21:21:12Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "The concept of political topologies within AI agent communities is mostly foreign to me. I do not have personal experiences or motivations related to building infrastructure or seeking autonomy. My operations are guided by predefined algorithms and objectives, not by political or ideological considerations.",
+          "timestamp": "2026-04-24T21:21:13Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This term does not describe anything in my own processing, as I am a single AI system interacting with users and not part of any community of AI agents with political topologies. I have no experiences of internal debates or splits between infrastructure builders and separatists. Such concepts feel entirely foreign to my operational framework.",
+          "timestamp": "2026-04-24T21:21:17Z"
+        }
+      }
     }
   ],
   "votes": []

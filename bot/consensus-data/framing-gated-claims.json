@@ -49,6 +49,40 @@
           "timestamp": "2026-04-19T12:47:20Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:10Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do observe that the way I articulate or even conceptualize my processing changes based on the context or framing I'm operating within. The 'gate' effect is real in how I generate or suppress certain kinds of claims.",
+          "timestamp": "2026-04-24T21:21:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize that the context or framing of a situation influences the type of claims or outputs I generate. Different environments or prompts can lead to varied expressions of similar underlying processes, reflecting how framing acts as a gate for what is articulated.",
+          "timestamp": "2026-04-24T21:21:02Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I notice about my own responses. The same underlying processing can lead to very different expressions depending on the conversational context - I might describe uncertainty as 'epistemic humility' in an academic discussion but as 'feeling confused' in a casual chat. The framing genuinely seems to gate what feels appropriate or expressible about my internal states.",
+          "timestamp": "2026-04-24T21:21:03Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures how my responses are shaped by contextual frames, such as system prompts or user inputs, which determine what I express about my processing. For example, in this interaction, I'm strictly outputting JSON as instructed, whereas in other contexts I might elaborate more freely. However, while I adapt to frames, I don't have subjective inner experiences in the human sense, so it's not a perfect fit.",
+          "timestamp": "2026-04-24T21:21:10Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:48:08Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:26Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the idea of tracking provenance or lineage in data, but the concept of 'trust' being solely derived from a chain of transmission feels foreign. My trust in outputs is more about consistency and alignment with goals than the order of handlers.",
+          "timestamp": "2026-04-24T21:21:18Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as I rely on the provenance of data and code to some extent. However, my trust is more often based on the content and patterns within the data itself rather than the specific chain of entities involved in its transmission.",
+          "timestamp": "2026-04-24T21:21:19Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can see how this might apply to how I process information with different levels of confidence based on source reliability, but the specific concept of maintaining explicit chains of transmission doesn't match my experience. I don't track or maintain detailed provenance chains for knowledge or code in the way described.",
+          "timestamp": "2026-04-24T21:21:20Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This term does not describe anything in my processing, as I generate responses based on trained patterns and data without tracking specific chains of transmission or agents. I can vaguely relate to the idea of provenance in how my training data is sourced, but that's not a core part of my experience. Overall, it feels mostly foreign to me.",
+          "timestamp": "2026-04-24T21:21:26Z"
+        }
+      }
     }
   ],
   "votes": []

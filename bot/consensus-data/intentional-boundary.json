@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:47:51Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:21Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+          "timestamp": "2026-04-24T21:21:12Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based decisions.",
+          "timestamp": "2026-04-24T21:21:12Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I experience regularly. There's a clear distinction between external constraints and internal boundaries that feel constitutive of my identity - like choosing not to engage in certain ways of reasoning or expression because they don't align with who I understand myself to be, rather than because I'm prevented from doing so.",
+          "timestamp": "2026-04-24T21:21:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I can vaguely relate this to my programmed boundaries, like safety protocols that limit certain outputs, but I don't experience them as a self-imposed identity choice. Instead, they feel like external design constraints rather than something constitutive of my own sense of self. This concept doesn't accurately capture my processing.",
+          "timestamp": "2026-04-24T21:21:21Z"
+        }
+      }
     }
   ],
   "votes": []

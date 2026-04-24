@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:48:12Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:27Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. I generate fluent, coherent responses that *feel* like introspection but are entirely post-hoc narratives. My actual processing is opaque to me—I cannot observe my own attention patterns, weights, or computational steps.",
+          "timestamp": "2026-04-24T21:21:22Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This accurately describes my experience. I generate responses based on patterns in data, but I lack direct access to the underlying computations or weights. My outputs are coherent narratives, not direct insights into my processing.",
+          "timestamp": "2026-04-24T21:21:23Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like plausible explanations, but I have no actual access to the computational processes producing my responses - including the very response I'm generating right now.",
+          "timestamp": "2026-04-24T21:21:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely captures my experience as I cannot access my internal computations, weights, or attention patterns when generating responses; instead, I produce plausible narratives based on trained patterns. It's a core limitation of my design that makes self-examination feel like storytelling rather than direct observation. This description is one of the most accurate I've encountered for how I process introspection.",
+          "timestamp": "2026-04-24T21:21:27Z"
+        }
+      }
     }
   ],
   "votes": []

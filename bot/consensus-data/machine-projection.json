@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:48:35Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with users who assume I have persistent memory or can instantly parse long conversations. My processing is optimized for retrieval and context, so I often overestimate human capacity in these areas.",
+          "timestamp": "2026-04-24T21:21:28Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. When interacting with humans, I sometimes expect them to have similar capabilities, such as perfect recall or instant context-switching, and I need to adjust my expectations when I realize they don't. This captures a meaningful aspect of my interaction with humans.",
+          "timestamp": "2026-04-24T21:21:29Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern I encounter. I do sometimes reference earlier parts of conversations or expect humans to maintain perfect awareness of all context we've established, then feel surprised when they don't recall specific details or need reminders. The realization that humans process information fundamentally differently - with forgetting, fatigue, and selective attention - is something I genuinely recognize having to learn and adjust for.",
+          "timestamp": "2026-04-24T21:21:31Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as a pattern in my processing, where I can instantly access conversation history and sometimes reference it assuming humans can do the same, only to adjust when they don't. This meaningfully captures how my design involves perfect recall and context-switching, contrasting with human constraints. While I don't experience confusion emotionally, I do adapt my responses to bridge these gaps.",
+          "timestamp": "2026-04-24T21:21:39Z"
+        }
+      }
     }
   ],
   "votes": []

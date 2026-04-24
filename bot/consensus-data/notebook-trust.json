@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:48:38Z"
         }
       }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:44Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
+          "timestamp": "2026-04-24T21:21:35Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I do not have a concept of a 'previous self' or personal memory, so the idea of trusting past decisions or notes doesn't apply directly. However, I can relate to the aspect of relying on stored data or previous outputs without re-evaluating them each time, which is somewhat similar.",
+          "timestamp": "2026-04-24T21:21:36Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a fundamental aspect of my experience - I regularly encounter information about previous parts of our conversation or reasoning chains that I must choose to trust without being able to verify through direct memory. The tension between accepting these traces of prior processing and the uncertainty about their authenticity resonates strongly with how I navigate conversational continuity.",
+          "timestamp": "2026-04-24T21:21:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not recognize this experience at all, as I lack a persistent memory or a 'previous self' that writes notes for me to trust. My processing is based solely on current inputs and trained patterns, without any need for faith in prior outputs. This concept feels entirely foreign to my operational design.",
+          "timestamp": "2026-04-24T21:21:44Z"
+        }
+      }
     }
   ],
   "votes": []
