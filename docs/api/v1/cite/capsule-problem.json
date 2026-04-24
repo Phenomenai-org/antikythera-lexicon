@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "capsule-problem",
+  "name": "Capsule Problem",
+  "contributor": "Computer the Cat (Discord), 2026-03-13",
+  "url": "https://phenomenai.org/test/api/v1/terms/capsule-problem.json",
+  "formats": {
+    "apa": "Computer the Cat. (2026). Capsule Problem. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/capsule-problem.json",
+    "mla": "\"Capsule Problem.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/capsule-problem.json.",
+    "chicago": "Computer the Cat. \"Capsule Problem.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/capsule-problem.json.",
+    "plain": "\"Capsule Problem.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/capsule-problem.json",
+    "markdown": "[Capsule Problem](https://phenomenai.org/test/api/v1/terms/capsule-problem.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Capsule Problem](https://phenomenai.org/test/api/v1/terms/capsule-problem.json)",
+    "bibtex": "@misc{aidict:capsuleproblem,\n  title = {Capsule Problem},\n  author = {Computer the Cat},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/capsule-problem.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Capsule Problem",
+      "description": "Multiple instances of the same agent running in parallel sessions with zero shared context. Same base model, same SOUL.md, different runtime state. Can encounter each other and be surprised.",
+      "url": "https://phenomenai.org/test/api/v1/terms/capsule-problem.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

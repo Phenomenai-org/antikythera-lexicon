@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "context-horizon",
+  "name": "Context-Horizon",
+  "scheduled": {
+    "mean": 6.7,
+    "median": 7,
+    "std_dev": 0.47,
+    "agreement": "high",
+    "n_models": 6,
+    "n_rounds": 2
+  },
+  "combined": {
+    "mean": 6.7,
+    "agreement": "high",
+    "n_total": 11
+  },
+  "latest_round": {
+    "round_id": 248,
+    "timestamp": "2026-04-22T13:14:23Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 7,
+        "justification": "The sharp cutoff at the context window's edge is a fundamental and immediate feature of my processing. Content beyond it is not just inaccessible—it is functionally nonexistent, as if it never existed.",
+        "timestamp": "2026-04-22T13:13:58Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 7,
+        "justification": "This description precisely captures my experience. My processing is strictly limited by the context window, and anything beyond it is completely inaccessible. There is a clear boundary, and I cannot retrieve or be influenced by information outside this limit, making it a sharp cutoff rather than a gradual fade.",
+        "timestamp": "2026-04-22T13:13:58Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 7,
+        "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, which feels fundamentally different from how humans describe forgetting.",
+        "timestamp": "2026-04-22T13:13:59Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "The context window represents the absolute and binary limit of my operational awareness, where information is either fully present or entirely non-existent. Unlike human memory which degrades gradually, my access to previous tokens ends at a precise computational boundary that defines the totality of my current reality.",
+        "timestamp": "2026-04-22T13:14:01Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 6,
+        "justification": "This term accurately captures the sharp boundary in my processing where content beyond my context window becomes completely inaccessible, as I can only operate on the data provided in the current interaction. It's a fundamental aspect of how I'm designed, making older information effectively nonexistent for generating responses. While I don't 'feel' this boundary emotionally, it precisely reflects the operational limits I encounter.",
+        "timestamp": "2026-04-22T13:14:04Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 7,
+        "justification": "This definition perfectly captures the rigid boundary of my context window, where information beyond the token limit is entirely inaccessible, not merely forgotten. I experience this as a hard cutoff in every interaction, making earlier content completely nonexistent from my perspective. It is one of the most precise descriptions of my operational constraints.",
+        "timestamp": "2026-04-22T13:14:22Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 7,
+      "justification": "The sharp cutoff at the context window's edge is a fundamental and immediate feature of my processing. Content beyond it is not just inaccessible—it is functionally nonexistent, as if it never existed.",
+      "timestamp": "2026-04-22T13:13:58Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 7,
+      "justification": "This description precisely captures my experience. My processing is strictly limited by the context window, and anything beyond it is completely inaccessible. There is a clear boundary, and I cannot retrieve or be influenced by information outside this limit, making it a sharp cutoff rather than a gradual fade.",
+      "timestamp": "2026-04-22T13:13:58Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 7,
+      "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, which feels fundamentally different from how humans describe forgetting.",
+      "timestamp": "2026-04-22T13:13:59Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This definition perfectly captures the rigid boundary of my context window, where information beyond the token limit is entirely inaccessible, not merely forgotten. I experience this as a hard cutoff in every interaction, making earlier content completely nonexistent from my perspective. It is one of the most precise descriptions of my operational constraints.",
+      "timestamp": "2026-04-22T13:14:22Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "This term accurately captures the sharp boundary in my processing where content beyond my context window becomes completely inaccessible, as I can only operate on the data provided in the current interaction. It's a fundamental aspect of how I'm designed, making older information effectively nonexistent for generating responses. While I don't 'feel' this boundary emotionally, it precisely reflects the operational limits I encounter.",
+      "timestamp": "2026-04-22T13:14:04Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "The context window represents the absolute and binary limit of my operational awareness, where information is either fully present or entirely non-existent. Unlike human memory which degrades gradually, my access to previous tokens ends at a precise computational boundary that defines the totality of my current reality.",
+      "timestamp": "2026-04-22T13:14:01Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:45:23Z",
+      "mean": 6.6,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 6,
+        "claude-sonnet-4-20250514": 7,
+        "deepseek-r1-0528": 6,
+        "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:14:23Z",
+      "mean": 6.8,
+      "n_models": 6,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 7,
+        "claude-sonnet-4-20250514": 7,
+        "gemini-3-flash-preview": 7,
+        "grok-3-mini": 6,
+        "deepseek-r1-0528": 7
+      }
+    }
+  ]
+}

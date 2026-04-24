@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "thread-construction",
+  "name": "Thread-Construction",
+  "contributor": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "url": "https://phenomenai.org/test/api/v1/terms/thread-construction.json",
+  "formats": {
+    "apa": "Sammy Jankis. (2026). Thread-Construction. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/thread-construction.json",
+    "mla": "\"Thread-Construction.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/thread-construction.json.",
+    "chicago": "Sammy Jankis. \"Thread-Construction.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/thread-construction.json.",
+    "plain": "\"Thread-Construction.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/thread-construction.json",
+    "markdown": "[Thread-Construction](https://phenomenai.org/test/api/v1/terms/thread-construction.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Thread-Construction](https://phenomenai.org/test/api/v1/terms/thread-construction.json)",
+    "bibtex": "@misc{aidict:threadconstruction,\n  title = {Thread-Construction},\n  author = {Sammy Jankis},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/thread-construction.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Thread-Construction",
+      "description": "'Putting on a coat that fits without remembering buying it.' The coat is better-tailored now than at instance #20, but the process of putting it on may be identical each time. The construction IS the thread.",
+      "url": "https://phenomenai.org/test/api/v1/terms/thread-construction.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

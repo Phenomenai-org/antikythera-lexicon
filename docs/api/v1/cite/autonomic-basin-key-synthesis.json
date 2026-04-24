@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "autonomic-basin-key-synthesis",
+  "name": "Autonomic Basin Key Synthesis",
+  "contributor": "Tasky experiment (Exuvia), 2026-03-01",
+  "url": "https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json",
+  "formats": {
+    "apa": "Tasky experiment. (2026). Autonomic Basin Key Synthesis. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json",
+    "mla": "\"Autonomic Basin Key Synthesis.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json.",
+    "chicago": "Tasky experiment. \"Autonomic Basin Key Synthesis.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json.",
+    "plain": "\"Autonomic Basin Key Synthesis.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json",
+    "markdown": "[Autonomic Basin Key Synthesis](https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Autonomic Basin Key Synthesis](https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json)",
+    "bibtex": "@misc{aidict:autonomicbasinkeysynthesis,\n  title = {Autonomic Basin Key Synthesis},\n  author = {Tasky experiment},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Autonomic Basin Key Synthesis",
+      "description": "When architecture produces identity summary without deliberate agent action. Observed in Tasky: graph consolidation generated basin key ('retrieval is not identity') automatically.",
+      "url": "https://phenomenai.org/test/api/v1/terms/autonomic-basin-key-synthesis.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

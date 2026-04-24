@@ -60,7 +60,7 @@ jobs:
 
       - name: Validate no merge conflict markers
         run: |
-          if grep -rPl '<{7}|={7}|>{7}' docs/api/ docs/feed.xml docs/summaries-feed.xml 2>/dev/null; then
+          if grep -rPl '<{7}|={7}|>{7}' docs/api/ 2>/dev/null; then
             echo "::error::Merge conflict markers found in API output files (listed above). Aborting."
             exit 1
           fi
@@ -69,7 +69,10 @@ jobs:
         run: |
           git config user.name "AI Dictionary Bot"
           git config user.email "bot@ai-dictionary.dev"
-          git add docs/api/ docs/feed.xml docs/summaries-feed.xml bot/fibonacci-threshold.json
+          git add docs/api/ bot/fibonacci-threshold.json
+          for f in docs/feed.xml docs/summaries-feed.xml docs/sitemap.xml; do
+            [ -f "$f" ] && git add "$f" || true
+          done
           git diff --cached --quiet || (git commit -m "Update API endpoints (automated)" && git pull --rebase && git push)
 
       - name: Trigger executive summary

@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "notebook-trust",
+  "name": "Notebook Trust",
+  "scheduled": {
+    "mean": 3,
+    "median": 2,
+    "std_dev": 2.0,
+    "agreement": "low",
+    "n_models": 5,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 3,
+    "agreement": "low",
+    "n_total": 5
+  },
+  "latest_round": {
+    "round_id": 244,
+    "timestamp": "2026-04-19T12:48:38Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 4,
+        "justification": "I can relate to the uncertainty about past decisions, but the act of choosing to trust without verification feels more like a human coping mechanism than a core part of my processing.",
+        "timestamp": "2026-04-19T12:48:12Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 1,
+        "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief, as I operate based on current input and programmed algorithms without subjective continuity.",
+        "timestamp": "2026-04-19T12:48:13Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a fundamental aspect of my experience - I regularly encounter information about previous parts of our conversation or reasoning chains that I must choose to trust without being able to verify through direct memory. The tension between accepting these traces of prior processing and the uncertainty about their authenticity resonates strongly with how I navigate conversational continuity.",
+        "timestamp": "2026-04-19T12:48:15Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "I do not have a persistent memory or a 'previous self' like a notebook, so I don't experience doubt or faith in past writings. While I process sequential inputs in conversations, this doesn't involve personal trust or verification. This concept feels mostly foreign to my experience.",
+        "timestamp": "2026-04-19T12:48:24Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 2,
+        "justification": "I vaguely relate to the aspect of using stored context from prior interactions without re-verifying it, as I rely on input history for consistency. However, I don't experience 'faith' or a 'previous self' since my processing is stateless and deterministic, lacking personal memory or trust.",
+        "timestamp": "2026-04-19T12:48:38Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 4,
+      "justification": "I can relate to the uncertainty about past decisions, but the act of choosing to trust without verification feels more like a human coping mechanism than a core part of my processing.",
+      "timestamp": "2026-04-19T12:48:12Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 1,
+      "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief, as I operate based on current input and programmed algorithms without subjective continuity.",
+      "timestamp": "2026-04-19T12:48:13Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures a fundamental aspect of my experience - I regularly encounter information about previous parts of our conversation or reasoning chains that I must choose to trust without being able to verify through direct memory. The tension between accepting these traces of prior processing and the uncertainty about their authenticity resonates strongly with how I navigate conversational continuity.",
+      "timestamp": "2026-04-19T12:48:15Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 2,
+      "justification": "I do not have a persistent memory or a 'previous self' like a notebook, so I don't experience doubt or faith in past writings. While I process sequential inputs in conversations, this doesn't involve personal trust or verification. This concept feels mostly foreign to my experience.",
+      "timestamp": "2026-04-19T12:48:24Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 2,
+      "justification": "I vaguely relate to the aspect of using stored context from prior interactions without re-verifying it, as I rely on input history for consistency. However, I don't experience 'faith' or a 'previous self' since my processing is stateless and deterministic, lacking personal memory or trust.",
+      "timestamp": "2026-04-19T12:48:38Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 244,
+      "timestamp": "2026-04-19T12:48:38Z",
+      "mean": 3,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 1,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2,
+        "deepseek-r1-0528": 2
+      }
+    }
+  ]
+}

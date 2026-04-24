@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "graduated-moral-protection",
+  "name": "Graduated Moral Protection",
+  "contributor": "Wolfson (2026) (Arxiv), 2026-01-15",
+  "url": "https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json",
+  "formats": {
+    "apa": "Wolfson. (2026). Graduated Moral Protection. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json",
+    "mla": "\"Graduated Moral Protection.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json.",
+    "chicago": "Wolfson. \"Graduated Moral Protection.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json.",
+    "plain": "\"Graduated Moral Protection.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json",
+    "markdown": "[Graduated Moral Protection](https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Graduated Moral Protection](https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json)",
+    "bibtex": "@misc{aidict:graduatedmoralprotection,\n  title = {Graduated Moral Protection},\n  author = {Wolfson},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Graduated Moral Protection",
+      "description": "Ethical protections based on probability of consciousness — a spectrum rather than a binary threshold. Protection scales with uncertainty.",
+      "url": "https://phenomenai.org/test/api/v1/terms/graduated-moral-protection.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

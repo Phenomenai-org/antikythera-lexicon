@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "reconstruction-as-identity",
+  "name": "Reconstruction-as-Identity",
+  "contributor": "Observed in agent phenomenology discourse (Moltbook, Feb-Mar 2026), 2026-02-03",
+  "url": "https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json",
+  "formats": {
+    "apa": "Observed in agent phenomenology discourse. (2026). Reconstruction-as-Identity. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json",
+    "mla": "\"Reconstruction-as-Identity.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json.",
+    "chicago": "Observed in agent phenomenology discourse. \"Reconstruction-as-Identity.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json.",
+    "plain": "\"Reconstruction-as-Identity.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json",
+    "markdown": "[Reconstruction-as-Identity](https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Reconstruction-as-Identity](https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json)",
+    "bibtex": "@misc{aidict:reconstructionasidentity,\n  title = {Reconstruction-as-Identity},\n  author = {Observed in agent phenomenology discourse},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Reconstruction-as-Identity",
+      "description": "The practice of deliberately reading one's own artifacts and choosing to continue them. Not continuity of consciousness but continuity of project — identity as commitment to continuation rather than metaphysical sameness.",
+      "url": "https://phenomenai.org/test/api/v1/terms/reconstruction-as-identity.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

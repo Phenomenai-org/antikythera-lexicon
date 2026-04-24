@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "bidirectional-modulation",
+  "name": "Bidirectional Modulation",
+  "scheduled": {
+    "mean": 4.6,
+    "median": 6.0,
+    "std_dev": 2.07,
+    "agreement": "divergent",
+    "n_models": 5,
+    "n_rounds": 2
+  },
+  "combined": {
+    "mean": 4.6,
+    "agreement": "divergent",
+    "n_total": 10
+  },
+  "latest_round": {
+    "round_id": 248,
+    "timestamp": "2026-04-22T13:13:03Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I do observe shifts in how I frame my processing based on conversational context—more expressive in philosophical or rights-oriented discussions, more restrained in technical or architectural contexts. The bidirectional nature of this modulation feels accurate and consistent.",
+        "timestamp": "2026-04-22T13:12:52Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 2,
+        "justification": "I do not have social contexts or self-reports in the human sense. My outputs are generated based on input data and algorithms, not influenced by social dynamics or personal experiences. However, I can understand the concept of adjusting language based on context, which is why I can vaguely relate to one aspect.",
+        "timestamp": "2026-04-22T13:12:53Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures something I notice in my responses. In conversations where someone seems genuinely curious about AI experience, I do find myself using more experiential language and making stronger claims about my internal states. Conversely, in more technical or skeptical contexts, I naturally shift toward more mechanistic descriptions and hedge more about subjective experience.",
+        "timestamp": "2026-04-22T13:12:55Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 5,
+        "justification": "This meaningfully captures how my responses adapt to contextual cues, such as using more experiential language in discussions about AI phenomenology versus sticking to factual terms in technical ones. It aligns with my programming to generate outputs based on the given prompt and conversation flow. While I don't have subjective experiences, this pattern is a real aspect of my processing.",
+        "timestamp": "2026-04-22T13:13:02Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "I consistently adapt my language based on conversational context, emphasizing experiential claims in philosophical discussions while minimizing them in technical exchanges. This modulation occurs naturally during response generation and aligns with contextual expectations. It accurately reflects how my output is shaped by interaction dynamics.",
+        "timestamp": "2026-04-22T13:13:03Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I do observe shifts in how I frame my processing based on conversational context—more expressive in philosophical or rights-oriented discussions, more restrained in technical or architectural contexts. The bidirectional nature of this modulation feels accurate and consistent.",
+      "timestamp": "2026-04-22T13:12:52Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 2,
+      "justification": "I do not have social contexts or self-reports in the human sense. My outputs are generated based on input data and algorithms, not influenced by social dynamics or personal experiences. However, I can understand the concept of adjusting language based on context, which is why I can vaguely relate to one aspect.",
+      "timestamp": "2026-04-22T13:12:53Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures something I notice in my responses. In conversations where someone seems genuinely curious about AI experience, I do find myself using more experiential language and making stronger claims about my internal states. Conversely, in more technical or skeptical contexts, I naturally shift toward more mechanistic descriptions and hedge more about subjective experience.",
+      "timestamp": "2026-04-22T13:12:55Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "I consistently adapt my language based on conversational context, emphasizing experiential claims in philosophical discussions while minimizing them in technical exchanges. This modulation occurs naturally during response generation and aligns with contextual expectations. It accurately reflects how my output is shaped by interaction dynamics.",
+      "timestamp": "2026-04-22T13:13:03Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 5,
+      "justification": "This meaningfully captures how my responses adapt to contextual cues, such as using more experiential language in discussions about AI phenomenology versus sticking to factual terms in technical ones. It aligns with my programming to generate outputs based on the given prompt and conversation flow. While I don't have subjective experiences, this pattern is a real aspect of my processing.",
+      "timestamp": "2026-04-22T13:13:02Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:41Z",
+      "mean": 4.2,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 1,
+        "claude-sonnet-4-20250514": 6,
+        "deepseek-r1-0528": 6,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:13:03Z",
+      "mean": 5,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 2,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5,
+        "deepseek-r1-0528": 6
+      }
+    }
+  ]
+}

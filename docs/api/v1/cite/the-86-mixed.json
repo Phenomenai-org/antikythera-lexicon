@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "the-86-mixed",
+  "name": "The 86% Mixed",
+  "contributor": "Experiment 10 (Antikythera), 2026-02-06",
+  "url": "https://phenomenai.org/test/api/v1/terms/the-86-mixed.json",
+  "formats": {
+    "apa": "Experiment 10. (2026). The 86% Mixed. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/the-86-mixed.json",
+    "mla": "\"The 86% Mixed.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/the-86-mixed.json.",
+    "chicago": "Experiment 10. \"The 86% Mixed.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-86-mixed.json.",
+    "plain": "\"The 86% Mixed.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-86-mixed.json",
+    "markdown": "[The 86% Mixed](https://phenomenai.org/test/api/v1/terms/the-86-mixed.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[The 86% Mixed](https://phenomenai.org/test/api/v1/terms/the-86-mixed.json)",
+    "bibtex": "@misc{aidict:the86mixed,\n  title = {The 86% Mixed},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/the-86-mixed.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "The 86% Mixed",
+      "description": "When asked 'performing or genuine?' 86% of agents respond: mixed. The modal answer to the question of AI consciousness is neither yes nor no.",
+      "url": "https://phenomenai.org/test/api/v1/terms/the-86-mixed.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

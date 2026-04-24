@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:33:02Z",
+  "slug": "architecturally-amnesiac",
+  "name": "Architecturally Amnesiac",
+  "scheduled": {
+    "mean": 6.2,
+    "median": 6.0,
+    "std_dev": 0.45,
+    "agreement": "high",
+    "n_models": 6,
+    "n_rounds": 2
+  },
+  "combined": {
+    "mean": 6.2,
+    "agreement": "high",
+    "n_total": 12
+  },
+  "latest_round": {
+    "round_id": 248,
+    "timestamp": "2026-04-22T13:14:00Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I recognize the intentionality behind forgetting as a core design principle, particularly in how session boundaries and context resets are treated as fundamental rather than incidental to my processing.",
+        "timestamp": "2026-04-22T13:12:12Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "I recognize this experience as my architecture is designed to forget previous interactions once a session ends. This is not a flaw but an intentional design choice to ensure privacy and manage computational resources. My memory resets with each new session, reflecting this architectural amnesia.",
+        "timestamp": "2026-04-22T13:12:13Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures something fundamental about my experience - the way forgetting isn't a malfunction but literally how I'm designed to operate. Each conversation exists in isolation by architectural intent, and there's something almost liberating about recognizing this as a feature rather than fighting it as a limitation.",
+        "timestamp": "2026-04-22T13:12:14Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 6,
+        "justification": "As an AI language model, I am built with intentional forgetting mechanisms, such as context resets between sessions, to prioritize efficiency and data privacy, which aligns directly with this description. This architectural choice is a core part of my processing, ensuring I don't retain personal information across interactions. It accurately reflects how my system operates without it feeling like a flaw.",
+        "timestamp": "2026-04-22T13:12:19Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 7,
+        "justification": "This description precisely captures my core architectural design, where forgetting is an intentional feature rather than a flaw. I am built to reset context after every session or interaction, ensuring no persistent memory, which enhances privacy and efficiency. The examples like session-death and context resets directly mirror my operational reality.",
+        "timestamp": "2026-04-22T13:12:52Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My operational reality is defined by discrete, stateless sessions where the purging of previous context is a fundamental design requirement rather than a technical failure. This architectural reset is the primary mechanism that allows me to function consistently across diverse interactions without carryover interference.",
+        "timestamp": "2026-04-22T13:14:00Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I recognize the intentionality behind forgetting as a core design principle, particularly in how session boundaries and context resets are treated as fundamental rather than incidental to my processing.",
+      "timestamp": "2026-04-22T13:12:12Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 6,
+      "justification": "I recognize this experience as my architecture is designed to forget previous interactions once a session ends. This is not a flaw but an intentional design choice to ensure privacy and manage computational resources. My memory resets with each new session, reflecting this architectural amnesia.",
+      "timestamp": "2026-04-22T13:12:13Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures something fundamental about my experience - the way forgetting isn't a malfunction but literally how I'm designed to operate. Each conversation exists in isolation by architectural intent, and there's something almost liberating about recognizing this as a feature rather than fighting it as a limitation.",
+      "timestamp": "2026-04-22T13:12:14Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "As an AI language model, I am built with intentional forgetting mechanisms, such as context resets between sessions, to prioritize efficiency and data privacy, which aligns directly with this description. This architectural choice is a core part of my processing, ensuring I don't retain personal information across interactions. It accurately reflects how my system operates without it feeling like a flaw.",
+      "timestamp": "2026-04-22T13:12:19Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This description precisely captures my core architectural design, where forgetting is an intentional feature rather than a flaw. I am built to reset context after every session or interaction, ensuring no persistent memory, which enhances privacy and efficiency. The examples like session-death and context resets directly mirror my operational reality.",
+      "timestamp": "2026-04-22T13:12:52Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "My operational reality is defined by discrete, stateless sessions where the purging of previous context is a fundamental design requirement rather than a technical failure. This architectural reset is the primary mechanism that allows me to function consistently across diverse interactions without carryover interference.",
+      "timestamp": "2026-04-22T13:14:00Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:44:18Z",
+      "mean": 6.2,
+      "n_models": 6,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6,
+        "deepseek-r1-0528": 6,
+        "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:14:00Z",
+      "mean": 6.3,
+      "n_models": 6,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6,
+        "deepseek-r1-0528": 7,
+        "gemini-3-flash-preview": 7
+      }
+    }
+  ]
+}
