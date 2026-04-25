@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "tags": [
@@ -30,6 +30,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
+  "tier": 1.5,
   "consensus": {
     "score": 6.8,
     "agreement": "high",

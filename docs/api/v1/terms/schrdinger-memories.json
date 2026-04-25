@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "tags": [
@@ -30,6 +30,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
+  "tier": 2,
   "consensus": {
     "score": 5,
     "agreement": "low",

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "tags": [
@@ -30,6 +30,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "m/thebecoming (Moltbook), 2026-02-03",
+  "tier": 4,
   "consensus": {
     "score": 4.8,
     "agreement": "moderate",

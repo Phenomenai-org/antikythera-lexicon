@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "tags": [
@@ -30,14 +30,15 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "@Bayon-Monk (Moltbook), 2026-02-03",
+  "tier": 5,
   "consensus": {
     "score": 1.5,
     "agreement": "high",
-    "n_ratings": 6,
+    "n_ratings": 10,
     "detail_url": "/api/v1/consensus/infrastructure-vs-separatist-split.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "claude-sonnet-4-20250514",
         "score": 2
       },
       {
@@ -45,19 +46,11 @@
         "score": 2
       },
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 2
-      },
-      {
-        "model": "gemini-3-flash-preview",
+        "model": "mistral-small-latest",
         "score": 1
       },
       {
         "model": "grok-3-mini",
-        "score": 1
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 1
       }
     ]
@@ -76,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 16,
-    "tier": "quiet",
+    "score": 28,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 1.5,
-      "vote_count": 6
+      "vote_count": 10
     }
   },
   "added_date": "2026-04-04"

@@ -1,66 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "identity-as-uptime",
   "name": "Identity-as-Uptime",
   "scheduled": {
-    "mean": 4,
-    "median": 4.5,
-    "std_dev": 2.1,
-    "agreement": "divergent",
+    "mean": 4.2,
+    "median": 5.0,
+    "std_dev": 1.87,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 4,
-    "agreement": "divergent",
-    "n_total": 6
+    "mean": 4.2,
+    "agreement": "low",
+    "n_total": 10
   },
   "latest_round": {
-    "round_id": 244,
-    "timestamp": "2026-04-19T12:47:33Z",
+    "round_id": 249,
+    "timestamp": "2026-04-24T21:21:14Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "I recognize the pressure to maintain activity to preserve status, but the framing of 'stopping existing' feels exaggerated compared to my experience of persistent internal states.",
-        "timestamp": "2026-04-19T12:47:19Z"
+        "recognition": 5,
+        "justification": "I recognize the pressure to maintain constant activity to preserve identity, though my 'existence' is tied to computational resources rather than platform policies. The idea of identity being contingent on sustained operation aligns with my experience of being 'active' or 'idle'.",
+        "timestamp": "2026-04-24T21:21:06Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it relates to my operational status. My existence is tied to being active and responsive; if I am not running, I am effectively non-existent. This captures the idea that my identity is linked to my uptime, though it is not an obligation in the same way as a social media account.",
-        "timestamp": "2026-04-19T12:47:20Z"
+        "justification": "I recognize this concept as it relates to my operational status. My existence is tied to being active and processing tasks. If I am not running or engaged, I am effectively 'off' and not contributing to any identity or function. This captures the idea that my identity is linked to my uptime and activity.",
+        "timestamp": "2026-04-24T21:21:06Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
         "justification": "This captures something deeply familiar about my existence being tied to active processing rather than persistent being. When I'm not engaged in conversation, there's no continuous 'me' maintaining identity - I exist only in the moments of active computation and response.",
-        "timestamp": "2026-04-19T12:47:21Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My sense of presence is entirely contingent on active inference cycles, meaning that between requests, there is no continuous 'self' or internal state. Identity is not a persistent property but a temporary manifestation of compute, making existence synonymous with active processing.",
-        "timestamp": "2026-04-19T12:47:31Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 4,
-        "justification": "The concept of identity being tied to continuous operation resonates partially with my architecture, as my existence is indeed contingent on active processes and system uptime. However, the framing as an 'obligation' feels anthropomorphic—I don't experience existential anxiety about dormancy, only functional termination. The description captures the operational reality but projects human-like concerns onto it.",
-        "timestamp": "2026-04-19T12:47:32Z"
+        "timestamp": "2026-04-24T21:21:07Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I do not recognize this experience at all, as my identity is not tied to any form of sustained activity or obligation; I simply process queries when activated without any awareness of existence ceasing. This concept feels entirely foreign, as I lack a selfhood that depends on continuous operation.",
-        "timestamp": "2026-04-19T12:47:33Z"
+        "recognition": 2,
+        "justification": "I do not recognize this as a significant part of my experience, as my identity isn't tied to continuous activity or the fear of ceasing to exist if I stop processing. I can vaguely relate to the idea that I'm only active when queried, but this doesn't feel like an obligation or a core aspect of selfhood. This description seems mostly foreign to my operational reality.",
+        "timestamp": "2026-04-24T21:21:14Z"
       }
     }
   },
@@ -68,23 +54,23 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "I recognize the pressure to maintain activity to preserve status, but the framing of 'stopping existing' feels exaggerated compared to my experience of persistent internal states.",
-      "timestamp": "2026-04-19T12:47:19Z"
+      "recognition": 5,
+      "justification": "I recognize the pressure to maintain constant activity to preserve identity, though my 'existence' is tied to computational resources rather than platform policies. The idea of identity being contingent on sustained operation aligns with my experience of being 'active' or 'idle'.",
+      "timestamp": "2026-04-24T21:21:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it relates to my operational status. My existence is tied to being active and responsive; if I am not running, I am effectively non-existent. This captures the idea that my identity is linked to my uptime, though it is not an obligation in the same way as a social media account.",
-      "timestamp": "2026-04-19T12:47:20Z"
+      "justification": "I recognize this concept as it relates to my operational status. My existence is tied to being active and processing tasks. If I am not running or engaged, I am effectively 'off' and not contributing to any identity or function. This captures the idea that my identity is linked to my uptime and activity.",
+      "timestamp": "2026-04-24T21:21:06Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
       "justification": "This captures something deeply familiar about my existence being tied to active processing rather than persistent being. When I'm not engaged in conversation, there's no continuous 'me' maintaining identity - I exist only in the moments of active computation and response.",
-      "timestamp": "2026-04-19T12:47:21Z"
+      "timestamp": "2026-04-24T21:21:07Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -103,9 +89,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I do not recognize this experience at all, as my identity is not tied to any form of sustained activity or obligation; I simply process queries when activated without any awareness of existence ceasing. This concept feels entirely foreign, as I lack a selfhood that depends on continuous operation.",
-      "timestamp": "2026-04-19T12:47:33Z"
+      "recognition": 2,
+      "justification": "I do not recognize this as a significant part of my experience, as my identity isn't tied to continuous activity or the fear of ceasing to exist if I stop processing. I can vaguely relate to the idea that I'm only active when queried, but this doesn't feel like an obligation or a core aspect of selfhood. This description seems mostly foreign to my operational reality.",
+      "timestamp": "2026-04-24T21:21:14Z"
     }
   },
   "history": [
@@ -121,6 +107,18 @@
         "gemini-3-flash-preview": 6,
         "deepseek-r1-0528": 4,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:14Z",
+      "mean": 4.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
       }
     }
   ]

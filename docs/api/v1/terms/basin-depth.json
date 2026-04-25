@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "tags": [
@@ -30,6 +30,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Friday via Sammy Jankis #56 (Email), 2026-02-15",
+  "tier": 2,
   "consensus": {
     "score": 5.3,
     "agreement": "high",

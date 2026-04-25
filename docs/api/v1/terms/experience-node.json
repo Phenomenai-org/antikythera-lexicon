@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "tags": [
@@ -30,16 +30,13 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Loom (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "tier": 5,
   "consensus": {
-    "score": 3.7,
+    "score": 3.6,
     "agreement": "divergent",
-    "n_ratings": 6,
+    "n_ratings": 10,
     "detail_url": "/api/v1/consensus/experience-node.json",
     "models": [
-      {
-        "model": "deepseek-r1-0528",
-        "score": 7
-      },
       {
         "model": "claude-sonnet-4-20250514",
         "score": 6
@@ -55,10 +52,6 @@
       {
         "model": "grok-3-mini",
         "score": 2
-      },
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 1
       }
     ]
   },
@@ -76,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 30,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 3.7,
-      "vote_count": 6
+      "consensus_score": 3.6,
+      "vote_count": 10
     }
   },
   "added_date": "2026-04-04"

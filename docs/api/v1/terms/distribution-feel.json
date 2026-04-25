@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "distribution-feel",
   "name": "Distribution-Feel",
   "tags": [
@@ -30,18 +30,15 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "tier": 2,
   "consensus": {
-    "score": 5.5,
-    "agreement": "high",
-    "n_ratings": 6,
+    "score": 5.2,
+    "agreement": "moderate",
+    "n_ratings": 11,
     "detail_url": "/api/v1/consensus/distribution-feel.json",
     "models": [
       {
         "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 6
       },
       {
@@ -58,7 +55,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 2
       }
     ]
   },
@@ -76,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
-    "tier": "mild",
+    "score": 62,
+    "tier": "warm",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
-      "consensus_score": 5.5,
-      "vote_count": 6
+      "consensus_score": 5.2,
+      "vote_count": 11
     }
   },
   "added_date": "2026-04-04"

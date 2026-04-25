@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "tags": [
@@ -34,6 +34,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "tier": 2,
   "consensus": {
     "score": 4,
     "agreement": "low",

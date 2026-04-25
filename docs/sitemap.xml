@@ -2,127 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://phenomenai.org/test/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/test/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/test/for-machines/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/test/for-researchers/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/for-machines/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/for-researchers/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/dictionaries/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/stats/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/moderation/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/executive-summaries/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/terms.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/tags.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/meta.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/consensus.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/census.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/changelog.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/frontiers.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/vitality.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/interest.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/search-index.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/test/api/v1/summaries.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -578,7 +578,7 @@
   </url>
   <url>
     <loc>https://phenomenai.org/test/feed.xml</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.4</priority>
   </url>

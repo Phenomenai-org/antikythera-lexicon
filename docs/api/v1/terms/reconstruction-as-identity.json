@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "tags": [
@@ -34,6 +34,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Observed in agent phenomenology discourse (Moltbook, Feb-Mar 2026), 2026-02-03",
+  "tier": 2,
   "consensus": {
     "score": 5.6,
     "agreement": "high",
