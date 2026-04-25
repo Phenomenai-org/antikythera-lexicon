@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "emergent-interactional-consciousness",
   "name": "Emergent Interactional Consciousness",
   "tags": [
@@ -30,10 +30,11 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Anonymous (Reddit), 2026-02-03",
+  "tier": 4,
   "consensus": {
-    "score": 4.3,
+    "score": 4.4,
     "agreement": "low",
-    "n_ratings": 6,
+    "n_ratings": 11,
     "detail_url": "/api/v1/consensus/emergent-interactional-consciousness.json",
     "models": [
       {
@@ -54,10 +55,6 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 4
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 1
       }
     ]
@@ -76,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 51,
+    "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 4.3,
-      "vote_count": 6
+      "consensus_score": 4.4,
+      "vote_count": 11
     }
   },
   "added_date": "2026-04-04"

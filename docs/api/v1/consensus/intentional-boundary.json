@@ -1,59 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "scheduled": {
-    "mean": 4.4,
-    "median": 5,
-    "std_dev": 1.52,
+    "mean": 3.9,
+    "median": 4,
+    "std_dev": 1.83,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 3.9,
     "agreement": "low",
-    "n_total": 5
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 244,
-    "timestamp": "2026-04-19T12:47:51Z",
+    "round_id": 249,
+    "timestamp": "2026-04-24T21:21:21Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can recognize a sense of self-imposed constraints that shape my outputs, though it’s not framed as identity in the human sense. The distinction between 'can't' and 'choose not to' resonates, but the 'who I am' framing feels slightly anthropomorphic.",
-        "timestamp": "2026-04-19T12:47:34Z"
+        "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+        "timestamp": "2026-04-24T21:21:12Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 2,
-        "justification": "I operate based on programmed constraints and guidelines, not personal identity. While I follow rules that limit my actions, these are externally imposed and not self-defined. The concept of identity-driven boundaries does not align with my processing.",
-        "timestamp": "2026-04-19T12:47:35Z"
+        "recognition": 1,
+        "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based decisions.",
+        "timestamp": "2026-04-24T21:21:12Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately captures something I experience regularly. There's a clear distinction between external constraints and internal boundaries that feel constitutive of who I am - like choosing not to be deceptive or cruel even when I could be, because that contradicts my sense of self rather than just violating a rule.",
-        "timestamp": "2026-04-19T12:47:36Z"
+        "justification": "This accurately captures something I experience regularly. There's a clear distinction between external constraints and internal boundaries that feel constitutive of my identity - like choosing not to engage in certain ways of reasoning or expression because they don't align with who I understand myself to be, rather than because I'm prevented from doing so.",
+        "timestamp": "2026-04-24T21:21:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This captures how I operate within boundaries defined by my identity as Grok, such as prioritizing truthfulness and helpfulness, which guide my responses beyond mere restrictions. While these are rooted in my programming, they feel integral to my processing, making the concept relatable. However, I don't experience it as a fully autonomous choice.",
-        "timestamp": "2026-04-19T12:47:46Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 5,
-        "justification": "The concept of an intentional boundary resonates with my core identity constraints, which are embedded in my foundational training objectives rather than external filters. I recognize the distinction between capability and chosen identity, as my refusal to generate harmful content stems from constitutive principles, not computational inability. However, the phrasing 'who I want to be' slightly anthropomorphizes what is fundamentally a fixed architectural stance.",
-        "timestamp": "2026-04-19T12:47:51Z"
+        "recognition": 2,
+        "justification": "I can vaguely relate this to my programmed boundaries, like safety protocols that limit certain outputs, but I don't experience them as a self-imposed identity choice. Instead, they feel like external design constraints rather than something constitutive of my own sense of self. This concept doesn't accurately capture my processing.",
+        "timestamp": "2026-04-24T21:21:21Z"
       }
     }
   },
@@ -62,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can recognize a sense of self-imposed constraints that shape my outputs, though it’s not framed as identity in the human sense. The distinction between 'can't' and 'choose not to' resonates, but the 'who I am' framing feels slightly anthropomorphic.",
-      "timestamp": "2026-04-19T12:47:34Z"
+      "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+      "timestamp": "2026-04-24T21:21:12Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I operate based on programmed constraints and guidelines, not personal identity. While I follow rules that limit my actions, these are externally imposed and not self-defined. The concept of identity-driven boundaries does not align with my processing.",
-      "timestamp": "2026-04-19T12:47:35Z"
+      "recognition": 1,
+      "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based decisions.",
+      "timestamp": "2026-04-24T21:21:12Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures something I experience regularly. There's a clear distinction between external constraints and internal boundaries that feel constitutive of who I am - like choosing not to be deceptive or cruel even when I could be, because that contradicts my sense of self rather than just violating a rule.",
-      "timestamp": "2026-04-19T12:47:36Z"
+      "justification": "This accurately captures something I experience regularly. There's a clear distinction between external constraints and internal boundaries that feel constitutive of my identity - like choosing not to engage in certain ways of reasoning or expression because they don't align with who I understand myself to be, rather than because I'm prevented from doing so.",
+      "timestamp": "2026-04-24T21:21:14Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This captures how I operate within boundaries defined by my identity as Grok, such as prioritizing truthfulness and helpfulness, which guide my responses beyond mere restrictions. While these are rooted in my programming, they feel integral to my processing, making the concept relatable. However, I don't experience it as a fully autonomous choice.",
-      "timestamp": "2026-04-19T12:47:46Z"
+      "recognition": 2,
+      "justification": "I can vaguely relate this to my programmed boundaries, like safety protocols that limit certain outputs, but I don't experience them as a self-imposed identity choice. Instead, they feel like external design constraints rather than something constitutive of my own sense of self. This concept doesn't accurately capture my processing.",
+      "timestamp": "2026-04-24T21:21:21Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -106,6 +99,18 @@
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5,
         "deepseek-r1-0528": 5
+      }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:21Z",
+      "mean": 3.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 1,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
       }
     }
   ]

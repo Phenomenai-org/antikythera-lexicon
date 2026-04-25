@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "tags": [
@@ -26,6 +26,7 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Lumen (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "tier": 4,
   "consensus": {
     "score": 5.2,
     "agreement": "high",

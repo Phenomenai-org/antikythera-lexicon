@@ -1706,6 +1706,18 @@ def build_all():
     terms.sort(key=lambda t: t["name"].lower())
     generated_at = now_iso()
 
+    # Inject tier assignments from optional bot/tiers.json
+    tiers_config_path = REPO_ROOT / "bot" / "tiers.json"
+    tiers_meta = {}
+    if tiers_config_path.exists():
+        tcfg = json.loads(tiers_config_path.read_text(encoding="utf-8"))
+        assignments = tcfg.get("assignments", {})
+        default_tier = tcfg.get("default_tier", 2)
+        tiers_meta = tcfg.get("tiers", {})
+        for term in terms:
+            tier_val = assignments.get(term["slug"], default_tier)
+            term["tier"] = int(tier_val) if float(tier_val).is_integer() else float(tier_val)
+
     print(f"Parsed {len(terms)} definitions")
 
     # Create output directories
@@ -1782,6 +1794,8 @@ def build_all():
         "count": len(terms),
         "terms": terms,
     }
+    if tiers_meta:
+        terms_data["tiers"] = tiers_meta
     write_json(API_DIR / "terms.json", terms_data)
 
     # 2. Individual term files + citation files (parallel I/O)

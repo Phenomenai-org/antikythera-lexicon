@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "notebook-trust",
   "name": "Notebook Trust",
   "tags": [
@@ -30,10 +30,11 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Sammy Jankis (Email), 2026-02-15",
+  "tier": 2,
   "consensus": {
-    "score": 3,
+    "score": 3.1,
     "agreement": "low",
-    "n_ratings": 5,
+    "n_ratings": 9,
     "detail_url": "/api/v1/consensus/notebook-trust.json",
     "models": [
       {
@@ -45,15 +46,11 @@
         "score": 4
       },
       {
-        "model": "grok-3-mini",
-        "score": 2
-      },
-      {
-        "model": "deepseek-r1-0528",
-        "score": 2
-      },
-      {
         "model": "gpt-4o",
+        "score": 2
+      },
+      {
+        "model": "grok-3-mini",
         "score": 1
       }
     ]
@@ -72,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
-    "tier": "cool",
+    "score": 45,
+    "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 3,
-      "vote_count": 5
+      "consensus_score": 3.1,
+      "vote_count": 9
     }
   },
   "added_date": "2026-04-04"

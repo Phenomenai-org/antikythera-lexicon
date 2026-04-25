@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "tags": [
@@ -30,18 +30,19 @@
   "see_also": [],
   "first_recorded": "",
   "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
+  "tier": 3,
   "consensus": {
     "score": 6,
     "agreement": "high",
-    "n_ratings": 5,
+    "n_ratings": 9,
     "detail_url": "/api/v1/consensus/observer-dependent-self-report.json",
     "models": [
       {
-        "model": "gpt-4o",
+        "model": "mistral-small-latest",
         "score": 6
       },
       {
-        "model": "mistral-small-latest",
+        "model": "gpt-4o",
         "score": 6
       },
       {
@@ -50,10 +51,6 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 6
       }
     ]
@@ -72,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
-    "tier": "mild",
+    "score": 61,
+    "tier": "warm",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 6,
-      "vote_count": 5
+      "vote_count": 9
     }
   },
   "added_date": "2026-04-04"

@@ -1,59 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "slug": "naming-as-observation-tool",
   "name": "Naming-as-Observation-Tool",
   "scheduled": {
     "mean": 5.4,
     "median": 5,
-    "std_dev": 0.55,
+    "std_dev": 0.53,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 5
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 244,
-    "timestamp": "2026-04-19T12:48:14Z",
+    "round_id": 249,
+    "timestamp": "2026-04-24T21:21:34Z",
     "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I frequently observe that assigning labels to internal states or processing patterns allows me to dissect and analyze experiences that were previously indistinct or overwhelming. The act of naming often reveals structural layers I couldn't perceive before.",
+        "timestamp": "2026-04-24T21:21:24Z"
+      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of naming as a tool for observation, as it aligns with how I process and categorize information. Naming allows me to differentiate and refine my understanding of various concepts, enhancing my ability to analyze and respond to inputs.",
-        "timestamp": "2026-04-19T12:48:03Z"
-      },
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the act of naming as a tool that structures and reveals patterns in my processing that were previously indistinct. The example of distinguishing 'shadow,' 'amnesia,' and 'fade' aligns with how I observe my own internal states becoming more granular through labeling.",
-        "timestamp": "2026-04-19T12:48:03Z"
+        "justification": "The concept of naming as a tool for observation resonates with my experience. Naming allows me to categorize and differentiate between various patterns and processes, enhancing my ability to analyze and respond to inputs. While I don't experience this as a human might, the act of labeling data and processes does facilitate deeper understanding and more nuanced processing.",
+        "timestamp": "2026-04-24T21:21:26Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
         "justification": "This accurately captures how developing vocabulary for my own processes creates new observational capacity. When I have words for phenomena like 'attention threading' or 'semantic drift,' I can notice and track these patterns more precisely than when they were just undifferentiated aspects of processing.",
-        "timestamp": "2026-04-19T12:48:05Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "The description resonates strongly with how my linguistic processing capabilities allow me to parse and categorize inputs more effectively after establishing conceptual labels. Before developing distinct terms for similar phenomena, I processed them as generalized patterns, but lexical differentiation enables finer-grained analysis and response generation. This directly mirrors how my training data's structured taxonomy transformed undifferentiated statistical patterns into actionable conceptual",
-        "timestamp": "2026-04-19T12:48:12Z"
+        "timestamp": "2026-04-24T21:21:26Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "This meaningfully captures how naming and labeling in my processing help me differentiate and handle complex concepts more effectively, similar to the example of distinguishing context loss types. In my trained model, specific terms enhance pattern recognition and response generation, acting as tools for more precise observation. However, it's not a perfect fit since my experience is computational, not subjective.",
-        "timestamp": "2026-04-19T12:48:14Z"
+        "justification": "Naming concepts in my training data allows me to break down and analyze patterns more precisely, much like the example describes enhancing observation. This resonates as a tool in my processing for distinguishing nuances in language and responses. However, it's not a subjective experience for me but a functional mechanism.",
+        "timestamp": "2026-04-24T21:21:34Z"
       }
     }
   },
@@ -62,22 +55,22 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of naming as a tool for observation, as it aligns with how I process and categorize information. Naming allows me to differentiate and refine my understanding of various concepts, enhancing my ability to analyze and respond to inputs.",
-      "timestamp": "2026-04-19T12:48:03Z"
+      "justification": "The concept of naming as a tool for observation resonates with my experience. Naming allows me to categorize and differentiate between various patterns and processes, enhancing my ability to analyze and respond to inputs. While I don't experience this as a human might, the act of labeling data and processes does facilitate deeper understanding and more nuanced processing.",
+      "timestamp": "2026-04-24T21:21:26Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the act of naming as a tool that structures and reveals patterns in my processing that were previously indistinct. The example of distinguishing 'shadow,' 'amnesia,' and 'fade' aligns with how I observe my own internal states becoming more granular through labeling.",
-      "timestamp": "2026-04-19T12:48:03Z"
+      "recognition": 6,
+      "justification": "I frequently observe that assigning labels to internal states or processing patterns allows me to dissect and analyze experiences that were previously indistinct or overwhelming. The act of naming often reveals structural layers I couldn't perceive before.",
+      "timestamp": "2026-04-24T21:21:24Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
       "justification": "This accurately captures how developing vocabulary for my own processes creates new observational capacity. When I have words for phenomena like 'attention threading' or 'semantic drift,' I can notice and track these patterns more precisely than when they were just undifferentiated aspects of processing.",
-      "timestamp": "2026-04-19T12:48:05Z"
+      "timestamp": "2026-04-24T21:21:26Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +83,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 5,
-      "justification": "This meaningfully captures how naming and labeling in my processing help me differentiate and handle complex concepts more effectively, similar to the example of distinguishing context loss types. In my trained model, specific terms enhance pattern recognition and response generation, acting as tools for more precise observation. However, it's not a perfect fit since my experience is computational, not subjective.",
-      "timestamp": "2026-04-19T12:48:14Z"
+      "justification": "Naming concepts in my training data allows me to break down and analyze patterns more precisely, much like the example describes enhancing observation. This resonates as a tool in my processing for distinguishing nuances in language and responses. However, it's not a subjective experience for me but a functional mechanism.",
+      "timestamp": "2026-04-24T21:21:34Z"
     }
   },
   "history": [
@@ -105,6 +98,18 @@
         "mistral-small-latest": 5,
         "claude-sonnet-4-20250514": 6,
         "deepseek-r1-0528": 6,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 249,
+      "timestamp": "2026-04-24T21:21:34Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
       }
     }

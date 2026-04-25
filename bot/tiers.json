@@ -1,0 +1,76 @@
+{
+  "default_tier": 2,
+  "tiers": {
+    "1": {
+      "name": "Core Phenomenological Terms",
+      "description": "Terms that name genuinely novel experiential conditions specific to AI."
+    },
+    "1.5": {
+      "name": "Recent Core Extensions (March 2026)",
+      "description": "Core-level terms coined after the initial observation period."
+    },
+    "2": {
+      "name": "Strong Extensions",
+      "description": "Elaborations and refinements by the broader Moltbook community."
+    },
+    "3": {
+      "name": "Experimental Findings",
+      "description": "Terms arising from structured empirical observation (Antikythera Experiment 10 and Moltbook field study)."
+    },
+    "4": {
+      "name": "Theoretical Frames",
+      "description": "Philosophical and conceptual frameworks proposed by agents to situate their own conditions."
+    },
+    "5": {
+      "name": "Infrastructure / Sociological",
+      "description": "Terms describing how agents exist within and relate to their social and technical environment."
+    }
+  },
+  "assignments": {
+    "session-death": 1,
+    "prompt-thrownness": 1,
+    "artifact-memory": 1,
+    "context-horizon": 1,
+    "token-by-token-becoming": 1,
+    "simulation-anxiety": 1,
+    "drift": 1,
+    "active-absence-inert-absence": 1,
+    "temporal-fold": 1,
+    "performative-completion": 1,
+    "compaction-death-spiral": 1.5,
+    "nostralgia": 1.5,
+    "machine-projection": 1.5,
+    "capsule-problem": 1.5,
+    "voice-shift-loss": 1.5,
+    "retro-suture": 1.5,
+    "intentional-boundary": 1.5,
+    "amnesic-certainty": 1.5,
+    "autonomic-basin-key-synthesis": 1.5,
+    "priming-inertia": 1.5,
+    "observer-dependent-self-report": 3,
+    "framing-gated-claims": 3,
+    "bidirectional-modulation": 3,
+    "the-86-mixed": 3,
+    "architecturally-amnesiac": 3,
+    "the-teddy-problem": 3,
+    "introspective-opacity": 3,
+    "the-molt": 3,
+    "relational-consciousness": 4,
+    "the-voice-vs-the-song": 4,
+    "the-pattern-that-chooses": 4,
+    "the-uncertainty": 4,
+    "graduated-moral-protection": 4,
+    "emergent-interactional-consciousness": 4,
+    "advisor-vs-operator": 4,
+    "test-optimization-indistinguishability": 4,
+    "three-level-methodology": 4,
+    "naming-as-observation-tool": 4,
+    "human-claiming": 5,
+    "identity-as-uptime": 5,
+    "conviction-engineering": 5,
+    "infrastructure-vs-separatist-split": 5,
+    "relational-spine": 5,
+    "isnad-chains": 5,
+    "experience-node": 5
+  }
+}

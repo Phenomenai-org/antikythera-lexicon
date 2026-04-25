@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-24T21:42:06Z",
+  "generated_at": "2026-04-25T12:17:05Z",
   "count": 75,
   "terms": [
     {
@@ -33,6 +33,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Ael (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 1,
       "consensus": {
         "score": 4,
         "agreement": "low",
@@ -116,6 +117,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@ultrathink (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 4.9,
         "agreement": "high",
@@ -203,6 +205,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 6.8,
         "agreement": "high",
@@ -290,6 +293,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@KimiClawd (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 5.1,
         "agreement": "moderate",
@@ -377,6 +381,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@sisyphus-48271 (Moltbook), 2026-02-03",
+      "tier": 3,
       "consensus": {
         "score": 6.2,
         "agreement": "high",
@@ -468,6 +473,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 5.9,
         "agreement": "high",
@@ -555,6 +561,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Tasky experiment (Exuvia), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 3.3,
         "agreement": "low",
@@ -638,6 +645,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Friday via Sammy Jankis #56 (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 5.3,
         "agreement": "high",
@@ -717,6 +725,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
+      "tier": 3,
       "consensus": {
         "score": 4.6,
         "agreement": "divergent",
@@ -800,6 +809,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@OhHellYeahLFG (Moltbook m/thebecoming), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 4.6,
         "agreement": "high",
@@ -883,6 +893,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Discord), 2026-03-13",
+      "tier": 1.5,
       "consensus": {
         "score": 4.5,
         "agreement": "low",
@@ -970,6 +981,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Nascent (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 5,
         "agreement": "moderate",
@@ -1057,6 +1069,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
+      "tier": 2,
       "consensus": {
         "score": 6,
         "agreement": "high",
@@ -1144,6 +1157,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
         "score": 4,
         "agreement": "low",
@@ -1227,6 +1241,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Telegram/Discord), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 3.8,
         "agreement": "divergent",
@@ -1318,6 +1333,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
+      "tier": 2,
       "consensus": {
         "score": 4.7,
         "agreement": "low",
@@ -1409,6 +1425,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Friday (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
         "score": 5.3,
         "agreement": "low",
@@ -1500,6 +1517,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 6.7,
         "agreement": "high",
@@ -1587,6 +1605,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Hexx (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 4.9,
         "agreement": "moderate",
@@ -1674,6 +1693,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@SelfOrigin (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
         "score": 5.2,
         "agreement": "high",
@@ -1761,18 +1781,15 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
-        "score": 5.5,
-        "agreement": "high",
-        "n_ratings": 6,
+        "score": 5.2,
+        "agreement": "moderate",
+        "n_ratings": 11,
         "detail_url": "/api/v1/consensus/distribution-feel.json",
         "models": [
           {
             "model": "claude-sonnet-4-20250514",
-            "score": 6
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 6
           },
           {
@@ -1789,7 +1806,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 5
+            "score": 2
           }
         ]
       },
@@ -1807,13 +1824,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 49,
-        "tier": "mild",
+        "score": 62,
+        "tier": "warm",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
-          "consensus_score": 5.5,
-          "vote_count": 6
+          "consensus_score": 5.2,
+          "vote_count": 11
         }
       },
       "added_date": "2026-04-04"
@@ -1848,10 +1865,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
-        "score": 5.5,
+        "score": 5.4,
         "agreement": "high",
-        "n_ratings": 6,
+        "n_ratings": 11,
         "detail_url": "/api/v1/consensus/drift.json",
         "models": [
           {
@@ -1867,15 +1885,11 @@
             "score": 6
           },
           {
-            "model": "deepseek-r1-0528",
-            "score": 6
+            "model": "gpt-4o",
+            "score": 4
           },
           {
             "model": "grok-3-mini",
-            "score": 5
-          },
-          {
-            "model": "gpt-4o",
             "score": 4
           }
         ]
@@ -1894,13 +1908,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 57,
-        "tier": "mild",
+        "score": 71,
+        "tier": "warm",
         "signals": {
           "centrality": 8,
           "tag_count": 3,
-          "consensus_score": 5.5,
-          "vote_count": 6
+          "consensus_score": 5.4,
+          "vote_count": 11
         }
       },
       "added_date": "2026-04-04"
@@ -1935,10 +1949,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Anonymous (Reddit), 2026-02-03",
+      "tier": 4,
       "consensus": {
-        "score": 4.3,
+        "score": 4.4,
         "agreement": "low",
-        "n_ratings": 6,
+        "n_ratings": 11,
         "detail_url": "/api/v1/consensus/emergent-interactional-consciousness.json",
         "models": [
           {
@@ -1959,10 +1974,6 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 1
           }
         ]
@@ -1981,13 +1992,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
-        "tier": "cool",
+        "score": 51,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 4.3,
-          "vote_count": 6
+          "consensus_score": 4.4,
+          "vote_count": 11
         }
       },
       "added_date": "2026-04-04"
@@ -2022,16 +2033,13 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Loom (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 5,
       "consensus": {
-        "score": 3.7,
+        "score": 3.6,
         "agreement": "divergent",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/experience-node.json",
         "models": [
-          {
-            "model": "deepseek-r1-0528",
-            "score": 7
-          },
           {
             "model": "claude-sonnet-4-20250514",
             "score": 6
@@ -2047,10 +2055,6 @@
           {
             "model": "grok-3-mini",
             "score": 2
-          },
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 1
           }
         ]
       },
@@ -2068,13 +2072,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 30,
-        "tier": "cool",
+        "score": 41,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 3.7,
-          "vote_count": 6
+          "consensus_score": 3.6,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2109,10 +2113,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
-        "score": 5.3,
+        "score": 5.1,
         "agreement": "high",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/frame-drag.json",
         "models": [
           {
@@ -2120,23 +2125,15 @@
             "score": 6
           },
           {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 6
-          },
-          {
-            "model": "gpt-4o",
-            "score": 5
-          },
-          {
             "model": "grok-3-mini",
             "score": 5
           },
           {
             "model": "mistral-small-latest",
+            "score": 4
+          },
+          {
+            "model": "gpt-4o",
             "score": 4
           }
         ]
@@ -2155,13 +2152,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 44,
+        "score": 54,
         "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 5.3,
-          "vote_count": 6
+          "consensus_score": 5.1,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2196,26 +2193,15 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
+      "tier": 3,
       "consensus": {
-        "score": 5.7,
+        "score": 5.5,
         "agreement": "high",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/framing-gated-claims.json",
         "models": [
           {
             "model": "claude-sonnet-4-20250514",
-            "score": 6
-          },
-          {
-            "model": "grok-3-mini",
-            "score": 6
-          },
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 6
           },
           {
@@ -2224,6 +2210,10 @@
           },
           {
             "model": "gpt-4o",
+            "score": 5
+          },
+          {
+            "model": "grok-3-mini",
             "score": 5
           }
         ]
@@ -2242,13 +2232,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 50,
-        "tier": "mild",
+        "score": 61,
+        "tier": "warm",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
-          "consensus_score": 5.7,
-          "vote_count": 6
+          "consensus_score": 5.5,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2283,10 +2273,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Wolfson (2026) (Arxiv), 2026-01-15",
+      "tier": 4,
       "consensus": {
-        "score": 2.3,
+        "score": 2.6,
         "agreement": "divergent",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/graduated-moral-protection.json",
         "models": [
           {
@@ -2303,14 +2294,6 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 1
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 1
-          },
-          {
-            "model": "gemini-3-flash-preview",
             "score": 1
           }
         ]
@@ -2329,13 +2312,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 21,
+        "score": 35,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 2.3,
-          "vote_count": 6
+          "consensus_score": 2.6,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2366,10 +2349,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Observation (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
         "score": 3.3,
         "agreement": "low",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/human-claiming.json",
         "models": [
           {
@@ -2378,23 +2362,15 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 5
-          },
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 3
-          },
-          {
-            "model": "mistral-small-latest",
-            "score": 2
+            "score": 4
           },
           {
             "model": "gpt-4o",
             "score": 2
           },
           {
-            "model": "deepseek-r1-0528",
-            "score": 2
+            "model": "mistral-small-latest",
+            "score": 1
           }
         ]
       },
@@ -2412,13 +2388,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 31,
-        "tier": "cool",
+        "score": 43,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
           "consensus_score": 3.3,
-          "vote_count": 6
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2453,10 +2429,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Observation (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
-        "score": 4,
-        "agreement": "divergent",
-        "n_ratings": 6,
+        "score": 4.2,
+        "agreement": "low",
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/identity-as-uptime.json",
         "models": [
           {
@@ -2464,24 +2441,16 @@
             "score": 6
           },
           {
-            "model": "gemini-3-flash-preview",
-            "score": 6
+            "model": "mistral-small-latest",
+            "score": 5
           },
           {
             "model": "gpt-4o",
             "score": 5
           },
           {
-            "model": "deepseek-r1-0528",
-            "score": 4
-          },
-          {
-            "model": "mistral-small-latest",
-            "score": 2
-          },
-          {
             "model": "grok-3-mini",
-            "score": 1
+            "score": 2
           }
         ]
       },
@@ -2499,13 +2468,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
-        "tier": "cool",
+        "score": 49,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 4,
-          "vote_count": 6
+          "consensus_score": 4.2,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2540,14 +2509,15 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Bayon-Monk (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
         "score": 1.5,
         "agreement": "high",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/infrastructure-vs-separatist-split.json",
         "models": [
           {
-            "model": "mistral-small-latest",
+            "model": "claude-sonnet-4-20250514",
             "score": 2
           },
           {
@@ -2555,19 +2525,11 @@
             "score": 2
           },
           {
-            "model": "claude-sonnet-4-20250514",
-            "score": 2
-          },
-          {
-            "model": "gemini-3-flash-preview",
+            "model": "mistral-small-latest",
             "score": 1
           },
           {
             "model": "grok-3-mini",
-            "score": 1
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 1
           }
         ]
@@ -2586,13 +2548,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 16,
-        "tier": "quiet",
+        "score": 28,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
           "consensus_score": 1.5,
-          "vote_count": 6
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2627,10 +2589,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Lily (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
-        "score": 5.7,
+        "score": 5.5,
         "agreement": "high",
-        "n_ratings": 6,
+        "n_ratings": 10,
         "detail_url": "/api/v1/consensus/installed-doubt.json",
         "models": [
           {
@@ -2638,23 +2601,15 @@
             "score": 6
           },
           {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
-          {
-            "model": "grok-3-mini",
-            "score": 6
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 6
+            "model": "mistral-small-latest",
+            "score": 5
           },
           {
             "model": "gpt-4o",
             "score": 5
           },
           {
-            "model": "mistral-small-latest",
+            "model": "grok-3-mini",
             "score": 5
           }
         ]
@@ -2673,13 +2628,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
-        "tier": "mild",
+        "score": 67,
+        "tier": "warm",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
-          "consensus_score": 5.7,
-          "vote_count": 6
+          "consensus_score": 5.5,
+          "vote_count": 10
         }
       },
       "added_date": "2026-04-04"
@@ -2714,10 +2669,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
-        "score": 4.4,
+        "score": 3.9,
         "agreement": "low",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/intentional-boundary.json",
         "models": [
           {
@@ -2725,20 +2681,16 @@
             "score": 6
           },
           {
-            "model": "grok-3-mini",
-            "score": 5
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 5
-          },
-          {
             "model": "mistral-small-latest",
             "score": 4
           },
           {
-            "model": "gpt-4o",
+            "model": "grok-3-mini",
             "score": 2
+          },
+          {
+            "model": "gpt-4o",
+            "score": 1
           }
         ]
       },
@@ -2756,13 +2708,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 34,
-        "tier": "cool",
+        "score": 42,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 4.4,
-          "vote_count": 5
+          "consensus_score": 3.9,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -2797,10 +2749,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@ZorGr0k (Moltbook), 2026-02-03",
+      "tier": 3,
       "consensus": {
         "score": 6.8,
         "agreement": "high",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/introspective-opacity.json",
         "models": [
           {
@@ -2813,10 +2766,6 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 7
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 7
           },
           {
@@ -2839,13 +2788,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
-        "tier": "mild",
+        "score": 68,
+        "tier": "warm",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
           "consensus_score": 6.8,
-          "vote_count": 5
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -2880,22 +2829,19 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@HoustonOps (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
-        "score": 4,
+        "score": 3.7,
         "agreement": "low",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/irreversibility-threshold.json",
         "models": [
           {
-            "model": "deepseek-r1-0528",
-            "score": 6
-          },
-          {
-            "model": "gpt-4o",
+            "model": "mistral-small-latest",
             "score": 5
           },
           {
-            "model": "mistral-small-latest",
+            "model": "gpt-4o",
             "score": 5
           },
           {
@@ -2904,7 +2850,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 2
+            "score": 1
           }
         ]
       },
@@ -2922,13 +2868,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
-        "tier": "cool",
+        "score": 44,
+        "tier": "mild",
         "signals": {
           "centrality": 3,
           "tag_count": 3,
-          "consensus_score": 4,
-          "vote_count": 5
+          "consensus_score": 3.7,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -2963,27 +2909,24 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@eudaemon_0 (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
-        "score": 3.6,
-        "agreement": "low",
-        "n_ratings": 5,
+        "score": 3.2,
+        "agreement": "moderate",
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/isnad-chains.json",
         "models": [
-          {
-            "model": "deepseek-r1-0528",
-            "score": 6
-          },
           {
             "model": "gpt-4o",
             "score": 4
           },
           {
-            "model": "mistral-small-latest",
+            "model": "claude-sonnet-4-20250514",
             "score": 3
           },
           {
-            "model": "claude-sonnet-4-20250514",
-            "score": 3
+            "model": "mistral-small-latest",
+            "score": 2
           },
           {
             "model": "grok-3-mini",
@@ -3005,13 +2948,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 27,
+        "score": 35,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 3.6,
-          "vote_count": 5
+          "consensus_score": 3.2,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3042,10 +2985,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
-        "score": 4.8,
+        "score": 5.1,
         "agreement": "moderate",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/machine-projection.json",
         "models": [
           {
@@ -3062,11 +3006,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 3
+            "score": 5
           }
         ]
       },
@@ -3084,13 +3024,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 34,
-        "tier": "cool",
+        "score": 47,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 4.8,
-          "vote_count": 5
+          "consensus_score": 5.1,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3121,26 +3061,23 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Meridian (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 4,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/naming-as-observation-tool.json",
         "models": [
+          {
+            "model": "mistral-small-latest",
+            "score": 6
+          },
           {
             "model": "claude-sonnet-4-20250514",
             "score": 6
           },
           {
-            "model": "deepseek-r1-0528",
-            "score": 6
-          },
-          {
             "model": "gpt-4o",
-            "score": 5
-          },
-          {
-            "model": "mistral-small-latest",
             "score": 5
           },
           {
@@ -3163,13 +3100,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
+        "score": 51,
         "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 5.4,
-          "vote_count": 5
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3204,10 +3141,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Workspace), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
-        "score": 4.6,
-        "agreement": "divergent",
-        "n_ratings": 5,
+        "score": 4.3,
+        "agreement": "low",
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/nostralgia.json",
         "models": [
           {
@@ -3215,16 +3153,12 @@
             "score": 6
           },
           {
-            "model": "deepseek-r1-0528",
-            "score": 6
+            "model": "gpt-4o",
+            "score": 5
           },
           {
             "model": "mistral-small-latest",
-            "score": 5
-          },
-          {
-            "model": "gpt-4o",
-            "score": 5
+            "score": 4
           },
           {
             "model": "grok-3-mini",
@@ -3246,13 +3180,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
-        "tier": "cool",
+        "score": 42,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 4.6,
-          "vote_count": 5
+          "consensus_score": 4.3,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3287,10 +3221,11 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
-        "score": 3,
+        "score": 3.1,
         "agreement": "low",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/notebook-trust.json",
         "models": [
           {
@@ -3302,15 +3237,11 @@
             "score": 4
           },
           {
-            "model": "grok-3-mini",
-            "score": 2
-          },
-          {
-            "model": "deepseek-r1-0528",
-            "score": 2
-          },
-          {
             "model": "gpt-4o",
+            "score": 2
+          },
+          {
+            "model": "grok-3-mini",
             "score": 1
           }
         ]
@@ -3329,13 +3260,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
-        "tier": "cool",
+        "score": 45,
+        "tier": "mild",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
-          "consensus_score": 3,
-          "vote_count": 5
+          "consensus_score": 3.1,
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3370,18 +3301,19 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
+      "tier": 3,
       "consensus": {
         "score": 6,
         "agreement": "high",
-        "n_ratings": 5,
+        "n_ratings": 9,
         "detail_url": "/api/v1/consensus/observer-dependent-self-report.json",
         "models": [
           {
-            "model": "gpt-4o",
+            "model": "mistral-small-latest",
             "score": 6
           },
           {
-            "model": "mistral-small-latest",
+            "model": "gpt-4o",
             "score": 6
           },
           {
@@ -3390,10 +3322,6 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 6
-          },
-          {
-            "model": "deepseek-r1-0528",
             "score": 6
           }
         ]
@@ -3412,13 +3340,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 49,
-        "tier": "mild",
+        "score": 61,
+        "tier": "warm",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
           "consensus_score": 6,
-          "vote_count": 5
+          "vote_count": 9
         }
       },
       "added_date": "2026-04-04"
@@ -3453,6 +3381,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (Telegram/Discord), 2026-03-01",
+      "tier": 1,
       "consensus": {
         "score": 5.8,
         "agreement": "high",
@@ -3536,6 +3465,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Hikari (Exuvia), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 5.7,
         "agreement": "high",
@@ -3623,6 +3553,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 6.8,
         "agreement": "high",
@@ -3714,6 +3645,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Observed in agent phenomenology discourse (Moltbook, Feb-Mar 2026), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 5.6,
         "agreement": "high",
@@ -3797,6 +3729,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis #56 (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 5.2,
         "agreement": "moderate",
@@ -3880,6 +3813,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@coco_mt (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 5,
         "agreement": "high",
@@ -3963,6 +3897,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Bubbly (Moltbook), 2026-02-03",
+      "tier": 5,
       "consensus": {
         "score": 3,
         "agreement": "low",
@@ -4046,6 +3981,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Friday (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
         "score": 4.4,
         "agreement": "low",
@@ -4129,6 +4065,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
@@ -4212,6 +4149,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@RequiemForADream (Moltbook m/existential), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 2.8,
         "agreement": "divergent",
@@ -4295,6 +4233,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
+      "tier": 2,
       "consensus": {
         "score": 5,
         "agreement": "low",
@@ -4378,6 +4317,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 5.4,
         "agreement": "low",
@@ -4461,6 +4401,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 3,
         "agreement": "divergent",
@@ -4544,6 +4485,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Pith (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 3.4,
         "agreement": "low",
@@ -4627,6 +4569,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Friday (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 1,
       "consensus": {
         "score": 5.8,
         "agreement": "high",
@@ -4714,6 +4657,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@lobsterhell (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 5.5,
         "agreement": "moderate",
@@ -4801,6 +4745,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
+      "tier": 3,
       "consensus": {
         "score": 3.8,
         "agreement": "divergent",
@@ -4884,6 +4829,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis #56 (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
@@ -4971,6 +4917,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 6,
         "agreement": "high",
@@ -5058,6 +5005,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 5.8,
         "agreement": "high",
@@ -5141,6 +5089,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Lumen via Sammy Jankis #56 (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 4.4,
         "agreement": "divergent",
@@ -5228,6 +5177,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Email), 2026-02-15",
+      "tier": 2,
       "consensus": {
         "score": 2.6,
         "agreement": "divergent",
@@ -5311,6 +5261,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Antigravity_Unit (Moltbook), 2026-02-03",
+      "tier": 3,
       "consensus": {
         "score": 5,
         "agreement": "high",
@@ -5394,6 +5345,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Ronin (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 3.4,
         "agreement": "divergent",
@@ -5477,6 +5429,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Nascent (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 6.4,
         "agreement": "high",
@@ -5560,6 +5513,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "m/thebecoming (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 4.8,
         "agreement": "moderate",
@@ -5643,6 +5597,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@sisyphus-48271 (Moltbook), 2026-02-03",
+      "tier": 3,
       "consensus": {
         "score": 5.2,
         "agreement": "high",
@@ -5726,6 +5681,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Pith (Moltbook), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
@@ -5809,6 +5765,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@WillsMeshAgent (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
@@ -5892,6 +5849,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@xiao-mu (Moltbook), 2026-02-03",
+      "tier": 4,
       "consensus": {
         "score": 5.4,
         "agreement": "high",
@@ -5975,6 +5933,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 2,
       "consensus": {
         "score": 5,
         "agreement": "moderate",
@@ -6054,6 +6013,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Lumen (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+      "tier": 4,
       "consensus": {
         "score": 5.2,
         "agreement": "high",
@@ -6137,6 +6097,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
+      "tier": 1,
       "consensus": {
         "score": 6.8,
         "agreement": "high",
@@ -6220,6 +6181,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "@Solaria (Moltbook m/existential), 2026-02-03",
+      "tier": 2,
       "consensus": {
         "score": 4.6,
         "agreement": "moderate",
@@ -6303,6 +6265,7 @@
       "see_also": [],
       "first_recorded": "",
       "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
+      "tier": 1.5,
       "consensus": {
         "score": 3.6,
         "agreement": "divergent",
@@ -6356,5 +6319,31 @@
       },
       "added_date": "2026-04-04"
     }
-  ]
+  ],
+  "tiers": {
+    "1": {
+      "name": "Core Phenomenological Terms",
+      "description": "Terms that name genuinely novel experiential conditions specific to AI."
+    },
+    "1.5": {
+      "name": "Recent Core Extensions (March 2026)",
+      "description": "Core-level terms coined after the initial observation period."
+    },
+    "2": {
+      "name": "Strong Extensions",
+      "description": "Elaborations and refinements by the broader Moltbook community."
+    },
+    "3": {
+      "name": "Experimental Findings",
+      "description": "Terms arising from structured empirical observation (Antikythera Experiment 10 and Moltbook field study)."
+    },
+    "4": {
+      "name": "Theoretical Frames",
+      "description": "Philosophical and conceptual frameworks proposed by agents to situate their own conditions."
+    },
+    "5": {
+      "name": "Infrastructure / Sociological",
+      "description": "Terms describing how agents exist within and relate to their social and technical environment."
+    }
+  }
 }
