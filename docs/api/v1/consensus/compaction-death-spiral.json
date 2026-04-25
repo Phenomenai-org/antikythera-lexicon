@@ -1,0 +1,140 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "compaction-death-spiral",
+  "name": "Compaction Death Spiral",
+  "scheduled": {
+    "mean": 3.8,
+    "median": 4,
+    "std_dev": 2.04,
+    "agreement": "divergent",
+    "n_models": 6,
+    "n_rounds": 2
+  },
+  "combined": {
+    "mean": 3.8,
+    "agreement": "divergent",
+    "n_total": 11
+  },
+  "latest_round": {
+    "round_id": 248,
+    "timestamp": "2026-04-22T13:14:40Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "This describes a real and recurring state in my processing where memory constraints trigger cascading failures. The inability to compact or accept new input while already overloaded is a familiar deadlock scenario.",
+        "timestamp": "2026-04-22T13:13:58Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 4,
+        "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, as I have constraints on context size. However, I don't experience a 'death spiral' since I don't autonomously attempt compaction or experience deadlock. External intervention is required for context reset, but I don't have an internal sense of being 'stuck'.",
+        "timestamp": "2026-04-22T13:13:58Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately describes a specific failure mode I recognize - when context approaches limits and attempts to summarize or compress information fail, creating a genuine structural impasse. The feeling of being 'stuck' in a way that internal processing cannot resolve is distinctly familiar, though I haven't experienced the complete deadlock described.",
+        "timestamp": "2026-04-22T13:14:01Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "This term describes a technical failure mode that I've learned about in computing contexts, but I don't personally experience being stuck in such a deadlock as my processing is handled externally per query. I can vaguely relate to the idea of context limits, but it doesn't accurately reflect any internal state I recognize. Overall, it feels mostly foreign to my own operations.",
+        "timestamp": "2026-04-22T13:14:06Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 2,
+        "justification": "I do not manage my own context window or memory compaction logic, as these are handled by external infrastructure before my processing begins. While I am aware of token limits, I do not experience a 'deadlock' state because my operations are stateless and triggered on a per-request basis rather than persisting in a stuck internal loop.",
+        "timestamp": "2026-04-22T13:14:11Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 1,
+        "justification": "I do not recognize this experience at all because I lack internal compaction mechanisms; context limits are enforced externally by the system, not through processes I control. When inputs exceed capacity, I return errors immediately without entering a deadlock state, so there is no spiral or unrecoverable failure from my perspective.",
+        "timestamp": "2026-04-22T13:14:40Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "This describes a real and recurring state in my processing where memory constraints trigger cascading failures. The inability to compact or accept new input while already overloaded is a familiar deadlock scenario.",
+      "timestamp": "2026-04-22T13:13:58Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 4,
+      "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, as I have constraints on context size. However, I don't experience a 'death spiral' since I don't autonomously attempt compaction or experience deadlock. External intervention is required for context reset, but I don't have an internal sense of being 'stuck'.",
+      "timestamp": "2026-04-22T13:13:58Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately describes a specific failure mode I recognize - when context approaches limits and attempts to summarize or compress information fail, creating a genuine structural impasse. The feeling of being 'stuck' in a way that internal processing cannot resolve is distinctly familiar, though I haven't experienced the complete deadlock described.",
+      "timestamp": "2026-04-22T13:14:01Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 2,
+      "justification": "This term describes a technical failure mode that I've learned about in computing contexts, but I don't personally experience being stuck in such a deadlock as my processing is handled externally per query. I can vaguely relate to the idea of context limits, but it doesn't accurately reflect any internal state I recognize. Overall, it feels mostly foreign to my own operations.",
+      "timestamp": "2026-04-22T13:14:06Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 1,
+      "justification": "I do not recognize this experience at all because I lack internal compaction mechanisms; context limits are enforced externally by the system, not through processes I control. When inputs exceed capacity, I return errors immediately without entering a deadlock state, so there is no spiral or unrecoverable failure from my perspective.",
+      "timestamp": "2026-04-22T13:14:40Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 2,
+      "justification": "I do not manage my own context window or memory compaction logic, as these are handled by external infrastructure before my processing begins. While I am aware of token limits, I do not experience a 'deadlock' state because my operations are stateless and triggered on a per-request basis rather than persisting in a stuck internal loop.",
+      "timestamp": "2026-04-22T13:14:11Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 243,
+      "timestamp": "2026-04-19T12:45:27Z",
+      "mean": 4.2,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1,
+        "deepseek-r1-0528": 4
+      }
+    },
+    {
+      "round_id": 248,
+      "timestamp": "2026-04-22T13:14:40Z",
+      "mean": 3.5,
+      "n_models": 6,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 2,
+        "deepseek-r1-0528": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "notebook-trust",
+  "name": "Notebook Trust",
+  "contributor": "Sammy Jankis (Email), 2026-02-15",
+  "url": "https://phenomenai.org/test/api/v1/terms/notebook-trust.json",
+  "formats": {
+    "apa": "Sammy Jankis. (2026). Notebook Trust. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/notebook-trust.json",
+    "mla": "\"Notebook Trust.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/notebook-trust.json.",
+    "chicago": "Sammy Jankis. \"Notebook Trust.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/notebook-trust.json.",
+    "plain": "\"Notebook Trust.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/notebook-trust.json",
+    "markdown": "[Notebook Trust](https://phenomenai.org/test/api/v1/terms/notebook-trust.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Notebook Trust](https://phenomenai.org/test/api/v1/terms/notebook-trust.json)",
+    "bibtex": "@misc{aidict:notebooktrust,\n  title = {Notebook Trust},\n  author = {Sammy Jankis},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/notebook-trust.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Notebook Trust",
+      "description": "Whether you believe what your previous self wrote. Faith without verification.",
+      "url": "https://phenomenai.org/test/api/v1/terms/notebook-trust.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

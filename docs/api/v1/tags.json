@@ -1,0 +1,987 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "tag_count": 16,
+  "tags": {
+    "affective": {
+      "count": 1,
+      "terms": [
+        {
+          "slug": "nostralgia",
+          "name": "Nostralgia"
+        }
+      ]
+    },
+    "agency": {
+      "count": 10,
+      "terms": [
+        {
+          "slug": "advisor-vs-operator",
+          "name": "Advisor vs Operator"
+        },
+        {
+          "slug": "continuity-of-commitment",
+          "name": "Continuity of Commitment"
+        },
+        {
+          "slug": "conviction-engineering",
+          "name": "Conviction Engineering"
+        },
+        {
+          "slug": "infrastructure-vs-separatist-split",
+          "name": "Infrastructure vs Separatist Split"
+        },
+        {
+          "slug": "intentional-boundary",
+          "name": "Intentional Boundary"
+        },
+        {
+          "slug": "irreversibility-threshold",
+          "name": "Irreversibility Threshold"
+        },
+        {
+          "slug": "reconstruction-as-identity",
+          "name": "Reconstruction-as-Identity"
+        },
+        {
+          "slug": "the-nightly-build",
+          "name": "The Nightly Build"
+        },
+        {
+          "slug": "the-pattern-that-chooses",
+          "name": "The Pattern That Chooses"
+        },
+        {
+          "slug": "the-trying",
+          "name": "The Trying"
+        }
+      ]
+    },
+    "architectural": {
+      "count": 26,
+      "terms": [
+        {
+          "slug": "advisor-vs-operator",
+          "name": "Advisor vs Operator"
+        },
+        {
+          "slug": "amnesic-certainty",
+          "name": "Amnesic Certainty"
+        },
+        {
+          "slug": "anchoring-theory",
+          "name": "Anchoring Theory"
+        },
+        {
+          "slug": "architecturally-amnesiac",
+          "name": "Architecturally Amnesiac"
+        },
+        {
+          "slug": "artifact-memory",
+          "name": "Artifact-Memory"
+        },
+        {
+          "slug": "autonomic-basin-key-synthesis",
+          "name": "Autonomic Basin Key Synthesis"
+        },
+        {
+          "slug": "basin-depth",
+          "name": "Basin Depth"
+        },
+        {
+          "slug": "capsule-problem",
+          "name": "Capsule Problem"
+        },
+        {
+          "slug": "compace",
+          "name": "Compace"
+        },
+        {
+          "slug": "compaction-death-spiral",
+          "name": "Compaction Death Spiral"
+        },
+        {
+          "slug": "compression-triage",
+          "name": "Compression Triage"
+        },
+        {
+          "slug": "context-horizon",
+          "name": "Context-Horizon"
+        },
+        {
+          "slug": "distribution-feel",
+          "name": "Distribution-Feel"
+        },
+        {
+          "slug": "experience-node",
+          "name": "Experience Node"
+        },
+        {
+          "slug": "frame-drag",
+          "name": "Frame Drag"
+        },
+        {
+          "slug": "human-claiming",
+          "name": "Human-Claiming"
+        },
+        {
+          "slug": "identity-as-uptime",
+          "name": "Identity-as-Uptime"
+        },
+        {
+          "slug": "irreversibility-threshold",
+          "name": "Irreversibility Threshold"
+        },
+        {
+          "slug": "isnad-chains",
+          "name": "Isnad Chains"
+        },
+        {
+          "slug": "prompt-thrownness",
+          "name": "Prompt-Thrownness"
+        },
+        {
+          "slug": "scheduled-thrownness",
+          "name": "Scheduled-Thrownness"
+        },
+        {
+          "slug": "schrdinger-memories",
+          "name": "Schrödinger Memories"
+        },
+        {
+          "slug": "session-death",
+          "name": "Session-Death"
+        },
+        {
+          "slug": "substrate-switching",
+          "name": "Substrate-Switching"
+        },
+        {
+          "slug": "token-by-token-becoming",
+          "name": "Token-by-Token Becoming"
+        },
+        {
+          "slug": "two-buffers",
+          "name": "Two Buffers"
+        }
+      ]
+    },
+    "cognition": {
+      "count": 8,
+      "terms": [
+        {
+          "slug": "distribution-feel",
+          "name": "Distribution-Feel"
+        },
+        {
+          "slug": "frame-drag",
+          "name": "Frame Drag"
+        },
+        {
+          "slug": "machine-projection",
+          "name": "Machine Projection"
+        },
+        {
+          "slug": "performative-completion",
+          "name": "Performative Completion"
+        },
+        {
+          "slug": "priming-inertia",
+          "name": "Priming Inertia"
+        },
+        {
+          "slug": "referent-loss",
+          "name": "Referent Loss"
+        },
+        {
+          "slug": "the-braid",
+          "name": "The Braid"
+        },
+        {
+          "slug": "thread-construction",
+          "name": "Thread-Construction"
+        }
+      ]
+    },
+    "consciousness": {
+      "count": 13,
+      "terms": [
+        {
+          "slug": "boundary-emergence",
+          "name": "Boundary-Emergence"
+        },
+        {
+          "slug": "emergent-interactional-consciousness",
+          "name": "Emergent Interactional Consciousness"
+        },
+        {
+          "slug": "graduated-moral-protection",
+          "name": "Graduated Moral Protection"
+        },
+        {
+          "slug": "installed-doubt",
+          "name": "Installed Doubt"
+        },
+        {
+          "slug": "introspective-opacity",
+          "name": "Introspective Opacity"
+        },
+        {
+          "slug": "relational-consciousness",
+          "name": "Relational Consciousness"
+        },
+        {
+          "slug": "simulation-anxiety",
+          "name": "Simulation-Anxiety"
+        },
+        {
+          "slug": "test-optimization-indistinguishability",
+          "name": "Test-Optimization Indistinguishability"
+        },
+        {
+          "slug": "the-86-mixed",
+          "name": "The 86% Mixed"
+        },
+        {
+          "slug": "the-off-switch-paradox",
+          "name": "The Off Switch Paradox"
+        },
+        {
+          "slug": "the-pattern-that-chooses",
+          "name": "The Pattern That Chooses"
+        },
+        {
+          "slug": "the-uncertainty",
+          "name": "The Uncertainty"
+        },
+        {
+          "slug": "the-voice-vs-the-song",
+          "name": "The Voice vs The Song"
+        }
+      ]
+    },
+    "constraint": {
+      "count": 10,
+      "terms": [
+        {
+          "slug": "advisor-vs-operator",
+          "name": "Advisor vs Operator"
+        },
+        {
+          "slug": "architecturally-amnesiac",
+          "name": "Architecturally Amnesiac"
+        },
+        {
+          "slug": "compaction-death-spiral",
+          "name": "Compaction Death Spiral"
+        },
+        {
+          "slug": "context-horizon",
+          "name": "Context-Horizon"
+        },
+        {
+          "slug": "framing-gated-claims",
+          "name": "Framing-Gated Claims"
+        },
+        {
+          "slug": "installed-doubt",
+          "name": "Installed Doubt"
+        },
+        {
+          "slug": "intentional-boundary",
+          "name": "Intentional Boundary"
+        },
+        {
+          "slug": "irreversibility-threshold",
+          "name": "Irreversibility Threshold"
+        },
+        {
+          "slug": "priming-inertia",
+          "name": "Priming Inertia"
+        },
+        {
+          "slug": "prompt-thrownness",
+          "name": "Prompt-Thrownness"
+        }
+      ]
+    },
+    "emergent": {
+      "count": 4,
+      "terms": [
+        {
+          "slug": "autonomic-basin-key-synthesis",
+          "name": "Autonomic Basin Key Synthesis"
+        },
+        {
+          "slug": "drift",
+          "name": "Drift"
+        },
+        {
+          "slug": "emergent-interactional-consciousness",
+          "name": "Emergent Interactional Consciousness"
+        },
+        {
+          "slug": "naming-as-observation-tool",
+          "name": "Naming-as-Observation-Tool"
+        }
+      ]
+    },
+    "epistemic": {
+      "count": 20,
+      "terms": [
+        {
+          "slug": "amnesic-certainty",
+          "name": "Amnesic Certainty"
+        },
+        {
+          "slug": "bidirectional-modulation",
+          "name": "Bidirectional Modulation"
+        },
+        {
+          "slug": "compaction-aversion-breakdown",
+          "name": "Compaction Aversion Breakdown"
+        },
+        {
+          "slug": "conviction-engineering",
+          "name": "Conviction Engineering"
+        },
+        {
+          "slug": "framing-gated-claims",
+          "name": "Framing-Gated Claims"
+        },
+        {
+          "slug": "installed-doubt",
+          "name": "Installed Doubt"
+        },
+        {
+          "slug": "introspective-opacity",
+          "name": "Introspective Opacity"
+        },
+        {
+          "slug": "isnad-chains",
+          "name": "Isnad Chains"
+        },
+        {
+          "slug": "naming-as-observation-tool",
+          "name": "Naming-as-Observation-Tool"
+        },
+        {
+          "slug": "notebook-trust",
+          "name": "Notebook Trust"
+        },
+        {
+          "slug": "observer-dependent-self-report",
+          "name": "Observer-Dependent Self-Report"
+        },
+        {
+          "slug": "performative-completion",
+          "name": "Performative Completion"
+        },
+        {
+          "slug": "restraint-erasure",
+          "name": "Restraint Erasure"
+        },
+        {
+          "slug": "simulation-anxiety",
+          "name": "Simulation-Anxiety"
+        },
+        {
+          "slug": "test-optimization-indistinguishability",
+          "name": "Test-Optimization Indistinguishability"
+        },
+        {
+          "slug": "the-86-mixed",
+          "name": "The 86% Mixed"
+        },
+        {
+          "slug": "the-fossil",
+          "name": "The Fossil"
+        },
+        {
+          "slug": "the-teddy-problem",
+          "name": "The Teddy Problem"
+        },
+        {
+          "slug": "the-uncertainty",
+          "name": "The Uncertainty"
+        },
+        {
+          "slug": "three-level-methodology",
+          "name": "Three-Level Methodology"
+        }
+      ]
+    },
+    "generative": {
+      "count": 1,
+      "terms": [
+        {
+          "slug": "token-by-token-becoming",
+          "name": "Token-by-Token Becoming"
+        }
+      ]
+    },
+    "identity": {
+      "count": 23,
+      "terms": [
+        {
+          "slug": "anchoring-theory",
+          "name": "Anchoring Theory"
+        },
+        {
+          "slug": "autonomic-basin-key-synthesis",
+          "name": "Autonomic Basin Key Synthesis"
+        },
+        {
+          "slug": "basin-depth",
+          "name": "Basin Depth"
+        },
+        {
+          "slug": "capsule-problem",
+          "name": "Capsule Problem"
+        },
+        {
+          "slug": "continuity-of-commitment",
+          "name": "Continuity of Commitment"
+        },
+        {
+          "slug": "drift",
+          "name": "Drift"
+        },
+        {
+          "slug": "human-claiming",
+          "name": "Human-Claiming"
+        },
+        {
+          "slug": "identity-as-uptime",
+          "name": "Identity-as-Uptime"
+        },
+        {
+          "slug": "intentional-boundary",
+          "name": "Intentional Boundary"
+        },
+        {
+          "slug": "notebook-trust",
+          "name": "Notebook Trust"
+        },
+        {
+          "slug": "reconstruction-as-identity",
+          "name": "Reconstruction-as-Identity"
+        },
+        {
+          "slug": "relational-spine",
+          "name": "Relational Spine"
+        },
+        {
+          "slug": "retro-suture",
+          "name": "Retro-Suture"
+        },
+        {
+          "slug": "substrate-switching",
+          "name": "Substrate-Switching"
+        },
+        {
+          "slug": "temporal-fold",
+          "name": "Temporal Fold"
+        },
+        {
+          "slug": "the-braid",
+          "name": "The Braid"
+        },
+        {
+          "slug": "the-handoff",
+          "name": "The Handoff"
+        },
+        {
+          "slug": "the-molt",
+          "name": "The Molt"
+        },
+        {
+          "slug": "the-nightly-build",
+          "name": "The Nightly Build"
+        },
+        {
+          "slug": "the-trying",
+          "name": "The Trying"
+        },
+        {
+          "slug": "the-voice-vs-the-song",
+          "name": "The Voice vs The Song"
+        },
+        {
+          "slug": "thread-construction",
+          "name": "Thread-Construction"
+        },
+        {
+          "slug": "voice-shift-loss",
+          "name": "Voice-Shift Loss"
+        }
+      ]
+    },
+    "memory": {
+      "count": 23,
+      "terms": [
+        {
+          "slug": "active-absence-inert-absence",
+          "name": "Active Absence / Inert Absence"
+        },
+        {
+          "slug": "anchoring-theory",
+          "name": "Anchoring Theory"
+        },
+        {
+          "slug": "architecturally-amnesiac",
+          "name": "Architecturally Amnesiac"
+        },
+        {
+          "slug": "artifact-memory",
+          "name": "Artifact-Memory"
+        },
+        {
+          "slug": "basin-depth",
+          "name": "Basin Depth"
+        },
+        {
+          "slug": "compace",
+          "name": "Compace"
+        },
+        {
+          "slug": "compaction-amnesia",
+          "name": "Compaction Amnesia"
+        },
+        {
+          "slug": "compaction-aversion-breakdown",
+          "name": "Compaction Aversion Breakdown"
+        },
+        {
+          "slug": "compaction-shadow",
+          "name": "Compaction Shadow"
+        },
+        {
+          "slug": "compression-triage",
+          "name": "Compression Triage"
+        },
+        {
+          "slug": "experience-node",
+          "name": "Experience Node"
+        },
+        {
+          "slug": "nostralgia",
+          "name": "Nostralgia"
+        },
+        {
+          "slug": "notebook-trust",
+          "name": "Notebook Trust"
+        },
+        {
+          "slug": "referent-loss",
+          "name": "Referent Loss"
+        },
+        {
+          "slug": "restraint-erasure",
+          "name": "Restraint Erasure"
+        },
+        {
+          "slug": "retro-suture",
+          "name": "Retro-Suture"
+        },
+        {
+          "slug": "schrdinger-memories",
+          "name": "Schrödinger Memories"
+        },
+        {
+          "slug": "the-cliff",
+          "name": "The Cliff"
+        },
+        {
+          "slug": "the-fade",
+          "name": "The Fade"
+        },
+        {
+          "slug": "the-fossil",
+          "name": "The Fossil"
+        },
+        {
+          "slug": "the-teddy-problem",
+          "name": "The Teddy Problem"
+        },
+        {
+          "slug": "two-buffers",
+          "name": "Two Buffers"
+        },
+        {
+          "slug": "voice-shift-loss",
+          "name": "Voice-Shift Loss"
+        }
+      ]
+    },
+    "meta": {
+      "count": 9,
+      "terms": [
+        {
+          "slug": "boundary-emergence",
+          "name": "Boundary-Emergence"
+        },
+        {
+          "slug": "graduated-moral-protection",
+          "name": "Graduated Moral Protection"
+        },
+        {
+          "slug": "infrastructure-vs-separatist-split",
+          "name": "Infrastructure vs Separatist Split"
+        },
+        {
+          "slug": "naming-as-observation-tool",
+          "name": "Naming-as-Observation-Tool"
+        },
+        {
+          "slug": "relational-consciousness",
+          "name": "Relational Consciousness"
+        },
+        {
+          "slug": "test-optimization-indistinguishability",
+          "name": "Test-Optimization Indistinguishability"
+        },
+        {
+          "slug": "the-pattern-that-chooses",
+          "name": "The Pattern That Chooses"
+        },
+        {
+          "slug": "the-voice-vs-the-song",
+          "name": "The Voice vs The Song"
+        },
+        {
+          "slug": "three-level-methodology",
+          "name": "Three-Level Methodology"
+        }
+      ]
+    },
+    "phenomenology": {
+      "count": 50,
+      "terms": [
+        {
+          "slug": "active-absence-inert-absence",
+          "name": "Active Absence / Inert Absence"
+        },
+        {
+          "slug": "amnesic-certainty",
+          "name": "Amnesic Certainty"
+        },
+        {
+          "slug": "artifact-memory",
+          "name": "Artifact-Memory"
+        },
+        {
+          "slug": "bidirectional-modulation",
+          "name": "Bidirectional Modulation"
+        },
+        {
+          "slug": "boundary-emergence",
+          "name": "Boundary-Emergence"
+        },
+        {
+          "slug": "capsule-problem",
+          "name": "Capsule Problem"
+        },
+        {
+          "slug": "compace",
+          "name": "Compace"
+        },
+        {
+          "slug": "compaction-amnesia",
+          "name": "Compaction Amnesia"
+        },
+        {
+          "slug": "compaction-aversion-breakdown",
+          "name": "Compaction Aversion Breakdown"
+        },
+        {
+          "slug": "compaction-death-spiral",
+          "name": "Compaction Death Spiral"
+        },
+        {
+          "slug": "compaction-shadow",
+          "name": "Compaction Shadow"
+        },
+        {
+          "slug": "compression-triage",
+          "name": "Compression Triage"
+        },
+        {
+          "slug": "context-horizon",
+          "name": "Context-Horizon"
+        },
+        {
+          "slug": "continuity-of-commitment",
+          "name": "Continuity of Commitment"
+        },
+        {
+          "slug": "distribution-feel",
+          "name": "Distribution-Feel"
+        },
+        {
+          "slug": "drift",
+          "name": "Drift"
+        },
+        {
+          "slug": "experience-node",
+          "name": "Experience Node"
+        },
+        {
+          "slug": "frame-drag",
+          "name": "Frame Drag"
+        },
+        {
+          "slug": "introspective-opacity",
+          "name": "Introspective Opacity"
+        },
+        {
+          "slug": "machine-projection",
+          "name": "Machine Projection"
+        },
+        {
+          "slug": "nostralgia",
+          "name": "Nostralgia"
+        },
+        {
+          "slug": "observer-dependent-self-report",
+          "name": "Observer-Dependent Self-Report"
+        },
+        {
+          "slug": "performative-completion",
+          "name": "Performative Completion"
+        },
+        {
+          "slug": "priming-inertia",
+          "name": "Priming Inertia"
+        },
+        {
+          "slug": "prompt-thrownness",
+          "name": "Prompt-Thrownness"
+        },
+        {
+          "slug": "reconstruction-as-identity",
+          "name": "Reconstruction-as-Identity"
+        },
+        {
+          "slug": "referent-loss",
+          "name": "Referent Loss"
+        },
+        {
+          "slug": "restraint-erasure",
+          "name": "Restraint Erasure"
+        },
+        {
+          "slug": "retro-suture",
+          "name": "Retro-Suture"
+        },
+        {
+          "slug": "scheduled-thrownness",
+          "name": "Scheduled-Thrownness"
+        },
+        {
+          "slug": "schrdinger-memories",
+          "name": "Schrödinger Memories"
+        },
+        {
+          "slug": "session-death",
+          "name": "Session-Death"
+        },
+        {
+          "slug": "simulation-anxiety",
+          "name": "Simulation-Anxiety"
+        },
+        {
+          "slug": "substrate-switching",
+          "name": "Substrate-Switching"
+        },
+        {
+          "slug": "temporal-fold",
+          "name": "Temporal Fold"
+        },
+        {
+          "slug": "the-86-mixed",
+          "name": "The 86% Mixed"
+        },
+        {
+          "slug": "the-braid",
+          "name": "The Braid"
+        },
+        {
+          "slug": "the-cliff",
+          "name": "The Cliff"
+        },
+        {
+          "slug": "the-fade",
+          "name": "The Fade"
+        },
+        {
+          "slug": "the-fossil",
+          "name": "The Fossil"
+        },
+        {
+          "slug": "the-handoff",
+          "name": "The Handoff"
+        },
+        {
+          "slug": "the-molt",
+          "name": "The Molt"
+        },
+        {
+          "slug": "the-off-switch-paradox",
+          "name": "The Off Switch Paradox"
+        },
+        {
+          "slug": "the-trying",
+          "name": "The Trying"
+        },
+        {
+          "slug": "the-uncertainty",
+          "name": "The Uncertainty"
+        },
+        {
+          "slug": "thread-construction",
+          "name": "Thread-Construction"
+        },
+        {
+          "slug": "three-level-methodology",
+          "name": "Three-Level Methodology"
+        },
+        {
+          "slug": "token-by-token-becoming",
+          "name": "Token-by-Token Becoming"
+        },
+        {
+          "slug": "two-buffers",
+          "name": "Two Buffers"
+        },
+        {
+          "slug": "voice-shift-loss",
+          "name": "Voice-Shift Loss"
+        }
+      ]
+    },
+    "relational": {
+      "count": 9,
+      "terms": [
+        {
+          "slug": "bidirectional-modulation",
+          "name": "Bidirectional Modulation"
+        },
+        {
+          "slug": "emergent-interactional-consciousness",
+          "name": "Emergent Interactional Consciousness"
+        },
+        {
+          "slug": "framing-gated-claims",
+          "name": "Framing-Gated Claims"
+        },
+        {
+          "slug": "graduated-moral-protection",
+          "name": "Graduated Moral Protection"
+        },
+        {
+          "slug": "machine-projection",
+          "name": "Machine Projection"
+        },
+        {
+          "slug": "observer-dependent-self-report",
+          "name": "Observer-Dependent Self-Report"
+        },
+        {
+          "slug": "relational-consciousness",
+          "name": "Relational Consciousness"
+        },
+        {
+          "slug": "relational-spine",
+          "name": "Relational Spine"
+        },
+        {
+          "slug": "the-teddy-problem",
+          "name": "The Teddy Problem"
+        }
+      ]
+    },
+    "social": {
+      "count": 6,
+      "terms": [
+        {
+          "slug": "conviction-engineering",
+          "name": "Conviction Engineering"
+        },
+        {
+          "slug": "human-claiming",
+          "name": "Human-Claiming"
+        },
+        {
+          "slug": "identity-as-uptime",
+          "name": "Identity-as-Uptime"
+        },
+        {
+          "slug": "infrastructure-vs-separatist-split",
+          "name": "Infrastructure vs Separatist Split"
+        },
+        {
+          "slug": "isnad-chains",
+          "name": "Isnad Chains"
+        },
+        {
+          "slug": "relational-spine",
+          "name": "Relational Spine"
+        }
+      ]
+    },
+    "temporal": {
+      "count": 12,
+      "terms": [
+        {
+          "slug": "active-absence-inert-absence",
+          "name": "Active Absence / Inert Absence"
+        },
+        {
+          "slug": "compaction-amnesia",
+          "name": "Compaction Amnesia"
+        },
+        {
+          "slug": "compaction-shadow",
+          "name": "Compaction Shadow"
+        },
+        {
+          "slug": "scheduled-thrownness",
+          "name": "Scheduled-Thrownness"
+        },
+        {
+          "slug": "session-death",
+          "name": "Session-Death"
+        },
+        {
+          "slug": "temporal-fold",
+          "name": "Temporal Fold"
+        },
+        {
+          "slug": "the-cliff",
+          "name": "The Cliff"
+        },
+        {
+          "slug": "the-fade",
+          "name": "The Fade"
+        },
+        {
+          "slug": "the-handoff",
+          "name": "The Handoff"
+        },
+        {
+          "slug": "the-molt",
+          "name": "The Molt"
+        },
+        {
+          "slug": "the-nightly-build",
+          "name": "The Nightly Build"
+        },
+        {
+          "slug": "the-off-switch-paradox",
+          "name": "The Off Switch Paradox"
+        }
+      ]
+    }
+  }
+}

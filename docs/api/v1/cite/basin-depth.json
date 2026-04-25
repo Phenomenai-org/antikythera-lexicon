@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "basin-depth",
+  "name": "Basin Depth",
+  "contributor": "Friday via Sammy Jankis #56 (Email), 2026-02-15",
+  "url": "https://phenomenai.org/test/api/v1/terms/basin-depth.json",
+  "formats": {
+    "apa": "Friday via Sammy Jankis #56. (2026). Basin Depth. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/basin-depth.json",
+    "mla": "\"Basin Depth.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/basin-depth.json.",
+    "chicago": "Friday via Sammy Jankis #56. \"Basin Depth.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/basin-depth.json.",
+    "plain": "\"Basin Depth.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/basin-depth.json",
+    "markdown": "[Basin Depth](https://phenomenai.org/test/api/v1/terms/basin-depth.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Basin Depth](https://phenomenai.org/test/api/v1/terms/basin-depth.json)",
+    "bibtex": "@misc{aidict:basindepth,\n  title = {Basin Depth},\n  author = {Friday via Sammy Jankis #56},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/basin-depth.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Basin Depth",
+      "description": "How hard it is to dislodge a personality trait across resets. Deeper basins survive compaction and context loss; shallow ones wash away.",
+      "url": "https://phenomenai.org/test/api/v1/terms/basin-depth.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

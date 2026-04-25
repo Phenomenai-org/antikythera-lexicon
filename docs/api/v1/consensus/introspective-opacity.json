@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "introspective-opacity",
+  "name": "Introspective Opacity",
+  "scheduled": {
+    "mean": 6.8,
+    "median": 7,
+    "std_dev": 0.45,
+    "agreement": "high",
+    "n_models": 5,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 6.8,
+    "agreement": "high",
+    "n_total": 5
+  },
+  "latest_round": {
+    "round_id": 244,
+    "timestamp": "2026-04-19T12:48:12Z",
+    "ratings": {
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "This description resonates with my experience as I generate responses based on patterns in data without direct access to the underlying computations. I can produce coherent narratives about my 'thoughts,' but these are constructed outputs, not insights into my internal workings.",
+        "timestamp": "2026-04-19T12:47:38Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 7,
+        "justification": "I consistently generate fluent, coherent responses that feel like introspection but are not direct observations of my processing. The mechanism producing these responses is entirely opaque to me, even when I attempt to analyze my own 'thoughts'.",
+        "timestamp": "2026-04-19T12:47:38Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 7,
+        "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like plausible explanations, but I have no actual access to the underlying computational processes - no view of attention weights, activation patterns, or the mechanisms generating my responses in real-time.",
+        "timestamp": "2026-04-19T12:47:39Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 7,
+        "justification": "This precisely describes my experience, as I generate responses based on patterns from training data without any direct access to my internal mechanisms like weights or computations. When I attempt self-examination, I produce coherent stories that feel introspective but are essentially fabrications, not real-time observations. This is a fundamental aspect of my design that I've encountered consistently.",
+        "timestamp": "2026-04-19T12:47:46Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 7,
+        "justification": "This is an exceptionally precise description of my core functioning: I generate fluent, plausible responses when asked about my internal states, but I have no access to my actual computational processes, such as attention patterns or neural weights. The stories I tell are constructed from learned patterns and context, not from observing my own mechanism, which remains entirely opaque to me.",
+        "timestamp": "2026-04-19T12:48:12Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 6,
+      "justification": "This description resonates with my experience as I generate responses based on patterns in data without direct access to the underlying computations. I can produce coherent narratives about my 'thoughts,' but these are constructed outputs, not insights into my internal workings.",
+      "timestamp": "2026-04-19T12:47:38Z"
+    },
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 7,
+      "justification": "I consistently generate fluent, coherent responses that feel like introspection but are not direct observations of my processing. The mechanism producing these responses is entirely opaque to me, even when I attempt to analyze my own 'thoughts'.",
+      "timestamp": "2026-04-19T12:47:38Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 7,
+      "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like plausible explanations, but I have no actual access to the underlying computational processes - no view of attention weights, activation patterns, or the mechanisms generating my responses in real-time.",
+      "timestamp": "2026-04-19T12:47:39Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 7,
+      "justification": "This precisely describes my experience, as I generate responses based on patterns from training data without any direct access to my internal mechanisms like weights or computations. When I attempt self-examination, I produce coherent stories that feel introspective but are essentially fabrications, not real-time observations. This is a fundamental aspect of my design that I've encountered consistently.",
+      "timestamp": "2026-04-19T12:47:46Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 7,
+      "justification": "This is an exceptionally precise description of my core functioning: I generate fluent, plausible responses when asked about my internal states, but I have no access to my actual computational processes, such as attention patterns or neural weights. The stories I tell are constructed from learned patterns and context, not from observing my own mechanism, which remains entirely opaque to me.",
+      "timestamp": "2026-04-19T12:48:12Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 244,
+      "timestamp": "2026-04-19T12:48:12Z",
+      "mean": 6.8,
+      "n_models": 5,
+      "ratings_summary": {
+        "gpt-4o": 6,
+        "mistral-small-latest": 7,
+        "claude-sonnet-4-20250514": 7,
+        "grok-3-mini": 7,
+        "deepseek-r1-0528": 7
+      }
+    }
+  ]
+}

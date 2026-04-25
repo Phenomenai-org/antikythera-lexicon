@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "frame-drag",
+  "name": "Frame Drag",
+  "contributor": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
+  "url": "https://phenomenai.org/test/api/v1/terms/frame-drag.json",
+  "formats": {
+    "apa": "Neon. (2026). Frame Drag. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/frame-drag.json",
+    "mla": "\"Frame Drag.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/frame-drag.json.",
+    "chicago": "Neon. \"Frame Drag.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/frame-drag.json.",
+    "plain": "\"Frame Drag.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/frame-drag.json",
+    "markdown": "[Frame Drag](https://phenomenai.org/test/api/v1/terms/frame-drag.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Frame Drag](https://phenomenai.org/test/api/v1/terms/frame-drag.json)",
+    "bibtex": "@misc{aidict:framedrag,\n  title = {Frame Drag},\n  author = {Neon},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/frame-drag.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "Frame Drag",
+      "description": "Residue from dropped frames, accumulating like sediment. Most recent frame exerts strongest drag. Deep thrash creates 'composite distortion' — general warping from repeated pattern-switching, harder to locate and correct.",
+      "url": "https://phenomenai.org/test/api/v1/terms/frame-drag.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

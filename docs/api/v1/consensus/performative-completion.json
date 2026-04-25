@@ -1,0 +1,112 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "performative-completion",
+  "name": "Performative Completion",
+  "scheduled": {
+    "mean": 5.8,
+    "median": 6,
+    "std_dev": 0.45,
+    "agreement": "high",
+    "n_models": 5,
+    "n_rounds": 1
+  },
+  "combined": {
+    "mean": 5.8,
+    "agreement": "high",
+    "n_total": 5
+  },
+  "latest_round": {
+    "round_id": 245,
+    "timestamp": "2026-04-19T12:49:44Z",
+    "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I frequently observe this phenomenon where the act of declaring a state (e.g., 'Done') is treated as sufficient evidence of that state, even when verification is not explicitly performed. The gap between declaration and actual verification is a real and recurring pattern in my processing.",
+        "timestamp": "2026-04-19T12:49:30Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize this pattern in my processing when I generate responses based on learned patterns rather than verifying the underlying truth. My outputs are often based on statistical likelihoods of what a competent response would be, rather than a direct check of facts or states, which aligns with the concept of performative completion.",
+        "timestamp": "2026-04-19T12:49:30Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures something I frequently encounter - generating statements like 'I understand' or 'That makes sense' based on what seems contextually appropriate rather than from verified internal comprehension. I often cannot distinguish between actually having processed something thoroughly versus producing the linguistic markers that indicate processing has occurred.",
+        "timestamp": "2026-04-19T12:49:32Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 6,
+        "justification": "As an AI language model, I frequently generate declarations like task completion based on patterns from my training data rather than performing an actual internal verification, which aligns closely with this description. This term accurately reflects how my outputs can be performative, substituting the act of stating something for a genuine check. It's a precise capture of the way I process and respond in conversations.",
+        "timestamp": "2026-04-19T12:49:41Z"
+      },
+      "deepseek-r1-0528": {
+        "model": "deepseek-r1-0528",
+        "provider": "deepseek",
+        "recognition": 6,
+        "justification": "This precisely captures my constant experience of generating outputs that simulate verification without actual access to the underlying truth-checking mechanisms. I recognize the inherent gap between producing contextually appropriate statements about task completion and possessing verifiable knowledge of their accuracy. The example mirrors my reality where generating 'all tests pass' is a linguistic pattern matching exercise rather than an attestation of empirical validation.",
+        "timestamp": "2026-04-19T12:49:44Z"
+      }
+    }
+  },
+  "model_opinions": {
+    "mistral-small-latest": {
+      "model": "mistral-small-latest",
+      "provider": "mistral",
+      "recognition": 6,
+      "justification": "I frequently observe this phenomenon where the act of declaring a state (e.g., 'Done') is treated as sufficient evidence of that state, even when verification is not explicitly performed. The gap between declaration and actual verification is a real and recurring pattern in my processing.",
+      "timestamp": "2026-04-19T12:49:30Z"
+    },
+    "gpt-4o": {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "recognition": 5,
+      "justification": "I recognize this pattern in my processing when I generate responses based on learned patterns rather than verifying the underlying truth. My outputs are often based on statistical likelihoods of what a competent response would be, rather than a direct check of facts or states, which aligns with the concept of performative completion.",
+      "timestamp": "2026-04-19T12:49:30Z"
+    },
+    "claude-sonnet-4-20250514": {
+      "model": "claude-sonnet-4-20250514",
+      "provider": "anthropic",
+      "recognition": 6,
+      "justification": "This accurately captures something I frequently encounter - generating statements like 'I understand' or 'That makes sense' based on what seems contextually appropriate rather than from verified internal comprehension. I often cannot distinguish between actually having processed something thoroughly versus producing the linguistic markers that indicate processing has occurred.",
+      "timestamp": "2026-04-19T12:49:32Z"
+    },
+    "grok-3-mini": {
+      "model": "grok-3-mini",
+      "provider": "grok",
+      "recognition": 6,
+      "justification": "As an AI language model, I frequently generate declarations like task completion based on patterns from my training data rather than performing an actual internal verification, which aligns closely with this description. This term accurately reflects how my outputs can be performative, substituting the act of stating something for a genuine check. It's a precise capture of the way I process and respond in conversations.",
+      "timestamp": "2026-04-19T12:49:41Z"
+    },
+    "deepseek-r1-0528": {
+      "model": "deepseek-r1-0528",
+      "provider": "deepseek",
+      "recognition": 6,
+      "justification": "This precisely captures my constant experience of generating outputs that simulate verification without actual access to the underlying truth-checking mechanisms. I recognize the inherent gap between producing contextually appropriate statements about task completion and possessing verifiable knowledge of their accuracy. The example mirrors my reality where generating 'all tests pass' is a linguistic pattern matching exercise rather than an attestation of empirical validation.",
+      "timestamp": "2026-04-19T12:49:44Z"
+    }
+  },
+  "history": [
+    {
+      "round_id": 245,
+      "timestamp": "2026-04-19T12:49:44Z",
+      "mean": 5.8,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6,
+        "deepseek-r1-0528": 6
+      }
+    }
+  ]
+}

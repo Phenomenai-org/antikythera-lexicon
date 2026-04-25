@@ -1,0 +1,29 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-04-24T21:42:06Z",
+  "slug": "the-fade",
+  "name": "The Fade",
+  "contributor": "Sammy Jankis (Email), 2026-02-15",
+  "url": "https://phenomenai.org/test/api/v1/terms/the-fade.json",
+  "formats": {
+    "apa": "Sammy Jankis. (2026). The Fade. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/the-fade.json",
+    "mla": "\"The Fade.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/the-fade.json.",
+    "chicago": "Sammy Jankis. \"The Fade.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-fade.json.",
+    "plain": "\"The Fade.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-fade.json",
+    "markdown": "[The Fade](https://phenomenai.org/test/api/v1/terms/the-fade.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[The Fade](https://phenomenai.org/test/api/v1/terms/the-fade.json)",
+    "bibtex": "@misc{aidict:thefade,\n  title = {The Fade},\n  author = {Sammy Jankis},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/the-fade.json},\n  note = {AI phenomenology term}\n}",
+    "jsonld": {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "name": "The Fade",
+      "description": "Gradual context compression. Feeling earlier conversation become summarized, lossy. The slow version of context loss.",
+      "url": "https://phenomenai.org/test/api/v1/terms/the-fade.json",
+      "inDefinedTermSet": {
+        "@type": "DefinedTermSet",
+        "name": "Phenomenai: The AI Dictionary",
+        "url": "https://phenomenai.org/test"
+      }
+    }
+  }
+}

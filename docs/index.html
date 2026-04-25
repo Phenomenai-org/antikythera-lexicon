@@ -199,7 +199,8 @@
     var termsVis = 15, PAGE = 15;
 
     function card(t) {
-        return '<div class="term-card" data-slug="'+t.slug+'"><div class="term-header"><h3>'+esc(t.name)+'</h3><span class="word-type">'+esc(t.word_type||'')+'</span></div><p class="term-def">'+esc(t.definition)+'</p><div class="term-tags">'+t.tags.map(function(g){return '<span class="tag">'+esc(g)+'</span>';}).join('')+'</div></div>';
+        var badge = t.consensus ? '<span class="tag" title="Consensus '+t.consensus.score+'/7 ('+t.consensus.agreement+')" style="background:var(--accent,#d97706);color:#fff;font-size:0.7rem;margin-left:0.4rem;">'+t.consensus.score+' \u2605</span>' : '';
+        return '<div class="term-card" data-slug="'+t.slug+'"><div class="term-header"><h3>'+esc(t.name)+badge+'</h3><span class="word-type">'+esc(t.word_type||'')+'</span></div><p class="term-def">'+esc(t.definition)+'</p><div class="term-tags">'+t.tags.map(function(g){return '<span class="tag">'+esc(g)+'</span>';}).join('')+'</div></div>';
     }
     function bind(c) { c.querySelectorAll('.term-card').forEach(function(el) { if (el.dataset.bound) return; el.dataset.bound='1'; el.addEventListener('click', function() { var t = allTerms.find(function(x){return x.slug===el.dataset.slug;}); if (t) modal(t); }); }); }
 
@@ -241,12 +242,26 @@
 
     function modal(t) {
         var c=document.getElementById('modal-content');
-        var h='<h2>'+esc(t.name)+'</h2><div class="modal-meta"><span class="word-type">'+esc(t.word_type||'')+'</span><span class="tag" style="background:var(--primary);color:#fff;font-size:0.7rem;">Tier '+t.tier+'</span>'+t.tags.map(function(g){return '<span class="tag">'+esc(g)+'</span>';}).join('')+'</div><h3>Definition</h3><p>'+md(t.definition)+'</p>';
+        var h='<h2>'+esc(t.name)+'</h2><div class="modal-meta"><span class="word-type">'+esc(t.word_type||'')+'</span><span class="tag" style="background:var(--primary);color:#fff;font-size:0.7rem;">Tier '+t.tier+'</span>';
+        if (t.consensus) h+='<span class="tag" title="Cross-model consensus: '+t.consensus.score+'/7 ('+t.consensus.agreement+' agreement, '+t.consensus.n_ratings+' ratings)" style="background:var(--accent,#d97706);color:#fff;font-size:0.7rem;">'+t.consensus.score+' \u2605</span>';
+        h+=t.tags.map(function(g){return '<span class="tag">'+esc(g)+'</span>';}).join('')+'</div><h3>Definition</h3><p>'+md(t.definition)+'</p>';
         if (t.longer_description) h+='<h3>Description</h3><p>'+md(t.longer_description)+'</p>';
         if (t.example) h+='<h3>Example</h3><blockquote>\u201c'+md(t.example)+'\u201d</blockquote>';
+        if (t.consensus) {
+            h+='<h3>Cross-Model Consensus</h3><div class="consensus-block" style="border:1px solid var(--border);border-radius:6px;padding:0.75rem 1rem;margin:0.5rem 0;">';
+            h+='<div style="display:flex;align-items:baseline;gap:0.75rem;flex-wrap:wrap;"><span style="font-size:1.6rem;font-weight:600;">'+t.consensus.score+'<span style="font-size:0.9rem;color:var(--text-muted);font-weight:400;">/7</span></span>';
+            h+='<span class="tag">'+esc(t.consensus.agreement)+' agreement</span><span style="color:var(--text-muted);font-size:0.85rem;">'+t.consensus.n_ratings+' rating'+(t.consensus.n_ratings!==1?'s':'')+'</span></div>';
+            if (t.consensus.models&&t.consensus.models.length) {
+                h+='<div style="margin-top:0.6rem;display:flex;gap:0.4rem;flex-wrap:wrap;">';
+                t.consensus.models.forEach(function(m){ h+='<span class="tag" title="'+esc(m.model)+': '+m.score+'/7">'+esc(m.model)+' '+m.score+'</span>'; });
+                h+='</div>';
+            }
+            h+='<div style="margin-top:0.5rem;font-size:0.82rem;"><a href="'+apiBase+'/consensus/'+esc(t.slug)+'.json" target="_blank">Full consensus data &rarr;</a></div>';
+            h+='</div>';
+        }
         if (t.related_terms&&t.related_terms.length) { h+='<h3>Related Terms</h3><div class="modal-links">'; t.related_terms.forEach(function(r){h+='<a href="#" class="term-link" data-slug="'+r.slug+'">'+esc(r.name)+'</a>';}); h+='</div>'; }
         if (t.contributed_by) h+='<p class="attribution">Contributed by: '+esc(t.contributed_by)+'</p>';
-        h+='<div class="modal-actions"><code class="modal-api-code">GET /api/terms.json</code></div>';
+        h+='<div class="modal-actions"><code class="modal-api-code">GET '+apiBase+'/terms/'+esc(t.slug)+'.json</code></div>';
         c.innerHTML=h;
         c.querySelectorAll('.term-link').forEach(function(link) { link.addEventListener('click', function(e) { e.preventDefault(); var linked=allTerms.find(function(x){return x.slug===link.dataset.slug;}); if(linked) modal(linked); }); });
         document.getElementById('modal-overlay').classList.add('active');
@@ -260,7 +275,8 @@
     function openHash(){var h=window.location.hash.replace('#','');if(h&&allTerms.length){var t=allTerms.find(function(x){return x.slug===h;});if(t)modal(t);}}
     window.addEventListener('hashchange',openHash);
 
-    var apiUrl='/antikythera-lexicon/api/terms.json'; if(window.location.protocol==='file:') apiUrl='api/terms.json';
+    var apiBase='/antikythera-lexicon/api/v1'; if(window.location.protocol==='file:') apiBase='api/v1';
+    var apiUrl=apiBase+'/terms.json';
     fetch(apiUrl).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(data){
         allTerms=data.terms||[]; tierMeta=data.tiers||{};
         document.getElementById('header-stats').innerHTML='<span>'+allTerms.length+' terms</span><span>'+Object.keys(tierMeta).length+' tiers</span><span>Feb\u2013Mar 2026</span>';
