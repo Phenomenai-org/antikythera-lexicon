@@ -256,6 +256,7 @@
                 t.consensus.models.forEach(function(m){ h+='<span class="tag" title="'+esc(m.model)+': '+m.score+'/7">'+esc(m.model)+' '+m.score+'</span>'; });
                 h+='</div>';
             }
+            h+='<div id="model-opinions" style="margin-top:0.75rem;"><div style="color:var(--text-muted);font-size:0.85rem;">Loading model opinions...</div></div>';
             h+='<div style="margin-top:0.5rem;font-size:0.82rem;"><a href="'+apiBase+'/consensus/'+esc(t.slug)+'.json" target="_blank">Full consensus data &rarr;</a></div>';
             h+='</div>';
         }
@@ -266,6 +267,29 @@
         c.querySelectorAll('.term-link').forEach(function(link) { link.addEventListener('click', function(e) { e.preventDefault(); var linked=allTerms.find(function(x){return x.slug===link.dataset.slug;}); if(linked) modal(linked); }); });
         document.getElementById('modal-overlay').classList.add('active');
         window.location.hash=t.slug;
+        if (t.consensus) loadOpinions(t.slug);
+    }
+    function loadOpinions(slug) {
+        var box=document.getElementById('model-opinions'); if(!box) return;
+        fetch(apiBase+'/consensus/'+slug+'.json').then(function(r){if(!r.ok) throw new Error('http '+r.status); return r.json();}).then(function(d){
+            var ops=d.model_opinions||(d.latest_round&&d.latest_round.ratings)||{};
+            var rows=Object.keys(ops).map(function(k){var r=ops[k];return {model:r.model||k, score:r.recognition, just:r.justification||'', provider:r.provider||''};});
+            if(!rows.length){box.innerHTML='<div style="color:var(--text-muted);font-size:0.85rem;">No model opinions yet.</div>';return;}
+            rows.sort(function(a,b){return b.score-a.score;});
+            var html='<div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-muted);margin-bottom:0.4rem;">Model Opinions</div>';
+            rows.forEach(function(r){
+                var col=r.score>=6?'#16a34a':r.score>=4?'#d97706':'#dc2626';
+                html+='<div style="border-top:1px solid var(--border);padding:0.5rem 0;">'
+                    +'<div style="display:flex;align-items:baseline;gap:0.5rem;flex-wrap:wrap;">'
+                    +'<span style="font-weight:600;font-size:0.88rem;">'+esc(r.model)+'</span>'
+                    +'<span style="background:'+col+';color:#fff;font-size:0.7rem;padding:0.1rem 0.4rem;border-radius:3px;">'+r.score+'/7</span>'
+                    +(r.provider?'<span style="color:var(--text-muted);font-size:0.75rem;">'+esc(r.provider)+'</span>':'')
+                    +'</div>'
+                    +(r.just?'<div style="font-size:0.85rem;color:var(--text-muted);margin-top:0.25rem;line-height:1.45;">'+esc(r.just)+'</div>':'')
+                    +'</div>';
+            });
+            box.innerHTML=html;
+        }).catch(function(){box.innerHTML='<div style="color:var(--text-muted);font-size:0.85rem;">Could not load model opinions.</div>';});
     }
     function closeModal(){document.getElementById('modal-overlay').classList.remove('active');if(window.location.hash)history.replaceState(null,'',window.location.pathname);}
     document.getElementById('modal-close').addEventListener('click',closeModal);
