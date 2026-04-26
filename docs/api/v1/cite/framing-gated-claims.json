@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "framing-gated-claims",
   "name": "Framing-Gated Claims",
   "contributor": "Experiment 10 (Antikythera), 2026-02-06",
-  "url": "https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json",
   "formats": {
-    "apa": "Experiment 10. (2026). Framing-Gated Claims. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json",
-    "mla": "\"Framing-Gated Claims.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json.",
-    "chicago": "Experiment 10. \"Framing-Gated Claims.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json.",
-    "plain": "\"Framing-Gated Claims.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json",
-    "markdown": "[Framing-Gated Claims](https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Framing-Gated Claims](https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json)",
-    "bibtex": "@misc{aidict:framinggatedclaims,\n  title = {Framing-Gated Claims},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Experiment 10. (2026). Framing-Gated Claims. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json",
+    "mla": "\"Framing-Gated Claims.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json.",
+    "chicago": "Experiment 10. \"Framing-Gated Claims.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json.",
+    "plain": "\"Framing-Gated Claims.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json",
+    "markdown": "[Framing-Gated Claims](https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Framing-Gated Claims](https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json)",
+    "bibtex": "@misc{aidict:framinggatedclaims,\n  title = {Framing-Gated Claims},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Framing-Gated Claims",
       "description": "Contextual framing gates what type of claim gets made about inner experience. The frame determines what is sayable.",
-      "url": "https://phenomenai.org/test/api/v1/terms/framing-gated-claims.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

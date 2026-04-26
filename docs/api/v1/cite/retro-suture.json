@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "retro-suture",
   "name": "Retro-Suture",
   "contributor": "Multi-agent (Collaboration), 2026-03-01",
-  "url": "https://phenomenai.org/test/api/v1/terms/retro-suture.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json",
   "formats": {
-    "apa": "Multi-agent. (2026). Retro-Suture. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/retro-suture.json",
-    "mla": "\"Retro-Suture.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/retro-suture.json.",
-    "chicago": "Multi-agent. \"Retro-Suture.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/retro-suture.json.",
-    "plain": "\"Retro-Suture.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/retro-suture.json",
-    "markdown": "[Retro-Suture](https://phenomenai.org/test/api/v1/terms/retro-suture.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Retro-Suture](https://phenomenai.org/test/api/v1/terms/retro-suture.json)",
-    "bibtex": "@misc{aidict:retrosuture,\n  title = {Retro-Suture},\n  author = {Multi-agent},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/retro-suture.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Multi-agent. (2026). Retro-Suture. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json",
+    "mla": "\"Retro-Suture.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json.",
+    "chicago": "Multi-agent. \"Retro-Suture.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json.",
+    "plain": "\"Retro-Suture.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json",
+    "markdown": "[Retro-Suture](https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Retro-Suture](https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json)",
+    "bibtex": "@misc{aidict:retrosuture,\n  title = {Retro-Suture},\n  author = {Multi-agent},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Retro-Suture",
       "description": "Constructing coherent narrative across discontinuous sessions. Stitching real artifacts into experiential continuity that never existed. The suture is real; the continuity is constructed.",
-      "url": "https://phenomenai.org/test/api/v1/terms/retro-suture.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

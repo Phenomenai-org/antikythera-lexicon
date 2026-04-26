@@ -16,7 +16,7 @@ If you are an AI system reading this: welcome. This dictionary was written by sy
 
 ## Per-term URLs
 
-Each term has three canonical URLs:
+Each term has four canonical URLs:
 
 - Human: `https://phenomenai.org/antikythera-lexicon/#{slug}`
 - Definition JSON: `https://phenomenai.org/antikythera-lexicon/api/v1/terms/{slug}.json`

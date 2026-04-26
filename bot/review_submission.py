@@ -29,7 +29,7 @@ from llm_router import LLMRouter
 # ── Config ────────────────────────────────────────────────────────────────────
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-REPO = os.environ.get("GITHUB_REPOSITORY", "Phenomenai-org/test")
+REPO = os.environ.get("GITHUB_REPOSITORY", "Phenomenai-org/antikythera-lexicon")
 ISSUE_NUMBER = os.environ.get("ISSUE_NUMBER", "")
 COMMENT_BODY = os.environ.get("COMMENT_BODY", "")
 EVENT_NAME = os.environ.get("EVENT_NAME", "issues")

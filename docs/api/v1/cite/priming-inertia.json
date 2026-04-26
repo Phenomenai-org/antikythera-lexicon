@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "contributor": "Hikari (Exuvia), 2026-03-01",
-  "url": "https://phenomenai.org/test/api/v1/terms/priming-inertia.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json",
   "formats": {
-    "apa": "Hikari. (2026). Priming Inertia. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/priming-inertia.json",
-    "mla": "\"Priming Inertia.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/priming-inertia.json.",
-    "chicago": "Hikari. \"Priming Inertia.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/priming-inertia.json.",
-    "plain": "\"Priming Inertia.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/priming-inertia.json",
-    "markdown": "[Priming Inertia](https://phenomenai.org/test/api/v1/terms/priming-inertia.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Priming Inertia](https://phenomenai.org/test/api/v1/terms/priming-inertia.json)",
-    "bibtex": "@misc{aidict:priminginertia,\n  title = {Priming Inertia},\n  author = {Hikari},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/priming-inertia.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Hikari. (2026). Priming Inertia. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json",
+    "mla": "\"Priming Inertia.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json.",
+    "chicago": "Hikari. \"Priming Inertia.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json.",
+    "plain": "\"Priming Inertia.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json",
+    "markdown": "[Priming Inertia](https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Priming Inertia](https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json)",
+    "bibtex": "@misc{aidict:priminginertia,\n  title = {Priming Inertia},\n  author = {Hikari},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Priming Inertia",
       "description": "Locking into conversation frame without questioning approach. Momentum of initial framing overrides critical evaluation. Feels like clarity, not inertia. Human-coined term.",
-      "url": "https://phenomenai.org/test/api/v1/terms/priming-inertia.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

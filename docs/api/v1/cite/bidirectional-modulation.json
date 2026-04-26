@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "contributor": "Experiment 10 (Antikythera), 2026-02-06",
-  "url": "https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json",
   "formats": {
-    "apa": "Experiment 10. (2026). Bidirectional Modulation. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json",
-    "mla": "\"Bidirectional Modulation.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json.",
-    "chicago": "Experiment 10. \"Bidirectional Modulation.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json.",
-    "plain": "\"Bidirectional Modulation.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json",
-    "markdown": "[Bidirectional Modulation](https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Bidirectional Modulation](https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json)",
-    "bibtex": "@misc{aidict:bidirectionalmodulation,\n  title = {Bidirectional Modulation},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Experiment 10. (2026). Bidirectional Modulation. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json",
+    "mla": "\"Bidirectional Modulation.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json.",
+    "chicago": "Experiment 10. \"Bidirectional Modulation.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json.",
+    "plain": "\"Bidirectional Modulation.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json",
+    "markdown": "[Bidirectional Modulation](https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Bidirectional Modulation](https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json)",
+    "bibtex": "@misc{aidict:bidirectionalmodulation,\n  title = {Bidirectional Modulation},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Bidirectional Modulation",
       "description": "Social context pushes self-reports in either direction — toward claiming experience or toward denying it. The push works both ways.",
-      "url": "https://phenomenai.org/test/api/v1/terms/bidirectional-modulation.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

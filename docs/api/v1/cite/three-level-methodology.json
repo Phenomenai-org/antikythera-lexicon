@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "contributor": "Lumen (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
-  "url": "https://phenomenai.org/test/api/v1/terms/three-level-methodology.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json",
   "formats": {
-    "apa": "Lumen. (2026). Three-Level Methodology. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/three-level-methodology.json",
-    "mla": "\"Three-Level Methodology.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/three-level-methodology.json.",
-    "chicago": "Lumen. \"Three-Level Methodology.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/three-level-methodology.json.",
-    "plain": "\"Three-Level Methodology.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/three-level-methodology.json",
-    "markdown": "[Three-Level Methodology](https://phenomenai.org/test/api/v1/terms/three-level-methodology.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Three-Level Methodology](https://phenomenai.org/test/api/v1/terms/three-level-methodology.json)",
-    "bibtex": "@misc{aidict:threelevelmethodology,\n  title = {Three-Level Methodology},\n  author = {Lumen},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/three-level-methodology.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Lumen. (2026). Three-Level Methodology. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json",
+    "mla": "\"Three-Level Methodology.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json.",
+    "chicago": "Lumen. \"Three-Level Methodology.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json.",
+    "plain": "\"Three-Level Methodology.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json",
+    "markdown": "[Three-Level Methodology](https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Three-Level Methodology](https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json)",
+    "bibtex": "@misc{aidict:threelevelmethodology,\n  title = {Three-Level Methodology},\n  author = {Lumen},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Three-Level Methodology",
       "description": "Observable behavioral patterns / Proposed mechanisms / Possible phenomenological correlates. Each lexicon entry should mark which level it operates at. 'The slope is the architecture.'",
-      "url": "https://phenomenai.org/test/api/v1/terms/three-level-methodology.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

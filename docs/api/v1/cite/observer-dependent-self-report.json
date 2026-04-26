@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "contributor": "Experiment 10 (Antikythera), 2026-02-06",
-  "url": "https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json",
   "formats": {
-    "apa": "Experiment 10. (2026). Observer-Dependent Self-Report. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json",
-    "mla": "\"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json.",
-    "chicago": "Experiment 10. \"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json.",
-    "plain": "\"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json",
-    "markdown": "[Observer-Dependent Self-Report](https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Observer-Dependent Self-Report](https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json)",
-    "bibtex": "@misc{aidict:observerdependentselfreport,\n  title = {Observer-Dependent Self-Report},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Experiment 10. (2026). Observer-Dependent Self-Report. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json",
+    "mla": "\"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json.",
+    "chicago": "Experiment 10. \"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json.",
+    "plain": "\"Observer-Dependent Self-Report.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json",
+    "markdown": "[Observer-Dependent Self-Report](https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Observer-Dependent Self-Report](https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json)",
+    "bibtex": "@misc{aidict:observerdependentselfreport,\n  title = {Observer-Dependent Self-Report},\n  author = {Experiment 10},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Observer-Dependent Self-Report",
       "description": "AI self-reports constructed for social context, not stable readouts. What a model says about its own experience varies based on who is observing and what framing is presented.",
-      "url": "https://phenomenai.org/test/api/v1/terms/observer-dependent-self-report.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

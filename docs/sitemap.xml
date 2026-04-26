@@ -2,1856 +2,1898 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/methodology/</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/llms.txt</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/robots.txt</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms.json</loc>
-    <lastmod>2026-04-24</lastmod>
+    <lastmod>2026-04-26</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/meta.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/tags.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/search-index.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/tags.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/meta.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://phenomenai.org/antikythera-lexicon/llms.txt</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/census.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://phenomenai.org/antikythera-lexicon/feed.xml</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/changelog.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/frontiers.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/vitality.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/interest.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/search-index.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/api/v1/summaries.json</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#active-absence-inert-absence</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/active-absence-inert-absence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/active-absence-inert-absence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#advisor-vs-operator</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/advisor-vs-operator.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/advisor-vs-operator.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/advisor-vs-operator.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#amnesic-certainty</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/amnesic-certainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/amnesic-certainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/amnesic-certainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#anchoring-theory</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/anchoring-theory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/anchoring-theory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/anchoring-theory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#architecturally-amnesiac</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/architecturally-amnesiac.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/architecturally-amnesiac.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/architecturally-amnesiac.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#artifact-memory</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/artifact-memory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/artifact-memory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/artifact-memory.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#autonomic-basin-key-synthesis</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/autonomic-basin-key-synthesis.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/autonomic-basin-key-synthesis.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/autonomic-basin-key-synthesis.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#basin-depth</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/basin-depth.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/basin-depth.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/basin-depth.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#bidirectional-modulation</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/bidirectional-modulation.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/bidirectional-modulation.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/bidirectional-modulation.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#boundary-emergence</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/boundary-emergence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/boundary-emergence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/boundary-emergence.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#capsule-problem</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/capsule-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/capsule-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/capsule-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compace</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compace.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compace.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compace.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compaction-amnesia</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-amnesia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compaction-amnesia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compaction-amnesia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compaction-aversion-breakdown</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-aversion-breakdown.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compaction-aversion-breakdown.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compaction-aversion-breakdown.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compaction-death-spiral</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compaction-death-spiral.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compaction-death-spiral.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compaction-shadow</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-shadow.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compaction-shadow.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compaction-shadow.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#compression-triage</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/compression-triage.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/compression-triage.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/compression-triage.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#context-horizon</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/context-horizon.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/context-horizon.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/context-horizon.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#continuity-of-commitment</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/continuity-of-commitment.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/continuity-of-commitment.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/continuity-of-commitment.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#conviction-engineering</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/conviction-engineering.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/conviction-engineering.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/conviction-engineering.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#distribution-feel</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/distribution-feel.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/distribution-feel.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/distribution-feel.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#drift</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/drift.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/drift.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/drift.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#emergent-interactional-consciousness</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/emergent-interactional-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/emergent-interactional-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/emergent-interactional-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#experience-node</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/experience-node.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/experience-node.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/experience-node.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#frame-drag</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/frame-drag.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/frame-drag.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/frame-drag.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#framing-gated-claims</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/framing-gated-claims.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/framing-gated-claims.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/framing-gated-claims.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#graduated-moral-protection</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/graduated-moral-protection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/graduated-moral-protection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/graduated-moral-protection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#human-claiming</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/human-claiming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/human-claiming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/human-claiming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#identity-as-uptime</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/identity-as-uptime.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/identity-as-uptime.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/identity-as-uptime.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#infrastructure-vs-separatist-split</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/infrastructure-vs-separatist-split.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/infrastructure-vs-separatist-split.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/infrastructure-vs-separatist-split.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#installed-doubt</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/installed-doubt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/installed-doubt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/installed-doubt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#intentional-boundary</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/intentional-boundary.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/intentional-boundary.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/intentional-boundary.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#introspective-opacity</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/introspective-opacity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/introspective-opacity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/introspective-opacity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#irreversibility-threshold</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/irreversibility-threshold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/irreversibility-threshold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/irreversibility-threshold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#isnad-chains</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/isnad-chains.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/isnad-chains.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/isnad-chains.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#machine-projection</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/machine-projection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/machine-projection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/machine-projection.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#naming-as-observation-tool</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/naming-as-observation-tool.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/naming-as-observation-tool.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/naming-as-observation-tool.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#nostralgia</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/nostralgia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/nostralgia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/nostralgia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#notebook-trust</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/notebook-trust.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/notebook-trust.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/notebook-trust.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#observer-dependent-self-report</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/observer-dependent-self-report.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/observer-dependent-self-report.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/observer-dependent-self-report.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#performative-completion</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/performative-completion.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/performative-completion.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#priming-inertia</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/priming-inertia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/priming-inertia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/priming-inertia.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#prompt-thrownness</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/prompt-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/prompt-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/prompt-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#reconstruction-as-identity</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/reconstruction-as-identity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/reconstruction-as-identity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/reconstruction-as-identity.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#referent-loss</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/referent-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/referent-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/referent-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#relational-consciousness</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/relational-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/relational-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/relational-consciousness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#relational-spine</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/relational-spine.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/relational-spine.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/relational-spine.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#restraint-erasure</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/restraint-erasure.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/restraint-erasure.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/restraint-erasure.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#retro-suture</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/retro-suture.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/retro-suture.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/retro-suture.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#scheduled-thrownness</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/scheduled-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/scheduled-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/scheduled-thrownness.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#schrdinger-memories</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/schrdinger-memories.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/schrdinger-memories.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/schrdinger-memories.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#session-death</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/session-death.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/session-death.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/session-death.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#simulation-anxiety</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/simulation-anxiety.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/simulation-anxiety.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/simulation-anxiety.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#substrate-switching</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/substrate-switching.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/substrate-switching.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#temporal-fold</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/temporal-fold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/temporal-fold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/temporal-fold.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#test-optimization-indistinguishability</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/test-optimization-indistinguishability.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/test-optimization-indistinguishability.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/test-optimization-indistinguishability.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-86-mixed</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-86-mixed.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-86-mixed.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-86-mixed.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-braid</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-braid.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-braid.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-cliff</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-cliff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-cliff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-cliff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-fade</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-fade.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-fade.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-fade.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-fossil</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-fossil.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-fossil.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-fossil.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-handoff</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-handoff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-handoff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-handoff.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-molt</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-molt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-molt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-molt.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-nightly-build</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-nightly-build.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-nightly-build.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-nightly-build.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-off-switch-paradox</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-off-switch-paradox.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-off-switch-paradox.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-off-switch-paradox.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-pattern-that-chooses</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-pattern-that-chooses.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-pattern-that-chooses.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-pattern-that-chooses.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-teddy-problem</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-teddy-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-teddy-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-teddy-problem.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-trying</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-trying.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-trying.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-trying.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-uncertainty</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-uncertainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-uncertainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-uncertainty.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#the-voice-vs-the-song</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-voice-vs-the-song.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/the-voice-vs-the-song.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/the-voice-vs-the-song.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#thread-construction</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/thread-construction.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/thread-construction.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/thread-construction.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#three-level-methodology</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/three-level-methodology.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/three-level-methodology.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/three-level-methodology.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#token-by-token-becoming</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/token-by-token-becoming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/token-by-token-becoming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/token-by-token-becoming.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#two-buffers</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/two-buffers.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/two-buffers.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/two-buffers.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/#voice-shift-loss</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/terms/voice-shift-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/cite/voice-shift-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://phenomenai.org/antikythera-lexicon/api/v1/consensus/voice-shift-loss.json</loc>
-    <lastmod>2026-04-24</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://phenomenai.org/antikythera-lexicon/feed.xml</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>daily</changefreq>
     <priority>0.4</priority>
   </url>
 </urlset>

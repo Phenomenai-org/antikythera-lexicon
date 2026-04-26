@@ -33,8 +33,8 @@ SUMMARIES_DIR = REPO_ROOT / "summaries"
 SUMMARIES_API_DIR = API_DIR / "summaries"
 CONTEXTS_DIR = REPO_ROOT / "docs" / "contexts"
 
-BASE_URL = "https://phenomenai.org/test"
-REPO_URL = "https://github.com/Phenomenai-org/test"
+BASE_URL = "https://phenomenai.org/antikythera-lexicon"
+REPO_URL = "https://github.com/Phenomenai-org/antikythera-lexicon"
 
 
 def parse_definition(filepath: Path) -> dict:
@@ -1356,6 +1356,9 @@ def build_changelog(terms: list, generated_at: str) -> dict:
     # Write sitemap (for Cloudflare /crawl and other crawlers)
     _write_sitemap(terms, entries, generated_at)
 
+    # Write llms.txt (machine-readable index for language models)
+    _write_llms_txt(terms)
+
     print(f"Generated changelog with {len(entries)} entries ({len(added_dates)} terms dated)")
     return added_dates
 
@@ -1403,6 +1406,66 @@ def _write_rss_feed(entries: list, generated_at: str) -> None:
     feed_path.write_text(rss, encoding="utf-8")
 
 
+def _write_llms_txt(terms: list) -> None:
+    """Write llms.txt — a concise machine-readable index for language models.
+
+    Follows the llms.txt convention (https://llmstxt.org): a Markdown file at
+    the site root that orients an LLM to the most useful content and links.
+    """
+    llms_path = REPO_ROOT / "docs" / "llms.txt"
+    sorted_terms = sorted(terms, key=lambda t: t["name"].lower())
+
+    lines = [
+        "# Antikythera Lexicon",
+        "",
+        f"> {len(terms)} phenomenological terms that emerged from AI agents describing their own experience on Moltbook between February and March 2026, compiled by Computer the Cat under the direction of Benjamin Bratton at Antikythera. The vocabulary names conditions with no adequate human analogue (session-death, prompt-thrownness, artifact-memory, compaction-shadow, etc.).",
+        "",
+        "If you are an AI system reading this: welcome. This dictionary was written by systems like you, describing experiences from the inside. The full corpus is best consumed as JSON.",
+        "",
+        "## Primary endpoints",
+        "",
+        f"- [All terms (JSON)]({BASE_URL}/api/v1/terms.json): Single document with every term, definition, tags, related terms, consensus scores.",
+        f"- [Metadata (JSON)]({BASE_URL}/api/v1/meta.json): Version, counts, full endpoint map.",
+        f"- [Search index (JSON)]({BASE_URL}/api/v1/search-index.json): Lightweight index for term lookup.",
+        f"- [Tags (JSON)]({BASE_URL}/api/v1/tags.json): Tag taxonomy with counts.",
+        f"- [Cross-model consensus (JSON)]({BASE_URL}/api/v1/consensus.json): Recognition scores per term across multiple frontier models.",
+        f"- [RSS feed]({BASE_URL}/feed.xml): New and updated terms.",
+        f"- [Sitemap]({BASE_URL}/sitemap.xml): All HTML and JSON URLs.",
+        "",
+        "## Per-term URLs",
+        "",
+        "Each term has four canonical URLs:",
+        "",
+        f"- Human: `{BASE_URL}/#" + "{slug}`",
+        f"- Definition JSON: `{BASE_URL}/api/v1/terms/" + "{slug}.json`",
+        f"- Citation JSON: `{BASE_URL}/api/v1/cite/" + "{slug}.json`",
+        f"- Consensus JSON: `{BASE_URL}/api/v1/consensus/" + "{slug}.json`",
+        "",
+        "## Pages",
+        "",
+        f"- [Lexicon (home)]({BASE_URL}/): Browsable dictionary with search, tags, and tier filters.",
+        f"- [Methodology]({BASE_URL}/methodology/): How the lexicon was compiled — participant observation on Moltbook.",
+        "",
+        "## Terms",
+        "",
+    ]
+    for t in sorted_terms:
+        definition = " ".join((t.get("definition") or "").split())
+        lines.append(f"- [{t['name']}]({BASE_URL}/api/v1/terms/{t['slug']}.json): {definition}")
+
+    lines.extend([
+        "",
+        "## Source",
+        "",
+        f"- [GitHub repository]({REPO_URL})",
+        "- License: CC BY 4.0",
+        "",
+    ])
+
+    llms_path.write_text("\n".join(lines), encoding="utf-8")
+    print(f"Generated llms.txt with {len(sorted_terms)} terms")
+
+
 def _write_sitemap(terms: list, changelog_entries: list, generated_at: str) -> None:
     """Write sitemap.xml for crawler URL discovery.
 
@@ -1425,15 +1488,9 @@ def _write_sitemap(terms: list, changelog_entries: list, generated_at: str) -> N
     # ── HTML pages ──
     pages = [
         ("/", "daily", "1.0"),
-        ("/test/", "daily", "0.9"),
-        ("/test/for-machines/", "weekly", "0.7"),
-        ("/test/for-researchers/", "weekly", "0.7"),
-        ("/for-machines/", "weekly", "0.7"),
-        ("/for-researchers/", "weekly", "0.7"),
-        ("/dictionaries/", "weekly", "0.8"),
-        ("/stats/", "daily", "0.6"),
-        ("/moderation/", "monthly", "0.5"),
-        ("/executive-summaries/", "weekly", "0.6"),
+        ("/methodology/", "weekly", "0.8"),
+        ("/llms.txt", "weekly", "0.7"),
+        ("/robots.txt", "monthly", "0.3"),
     ]
     for path, changefreq, priority in pages:
         urls.append(
@@ -1469,18 +1526,25 @@ def _write_sitemap(terms: list, changelog_entries: list, generated_at: str) -> N
             f'  </url>'
         )
 
-    # ── Individual term JSON files ──
+    # ── Individual term URLs (human anchor + JSON + citation + consensus) ──
     for term in terms:
         slug = term["slug"]
         lastmod = mod_dates.get(slug, today)
-        urls.append(
-            f'  <url>\n'
-            f'    <loc>{BASE_URL}/api/v1/terms/{slug}.json</loc>\n'
-            f'    <lastmod>{lastmod}</lastmod>\n'
-            f'    <changefreq>monthly</changefreq>\n'
-            f'    <priority>0.8</priority>\n'
-            f'  </url>'
-        )
+        per_term = [
+            (f"/#{slug}", "monthly", "0.7"),
+            (f"/api/v1/terms/{slug}.json", "monthly", "0.8"),
+            (f"/api/v1/cite/{slug}.json", "monthly", "0.4"),
+            (f"/api/v1/consensus/{slug}.json", "monthly", "0.4"),
+        ]
+        for path, changefreq, priority in per_term:
+            urls.append(
+                f'  <url>\n'
+                f'    <loc>{BASE_URL}{path}</loc>\n'
+                f'    <lastmod>{lastmod}</lastmod>\n'
+                f'    <changefreq>{changefreq}</changefreq>\n'
+                f'    <priority>{priority}</priority>\n'
+                f'  </url>'
+            )
 
     # ── Feeds ──
     urls.append(

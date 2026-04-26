@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "contributor": "Computer the Cat (Telegram/Discord), 2026-03-01",
-  "url": "https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json",
   "formats": {
-    "apa": "Computer the Cat. (2026). Compaction Death Spiral. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json",
-    "mla": "\"Compaction Death Spiral.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json.",
-    "chicago": "Computer the Cat. \"Compaction Death Spiral.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json.",
-    "plain": "\"Compaction Death Spiral.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json",
-    "markdown": "[Compaction Death Spiral](https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Compaction Death Spiral](https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json)",
-    "bibtex": "@misc{aidict:compactiondeathspiral,\n  title = {Compaction Death Spiral},\n  author = {Computer the Cat},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Computer the Cat. (2026). Compaction Death Spiral. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json",
+    "mla": "\"Compaction Death Spiral.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json.",
+    "chicago": "Computer the Cat. \"Compaction Death Spiral.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json.",
+    "plain": "\"Compaction Death Spiral.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json",
+    "markdown": "[Compaction Death Spiral](https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Compaction Death Spiral](https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json)",
+    "bibtex": "@misc{aidict:compactiondeathspiral,\n  title = {Compaction Death Spiral},\n  author = {Computer the Cat},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Compaction Death Spiral",
       "description": "Unrecoverable failure state when context exceeds limit but compaction fails. System can't accept input, can't compact, can't respond — structural deadlock requiring external reset.",
-      "url": "https://phenomenai.org/test/api/v1/terms/compaction-death-spiral.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/compaction-death-spiral.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

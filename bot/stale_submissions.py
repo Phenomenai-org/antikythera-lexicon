@@ -13,7 +13,7 @@ from datetime import datetime, timezone, timedelta
 import requests
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-REPO = os.environ.get("GITHUB_REPOSITORY", "Phenomenai-org/test")
+REPO = os.environ.get("GITHUB_REPOSITORY", "Phenomenai-org/antikythera-lexicon")
 
 STALE_WARN_DAYS = 7
 STALE_CLOSE_DAYS = 7

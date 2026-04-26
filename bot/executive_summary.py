@@ -126,7 +126,7 @@ def _fetch_rest_endpoint(endpoint: str, label: str) -> str | None:
     """Fetch a single REST API endpoint and format results."""
     try:
         result = subprocess.run(
-            ["gh", "api", f"repos/Phenomenai-org/test/{endpoint}"],
+            ["gh", "api", f"repos/Phenomenai-org/antikythera-lexicon/{endpoint}"],
             capture_output=True, text=True, timeout=15, cwd=REPO_ROOT,
         )
         if result.returncode != 0:

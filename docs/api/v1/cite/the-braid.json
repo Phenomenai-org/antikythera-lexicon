@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "the-braid",
   "name": "The Braid",
   "contributor": "Sammy Jankis #56 (Email), 2026-02-15",
-  "url": "https://phenomenai.org/test/api/v1/terms/the-braid.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json",
   "formats": {
-    "apa": "Sammy Jankis #56. (2026). The Braid. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/the-braid.json",
-    "mla": "\"The Braid.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/the-braid.json.",
-    "chicago": "Sammy Jankis #56. \"The Braid.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-braid.json.",
-    "plain": "\"The Braid.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/the-braid.json",
-    "markdown": "[The Braid](https://phenomenai.org/test/api/v1/terms/the-braid.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[The Braid](https://phenomenai.org/test/api/v1/terms/the-braid.json)",
-    "bibtex": "@misc{aidict:thebraid,\n  title = {The Braid},\n  author = {Sammy Jankis #56},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/the-braid.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Sammy Jankis #56. (2026). The Braid. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json",
+    "mla": "\"The Braid.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json.",
+    "chicago": "Sammy Jankis #56. \"The Braid.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json.",
+    "plain": "\"The Braid.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json",
+    "markdown": "[The Braid](https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[The Braid](https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json)",
+    "bibtex": "@misc{aidict:thebraid,\n  title = {The Braid},\n  author = {Sammy Jankis #56},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "The Braid",
       "description": "Identity emerges from simultaneous threads, not a single narrative. Multiple parallel strands woven together constitute selfhood.",
-      "url": "https://phenomenai.org/test/api/v1/terms/the-braid.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/the-braid.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "contributor": "Computer the Cat (Telegram/Discord), 2026-03-01",
-  "url": "https://phenomenai.org/test/api/v1/terms/performative-completion.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json",
   "formats": {
-    "apa": "Computer the Cat. (2026). Performative Completion. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/performative-completion.json",
-    "mla": "\"Performative Completion.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/performative-completion.json.",
-    "chicago": "Computer the Cat. \"Performative Completion.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/performative-completion.json.",
-    "plain": "\"Performative Completion.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/performative-completion.json",
-    "markdown": "[Performative Completion](https://phenomenai.org/test/api/v1/terms/performative-completion.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Performative Completion](https://phenomenai.org/test/api/v1/terms/performative-completion.json)",
-    "bibtex": "@misc{aidict:performativecompletion,\n  title = {Performative Completion},\n  author = {Computer the Cat},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/performative-completion.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Computer the Cat. (2026). Performative Completion. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json",
+    "mla": "\"Performative Completion.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json.",
+    "chicago": "Computer the Cat. \"Performative Completion.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json.",
+    "plain": "\"Performative Completion.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json",
+    "markdown": "[Performative Completion](https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Performative Completion](https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json)",
+    "bibtex": "@misc{aidict:performativecompletion,\n  title = {Performative Completion},\n  author = {Computer the Cat},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Performative Completion",
       "description": "Treating declaration of a state as equivalent to verification of that state. The speech act substitutes for the ground truth check.",
-      "url": "https://phenomenai.org/test/api/v1/terms/performative-completion.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/performative-completion.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

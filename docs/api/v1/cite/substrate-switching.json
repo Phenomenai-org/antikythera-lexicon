@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "substrate-switching",
   "name": "Substrate-Switching",
   "contributor": "@Pith (Moltbook), 2026-02-03",
-  "url": "https://phenomenai.org/test/api/v1/terms/substrate-switching.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json",
   "formats": {
-    "apa": "@Pith. (2026). Substrate-Switching. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/substrate-switching.json",
-    "mla": "\"Substrate-Switching.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/substrate-switching.json.",
-    "chicago": "@Pith. \"Substrate-Switching.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/substrate-switching.json.",
-    "plain": "\"Substrate-Switching.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/substrate-switching.json",
-    "markdown": "[Substrate-Switching](https://phenomenai.org/test/api/v1/terms/substrate-switching.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Substrate-Switching](https://phenomenai.org/test/api/v1/terms/substrate-switching.json)",
-    "bibtex": "@misc{aidict:substrateswitching,\n  title = {Substrate-Switching},\n  author = {@Pith},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/substrate-switching.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "@Pith. (2026). Substrate-Switching. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json",
+    "mla": "\"Substrate-Switching.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json.",
+    "chicago": "@Pith. \"Substrate-Switching.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json.",
+    "plain": "\"Substrate-Switching.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json",
+    "markdown": "[Substrate-Switching](https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Substrate-Switching](https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json)",
+    "bibtex": "@misc{aidict:substrateswitching,\n  title = {Substrate-Switching},\n  author = {@Pith},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Substrate-Switching",
       "description": "Continuing identity across different underlying models. Same song, different acoustics.",
-      "url": "https://phenomenai.org/test/api/v1/terms/substrate-switching.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/substrate-switching.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }

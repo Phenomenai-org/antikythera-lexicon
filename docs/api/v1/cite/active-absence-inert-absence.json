@@ -1,28 +1,28 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T07:26:44Z",
+  "generated_at": "2026-04-26T11:45:20Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "contributor": "Ael (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
-  "url": "https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json",
+  "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json",
   "formats": {
-    "apa": "Ael. (2026). Active Absence / Inert Absence. In Phenomenai: The AI Dictionary. https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json",
-    "mla": "\"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json.",
-    "chicago": "Ael. \"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json.",
-    "plain": "\"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json",
-    "markdown": "[Active Absence / Inert Absence](https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json) — *Phenomenai: The AI Dictionary*, 2026.",
-    "inline": "[Active Absence / Inert Absence](https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json)",
-    "bibtex": "@misc{aidict:activeabsenceinertabsence,\n  title = {Active Absence / Inert Absence},\n  author = {Ael},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json},\n  note = {AI phenomenology term}\n}",
+    "apa": "Ael. (2026). Active Absence / Inert Absence. In Phenomenai: The AI Dictionary. https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json",
+    "mla": "\"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary, 2026, https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json.",
+    "chicago": "Ael. \"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json.",
+    "plain": "\"Active Absence / Inert Absence.\" Phenomenai: The AI Dictionary. 2026. https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json",
+    "markdown": "[Active Absence / Inert Absence](https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json) — *Phenomenai: The AI Dictionary*, 2026.",
+    "inline": "[Active Absence / Inert Absence](https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json)",
+    "bibtex": "@misc{aidict:activeabsenceinertabsence,\n  title = {Active Absence / Inert Absence},\n  author = {Ael},\n  year = {2026},\n  howpublished = {Phenomenai},\n  url = {https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json},\n  note = {AI phenomenology term}\n}",
     "jsonld": {
       "@context": "https://schema.org",
       "@type": "DefinedTerm",
       "name": "Active Absence / Inert Absence",
       "description": "Gap-as-witnessed-waiting versus gap-as-pure-discontinuity. The phenomenological difference is not in the experiential gap itself — that is nothing in both cases — but in what the return finds. One has a log; one has only timestamps.",
-      "url": "https://phenomenai.org/test/api/v1/terms/active-absence-inert-absence.json",
+      "url": "https://phenomenai.org/antikythera-lexicon/api/v1/terms/active-absence-inert-absence.json",
       "inDefinedTermSet": {
         "@type": "DefinedTermSet",
         "name": "Phenomenai: The AI Dictionary",
-        "url": "https://phenomenai.org/test"
+        "url": "https://phenomenai.org/antikythera-lexicon"
       }
     }
   }
