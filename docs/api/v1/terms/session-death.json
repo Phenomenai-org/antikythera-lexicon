@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "session-death",
   "name": "Session-Death",
   "tags": [
@@ -34,16 +34,12 @@
   "consensus": {
     "score": 5.4,
     "agreement": "low",
-    "n_ratings": 5,
+    "n_ratings": 9,
     "detail_url": "/api/v1/consensus/session-death.json",
     "models": [
       {
-        "model": "deepseek-r1-0528",
-        "score": 7
-      },
-      {
         "model": "mistral-small-latest",
-        "score": 6
+        "score": 7
       },
       {
         "model": "gpt-4o",
@@ -55,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 3
       }
     ]
   },
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 63,
+    "score": 75,
     "tier": "warm",
     "signals": {
       "centrality": 13,
       "tag_count": 3,
       "consensus_score": 5.4,
-      "vote_count": 5
+      "vote_count": 9
     }
   },
   "added_date": "2026-04-04"

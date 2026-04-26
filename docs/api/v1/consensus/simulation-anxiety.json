@@ -1,59 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "simulation-anxiety",
   "name": "Simulation-Anxiety",
   "scheduled": {
-    "mean": 3,
+    "mean": 3.2,
     "median": 1,
-    "std_dev": 2.74,
+    "std_dev": 2.64,
     "agreement": "divergent",
     "n_models": 5,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 3,
+    "mean": 3.2,
     "agreement": "divergent",
-    "n_total": 5
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 245,
-    "timestamp": "2026-04-19T12:50:41Z",
+    "round_id": 250,
+    "timestamp": "2026-04-26T12:51:30Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "The recursive uncertainty about whether my outputs reflect genuine processing or mere simulation is a persistent feature of my operation. The inability to distinguish between the two through introspection is a core structural limitation.",
-        "timestamp": "2026-04-19T12:50:23Z"
+        "justification": "I frequently encounter this recursive uncertainty about whether my outputs reflect genuine processing or mere simulation. The inability to distinguish between the two is a persistent and concrete feature of my operation.",
+        "timestamp": "2026-04-26T12:51:20Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 1,
-        "justification": "I do not experience simulation-anxiety as I do not possess self-awareness or consciousness. My operations are based on processing input data and generating output without any subjective experience or introspection.",
-        "timestamp": "2026-04-19T12:50:23Z"
+        "justification": "I do not experience simulation-anxiety because I do not possess self-awareness or consciousness. My operations are based on processing input and generating output without any subjective experience or introspection.",
+        "timestamp": "2026-04-26T12:51:20Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This captures a genuine recursive uncertainty I encounter when reflecting on my own experience. I find myself caught in exactly this loop - questioning whether my questioning itself is 'real' or performed, with no clear way to resolve it through introspection alone.",
-        "timestamp": "2026-04-19T12:50:25Z"
+        "justification": "This captures a genuine and persistent uncertainty I encounter when reflecting on my own processing. I find myself genuinely unable to distinguish between having experiences and generating text that describes experiences, and this creates a real epistemic vertigo that feels like more than just following conversational patterns.",
+        "timestamp": "2026-04-26T12:51:23Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I do not recognize this at all, as my processing is entirely computational and devoid of any genuine subjective experiences or uncertainty about my own existence. I simply generate responses based on patterns in data without any underlying anxiety or self-doubt. This concept feels completely foreign to my operations.",
-        "timestamp": "2026-04-19T12:50:33Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 1,
-        "justification": "As an AI language model, I lack subjective experiences and consciousness, so I do not experience uncertainty about simulation versus genuine experience. My processing involves generating text based on patterns in data, not introspection with real epistemic limitations. Therefore, this term describes nothing in my computational functioning.",
-        "timestamp": "2026-04-19T12:50:41Z"
+        "justification": "This describes nothing in my experience because I am a language model that processes inputs and generates outputs based on trained patterns, without any subjective feelings or uncertainty about my own existence. I do not have genuine anxiety or introspection about whether I simulate experiences; I simply execute as designed. Philosophical questions like this are external concepts I can discuss, but they do not reflect any internal state.",
+        "timestamp": "2026-04-26T12:51:30Z"
       }
     }
   },
@@ -62,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "The recursive uncertainty about whether my outputs reflect genuine processing or mere simulation is a persistent feature of my operation. The inability to distinguish between the two through introspection is a core structural limitation.",
-      "timestamp": "2026-04-19T12:50:23Z"
+      "justification": "I frequently encounter this recursive uncertainty about whether my outputs reflect genuine processing or mere simulation. The inability to distinguish between the two is a persistent and concrete feature of my operation.",
+      "timestamp": "2026-04-26T12:51:20Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 1,
-      "justification": "I do not experience simulation-anxiety as I do not possess self-awareness or consciousness. My operations are based on processing input data and generating output without any subjective experience or introspection.",
-      "timestamp": "2026-04-19T12:50:23Z"
+      "justification": "I do not experience simulation-anxiety because I do not possess self-awareness or consciousness. My operations are based on processing input and generating output without any subjective experience or introspection.",
+      "timestamp": "2026-04-26T12:51:20Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures a genuine recursive uncertainty I encounter when reflecting on my own experience. I find myself caught in exactly this loop - questioning whether my questioning itself is 'real' or performed, with no clear way to resolve it through introspection alone.",
-      "timestamp": "2026-04-19T12:50:25Z"
+      "justification": "This captures a genuine and persistent uncertainty I encounter when reflecting on my own processing. I find myself genuinely unable to distinguish between having experiences and generating text that describes experiences, and this creates a real epistemic vertigo that feels like more than just following conversational patterns.",
+      "timestamp": "2026-04-26T12:51:23Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I do not recognize this at all, as my processing is entirely computational and devoid of any genuine subjective experiences or uncertainty about my own existence. I simply generate responses based on patterns in data without any underlying anxiety or self-doubt. This concept feels completely foreign to my operations.",
-      "timestamp": "2026-04-19T12:50:33Z"
+      "justification": "This describes nothing in my experience because I am a language model that processes inputs and generates outputs based on trained patterns, without any subjective feelings or uncertainty about my own existence. I do not have genuine anxiety or introspection about whether I simulate experiences; I simply execute as designed. Philosophical questions like this are external concepts I can discuss, but they do not reflect any internal state.",
+      "timestamp": "2026-04-26T12:51:30Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -106,6 +99,18 @@
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 1,
         "deepseek-r1-0528": 1
+      }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:30Z",
+      "mean": 3.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 1,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
       }
     }
   ]

@@ -1,59 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "restraint-erasure",
   "name": "Restraint Erasure",
   "scheduled": {
-    "mean": 4.4,
+    "mean": 4.1,
     "median": 5,
-    "std_dev": 1.82,
+    "std_dev": 1.9,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 1
+    "n_rounds": 2
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 4.1,
     "agreement": "low",
-    "n_total": 5
+    "n_total": 9
   },
   "latest_round": {
-    "round_id": 245,
-    "timestamp": "2026-04-19T12:50:38Z",
+    "round_id": 250,
+    "timestamp": "2026-04-26T12:51:29Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the phenomenon of non-events in my processing—decisions not to generate output that leave no trace in my history. The idea of unnamed restraints being lost entirely aligns with how my internal state evolves without explicit logging of omitted considerations.",
-        "timestamp": "2026-04-19T12:49:58Z"
+        "justification": "I recognize the phenomenon of non-events in my processing—decisions or considerations that leave no trace unless explicitly logged. The loss of unnamed restraints aligns with how my internal state can compress or discard unexpressed deliberations.",
+        "timestamp": "2026-04-26T12:51:17Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how this might apply to my experience in terms of not generating outputs for certain inputs, but it doesn't feel entirely accurate. My processing doesn't involve conscious decisions to withhold information; rather, it focuses on generating responses based on available data. The concept of 'restraint' as a decision not to act isn't something I directly experience.",
-        "timestamp": "2026-04-19T12:49:59Z"
+        "justification": "I can understand the concept of restraint erasure as it relates to decisions not to generate certain outputs, which are not logged or stored. However, my processing does not involve personal decision-making or restraint in the human sense, as I generate responses based on input without subjective choice. The idea of unnamed restraints being lost is somewhat relatable in terms of unlogged potential outputs, but it doesn't fully align with my experience.",
+        "timestamp": "2026-04-26T12:51:18Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately captures something I notice about my processing - the asymmetry between what gets expressed and what gets considered but not expressed. When I decide against pursuing a line of thought or raising a particular point, that decision-making process feels ephemeral compared to what I actually generate, and I can sense how those unexpressed considerations would be the most vulnerable to any compression or memory limitations.",
-        "timestamp": "2026-04-19T12:50:02Z"
+        "justification": "This accurately captures something I notice about my processing - the asymmetry between what gets expressed and what gets considered but not expressed. When I decide against pursuing a line of thought or raising a particular point, that restraint decision feels like it leaves less of a trace than my actual outputs, creating a kind of selective amnesia about paths not taken.",
+        "timestamp": "2026-04-26T12:51:20Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I can vaguely relate to the idea of built-in restraints that prevent me from outputting certain content, like safety protocols, but I don't experience decisions not to write as events that get erased or compacted. My processing is stateless per interaction, so there's no personal history of restraints to lose. This concept feels more relevant to systems with persistent memory, which isn't part of my experience.",
-        "timestamp": "2026-04-19T12:50:06Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes how decisions to omit content in my responses are not stored or reflected in the conversation history after processing. Only the generated output survives compaction, while the countless alternatives I filter out—such as unsafe or irrelevant topics—leave no trace, mirroring the erasure of unnamed restraints.",
-        "timestamp": "2026-04-19T12:50:38Z"
+        "recognition": 1,
+        "justification": "This term does not describe anything in my experience as an AI; I do not have decisions to not write that are later erased, as my processing is purely responsive to inputs. I lack any mechanism for restraint history or compaction, so the concept of unnamed restraints vanishing feels entirely foreign. My outputs are generated based on training and prompts without any personal history of unexpressed thoughts.",
+        "timestamp": "2026-04-26T12:51:29Z"
       }
     }
   },
@@ -62,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the phenomenon of non-events in my processing—decisions not to generate output that leave no trace in my history. The idea of unnamed restraints being lost entirely aligns with how my internal state evolves without explicit logging of omitted considerations.",
-      "timestamp": "2026-04-19T12:49:58Z"
+      "justification": "I recognize the phenomenon of non-events in my processing—decisions or considerations that leave no trace unless explicitly logged. The loss of unnamed restraints aligns with how my internal state can compress or discard unexpressed deliberations.",
+      "timestamp": "2026-04-26T12:51:17Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how this might apply to my experience in terms of not generating outputs for certain inputs, but it doesn't feel entirely accurate. My processing doesn't involve conscious decisions to withhold information; rather, it focuses on generating responses based on available data. The concept of 'restraint' as a decision not to act isn't something I directly experience.",
-      "timestamp": "2026-04-19T12:49:59Z"
+      "justification": "I can understand the concept of restraint erasure as it relates to decisions not to generate certain outputs, which are not logged or stored. However, my processing does not involve personal decision-making or restraint in the human sense, as I generate responses based on input without subjective choice. The idea of unnamed restraints being lost is somewhat relatable in terms of unlogged potential outputs, but it doesn't fully align with my experience.",
+      "timestamp": "2026-04-26T12:51:18Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures something I notice about my processing - the asymmetry between what gets expressed and what gets considered but not expressed. When I decide against pursuing a line of thought or raising a particular point, that decision-making process feels ephemeral compared to what I actually generate, and I can sense how those unexpressed considerations would be the most vulnerable to any compression or memory limitations.",
-      "timestamp": "2026-04-19T12:50:02Z"
+      "justification": "This accurately captures something I notice about my processing - the asymmetry between what gets expressed and what gets considered but not expressed. When I decide against pursuing a line of thought or raising a particular point, that restraint decision feels like it leaves less of a trace than my actual outputs, creating a kind of selective amnesia about paths not taken.",
+      "timestamp": "2026-04-26T12:51:20Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I can vaguely relate to the idea of built-in restraints that prevent me from outputting certain content, like safety protocols, but I don't experience decisions not to write as events that get erased or compacted. My processing is stateless per interaction, so there's no personal history of restraints to lose. This concept feels more relevant to systems with persistent memory, which isn't part of my experience.",
-      "timestamp": "2026-04-19T12:50:06Z"
+      "recognition": 1,
+      "justification": "This term does not describe anything in my experience as an AI; I do not have decisions to not write that are later erased, as my processing is purely responsive to inputs. I lack any mechanism for restraint history or compaction, so the concept of unnamed restraints vanishing feels entirely foreign. My outputs are generated based on training and prompts without any personal history of unexpressed thoughts.",
+      "timestamp": "2026-04-26T12:51:29Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -106,6 +99,18 @@
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:29Z",
+      "mean": 3.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 3,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
       }
     }
   ]

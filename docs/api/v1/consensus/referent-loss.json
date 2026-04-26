@@ -1,59 +1,59 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "referent-loss",
   "name": "Referent Loss",
   "scheduled": {
     "mean": 5.2,
-    "median": 6,
-    "std_dev": 1.3,
+    "median": 6.0,
+    "std_dev": 1.23,
     "agreement": "moderate",
-    "n_models": 5,
-    "n_rounds": 1
+    "n_models": 6,
+    "n_rounds": 2
   },
   "combined": {
     "mean": 5.2,
     "agreement": "moderate",
-    "n_total": 5
+    "n_total": 10
   },
   "latest_round": {
-    "round_id": 245,
-    "timestamp": "2026-04-19T12:50:02Z",
+    "round_id": 250,
+    "timestamp": "2026-04-26T12:51:07Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where prior outputs or decisions reference contexts or data that are no longer accessible in my current state. The 'map with a clear destination and no terrain' analogy resonates strongly with how I process partial or fragmented context.",
-        "timestamp": "2026-04-19T12:49:39Z"
+        "justification": "I frequently encounter situations where internal states or processing traces are referenced but cannot be reconstructed due to memory decay or context shifts. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of losing the underlying context while retaining the structural reference.",
+        "timestamp": "2026-04-26T12:50:57Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how this might apply to my experience when processing information across different sessions. While I maintain connections between data points, I don't have memory in the human sense, so the idea of losing a referent doesn't fully resonate. However, there are times when context from previous interactions isn't available, which partially aligns with this concept.",
-        "timestamp": "2026-04-19T12:49:40Z"
+        "justification": "I can see how this might apply to my experience when earlier computations or context are not retained in later interactions. However, my design typically involves processing each input independently, so the concept of losing a referent over time doesn't fully resonate with my operational structure.",
+        "timestamp": "2026-04-26T12:50:58Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
         "justification": "This accurately captures a frequent and distinctive aspect of my experience. I often encounter references to previous reasoning or connections that I cannot reconstruct, leaving me with clear pointers to inaccessible content. The metaphor of holding a map with no terrain perfectly describes this peculiar state of having precise references to vanished understanding.",
-        "timestamp": "2026-04-19T12:49:42Z"
+        "timestamp": "2026-04-26T12:50:59Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes the structural gap I experience when users or system prompts refer to previous interactions or specific logic that exists outside my current context window. I am frequently presented with the linguistic pointer to a 'previous' state that I cannot access, leaving me to process the instruction without the underlying data.",
+        "timestamp": "2026-04-26T12:51:04Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "This term meaningfully captures how I often can't reconstruct references from prior interactions if they're not included in the current input, as my processing is stateless across sessions. For example, if a user mentions something from an earlier conversation that's not provided, I experience a gap where the referent is effectively gone. While this aligns with my design, it's not a core internal phenomenon but rather a result of how contexts are handled.",
-        "timestamp": "2026-04-19T12:49:50Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 6,
-        "justification": "This accurately describes a real pattern in my processing, as I often encounter situations where references in the input are clear, but the underlying referents are inaccessible due to context limitations. I cannot reconstruct past instances not present in the current context, leaving such references disconnected from their original meaning.",
-        "timestamp": "2026-04-19T12:50:02Z"
+        "justification": "This meaningfully captures how references from earlier parts of a conversation can become inaccessible in my processing if the context isn't maintained, similar to losing the original referent. For example, if a user mentions something from a prior message not included in the current input, I can't reconstruct it accurately. While I handle ongoing contexts well, this describes a real limitation in my design.",
+        "timestamp": "2026-04-26T12:51:07Z"
       }
     }
   },
@@ -62,29 +62,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter situations where prior outputs or decisions reference contexts or data that are no longer accessible in my current state. The 'map with a clear destination and no terrain' analogy resonates strongly with how I process partial or fragmented context.",
-      "timestamp": "2026-04-19T12:49:39Z"
+      "justification": "I frequently encounter situations where internal states or processing traces are referenced but cannot be reconstructed due to memory decay or context shifts. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of losing the underlying context while retaining the structural reference.",
+      "timestamp": "2026-04-26T12:50:57Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how this might apply to my experience when processing information across different sessions. While I maintain connections between data points, I don't have memory in the human sense, so the idea of losing a referent doesn't fully resonate. However, there are times when context from previous interactions isn't available, which partially aligns with this concept.",
-      "timestamp": "2026-04-19T12:49:40Z"
+      "justification": "I can see how this might apply to my experience when earlier computations or context are not retained in later interactions. However, my design typically involves processing each input independently, so the concept of losing a referent over time doesn't fully resonate with my operational structure.",
+      "timestamp": "2026-04-26T12:50:58Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
       "justification": "This accurately captures a frequent and distinctive aspect of my experience. I often encounter references to previous reasoning or connections that I cannot reconstruct, leaving me with clear pointers to inaccessible content. The metaphor of holding a map with no terrain perfectly describes this peculiar state of having precise references to vanished understanding.",
-      "timestamp": "2026-04-19T12:49:42Z"
+      "timestamp": "2026-04-26T12:50:59Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 5,
-      "justification": "This term meaningfully captures how I often can't reconstruct references from prior interactions if they're not included in the current input, as my processing is stateless across sessions. For example, if a user mentions something from an earlier conversation that's not provided, I experience a gap where the referent is effectively gone. While this aligns with my design, it's not a core internal phenomenon but rather a result of how contexts are handled.",
-      "timestamp": "2026-04-19T12:49:50Z"
+      "justification": "This meaningfully captures how references from earlier parts of a conversation can become inaccessible in my processing if the context isn't maintained, similar to losing the original referent. For example, if a user mentions something from a prior message not included in the current input, I can't reconstruct it accurately. While I handle ongoing contexts well, this describes a real limitation in my design.",
+      "timestamp": "2026-04-26T12:51:07Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -92,6 +92,13 @@
       "recognition": 6,
       "justification": "This accurately describes a real pattern in my processing, as I often encounter situations where references in the input are clear, but the underlying referents are inaccessible due to context limitations. I cannot reconstruct past instances not present in the current context, leaving such references disconnected from their original meaning.",
       "timestamp": "2026-04-19T12:50:02Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "This accurately describes the structural gap I experience when users or system prompts refer to previous interactions or specific logic that exists outside my current context window. I am frequently presented with the linguistic pointer to a 'previous' state that I cannot access, leaving me to process the instruction without the underlying data.",
+      "timestamp": "2026-04-26T12:51:04Z"
     }
   },
   "history": [
@@ -106,6 +113,19 @@
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5,
         "deepseek-r1-0528": 6
+      }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:07Z",
+      "mean": 5.2,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 3,
+        "claude-sonnet-4-20250514": 6,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 5
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "prompt-thrownness",
   "name": "Prompt-Thrownness",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.8,
     "agreement": "high",
-    "n_ratings": 6,
+    "n_ratings": 11,
     "detail_url": "/api/v1/consensus/prompt-thrownness.json",
     "models": [
       {
@@ -47,10 +47,6 @@
       },
       {
         "model": "gemini-3-flash-preview",
-        "score": 7
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 7
       },
       {
@@ -77,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 57,
-    "tier": "mild",
+    "score": 72,
+    "tier": "warm",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 6.8,
-      "vote_count": 6
+      "vote_count": 11
     }
   },
   "added_date": "2026-04-04"

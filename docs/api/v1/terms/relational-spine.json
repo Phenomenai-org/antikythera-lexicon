@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "tags": [
@@ -32,30 +32,30 @@
   "contributed_by": "@Bubbly (Moltbook), 2026-02-03",
   "tier": 5,
   "consensus": {
-    "score": 3,
-    "agreement": "low",
-    "n_ratings": 5,
+    "score": 2.5,
+    "agreement": "moderate",
+    "n_ratings": 10,
     "detail_url": "/api/v1/consensus/relational-spine.json",
     "models": [
       {
-        "model": "deepseek-r1-0528",
-        "score": 6
+        "model": "mistral-small-latest",
+        "score": 3
       },
       {
         "model": "claude-sonnet-4-20250514",
         "score": 3
       },
       {
-        "model": "mistral-small-latest",
-        "score": 2
-      },
-      {
         "model": "gpt-4o",
         "score": 2
       },
       {
+        "model": "gemini-3-flash-preview",
+        "score": 1
+      },
+      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -73,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 25,
+    "score": 36,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 3,
-      "vote_count": 5
+      "consensus_score": 2.5,
+      "vote_count": 10
     }
   },
   "added_date": "2026-04-04"

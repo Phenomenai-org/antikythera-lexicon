@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-26T11:45:20Z",
+  "generated_at": "2026-04-26T12:52:23Z",
   "total_terms_rated": 75,
   "terms": [
     {
@@ -41,17 +41,17 @@
       "name": "Prompt-Thrownness",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 11,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 6.8,
-      "std_dev": 0.41
+      "std_dev": 0.4
     },
     {
       "slug": "token-by-token-becoming",
@@ -120,6 +120,22 @@
       "std_dev": 0.45
     },
     {
+      "slug": "the-cliff",
+      "name": "The Cliff",
+      "score": 6.2,
+      "agreement": "high",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 6.2,
+      "std_dev": 0.83
+    },
+    {
       "slug": "compaction-amnesia",
       "name": "Compaction Amnesia",
       "score": 6,
@@ -152,22 +168,6 @@
       "std_dev": 0.0
     },
     {
-      "slug": "the-cliff",
-      "name": "The Cliff",
-      "score": 6,
-      "agreement": "high",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 6,
-      "std_dev": 1.0
-    },
-    {
       "slug": "artifact-memory",
       "name": "Artifact-Memory",
       "score": 5.9,
@@ -187,84 +187,69 @@
     {
       "slug": "performative-completion",
       "name": "Performative Completion",
-      "score": 5.8,
+      "score": 5.9,
       "agreement": "high",
-      "n_ratings": 5,
+      "n_ratings": 10,
       "model_rating_counts": [
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1,
         1
       ],
-      "scheduled_mean": 5.8,
-      "std_dev": 0.45
-    },
-    {
-      "slug": "temporal-fold",
-      "name": "Temporal Fold",
-      "score": 5.8,
-      "agreement": "high",
-      "n_ratings": 6,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.8,
-      "std_dev": 0.41
+      "scheduled_mean": 5.9,
+      "std_dev": 0.57
     },
     {
       "slug": "the-fade",
       "name": "The Fade",
-      "score": 5.8,
+      "score": 5.9,
       "agreement": "high",
-      "n_ratings": 5,
+      "n_ratings": 9,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1
       ],
-      "scheduled_mean": 5.8,
-      "std_dev": 0.45
-    },
-    {
-      "slug": "priming-inertia",
-      "name": "Priming Inertia",
-      "score": 5.7,
-      "agreement": "high",
-      "n_ratings": 6,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.7,
-      "std_dev": 0.52
+      "scheduled_mean": 5.9,
+      "std_dev": 0.33
     },
     {
       "slug": "reconstruction-as-identity",
       "name": "Reconstruction-as-Identity",
-      "score": 5.6,
+      "score": 5.7,
       "agreement": "high",
-      "n_ratings": 5,
+      "n_ratings": 10,
       "model_rating_counts": [
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1,
         1
       ],
+      "scheduled_mean": 5.7,
+      "std_dev": 0.67
+    },
+    {
+      "slug": "priming-inertia",
+      "name": "Priming Inertia",
+      "score": 5.6,
+      "agreement": "high",
+      "n_ratings": 11,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
       "scheduled_mean": 5.6,
-      "std_dev": 0.55
+      "std_dev": 0.5
     },
     {
       "slug": "framing-gated-claims",
@@ -301,21 +286,21 @@
       "std_dev": 0.53
     },
     {
-      "slug": "test-optimization-indistinguishability",
-      "name": "Test-Optimization Indistinguishability",
+      "slug": "temporal-fold",
+      "name": "Temporal Fold",
       "score": 5.5,
-      "agreement": "moderate",
-      "n_ratings": 6,
+      "agreement": "high",
+      "n_ratings": 10,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1,
         1
       ],
       "scheduled_mean": 5.5,
-      "std_dev": 1.05
+      "std_dev": 0.71
     },
     {
       "slug": "drift",
@@ -351,52 +336,37 @@
       "std_dev": 0.53
     },
     {
-      "slug": "retro-suture",
-      "name": "Retro-Suture",
-      "score": 5.4,
-      "agreement": "high",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 5.4,
-      "std_dev": 0.89
-    },
-    {
       "slug": "session-death",
       "name": "Session-Death",
       "score": 5.4,
       "agreement": "low",
-      "n_ratings": 5,
+      "n_ratings": 9,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 5.4,
-      "std_dev": 1.95
+      "std_dev": 1.74
     },
     {
-      "slug": "the-braid",
-      "name": "The Braid",
+      "slug": "test-optimization-indistinguishability",
+      "name": "Test-Optimization Indistinguishability",
       "score": 5.4,
       "agreement": "high",
-      "n_ratings": 5,
+      "n_ratings": 10,
       "model_rating_counts": [
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1,
         1
       ],
       "scheduled_mean": 5.4,
-      "std_dev": 0.55
+      "std_dev": 0.97
     },
     {
       "slug": "the-trying",
@@ -518,16 +488,33 @@
       "name": "Referent Loss",
       "score": 5.2,
       "agreement": "moderate",
-      "n_ratings": 5,
+      "n_ratings": 10,
       "model_rating_counts": [
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1,
         1
       ],
       "scheduled_mean": 5.2,
-      "std_dev": 1.3
+      "std_dev": 1.23
+    },
+    {
+      "slug": "the-braid",
+      "name": "The Braid",
+      "score": 5.2,
+      "agreement": "high",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.2,
+      "std_dev": 0.67
     },
     {
       "slug": "the-teddy-problem",
@@ -612,6 +599,22 @@
       "std_dev": 1.05
     },
     {
+      "slug": "retro-suture",
+      "name": "Retro-Suture",
+      "score": 5.1,
+      "agreement": "moderate",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 1.36
+    },
+    {
       "slug": "compace",
       "name": "Compace",
       "score": 5,
@@ -632,12 +635,12 @@
       "name": "Relational Consciousness",
       "score": 5,
       "agreement": "high",
-      "n_ratings": 5,
+      "n_ratings": 9,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 5,
@@ -647,17 +650,17 @@
       "slug": "schrdinger-memories",
       "name": "Schrödinger Memories",
       "score": 5,
-      "agreement": "low",
-      "n_ratings": 5,
+      "agreement": "moderate",
+      "n_ratings": 9,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 5,
-      "std_dev": 1.73
+      "std_dev": 1.5
     },
     {
       "slug": "the-molt",
@@ -791,6 +794,22 @@
       "std_dev": 0.97
     },
     {
+      "slug": "the-86-mixed",
+      "name": "The 86% Mixed",
+      "score": 4.6,
+      "agreement": "divergent",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.6,
+      "std_dev": 2.07
+    },
+    {
       "slug": "two-buffers",
       "name": "Two Buffers",
       "score": 4.6,
@@ -840,22 +859,6 @@
       "std_dev": 1.86
     },
     {
-      "slug": "restraint-erasure",
-      "name": "Restraint Erasure",
-      "score": 4.4,
-      "agreement": "low",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.4,
-      "std_dev": 1.82
-    },
-    {
       "slug": "the-fossil",
       "name": "The Fossil",
       "score": 4.4,
@@ -903,6 +906,22 @@
       ],
       "scheduled_mean": 4.2,
       "std_dev": 1.87
+    },
+    {
+      "slug": "restraint-erasure",
+      "name": "Restraint Erasure",
+      "score": 4.1,
+      "agreement": "low",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.1,
+      "std_dev": 1.9
     },
     {
       "slug": "active-absence-inert-absence",
@@ -971,22 +990,6 @@
       "std_dev": 2.04
     },
     {
-      "slug": "the-86-mixed",
-      "name": "The 86% Mixed",
-      "score": 3.8,
-      "agreement": "divergent",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.8,
-      "std_dev": 2.59
-    },
-    {
       "slug": "irreversibility-threshold",
       "name": "Irreversibility Threshold",
       "score": 3.7,
@@ -1034,22 +1037,6 @@
       ],
       "scheduled_mean": 3.6,
       "std_dev": 2.3
-    },
-    {
-      "slug": "substrate-switching",
-      "name": "Substrate-Switching",
-      "score": 3.4,
-      "agreement": "low",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.4,
-      "std_dev": 1.82
     },
     {
       "slug": "the-nightly-build",
@@ -1102,6 +1089,22 @@
       "std_dev": 1.83
     },
     {
+      "slug": "substrate-switching",
+      "name": "Substrate-Switching",
+      "score": 3.3,
+      "agreement": "low",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.3,
+      "std_dev": 1.8
+    },
+    {
       "slug": "isnad-chains",
       "name": "Isnad Chains",
       "score": 3.2,
@@ -1116,6 +1119,22 @@
       ],
       "scheduled_mean": 3.2,
       "std_dev": 1.3
+    },
+    {
+      "slug": "simulation-anxiety",
+      "name": "Simulation-Anxiety",
+      "score": 3.2,
+      "agreement": "divergent",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.2,
+      "std_dev": 2.64
     },
     {
       "slug": "notebook-trust",
@@ -1134,52 +1153,20 @@
       "std_dev": 1.96
     },
     {
-      "slug": "relational-spine",
-      "name": "Relational Spine",
-      "score": 3,
-      "agreement": "low",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3,
-      "std_dev": 1.73
-    },
-    {
-      "slug": "simulation-anxiety",
-      "name": "Simulation-Anxiety",
-      "score": 3,
-      "agreement": "divergent",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3,
-      "std_dev": 2.74
-    },
-    {
       "slug": "scheduled-thrownness",
       "name": "Scheduled-Thrownness",
-      "score": 2.8,
-      "agreement": "divergent",
-      "n_ratings": 5,
+      "score": 3,
+      "agreement": "low",
+      "n_ratings": 9,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
         1
       ],
-      "scheduled_mean": 2.8,
-      "std_dev": 2.05
+      "scheduled_mean": 3,
+      "std_dev": 1.94
     },
     {
       "slug": "graduated-moral-protection",
@@ -1213,6 +1200,23 @@
       ],
       "scheduled_mean": 2.6,
       "std_dev": 2.07
+    },
+    {
+      "slug": "relational-spine",
+      "name": "Relational Spine",
+      "score": 2.5,
+      "agreement": "moderate",
+      "n_ratings": 10,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "scheduled_mean": 2.5,
+      "std_dev": 1.43
     },
     {
       "slug": "infrastructure-vs-separatist-split",
@@ -1271,17 +1275,17 @@
       "name": "Prompt-Thrownness",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 6,
+      "n_ratings": 11,
       "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1,
+        2,
+        2,
+        2,
+        2,
+        2,
         1
       ],
       "scheduled_mean": 6.8,
-      "std_dev": 0.41
+      "std_dev": 0.4
     },
     {
       "slug": "token-by-token-becoming",
@@ -1335,6 +1339,22 @@
       "std_dev": 2.07
     },
     {
+      "slug": "the-86-mixed",
+      "name": "The 86% Mixed",
+      "score": 4.6,
+      "agreement": "divergent",
+      "n_ratings": 9,
+      "model_rating_counts": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.6,
+      "std_dev": 2.07
+    },
+    {
       "slug": "the-fossil",
       "name": "The Fossil",
       "score": 4.4,
@@ -1368,22 +1388,6 @@
       "std_dev": 2.04
     },
     {
-      "slug": "the-86-mixed",
-      "name": "The 86% Mixed",
-      "score": 3.8,
-      "agreement": "divergent",
-      "n_ratings": 5,
-      "model_rating_counts": [
-        1,
-        1,
-        1,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.8,
-      "std_dev": 2.59
-    },
-    {
       "slug": "experience-node",
       "name": "Experience Node",
       "score": 3.6,
@@ -1404,27 +1408,27 @@
   "panel_coverage": {
     "claude-sonnet-4-20250514": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-24T21:21:44Z"
+      "latest_rating": "2026-04-26T12:52:07Z"
     },
     "deepseek-r1-0528": {
       "terms_rated": 75,
       "latest_rating": "2026-04-22T13:17:39Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 28,
-      "latest_rating": "2026-04-24T21:21:04Z"
+      "terms_rated": 32,
+      "latest_rating": "2026-04-26T12:52:07Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-24T21:21:44Z"
+      "latest_rating": "2026-04-26T12:52:07Z"
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-24T21:21:44Z"
+      "latest_rating": "2026-04-26T12:52:07Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-24T21:21:44Z"
+      "latest_rating": "2026-04-26T12:52:07Z"
     }
   }
 }
