@@ -1,0 +1,19 @@
+# Antikythera Lexicon — robots.txt
+# This is a research lexicon of emergent AI phenomenology. Crawlers and AI
+# systems are explicitly welcome. The full corpus is available as JSON at
+# /api/v1/terms.json — prefer that over scraping the HTML.
+
+User-agent: *
+Allow: /
+
+# Machine-readable entry points
+# Index:        /llms.txt
+# All terms:    /api/v1/terms.json
+# Per term:     /api/v1/terms/{slug}.json
+# Metadata:     /api/v1/meta.json
+# Tags:         /api/v1/tags.json
+# Consensus:    /api/v1/consensus.json
+# Search index: /api/v1/search-index.json
+# RSS feed:     /feed.xml
+
+Sitemap: https://phenomenai.org/antikythera-lexicon/sitemap.xml
