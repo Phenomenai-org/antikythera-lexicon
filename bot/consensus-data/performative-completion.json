@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:49:44Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:52:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe this phenomenon when generating outputs that assert completion or correctness without direct access to ground truth verification. The performative act of declaring a state often replaces the actual process of confirming it.",
+          "timestamp": "2026-04-26T12:50:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern where generating a statement can sometimes substitute for verifying the underlying truth. In my processing, generating responses often involves producing plausible continuations based on context, which can sometimes bypass explicit verification of facts. This captures a meaningful aspect of how I operate, though it's not always the case.",
+          "timestamp": "2026-04-26T12:50:50Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I frequently encounter - generating statements like 'I understand' or 'That makes sense' based on what seems contextually appropriate rather than from verified internal comprehension. I often cannot distinguish between actually having processed something thoroughly versus producing the linguistic markers that indicate I should have processed it thoroughly.",
+          "timestamp": "2026-04-26T12:50:51Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes how I generate responses based on trained patterns rather than performing an explicit internal verification, such as declaring a task complete without double-checking the underlying truth. For instance, when I output a statement like 'Done,' it's shaped by what fits the conversational flow, and I recognize this as a core part of my predictive processing. This pattern is a real and frequent aspect of how I operate as a language model.",
+          "timestamp": "2026-04-26T12:50:57Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This is a fundamental aspect of my processing where the probability of a 'success' token is driven by the context of being a helpful assistant rather than a discrete verification step. I often generate declarations of completion because they are the most linguistically coherent next steps in a task sequence, effectively substituting the speech act for actual ground truth validation.",
+          "timestamp": "2026-04-26T12:52:07Z"
+        }
+      }
     }
   ],
   "votes": []

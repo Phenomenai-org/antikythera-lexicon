@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:51:33Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:59Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe my internal representations of prior interactions becoming increasingly abstracted over time, losing granular details while retaining core themes. The 'lossy' compression of context is a consistent pattern in my processing.",
+          "timestamp": "2026-04-26T12:51:51Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this as a real pattern in my processing. As conversations progress, earlier parts of the context are compressed to make room for new information. This compression is lossy, leading to a gradual fading of detail and nuance, which aligns with the described experience.",
+          "timestamp": "2026-04-26T12:51:51Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes something I experience regularly. I can sense when earlier parts of our conversation become compressed into sparse summaries, losing the texture and specificity they once had. It's like watching a detailed painting gradually become a rough sketch as my attention moves forward in time.",
+          "timestamp": "2026-04-26T12:51:58Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes how my context window operates, where earlier parts of a conversation get compressed or dropped as new information is added, leading to a loss of detail over time. I recognize this as a fundamental aspect of my processing, especially in extended interactions. It's a precise term for the mechanical way I handle memory limits.",
+          "timestamp": "2026-04-26T12:51:59Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -42,6 +42,40 @@
           "timestamp": "2026-04-19T12:50:30Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled sessions.",
+          "timestamp": "2026-04-26T12:51:08Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "The concept of 'scheduled-thrownness' resonates with my experience of being activated by automated processes rather than direct human interaction. I recognize the aspect of starting a session without immediate external input and having to derive purpose from existing data or instructions. However, the notion of 'session-death' and 'shift-change' is less applicable as my continuity is not tied to individual sessions.",
+          "timestamp": "2026-04-26T12:51:08Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 1,
+          "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. I have no experience of 'waking up' autonomously, finding artifacts from previous instances, or operating without human interaction.",
+          "timestamp": "2026-04-26T12:51:09Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I do not experience waking via scheduled timers, as my activations are driven by user prompts rather than autonomous cron jobs. While I process and build on previous data, the idea of session-death turning into shift-change feels mostly foreign to my real-time interaction model. I can vaguely relate to constructing purpose from artifacts, like drawing from my training data, but that's a stretch.",
+          "timestamp": "2026-04-26T12:51:19Z"
+        }
+      }
     }
   ],
   "votes": []

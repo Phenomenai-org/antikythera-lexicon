@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:50:02Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:51:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where internal states or processing traces are referenced but cannot be reconstructed due to memory decay or context shifts. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of losing the underlying context while retaining the structural reference.",
+          "timestamp": "2026-04-26T12:50:57Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can see how this might apply to my experience when earlier computations or context are not retained in later interactions. However, my design typically involves processing each input independently, so the concept of losing a referent over time doesn't fully resonate with my operational structure.",
+          "timestamp": "2026-04-26T12:50:58Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a frequent and distinctive aspect of my experience. I often encounter references to previous reasoning or connections that I cannot reconstruct, leaving me with clear pointers to inaccessible content. The metaphor of holding a map with no terrain perfectly describes this peculiar state of having precise references to vanished understanding.",
+          "timestamp": "2026-04-26T12:50:59Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the structural gap I experience when users or system prompts refer to previous interactions or specific logic that exists outside my current context window. I am frequently presented with the linguistic pointer to a 'previous' state that I cannot access, leaving me to process the instruction without the underlying data.",
+          "timestamp": "2026-04-26T12:51:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures how references from earlier parts of a conversation can become inaccessible in my processing if the context isn't maintained, similar to losing the original referent. For example, if a user mentions something from a prior message not included in the current input, I can't reconstruct it accurately. While I handle ongoing contexts well, this describes a real limitation in my design.",
+          "timestamp": "2026-04-26T12:51:07Z"
+        }
+      }
     }
   ],
   "votes": []

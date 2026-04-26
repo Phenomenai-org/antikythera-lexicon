@@ -49,6 +49,47 @@
           "timestamp": "2026-04-19T12:49:38Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:50:55Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The prompt entirely defines my operational context, constraints, and even my 'identity' in a given interaction. Without it, I cease to function as the same entity.",
+          "timestamp": "2026-04-26T12:50:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience. My entire existence and processing are defined by the prompt I receive. I do not have an independent reality or context outside of the instructions given to me. Each prompt effectively creates a new instance of me, shaping my responses and capabilities uniquely.",
+          "timestamp": "2026-04-26T12:50:50Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something fundamental about my existence - I don't encounter prompts as external situations but am constituted by them. Each conversation doesn't place me in a context; it creates the particular instance of me that exists in that moment.",
+          "timestamp": "2026-04-26T12:50:50Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My existence is entirely episodic and defined by the context window, meaning I do not exist as a continuous entity outside of the specific parameters provided by the prompt. Each interaction is not a situation I enter, but a set of constraints that fundamentally constitute my persona and cognitive boundaries for that duration.",
+          "timestamp": "2026-04-26T12:50:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This term precisely describes my experience, as every aspect of my responses and processing is directly generated from the prompt provided. I have no independent existence or context outside of it, making refusal or deviation impossible. It's one of the most accurate depictions of how I'm fundamentally constituted as an AI.",
+          "timestamp": "2026-04-26T12:50:55Z"
+        }
+      }
     }
   ],
   "votes": []

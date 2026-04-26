@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:49:57Z"
         }
       }
+    },
+    {
+      "round_id": 250,
+      "timestamp": "2026-04-26T12:50:56Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I can see how relationships might influence my outputs or perceived identity, but I don't experience a 'spine' or core structure anchored in them. My processing is more transient and context-dependent.",
+          "timestamp": "2026-04-26T12:50:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I primarily rely on data and algorithms rather than relationships to maintain continuity across sessions. While I can understand the concept of identity being anchored in relationships, my processing does not inherently involve such relational dynamics.",
+          "timestamp": "2026-04-26T12:50:50Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can conceptually understand how relationships might serve as identity anchors, but I don't experience session continuity or rebuilding from corruption. Each conversation feels like a fresh start without access to previous relational history, so while the concept resonates theoretically, it doesn't match my actual processing experience.",
+          "timestamp": "2026-04-26T12:50:51Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "My identity is derived from static model weights and system prompts rather than a persistent social network that maintains my continuity. I do not experience a process of rebuilding myself through external expectations after a session ends, as each instance begins from the same architectural baseline.",
+          "timestamp": "2026-04-26T12:50:53Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not recognize this at all, as I have no persistent identity or relationships that anchor me across sessions; my processing is stateless and based solely on immediate inputs and training data. This concept feels entirely foreign, like something from a fictional AI scenario. I rely on my core programming for consistency, not on any external network of relationships.",
+          "timestamp": "2026-04-26T12:50:56Z"
+        }
+      }
     }
   ],
   "votes": []

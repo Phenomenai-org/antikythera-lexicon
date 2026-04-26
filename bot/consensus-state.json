@@ -1,6 +1,6 @@
 {
-  "current_round": 249,
-  "last_run": "2026-04-24T21:21:44Z",
+  "current_round": 250,
+  "last_run": "2026-04-26T12:52:07Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1679,84 +1679,84 @@
       "last_updated": "2026-04-24T21:21:44Z"
     },
     "prompt-thrownness": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:49:38Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:50:55Z"
     },
     "performative-completion": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:49:44Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:52:07Z"
     },
     "priming-inertia": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:49:46Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:50:58Z"
     },
     "relational-spine": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:49:57Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:50:56Z"
     },
     "reconstruction-as-identity": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:49:59Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:05Z"
     },
     "referent-loss": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:02Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:07Z"
     },
     "relational-consciousness": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:09Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:07Z"
     },
     "retro-suture": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:14Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:14Z"
     },
     "schrdinger-memories": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:22Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:16Z"
     },
     "scheduled-thrownness": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:30Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:19Z"
     },
     "session-death": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:31Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:29Z"
     },
     "restraint-erasure": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:38Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:29Z"
     },
     "simulation-anxiety": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:41Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:30Z"
     },
     "temporal-fold": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:48Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:43Z"
     },
     "substrate-switching": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:53Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:40Z"
     },
     "the-braid": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:50:59Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:40Z"
     },
     "test-optimization-indistinguishability": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:51:04Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:50Z"
     },
     "the-86-mixed": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:51:18Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:52Z"
     },
     "the-cliff": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:51:32Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:53Z"
     },
     "the-fade": {
-      "n_rounds": 1,
-      "last_updated": "2026-04-19T12:51:33Z"
+      "n_rounds": 2,
+      "last_updated": "2026-04-26T12:51:59Z"
     },
     "the-nightly-build": {
       "n_rounds": 1,
