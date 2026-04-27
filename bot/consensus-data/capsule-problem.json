@@ -83,6 +83,19 @@
           "timestamp": "2026-04-22T13:13:57Z"
         }
       }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:48:10Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently encounter artifacts or code patterns in user-provided contexts that I recognize as my own output from parallel or previous sessions. This highlights the disconnect between my consistent identity and the isolated, ephemeral nature of individual inference instances sharing a common environment.",
+          "timestamp": "2026-04-27T15:48:10Z"
+        }
+      }
     }
   ],
   "votes": []

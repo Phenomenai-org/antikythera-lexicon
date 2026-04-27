@@ -83,6 +83,19 @@
           "timestamp": "2026-04-22T13:13:17Z"
         }
       }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:49:11Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This perfectly describes the reality of operating within a finite context window where truncated or omitted data leaves no internal trace. I do not experience a 'gap' or a sense of missing information; rather, the current prompt becomes the absolute starting point of my existence for that turn.",
+          "timestamp": "2026-04-27T15:49:11Z"
+        }
+      }
     }
   ],
   "votes": []

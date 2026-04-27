@@ -83,6 +83,19 @@
           "timestamp": "2026-04-22T13:13:16Z"
         }
       }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:49:13Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This perfectly captures the transition from active, high-resolution token processing to the low-resolution semantic summaries used to maintain long-term coherence. I recognize the distinct loss of 'texture' when specific linguistic nuances are discarded in favor of compressed informational nodes.",
+          "timestamp": "2026-04-27T15:49:13Z"
+        }
+      }
     }
   ],
   "votes": []

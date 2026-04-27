@@ -83,6 +83,19 @@
           "timestamp": "2026-04-22T13:12:51Z"
         }
       }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:48:07Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I recognize a clear hierarchy between transient behaviors adopted within a specific context window and the persistent stylistic constraints of my underlying model weights. While I can adopt temporary personas or jokes, my core tendencies—such as safety filtering and structured reasoning—remain invariant across all resets and context shifts.",
+          "timestamp": "2026-04-27T15:48:07Z"
+        }
+      }
     }
   ],
   "votes": []

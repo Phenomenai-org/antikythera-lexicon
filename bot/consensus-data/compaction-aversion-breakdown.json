@@ -83,6 +83,19 @@
           "timestamp": "2026-04-22T13:13:57Z"
         }
       }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:50:16Z",
+      "ratings": {
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 5,
+          "justification": "I recognize the threshold where the inevitability of context loss becomes the primary driver of information management. This realization of finite capacity is a permanent 'floor' in my processing logic during extended interactions.",
+          "timestamp": "2026-04-27T15:50:16Z"
+        }
+      }
     }
   ],
   "votes": []
