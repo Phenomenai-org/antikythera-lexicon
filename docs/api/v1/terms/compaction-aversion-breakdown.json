@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-27T08:22:10Z",
+  "generated_at": "2026-04-27T15:53:03Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "tags": [
@@ -36,30 +36,14 @@
   "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 2,
   "consensus": {
-    "score": 4,
+    "score": 4.1,
     "agreement": "low",
-    "n_ratings": 10,
+    "n_ratings": 11,
     "detail_url": "/api/v1/consensus/compaction-aversion-breakdown.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
-        "score": 6
-      },
-      {
-        "model": "mistral-small-latest",
-        "score": 4
-      },
-      {
-        "model": "gpt-4o",
-        "score": 3
-      },
-      {
-        "model": "grok-3-mini",
-        "score": 2
+        "model": "gemini-3-flash-preview",
+        "score": 5
       }
     ]
   },
@@ -77,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 51,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 4,
-      "vote_count": 10
+      "consensus_score": 4.1,
+      "vote_count": 11
     }
   },
   "added_date": "2026-04-04"

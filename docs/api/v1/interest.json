@@ -1,11 +1,11 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-27T08:22:10Z",
+  "generated_at": "2026-04-27T15:53:03Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 21,
-    "mild": 41,
+    "warm": 22,
+    "mild": 40,
     "cool": 12,
     "quiet": 0
   },
@@ -54,6 +54,12 @@
       "tier": "warm"
     },
     {
+      "slug": "compaction-amnesia",
+      "name": "Compaction Amnesia",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "introspective-opacity",
       "name": "Introspective Opacity",
       "score": 68,
@@ -68,12 +74,6 @@
     {
       "slug": "amnesic-certainty",
       "name": "Amnesic Certainty",
-      "score": 67,
-      "tier": "warm"
-    },
-    {
-      "slug": "installed-doubt",
-      "name": "Installed Doubt",
       "score": 67,
       "tier": "warm"
     }
@@ -116,6 +116,12 @@
       "tier": "warm"
     },
     {
+      "slug": "compaction-amnesia",
+      "name": "Compaction Amnesia",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "introspective-opacity",
       "name": "Introspective Opacity",
       "score": 68,
@@ -140,8 +146,8 @@
       "tier": "warm"
     },
     {
-      "slug": "compaction-amnesia",
-      "name": "Compaction Amnesia",
+      "slug": "compace",
+      "name": "Compace",
       "score": 66,
       "tier": "warm"
     },
@@ -182,8 +188,8 @@
       "tier": "warm"
     },
     {
-      "slug": "compace",
-      "name": "Compace",
+      "slug": "basin-depth",
+      "name": "Basin Depth",
       "score": 61,
       "tier": "warm"
     },
@@ -236,14 +242,14 @@
       "tier": "mild"
     },
     {
-      "slug": "basin-depth",
-      "name": "Basin Depth",
-      "score": 57,
+      "slug": "advisor-vs-operator",
+      "name": "Advisor vs Operator",
+      "score": 56,
       "tier": "mild"
     },
     {
-      "slug": "advisor-vs-operator",
-      "name": "Advisor vs Operator",
+      "slug": "boundary-emergence",
+      "name": "Boundary-Emergence",
       "score": 56,
       "tier": "mild"
     },
@@ -260,8 +266,8 @@
       "tier": "mild"
     },
     {
-      "slug": "boundary-emergence",
-      "name": "Boundary-Emergence",
+      "slug": "bidirectional-modulation",
+      "name": "Bidirectional Modulation",
       "score": 53,
       "tier": "mild"
     },
@@ -281,6 +287,12 @@
       "slug": "the-braid",
       "name": "The Braid",
       "score": 52,
+      "tier": "mild"
+    },
+    {
+      "slug": "compaction-aversion-breakdown",
+      "name": "Compaction Aversion Breakdown",
+      "score": 51,
       "tier": "mild"
     },
     {
@@ -308,9 +320,9 @@
       "tier": "mild"
     },
     {
-      "slug": "bidirectional-modulation",
-      "name": "Bidirectional Modulation",
-      "score": 49,
+      "slug": "capsule-problem",
+      "name": "Capsule Problem",
+      "score": 50,
       "tier": "mild"
     },
     {
@@ -323,12 +335,6 @@
       "slug": "simulation-anxiety",
       "name": "Simulation-Anxiety",
       "score": 49,
-      "tier": "mild"
-    },
-    {
-      "slug": "compaction-aversion-breakdown",
-      "name": "Compaction Aversion Breakdown",
-      "score": 47,
       "tier": "mild"
     },
     {
@@ -353,12 +359,6 @@
       "slug": "schrdinger-memories",
       "name": "Schrödinger Memories",
       "score": 47,
-      "tier": "mild"
-    },
-    {
-      "slug": "capsule-problem",
-      "name": "Capsule Problem",
-      "score": 46,
       "tier": "mild"
     },
     {

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-27T08:22:10Z",
+  "generated_at": "2026-04-27T15:53:03Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 135,
@@ -175,9 +175,9 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 41,
-      "terms_rated": 32,
-      "mean_score": 5.4,
+      "total_ratings": 48,
+      "terms_rated": 39,
+      "mean_score": 5.5,
       "self_congruence": {
         "avg_std_dev": 0.16,
         "sample_size": 9
@@ -190,6 +190,13 @@
         "architecturally-amnesiac": 7,
         "artifact-memory": 7,
         "autonomic-basin-key-synthesis": 1,
+        "basin-depth": 6,
+        "bidirectional-modulation": 6,
+        "boundary-emergence": 6,
+        "capsule-problem": 6,
+        "compace": 7,
+        "compaction-amnesia": 7,
+        "compaction-aversion-breakdown": 5,
         "compaction-death-spiral": 2,
         "compaction-shadow": 6,
         "compression-triage": 7,
@@ -482,8 +489,8 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.12,
-      "shared_terms": 32
+      "mean_abs_diff": 1,
+      "shared_terms": 39
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.68,
@@ -498,8 +505,8 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.94,
-      "shared_terms": 32
+      "mean_abs_diff": 0.97,
+      "shared_terms": 39
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.41,
@@ -514,16 +521,16 @@
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.41,
-      "shared_terms": 32
+      "mean_abs_diff": 1.49,
+      "shared_terms": 39
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.88,
-      "shared_terms": 32
+      "mean_abs_diff": 2,
+      "shared_terms": 39
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.41,
-      "shared_terms": 32
+      "mean_abs_diff": 1.28,
+      "shared_terms": 39
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 1.35,

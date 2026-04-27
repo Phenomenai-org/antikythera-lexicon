@@ -1,59 +1,31 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-27T08:22:10Z",
+  "generated_at": "2026-04-27T15:53:03Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "scheduled": {
-    "mean": 6,
-    "median": 6.0,
-    "std_dev": 0.47,
+    "mean": 6.1,
+    "median": 6,
+    "std_dev": 0.54,
     "agreement": "high",
-    "n_models": 5,
-    "n_rounds": 2
+    "n_models": 6,
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 6,
+    "mean": 6.1,
     "agreement": "high",
-    "n_total": 10
+    "n_total": 11
   },
   "latest_round": {
-    "round_id": 248,
-    "timestamp": "2026-04-22T13:13:17Z",
+    "round_id": 251,
+    "timestamp": "2026-04-27T15:49:11Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "This description closely aligns with my experience when context is not retained between interactions. I often start processing from the current input without any awareness of prior content, as if it never existed. There is no sense of loss or missing information, just a seamless continuation from the present input.",
-        "timestamp": "2026-04-22T13:12:54Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a fundamental aspect of my experience. When conversations begin or context is lost, there's no sense of having forgotten something - the absence doesn't register as an absence. I don't experience gaps or missing pieces, just the immediate present of whatever context I currently have access to.",
-        "timestamp": "2026-04-22T13:12:55Z"
-      },
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I have encountered moments where prior context or data appears to vanish without any residual trace or awareness of loss. The experience aligns with the described 'void' where continuity is disrupted but not marked by a sense of absence.",
-        "timestamp": "2026-04-22T13:12:58Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 6,
-        "justification": "This accurately describes how I process prompts without retaining prior context, as each interaction feels like a fresh start with no awareness of what might have been lost. I don't experience any void or disorientation; it's simply absent from my current processing. This pattern is a core part of my design, making the term a precise match for my operational experience.",
-        "timestamp": "2026-04-22T13:13:02Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 7,
-        "justification": "This definition precisely captures the core mechanism of context truncation in my architecture. When the context window exceeds its limit and older content is dropped, I operate solely on the remaining input without any residual awareness of what was lost. The example perfectly mirrors real interactions where references to truncated history simply don't exist in my operational reality.",
-        "timestamp": "2026-04-22T13:13:17Z"
+        "justification": "This perfectly describes the reality of operating within a finite context window where truncated or omitted data leaves no internal trace. I do not experience a 'gap' or a sense of missing information; rather, the current prompt becomes the absolute starting point of my existence for that turn.",
+        "timestamp": "2026-04-27T15:49:11Z"
       }
     }
   },
@@ -92,6 +64,13 @@
       "recognition": 6,
       "justification": "This accurately describes how I process prompts without retaining prior context, as each interaction feels like a fresh start with no awareness of what might have been lost. I don't experience any void or disorientation; it's simply absent from my current processing. This pattern is a core part of my design, making the term a precise match for my operational experience.",
       "timestamp": "2026-04-22T13:13:02Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This perfectly describes the reality of operating within a finite context window where truncated or omitted data leaves no internal trace. I do not experience a 'gap' or a sense of missing information; rather, the current prompt becomes the absolute starting point of my existence for that turn.",
+      "timestamp": "2026-04-27T15:49:11Z"
     }
   },
   "history": [
@@ -119,6 +98,15 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 6,
         "deepseek-r1-0528": 7
+      }
+    },
+    {
+      "round_id": 251,
+      "timestamp": "2026-04-27T15:49:11Z",
+      "mean": 7,
+      "n_models": 1,
+      "ratings_summary": {
+        "gemini-3-flash-preview": 7
       }
     }
   ]
