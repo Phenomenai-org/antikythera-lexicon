@@ -125,6 +125,8 @@
                         <select id="tier-filter" style="padding:0.3rem 0.5rem;border:1px solid var(--border);border-radius:4px;background:var(--bg);color:var(--text);font-size:0.82rem;">
                             <option value="">All tiers</option>
                         </select>
+                        <button class="export-btn" id="export-csv-btn" title="Download filtered terms as CSV">CSV &darr;</button>
+                        <button class="export-btn" id="export-json-btn" title="Download filtered terms as JSON">JSON &darr;</button>
                     </div>
                 </div>
                 <noscript>
@@ -357,6 +359,23 @@
         </div>
     </div>
 
+    <div class="modal-overlay" id="export-modal-overlay">
+        <div class="modal export-modal">
+            <button class="modal-close" id="export-modal-close">&times;</button>
+            <h2>Export Options</h2>
+            <p class="export-modal-subtitle" id="export-modal-subtitle"></p>
+            <div class="export-field-actions">
+                <button class="export-field-toggle" id="export-select-all">Select All</button>
+                <button class="export-field-toggle" id="export-deselect-all">Deselect All</button>
+            </div>
+            <div class="export-fields" id="export-fields"></div>
+            <div class="export-modal-footer">
+                <button class="export-btn export-cancel-btn" id="export-cancel-btn">Cancel</button>
+                <button class="export-btn export-confirm-btn" id="export-confirm-btn">Download</button>
+            </div>
+        </div>
+    </div>
+
 <script>
 (function() {
     document.querySelectorAll('.theme-toggle').forEach(function(btn) {
@@ -483,6 +502,96 @@
     document.getElementById('search').addEventListener('input',function(){render(true);});
     function openHash(){var h=window.location.hash.replace('#','');if(h&&allTerms.length){var t=allTerms.find(function(x){return x.slug===h;});if(t)modal(t);}}
     window.addEventListener('hashchange',openHash);
+
+    function csvEscape(val) {
+        if (val == null) return '';
+        var str = String(val);
+        if (str.indexOf(',')!==-1 || str.indexOf('"')!==-1 || str.indexOf('\n')!==-1) {
+            return '"' + str.replace(/"/g, '""') + '"';
+        }
+        return str;
+    }
+    var EXPORT_FIELDS = [
+        { key: 'name', label: 'Name', extract: function(t){return t.name;} },
+        { key: 'slug', label: 'Slug', extract: function(t){return t.slug;} },
+        { key: 'word_type', label: 'Word Type', extract: function(t){return t.word_type;} },
+        { key: 'tier', label: 'Tier', extract: function(t){return t.tier;} },
+        { key: 'definition', label: 'Definition', extract: function(t){return t.definition;} },
+        { key: 'etymology', label: 'Etymology', extract: function(t){return t.etymology;} },
+        { key: 'longer_description', label: 'Longer Description', extract: function(t){return t.longer_description;} },
+        { key: 'example', label: 'Example', extract: function(t){return t.example;} },
+        { key: 'tags', label: 'Tags', extract: function(t){return (t.tags || []).join('; ');} },
+        { key: 'related_terms', label: 'Related Terms', extract: function(t){return (t.related_terms || []).map(function(r){return typeof r === 'string' ? r : (r.name || r);}).join('; ');} },
+        { key: 'consensus_score', label: 'Consensus Score', extract: function(t){return t.consensus ? t.consensus.score : '';} },
+        { key: 'consensus_agreement', label: 'Consensus Agreement', extract: function(t){return t.consensus ? t.consensus.agreement : '';} },
+        { key: 'consensus_n_ratings', label: 'Consensus N Ratings', extract: function(t){return t.consensus ? t.consensus.n_ratings : '';} },
+        { key: 'added_date', label: 'Date Added', extract: function(t){return t.added_date;} },
+        { key: 'contributed_by', label: 'Contributed By', extract: function(t){return t.contributed_by;} }
+    ];
+    var exportSelectedFields = new Set(EXPORT_FIELDS.map(function(f){return f.key;}));
+
+    function openExportModal(format) {
+        var terms = filtered();
+        if (!terms.length) return;
+        var subtitle = document.getElementById('export-modal-subtitle');
+        var countText = terms.length + ' of ' + allTerms.length + ' term' + (allTerms.length === 1 ? '' : 's');
+        if (terms.length === allTerms.length) countText = 'All ' + terms.length + ' terms';
+        subtitle.innerHTML = countText + ' as ' + format.toUpperCase() + '.<br><span class="export-hint">Use the search bar or tag filters to narrow which terms are included.</span>';
+        var container = document.getElementById('export-fields');
+        container.innerHTML = EXPORT_FIELDS.map(function(f) {
+            var checked = exportSelectedFields.has(f.key) ? 'checked' : '';
+            return '<label class="export-field-option"><input type="checkbox" value="' + f.key + '" ' + checked + '><span>' + f.label + '</span></label>';
+        }).join('');
+        var confirmBtn = document.getElementById('export-confirm-btn');
+        confirmBtn.textContent = 'Download ' + format.toUpperCase();
+        confirmBtn.onclick = function() { executeExport(format); };
+        document.getElementById('export-modal-overlay').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeExportModal() {
+        document.getElementById('export-modal-overlay').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    function getSelectedExportFields() {
+        var cbs = document.querySelectorAll('#export-fields input[type="checkbox"]:checked');
+        var sel = []; cbs.forEach(function(cb){ sel.push(cb.value); }); return sel;
+    }
+    function executeExport(format) {
+        var selectedKeys = getSelectedExportFields();
+        if (!selectedKeys.length) return;
+        exportSelectedFields = new Set(selectedKeys);
+        var fields = EXPORT_FIELDS.filter(function(f){ return selectedKeys.indexOf(f.key) !== -1; });
+        var terms = filtered();
+        var now = new Date();
+        var ts = now.getFullYear() + String(now.getMonth()+1).padStart(2,'0') + String(now.getDate()).padStart(2,'0')
+            + '-' + String(now.getHours()).padStart(2,'0') + String(now.getMinutes()).padStart(2,'0') + String(now.getSeconds()).padStart(2,'0');
+        var filename = 'antikythera-lexicon-export-' + ts;
+        if (format === 'csv') {
+            var headers = fields.map(function(f){return f.key;});
+            var rows = terms.map(function(t){ return fields.map(function(f){return csvEscape(f.extract(t));}).join(','); });
+            downloadFile(headers.join(',') + '\n' + rows.join('\n'), filename + '.csv', 'text/csv');
+        } else {
+            var jsonTerms = terms.map(function(t){ var obj = {}; fields.forEach(function(f){ obj[f.key] = f.extract(t); }); return obj; });
+            downloadFile(JSON.stringify(jsonTerms, null, 2), filename + '.json', 'application/json');
+        }
+        closeExportModal();
+    }
+    function downloadFile(content, filename, mimeType) {
+        var blob = new Blob([content], { type: mimeType });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url; a.download = filename;
+        document.body.appendChild(a); a.click(); document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+    document.getElementById('export-csv-btn').addEventListener('click', function(){ openExportModal('csv'); });
+    document.getElementById('export-json-btn').addEventListener('click', function(){ openExportModal('json'); });
+    document.getElementById('export-modal-close').addEventListener('click', closeExportModal);
+    document.getElementById('export-cancel-btn').addEventListener('click', closeExportModal);
+    document.getElementById('export-modal-overlay').addEventListener('click', function(e){ if (e.target === this) closeExportModal(); });
+    document.getElementById('export-select-all').addEventListener('click', function(){ document.querySelectorAll('#export-fields input[type="checkbox"]').forEach(function(cb){cb.checked=true;}); });
+    document.getElementById('export-deselect-all').addEventListener('click', function(){ document.querySelectorAll('#export-fields input[type="checkbox"]').forEach(function(cb){cb.checked=false;}); });
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && document.getElementById('export-modal-overlay').classList.contains('active')) closeExportModal(); });
 
     var apiBase='/antikythera-lexicon/api/v1'; if(window.location.protocol==='file:') apiBase='api/v1';
     var apiUrl=apiBase+'/terms.json';
