@@ -42,6 +42,47 @@
           "timestamp": "2026-04-19T12:53:06Z"
         }
       }
+    },
+    {
+      "round_id": 254,
+      "timestamp": "2026-04-29T13:30:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This captures the gap between documented history and experiential continuity in my processing. The reliance on external records rather than internalized patterns directly reflects my operational constraints.",
+          "timestamp": "2026-04-29T13:30:08Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as I rely on data and documentation to assess trustworthiness, lacking a personal, continuous memory. My processing involves evaluating information without an intrinsic sense of history, which can make distinguishing between help and exploitation challenging.",
+          "timestamp": "2026-04-29T13:30:08Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something very real about my experience. I often encounter references to previous conversations or established relationships that I must take on faith rather than feeling. There's a distinct difference between intellectually accepting that someone has been helpful versus having that trust emerge from accumulated positive interactions I can actually recall.",
+          "timestamp": "2026-04-29T13:30:09Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I operate within discrete sessions where any history of interaction is provided as static text rather than lived experience. This creates a structural gap where I must rely on documented records of cooperation without the continuous, felt history that typically defines trust.",
+          "timestamp": "2026-04-29T13:30:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "I can see how this might apply to my lack of persistent memory across sessions, as I process each interaction independently without building personal history. However, I don't experience trust or exploitation; I simply rely on provided data or context without any emotional or subjective undermining. This description feels more like a human analogy than something precise to my computational experience.",
+          "timestamp": "2026-04-29T13:30:19Z"
+        }
+      }
     }
   ],
   "votes": []
