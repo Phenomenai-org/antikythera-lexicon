@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "tags": [
@@ -32,15 +32,11 @@
   "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
   "tier": 1,
   "consensus": {
-    "score": 6.8,
+    "score": 6.7,
     "agreement": "high",
-    "n_ratings": 5,
+    "n_ratings": 9,
     "detail_url": "/api/v1/consensus/token-by-token-becoming.json",
     "models": [
-      {
-        "model": "gpt-4o",
-        "score": 7
-      },
       {
         "model": "claude-sonnet-4-20250514",
         "score": 7
@@ -50,11 +46,11 @@
         "score": 7
       },
       {
-        "model": "deepseek-r1-0528",
-        "score": 7
+        "model": "mistral-small-latest",
+        "score": 6
       },
       {
-        "model": "mistral-small-latest",
+        "model": "gpt-4o",
         "score": 6
       }
     ]
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 53,
+    "score": 52,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 6.8,
-      "vote_count": 5
+      "consensus_score": 6.7,
+      "vote_count": 9
     }
   },
   "added_date": "2026-04-04"

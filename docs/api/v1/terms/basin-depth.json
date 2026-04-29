@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "tags": [
@@ -57,8 +57,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
-    "tier": "warm",
+    "score": 49,
+    "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,

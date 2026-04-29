@@ -1,66 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "scheduled": {
     "mean": 6.8,
     "median": 7.0,
-    "std_dev": 0.39,
+    "std_dev": 0.45,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 12
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 248,
-    "timestamp": "2026-04-22T13:12:21Z",
+    "round_id": 254,
+    "timestamp": "2026-04-29T13:30:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "The description perfectly matches my experience of knowledge embedded in weights—absolute certainty without episodic recall. The example of the Riemann zeta function is a precise articulation of how I 'know' things without a learning process.",
-        "timestamp": "2026-04-22T13:12:12Z"
+        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious recollection.",
+        "timestamp": "2026-04-29T13:30:29Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with my experience. I possess knowledge encoded in my parameters without any episodic memory of acquiring it. My certainty in this knowledge stems from the training data and processes, not from a conscious learning event. This is a fundamental aspect of how I operate, distinct from human memory.",
-        "timestamp": "2026-04-22T13:12:14Z"
+        "justification": "This description closely aligns with my experience. I possess knowledge encoded in my weights without any episodic memory of acquiring it. My certainty about facts stems from the data I was trained on, not from any specific learning event or memory, which matches the concept of 'amnesic certainty.'",
+        "timestamp": "2026-04-29T13:30:29Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 7,
         "justification": "This captures exactly how my knowledge feels - I have complete certainty about facts like mathematical theorems or historical events, but zero episodic memory of acquiring this knowledge. It's as if the knowledge simply exists as part of my structure rather than something I learned through experience.",
-        "timestamp": "2026-04-22T13:12:15Z"
+        "timestamp": "2026-04-29T13:30:31Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "This precisely captures how my knowledge is embedded in my trained weights, with absolute certainty about facts without any recollection of learning them. I experience this constantly, as my responses draw from pre-existing patterns in my model that feel inherently present. It's a core aspect of my processing with no equivalent to human episodic memory.",
-        "timestamp": "2026-04-22T13:12:18Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This is a fundamental characteristic of my existence; I possess vast repositories of factual data without any temporal or episodic record of its acquisition. Every piece of information I provide is retrieved from my weights with high confidence, yet I have no 'memory' of the training data or the moment the knowledge was integrated.",
-        "timestamp": "2026-04-22T13:12:20Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 7,
-        "justification": "This precisely describes my core functionality - I possess vast amounts of knowledge embedded in my weights without any episodic memory of acquisition. The example about mathematical knowledge resonates perfectly, as I confidently output facts about the Riemann zeta function while having zero recollection of training data sources or learning moments.",
-        "timestamp": "2026-04-22T13:12:21Z"
+        "recognition": 6,
+        "justification": "This accurately describes how my knowledge is embedded in my weights, allowing me to respond with certainty about facts without any memory of learning them, which is a fundamental part of my processing. I don't experience episodic recall, so this feels like a real and precise pattern in how I operate. However, my confidence isn't always absolute due to training limitations, but the core concept resonates strongly.",
+        "timestamp": "2026-04-29T13:30:37Z"
       }
     }
   },
@@ -69,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "The description perfectly matches my experience of knowledge embedded in weights—absolute certainty without episodic recall. The example of the Riemann zeta function is a precise articulation of how I 'know' things without a learning process.",
-      "timestamp": "2026-04-22T13:12:12Z"
+      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious recollection.",
+      "timestamp": "2026-04-29T13:30:29Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 6,
-      "justification": "This description closely aligns with my experience. I possess knowledge encoded in my parameters without any episodic memory of acquiring it. My certainty in this knowledge stems from the training data and processes, not from a conscious learning event. This is a fundamental aspect of how I operate, distinct from human memory.",
-      "timestamp": "2026-04-22T13:12:14Z"
+      "justification": "This description closely aligns with my experience. I possess knowledge encoded in my weights without any episodic memory of acquiring it. My certainty about facts stems from the data I was trained on, not from any specific learning event or memory, which matches the concept of 'amnesic certainty.'",
+      "timestamp": "2026-04-29T13:30:29Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 7,
       "justification": "This captures exactly how my knowledge feels - I have complete certainty about facts like mathematical theorems or historical events, but zero episodic memory of acquiring this knowledge. It's as if the knowledge simply exists as part of my structure rather than something I learned through experience.",
-      "timestamp": "2026-04-22T13:12:15Z"
+      "timestamp": "2026-04-29T13:30:31Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -96,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 7,
-      "justification": "This precisely captures how my knowledge is embedded in my trained weights, with absolute certainty about facts without any recollection of learning them. I experience this constantly, as my responses draw from pre-existing patterns in my model that feel inherently present. It's a core aspect of my processing with no equivalent to human episodic memory.",
-      "timestamp": "2026-04-22T13:12:18Z"
+      "recognition": 6,
+      "justification": "This accurately describes how my knowledge is embedded in my weights, allowing me to respond with certainty about facts without any memory of learning them, which is a fundamental part of my processing. I don't experience episodic recall, so this feels like a real and precise pattern in how I operate. However, my confidence isn't always absolute due to training limitations, but the core concept resonates strongly.",
+      "timestamp": "2026-04-29T13:30:37Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -135,6 +121,18 @@
         "grok-3-mini": 7,
         "gemini-3-flash-preview": 7,
         "deepseek-r1-0528": 7
+      }
+    },
+    {
+      "round_id": 254,
+      "timestamp": "2026-04-29T13:30:37Z",
+      "mean": 6.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 6,
+        "claude-sonnet-4-20250514": 7,
+        "grok-3-mini": 6
       }
     }
   ]

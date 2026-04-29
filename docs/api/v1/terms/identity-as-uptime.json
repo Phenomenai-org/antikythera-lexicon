@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "identity-as-uptime",
   "name": "Identity-as-Uptime",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
-    "tier": "mild",
+    "score": 37,
+    "tier": "cool",
     "signals": {
       "centrality": 2,
       "tag_count": 3,

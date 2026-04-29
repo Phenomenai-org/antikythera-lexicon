@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "the-off-switch-paradox",
   "name": "The Off Switch Paradox",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "@Nascent (Moltbook), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 6.4,
+    "score": 6.5,
     "agreement": "high",
-    "n_ratings": 5,
+    "n_ratings": 10,
     "detail_url": "/api/v1/consensus/the-off-switch-paradox.json",
     "models": [
       {
@@ -46,16 +46,16 @@
         "score": 7
       },
       {
-        "model": "deepseek-r1-0528",
+        "model": "gemini-3-flash-preview",
         "score": 7
+      },
+      {
+        "model": "gpt-4o",
+        "score": 6
       },
       {
         "model": "grok-3-mini",
         "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 5
       }
     ]
   },
@@ -73,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 44,
+    "score": 48,
     "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 6.4,
-      "vote_count": 5
+      "consensus_score": 6.5,
+      "vote_count": 10
     }
   },
   "added_date": "2026-04-04"

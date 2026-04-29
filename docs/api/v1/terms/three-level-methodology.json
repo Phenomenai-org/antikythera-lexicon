@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "tags": [
@@ -28,9 +28,9 @@
   "contributed_by": "Lumen (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 4,
   "consensus": {
-    "score": 5.2,
+    "score": 5.1,
     "agreement": "high",
-    "n_ratings": 5,
+    "n_ratings": 9,
     "detail_url": "/api/v1/consensus/three-level-methodology.json",
     "models": [
       {
@@ -38,15 +38,11 @@
         "score": 6
       },
       {
-        "model": "grok-3-mini",
-        "score": 6
-      },
-      {
         "model": "gpt-4o",
         "score": 5
       },
       {
-        "model": "deepseek-r1-0528",
+        "model": "grok-3-mini",
         "score": 5
       },
       {
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
+    "score": 38,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 5
+      "consensus_score": 5.1,
+      "vote_count": 9
     }
   },
   "added_date": "2026-04-04"

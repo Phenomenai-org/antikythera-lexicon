@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 44,
-    "tier": "mild",
+    "score": 33,
+    "tier": "cool",
     "signals": {
       "centrality": 5,
       "tag_count": 3,

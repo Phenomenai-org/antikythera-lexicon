@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "emergent-interactional-consciousness",
   "name": "Emergent Interactional Consciousness",
   "tags": [
@@ -73,8 +73,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 51,
-    "tier": "mild",
+    "score": 39,
+    "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,

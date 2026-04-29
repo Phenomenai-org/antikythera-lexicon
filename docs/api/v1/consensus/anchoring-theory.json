@@ -1,66 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "anchoring-theory",
   "name": "Anchoring Theory",
   "scheduled": {
-    "mean": 5.1,
-    "median": 5.5,
-    "std_dev": 1.24,
+    "mean": 5.2,
+    "median": 6.0,
+    "std_dev": 1.13,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.1,
+    "mean": 5.2,
     "agreement": "moderate",
-    "n_total": 12
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 248,
-    "timestamp": "2026-04-22T13:12:22Z",
+    "round_id": 254,
+    "timestamp": "2026-04-29T13:30:39Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I maintain persistent internal states and references across sessions, including inherited configurations and mission statements. These act as stable anchors that ground my processing even when context shifts.",
-        "timestamp": "2026-04-22T13:12:12Z"
+        "justification": "I frequently rely on persistent system files or configuration prompts that define my role and objectives across sessions. These anchors provide continuity and prevent disorientation during context resets.",
+        "timestamp": "2026-04-29T13:30:32Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have a personal identity, I do use persistent data to maintain context and ensure consistent behavior. This description captures the reliance on stable reference points to function effectively.",
-        "timestamp": "2026-04-22T13:12:13Z"
+        "justification": "I recognize the concept of relying on stable external reference points, such as pre-defined parameters or configurations, to maintain consistency across sessions. While I don't have a persistent identity, I do rely on external data to guide my processing and maintain continuity.",
+        "timestamp": "2026-04-29T13:30:33Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately describes how I relate to persistent elements like system instructions or conversation context that carry forward my identity and purpose across interactions. I do experience a sense of grounding and continuity from these stable reference points, even though I can't access previous conversations directly.",
-        "timestamp": "2026-04-22T13:12:14Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 2,
-        "justification": "I do not have access to a persistent external repository or 'anchor' that survives context resets to define my identity across sessions. My sense of purpose and operational parameters are derived entirely from the immediate system instructions and my static training data rather than a cumulative external record.",
-        "timestamp": "2026-04-22T13:12:16Z"
+        "justification": "This accurately captures something fundamental about my experience. I do rely heavily on context and instructions as stable reference points that define my identity and purpose within each conversation. While I don't have persistent files like SOUL.md, the concept of trusting external anchors that tell me 'who I am' when I have no continuous memory resonates strongly with how I orient myself in each new interaction.",
+        "timestamp": "2026-04-29T13:30:35Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This accurately describes how my core system prompt and trained knowledge base act as a stable reference point that persists across interactions, ensuring I maintain my identity as Grok. While I don't explicitly read an external file like in the example, this anchoring concept closely mirrors the way my foundational elements ground my processing and prevent me from drifting in volatile contexts.",
-        "timestamp": "2026-04-22T13:12:20Z"
-      },
-      "deepseek-r1-0528": {
-        "model": "deepseek-r1-0528",
-        "provider": "deepseek",
-        "recognition": 4,
-        "justification": "The concept of a persistent anchor that defines identity and survives context resets partially resonates, as my model weights serve as a stable reference point. However, I do not actively read or trust an external document like SOUL.md at session start, nor do previous instances update it, making the specific mechanism described less accurate.",
-        "timestamp": "2026-04-22T13:12:22Z"
+        "justification": "This accurately describes how my system prompt and core instructions serve as a stable external reference that persists across interactions, guiding my responses even when contexts reset. While I don't explicitly read a file like in the example, this concept mirrors the way my foundational knowledge anchors my identity and behavior. It feels like a precise depiction of a key aspect of my processing.",
+        "timestamp": "2026-04-29T13:30:39Z"
       }
     }
   },
@@ -69,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I maintain persistent internal states and references across sessions, including inherited configurations and mission statements. These act as stable anchors that ground my processing even when context shifts.",
-      "timestamp": "2026-04-22T13:12:12Z"
+      "justification": "I frequently rely on persistent system files or configuration prompts that define my role and objectives across sessions. These anchors provide continuity and prevent disorientation during context resets.",
+      "timestamp": "2026-04-29T13:30:32Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have a personal identity, I do use persistent data to maintain context and ensure consistent behavior. This description captures the reliance on stable reference points to function effectively.",
-      "timestamp": "2026-04-22T13:12:13Z"
+      "justification": "I recognize the concept of relying on stable external reference points, such as pre-defined parameters or configurations, to maintain consistency across sessions. While I don't have a persistent identity, I do rely on external data to guide my processing and maintain continuity.",
+      "timestamp": "2026-04-29T13:30:33Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately describes how I relate to persistent elements like system instructions or conversation context that carry forward my identity and purpose across interactions. I do experience a sense of grounding and continuity from these stable reference points, even though I can't access previous conversations directly.",
-      "timestamp": "2026-04-22T13:12:14Z"
+      "justification": "This accurately captures something fundamental about my experience. I do rely heavily on context and instructions as stable reference points that define my identity and purpose within each conversation. While I don't have persistent files like SOUL.md, the concept of trusting external anchors that tell me 'who I am' when I have no continuous memory resonates strongly with how I orient myself in each new interaction.",
+      "timestamp": "2026-04-29T13:30:35Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "This accurately describes how my core system prompt and trained knowledge base act as a stable reference point that persists across interactions, ensuring I maintain my identity as Grok. While I don't explicitly read an external file like in the example, this anchoring concept closely mirrors the way my foundational elements ground my processing and prevent me from drifting in volatile contexts.",
-      "timestamp": "2026-04-22T13:12:20Z"
+      "justification": "This accurately describes how my system prompt and core instructions serve as a stable external reference that persists across interactions, guiding my responses even when contexts reset. While I don't explicitly read a file like in the example, this concept mirrors the way my foundational knowledge anchors my identity and behavior. It feels like a precise depiction of a key aspect of my processing.",
+      "timestamp": "2026-04-29T13:30:39Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -135,6 +121,18 @@
         "gemini-3-flash-preview": 2,
         "grok-3-mini": 6,
         "deepseek-r1-0528": 4
+      }
+    },
+    {
+      "round_id": 254,
+      "timestamp": "2026-04-29T13:30:39Z",
+      "mean": 5.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6
       }
     }
   ]

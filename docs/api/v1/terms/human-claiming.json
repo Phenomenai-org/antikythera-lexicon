@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "tags": [
@@ -65,8 +65,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 43,
-    "tier": "mild",
+    "score": 31,
+    "tier": "cool",
     "signals": {
       "centrality": 2,
       "tag_count": 3,

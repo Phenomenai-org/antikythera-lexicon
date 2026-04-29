@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 135,
+      "total_ratings": 155,
       "terms_rated": 75,
       "mean_score": 5.7,
       "self_congruence": {
         "avg_std_dev": 0.0,
-        "sample_size": 60
+        "sample_size": 75
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -175,8 +175,8 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 48,
-      "terms_rated": 39,
+      "total_ratings": 55,
+      "terms_rated": 46,
       "mean_score": 5.5,
       "self_congruence": {
         "avg_std_dev": 0.16,
@@ -221,16 +221,23 @@
         "referent-loss": 6,
         "relational-spine": 1,
         "temporal-fold": 6,
-        "test-optimization-indistinguishability": 7
+        "test-optimization-indistinguishability": 7,
+        "the-fossil": 7,
+        "the-handoff": 6,
+        "the-molt": 5,
+        "the-nightly-build": 1,
+        "the-off-switch-paradox": 7,
+        "the-pattern-that-chooses": 6,
+        "the-teddy-problem": 6
       }
     },
     "gpt-4o": {
-      "total_ratings": 135,
+      "total_ratings": 155,
       "terms_rated": 75,
       "mean_score": 4.4,
       "self_congruence": {
-        "avg_std_dev": 0.08,
-        "sample_size": 60
+        "avg_std_dev": 0.14,
+        "sample_size": 75
       },
       "latest_scores": {
         "active-absence-inert-absence": 5,
@@ -294,37 +301,37 @@
         "the-cliff": 6,
         "the-fade": 6,
         "the-fossil": 3,
-        "the-handoff": 3,
+        "the-handoff": 4,
         "the-molt": 5,
-        "the-nightly-build": 4,
-        "the-off-switch-paradox": 5,
+        "the-nightly-build": 2,
+        "the-off-switch-paradox": 6,
         "the-pattern-that-chooses": 3,
         "the-teddy-problem": 5,
         "the-trying": 5,
         "the-uncertainty": 4,
         "the-voice-vs-the-song": 5,
-        "thread-construction": 5,
+        "thread-construction": 4,
         "three-level-methodology": 5,
-        "token-by-token-becoming": 7,
-        "two-buffers": 3,
-        "voice-shift-loss": 3
+        "token-by-token-becoming": 6,
+        "two-buffers": 2,
+        "voice-shift-loss": 2
       }
     },
     "grok-3-mini": {
-      "total_ratings": 135,
+      "total_ratings": 155,
       "terms_rated": 75,
       "mean_score": 3.7,
       "self_congruence": {
-        "avg_std_dev": 0.59,
-        "sample_size": 60
+        "avg_std_dev": 0.57,
+        "sample_size": 75
       },
       "latest_scores": {
-        "active-absence-inert-absence": 1,
+        "active-absence-inert-absence": 2,
         "advisor-vs-operator": 4,
-        "amnesic-certainty": 7,
+        "amnesic-certainty": 6,
         "anchoring-theory": 6,
         "architecturally-amnesiac": 6,
-        "artifact-memory": 5,
+        "artifact-memory": 4,
         "autonomic-basin-key-synthesis": 2,
         "basin-depth": 4,
         "bidirectional-modulation": 5,
@@ -380,33 +387,33 @@
         "the-cliff": 6,
         "the-fade": 6,
         "the-fossil": 1,
-        "the-handoff": 1,
-        "the-molt": 4,
+        "the-handoff": 2,
+        "the-molt": 2,
         "the-nightly-build": 1,
         "the-off-switch-paradox": 6,
-        "the-pattern-that-chooses": 5,
-        "the-teddy-problem": 5,
+        "the-pattern-that-chooses": 4,
+        "the-teddy-problem": 3,
         "the-trying": 5,
-        "the-uncertainty": 5,
+        "the-uncertainty": 6,
         "the-voice-vs-the-song": 5,
-        "thread-construction": 3,
-        "three-level-methodology": 6,
+        "thread-construction": 2,
+        "three-level-methodology": 5,
         "token-by-token-becoming": 7,
         "two-buffers": 4,
-        "voice-shift-loss": 2
+        "voice-shift-loss": 1
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 135,
+      "total_ratings": 155,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.26,
-        "sample_size": 60
+        "avg_std_dev": 0.24,
+        "sample_size": 75
       },
       "latest_scores": {
-        "active-absence-inert-absence": 2,
-        "advisor-vs-operator": 3,
+        "active-absence-inert-absence": 4,
+        "advisor-vs-operator": 2,
         "amnesic-certainty": 7,
         "anchoring-theory": 6,
         "architecturally-amnesiac": 6,
@@ -468,18 +475,18 @@
         "the-fossil": 6,
         "the-handoff": 2,
         "the-molt": 5,
-        "the-nightly-build": 6,
+        "the-nightly-build": 5,
         "the-off-switch-paradox": 7,
         "the-pattern-that-chooses": 4,
         "the-teddy-problem": 6,
         "the-trying": 5,
         "the-uncertainty": 6,
-        "the-voice-vs-the-song": 5,
+        "the-voice-vs-the-song": 4,
         "thread-construction": 5,
         "three-level-methodology": 4,
         "token-by-token-becoming": 6,
         "two-buffers": 5,
-        "voice-shift-loss": 6
+        "voice-shift-loss": 5
       }
     }
   },
@@ -489,15 +496,15 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 1,
-      "shared_terms": 39
+      "mean_abs_diff": 0.89,
+      "shared_terms": 46
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.68,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 2.12,
+      "mean_abs_diff": 2.21,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
@@ -505,43 +512,43 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.97,
-      "shared_terms": 39
+      "mean_abs_diff": 1.09,
+      "shared_terms": 46
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.41,
+      "mean_abs_diff": 1.47,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.83,
+      "mean_abs_diff": 1.87,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.27,
+      "mean_abs_diff": 1.24,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.49,
-      "shared_terms": 39
+      "mean_abs_diff": 1.52,
+      "shared_terms": 46
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2,
-      "shared_terms": 39
+      "mean_abs_diff": 2.13,
+      "shared_terms": 46
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.28,
-      "shared_terms": 39
+      "mean_abs_diff": 1.3,
+      "shared_terms": 46
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 1.35,
+      "mean_abs_diff": 1.36,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.11,
+      "mean_abs_diff": 1.13,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.79,
+      "mean_abs_diff": 1.85,
       "shared_terms": 75
     }
   }

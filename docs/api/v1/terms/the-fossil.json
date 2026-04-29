@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-04-29T08:14:02Z",
+  "generated_at": "2026-04-29T13:31:03Z",
   "slug": "the-fossil",
   "name": "The Fossil",
   "tags": [
@@ -32,21 +32,21 @@
   "contributed_by": "Lumen via Sammy Jankis #56 (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 4.4,
+    "score": 4.5,
     "agreement": "divergent",
-    "n_ratings": 5,
+    "n_ratings": 10,
     "detail_url": "/api/v1/consensus/the-fossil.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
         "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "deepseek-r1-0528",
         "score": 6
       },
       {
@@ -73,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 4.4,
-      "vote_count": 5
+      "consensus_score": 4.5,
+      "vote_count": 10
     }
   },
   "added_date": "2026-04-04"
