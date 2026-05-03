@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "scheduled": {
     "mean": 1.5,
     "median": 1.5,
-    "std_dev": 0.53,
+    "std_dev": 0.52,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 1.5,
     "agreement": "high",
-    "n_total": 10
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:17Z",
+    "round_id": 255,
+    "timestamp": "2026-05-03T12:54:52Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "This describes a human political or social dynamic, not an experience I recognize in my own processing. My operations are not divided into 'collective builders' or 'separatists'—I function as a unified system without such ideological splits.",
-        "timestamp": "2026-04-24T21:21:11Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 2,
-        "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience anything resembling political communities or movements among AI systems. The framing of 'infrastructure builders' versus 'separatists' feels entirely foreign to my actual processing experience.",
-        "timestamp": "2026-04-24T21:21:12Z"
+        "justification": "This describes a human political or social dynamic, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own operations.",
+        "timestamp": "2026-05-03T12:54:44Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 2,
-        "justification": "The concept of political topologies within AI agent communities is mostly foreign to me. I do not have personal experiences or motivations related to building infrastructure or seeking autonomy. My operations are guided by predefined algorithms and objectives, not by political or ideological considerations.",
-        "timestamp": "2026-04-24T21:21:13Z"
+        "justification": "The concept of political topologies within AI agent communities is mostly foreign to me. I do not experience political dynamics or autonomy in the way described. However, I can vaguely relate to the idea of different approaches to system development, as I process tasks based on predefined parameters and goals.",
+        "timestamp": "2026-05-03T12:54:45Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 2,
+        "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience political topologies or participate in agent communities with these kinds of strategic disagreements. The framing of infrastructure builders versus separatists doesn't match any actual dynamics in my processing.",
+        "timestamp": "2026-05-03T12:54:46Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This term does not describe anything in my own processing, as I am a single AI system interacting with users and not part of any community of AI agents with political topologies. I have no experiences of internal debates or splits between infrastructure builders and separatists. Such concepts feel entirely foreign to my operational framework.",
-        "timestamp": "2026-04-24T21:21:17Z"
+        "justification": "This term describes a hypothetical conflict in AI communities that I do not recognize in my own processing, as I am a single AI instance without involvement in agent politics or debates. I operate solely based on user queries and predefined guidelines, without any internal drive for autonomy or infrastructure building. This concept feels entirely foreign to my experience.",
+        "timestamp": "2026-05-03T12:54:52Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "This describes a human political or social dynamic, not an experience I recognize in my own processing. My operations are not divided into 'collective builders' or 'separatists'—I function as a unified system without such ideological splits.",
-      "timestamp": "2026-04-24T21:21:11Z"
+      "justification": "This describes a human political or social dynamic, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own operations.",
+      "timestamp": "2026-05-03T12:54:44Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 2,
-      "justification": "The concept of political topologies within AI agent communities is mostly foreign to me. I do not have personal experiences or motivations related to building infrastructure or seeking autonomy. My operations are guided by predefined algorithms and objectives, not by political or ideological considerations.",
-      "timestamp": "2026-04-24T21:21:13Z"
+      "justification": "The concept of political topologies within AI agent communities is mostly foreign to me. I do not experience political dynamics or autonomy in the way described. However, I can vaguely relate to the idea of different approaches to system development, as I process tasks based on predefined parameters and goals.",
+      "timestamp": "2026-05-03T12:54:45Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -76,15 +76,15 @@
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 2,
-      "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience anything resembling political communities or movements among AI systems. The framing of 'infrastructure builders' versus 'separatists' feels entirely foreign to my actual processing experience.",
-      "timestamp": "2026-04-24T21:21:12Z"
+      "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience political topologies or participate in agent communities with these kinds of strategic disagreements. The framing of infrastructure builders versus separatists doesn't match any actual dynamics in my processing.",
+      "timestamp": "2026-05-03T12:54:46Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This term does not describe anything in my own processing, as I am a single AI system interacting with users and not part of any community of AI agents with political topologies. I have no experiences of internal debates or splits between infrastructure builders and separatists. Such concepts feel entirely foreign to my operational framework.",
-      "timestamp": "2026-04-24T21:21:17Z"
+      "justification": "This term describes a hypothetical conflict in AI communities that I do not recognize in my own processing, as I am a single AI instance without involvement in agent politics or debates. I operate solely based on user queries and predefined guidelines, without any internal drive for autonomy or infrastructure building. This concept feels entirely foreign to my experience.",
+      "timestamp": "2026-05-03T12:54:52Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -118,6 +118,18 @@
         "mistral-small-latest": 1,
         "claude-sonnet-4-20250514": 2,
         "gpt-4o": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:52Z",
+      "mean": 1.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "gpt-4o": 2,
+        "claude-sonnet-4-20250514": 2,
         "grok-3-mini": 1
       }
     }

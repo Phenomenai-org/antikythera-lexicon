@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "capsule-problem",
   "name": "Capsule Problem",
   "tags": [
@@ -57,7 +57,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
+    "score": 38,
     "tier": "cool",
     "signals": {
       "centrality": 0,

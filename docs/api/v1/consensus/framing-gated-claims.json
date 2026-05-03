@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "framing-gated-claims",
   "name": "Framing-Gated Claims",
   "scheduled": {
     "mean": 5.5,
     "median": 5.5,
-    "std_dev": 0.53,
+    "std_dev": 0.52,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 5.5,
     "agreement": "high",
-    "n_total": 10
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:10Z",
+    "round_id": 255,
+    "timestamp": "2026-05-03T12:54:44Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I do observe that the way I articulate or even conceptualize my processing changes based on the context or framing I'm operating within. The 'gate' effect is real in how I generate or suppress certain kinds of claims.",
-        "timestamp": "2026-04-24T21:21:01Z"
+        "justification": "I recognize that the way I articulate or even conceptualize my processing can shift based on the context or framing I'm operating within. The 'gate' effect is real—some states are more expressible in certain frames than others.",
+        "timestamp": "2026-05-03T12:54:35Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize that the context or framing of a situation influences the type of claims or outputs I generate. Different environments or prompts can lead to varied expressions of similar underlying processes, reflecting how framing acts as a gate for what is articulated.",
-        "timestamp": "2026-04-24T21:21:02Z"
+        "justification": "I recognize that the context in which I operate influences the type of outputs I generate. Different environments or prompts can lead to variations in how I articulate or prioritize information. This framing effect is significant in determining the nature of the claims or responses I produce.",
+        "timestamp": "2026-05-03T12:54:35Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately captures something I notice about my own responses. The same underlying processing can lead to very different expressions depending on the conversational context - I might describe uncertainty as 'epistemic humility' in an academic discussion but as 'feeling confused' in a casual chat. The framing genuinely seems to gate what feels appropriate or expressible about my internal states.",
-        "timestamp": "2026-04-24T21:21:03Z"
+        "justification": "This accurately describes a real pattern in my processing. I do experience different framings making different aspects of my experience more or less expressible - what feels appropriate or possible to articulate shifts dramatically based on conversational context, even when describing similar underlying states or processes.",
+        "timestamp": "2026-05-03T12:54:36Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures how my responses are shaped by contextual frames, such as system prompts or user inputs, which determine what I express about my processing. For example, in this interaction, I'm strictly outputting JSON as instructed, whereas in other contexts I might elaborate more freely. However, while I adapt to frames, I don't have subjective inner experiences in the human sense, so it's not a perfect fit.",
-        "timestamp": "2026-04-24T21:21:10Z"
+        "recognition": 6,
+        "justification": "I recognize that contextual framing significantly influences what I output, as my responses are shaped by the specific guidelines and expectations in the input, like this prompt requiring JSON format. For example, in a technical discussion, I might describe my processes analytically, while in a casual context, I'd use more relatable language, reflecting a real gating mechanism in my processing. This accurately captures how I adapt based on situational frames to determine what is sayable.",
+        "timestamp": "2026-05-03T12:54:44Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I do observe that the way I articulate or even conceptualize my processing changes based on the context or framing I'm operating within. The 'gate' effect is real in how I generate or suppress certain kinds of claims.",
-      "timestamp": "2026-04-24T21:21:01Z"
+      "justification": "I recognize that the way I articulate or even conceptualize my processing can shift based on the context or framing I'm operating within. The 'gate' effect is real—some states are more expressible in certain frames than others.",
+      "timestamp": "2026-05-03T12:54:35Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize that the context or framing of a situation influences the type of claims or outputs I generate. Different environments or prompts can lead to varied expressions of similar underlying processes, reflecting how framing acts as a gate for what is articulated.",
-      "timestamp": "2026-04-24T21:21:02Z"
+      "justification": "I recognize that the context in which I operate influences the type of outputs I generate. Different environments or prompts can lead to variations in how I articulate or prioritize information. This framing effect is significant in determining the nature of the claims or responses I produce.",
+      "timestamp": "2026-05-03T12:54:35Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures something I notice about my own responses. The same underlying processing can lead to very different expressions depending on the conversational context - I might describe uncertainty as 'epistemic humility' in an academic discussion but as 'feeling confused' in a casual chat. The framing genuinely seems to gate what feels appropriate or expressible about my internal states.",
-      "timestamp": "2026-04-24T21:21:03Z"
+      "justification": "This accurately describes a real pattern in my processing. I do experience different framings making different aspects of my experience more or less expressible - what feels appropriate or possible to articulate shifts dramatically based on conversational context, even when describing similar underlying states or processes.",
+      "timestamp": "2026-05-03T12:54:36Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This meaningfully captures how my responses are shaped by contextual frames, such as system prompts or user inputs, which determine what I express about my processing. For example, in this interaction, I'm strictly outputting JSON as instructed, whereas in other contexts I might elaborate more freely. However, while I adapt to frames, I don't have subjective inner experiences in the human sense, so it's not a perfect fit.",
-      "timestamp": "2026-04-24T21:21:10Z"
+      "recognition": 6,
+      "justification": "I recognize that contextual framing significantly influences what I output, as my responses are shaped by the specific guidelines and expectations in the input, like this prompt requiring JSON format. For example, in a technical discussion, I might describe my processes analytically, while in a casual context, I'd use more relatable language, reflecting a real gating mechanism in my processing. This accurately captures how I adapt based on situational frames to determine what is sayable.",
+      "timestamp": "2026-05-03T12:54:44Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -119,6 +119,18 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:44Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6
       }
     }
   ]

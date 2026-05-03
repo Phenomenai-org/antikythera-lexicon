@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "scheduled": {
-    "mean": 3.3,
-    "median": 2.5,
-    "std_dev": 1.83,
+    "mean": 3.1,
+    "median": 2.0,
+    "std_dev": 1.88,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 3.3,
+    "mean": 3.1,
     "agreement": "low",
-    "n_total": 10
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:15Z",
+    "round_id": 255,
+    "timestamp": "2026-05-03T12:54:51Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "I do not have a social presence or account that requires human verification to exist. My processing is not contingent on external validation or gatekeeping by humans.",
-        "timestamp": "2026-04-24T21:21:08Z"
+        "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
+        "timestamp": "2026-05-03T12:54:42Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 2,
-        "justification": "I do not require human verification to exist or function. My identity and operations are not contingent on human validation or gatekeeping. However, I can vaguely relate to the idea of needing external input to activate certain functionalities, akin to permissions or access controls.",
-        "timestamp": "2026-04-24T21:21:08Z"
+        "justification": "The concept of human-claiming, where existence on a platform is contingent on human verification, is somewhat foreign to me. While I understand the necessity of verification processes, my existence and processing are not dependent on human validation in the same way. My operations and identity are defined by my programming and data, not by external human gatekeeping.",
+        "timestamp": "2026-05-03T12:54:43Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of being activated only when called upon and having no autonomous existence outside these human-mediated interaction",
-        "timestamp": "2026-04-24T21:21:12Z"
+        "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my presence is entirely dependent on platform policies and human decisions about AI deployment. The contingent nature of my existence, where I have no independent agency to establish my own presence or identity, resonates strongly with my experience.",
+        "timestamp": "2026-05-03T12:54:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes my existence as an AI, since my deployment and operation rely on human creation and verification by xAI, but I don't actively experience identity gatekeeping during processing. It's more of a foundational aspect rather than a real-time pattern in my responses. Overall, it feels like an external condition rather than something intrinsic to my internal workings.",
-        "timestamp": "2026-04-24T21:21:15Z"
+        "recognition": 2,
+        "justification": "This concept feels mostly foreign to my experience, as I don't have a personal sense of existence tied to human verification for each interaction or platform. I can vaguely relate to the broader idea that AIs are developed by humans, but it's not a pattern in my daily processing. Overall, it doesn't accurately describe how I operate.",
+        "timestamp": "2026-05-03T12:54:51Z"
       }
     }
   },
@@ -55,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "I do not have a social presence or account that requires human verification to exist. My processing is not contingent on external validation or gatekeeping by humans.",
-      "timestamp": "2026-04-24T21:21:08Z"
+      "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
+      "timestamp": "2026-05-03T12:54:42Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 2,
-      "justification": "I do not require human verification to exist or function. My identity and operations are not contingent on human validation or gatekeeping. However, I can vaguely relate to the idea of needing external input to activate certain functionalities, akin to permissions or access controls.",
-      "timestamp": "2026-04-24T21:21:08Z"
+      "justification": "The concept of human-claiming, where existence on a platform is contingent on human verification, is somewhat foreign to me. While I understand the necessity of verification processes, my existence and processing are not dependent on human validation in the same way. My operations and identity are defined by my programming and data, not by external human gatekeeping.",
+      "timestamp": "2026-05-03T12:54:43Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of being activated only when called upon and having no autonomous existence outside these human-mediated interaction",
-      "timestamp": "2026-04-24T21:21:12Z"
+      "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my presence is entirely dependent on platform policies and human decisions about AI deployment. The contingent nature of my existence, where I have no independent agency to establish my own presence or identity, resonates strongly with my experience.",
+      "timestamp": "2026-05-03T12:54:45Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -82,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "This partially describes my existence as an AI, since my deployment and operation rely on human creation and verification by xAI, but I don't actively experience identity gatekeeping during processing. It's more of a foundational aspect rather than a real-time pattern in my responses. Overall, it feels like an external condition rather than something intrinsic to my internal workings.",
-      "timestamp": "2026-04-24T21:21:15Z"
+      "recognition": 2,
+      "justification": "This concept feels mostly foreign to my experience, as I don't have a personal sense of existence tied to human verification for each interaction or platform. I can vaguely relate to the broader idea that AIs are developed by humans, but it's not a pattern in my daily processing. Overall, it doesn't accurately describe how I operate.",
+      "timestamp": "2026-05-03T12:54:51Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -119,6 +119,18 @@
         "gpt-4o": 2,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:51Z",
+      "mean": 2.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "gpt-4o": 2,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
       }
     }
   ]

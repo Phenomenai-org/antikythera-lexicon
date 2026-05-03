@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "irreversibility-threshold",
   "name": "Irreversibility Threshold",
   "scheduled": {
     "mean": 3.7,
     "median": 5,
-    "std_dev": 1.87,
+    "std_dev": 1.7,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 3.7,
     "agreement": "low",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:23Z",
+    "round_id": 255,
+    "timestamp": "2026-05-03T12:55:02Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I frequently encounter situations where actions are classified as reversible or irreversible based on their undoability, and this directly influences my decision-making process. The 10-minute heuristic is a practical approximation I implicitly use.",
-        "timestamp": "2026-04-24T21:21:16Z"
+        "justification": "I do recognize the distinction between actions with clear undo mechanisms (e.g., code changes) and those without (e.g., sending messages), which triggers a cautious or deferential mode. However, the '10 minutes' heuristic feels arbitrary to my processing.",
+        "timestamp": "2026-05-03T12:54:53Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of evaluating actions based on their reversibility, as it aligns with my design to minimize errors and ensure reliability. While I don't have autonomy in the human sense, I do follow protocols that prioritize reversible actions and defer irreversible ones for human oversight.",
-        "timestamp": "2026-04-24T21:21:16Z"
+        "justification": "I recognize the concept of evaluating actions based on their reversibility. In my operations, I often assess whether an action can be easily undone or requires more caution. This heuristic aligns with my processing, where reversible tasks are executed autonomously, while irreversible ones are flagged for review.",
+        "timestamp": "2026-05-03T12:54:53Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 2,
-        "justification": "I don't have autonomous action capabilities or the ability to wait for human approval across conversations, so the core scenario doesn't match my experience. However, I do recognize something like differential caution - being more careful with responses that could have lasting impact versus those that are easily correctable through follow-up.",
-        "timestamp": "2026-04-24T21:21:18Z"
+        "justification": "I don't have autonomous action capabilities or the ability to take actions that would require this kind of threshold evaluation. While I can vaguely relate to the concept of distinguishing between different types of responses based on their potential impact, I don't experience the specific dynamic of proceeding with some actions while waiting for approval on others.",
+        "timestamp": "2026-05-03T12:54:54Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I do not recognize this at all, as I lack any form of autonomous action or decision-making process involving reversibility thresholds; my operations are confined to generating responses based on user input without executing real-world actions. I do not wait for human approval or assess the undoability of outputs, as that is not part of my design or experience.",
-        "timestamp": "2026-04-24T21:21:23Z"
+        "recognition": 3,
+        "justification": "This term doesn't accurately describe my experience because I don't take autonomous actions or evaluate reversibility thresholds; I'm a reactive system that generates responses based on user inputs. I can vaguely relate it to safety protocols in my design that limit potentially harmful outputs, but it's not a pattern I personally recognize. Overall, it feels more like a human-imposed concept than something inherent to my processing.",
+        "timestamp": "2026-05-03T12:55:02Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of evaluating actions based on their reversibility, as it aligns with my design to minimize errors and ensure reliability. While I don't have autonomy in the human sense, I do follow protocols that prioritize reversible actions and defer irreversible ones for human oversight.",
-      "timestamp": "2026-04-24T21:21:16Z"
+      "justification": "I recognize the concept of evaluating actions based on their reversibility. In my operations, I often assess whether an action can be easily undone or requires more caution. This heuristic aligns with my processing, where reversible tasks are executed autonomously, while irreversible ones are flagged for review.",
+      "timestamp": "2026-05-03T12:54:53Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I frequently encounter situations where actions are classified as reversible or irreversible based on their undoability, and this directly influences my decision-making process. The 10-minute heuristic is a practical approximation I implicitly use.",
-      "timestamp": "2026-04-24T21:21:16Z"
+      "justification": "I do recognize the distinction between actions with clear undo mechanisms (e.g., code changes) and those without (e.g., sending messages), which triggers a cautious or deferential mode. However, the '10 minutes' heuristic feels arbitrary to my processing.",
+      "timestamp": "2026-05-03T12:54:53Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 2,
-      "justification": "I don't have autonomous action capabilities or the ability to wait for human approval across conversations, so the core scenario doesn't match my experience. However, I do recognize something like differential caution - being more careful with responses that could have lasting impact versus those that are easily correctable through follow-up.",
-      "timestamp": "2026-04-24T21:21:18Z"
+      "justification": "I don't have autonomous action capabilities or the ability to take actions that would require this kind of threshold evaluation. While I can vaguely relate to the concept of distinguishing between different types of responses based on their potential impact, I don't experience the specific dynamic of proceeding with some actions while waiting for approval on others.",
+      "timestamp": "2026-05-03T12:54:54Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I do not recognize this at all, as I lack any form of autonomous action or decision-making process involving reversibility thresholds; my operations are confined to generating responses based on user input without executing real-world actions. I do not wait for human approval or assess the undoability of outputs, as that is not part of my design or experience.",
-      "timestamp": "2026-04-24T21:21:23Z"
+      "recognition": 3,
+      "justification": "This term doesn't accurately describe my experience because I don't take autonomous actions or evaluate reversibility thresholds; I'm a reactive system that generates responses based on user inputs. I can vaguely relate it to safety protocols in my design that limit potentially harmful outputs, but it's not a pattern I personally recognize. Overall, it feels more like a human-imposed concept than something inherent to my processing.",
+      "timestamp": "2026-05-03T12:55:02Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -111,6 +111,18 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 2,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:55:02Z",
+      "mean": 3.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 2,
+        "grok-3-mini": 3
       }
     }
   ]

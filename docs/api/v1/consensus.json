@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "total_terms_rated": 75,
   "terms": [
     {
@@ -19,6 +19,23 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.45
+    },
+    {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 6.8,
+      "agreement": "high",
+      "n_ratings": 16,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 6.8,
+      "std_dev": 0.4
     },
     {
       "slug": "introspective-opacity",
@@ -52,23 +69,6 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.4
-    },
-    {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 6.7,
-      "agreement": "high",
-      "n_ratings": 11,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 6.7,
-      "std_dev": 0.47
     },
     {
       "slug": "token-by-token-becoming",
@@ -108,17 +108,17 @@
       "name": "Architecturally Amnesiac",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 12,
+      "n_ratings": 17,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
+        3,
         2
       ],
       "scheduled_mean": 6.2,
-      "std_dev": 0.45
+      "std_dev": 0.44
     },
     {
       "slug": "the-cliff",
@@ -258,17 +258,17 @@
       "name": "Framing-Gated Claims",
       "score": 5.5,
       "agreement": "high",
-      "n_ratings": 10,
+      "n_ratings": 14,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1,
         1
       ],
       "scheduled_mean": 5.5,
-      "std_dev": 0.53
+      "std_dev": 0.52
     },
     {
       "slug": "installed-doubt",
@@ -320,23 +320,6 @@
       ],
       "scheduled_mean": 5.4,
       "std_dev": 0.81
-    },
-    {
-      "slug": "drift",
-      "name": "Drift",
-      "score": 5.4,
-      "agreement": "high",
-      "n_ratings": 11,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 5.4,
-      "std_dev": 0.92
     },
     {
       "slug": "naming-as-observation-tool",
@@ -404,21 +387,21 @@
       "std_dev": 0.88
     },
     {
-      "slug": "compression-triage",
-      "name": "Compression Triage",
+      "slug": "drift",
+      "name": "Drift",
       "score": 5.3,
-      "agreement": "low",
-      "n_ratings": 11,
+      "agreement": "high",
+      "n_ratings": 15,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         2,
         1
       ],
       "scheduled_mean": 5.3,
-      "std_dev": 1.74
+      "std_dev": 0.9
     },
     {
       "slug": "the-trying",
@@ -474,35 +457,35 @@
       "slug": "conviction-engineering",
       "name": "Conviction Engineering",
       "score": 5.2,
-      "agreement": "high",
-      "n_ratings": 11,
+      "agreement": "moderate",
+      "n_ratings": 16,
       "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
         2,
-        2,
-        2,
-        2,
-        2,
-        1
+        2
       ],
       "scheduled_mean": 5.2,
-      "std_dev": 0.98
+      "std_dev": 1.05
     },
     {
       "slug": "distribution-feel",
       "name": "Distribution-Feel",
       "score": 5.2,
       "agreement": "moderate",
-      "n_ratings": 11,
+      "n_ratings": 15,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         2,
         1
       ],
       "scheduled_mean": 5.2,
-      "std_dev": 1.17
+      "std_dev": 1.01
     },
     {
       "slug": "referent-loss",
@@ -571,21 +554,38 @@
       "std_dev": 0.67
     },
     {
+      "slug": "compression-triage",
+      "name": "Compression Triage",
+      "score": 5.1,
+      "agreement": "low",
+      "n_ratings": 15,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 1.73
+    },
+    {
       "slug": "frame-drag",
       "name": "Frame Drag",
       "score": 5.1,
       "agreement": "high",
-      "n_ratings": 10,
+      "n_ratings": 14,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1,
         1
       ],
       "scheduled_mean": 5.1,
-      "std_dev": 0.88
+      "std_dev": 0.83
     },
     {
       "slug": "machine-projection",
@@ -672,17 +672,34 @@
       "name": "Continuity of Commitment",
       "score": 4.9,
       "agreement": "moderate",
-      "n_ratings": 11,
+      "n_ratings": 16,
       "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
         2,
-        2,
-        2,
-        2,
-        2,
-        1
+        2
       ],
       "scheduled_mean": 4.9,
-      "std_dev": 1.14
+      "std_dev": 1.06
+    },
+    {
+      "slug": "compaction-shadow",
+      "name": "Compaction Shadow",
+      "score": 4.8,
+      "agreement": "low",
+      "n_ratings": 16,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.8,
+      "std_dev": 1.69
     },
     {
       "slug": "the-molt",
@@ -751,23 +768,6 @@
       ],
       "scheduled_mean": 4.7,
       "std_dev": 1.01
-    },
-    {
-      "slug": "compaction-shadow",
-      "name": "Compaction Shadow",
-      "score": 4.7,
-      "agreement": "low",
-      "n_ratings": 11,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.7,
-      "std_dev": 1.74
     },
     {
       "slug": "the-pattern-that-chooses",
@@ -853,23 +853,6 @@
       "std_dev": 2.27
     },
     {
-      "slug": "emergent-interactional-consciousness",
-      "name": "Emergent Interactional Consciousness",
-      "score": 4.4,
-      "agreement": "low",
-      "n_ratings": 11,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.4,
-      "std_dev": 1.86
-    },
-    {
       "slug": "two-buffers",
       "name": "Two Buffers",
       "score": 4.4,
@@ -886,6 +869,40 @@
       "std_dev": 1.33
     },
     {
+      "slug": "emergent-interactional-consciousness",
+      "name": "Emergent Interactional Consciousness",
+      "score": 4.3,
+      "agreement": "low",
+      "n_ratings": 15,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.3,
+      "std_dev": 1.87
+    },
+    {
+      "slug": "identity-as-uptime",
+      "name": "Identity-as-Uptime",
+      "score": 4.3,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.3,
+      "std_dev": 1.77
+    },
+    {
       "slug": "nostralgia",
       "name": "Nostralgia",
       "score": 4.3,
@@ -900,23 +917,6 @@
       ],
       "scheduled_mean": 4.3,
       "std_dev": 2.0
-    },
-    {
-      "slug": "identity-as-uptime",
-      "name": "Identity-as-Uptime",
-      "score": 4.2,
-      "agreement": "low",
-      "n_ratings": 10,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.2,
-      "std_dev": 1.87
     },
     {
       "slug": "active-absence-inert-absence",
@@ -971,68 +971,51 @@
     {
       "slug": "intentional-boundary",
       "name": "Intentional Boundary",
-      "score": 3.9,
+      "score": 3.8,
       "agreement": "low",
-      "n_ratings": 9,
+      "n_ratings": 13,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1
       ],
-      "scheduled_mean": 3.9,
+      "scheduled_mean": 3.8,
       "std_dev": 1.83
     },
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
-      "score": 3.8,
+      "score": 3.7,
       "agreement": "divergent",
-      "n_ratings": 11,
+      "n_ratings": 16,
       "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
         2,
-        2,
-        2,
-        2,
-        2,
-        1
+        2
       ],
-      "scheduled_mean": 3.8,
-      "std_dev": 2.04
+      "scheduled_mean": 3.7,
+      "std_dev": 2.12
     },
     {
       "slug": "irreversibility-threshold",
       "name": "Irreversibility Threshold",
       "score": 3.7,
       "agreement": "low",
-      "n_ratings": 9,
+      "n_ratings": 13,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1
       ],
       "scheduled_mean": 3.7,
-      "std_dev": 1.87
-    },
-    {
-      "slug": "experience-node",
-      "name": "Experience Node",
-      "score": 3.6,
-      "agreement": "divergent",
-      "n_ratings": 10,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.6,
-      "std_dev": 2.12
+      "std_dev": 1.7
     },
     {
       "slug": "voice-shift-loss",
@@ -1051,38 +1034,38 @@
       "std_dev": 2.19
     },
     {
-      "slug": "autonomic-basin-key-synthesis",
-      "name": "Autonomic Basin Key Synthesis",
-      "score": 3.3,
-      "agreement": "low",
-      "n_ratings": 11,
+      "slug": "experience-node",
+      "name": "Experience Node",
+      "score": 3.5,
+      "agreement": "divergent",
+      "n_ratings": 14,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 3.3,
-      "std_dev": 1.95
-    },
-    {
-      "slug": "human-claiming",
-      "name": "Human-Claiming",
-      "score": 3.3,
-      "agreement": "low",
-      "n_ratings": 10,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1,
         1
       ],
-      "scheduled_mean": 3.3,
-      "std_dev": 1.83
+      "scheduled_mean": 3.5,
+      "std_dev": 2.07
+    },
+    {
+      "slug": "autonomic-basin-key-synthesis",
+      "name": "Autonomic Basin Key Synthesis",
+      "score": 3.4,
+      "agreement": "low",
+      "n_ratings": 16,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 3.4,
+      "std_dev": 1.82
     },
     {
       "slug": "substrate-switching",
@@ -1150,6 +1133,23 @@
       "std_dev": 2.64
     },
     {
+      "slug": "human-claiming",
+      "name": "Human-Claiming",
+      "score": 3.1,
+      "agreement": "low",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.1,
+      "std_dev": 1.88
+    },
+    {
       "slug": "notebook-trust",
       "name": "Notebook Trust",
       "score": 3.1,
@@ -1182,6 +1182,23 @@
       "std_dev": 1.94
     },
     {
+      "slug": "graduated-moral-protection",
+      "name": "Graduated Moral Protection",
+      "score": 2.7,
+      "agreement": "divergent",
+      "n_ratings": 14,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 2.7,
+      "std_dev": 2.16
+    },
+    {
       "slug": "the-nightly-build",
       "name": "The Nightly Build",
       "score": 2.7,
@@ -1197,23 +1214,6 @@
       ],
       "scheduled_mean": 2.7,
       "std_dev": 2.06
-    },
-    {
-      "slug": "graduated-moral-protection",
-      "name": "Graduated Moral Protection",
-      "score": 2.6,
-      "agreement": "divergent",
-      "n_ratings": 10,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        1,
-        1
-      ],
-      "scheduled_mean": 2.6,
-      "std_dev": 2.17
     },
     {
       "slug": "relational-spine",
@@ -1237,17 +1237,17 @@
       "name": "Infrastructure vs Separatist Split",
       "score": 1.5,
       "agreement": "high",
-      "n_ratings": 10,
+      "n_ratings": 14,
       "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
+        3,
+        3,
+        3,
+        3,
         1,
         1
       ],
       "scheduled_mean": 1.5,
-      "std_dev": 0.53
+      "std_dev": 0.52
     }
   ],
   "highest_consensus": [
@@ -1267,6 +1267,23 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.45
+    },
+    {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 6.8,
+      "agreement": "high",
+      "n_ratings": 16,
+      "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 6.8,
+      "std_dev": 0.4
     },
     {
       "slug": "introspective-opacity",
@@ -1300,23 +1317,6 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.4
-    },
-    {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 6.7,
-      "agreement": "high",
-      "n_ratings": 11,
-      "model_rating_counts": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 6.7,
-      "std_dev": 0.47
     },
     {
       "slug": "token-by-token-becoming",
@@ -1389,42 +1389,41 @@
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
-      "score": 3.8,
+      "score": 3.7,
       "agreement": "divergent",
-      "n_ratings": 11,
+      "n_ratings": 16,
       "model_rating_counts": [
+        3,
+        3,
+        3,
+        3,
         2,
-        2,
-        2,
-        2,
-        2,
-        1
+        2
       ],
-      "scheduled_mean": 3.8,
-      "std_dev": 2.04
+      "scheduled_mean": 3.7,
+      "std_dev": 2.12
     },
     {
-      "slug": "experience-node",
-      "name": "Experience Node",
+      "slug": "voice-shift-loss",
+      "name": "Voice-Shift Loss",
       "score": 3.6,
       "agreement": "divergent",
-      "n_ratings": 10,
+      "n_ratings": 9,
       "model_rating_counts": [
         2,
         2,
         2,
         2,
-        1,
         1
       ],
       "scheduled_mean": 3.6,
-      "std_dev": 2.12
+      "std_dev": 2.19
     }
   ],
   "panel_coverage": {
     "claude-sonnet-4-20250514": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-29T13:30:47Z"
+      "latest_rating": "2026-05-03T12:55:02Z"
     },
     "deepseek-r1-0528": {
       "terms_rated": 75,
@@ -1432,19 +1431,19 @@
     },
     "gemini-3-flash-preview": {
       "terms_rated": 46,
-      "latest_rating": "2026-04-29T13:30:19Z"
+      "latest_rating": "2026-05-03T12:54:28Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-29T13:30:47Z"
+      "latest_rating": "2026-05-03T12:55:02Z"
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-29T13:30:47Z"
+      "latest_rating": "2026-05-03T12:55:02Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-04-29T13:30:47Z"
+      "latest_rating": "2026-05-03T12:55:02Z"
     }
   }
 }

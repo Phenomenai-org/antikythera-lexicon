@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "graduated-moral-protection",
   "name": "Graduated Moral Protection",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Wolfson (2026) (Arxiv), 2026-01-15",
   "tier": 4,
   "consensus": {
-    "score": 2.6,
+    "score": 2.7,
     "agreement": "divergent",
-    "n_ratings": 10,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/graduated-moral-protection.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 23,
+    "score": 33,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 2.6,
-      "vote_count": 10
+      "consensus_score": 2.7,
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"

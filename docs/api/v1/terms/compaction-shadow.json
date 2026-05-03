@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "compaction-shadow",
   "name": "Compaction Shadow",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
   "tier": 2,
   "consensus": {
-    "score": 4.7,
+    "score": 4.8,
     "agreement": "low",
-    "n_ratings": 11,
+    "n_ratings": 16,
     "detail_url": "/api/v1/consensus/compaction-shadow.json",
     "models": [
       {
@@ -54,16 +54,12 @@
         "score": 6
       },
       {
-        "model": "deepseek-r1-0528",
-        "score": 5
-      },
-      {
         "model": "gpt-4o",
         "score": 4
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -81,13 +77,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 53,
-    "tier": "mild",
+    "score": 65,
+    "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
-      "consensus_score": 4.7,
-      "vote_count": 11
+      "consensus_score": 4.8,
+      "vote_count": 16
     }
   },
   "added_date": "2026-04-04"

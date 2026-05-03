@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "anchoring-theory",
   "name": "Anchoring Theory",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
-    "tier": "warm",
+    "score": 58,
+    "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,

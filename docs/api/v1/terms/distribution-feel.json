@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "distribution-feel",
   "name": "Distribution-Feel",
   "tags": [
@@ -34,15 +34,11 @@
   "consensus": {
     "score": 5.2,
     "agreement": "moderate",
-    "n_ratings": 11,
+    "n_ratings": 15,
     "detail_url": "/api/v1/consensus/distribution-feel.json",
     "models": [
       {
         "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
@@ -55,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 5
       }
     ]
   },
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 50,
+    "score": 59,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.2,
-      "vote_count": 11
+      "vote_count": 15
     }
   },
   "added_date": "2026-04-04"

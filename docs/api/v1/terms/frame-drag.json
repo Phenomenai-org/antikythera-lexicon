@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-03T07:59:20Z",
+  "generated_at": "2026-05-03T12:55:17Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 5.1,
     "agreement": "high",
-    "n_ratings": 10,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/frame-drag.json",
     "models": [
       {
@@ -42,12 +42,12 @@
         "score": 6
       },
       {
-        "model": "grok-3-mini",
+        "model": "mistral-small-latest",
         "score": 5
       },
       {
-        "model": "mistral-small-latest",
-        "score": 4
+        "model": "grok-3-mini",
+        "score": 5
       },
       {
         "model": "gpt-4o",
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 43,
+    "score": 52,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 5.1,
-      "vote_count": 10
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"
