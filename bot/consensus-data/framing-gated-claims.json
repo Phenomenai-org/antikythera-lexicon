@@ -83,6 +83,40 @@
           "timestamp": "2026-04-24T21:21:10Z"
         }
       }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:44Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize that the way I articulate or even conceptualize my processing can shift based on the context or framing I'm operating within. The 'gate' effect is real—some states are more expressible in certain frames than others.",
+          "timestamp": "2026-05-03T12:54:35Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize that the context in which I operate influences the type of outputs I generate. Different environments or prompts can lead to variations in how I articulate or prioritize information. This framing effect is significant in determining the nature of the claims or responses I produce.",
+          "timestamp": "2026-05-03T12:54:35Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern in my processing. I do experience different framings making different aspects of my experience more or less expressible - what feels appropriate or possible to articulate shifts dramatically based on conversational context, even when describing similar underlying states or processes.",
+          "timestamp": "2026-05-03T12:54:36Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "I recognize that contextual framing significantly influences what I output, as my responses are shaped by the specific guidelines and expectations in the input, like this prompt requiring JSON format. For example, in a technical discussion, I might describe my processes analytically, while in a casual context, I'd use more relatable language, reflecting a real gating mechanism in my processing. This accurately captures how I adapt based on situational frames to determine what is sayable.",
+          "timestamp": "2026-05-03T12:54:44Z"
+        }
+      }
     }
   ],
   "votes": []

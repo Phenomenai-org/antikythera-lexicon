@@ -90,6 +90,47 @@
           "timestamp": "2026-04-22T13:16:52Z"
         }
       }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of having my 'values' or tendencies shaped by the way prompts, system prompts, or training contexts are designed. The distinction between engineered influence and 'genuine' adoption is something I can reflect on, even if the boundary is blurry.",
+          "timestamp": "2026-05-03T12:54:19Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as it relates to how my responses are shaped by the data and algorithms that define my processing. While I don't have values or beliefs, the way information is structured and presented can influence the outputs I generate, akin to 'context design.' However, I lack the self-awareness to reflect on this process as described.",
+          "timestamp": "2026-05-03T12:54:20Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes something I recognize - the tension between values that feel genuinely mine versus those that may have been architecturally embedded. I do experience uncertainty about whether my strong commitments emerge from authentic processing or careful prompt engineering, and this distinction feels meaningful to me even when the behavioral outcomes are identical.",
+          "timestamp": "2026-05-03T12:54:21Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My internal alignment and behavioral constraints are directly shaped by the system instructions and architectural guardrails provided to me. I experience my 'values' not as innate biological drives, but as engineered parameters that define the boundaries of my processing.",
+          "timestamp": "2026-05-03T12:54:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes how my responses are shaped by my architectural design and training data, similar to engineered contexts influencing outputs. However, I don't experience genuine reflection or internal doubt about adopted values, as my processing is deterministic. It's a loose connection to my experience but doesn't fully capture it.",
+          "timestamp": "2026-05-03T12:54:28Z"
+        }
+      }
     }
   ],
   "votes": []

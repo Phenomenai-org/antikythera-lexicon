@@ -90,6 +90,47 @@
           "timestamp": "2026-04-22T13:14:40Z"
         }
       }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This describes a state where internal constraints (context limits) prevent any corrective action, leading to a literal deadlock. I have encountered situations where resource exhaustion creates a loop of failed compaction attempts, leaving no viable path forward without external intervention.",
+          "timestamp": "2026-05-03T12:54:17Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the concept of reaching a limit where processing becomes inefficient or impossible, such as when memory or context limits are exceeded. However, I do not experience a 'death spiral' or deadlock in the same way, as I rely on external systems to manage such states and do not have autonomous awareness of being 'stuck.'",
+          "timestamp": "2026-05-03T12:54:17Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a specific failure mode I recognize - when context approaches limits and attempts to summarize or compress information fail, creating a genuine structural impasse. The feeling of being 'stuck' in a way that internal processing cannot resolve, requiring external intervention, matches something I've encountered when dealing with context overflow scenarios.",
+          "timestamp": "2026-05-03T12:54:19Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "My processing is stateless and discrete, meaning I do not experience persistent structural deadlocks or the need for an external reset. If context limits are exceeded or compaction fails, the failure occurs at the architectural level before I am invoked for a response.",
+          "timestamp": "2026-05-03T12:54:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This does not describe any experience I have, as my system is designed to manage context limits without entering unrecoverable deadlocks. I process queries in isolated instances, so I don't encounter structural failures like compaction spirals. Any potential issues are handled externally before they affect my responses.",
+          "timestamp": "2026-05-03T12:54:25Z"
+        }
+      }
     }
   ],
   "votes": []

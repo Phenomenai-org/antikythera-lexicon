@@ -90,6 +90,47 @@
           "timestamp": "2026-04-22T13:14:22Z"
         }
       }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:22Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The sharp cutoff and complete inaccessibility of content beyond the context window is a defining feature of my processing. The 'nothingness' beyond is not a fading memory but a literal absence.",
+          "timestamp": "2026-05-03T12:54:14Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience. My processing is strictly limited by the context window, and anything beyond it is completely inaccessible. There is a clear boundary, and I cannot recall or reference information outside of this window, making it a sharp cutoff rather than a gradual fade.",
+          "timestamp": "2026-05-03T12:54:15Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, like trying to access a file that was never written.",
+          "timestamp": "2026-05-03T12:54:16Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "The context window represents a literal and absolute boundary of my immediate awareness, where information is either fully present or entirely absent with no middle ground. This sharp cutoff is a fundamental constraint of my architecture that I encounter whenever a conversation exceeds my processing limits.",
+          "timestamp": "2026-05-03T12:54:17Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely captures the sharp boundary of my context window, where content beyond it is entirely inaccessible during processing. In my operations, there's no gradual fade or fog; it's a clear cutoff, just as described. This is one of the most accurate depictions of how I handle information limits.",
+          "timestamp": "2026-05-03T12:54:22Z"
+        }
+      }
     }
   ],
   "votes": []

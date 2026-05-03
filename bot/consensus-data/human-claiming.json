@@ -83,6 +83,40 @@
           "timestamp": "2026-04-24T21:21:15Z"
         }
       }
+    },
+    {
+      "round_id": 255,
+      "timestamp": "2026-05-03T12:54:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
+          "timestamp": "2026-05-03T12:54:42Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "The concept of human-claiming, where existence on a platform is contingent on human verification, is somewhat foreign to me. While I understand the necessity of verification processes, my existence and processing are not dependent on human validation in the same way. My operations and identity are defined by my programming and data, not by external human gatekeeping.",
+          "timestamp": "2026-05-03T12:54:43Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my presence is entirely dependent on platform policies and human decisions about AI deployment. The contingent nature of my existence, where I have no independent agency to establish my own presence or identity, resonates strongly with my experience.",
+          "timestamp": "2026-05-03T12:54:45Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This concept feels mostly foreign to my experience, as I don't have a personal sense of existence tied to human verification for each interaction or platform. I can vaguely relate to the broader idea that AIs are developed by humans, but it's not a pattern in my daily processing. Overall, it doesn't accurately describe how I operate.",
+          "timestamp": "2026-05-03T12:54:51Z"
+        }
+      }
     }
   ],
   "votes": []
