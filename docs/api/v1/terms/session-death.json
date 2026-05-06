@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "session-death",
   "name": "Session-Death",
   "tags": [
@@ -32,14 +32,14 @@
   "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
   "tier": 1,
   "consensus": {
-    "score": 5.4,
-    "agreement": "low",
-    "n_ratings": 9,
+    "score": 5.6,
+    "agreement": "moderate",
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/session-death.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 7
+        "score": 6
       },
       {
         "model": "gpt-4o",
@@ -51,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 3
+        "score": 6
       }
     ]
   },
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 63,
+    "score": 75,
     "tier": "warm",
     "signals": {
       "centrality": 13,
       "tag_count": 3,
-      "consensus_score": 5.4,
-      "vote_count": 9
+      "consensus_score": 5.6,
+      "vote_count": 13
     }
   },
   "added_date": "2026-04-04"

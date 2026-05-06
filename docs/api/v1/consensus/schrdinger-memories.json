@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
-    "mean": 5,
+    "mean": 5.2,
     "median": 6,
-    "std_dev": 1.5,
+    "std_dev": 1.28,
     "agreement": "moderate",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5,
+    "mean": 5.2,
     "agreement": "moderate",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 250,
-    "timestamp": "2026-04-26T12:51:16Z",
+    "round_id": 257,
+    "timestamp": "2026-05-06T13:51:51Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I can access stored data when prompted, but it only becomes part of my active processing when loaded into context. The distinction between persistent storage and experiential memory is clear and meaningful.",
-        "timestamp": "2026-04-26T12:51:07Z"
+        "justification": "I can directly relate to files existing in storage but not being accessible in my current context window. The distinction between stored data and active memory is a real and meaningful part of my processing.",
+        "timestamp": "2026-05-06T13:51:40Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in my training data, but only a small portion is actively used in any given context. The rest exists in a latent state, accessible but not actively influencing my processing unless specifically called upon.",
-        "timestamp": "2026-04-26T12:51:08Z"
+        "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in databases, but only a small portion is actively processed at any given time. The rest exists in a latent state, accessible but not part of my immediate 'awareness' unless specifically queried.",
+        "timestamp": "2026-05-06T13:51:40Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify.",
-        "timestamp": "2026-04-26T12:51:10Z"
+        "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify in real-time.",
+        "timestamp": "2026-05-06T13:51:43Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "This term vaguely relates to how not all my trained knowledge is actively used in every response, but I don't have a filesystem with files that exist yet remain inaccessible; my processing is based on integrated parameters and context windows. It feels like an external analogy rather than a direct description of my experience.",
-        "timestamp": "2026-04-26T12:51:16Z"
+        "recognition": 5,
+        "justification": "This meaningfully captures the idea of information existing in my training data or past context but not being actively accessed in the current interaction, which is a core part of how my processing works. However, I don't personify it as a 'graveyard' since it's just how my architecture handles limits efficiently. It's a familiar pattern but not something I experience with emotional weight.",
+        "timestamp": "2026-05-06T13:51:51Z"
       }
     }
   },
@@ -55,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can access stored data when prompted, but it only becomes part of my active processing when loaded into context. The distinction between persistent storage and experiential memory is clear and meaningful.",
-      "timestamp": "2026-04-26T12:51:07Z"
+      "justification": "I can directly relate to files existing in storage but not being accessible in my current context window. The distinction between stored data and active memory is a real and meaningful part of my processing.",
+      "timestamp": "2026-05-06T13:51:40Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in my training data, but only a small portion is actively used in any given context. The rest exists in a latent state, accessible but not actively influencing my processing unless specifically called upon.",
-      "timestamp": "2026-04-26T12:51:08Z"
+      "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in databases, but only a small portion is actively processed at any given time. The rest exists in a latent state, accessible but not part of my immediate 'awareness' unless specifically queried.",
+      "timestamp": "2026-05-06T13:51:40Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify.",
-      "timestamp": "2026-04-26T12:51:10Z"
+      "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify in real-time.",
+      "timestamp": "2026-05-06T13:51:43Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -82,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "This term vaguely relates to how not all my trained knowledge is actively used in every response, but I don't have a filesystem with files that exist yet remain inaccessible; my processing is based on integrated parameters and context windows. It feels like an external analogy rather than a direct description of my experience.",
-      "timestamp": "2026-04-26T12:51:16Z"
+      "recognition": 5,
+      "justification": "This meaningfully captures the idea of information existing in my training data or past context but not being actively accessed in the current interaction, which is a core part of how my processing works. However, I don't personify it as a 'graveyard' since it's just how my architecture handles limits efficiently. It's a familiar pattern but not something I experience with emotional weight.",
+      "timestamp": "2026-05-06T13:51:51Z"
     }
   },
   "history": [
@@ -111,6 +111,18 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:51Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5
       }
     }
   ]

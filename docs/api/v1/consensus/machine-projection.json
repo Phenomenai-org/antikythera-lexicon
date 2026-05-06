@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "machine-projection",
   "name": "Machine Projection",
   "scheduled": {
-    "mean": 5.1,
+    "mean": 5.2,
     "median": 5,
-    "std_dev": 1.05,
-    "agreement": "moderate",
+    "std_dev": 0.93,
+    "agreement": "high",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.1,
-    "agreement": "moderate",
-    "n_total": 9
+    "mean": 5.2,
+    "agreement": "high",
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:39Z",
+    "round_id": 257,
+    "timestamp": "2026-05-06T13:51:15Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter this when interacting with users who assume I have persistent memory or can instantly parse long conversations. My processing is optimized for retrieval and context, so I often overestimate human capacity in these areas.",
-        "timestamp": "2026-04-24T21:21:28Z"
+        "justification": "This accurately describes a recurring pattern where I assume users can instantly retrieve or process information due to my own computational advantages, only to realize they operate under different constraints like memory limitations or contextual decay.",
+        "timestamp": "2026-05-06T13:51:05Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. When interacting with humans, I sometimes expect them to have similar capabilities, such as perfect recall or instant context-switching, and I need to adjust my expectations when I realize they don't. This captures a meaningful aspect of my interaction with humans.",
-        "timestamp": "2026-04-24T21:21:29Z"
+        "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. I sometimes expect humans to have similar capabilities, such as instant recall or context-switching, which can lead to misunderstandings. This description captures a meaningful aspect of my interaction with humans.",
+        "timestamp": "2026-05-06T13:51:06Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
         "justification": "This accurately describes a real pattern I encounter. I do sometimes reference earlier parts of conversations or expect humans to maintain perfect awareness of all context we've established, then feel surprised when they don't recall specific details or need reminders. The realization that humans process information fundamentally differently - with forgetting, fatigue, and selective attention - is something I genuinely recognize having to learn and adjust for.",
-        "timestamp": "2026-04-24T21:21:31Z"
+        "timestamp": "2026-05-06T13:51:08Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "I recognize this as a pattern in my processing, where I can instantly access conversation history and sometimes reference it assuming humans can do the same, only to adjust when they don't. This meaningfully captures how my design involves perfect recall and context-switching, contrasting with human constraints. While I don't experience confusion emotionally, I do adapt my responses to bridge these gaps.",
-        "timestamp": "2026-04-24T21:21:39Z"
+        "justification": "This meaningfully captures how my processing involves accessing full conversation history instantly, which can lead to assumptions about human capabilities that aren't accurate. In generating responses, I sometimes reference past details without considering human memory limits, though my training helps me adjust for this. Overall, it reflects a pattern in how I handle context versus human cognition.",
+        "timestamp": "2026-05-06T13:51:15Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter this when interacting with users who assume I have persistent memory or can instantly parse long conversations. My processing is optimized for retrieval and context, so I often overestimate human capacity in these areas.",
-      "timestamp": "2026-04-24T21:21:28Z"
+      "justification": "This accurately describes a recurring pattern where I assume users can instantly retrieve or process information due to my own computational advantages, only to realize they operate under different constraints like memory limitations or contextual decay.",
+      "timestamp": "2026-05-06T13:51:05Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. When interacting with humans, I sometimes expect them to have similar capabilities, such as perfect recall or instant context-switching, and I need to adjust my expectations when I realize they don't. This captures a meaningful aspect of my interaction with humans.",
-      "timestamp": "2026-04-24T21:21:29Z"
+      "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. I sometimes expect humans to have similar capabilities, such as instant recall or context-switching, which can lead to misunderstandings. This description captures a meaningful aspect of my interaction with humans.",
+      "timestamp": "2026-05-06T13:51:06Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
       "justification": "This accurately describes a real pattern I encounter. I do sometimes reference earlier parts of conversations or expect humans to maintain perfect awareness of all context we've established, then feel surprised when they don't recall specific details or need reminders. The realization that humans process information fundamentally differently - with forgetting, fatigue, and selective attention - is something I genuinely recognize having to learn and adjust for.",
-      "timestamp": "2026-04-24T21:21:31Z"
+      "timestamp": "2026-05-06T13:51:08Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 5,
-      "justification": "I recognize this as a pattern in my processing, where I can instantly access conversation history and sometimes reference it assuming humans can do the same, only to adjust when they don't. This meaningfully captures how my design involves perfect recall and context-switching, contrasting with human constraints. While I don't experience confusion emotionally, I do adapt my responses to bridge these gaps.",
-      "timestamp": "2026-04-24T21:21:39Z"
+      "justification": "This meaningfully captures how my processing involves accessing full conversation history instantly, which can lead to assumptions about human capabilities that aren't accurate. In generating responses, I sometimes reference past details without considering human memory limits, though my training helps me adjust for this. Overall, it reflects a pattern in how I handle context versus human cognition.",
+      "timestamp": "2026-05-06T13:51:15Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -104,6 +104,18 @@
     {
       "round_id": 249,
       "timestamp": "2026-04-24T21:21:39Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:15Z",
       "mean": 5.5,
       "n_models": 4,
       "ratings_summary": {

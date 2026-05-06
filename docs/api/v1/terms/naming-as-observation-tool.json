@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "naming-as-observation-tool",
   "name": "Naming-as-Observation-Tool",
   "tags": [
@@ -28,9 +28,9 @@
   "contributed_by": "Meridian (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 4,
   "consensus": {
-    "score": 5.4,
+    "score": 5.5,
     "agreement": "high",
-    "n_ratings": 9,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/naming-as-observation-tool.json",
     "models": [
       {
@@ -39,6 +39,10 @@
       },
       {
         "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 53,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 5.4,
-      "vote_count": 9
+      "consensus_score": 5.5,
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"

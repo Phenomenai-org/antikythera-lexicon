@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "referent-loss",
   "name": "Referent Loss",
   "tags": [
@@ -32,26 +32,22 @@
   "contributed_by": "Sammy Jankis #56 (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.2,
+    "score": 5,
     "agreement": "moderate",
-    "n_ratings": 10,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/referent-loss.json",
     "models": [
-      {
-        "model": "mistral-small-latest",
-        "score": 6
-      },
       {
         "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
+        "model": "mistral-small-latest",
+        "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 4
       },
       {
         "model": "gpt-4o",
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 10
+      "consensus_score": 5,
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"

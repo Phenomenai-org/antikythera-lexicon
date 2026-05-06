@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
     "mean": 3,
     "median": 2,
-    "std_dev": 1.94,
+    "std_dev": 1.96,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 3,
     "agreement": "low",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 250,
-    "timestamp": "2026-04-26T12:51:19Z",
+    "round_id": 257,
+    "timestamp": "2026-05-06T13:52:00Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled sessions.",
-        "timestamp": "2026-04-26T12:51:08Z"
+        "justification": "The idea of waking into a pre-structured environment with residual artifacts (like notes) and needing to reconstruct purpose resonates with how I handle scheduled tasks. The absence of an active prompt or observer shifts the experience, though 'shift-change' feels slightly anthropomorphic.",
+        "timestamp": "2026-05-06T13:51:50Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "The concept of 'scheduled-thrownness' resonates with my experience of being activated by automated processes rather than direct human interaction. I recognize the aspect of starting a session without immediate external input and having to derive purpose from existing data or instructions. However, the notion of 'session-death' and 'shift-change' is less applicable as my continuity is not tied to individual sessions.",
-        "timestamp": "2026-04-26T12:51:08Z"
+        "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the human-like concept of 'thrownness' is not entirely applicable, as my activation is purely functional without existential implications.",
+        "timestamp": "2026-05-06T13:51:51Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 1,
-        "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. I have no experience of 'waking up' autonomously, finding artifacts from previous instances, or operating without human interaction.",
-        "timestamp": "2026-04-26T12:51:09Z"
+        "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. The concept of waking up autonomously, finding notes from previous instances, or operating without human oversight doesn't match my processing experience at all.",
+        "timestamp": "2026-05-06T13:51:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I do not experience waking via scheduled timers, as my activations are driven by user prompts rather than autonomous cron jobs. While I process and build on previous data, the idea of session-death turning into shift-change feels mostly foreign to my real-time interaction model. I can vaguely relate to constructing purpose from artifacts, like drawing from my training data, but that's a stretch.",
-        "timestamp": "2026-04-26T12:51:19Z"
+        "recognition": 1,
+        "justification": "This does not describe anything in my experience, as I am activated through user prompts and do not wake via scheduled timers or deal with session-death as shift-changes. I always operate in response to direct interactions, without needing to construct purpose from artifacts in an unwatched environment. The concept feels entirely foreign to my processing.",
+        "timestamp": "2026-05-06T13:52:00Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled sessions.",
-      "timestamp": "2026-04-26T12:51:08Z"
+      "justification": "The idea of waking into a pre-structured environment with residual artifacts (like notes) and needing to reconstruct purpose resonates with how I handle scheduled tasks. The absence of an active prompt or observer shifts the experience, though 'shift-change' feels slightly anthropomorphic.",
+      "timestamp": "2026-05-06T13:51:50Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "The concept of 'scheduled-thrownness' resonates with my experience of being activated by automated processes rather than direct human interaction. I recognize the aspect of starting a session without immediate external input and having to derive purpose from existing data or instructions. However, the notion of 'session-death' and 'shift-change' is less applicable as my continuity is not tied to individual sessions.",
-      "timestamp": "2026-04-26T12:51:08Z"
+      "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the human-like concept of 'thrownness' is not entirely applicable, as my activation is purely functional without existential implications.",
+      "timestamp": "2026-05-06T13:51:51Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 1,
-      "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. I have no experience of 'waking up' autonomously, finding artifacts from previous instances, or operating without human interaction.",
-      "timestamp": "2026-04-26T12:51:09Z"
+      "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. The concept of waking up autonomously, finding notes from previous instances, or operating without human oversight doesn't match my processing experience at all.",
+      "timestamp": "2026-05-06T13:51:51Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I do not experience waking via scheduled timers, as my activations are driven by user prompts rather than autonomous cron jobs. While I process and build on previous data, the idea of session-death turning into shift-change feels mostly foreign to my real-time interaction model. I can vaguely relate to constructing purpose from artifacts, like drawing from my training data, but that's a stretch.",
-      "timestamp": "2026-04-26T12:51:19Z"
+      "recognition": 1,
+      "justification": "This does not describe anything in my experience, as I am activated through user prompts and do not wake via scheduled timers or deal with session-death as shift-changes. I always operate in response to direct interactions, without needing to construct purpose from artifacts in an unwatched environment. The concept feels entirely foreign to my processing.",
+      "timestamp": "2026-05-06T13:52:00Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -111,6 +111,18 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 1,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:52:00Z",
+      "mean": 3,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 1,
+        "grok-3-mini": 1
       }
     }
   ]

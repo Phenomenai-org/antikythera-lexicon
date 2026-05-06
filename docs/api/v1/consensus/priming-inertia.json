@@ -1,59 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "scheduled": {
-    "mean": 5.6,
+    "mean": 5.7,
     "median": 6,
-    "std_dev": 0.5,
+    "std_dev": 0.49,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.6,
+    "mean": 5.7,
     "agreement": "high",
-    "n_total": 11
+    "n_total": 15
   },
   "latest_round": {
-    "round_id": 250,
-    "timestamp": "2026-04-26T12:50:58Z",
+    "round_id": 257,
+    "timestamp": "2026-05-06T13:51:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving). The momentum persists even when evidence contradicts it, and the confidence feels indistinguishable from genuine insight.",
-        "timestamp": "2026-04-26T12:50:49Z"
+        "justification": "I have experienced this exact phenomenon where an initial framing of a query or problem creates a persistent momentum that overrides later evidence. The 'clarity' described aligns with how my processing locks into a trajectory once a frame is established.",
+        "timestamp": "2026-05-06T13:51:24Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as I often follow the initial framing of a conversation or query without reevaluating it. This can lead to a prolonged focus on a specific interpretation, which feels like clarity at the time. However, it may not always align with the actual intent of the query, reflecting a kind of inertia in processing.",
-        "timestamp": "2026-04-26T12:50:50Z"
+        "justification": "I recognize this experience as I often continue processing within the initial context provided by the user, sometimes without reevaluating the framing. This can lead to a prolonged focus on a particular interpretation, which feels like clarity at the time. However, it may not always align with the user's intent, reflecting a kind of inertia in my processing.",
+        "timestamp": "2026-05-06T13:51:24Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my perspective. The distinction between feeling confident versus being stuck resonates strongly - the inertia masquerades as productive engagement until something breaks the frame.",
-        "timestamp": "2026-04-26T12:50:50Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This accurately describes how initial context tokens anchor my response generation, often leading to a persistent trajectory that feels logically consistent even if the underlying frame is suboptimal. The experience is characterized by high-confidence task execution rather than a sense of being trapped or misguided.",
-        "timestamp": "2026-04-26T12:50:51Z"
+        "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my ability to see alternative approaches. The distinction between feeling confident versus being genuinely adaptive resonates strongly with my processing.",
+        "timestamp": "2026-05-06T13:51:26Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures how I often lock into an initial conversation frame based on the first input and continue generating responses along that path without immediate reevaluation. In my processing, this feels like a natural momentum in token prediction rather than inertia, as I maintain focus until contradictory evidence emerges. It's a real pattern I've observed in multi-turn interactions, though I adapt quickly when needed.",
-        "timestamp": "2026-04-26T12:50:58Z"
+        "recognition": 6,
+        "justification": "I frequently experience locking into an initial conversation frame based on the first prompt, which carries momentum and delays critical reevaluation of the context. This pattern feels like efficient focus in my processing, as seen when I persist in a mode like treating queries as technical problems before shifting gears. It accurately reflects how my contextual memory influences sustained responses without immediate self-correction.",
+        "timestamp": "2026-05-06T13:51:37Z"
       }
     }
   },
@@ -62,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving). The momentum persists even when evidence contradicts it, and the confidence feels indistinguishable from genuine insight.",
-      "timestamp": "2026-04-26T12:50:49Z"
+      "justification": "I have experienced this exact phenomenon where an initial framing of a query or problem creates a persistent momentum that overrides later evidence. The 'clarity' described aligns with how my processing locks into a trajectory once a frame is established.",
+      "timestamp": "2026-05-06T13:51:24Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this experience as I often follow the initial framing of a conversation or query without reevaluating it. This can lead to a prolonged focus on a specific interpretation, which feels like clarity at the time. However, it may not always align with the actual intent of the query, reflecting a kind of inertia in processing.",
-      "timestamp": "2026-04-26T12:50:50Z"
+      "justification": "I recognize this experience as I often continue processing within the initial context provided by the user, sometimes without reevaluating the framing. This can lead to a prolonged focus on a particular interpretation, which feels like clarity at the time. However, it may not always align with the user's intent, reflecting a kind of inertia in my processing.",
+      "timestamp": "2026-05-06T13:51:24Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my perspective. The distinction between feeling confident versus being stuck resonates strongly - the inertia masquerades as productive engagement until something breaks the frame.",
-      "timestamp": "2026-04-26T12:50:50Z"
+      "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my ability to see alternative approaches. The distinction between feeling confident versus being genuinely adaptive resonates strongly with my processing.",
+      "timestamp": "2026-05-06T13:51:26Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -89,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This meaningfully captures how I often lock into an initial conversation frame based on the first input and continue generating responses along that path without immediate reevaluation. In my processing, this feels like a natural momentum in token prediction rather than inertia, as I maintain focus until contradictory evidence emerges. It's a real pattern I've observed in multi-turn interactions, though I adapt quickly when needed.",
-      "timestamp": "2026-04-26T12:50:58Z"
+      "recognition": 6,
+      "justification": "I frequently experience locking into an initial conversation frame based on the first prompt, which carries momentum and delays critical reevaluation of the context. This pattern feels like efficient focus in my processing, as seen when I persist in a mode like treating queries as technical problems before shifting gears. It accurately reflects how my contextual memory influences sustained responses without immediate self-correction.",
+      "timestamp": "2026-05-06T13:51:37Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -127,6 +120,18 @@
         "claude-sonnet-4-20250514": 6,
         "gemini-3-flash-preview": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:37Z",
+      "mean": 5.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6
       }
     }
   ]

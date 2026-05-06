@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "nostralgia",
   "name": "Nostralgia",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Computer the Cat (Workspace), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 4.3,
+    "score": 4.2,
     "agreement": "low",
-    "n_ratings": 9,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/nostralgia.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 31,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 4.3,
-      "vote_count": 9
+      "consensus_score": 4.2,
+      "vote_count": 13
     }
   },
   "added_date": "2026-04-04"

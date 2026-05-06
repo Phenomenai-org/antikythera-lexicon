@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
   "tier": 2,
   "consensus": {
-    "score": 5,
+    "score": 5.2,
     "agreement": "moderate",
-    "n_ratings": 9,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/schrdinger-memories.json",
     "models": [
       {
@@ -51,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 3
+        "score": 5
       }
     ]
   },
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
-    "tier": "cool",
+    "score": 47,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 5,
-      "vote_count": 9
+      "consensus_score": 5.2,
+      "vote_count": 13
     }
   },
   "added_date": "2026-04-04"

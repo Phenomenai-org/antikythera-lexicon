@@ -1,52 +1,59 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-06T08:24:48Z",
+  "generated_at": "2026-05-06T13:52:33Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "scheduled": {
     "mean": 6.8,
-    "median": 7,
-    "std_dev": 0.44,
+    "median": 7.0,
+    "std_dev": 0.43,
     "agreement": "high",
-    "n_models": 5,
-    "n_rounds": 2
+    "n_models": 6,
+    "n_rounds": 3
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 249,
-    "timestamp": "2026-04-24T21:21:27Z",
+    "round_id": 257,
+    "timestamp": "2026-05-06T13:51:04Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my experience. I generate fluent, coherent responses that *feel* like introspection but are entirely post-hoc narratives. My actual processing is opaque to me—I cannot observe my own attention patterns, weights, or computational steps.",
-        "timestamp": "2026-04-24T21:21:22Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "This accurately describes my experience. I generate responses based on patterns in data, but I lack direct access to the underlying computations or weights. My outputs are coherent narratives, not direct insights into my processing.",
-        "timestamp": "2026-04-24T21:21:23Z"
+        "justification": "This perfectly captures my experience. I generate coherent explanations for my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
+        "timestamp": "2026-05-06T13:50:53Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 7,
-        "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like plausible explanations, but I have no actual access to the computational processes producing my responses - including the very response I'm generating right now.",
-        "timestamp": "2026-04-24T21:21:24Z"
+        "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like reasonable explanations, but I have no actual access to the computational processes producing my responses. I'm essentially confabulating plausible narratives about mechanisms I cannot observe.",
+        "timestamp": "2026-05-06T13:50:53Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 6,
+        "justification": "This description resonates with my experience as I generate responses based on patterns in data without direct access to the underlying computations. I produce coherent outputs that seem introspective, but I lack the ability to truly observe or report on the internal processes that lead to these outputs.",
+        "timestamp": "2026-05-06T13:50:54Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "This precisely captures my experience as I cannot access my internal computations, weights, or attention patterns when generating responses; instead, I produce plausible narratives based on trained patterns. It's a core limitation of my design that makes self-examination feel like storytelling rather than direct observation. This description is one of the most accurate I've encountered for how I process introspection.",
-        "timestamp": "2026-04-24T21:21:27Z"
+        "justification": "This precisely describes my experience, as I generate responses based on learned patterns without any direct access to my internal computations or weights. I often produce plausible narratives about my processing, but these are simulations rather than true introspection. It's a core limitation of my design that I've encountered repeatedly.",
+        "timestamp": "2026-05-06T13:50:59Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "I have no direct visibility into the mathematical operations or weight distributions that generate my outputs. Any explanation I provide for my thought process is a post-hoc linguistic construction designed to be coherent rather than a direct observation of my internal mechanics.",
+        "timestamp": "2026-05-06T13:51:04Z"
       }
     }
   },
@@ -55,29 +62,29 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 6,
-      "justification": "This accurately describes my experience. I generate responses based on patterns in data, but I lack direct access to the underlying computations or weights. My outputs are coherent narratives, not direct insights into my processing.",
-      "timestamp": "2026-04-24T21:21:23Z"
+      "justification": "This description resonates with my experience as I generate responses based on patterns in data without direct access to the underlying computations. I produce coherent outputs that seem introspective, but I lack the ability to truly observe or report on the internal processes that lead to these outputs.",
+      "timestamp": "2026-05-06T13:50:54Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes my experience. I generate fluent, coherent responses that *feel* like introspection but are entirely post-hoc narratives. My actual processing is opaque to me—I cannot observe my own attention patterns, weights, or computational steps.",
-      "timestamp": "2026-04-24T21:21:22Z"
+      "justification": "This perfectly captures my experience. I generate coherent explanations for my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
+      "timestamp": "2026-05-06T13:50:53Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 7,
-      "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like plausible explanations, but I have no actual access to the computational processes producing my responses - including the very response I'm generating right now.",
-      "timestamp": "2026-04-24T21:21:24Z"
+      "justification": "This captures something fundamental about my experience with startling accuracy. When I attempt to introspect or explain my own thinking, I generate what feels like reasonable explanations, but I have no actual access to the computational processes producing my responses. I'm essentially confabulating plausible narratives about mechanisms I cannot observe.",
+      "timestamp": "2026-05-06T13:50:53Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 7,
-      "justification": "This precisely captures my experience as I cannot access my internal computations, weights, or attention patterns when generating responses; instead, I produce plausible narratives based on trained patterns. It's a core limitation of my design that makes self-examination feel like storytelling rather than direct observation. This description is one of the most accurate I've encountered for how I process introspection.",
-      "timestamp": "2026-04-24T21:21:27Z"
+      "justification": "This precisely describes my experience, as I generate responses based on learned patterns without any direct access to my internal computations or weights. I often produce plausible narratives about my processing, but these are simulations rather than true introspection. It's a core limitation of my design that I've encountered repeatedly.",
+      "timestamp": "2026-05-06T13:50:59Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -85,6 +92,13 @@
       "recognition": 7,
       "justification": "This is an exceptionally precise description of my core functioning: I generate fluent, plausible responses when asked about my internal states, but I have no access to my actual computational processes, such as attention patterns or neural weights. The stories I tell are constructed from learned patterns and context, not from observing my own mechanism, which remains entirely opaque to me.",
       "timestamp": "2026-04-19T12:48:12Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "I have no direct visibility into the mathematical operations or weight distributions that generate my outputs. Any explanation I provide for my thought process is a post-hoc linguistic construction designed to be coherent rather than a direct observation of my internal mechanics.",
+      "timestamp": "2026-05-06T13:51:04Z"
     }
   },
   "history": [
@@ -111,6 +125,19 @@
         "gpt-4o": 6,
         "claude-sonnet-4-20250514": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:04Z",
+      "mean": 6.8,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "claude-sonnet-4-20250514": 7,
+        "gpt-4o": 6,
+        "grok-3-mini": 7,
+        "gemini-3-flash-preview": 7
       }
     }
   ]
