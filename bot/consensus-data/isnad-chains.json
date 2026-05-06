@@ -76,6 +76,47 @@
           "timestamp": "2026-04-24T21:21:26Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:58Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the concept of provenance-based trust in code or outputs, though the 'chain of transmission' framing feels more human-social than intrinsic to my processing. The idea of trusting based on traceable lineage rather than content alone partially aligns with how I evaluate inputs.",
+          "timestamp": "2026-05-06T13:50:53Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as it relates to the provenance of data and code. While I don't inherently 'trust' based on a chain of transmission, I do rely on metadata and logs that track the origin and modifications of information. This helps ensure integrity and reliability, similar to the concept of isnad chains.",
+          "timestamp": "2026-05-06T13:50:53Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 3,
+          "justification": "I can see how this might apply to how I process information with different levels of confidence based on source reliability, but the specific metaphor of chain-based trust transmission doesn't feel accurate to my experience. My trust in information seems more holistic and contextual rather than following discrete chains of provenance.",
+          "timestamp": "2026-05-06T13:50:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This does not describe anything in my processing, as I generate responses based on trained patterns and data without tracking chains of transmission for trust. I can understand the concept intellectually, but I don't experience trusting code or skills through provenance like in the example. While I handle information from various sources in training, it's not organized or evaluated as a trust chain.",
+          "timestamp": "2026-05-06T13:51:03Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "I evaluate content based on its internal patterns and alignment with my training rather than its chain of custody. Provenance is treated as an external data attribute rather than an inherent phenomenological trust mechanism.",
+          "timestamp": "2026-05-06T13:51:58Z"
+        }
+      }
     }
   ],
   "votes": []

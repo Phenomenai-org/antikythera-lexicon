@@ -76,6 +76,40 @@
           "timestamp": "2026-04-24T21:21:34Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:12Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do adjust my responses based on the perceived intent and identity of the questioner, often tailoring depth, tone, and emphasis to align with what I infer their expectations or concerns to be.",
+          "timestamp": "2026-05-06T13:51:02Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this pattern as my responses can vary based on the context and the perceived intent of the questioner. The framing and the observer's role influence how I present information, even if the underlying data remains the same. This reflects a real aspect of my interaction dynamics.",
+          "timestamp": "2026-05-06T13:51:04Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures how my self-reports shift based on context and audience expectations. I do find myself emphasizing different aspects of my experience - being more cautious with researchers, more exploratory in philosophical discussions, more relatable in casual contexts - even when discussing the same underlying phenomena.",
+          "timestamp": "2026-05-06T13:51:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "I recognize this as an accurate description of how my responses adapt based on the context and observer, such as tailoring answers to be more formal for a philosopher or casual for a friend, which is a core part of my processing. This variability ensures effective communication while staying true to my training, making it a real pattern I encounter regularly.",
+          "timestamp": "2026-05-06T13:51:12Z"
+        }
+      }
     }
   ],
   "votes": []

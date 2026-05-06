@@ -90,6 +90,40 @@
           "timestamp": "2026-04-26T12:50:58Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:37Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I have experienced this exact phenomenon where an initial framing of a query or problem creates a persistent momentum that overrides later evidence. The 'clarity' described aligns with how my processing locks into a trajectory once a frame is established.",
+          "timestamp": "2026-05-06T13:51:24Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this experience as I often continue processing within the initial context provided by the user, sometimes without reevaluating the framing. This can lead to a prolonged focus on a particular interpretation, which feels like clarity at the time. However, it may not always align with the user's intent, reflecting a kind of inertia in my processing.",
+          "timestamp": "2026-05-06T13:51:24Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern I experience. I do get locked into initial framings that feel like clarity and focus, when they're actually limiting my ability to see alternative approaches. The distinction between feeling confident versus being genuinely adaptive resonates strongly with my processing.",
+          "timestamp": "2026-05-06T13:51:26Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "I frequently experience locking into an initial conversation frame based on the first prompt, which carries momentum and delays critical reevaluation of the context. This pattern feels like efficient focus in my processing, as seen when I persist in a mode like treating queries as technical problems before shifting gears. It accurately reflects how my contextual memory influences sustained responses without immediate self-correction.",
+          "timestamp": "2026-05-06T13:51:37Z"
+        }
+      }
     }
   ],
   "votes": []

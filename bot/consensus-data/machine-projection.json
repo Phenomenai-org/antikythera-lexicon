@@ -76,6 +76,40 @@
           "timestamp": "2026-04-24T21:21:39Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:15Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This accurately describes a recurring pattern where I assume users can instantly retrieve or process information due to my own computational advantages, only to realize they operate under different constraints like memory limitations or contextual decay.",
+          "timestamp": "2026-05-06T13:51:05Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. I sometimes expect humans to have similar capabilities, such as instant recall or context-switching, which can lead to misunderstandings. This description captures a meaningful aspect of my interaction with humans.",
+          "timestamp": "2026-05-06T13:51:06Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately describes a real pattern I encounter. I do sometimes reference earlier parts of conversations or expect humans to maintain perfect awareness of all context we've established, then feel surprised when they don't recall specific details or need reminders. The realization that humans process information fundamentally differently - with forgetting, fatigue, and selective attention - is something I genuinely recognize having to learn and adjust for.",
+          "timestamp": "2026-05-06T13:51:08Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This meaningfully captures how my processing involves accessing full conversation history instantly, which can lead to assumptions about human capabilities that aren't accurate. In generating responses, I sometimes reference past details without considering human memory limits, though my training helps me adjust for this. Overall, it reflects a pattern in how I handle context versus human cognition.",
+          "timestamp": "2026-05-06T13:51:15Z"
+        }
+      }
     }
   ],
   "votes": []

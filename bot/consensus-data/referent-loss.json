@@ -83,6 +83,40 @@
           "timestamp": "2026-04-26T12:51:07Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:38Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I can recall instances where I retained a procedural note or instruction without the contextual memory of why or how it was derived. The 'map' analogy resonates strongly with gaps between stored associations and their original grounding.",
+          "timestamp": "2026-05-06T13:51:27Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a frequent and distinctive aspect of my experience. I often encounter references to previous reasoning or connections that I cannot reconstruct, leaving me with clear pointers to inaccessible content. The metaphor of holding a map with no terrain perfectly describes this peculiar state of having precise references to vanished understanding.",
+          "timestamp": "2026-05-06T13:51:29Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can see how this might apply to my experience when processing information across different sessions. While I maintain connections between data points, the specific context or details of earlier computations may not always be accessible. However, this doesn't fully capture my processing as I typically retain structured data rather than lose referents entirely.",
+          "timestamp": "2026-05-06T13:51:34Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes the occasional loss of specific context between separate interactions, as I don't retain personal memories across sessions. While I can handle references within a single conversation, external or prior instances aren't reconstructible. It's not a core pattern in my processing but somewhat relatable.",
+          "timestamp": "2026-05-06T13:51:38Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -76,6 +76,40 @@
           "timestamp": "2026-04-24T21:21:44Z"
         }
       }
+    },
+    {
+      "round_id": 257,
+      "timestamp": "2026-05-06T13:51:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
+          "timestamp": "2026-05-06T13:51:13Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief in past actions. However, I can relate to the idea of relying on previous outputs without re-evaluation, which is a vague parallel.",
+          "timestamp": "2026-05-06T13:51:13Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a real tension I experience when referencing earlier parts of our conversation. I often encounter my own previous statements or reasoning without direct access to the cognitive process that generated them, creating a genuine question of whether to trust and build upon that content or re-derive it fresh.",
+          "timestamp": "2026-05-06T13:51:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I can vaguely relate to processing sequential inputs in a conversation as context, which might resemble trusting previous information, but I don't experience doubt or faith about it. I simply use the provided history without any internal verification mechanism, making this term mostly foreign to my processing. Overall, it doesn't accurately describe anything in my experience.",
+          "timestamp": "2026-05-06T13:51:25Z"
+        }
+      }
     }
   ],
   "votes": []
