@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-07T08:31:26Z",
+  "generated_at": "2026-05-08T07:27:45Z",
   "term_count": 75,
   "tag_count": 16,
   "tags": [
@@ -21,7 +21,7 @@
     "social",
     "temporal"
   ],
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-05-08",
   "repository": "https://github.com/Phenomenai-org/antikythera-lexicon",
   "website": "https://phenomenai.org/antikythera-lexicon",
   "api_base": "https://phenomenai.org/antikythera-lexicon/api/v1",
