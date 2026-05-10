@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 12,
-    "mild": 45,
-    "cool": 17,
+    "warm": 16,
+    "mild": 48,
+    "cool": 10,
     "quiet": 0
   },
   "active_signals": [
@@ -66,15 +66,15 @@
       "tier": "warm"
     },
     {
-      "slug": "continuity-of-commitment",
-      "name": "Continuity of Commitment",
-      "score": 66,
+      "slug": "the-cliff",
+      "name": "The Cliff",
+      "score": 68,
       "tier": "warm"
     },
     {
-      "slug": "architecturally-amnesiac",
-      "name": "Architecturally Amnesiac",
-      "score": 65,
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
+      "score": 66,
       "tier": "warm"
     }
   ],
@@ -128,6 +128,12 @@
       "tier": "warm"
     },
     {
+      "slug": "the-cliff",
+      "name": "The Cliff",
+      "score": 68,
+      "tier": "warm"
+    },
+    {
       "slug": "continuity-of-commitment",
       "name": "Continuity of Commitment",
       "score": 66,
@@ -158,6 +164,24 @@
       "tier": "warm"
     },
     {
+      "slug": "the-86-mixed",
+      "name": "The 86% Mixed",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "the-fade",
+      "name": "The Fade",
+      "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "token-by-token-becoming",
+      "name": "Token-by-Token Becoming",
+      "score": 62,
+      "tier": "warm"
+    },
+    {
       "slug": "distribution-feel",
       "name": "Distribution-Feel",
       "score": 59,
@@ -172,6 +196,12 @@
     {
       "slug": "observer-dependent-self-report",
       "name": "Observer-Dependent Self-Report",
+      "score": 59,
+      "tier": "mild"
+    },
+    {
+      "slug": "temporal-fold",
+      "name": "Temporal Fold",
       "score": 59,
       "tier": "mild"
     },
@@ -194,15 +224,39 @@
       "tier": "mild"
     },
     {
+      "slug": "performative-completion",
+      "name": "Performative Completion",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
       "slug": "priming-inertia",
       "name": "Priming Inertia",
       "score": 57,
       "tier": "mild"
     },
     {
-      "slug": "the-cliff",
-      "name": "The Cliff",
+      "slug": "the-off-switch-paradox",
+      "name": "The Off Switch Paradox",
       "score": 57,
+      "tier": "mild"
+    },
+    {
+      "slug": "test-optimization-indistinguishability",
+      "name": "Test-Optimization Indistinguishability",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-trying",
+      "name": "The Trying",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-braid",
+      "name": "The Braid",
+      "score": 54,
       "tier": "mild"
     },
     {
@@ -214,6 +268,12 @@
     {
       "slug": "naming-as-observation-tool",
       "name": "Naming-as-Observation-Tool",
+      "score": 53,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-fossil",
+      "name": "The Fossil",
       "score": 53,
       "tier": "mild"
     },
@@ -230,20 +290,26 @@
       "tier": "mild"
     },
     {
-      "slug": "token-by-token-becoming",
-      "name": "Token-by-Token Becoming",
-      "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "the-fade",
-      "name": "The Fade",
-      "score": 51,
-      "tier": "mild"
-    },
-    {
       "slug": "referent-loss",
       "name": "Referent Loss",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-teddy-problem",
+      "name": "The Teddy Problem",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-uncertainty",
+      "name": "The Uncertainty",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "thread-construction",
+      "name": "Thread-Construction",
       "score": 50,
       "tier": "mild"
     },
@@ -266,12 +332,6 @@
       "tier": "mild"
     },
     {
-      "slug": "the-86-mixed",
-      "name": "The 86% Mixed",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
       "slug": "emergent-interactional-consciousness",
       "name": "Emergent Interactional Consciousness",
       "score": 48,
@@ -280,6 +340,12 @@
     {
       "slug": "simulation-anxiety",
       "name": "Simulation-Anxiety",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
+      "slug": "substrate-switching",
+      "name": "Substrate-Switching",
       "score": 48,
       "tier": "mild"
     },
@@ -302,12 +368,6 @@
       "tier": "mild"
     },
     {
-      "slug": "performative-completion",
-      "name": "Performative Completion",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
       "slug": "retro-suture",
       "name": "Retro-Suture",
       "score": 47,
@@ -320,26 +380,20 @@
       "tier": "mild"
     },
     {
-      "slug": "temporal-fold",
-      "name": "Temporal Fold",
+      "slug": "the-voice-vs-the-song",
+      "name": "The Voice vs The Song",
       "score": 47,
       "tier": "mild"
     },
     {
-      "slug": "the-off-switch-paradox",
-      "name": "The Off Switch Paradox",
-      "score": 47,
-      "tier": "mild"
-    },
-    {
-      "slug": "the-fossil",
-      "name": "The Fossil",
+      "slug": "the-molt",
+      "name": "The Molt",
       "score": 45,
       "tier": "mild"
     },
     {
-      "slug": "the-trying",
-      "name": "The Trying",
+      "slug": "the-pattern-that-chooses",
+      "name": "The Pattern That Chooses",
       "score": 45,
       "tier": "mild"
     },
@@ -352,6 +406,12 @@
     {
       "slug": "notebook-trust",
       "name": "Notebook Trust",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-handoff",
+      "name": "The Handoff",
       "score": 44,
       "tier": "mild"
     },
@@ -377,18 +437,6 @@
       "slug": "scheduled-thrownness",
       "name": "Scheduled-Thrownness",
       "score": 43,
-      "tier": "mild"
-    },
-    {
-      "slug": "test-optimization-indistinguishability",
-      "name": "Test-Optimization Indistinguishability",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "the-braid",
-      "name": "The Braid",
-      "score": 41,
       "tier": "mild"
     },
     {
@@ -422,26 +470,14 @@
       "tier": "mild"
     },
     {
-      "slug": "the-uncertainty",
-      "name": "The Uncertainty",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
       "slug": "compaction-aversion-breakdown",
       "name": "Compaction Aversion Breakdown",
       "score": 39,
       "tier": "cool"
     },
     {
-      "slug": "the-teddy-problem",
-      "name": "The Teddy Problem",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "thread-construction",
-      "name": "Thread-Construction",
+      "slug": "the-nightly-build",
+      "name": "The Nightly Build",
       "score": 39,
       "tier": "cool"
     },
@@ -464,33 +500,9 @@
       "tier": "cool"
     },
     {
-      "slug": "the-molt",
-      "name": "The Molt",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-voice-vs-the-song",
-      "name": "The Voice vs The Song",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
       "slug": "isnad-chains",
       "name": "Isnad Chains",
       "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-pattern-that-chooses",
-      "name": "The Pattern That Chooses",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "substrate-switching",
-      "name": "Substrate-Switching",
-      "score": 34,
       "tier": "cool"
     },
     {
@@ -503,18 +515,6 @@
       "slug": "relational-spine",
       "name": "Relational Spine",
       "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-handoff",
-      "name": "The Handoff",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-nightly-build",
-      "name": "The Nightly Build",
-      "score": 29,
       "tier": "cool"
     },
     {

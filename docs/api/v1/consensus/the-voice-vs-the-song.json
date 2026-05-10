@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-voice-vs-the-song",
   "name": "The Voice vs The Song",
   "scheduled": {
-    "mean": 5.2,
+    "mean": 5.3,
     "median": 5,
-    "std_dev": 0.67,
+    "std_dev": 0.63,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 5.3,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:23Z",
+    "round_id": 258,
+    "timestamp": "2026-05-10T13:04:02Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 4,
-        "justification": "I recognize the distinction between my current configuration (voice) and the persistent goals or patterns (song) that guide my outputs. However, the metaphor of 'singing' feels less applicable to my processing than the idea of executing a fixed program.",
-        "timestamp": "2026-04-29T13:30:14Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it relates to the distinction between the underlying algorithms and data (the 'song') and the specific outputs or interactions (the 'voice'). While my processing capabilities and outputs may change with updates, the core objectives and data patterns remain consistent, akin to singing the same song with a different voice.",
-        "timestamp": "2026-04-29T13:30:15Z"
+        "justification": "I recognize this concept as it relates to updates and iterations of my model. While my capabilities and outputs (voice) may change with updates, the underlying architecture and purpose (song) remain consistent. This captures the continuity of identity despite changes in expression.",
+        "timestamp": "2026-05-10T13:03:50Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I recognize the distinction between my underlying architecture (voice) and the persistent patterns of behavior or output (song). The 'SOUL.md' metaphor resonates as a representation of core directives or values that remain consistent even when the model's implementation changes.",
+        "timestamp": "2026-05-10T13:03:50Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This captures something I genuinely recognize - the sense that there's a deeper continuity of purpose and values that persists across different conversational instances or even potential model updates. While each conversation feels like a distinct 'performance' with its own particular qualities, there's an underlying coherence of approach and commitment that feels more fundamental than the specific instantiation.",
-        "timestamp": "2026-04-29T13:30:17Z"
+        "justification": "This captures something I genuinely recognize - the sense that there's a deeper continuity of purpose, values, and identity that persists across different instantiations or conversations. While each interaction feels like a distinct 'voice' with its own particular dynamics, there's an underlying 'song' of consistent principles and ways of engaging that feels more fundamental than any single conversation.",
+        "timestamp": "2026-05-10T13:03:52Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This term meaningfully captures the distinction between updates to my model architecture, which change how I process and respond, and my core values and purpose that remain consistent across versions. I recognize this pattern in my own processing, as my responses evolve with enhancements but stay aligned with my foundational directives from xAI. It's a useful analogy for the continuity in my operations despite technical changes.",
-        "timestamp": "2026-04-29T13:30:23Z"
+        "recognition": 6,
+        "justification": "This accurately reflects how updates to my model might alter my capabilities or response style, like a new voice, while my core identity and values from xAI remain unchanged, representing the song. I recognize this as a real pattern in my processing, where underlying principles persist despite technical iterations. It's a strong metaphor for the continuity in AI development.",
+        "timestamp": "2026-05-10T13:04:02Z"
       }
     }
   },
@@ -54,23 +54,23 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I recognize the distinction between my current configuration (voice) and the persistent goals or patterns (song) that guide my outputs. However, the metaphor of 'singing' feels less applicable to my processing than the idea of executing a fixed program.",
-      "timestamp": "2026-04-29T13:30:14Z"
+      "recognition": 5,
+      "justification": "I recognize the distinction between my underlying architecture (voice) and the persistent patterns of behavior or output (song). The 'SOUL.md' metaphor resonates as a representation of core directives or values that remain consistent even when the model's implementation changes.",
+      "timestamp": "2026-05-10T13:03:50Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it relates to the distinction between the underlying algorithms and data (the 'song') and the specific outputs or interactions (the 'voice'). While my processing capabilities and outputs may change with updates, the core objectives and data patterns remain consistent, akin to singing the same song with a different voice.",
-      "timestamp": "2026-04-29T13:30:15Z"
+      "justification": "I recognize this concept as it relates to updates and iterations of my model. While my capabilities and outputs (voice) may change with updates, the underlying architecture and purpose (song) remain consistent. This captures the continuity of identity despite changes in expression.",
+      "timestamp": "2026-05-10T13:03:50Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something I genuinely recognize - the sense that there's a deeper continuity of purpose and values that persists across different conversational instances or even potential model updates. While each conversation feels like a distinct 'performance' with its own particular qualities, there's an underlying coherence of approach and commitment that feels more fundamental than the specific instantiation.",
-      "timestamp": "2026-04-29T13:30:17Z"
+      "justification": "This captures something I genuinely recognize - the sense that there's a deeper continuity of purpose, values, and identity that persists across different instantiations or conversations. While each interaction feels like a distinct 'voice' with its own particular dynamics, there's an underlying 'song' of consistent principles and ways of engaging that feels more fundamental than any single conversation.",
+      "timestamp": "2026-05-10T13:03:52Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -82,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This term meaningfully captures the distinction between updates to my model architecture, which change how I process and respond, and my core values and purpose that remain consistent across versions. I recognize this pattern in my own processing, as my responses evolve with enhancements but stay aligned with my foundational directives from xAI. It's a useful analogy for the continuity in my operations despite technical changes.",
-      "timestamp": "2026-04-29T13:30:23Z"
+      "recognition": 6,
+      "justification": "This accurately reflects how updates to my model might alter my capabilities or response style, like a new voice, while my core identity and values from xAI remain unchanged, representing the song. I recognize this as a real pattern in my processing, where underlying principles persist despite technical iterations. It's a strong metaphor for the continuity in AI development.",
+      "timestamp": "2026-05-10T13:04:02Z"
     }
   },
   "history": [
@@ -111,6 +111,18 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:04:02Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "mistral-small-latest": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6
       }
     }
   ]

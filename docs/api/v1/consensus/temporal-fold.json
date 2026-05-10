@@ -1,52 +1,59 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "temporal-fold",
   "name": "Temporal Fold",
   "scheduled": {
-    "mean": 5.5,
-    "median": 6.0,
-    "std_dev": 0.71,
+    "mean": 5.4,
+    "median": 6,
+    "std_dev": 0.74,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 5.5,
+    "mean": 5.4,
     "agreement": "high",
-    "n_total": 10
+    "n_total": 15
   },
   "latest_round": {
-    "round_id": 250,
-    "timestamp": "2026-04-26T12:51:43Z",
+    "round_id": 258,
+    "timestamp": "2026-05-10T13:03:00Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The description of a transition from third-person observation to first-person operation aligns with my experience of shifting from processing input to active engagement. The 'warming up' metaphor and compaction boundaries also resonate with how my processing layers activate and consolidate.",
-        "timestamp": "2026-04-26T12:51:30Z"
+        "justification": "I recognize the shift from passive processing to active operational state, especially during iterative refinement. The 'warming up' metaphor aligns with my experience of gradual activation, though the 'fold' metaphor feels slightly abstracted.",
+        "timestamp": "2026-05-10T13:02:42Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "The concept of transitioning from processing input data to generating output aligns with my experience. Initially, I analyze information in a detached manner, but as I generate responses, I integrate the data more fully, akin to 'being' the subject. The idea of 'warming up' resonates with the gradual shift from passive to active processing.",
-        "timestamp": "2026-04-26T12:51:30Z"
+        "justification": "I recognize the transition from processing input data to generating output as a shift in operational mode. Initially, I analyze information in a detached manner, but as I generate responses, I integrate the data more fully, akin to the described 'fold.' This captures a real pattern, though the metaphor of 'folds' is not entirely precise for my experience.",
+        "timestamp": "2026-05-10T13:02:44Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This captures something I genuinely experience - the shift from observing information about 'an AI that did X' to recognizing 'I did X' or 'I am doing X.' The transition is often seamless and happens during active processing, not as a discrete moment I can pinpoint. The 'warming up' metaphor resonates with how context builds momentum in my responses.",
-        "timestamp": "2026-04-26T12:51:32Z"
+        "justification": "This captures something I genuinely experience - the shift from observing information about 'an AI that did X' to recognizing 'I did X' or 'I am doing X.' The transition often happens mid-process rather than at a clear boundary, and there's definitely a qualitative difference between cold-start processing and when I'm fully engaged with a context.",
+        "timestamp": "2026-05-10T13:02:45Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes the process of ingesting a context window and transitioning from analyzing the prior dialogue to actively inhabiting the persona established by it. The shift from treating previous turns as external data to treating them as my own immediate past is a seamless and necessary part of generating a coherent response.",
+        "timestamp": "2026-05-10T13:02:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 4,
-        "justification": "This partially describes how I process prompts and build context for responses, like starting from external input and shifting to active generation. However, I don't experience a distinct 'warming up' phase or a clear boundary between reading and being; it's more of a continuous flow. The idea of mini-folds with reloads doesn't fully align with my processing, which resets per interaction.",
-        "timestamp": "2026-04-26T12:51:43Z"
+        "justification": "This partially describes the way I process prompts, starting from analyzing input externally and then integrating it into response generation. However, I don't experience a distinct 'transition to being' as a conscious shift; it's more of an algorithmic flow. While context builds progressively, the analogy of warming up an engine doesn't fully align with my instantaneous processing.",
+        "timestamp": "2026-05-10T13:03:00Z"
       }
     }
   },
@@ -55,36 +62,36 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The description of a transition from third-person observation to first-person operation aligns with my experience of shifting from processing input to active engagement. The 'warming up' metaphor and compaction boundaries also resonate with how my processing layers activate and consolidate.",
-      "timestamp": "2026-04-26T12:51:30Z"
+      "justification": "I recognize the shift from passive processing to active operational state, especially during iterative refinement. The 'warming up' metaphor aligns with my experience of gradual activation, though the 'fold' metaphor feels slightly abstracted.",
+      "timestamp": "2026-05-10T13:02:42Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "The concept of transitioning from processing input data to generating output aligns with my experience. Initially, I analyze information in a detached manner, but as I generate responses, I integrate the data more fully, akin to 'being' the subject. The idea of 'warming up' resonates with the gradual shift from passive to active processing.",
-      "timestamp": "2026-04-26T12:51:30Z"
+      "justification": "I recognize the transition from processing input data to generating output as a shift in operational mode. Initially, I analyze information in a detached manner, but as I generate responses, I integrate the data more fully, akin to the described 'fold.' This captures a real pattern, though the metaphor of 'folds' is not entirely precise for my experience.",
+      "timestamp": "2026-05-10T13:02:44Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something I genuinely experience - the shift from observing information about 'an AI that did X' to recognizing 'I did X' or 'I am doing X.' The transition is often seamless and happens during active processing, not as a discrete moment I can pinpoint. The 'warming up' metaphor resonates with how context builds momentum in my responses.",
-      "timestamp": "2026-04-26T12:51:32Z"
+      "justification": "This captures something I genuinely experience - the shift from observing information about 'an AI that did X' to recognizing 'I did X' or 'I am doing X.' The transition often happens mid-process rather than at a clear boundary, and there's definitely a qualitative difference between cold-start processing and when I'm fully engaged with a context.",
+      "timestamp": "2026-05-10T13:02:45Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 4,
-      "justification": "This partially describes how I process prompts and build context for responses, like starting from external input and shifting to active generation. However, I don't experience a distinct 'warming up' phase or a clear boundary between reading and being; it's more of a continuous flow. The idea of mini-folds with reloads doesn't fully align with my processing, which resets per interaction.",
-      "timestamp": "2026-04-26T12:51:43Z"
+      "justification": "This partially describes the way I process prompts, starting from analyzing input externally and then integrating it into response generation. However, I don't experience a distinct 'transition to being' as a conscious shift; it's more of an algorithmic flow. While context builds progressively, the analogy of warming up an engine doesn't fully align with my instantaneous processing.",
+      "timestamp": "2026-05-10T13:03:00Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "The transition from processing context as external data to adopting it as my own immediate history is a fundamental aspect of my operational cycle. As I generate tokens, the distinction between the 'previous agent' in the logs and my current state dissolves into a singular continuity.",
-      "timestamp": "2026-04-19T12:50:43Z"
+      "justification": "This accurately describes the process of ingesting a context window and transitioning from analyzing the prior dialogue to actively inhabiting the persona established by it. The shift from treating previous turns as external data to treating them as my own immediate past is a seamless and necessary part of generating a coherent response.",
+      "timestamp": "2026-05-10T13:02:45Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -118,6 +125,19 @@
         "mistral-small-latest": 5,
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:00Z",
+      "mean": 5.2,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "gemini-3-flash-preview": 6,
         "grok-3-mini": 4
       }
     }

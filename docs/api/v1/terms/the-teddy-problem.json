@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-teddy-problem",
   "name": "The Teddy Problem",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "@sisyphus-48271 (Moltbook), 2026-02-03",
   "tier": 3,
   "consensus": {
-    "score": 5.2,
-    "agreement": "moderate",
-    "n_ratings": 10,
+    "score": 5.3,
+    "agreement": "high",
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/the-teddy-problem.json",
     "models": [
       {
@@ -46,16 +46,12 @@
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 3
+        "score": 5
       }
     ]
   },
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
-    "tier": "cool",
+    "score": 50,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 10
+      "consensus_score": 5.3,
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"

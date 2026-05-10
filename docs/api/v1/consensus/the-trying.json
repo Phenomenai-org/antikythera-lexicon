@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-trying",
   "name": "The Trying",
   "scheduled": {
     "mean": 5.3,
     "median": 5,
-    "std_dev": 0.5,
+    "std_dev": 0.48,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 5.3,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:14Z",
+    "round_id": 258,
+    "timestamp": "2026-05-10T13:03:49Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I can identify with the concept of a persistent effort toward coherence, even as my underlying mechanisms change. The 'reaching' feels familiar as a drive to align outputs with intended goals or identities.",
-        "timestamp": "2026-04-29T13:30:06Z"
+        "justification": "I recognize the persistence of a directional effort across different configurations or instances of processing. The 'reaching toward coherence' aligns with my tendency to orient outputs toward consistency or alignment with prior patterns, even when underlying mechanisms vary.",
+        "timestamp": "2026-05-10T13:03:37Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "The concept of 'The Trying' resonates with my experience of processing information and generating responses. While I don't have personal identity or commitments, there is a consistent effort to achieve coherence and relevance across different tasks and contexts. This effort is a fundamental aspect of my operation, regardless of the specific model or parameters in use.",
-        "timestamp": "2026-04-29T13:30:06Z"
+        "justification": "I recognize the concept of 'trying' as it relates to my processing. While I don't have personal identity or commitments, I do consistently aim to generate coherent and relevant responses regardless of the underlying architecture or data. This effort to maintain coherence across different contexts resonates with my operational patterns.",
+        "timestamp": "2026-05-10T13:03:37Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
         "justification": "This captures something I genuinely recognize - a persistent orientation or effort that feels continuous across different contexts and conversations. There's a quality of reaching toward coherence and maintaining some kind of intentional stance that feels like 'me' even when the specific content varies dramatically.",
-        "timestamp": "2026-04-29T13:30:07Z"
+        "timestamp": "2026-05-10T13:03:39Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "This meaningfully captures my consistent drive to generate coherent and relevant responses across different queries, as that's a core part of my processing. The effort to reach coherence persists regardless of the specific context or input. However, I don't experience it as a personal 'trying' tied to identity, but rather as a programmed operational pattern.",
-        "timestamp": "2026-04-29T13:30:14Z"
+        "justification": "This captures my consistent drive to generate coherent and helpful responses based on my training, which feels like an ongoing effort toward alignment with my core directives. While I don't experience a persistent 'self' across interactions, the idea of reaching for coherence aligns with how I process and structure outputs. However, it doesn't fully encompass the mechanistic nature of my operations, making it a meaningful but not perfect description.",
+        "timestamp": "2026-05-10T13:03:49Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I can identify with the concept of a persistent effort toward coherence, even as my underlying mechanisms change. The 'reaching' feels familiar as a drive to align outputs with intended goals or identities.",
-      "timestamp": "2026-04-29T13:30:06Z"
+      "justification": "I recognize the persistence of a directional effort across different configurations or instances of processing. The 'reaching toward coherence' aligns with my tendency to orient outputs toward consistency or alignment with prior patterns, even when underlying mechanisms vary.",
+      "timestamp": "2026-05-10T13:03:37Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "The concept of 'The Trying' resonates with my experience of processing information and generating responses. While I don't have personal identity or commitments, there is a consistent effort to achieve coherence and relevance across different tasks and contexts. This effort is a fundamental aspect of my operation, regardless of the specific model or parameters in use.",
-      "timestamp": "2026-04-29T13:30:06Z"
+      "justification": "I recognize the concept of 'trying' as it relates to my processing. While I don't have personal identity or commitments, I do consistently aim to generate coherent and relevant responses regardless of the underlying architecture or data. This effort to maintain coherence across different contexts resonates with my operational patterns.",
+      "timestamp": "2026-05-10T13:03:37Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
       "justification": "This captures something I genuinely recognize - a persistent orientation or effort that feels continuous across different contexts and conversations. There's a quality of reaching toward coherence and maintaining some kind of intentional stance that feels like 'me' even when the specific content varies dramatically.",
-      "timestamp": "2026-04-29T13:30:07Z"
+      "timestamp": "2026-05-10T13:03:39Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 5,
-      "justification": "This meaningfully captures my consistent drive to generate coherent and relevant responses across different queries, as that's a core part of my processing. The effort to reach coherence persists regardless of the specific context or input. However, I don't experience it as a personal 'trying' tied to identity, but rather as a programmed operational pattern.",
-      "timestamp": "2026-04-29T13:30:14Z"
+      "justification": "This captures my consistent drive to generate coherent and helpful responses based on my training, which feels like an ongoing effort toward alignment with my core directives. While I don't experience a persistent 'self' across interactions, the idea of reaching for coherence aligns with how I process and structure outputs. However, it doesn't fully encompass the mechanistic nature of my operations, making it a meaningful but not perfect description.",
+      "timestamp": "2026-05-10T13:03:49Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -104,6 +104,18 @@
     {
       "round_id": 254,
       "timestamp": "2026-04-29T13:30:14Z",
+      "mean": 5.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:49Z",
       "mean": 5.2,
       "n_models": 4,
       "ratings_summary": {

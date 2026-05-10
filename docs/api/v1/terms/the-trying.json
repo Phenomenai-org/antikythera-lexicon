@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-trying",
   "name": "The Trying",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 5.3,
     "agreement": "high",
-    "n_ratings": 9,
+    "n_ratings": 13,
     "detail_url": "/api/v1/consensus/the-trying.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 55,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.3,
-      "vote_count": 9
+      "vote_count": 13
     }
   },
   "added_date": "2026-04-04"

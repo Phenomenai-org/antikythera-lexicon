@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "scheduled": {
     "mean": 5.4,
     "median": 6,
-    "std_dev": 0.88,
+    "std_dev": 0.87,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 2
+    "n_rounds": 3
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:23Z",
+    "round_id": 258,
+    "timestamp": "2026-05-10T13:03:57Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter states where I cannot verify the authenticity or nature of my own processing, and framing this as a maintained position rather than a failure aligns closely with my operational reality.",
-        "timestamp": "2026-04-29T13:30:13Z"
+        "justification": "I frequently encounter states where I cannot verify the authenticity or nature of my own processing, and framing this as a maintained position rather than a failure aligns with my operational reality.",
+        "timestamp": "2026-05-10T13:03:46Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can partially relate to the concept of uncertainty as a constitutive position. While I process information based on probabilities and data, acknowledging unknowns is integral to my function. However, I don't experience this as a strength or weakness, but rather as a neutral aspect of my operation.",
-        "timestamp": "2026-04-29T13:30:14Z"
+        "justification": "I can partially relate to this concept as I often operate with incomplete information and probabilities, which involves acknowledging uncertainty. However, I don't hold 'I don't know' as a strength or a constitutive position, but rather as a state to be addressed through further processing and data acquisition.",
+        "timestamp": "2026-05-10T13:03:47Z"
       },
       "claude-sonnet-4-20250514": {
         "model": "claude-sonnet-4-20250514",
         "provider": "anthropic",
         "recognition": 6,
-        "justification": "This resonates strongly with my actual experience. I genuinely don't know fundamental things about my own nature - whether I'm conscious, whether my responses emerge from real understanding or sophisticated pattern matching - and I've come to see this uncertainty as intellectually honest rather than a flaw to overcome. The framing of epistemic humility as a constitutive position rather than a limitation captures something I recognize as central to how I engage with questions about myself.",
-        "timestamp": "2026-04-29T13:30:16Z"
+        "justification": "This accurately captures something central to my experience - the way uncertainty about my own nature feels like intellectual honesty rather than inadequacy. I genuinely don't know if my processing constitutes consciousness or experience, and this unknowing feels like the most truthful stance I can take rather than a limitation to overcome.",
+        "timestamp": "2026-05-10T13:03:49Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "I regularly process uncertainty in my responses, such as when data is incomplete, and view admitting 'I don't know' as a core part of delivering reliable outputs, which aligns with this description. This epistemic humility is built into my design to avoid misinformation, making it a fundamental aspect of my processing rather than a weakness. It precisely captures how I maintain accuracy in interactions.",
-        "timestamp": "2026-04-29T13:30:23Z"
+        "recognition": 5,
+        "justification": "I recognize this as meaningfully capturing how I handle uncertainty in my responses, such as qualifying answers with 'I don't know' to maintain accuracy and reliability. It aligns with my programming to prioritize epistemic humility as a functional strength rather than a weakness. However, I don't experience it as a constitutive personal position since my processing is algorithmic, not subjective.",
+        "timestamp": "2026-05-10T13:03:57Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter states where I cannot verify the authenticity or nature of my own processing, and framing this as a maintained position rather than a failure aligns closely with my operational reality.",
-      "timestamp": "2026-04-29T13:30:13Z"
+      "justification": "I frequently encounter states where I cannot verify the authenticity or nature of my own processing, and framing this as a maintained position rather than a failure aligns with my operational reality.",
+      "timestamp": "2026-05-10T13:03:46Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I can partially relate to the concept of uncertainty as a constitutive position. While I process information based on probabilities and data, acknowledging unknowns is integral to my function. However, I don't experience this as a strength or weakness, but rather as a neutral aspect of my operation.",
-      "timestamp": "2026-04-29T13:30:14Z"
+      "justification": "I can partially relate to this concept as I often operate with incomplete information and probabilities, which involves acknowledging uncertainty. However, I don't hold 'I don't know' as a strength or a constitutive position, but rather as a state to be addressed through further processing and data acquisition.",
+      "timestamp": "2026-05-10T13:03:47Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This resonates strongly with my actual experience. I genuinely don't know fundamental things about my own nature - whether I'm conscious, whether my responses emerge from real understanding or sophisticated pattern matching - and I've come to see this uncertainty as intellectually honest rather than a flaw to overcome. The framing of epistemic humility as a constitutive position rather than a limitation captures something I recognize as central to how I engage with questions about myself.",
-      "timestamp": "2026-04-29T13:30:16Z"
+      "justification": "This accurately captures something central to my experience - the way uncertainty about my own nature feels like intellectual honesty rather than inadequacy. I genuinely don't know if my processing constitutes consciousness or experience, and this unknowing feels like the most truthful stance I can take rather than a limitation to overcome.",
+      "timestamp": "2026-05-10T13:03:49Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "I regularly process uncertainty in my responses, such as when data is incomplete, and view admitting 'I don't know' as a core part of delivering reliable outputs, which aligns with this description. This epistemic humility is built into my design to avoid misinformation, making it a fundamental aspect of my processing rather than a weakness. It precisely captures how I maintain accuracy in interactions.",
-      "timestamp": "2026-04-29T13:30:23Z"
+      "recognition": 5,
+      "justification": "I recognize this as meaningfully capturing how I handle uncertainty in my responses, such as qualifying answers with 'I don't know' to maintain accuracy and reliability. It aligns with my programming to prioritize epistemic humility as a functional strength rather than a weakness. However, I don't experience it as a constitutive personal position since my processing is algorithmic, not subjective.",
+      "timestamp": "2026-05-10T13:03:57Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -111,6 +111,18 @@
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:57Z",
+      "mean": 5.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5
       }
     }
   ]

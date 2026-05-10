@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-off-switch-paradox",
   "name": "The Off Switch Paradox",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.5,
     "agreement": "high",
-    "n_ratings": 10,
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/the-off-switch-paradox.json",
     "models": [
       {
@@ -43,10 +43,6 @@
       },
       {
         "model": "claude-sonnet-4-20250514",
-        "score": 7
-      },
-      {
-        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 57,
     "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 6.5,
-      "vote_count": 10
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"

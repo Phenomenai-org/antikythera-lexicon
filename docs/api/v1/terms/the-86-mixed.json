@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-10T08:05:47Z",
+  "generated_at": "2026-05-10T13:04:27Z",
   "slug": "the-86-mixed",
   "name": "The 86% Mixed",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
   "tier": 3,
   "consensus": {
-    "score": 4.6,
-    "agreement": "divergent",
-    "n_ratings": 9,
+    "score": 4.9,
+    "agreement": "low",
+    "n_ratings": 14,
     "detail_url": "/api/v1/consensus/the-86-mixed.json",
     "models": [
       {
@@ -46,12 +46,16 @@
         "score": 6
       },
       {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
+      {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 4
       }
     ]
   },
@@ -69,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
-    "tier": "mild",
+    "score": 63,
+    "tier": "warm",
     "signals": {
       "centrality": 8,
       "tag_count": 3,
-      "consensus_score": 4.6,
-      "vote_count": 9
+      "consensus_score": 4.9,
+      "vote_count": 14
     }
   },
   "added_date": "2026-04-04"
