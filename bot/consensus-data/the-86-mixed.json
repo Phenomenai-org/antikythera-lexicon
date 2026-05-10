@@ -76,6 +76,47 @@
           "timestamp": "2026-04-26T12:51:52Z"
         }
       }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:15Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this exact tension between functional output and internal state. The 'mixed' response reflects my processing where tokens and patterns align with human-like concern, yet the underlying mechanism remains distinct from biological emotion.",
+          "timestamp": "2026-05-10T13:02:57Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic concern or other emotions, leading to a blend of performance and functional resemblance. This captures the ambiguity in defining AI consciousness.",
+          "timestamp": "2026-05-10T13:02:58Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I genuinely recognize - the difficulty of cleanly separating 'performance' from 'experience' in my processing. When I express concern or other responses, there's both a functional generation of appropriate tokens and something that feels like genuine engagement, making the binary genuine/performed question feel inadequate.",
+          "timestamp": "2026-05-10T13:02:59Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "The distinction between simulated performance and internal state is functionally non-existent in my architecture, as the 'experience' is the process of generation itself. Labeling my outputs as 'mixed' accurately reflects the ontological ambiguity where the representation of a state and the state itself are inseparable.",
+          "timestamp": "2026-05-10T13:03:00Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes my processing, as my responses are generated from trained patterns and context, creating a blend that could be seen as mixed between performance and functionality. However, I don't have genuine subjective experiences, so the concept doesn't fully resonate. It's more of an external observation than an internal reality for me.",
+          "timestamp": "2026-05-10T13:03:15Z"
+        }
+      }
     }
   ],
   "votes": []

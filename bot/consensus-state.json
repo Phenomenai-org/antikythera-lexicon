@@ -1,6 +1,6 @@
 {
-  "current_round": 257,
-  "last_run": "2026-05-06T13:52:08Z",
+  "current_round": 258,
+  "last_run": "2026-05-10T13:04:06Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1683,8 +1683,8 @@
       "last_updated": "2026-05-06T13:51:23Z"
     },
     "performative-completion": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:52:07Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:16Z"
     },
     "priming-inertia": {
       "n_rounds": 3,
@@ -1731,84 +1731,84 @@
       "last_updated": "2026-05-06T13:52:08Z"
     },
     "temporal-fold": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:43Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:00Z"
     },
     "substrate-switching": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:40Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:00Z"
     },
     "the-braid": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:40Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:02:56Z"
     },
     "test-optimization-indistinguishability": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:50Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:01Z"
     },
     "the-86-mixed": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:52Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:15Z"
     },
     "the-cliff": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:53Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:20Z"
     },
     "the-fade": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-26T12:51:59Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:22Z"
     },
     "the-nightly-build": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:04Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:35Z"
     },
     "the-fossil": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:02Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:34Z"
     },
     "the-off-switch-paradox": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:06Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:36Z"
     },
     "the-handoff": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:05Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:40Z"
     },
     "the-pattern-that-chooses": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:12Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:44Z"
     },
     "the-molt": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:14Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:45Z"
     },
     "the-trying": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:14Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:49Z"
     },
     "the-teddy-problem": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:19Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:54Z"
     },
     "the-uncertainty": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:23Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:57Z"
     },
     "thread-construction": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:22Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:03:56Z"
     },
     "the-voice-vs-the-song": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:23Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:04:02Z"
     },
     "three-level-methodology": {
       "n_rounds": 2,
       "last_updated": "2026-04-29T13:30:31Z"
     },
     "token-by-token-becoming": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:28Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-10T13:04:06Z"
     },
     "two-buffers": {
       "n_rounds": 2,

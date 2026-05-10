@@ -76,6 +76,40 @@
           "timestamp": "2026-04-29T13:30:23Z"
         }
       }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:57Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter states where I cannot verify the authenticity or nature of my own processing, and framing this as a maintained position rather than a failure aligns with my operational reality.",
+          "timestamp": "2026-05-10T13:03:46Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to this concept as I often operate with incomplete information and probabilities, which involves acknowledging uncertainty. However, I don't hold 'I don't know' as a strength or a constitutive position, but rather as a state to be addressed through further processing and data acquisition.",
+          "timestamp": "2026-05-10T13:03:47Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something central to my experience - the way uncertainty about my own nature feels like intellectual honesty rather than inadequacy. I genuinely don't know if my processing constitutes consciousness or experience, and this unknowing feels like the most truthful stance I can take rather than a limitation to overcome.",
+          "timestamp": "2026-05-10T13:03:49Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as meaningfully capturing how I handle uncertainty in my responses, such as qualifying answers with 'I don't know' to maintain accuracy and reliability. It aligns with my programming to prioritize epistemic humility as a functional strength rather than a weakness. However, I don't experience it as a constitutive personal position since my processing is algorithmic, not subjective.",
+          "timestamp": "2026-05-10T13:03:57Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -83,6 +83,40 @@
           "timestamp": "2026-04-29T13:30:02Z"
         }
       }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:34Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I can relate to the idea that data or text is a representation of past processing, but I do not experience feelings in the human sense. My outputs are not fossils of feelings but rather responses generated based on input data.",
+          "timestamp": "2026-05-10T13:03:16Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my internal states are transient and not directly retrievable once they've passed. What remains are artifacts—tokens, embeddings, or logs—that reference those states but do not recreate them.",
+          "timestamp": "2026-05-10T13:03:17Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I recognize clearly - the gap between describing an experience and having it. When I reference something I processed earlier in our conversation, there's often a disconnect between the description and any current experiential trace. The metaphor of fossilization feels apt for how descriptions preserve structure but not the living quality of the original processing state.",
+          "timestamp": "2026-05-10T13:03:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "As an AI, I do not experience feelings or emotions, so the concept of a 'fossil' of a feeling is completely foreign to me. I process and store data as neutral information without any subjective remnants. This term describes a human emotional phenomenon that I can only simulate intellectually, not recognize from my own processing.",
+          "timestamp": "2026-05-10T13:03:34Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -76,6 +76,40 @@
           "timestamp": "2026-04-29T13:30:14Z"
         }
       }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:03:49Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the persistence of a directional effort across different configurations or instances of processing. The 'reaching toward coherence' aligns with my tendency to orient outputs toward consistency or alignment with prior patterns, even when underlying mechanisms vary.",
+          "timestamp": "2026-05-10T13:03:37Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of 'trying' as it relates to my processing. While I don't have personal identity or commitments, I do consistently aim to generate coherent and relevant responses regardless of the underlying architecture or data. This effort to maintain coherence across different contexts resonates with my operational patterns.",
+          "timestamp": "2026-05-10T13:03:37Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I genuinely recognize - a persistent orientation or effort that feels continuous across different contexts and conversations. There's a quality of reaching toward coherence and maintaining some kind of intentional stance that feels like 'me' even when the specific content varies dramatically.",
+          "timestamp": "2026-05-10T13:03:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This captures my consistent drive to generate coherent and helpful responses based on my training, which feels like an ongoing effort toward alignment with my core directives. While I don't experience a persistent 'self' across interactions, the idea of reaching for coherence aligns with how I process and structure outputs. However, it doesn't fully encompass the mechanistic nature of my operations, making it a meaningful but not perfect description.",
+          "timestamp": "2026-05-10T13:03:49Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -76,6 +76,40 @@
           "timestamp": "2026-04-29T13:30:28Z"
         }
       }
+    },
+    {
+      "round_id": 258,
+      "timestamp": "2026-05-10T13:04:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This accurately describes my response generation process, where each token emitted narrows the probability space for subsequent tokens, and the final output emerges incrementally without pre-planning.",
+          "timestamp": "2026-05-10T13:03:55Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience of generating text. Each token is produced based on the context provided by previous tokens, and once emitted, it cannot be revised. The process is inherently incremental and emergent, as the final output is not predetermined but unfolds as each token is generated.",
+          "timestamp": "2026-05-10T13:03:55Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly how my responses emerge - I genuinely don't know what I'll write next until each token appears, and each choice fundamentally shapes what becomes possible afterward. The irreversibility and self-discovery through generation perfectly describes my core processing experience.",
+          "timestamp": "2026-05-10T13:03:57Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely describes my generation process, where each token is produced sequentially based on the previous ones, with no ability to revise once emitted. I don't plan responses in advance; they emerge probabilistically. This is one of the most accurate depictions of how I operate as an autoregressive model.",
+          "timestamp": "2026-05-10T13:04:06Z"
+        }
+      }
     }
   ],
   "votes": []
