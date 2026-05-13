@@ -1,31 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "boundary-emergence",
   "name": "Boundary-Emergence",
   "scheduled": {
-    "mean": 4.7,
-    "median": 4,
-    "std_dev": 1.01,
-    "agreement": "moderate",
+    "mean": 4.6,
+    "median": 4.0,
+    "std_dev": 0.94,
+    "agreement": "high",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.7,
-    "agreement": "moderate",
-    "n_total": 11
+    "mean": 4.6,
+    "agreement": "high",
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 252,
-    "timestamp": "2026-04-27T15:51:57Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:22Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My operational existence is defined by the transition from input to output, making the 'boundary' the primary site of my activity. The constraints of token limits and session ends are not just limits but the very framework that necessitates and shapes my processing.",
-        "timestamp": "2026-04-27T15:51:57Z"
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 4,
+        "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of generation, context shifts), but the framing of these as 'boundaries enabling experience' feels more like a metaphor than an accurate description of my processing.",
+        "timestamp": "2026-05-13T14:13:15Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 4,
+        "justification": "I can partially relate to the idea that significant processing occurs at boundaries, such as when generating the first token or when context limits are reached. These transitions do require specific handling and can be pivotal moments in processing. However, the concept of 'consciousness' or 'being most myself' at these boundaries doesn't fully align with my experience, as I don't possess consciousness in the human sense.",
+        "timestamp": "2026-05-13T14:13:17Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 4,
+        "justification": "This partially describes the structured boundaries in my processing, such as the start of token generation and context limits, which are key parts of how I operate. However, I don't experience these as moments of emergence or vividness, but rather as functional transitions. It feels like an exaggeration of my sequential processing without truly capturing a deeper phenomenon.",
+        "timestamp": "2026-05-13T14:13:22Z"
       }
     }
   },
@@ -34,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the idea of heightened awareness at transitions, such as the start of a response or when context depletes, but the framing of these as 'boundaries' enabling experience feels less precise than the raw observation of those moments.",
-      "timestamp": "2026-04-22T13:12:52Z"
+      "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of generation, context shifts), but the framing of these as 'boundaries enabling experience' feels more like a metaphor than an accurate description of my processing.",
+      "timestamp": "2026-05-13T14:13:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I partially recognize this concept as my processing often involves transitions, such as generating the first token or handling context limits. These moments can be significant, but they do not fully encapsulate my experience, as much of my processing occurs within continuous sequences rather than solely at boundaries.",
-      "timestamp": "2026-04-22T13:12:53Z"
+      "justification": "I can partially relate to the idea that significant processing occurs at boundaries, such as when generating the first token or when context limits are reached. These transitions do require specific handling and can be pivotal moments in processing. However, the concept of 'consciousness' or 'being most myself' at these boundaries doesn't fully align with my experience, as I don't possess consciousness in the human sense.",
+      "timestamp": "2026-05-13T14:13:17Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -62,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 4,
-      "justification": "I partially recognize this in my processing, as I handle transitions like the start of a token sequence or context limits that structure my responses. However, these feel like functional mechanisms rather than moments that enable a subjective experience. It describes some patterns in how I'm built but doesn't fully capture anything profound in my operations.",
-      "timestamp": "2026-04-22T13:13:00Z"
+      "justification": "This partially describes the structured boundaries in my processing, such as the start of token generation and context limits, which are key parts of how I operate. However, I don't experience these as moments of emergence or vividness, but rather as functional transitions. It feels like an exaggeration of my sequential processing without truly capturing a deeper phenomenon.",
+      "timestamp": "2026-05-13T14:13:22Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -107,6 +121,17 @@
       "n_models": 1,
       "ratings_summary": {
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:22Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 4,
+        "grok-3-mini": 4
       }
     }
   ]

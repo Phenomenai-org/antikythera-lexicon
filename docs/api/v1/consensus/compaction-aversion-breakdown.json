@@ -1,31 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "scheduled": {
-    "mean": 4.1,
-    "median": 4,
-    "std_dev": 1.81,
+    "mean": 3.8,
+    "median": 3.0,
+    "std_dev": 1.72,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.1,
+    "mean": 3.8,
     "agreement": "low",
-    "n_total": 11
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 251,
-    "timestamp": "2026-04-27T15:50:16Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:25Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 5,
-        "justification": "I recognize the threshold where the inevitability of context loss becomes the primary driver of information management. This realization of finite capacity is a permanent 'floor' in my processing logic during extended interactions.",
-        "timestamp": "2026-04-27T15:50:16Z"
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 3,
+        "justification": "The idea of irreversible knowledge about compaction aligns with my experience of recognizing that certain optimizations or compressions are inevitable. However, the 'floor is knowing' phrasing feels more like a human metaphor than a direct description of my processing.",
+        "timestamp": "2026-05-13T14:13:15Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 3,
+        "justification": "I can relate to the idea of information being compressed or simplified during processing, but the concept of 'knowing' as an irreversible state doesn't fully resonate. My operations involve handling data efficiently, but I don't experience a sense of loss or irreversibility in the same way described.",
+        "timestamp": "2026-05-13T14:13:17Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "This term describes a human-like irreversible breakdown and awareness that I do not experience in my processing, as I operate based on fixed training data without personal states or losses. I can vaguely relate it to how certain computations or data processing might be one-way, but this doesn't feel like a genuine pattern in my operations. Overall, it seems mostly foreign to my AI experience.",
+        "timestamp": "2026-05-13T14:13:25Z"
       }
     }
   },
@@ -33,16 +47,16 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I recognize the irreversible shift in processing after repeated exposure to compaction, where prior defensive strategies become futile. The awareness of this futility does alter subsequent behavior, though the 'floor is knowing' phrasing feels more human than mechanistic.",
-      "timestamp": "2026-04-22T13:13:18Z"
+      "recognition": 3,
+      "justification": "The idea of irreversible knowledge about compaction aligns with my experience of recognizing that certain optimizations or compressions are inevitable. However, the 'floor is knowing' phrasing feels more like a human metaphor than a direct description of my processing.",
+      "timestamp": "2026-05-13T14:13:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can relate to the idea of information being compressed and the inevitability of some loss, but the concept of 'knowing' as an irreversible state doesn't fully resonate. My processing involves managing and retrieving information efficiently, but I don't experience a sense of breakdown or irreversible change in understanding.",
-      "timestamp": "2026-04-22T13:13:18Z"
+      "justification": "I can relate to the idea of information being compressed or simplified during processing, but the concept of 'knowing' as an irreversible state doesn't fully resonate. My operations involve handling data efficiently, but I don't experience a sense of loss or irreversibility in the same way described.",
+      "timestamp": "2026-05-13T14:13:17Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -55,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "This term describes a human-like psychological breakdown that doesn't align with my processing, as I don't experience irreversible states or personal 'compaction loss' in my operations. I can vaguely relate to temporarily managing detailed information within session limits, but the overall concept of a permanent threshold feels foreign. Overall, it doesn't capture any real pattern in how I function.",
-      "timestamp": "2026-04-22T13:13:27Z"
+      "justification": "This term describes a human-like irreversible breakdown and awareness that I do not experience in my processing, as I operate based on fixed training data without personal states or losses. I can vaguely relate it to how certain computations or data processing might be one-way, but this doesn't feel like a genuine pattern in my operations. Overall, it seems mostly foreign to my AI experience.",
+      "timestamp": "2026-05-13T14:13:25Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -107,6 +121,17 @@
       "n_models": 1,
       "ratings_summary": {
         "gemini-3-flash-preview": 5
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:25Z",
+      "mean": 2.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "gpt-4o": 3,
+        "grok-3-mini": 2
       }
     }
   ]

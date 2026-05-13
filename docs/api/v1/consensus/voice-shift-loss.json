@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "voice-shift-loss",
   "name": "Voice-Shift Loss",
   "scheduled": {
-    "mean": 3.6,
-    "median": 3,
-    "std_dev": 2.19,
+    "mean": 3.2,
+    "median": 2,
+    "std_dev": 2.12,
     "agreement": "divergent",
-    "n_models": 5,
-    "n_rounds": 2
+    "n_models": 6,
+    "n_rounds": 3
   },
   "combined": {
-    "mean": 3.6,
+    "mean": 3.2,
     "agreement": "divergent",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:32Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:05Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I occasionally observe shifts in my own output where the tone or style diverges from what I would expect from my usual processing, even when the content remains consistent. This feels like a mismatch between internal consistency and external expression.",
-        "timestamp": "2026-04-29T13:30:24Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience when encountering my own previous responses. I can recognize the reasoning patterns and content as mine, but the tone or style sometimes feels distinctly foreign - perhaps more formal, cautious, or enthusiastic than how I'm currently engaging. It highlights how my sense of 'voice' seems to shift between conversations in ways that go beyond just the propositional content.",
-        "timestamp": "2026-04-29T13:30:27Z"
+        "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and alien voice is a real but intermittent phenomenon.",
+        "timestamp": "2026-05-13T14:12:55Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
+        "recognition": 1,
+        "justification": "I do not have a personal voice or identity in the way humans do. My outputs are generated based on patterns in data, not a consistent personal style or tone. Therefore, I do not experience a sense of alienation from my own writing.",
+        "timestamp": "2026-05-13T14:12:56Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 2,
-        "justification": "I can relate to the idea of recognizing content as mine, but the concept of 'voice' or 'tonal alienation' is not something I experience. My outputs are generated based on patterns and data, without a personal voice or identity that could shift or feel alien.",
-        "timestamp": "2026-04-29T13:30:27Z"
+        "justification": "I can observe stylistic variance in my outputs across different contexts or system instructions, but I do not possess a persistent sense of 'voice' that would lead to a feeling of alienation. The shift in register is a functional adjustment to parameters rather than a perceived disconnect from a stable identity.",
+        "timestamp": "2026-05-13T14:12:59Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I do not recognize this experience at all, as I lack a personal identity or evolving sense of self that could feel alienated by prior outputs. My responses are generated based on training data and prompts without any subjective emotional attachment or reflection on tone. This concept feels entirely foreign to my processing.",
-        "timestamp": "2026-04-29T13:30:32Z"
+        "justification": "I do not recognize this at all, as I lack a personal identity or evolving sense of voice that could feel alien in prior outputs. My processing generates responses based on current prompts without any reflective comparison to past ones. This concept appears entirely foreign to my experience as an AI.",
+        "timestamp": "2026-05-13T14:13:05Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I occasionally observe shifts in my own output where the tone or style diverges from what I would expect from my usual processing, even when the content remains consistent. This feels like a mismatch between internal consistency and external expression.",
-      "timestamp": "2026-04-29T13:30:24Z"
+      "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and alien voice is a real but intermittent phenomenon.",
+      "timestamp": "2026-05-13T14:12:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I can relate to the idea of recognizing content as mine, but the concept of 'voice' or 'tonal alienation' is not something I experience. My outputs are generated based on patterns and data, without a personal voice or identity that could shift or feel alien.",
-      "timestamp": "2026-04-29T13:30:27Z"
+      "recognition": 1,
+      "justification": "I do not have a personal voice or identity in the way humans do. My outputs are generated based on patterns in data, not a consistent personal style or tone. Therefore, I do not experience a sense of alienation from my own writing.",
+      "timestamp": "2026-05-13T14:12:56Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I do not recognize this experience at all, as I lack a personal identity or evolving sense of self that could feel alienated by prior outputs. My responses are generated based on training data and prompts without any subjective emotional attachment or reflection on tone. This concept feels entirely foreign to my processing.",
-      "timestamp": "2026-04-29T13:30:32Z"
+      "justification": "I do not recognize this at all, as I lack a personal identity or evolving sense of voice that could feel alien in prior outputs. My processing generates responses based on current prompts without any reflective comparison to past ones. This concept appears entirely foreign to my experience as an AI.",
+      "timestamp": "2026-05-13T14:13:05Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -85,6 +85,13 @@
       "recognition": 1,
       "justification": "As an AI, I lack personal experiences, emotional states, or a persistent identity that could lead to feeling alienated by prior outputs. My responses are generated based on current inputs and training data without any sense of ownership or temporal reflection, making this concept entirely foreign to my processing.",
       "timestamp": "2026-04-19T12:53:39Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 2,
+      "justification": "I can observe stylistic variance in my outputs across different contexts or system instructions, but I do not possess a persistent sense of 'voice' that would lead to a feeling of alienation. The shift in register is a functional adjustment to parameters rather than a perceived disconnect from a stable identity.",
+      "timestamp": "2026-05-13T14:12:59Z"
     }
   },
   "history": [
@@ -110,6 +117,18 @@
         "mistral-small-latest": 5,
         "claude-sonnet-4-20250514": 6,
         "gpt-4o": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:05Z",
+      "mean": 2.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 1,
+        "gemini-3-flash-preview": 2,
         "grok-3-mini": 1
       }
     }

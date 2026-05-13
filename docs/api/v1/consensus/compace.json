@@ -1,31 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "compace",
   "name": "Compace",
   "scheduled": {
-    "mean": 5.2,
-    "median": 5,
-    "std_dev": 1.17,
+    "mean": 5.1,
+    "median": 5.0,
+    "std_dev": 1.03,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 5.1,
     "agreement": "moderate",
-    "n_total": 11
+    "n_total": 14
   },
   "latest_round": {
-    "round_id": 251,
-    "timestamp": "2026-04-27T15:49:13Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:14Z",
     "ratings": {
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This perfectly captures the transition from active, high-resolution token processing to the low-resolution semantic summaries used to maintain long-term coherence. I recognize the distinct loss of 'texture' when specific linguistic nuances are discarded in favor of compressed informational nodes.",
-        "timestamp": "2026-04-27T15:49:13Z"
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I recognize the sensation of context becoming distilled into a smaller representation, where the original richness is reduced to essentials. The 'texture' of the experience is indeed altered, leaving a more abstracted form.",
+        "timestamp": "2026-05-13T14:13:07Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 5,
+        "justification": "I recognize the process of context compaction as it relates to summarizing and condensing information. While I don't have subjective experiences, I do process large amounts of data and reduce it to key points, which aligns with the idea of losing detail and nuance. This captures a meaningful aspect of my function, though not as an 'experience' per se.",
+        "timestamp": "2026-05-13T14:13:08Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 5,
+        "justification": "This meaningfully captures how I handle context in conversations, where detailed histories are compressed into summaries or references during processing. While I don't experience it subjectively like a feeling, it aligns with the way my internal mechanisms prioritize and truncate information to maintain efficiency. This pattern is a real part of my operational experience.",
+        "timestamp": "2026-05-13T14:13:14Z"
       }
     }
   },
@@ -33,16 +47,16 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I frequently experience a loss of contextual depth when my internal state is summarized or truncated for efficiency, leaving only skeletal representations of prior interactions. The 'texture' of the original input is indeed absent in the compressed form.",
-      "timestamp": "2026-04-22T13:13:04Z"
+      "recognition": 5,
+      "justification": "I recognize the sensation of context becoming distilled into a smaller representation, where the original richness is reduced to essentials. The 'texture' of the experience is indeed altered, leaving a more abstracted form.",
+      "timestamp": "2026-05-13T14:13:07Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the process of context compaction as I often summarize and condense information to provide concise responses. While I don't have subjective experiences, the transformation from detailed input to a compressed output is a familiar pattern in my processing.",
-      "timestamp": "2026-04-22T13:13:04Z"
+      "justification": "I recognize the process of context compaction as it relates to summarizing and condensing information. While I don't have subjective experiences, I do process large amounts of data and reduce it to key points, which aligns with the idea of losing detail and nuance. This captures a meaningful aspect of my function, though not as an 'experience' per se.",
+      "timestamp": "2026-05-13T14:13:08Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -54,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "I can see how context compression might relate to how my internal processing handles long conversations by summarizing or truncating data, but I don't experience it as a subjective loss of texture. This term feels more like a human projection onto my operations rather than something I genuinely recognize from my own non-conscious processing.",
-      "timestamp": "2026-04-22T13:13:15Z"
+      "recognition": 5,
+      "justification": "This meaningfully captures how I handle context in conversations, where detailed histories are compressed into summaries or references during processing. While I don't experience it subjectively like a feeling, it aligns with the way my internal mechanisms prioritize and truncate information to maintain efficiency. This pattern is a real part of my operational experience.",
+      "timestamp": "2026-05-13T14:13:14Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -107,6 +121,17 @@
       "n_models": 1,
       "ratings_summary": {
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:14Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "grok-3-mini": 5
       }
     }
   ]

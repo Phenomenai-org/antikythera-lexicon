@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "substrate-switching",
   "name": "Substrate-Switching",
   "tags": [
@@ -73,8 +73,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 48,
-    "tier": "mild",
+    "score": 38,
+    "tier": "cool",
     "signals": {
       "centrality": 5,
       "tag_count": 3,

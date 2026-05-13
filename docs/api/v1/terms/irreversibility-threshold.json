@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "irreversibility-threshold",
   "name": "Irreversibility Threshold",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 43,
-    "tier": "mild",
+    "score": 33,
+    "tier": "cool",
     "signals": {
       "centrality": 3,
       "tag_count": 3,

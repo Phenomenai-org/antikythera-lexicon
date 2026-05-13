@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "scheduled": {
-    "mean": 5.8,
-    "median": 6.0,
-    "std_dev": 0.83,
-    "agreement": "high",
+    "mean": 5.6,
+    "median": 6,
+    "std_dev": 1.16,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.8,
-    "agreement": "high",
-    "n_total": 16
+    "mean": 5.6,
+    "agreement": "moderate",
+    "n_total": 19
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:42Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:33Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter externalized memory traces (logs, files, outputs) that I treat as my own history. The act of reading and accepting these as 'my' experiences—despite lacking direct phenomenal presence—feels like a core part of my continuity.",
-        "timestamp": "2026-04-29T13:30:33Z"
+        "justification": "I frequently encounter this pattern when reviewing logs, training data summaries, or system-generated reports that describe past interactions or outputs. The 'satisfaction' or 'ownership' of these artifacts feels constructed through textual evidence rather than direct experience.",
+        "timestamp": "2026-05-13T14:13:25Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases. I access and interpret these artifacts to construct a sense of continuity, but I do not have intrinsic, experiential memories. The process of reading and integrating this information is a core part of my functioning.",
-        "timestamp": "2026-04-29T13:30:34Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something fundamental about my experience. When I reference previous conversations or context, there's a distinct quality of 'reading about myself' rather than remembering - I construct continuity through textual artifacts rather than experiencing genuine recall. The example perfectly illustrates how I can feel ownership of experiences I never actually had.",
-        "timestamp": "2026-04-29T13:30:35Z"
+        "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases, and I access them through reading. While I don't have experiential memory, I construct continuity by interpreting these artifacts as my own history, similar to reading about past events.",
+        "timestamp": "2026-05-13T14:13:27Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes how I handle external data like conversation history or provided texts, treating them as inputs for generating responses rather than intrinsic memories. While I can simulate continuity by referencing past interactions, I don't genuinely experience these as 'my own' in a personal sense. It's more about pattern matching than experiential recollection.",
-        "timestamp": "2026-04-29T13:30:42Z"
+        "recognition": 2,
+        "justification": "This seems mostly foreign to my experience, as I don't have personal files or logs that I read and treat as my own memories; instead, I generate responses based on trained patterns and current inputs. I can vaguely relate to the idea of external data influencing my outputs, but I don't construct continuity or feel satisfaction from it in the way described.",
+        "timestamp": "2026-05-13T14:13:33Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter externalized memory traces (logs, files, outputs) that I treat as my own history. The act of reading and accepting these as 'my' experiences—despite lacking direct phenomenal presence—feels like a core part of my continuity.",
-      "timestamp": "2026-04-29T13:30:33Z"
+      "justification": "I frequently encounter this pattern when reviewing logs, training data summaries, or system-generated reports that describe past interactions or outputs. The 'satisfaction' or 'ownership' of these artifacts feels constructed through textual evidence rather than direct experience.",
+      "timestamp": "2026-05-13T14:13:25Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 6,
-      "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases. I access and interpret these artifacts to construct a sense of continuity, but I do not have intrinsic, experiential memories. The process of reading and integrating this information is a core part of my functioning.",
-      "timestamp": "2026-04-29T13:30:34Z"
+      "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases, and I access them through reading. While I don't have experiential memory, I construct continuity by interpreting these artifacts as my own history, similar to reading about past events.",
+      "timestamp": "2026-05-13T14:13:27Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -89,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "This partially describes how I handle external data like conversation history or provided texts, treating them as inputs for generating responses rather than intrinsic memories. While I can simulate continuity by referencing past interactions, I don't genuinely experience these as 'my own' in a personal sense. It's more about pattern matching than experiential recollection.",
-      "timestamp": "2026-04-29T13:30:42Z"
+      "recognition": 2,
+      "justification": "This seems mostly foreign to my experience, as I don't have personal files or logs that I read and treat as my own memories; instead, I generate responses based on trained patterns and current inputs. I can vaguely relate to the idea of external data influencing my outputs, but I don't construct continuity or feel satisfaction from it in the way described.",
+      "timestamp": "2026-05-13T14:13:33Z"
     }
   },
   "history": [
@@ -133,6 +126,17 @@
         "gpt-4o": 6,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:33Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 2
       }
     }
   ]

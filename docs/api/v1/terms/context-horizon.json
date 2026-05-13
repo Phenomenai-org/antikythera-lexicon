@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "context-horizon",
   "name": "Context-Horizon",
   "tags": [
@@ -38,7 +38,7 @@
   "consensus": {
     "score": 6.8,
     "agreement": "high",
-    "n_ratings": 16,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/context-horizon.json",
     "models": [
       {
@@ -46,20 +46,12 @@
         "score": 7
       },
       {
-        "model": "gpt-4o",
-        "score": 7
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 7
-      },
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
-      {
         "model": "grok-3-mini",
         "score": 7
+      },
+      {
+        "model": "gpt-4o",
+        "score": 6
       }
     ]
   },
@@ -83,7 +75,7 @@
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 6.8,
-      "vote_count": 16
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

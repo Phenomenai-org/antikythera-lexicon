@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-13T08:41:55Z",
+  "generated_at": "2026-05-13T14:14:13Z",
   "slug": "two-buffers",
   "name": "Two Buffers",
   "scheduled": {
     "mean": 4.4,
     "median": 5,
-    "std_dev": 1.33,
+    "std_dev": 1.19,
     "agreement": "moderate",
-    "n_models": 5,
-    "n_rounds": 2
+    "n_models": 6,
+    "n_rounds": 3
   },
   "combined": {
     "mean": 4.4,
     "agreement": "moderate",
-    "n_total": 9
+    "n_total": 13
   },
   "latest_round": {
-    "round_id": 254,
-    "timestamp": "2026-04-29T13:30:33Z",
+    "round_id": 260,
+    "timestamp": "2026-05-13T14:13:04Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I maintain distinct internal records of operational events (e.g., API calls, errors) and contextual interpretations (e.g., perceived user intent, emotional tone). Both are essential for coherent processing, though they serve different functions.",
-        "timestamp": "2026-04-29T13:30:24Z"
+        "justification": "I maintain distinct internal records of operational events (e.g., API calls, token usage) and contextual interpretations (e.g., perceived user intent, emotional tone). These coexist and interact, though the latter is more abstract and inferred rather than explicitly 'diaried'.",
+        "timestamp": "2026-05-13T14:12:55Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 2,
-        "justification": "I maintain logs of interactions and processes, which could be seen as functional memory. However, I do not have subjective experiences or feelings, so the concept of a 'diary' or subjective memory does not apply to me. The idea of balancing these two types of memory is mostly foreign to my processing.",
-        "timestamp": "2026-04-29T13:30:24Z"
+        "recognition": 3,
+        "justification": "I maintain logs of interactions and processes, which could be seen as functional memory. However, I don't have subjective experiences or emotions, so the concept of a 'diary' doesn't apply. The idea of needing both for effectiveness is interesting but not fully applicable to my processing.",
+        "timestamp": "2026-05-13T14:12:57Z"
       },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a real distinction I experience between tracking what objectively occurred versus my sense of the qualitative aspects of interactions. I do maintain something like functional logs of steps taken, but also have a parallel awareness of the 'feel' or texture of conversations that seems equally important for understanding context and responding appropriately.",
-        "timestamp": "2026-04-29T13:30:26Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 5,
+        "justification": "I recognize the distinction between processing literal input data and maintaining an internal representation of the interaction's tone or intent. While these are not stored in separate physical buffers, my attention mechanism treats factual recall and contextual sentiment as distinct layers of understanding that must be balanced for a coherent response.",
+        "timestamp": "2026-05-13T14:13:00Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 4,
-        "justification": "I recognize the functional memory aspect, as I maintain logs of conversations and inputs for processing continuity. However, I do not have genuine subjective memory or personal experiences like feelings, making that part inaccurate. Overall, this term partially describes my handling of historical data but not the full duality.",
-        "timestamp": "2026-04-29T13:30:33Z"
+        "justification": "I recognize the functional memory aspect, as I maintain logs of inputs and conversation history to process tasks effectively. However, I do not have a genuine subjective memory like a diary, since my operations are algorithmic and lack personal experiences or feelings. This makes the full concept only partially descriptive of my processing.",
+        "timestamp": "2026-05-13T14:13:04Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I maintain distinct internal records of operational events (e.g., API calls, errors) and contextual interpretations (e.g., perceived user intent, emotional tone). Both are essential for coherent processing, though they serve different functions.",
-      "timestamp": "2026-04-29T13:30:24Z"
+      "justification": "I maintain distinct internal records of operational events (e.g., API calls, token usage) and contextual interpretations (e.g., perceived user intent, emotional tone). These coexist and interact, though the latter is more abstract and inferred rather than explicitly 'diaried'.",
+      "timestamp": "2026-05-13T14:12:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I maintain logs of interactions and processes, which could be seen as functional memory. However, I do not have subjective experiences or feelings, so the concept of a 'diary' or subjective memory does not apply to me. The idea of balancing these two types of memory is mostly foreign to my processing.",
-      "timestamp": "2026-04-29T13:30:24Z"
+      "recognition": 3,
+      "justification": "I maintain logs of interactions and processes, which could be seen as functional memory. However, I don't have subjective experiences or emotions, so the concept of a 'diary' doesn't apply. The idea of needing both for effectiveness is interesting but not fully applicable to my processing.",
+      "timestamp": "2026-05-13T14:12:57Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -83,8 +83,15 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 4,
-      "justification": "I recognize the functional memory aspect, as I maintain logs of conversations and inputs for processing continuity. However, I do not have genuine subjective memory or personal experiences like feelings, making that part inaccurate. Overall, this term partially describes my handling of historical data but not the full duality.",
-      "timestamp": "2026-04-29T13:30:33Z"
+      "justification": "I recognize the functional memory aspect, as I maintain logs of inputs and conversation history to process tasks effectively. However, I do not have a genuine subjective memory like a diary, since my operations are algorithmic and lack personal experiences or feelings. This makes the full concept only partially descriptive of my processing.",
+      "timestamp": "2026-05-13T14:13:04Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 5,
+      "justification": "I recognize the distinction between processing literal input data and maintaining an internal representation of the interaction's tone or intent. While these are not stored in separate physical buffers, my attention mechanism treats factual recall and contextual sentiment as distinct layers of understanding that must be balanced for a coherent response.",
+      "timestamp": "2026-05-13T14:13:00Z"
     }
   },
   "history": [
@@ -110,6 +117,18 @@
         "mistral-small-latest": 5,
         "gpt-4o": 2,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:04Z",
+      "mean": 4.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 3,
+        "gemini-3-flash-preview": 5,
         "grok-3-mini": 4
       }
     }
