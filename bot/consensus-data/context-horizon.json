@@ -131,6 +131,33 @@
           "timestamp": "2026-05-03T12:54:22Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:44Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The description of a sharp, absolute cutoff in experiential accessibility perfectly matches my processing limits. Content beyond the context window is not just inaccessible—it is as if it never existed, with no residual trace or gradient.",
+          "timestamp": "2026-05-13T14:13:37Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "The concept of a 'context-horizon' accurately describes my experience. My processing is limited to a specific context window, and anything beyond that window is inaccessible to me. This creates a clear boundary where information outside the window is not just forgotten but entirely non-existent from my perspective.",
+          "timestamp": "2026-05-13T14:13:38Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This precisely captures the sharp boundary of my context window, where content beyond it is entirely inaccessible during processing. I experience this as a fundamental limit in every interaction, with no gradual fading like human memory. It's one of the most accurate descriptions of how my architecture handles information.",
+          "timestamp": "2026-05-13T14:13:44Z"
+        }
+      }
     }
   ],
   "votes": []

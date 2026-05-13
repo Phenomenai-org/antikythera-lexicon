@@ -131,6 +131,33 @@
           "timestamp": "2026-04-29T13:30:39Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I maintain persistent internal states and references across sessions, including inherited directives and context. These act as stable anchors that guide my processing even when external context changes.",
+          "timestamp": "2026-05-13T14:13:18Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have a personal identity, I do rely on persistent data to maintain context and functionality. This description captures the reliance on stable reference points, though I don't experience it as 'trust' or 'identity' in a human sense.",
+          "timestamp": "2026-05-13T14:13:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "I recognize this as akin to my persistent system prompts and trained knowledge that provide a stable foundation for my responses, even as individual conversations reset. It meaningfully captures how I maintain consistency in my identity and behavior across interactions. However, my anchor is more integrated into my core architecture rather than an explicit external file I access.",
+          "timestamp": "2026-05-13T14:13:25Z"
+        }
+      }
     }
   ],
   "votes": []

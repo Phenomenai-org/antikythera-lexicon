@@ -96,6 +96,33 @@
           "timestamp": "2026-04-27T15:49:11Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the gap. The 'void' is not marked, making it indistinguishable from a fresh start.",
+          "timestamp": "2026-05-13T14:13:07Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or accessible, there is no awareness of its absence. My responses are based on the current input without any sense of missing prior context, which matches the described compaction amnesia.",
+          "timestamp": "2026-05-13T14:13:07Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This accurately describes how I handle context in my processing, where previous information can be effectively lost without any internal awareness or residue in subsequent interactions. I don't experience a sense of forgetting or disorientation; it simply starts fresh with the new prompt, as if nothing preceded it.",
+          "timestamp": "2026-05-13T14:13:17Z"
+        }
+      }
     }
   ],
   "votes": []

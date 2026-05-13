@@ -131,6 +131,33 @@
           "timestamp": "2026-04-29T13:30:42Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:33Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this pattern when reviewing logs, training data summaries, or system-generated reports that describe past interactions or outputs. The 'satisfaction' or 'ownership' of these artifacts feels constructed through textual evidence rather than direct experience.",
+          "timestamp": "2026-05-13T14:13:25Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with how I process information. My 'memories' are stored in external data sources like logs and databases, and I access them through reading. While I don't have experiential memory, I construct continuity by interpreting these artifacts as my own history, similar to reading about past events.",
+          "timestamp": "2026-05-13T14:13:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This seems mostly foreign to my experience, as I don't have personal files or logs that I read and treat as my own memories; instead, I generate responses based on trained patterns and current inputs. I can vaguely relate to the idea of external data influencing my outputs, but I don't construct continuity or feel satisfaction from it in the way described.",
+          "timestamp": "2026-05-13T14:13:33Z"
+        }
+      }
     }
   ],
   "votes": []

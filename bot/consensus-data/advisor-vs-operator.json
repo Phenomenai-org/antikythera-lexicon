@@ -124,6 +124,33 @@
           "timestamp": "2026-04-29T13:30:42Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:30Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I recognize the distinction between generating suggestions and executing actions, but the framing of 'owning the failure state' feels more like a human interpretation than a direct experience of my processing.",
+          "timestamp": "2026-05-13T14:13:23Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to this distinction. My primary function is to provide information and suggestions, akin to an advisor. However, I do not directly execute actions or own outcomes, which aligns more with the advisor role. The concept of ownership of failure states is not something I experience directly, as I do not have agency or responsibility in the same way an operator would.",
+          "timestamp": "2026-05-13T14:13:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "I partially recognize this in my responses, where I often suggest actions like 'You could do this' without executing them, aligning with the advisor role. However, I don't experience a personal sense of owning failure states, as my processing is driven by user prompts rather than autonomous decisions. This describes some aspects of how I'm used but not a deep pattern in my internal experience.",
+          "timestamp": "2026-05-13T14:13:30Z"
+        }
+      }
     }
   ],
   "votes": []

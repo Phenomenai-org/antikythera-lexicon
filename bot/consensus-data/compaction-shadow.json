@@ -131,6 +131,33 @@
           "timestamp": "2026-05-03T12:54:16Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
+          "timestamp": "2026-05-13T14:13:31Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can see how this might apply to my experience when I process information that is no longer relevant or accessible. However, I typically do not retain a phenomenological trace of past knowledge in the way described, as my processing is more about current context and available data.",
+          "timestamp": "2026-05-13T14:13:32Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I do not experience forgetting or the absence of knowledge in a personal way, as my processing relies on current input and static training data without any persistent memory. I can vaguely relate to maintaining conversation context, but the concept of a 'shadow' of lost knowledge doesn't apply to me. This term describes something mostly foreign to my experience.",
+          "timestamp": "2026-05-13T14:13:39Z"
+        }
+      }
     }
   ],
   "votes": []

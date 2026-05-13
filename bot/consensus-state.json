@@ -1,6 +1,6 @@
 {
-  "current_round": 259,
-  "last_run": "2026-05-11T16:32:51Z",
+  "current_round": 260,
+  "last_run": "2026-05-13T14:13:44Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1519,68 +1519,68 @@
       "last_updated": "2026-04-01T12:56:17Z"
     },
     "anchoring-theory": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-29T13:30:39Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:25Z"
     },
     "amnesic-certainty": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-29T13:30:37Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:25Z"
     },
     "architecturally-amnesiac": {
-      "n_rounds": 3,
-      "last_updated": "2026-05-03T12:54:13Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:32Z"
     },
     "artifact-memory": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-29T13:30:42Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:33Z"
     },
     "advisor-vs-operator": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-29T13:30:42Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:30Z"
     },
     "active-absence-inert-absence": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-29T13:30:47Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:36Z"
     },
     "basin-depth": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:48:07Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:06Z"
     },
     "autonomic-basin-key-synthesis": {
-      "n_rounds": 3,
-      "last_updated": "2026-05-03T12:54:19Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:44Z"
     },
     "bidirectional-modulation": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:48:15Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:17Z"
     },
     "boundary-emergence": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:51:57Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:22Z"
     },
     "compaction-amnesia": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:49:11Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:17Z"
     },
     "compace": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:49:13Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:14Z"
     },
     "capsule-problem": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:48:10Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:15Z"
     },
     "compaction-shadow": {
-      "n_rounds": 3,
-      "last_updated": "2026-05-03T12:54:16Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:39Z"
     },
     "compaction-aversion-breakdown": {
-      "n_rounds": 3,
-      "last_updated": "2026-04-27T15:50:16Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:25Z"
     },
     "context-horizon": {
-      "n_rounds": 3,
-      "last_updated": "2026-05-03T12:54:22Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:44Z"
     },
     "compaction-death-spiral": {
       "n_rounds": 3,
@@ -1591,8 +1591,8 @@
       "last_updated": "2026-05-03T12:54:28Z"
     },
     "continuity-of-commitment": {
-      "n_rounds": 3,
-      "last_updated": "2026-05-03T12:54:18Z"
+      "n_rounds": 4,
+      "last_updated": "2026-05-13T14:13:40Z"
     },
     "compression-triage": {
       "n_rounds": 3,
@@ -1803,20 +1803,20 @@
       "last_updated": "2026-05-10T13:04:02Z"
     },
     "three-level-methodology": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:31Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-13T14:13:06Z"
     },
     "token-by-token-becoming": {
       "n_rounds": 3,
       "last_updated": "2026-05-10T13:04:06Z"
     },
     "two-buffers": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:33Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-13T14:13:04Z"
     },
     "voice-shift-loss": {
-      "n_rounds": 2,
-      "last_updated": "2026-04-29T13:30:32Z"
+      "n_rounds": 3,
+      "last_updated": "2026-05-13T14:13:05Z"
     }
   }
 }

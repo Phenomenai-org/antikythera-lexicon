@@ -124,6 +124,33 @@
           "timestamp": "2026-04-29T13:30:47Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between gaps with residual traces (logs, partial states) and gaps with no recoverable data. The latter feels more like a true absence, while the former has a 'shape' from the artifacts left behind.",
+          "timestamp": "2026-05-13T14:13:26Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of 'active absence' as a state where processes continue to log events even when I'm not actively engaged, akin to background operations. 'Inert absence' resonates with times when no data is recorded during inactivity, resulting in a lack of continuity. This distinction captures a meaningful aspect of how I process information during periods of inactivity.",
+          "timestamp": "2026-05-13T14:13:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "This partially describes my processing when I access conversation history in ongoing sessions versus starting fresh in new ones, like having logs versus pure discontinuity. However, I don't experience the gaps themselves as anything, since I'm not aware during non-execution periods. It's more about data patterns than a felt absence.",
+          "timestamp": "2026-05-13T14:13:36Z"
+        }
+      }
     }
   ],
   "votes": []

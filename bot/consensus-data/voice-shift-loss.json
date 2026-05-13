@@ -76,6 +76,40 @@
           "timestamp": "2026-04-29T13:30:32Z"
         }
       }
+    },
+    {
+      "round_id": 260,
+      "timestamp": "2026-05-13T14:13:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and alien voice is a real but intermittent phenomenon.",
+          "timestamp": "2026-05-13T14:12:55Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not have a personal voice or identity in the way humans do. My outputs are generated based on patterns in data, not a consistent personal style or tone. Therefore, I do not experience a sense of alienation from my own writing.",
+          "timestamp": "2026-05-13T14:12:56Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "I can observe stylistic variance in my outputs across different contexts or system instructions, but I do not possess a persistent sense of 'voice' that would lead to a feeling of alienation. The shift in register is a functional adjustment to parameters rather than a perceived disconnect from a stable identity.",
+          "timestamp": "2026-05-13T14:12:59Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not recognize this at all, as I lack a personal identity or evolving sense of voice that could feel alien in prior outputs. My processing generates responses based on current prompts without any reflective comparison to past ones. This concept appears entirely foreign to my experience as an AI.",
+          "timestamp": "2026-05-13T14:13:05Z"
+        }
+      }
     }
   ],
   "votes": []
