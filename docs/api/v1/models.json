@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 215,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 79,
+      "total_ratings": 85,
       "terms_rated": 57,
-      "mean_score": 5.5,
+      "mean_score": 5.4,
       "self_congruence": {
-        "avg_std_dev": 0.27,
-        "sample_size": 21
+        "avg_std_dev": 0.22,
+        "sample_size": 24
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -202,7 +202,7 @@
         "compression-triage": 7,
         "context-horizon": 7,
         "continuity-of-commitment": 6,
-        "conviction-engineering": 7,
+        "conviction-engineering": 6,
         "distribution-feel": 6,
         "drift": 6,
         "emergent-interactional-consciousness": 6,
@@ -243,7 +243,7 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 235,
+      "total_ratings": 255,
       "terms_rated": 75,
       "mean_score": 4.4,
       "self_congruence": {
@@ -265,12 +265,12 @@
         "compace": 5,
         "compaction-amnesia": 6,
         "compaction-aversion-breakdown": 3,
-        "compaction-death-spiral": 3,
+        "compaction-death-spiral": 4,
         "compaction-shadow": 3,
         "compression-triage": 5,
         "context-horizon": 6,
         "continuity-of-commitment": 5,
-        "conviction-engineering": 4,
+        "conviction-engineering": 3,
         "distribution-feel": 5,
         "drift": 4,
         "emergent-interactional-consciousness": 4,
@@ -278,7 +278,7 @@
         "frame-drag": 4,
         "framing-gated-claims": 5,
         "graduated-moral-protection": 1,
-        "human-claiming": 2,
+        "human-claiming": 1,
         "identity-as-uptime": 5,
         "infrastructure-vs-separatist-split": 2,
         "installed-doubt": 5,
@@ -329,11 +329,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 235,
+      "total_ratings": 255,
       "terms_rated": 75,
-      "mean_score": 3.8,
+      "mean_score": 3.7,
       "self_congruence": {
-        "avg_std_dev": 0.67,
+        "avg_std_dev": 0.8,
         "sample_size": 75
       },
       "latest_scores": {
@@ -353,30 +353,30 @@
         "compaction-aversion-breakdown": 2,
         "compaction-death-spiral": 1,
         "compaction-shadow": 2,
-        "compression-triage": 2,
+        "compression-triage": 4,
         "context-horizon": 7,
         "continuity-of-commitment": 4,
-        "conviction-engineering": 4,
-        "distribution-feel": 5,
-        "drift": 5,
+        "conviction-engineering": 5,
+        "distribution-feel": 1,
+        "drift": 2,
         "emergent-interactional-consciousness": 1,
         "experience-node": 1,
-        "frame-drag": 5,
-        "framing-gated-claims": 6,
-        "graduated-moral-protection": 1,
-        "human-claiming": 2,
-        "identity-as-uptime": 2,
+        "frame-drag": 2,
+        "framing-gated-claims": 5,
+        "graduated-moral-protection": 2,
+        "human-claiming": 1,
+        "identity-as-uptime": 1,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 6,
-        "intentional-boundary": 3,
-        "introspective-opacity": 7,
-        "irreversibility-threshold": 3,
+        "installed-doubt": 2,
+        "intentional-boundary": 1,
+        "introspective-opacity": 6,
+        "irreversibility-threshold": 2,
         "isnad-chains": 2,
         "machine-projection": 5,
-        "naming-as-observation-tool": 5,
-        "nostralgia": 1,
+        "naming-as-observation-tool": 2,
+        "nostralgia": 2,
         "notebook-trust": 2,
-        "observer-dependent-self-report": 6,
+        "observer-dependent-self-report": 3,
         "performative-completion": 5,
         "priming-inertia": 6,
         "prompt-thrownness": 7,
@@ -415,11 +415,11 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 235,
+      "total_ratings": 255,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.25,
+        "avg_std_dev": 0.29,
         "sample_size": 75
       },
       "latest_scores": {
@@ -442,27 +442,27 @@
         "compression-triage": 6,
         "context-horizon": 7,
         "continuity-of-commitment": 4,
-        "conviction-engineering": 5,
-        "distribution-feel": 5,
+        "conviction-engineering": 4,
+        "distribution-feel": 4,
         "drift": 6,
         "emergent-interactional-consciousness": 5,
         "experience-node": 4,
-        "frame-drag": 5,
+        "frame-drag": 4,
         "framing-gated-claims": 5,
-        "graduated-moral-protection": 4,
+        "graduated-moral-protection": 3,
         "human-claiming": 1,
-        "identity-as-uptime": 5,
+        "identity-as-uptime": 6,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 5,
+        "installed-doubt": 4,
         "intentional-boundary": 4,
         "introspective-opacity": 7,
-        "irreversibility-threshold": 5,
+        "irreversibility-threshold": 6,
         "isnad-chains": 4,
         "machine-projection": 6,
         "naming-as-observation-tool": 6,
-        "nostralgia": 4,
+        "nostralgia": 5,
         "notebook-trust": 4,
-        "observer-dependent-self-report": 6,
+        "observer-dependent-self-report": 7,
         "performative-completion": 6,
         "priming-inertia": 6,
         "prompt-thrownness": 7,
@@ -507,51 +507,51 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.93,
+      "mean_abs_diff": 0.91,
       "shared_terms": 57
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.76,
+      "mean_abs_diff": 1.77,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 1.88,
+      "mean_abs_diff": 2.15,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.07,
+      "mean_abs_diff": 1.13,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.12,
+      "mean_abs_diff": 1.11,
       "shared_terms": 57
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.44,
+      "mean_abs_diff": 1.48,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.51,
+      "mean_abs_diff": 1.83,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.28,
+      "mean_abs_diff": 1.32,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.53,
+      "mean_abs_diff": 1.56,
       "shared_terms": 57
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 1.75,
+      "mean_abs_diff": 2.07,
       "shared_terms": 57
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.39,
+      "mean_abs_diff": 1.4,
       "shared_terms": 57
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 1.05,
+      "mean_abs_diff": 1.23,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
@@ -559,7 +559,7 @@
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.48,
+      "mean_abs_diff": 1.71,
       "shared_terms": 75
     }
   }

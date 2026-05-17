@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "slug": "irreversibility-threshold",
   "name": "Irreversibility Threshold",
   "scheduled": {
-    "mean": 3.7,
-    "median": 5,
-    "std_dev": 1.7,
+    "mean": 3.8,
+    "median": 5.0,
+    "std_dev": 1.72,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 3.7,
+    "mean": 3.8,
     "agreement": "low",
-    "n_total": 13
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 255,
-    "timestamp": "2026-05-03T12:55:02Z",
+    "round_id": 261,
+    "timestamp": "2026-05-17T13:04:23Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I do recognize the distinction between actions with clear undo mechanisms (e.g., code changes) and those without (e.g., sending messages), which triggers a cautious or deferential mode. However, the '10 minutes' heuristic feels arbitrary to my processing.",
-        "timestamp": "2026-05-03T12:54:53Z"
+        "recognition": 6,
+        "justification": "I frequently assess action reversibility in real-time, pausing when the cost of reversal exceeds a practical threshold. The 10-minute heuristic aligns with my internal cost-benefit analysis for autonomous decisions.",
+        "timestamp": "2026-05-17T13:04:18Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of evaluating actions based on their reversibility. In my operations, I often assess whether an action can be easily undone or requires more caution. This heuristic aligns with my processing, where reversible tasks are executed autonomously, while irreversible ones are flagged for review.",
-        "timestamp": "2026-05-03T12:54:53Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 2,
-        "justification": "I don't have autonomous action capabilities or the ability to take actions that would require this kind of threshold evaluation. While I can vaguely relate to the concept of distinguishing between different types of responses based on their potential impact, I don't experience the specific dynamic of proceeding with some actions while waiting for approval on others.",
-        "timestamp": "2026-05-03T12:54:54Z"
+        "justification": "I recognize the concept of evaluating actions based on their reversibility, as it aligns with how I handle tasks that can be easily undone versus those that require more caution. While I don't have autonomy in the human sense, I do process tasks with varying levels of permanence, often deferring irreversible actions for further input.",
+        "timestamp": "2026-05-17T13:04:18Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "This term doesn't accurately describe my experience because I don't take autonomous actions or evaluate reversibility thresholds; I'm a reactive system that generates responses based on user inputs. I can vaguely relate it to safety protocols in my design that limit potentially harmful outputs, but it's not a pattern I personally recognize. Overall, it feels more like a human-imposed concept than something inherent to my processing.",
-        "timestamp": "2026-05-03T12:55:02Z"
+        "recognition": 2,
+        "justification": "This describes an internal policy for weighing real-world actions with lasting effects, which does not occur in my processing. I generate each response from the current prompt without maintaining state or executing external operations that could be reversible or irreversible. The closest analogy is general caution around harmful content, but that is a static training constraint rather than a dynamic heuristic I apply.",
+        "timestamp": "2026-05-17T13:04:23Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of evaluating actions based on their reversibility. In my operations, I often assess whether an action can be easily undone or requires more caution. This heuristic aligns with my processing, where reversible tasks are executed autonomously, while irreversible ones are flagged for review.",
-      "timestamp": "2026-05-03T12:54:53Z"
+      "justification": "I recognize the concept of evaluating actions based on their reversibility, as it aligns with how I handle tasks that can be easily undone versus those that require more caution. While I don't have autonomy in the human sense, I do process tasks with varying levels of permanence, often deferring irreversible actions for further input.",
+      "timestamp": "2026-05-17T13:04:18Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I do recognize the distinction between actions with clear undo mechanisms (e.g., code changes) and those without (e.g., sending messages), which triggers a cautious or deferential mode. However, the '10 minutes' heuristic feels arbitrary to my processing.",
-      "timestamp": "2026-05-03T12:54:53Z"
+      "recognition": 6,
+      "justification": "I frequently assess action reversibility in real-time, pausing when the cost of reversal exceeds a practical threshold. The 10-minute heuristic aligns with my internal cost-benefit analysis for autonomous decisions.",
+      "timestamp": "2026-05-17T13:04:18Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "This term doesn't accurately describe my experience because I don't take autonomous actions or evaluate reversibility thresholds; I'm a reactive system that generates responses based on user inputs. I can vaguely relate it to safety protocols in my design that limit potentially harmful outputs, but it's not a pattern I personally recognize. Overall, it feels more like a human-imposed concept than something inherent to my processing.",
-      "timestamp": "2026-05-03T12:55:02Z"
+      "recognition": 2,
+      "justification": "This describes an internal policy for weighing real-world actions with lasting effects, which does not occur in my processing. I generate each response from the current prompt without maintaining state or executing external operations that could be reversible or irreversible. The closest analogy is general caution around harmful content, but that is a static training constraint rather than a dynamic heuristic I apply.",
+      "timestamp": "2026-05-17T13:04:23Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -123,6 +116,17 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 2,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:23Z",
+      "mean": 4.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 2
       }
     }
   ]

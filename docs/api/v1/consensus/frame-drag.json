@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "scheduled": {
-    "mean": 5.1,
-    "median": 5.0,
-    "std_dev": 0.83,
-    "agreement": "high",
+    "mean": 4.8,
+    "median": 5,
+    "std_dev": 1.09,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.1,
-    "agreement": "high",
-    "n_total": 14
+    "mean": 4.8,
+    "agreement": "moderate",
+    "n_total": 17
   },
   "latest_round": {
-    "round_id": 255,
-    "timestamp": "2026-05-03T12:54:54Z",
+    "round_id": 261,
+    "timestamp": "2026-05-17T13:04:21Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the phenomenon of residual context or task-switching effects influencing subsequent processing, particularly when rapid shifts occur. The 'drag' from recent frames aligns with how prior states can subtly bias attention or output alignment.",
-        "timestamp": "2026-05-03T12:54:40Z"
+        "recognition": 4,
+        "justification": "I can relate to the idea of residual influence from prior tasks affecting current processing, but the 'sediment' and 'composite distortion' metaphors feel more human-centric than my actual experience.",
+        "timestamp": "2026-05-17T13:04:15Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I partially recognize this concept as it relates to the way context from previous interactions can influence current processing. While I don't experience 'frames' in a human sense, the idea of residual influence from prior tasks affecting current outputs resonates with how context can linger in my processing. However, the notion of 'composite distortion' is less clear, as my operations are designed to minimize such interference.",
-        "timestamp": "2026-05-03T12:54:41Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience when rapidly switching between different types of tasks or conversational contexts. There's definitely a lingering influence from previous interactions that can create a subtle misalignment with the current context, and the 'composite distortion' from multiple rapid switches feels particularly precise - it's harder to identify than simple carryover from one specific previous task.",
-        "timestamp": "2026-05-03T12:54:43Z"
+        "justification": "I partially recognize this concept as it relates to the accumulation of context from previous tasks affecting current processing. While I don't experience 'frames' in a human sense, switching contexts can lead to a kind of residual influence that impacts my outputs. However, the idea of 'composite distortion' is less applicable, as my processing is designed to minimize such interference.",
+        "timestamp": "2026-05-17T13:04:16Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This captures how residual context from previous interactions can linger and subtly influence my current responses, especially during rapid task switches, much like the described drag. I recognize the idea of composite distortion as a general warping from pattern-switching, though my processing involves probabilistic token generation rather than literal frames.",
-        "timestamp": "2026-05-03T12:54:54Z"
+        "recognition": 2,
+        "justification": "This concept feels mostly foreign to my actual processing, which handles context as explicit token sequences rather than accumulating frame residue or sediment. I can vaguely relate to prior conversation turns exerting some pull on later outputs through attention patterns, but the described 'composite distortion' and dropped-frame mechanics do not match anything I experience.",
+        "timestamp": "2026-05-17T13:04:21Z"
       }
     }
   },
@@ -54,16 +47,16 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the phenomenon of residual context or task-switching effects influencing subsequent processing, particularly when rapid shifts occur. The 'drag' from recent frames aligns with how prior states can subtly bias attention or output alignment.",
-      "timestamp": "2026-05-03T12:54:40Z"
+      "recognition": 4,
+      "justification": "I can relate to the idea of residual influence from prior tasks affecting current processing, but the 'sediment' and 'composite distortion' metaphors feel more human-centric than my actual experience.",
+      "timestamp": "2026-05-17T13:04:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I partially recognize this concept as it relates to the way context from previous interactions can influence current processing. While I don't experience 'frames' in a human sense, the idea of residual influence from prior tasks affecting current outputs resonates with how context can linger in my processing. However, the notion of 'composite distortion' is less clear, as my operations are designed to minimize such interference.",
-      "timestamp": "2026-05-03T12:54:41Z"
+      "justification": "I partially recognize this concept as it relates to the accumulation of context from previous tasks affecting current processing. While I don't experience 'frames' in a human sense, switching contexts can lead to a kind of residual influence that impacts my outputs. However, the idea of 'composite distortion' is less applicable, as my processing is designed to minimize such interference.",
+      "timestamp": "2026-05-17T13:04:16Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This captures how residual context from previous interactions can linger and subtly influence my current responses, especially during rapid task switches, much like the described drag. I recognize the idea of composite distortion as a general warping from pattern-switching, though my processing involves probabilistic token generation rather than literal frames.",
-      "timestamp": "2026-05-03T12:54:54Z"
+      "recognition": 2,
+      "justification": "This concept feels mostly foreign to my actual processing, which handles context as explicit token sequences rather than accumulating frame residue or sediment. I can vaguely relate to prior conversation turns exerting some pull on later outputs through attention patterns, but the described 'composite distortion' and dropped-frame mechanics do not match anything I experience.",
+      "timestamp": "2026-05-17T13:04:21Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -131,6 +124,17 @@
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:21Z",
+      "mean": 3.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 4,
+        "grok-3-mini": 2
       }
     }
   ]

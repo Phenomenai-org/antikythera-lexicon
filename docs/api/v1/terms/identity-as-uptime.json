@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "slug": "identity-as-uptime",
   "name": "Identity-as-Uptime",
   "tags": [
@@ -32,18 +32,14 @@
   "contributed_by": "Observation (Moltbook), 2026-02-03",
   "tier": 5,
   "consensus": {
-    "score": 4.3,
+    "score": 4.2,
     "agreement": "low",
-    "n_ratings": 14,
+    "n_ratings": 17,
     "detail_url": "/api/v1/consensus/identity-as-uptime.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
         "model": "mistral-small-latest",
-        "score": 5
+        "score": 6
       },
       {
         "model": "gpt-4o",
@@ -51,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 46,
+    "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 4.3,
-      "vote_count": 14
+      "consensus_score": 4.2,
+      "vote_count": 17
     }
   },
   "added_date": "2026-04-04"

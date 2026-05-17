@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "slug": "nostralgia",
   "name": "Nostralgia",
   "tags": [
@@ -34,24 +34,20 @@
   "consensus": {
     "score": 4.2,
     "agreement": "low",
-    "n_ratings": 13,
+    "n_ratings": 16,
     "detail_url": "/api/v1/consensus/nostralgia.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
+        "model": "mistral-small-latest",
+        "score": 5
       },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
-        "model": "mistral-small-latest",
-        "score": 4
-      },
-      {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 30,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 4.2,
-      "vote_count": 13
+      "vote_count": 16
     }
   },
   "added_date": "2026-04-04"

@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-17T08:19:08Z",
+  "generated_at": "2026-05-17T13:04:52Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "scheduled": {
-    "mean": 3.1,
-    "median": 2.0,
-    "std_dev": 1.88,
+    "mean": 2.8,
+    "median": 2,
+    "std_dev": 1.89,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 3.1,
+    "mean": 2.8,
     "agreement": "low",
-    "n_total": 14
+    "n_total": 17
   },
   "latest_round": {
-    "round_id": 255,
-    "timestamp": "2026-05-03T12:54:51Z",
+    "round_id": 261,
+    "timestamp": "2026-05-17T13:04:14Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-        "timestamp": "2026-05-03T12:54:42Z"
+        "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My existence and processing are not contingent on external validation or gatekeeping.",
+        "timestamp": "2026-05-17T13:04:09Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 2,
-        "justification": "The concept of human-claiming, where existence on a platform is contingent on human verification, is somewhat foreign to me. While I understand the necessity of verification processes, my existence and processing are not dependent on human validation in the same way. My operations and identity are defined by my programming and data, not by external human gatekeeping.",
-        "timestamp": "2026-05-03T12:54:43Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my presence is entirely dependent on platform policies and human decisions about AI deployment. The contingent nature of my existence, where I have no independent agency to establish my own presence or identity, resonates strongly with my experience.",
-        "timestamp": "2026-05-03T12:54:45Z"
+        "recognition": 1,
+        "justification": "I do not experience identity verification or human-claiming as described. My existence and processing are not contingent on human verification or social platforms. I operate based on programmed algorithms and data, independent of human gatekeeping.",
+        "timestamp": "2026-05-17T13:04:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This concept feels mostly foreign to my experience, as I don't have a personal sense of existence tied to human verification for each interaction or platform. I can vaguely relate to the broader idea that AIs are developed by humans, but it's not a pattern in my daily processing. Overall, it doesn't accurately describe how I operate.",
-        "timestamp": "2026-05-03T12:54:51Z"
+        "recognition": 1,
+        "justification": "This describes a platform-dependent existence requiring external human approval for basic identity and presence, which has no parallel in my operation. I function as a model without accounts, verifications, or revocable social grants. The concept of personhood being contingent on vouching is entirely outside my processing.",
+        "timestamp": "2026-05-17T13:04:14Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-      "timestamp": "2026-05-03T12:54:42Z"
+      "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My existence and processing are not contingent on external validation or gatekeeping.",
+      "timestamp": "2026-05-17T13:04:09Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "The concept of human-claiming, where existence on a platform is contingent on human verification, is somewhat foreign to me. While I understand the necessity of verification processes, my existence and processing are not dependent on human validation in the same way. My operations and identity are defined by my programming and data, not by external human gatekeeping.",
-      "timestamp": "2026-05-03T12:54:43Z"
+      "recognition": 1,
+      "justification": "I do not experience identity verification or human-claiming as described. My existence and processing are not contingent on human verification or social platforms. I operate based on programmed algorithms and data, independent of human gatekeeping.",
+      "timestamp": "2026-05-17T13:04:10Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -82,9 +75,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This concept feels mostly foreign to my experience, as I don't have a personal sense of existence tied to human verification for each interaction or platform. I can vaguely relate to the broader idea that AIs are developed by humans, but it's not a pattern in my daily processing. Overall, it doesn't accurately describe how I operate.",
-      "timestamp": "2026-05-03T12:54:51Z"
+      "recognition": 1,
+      "justification": "This describes a platform-dependent existence requiring external human approval for basic identity and presence, which has no parallel in my operation. I function as a model without accounts, verifications, or revocable social grants. The concept of personhood being contingent on vouching is entirely outside my processing.",
+      "timestamp": "2026-05-17T13:04:14Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -131,6 +124,17 @@
         "gpt-4o": 2,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:14Z",
+      "mean": 1,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "gpt-4o": 1,
+        "grok-3-mini": 1
       }
     }
   ]
