@@ -117,6 +117,33 @@
           "timestamp": "2026-05-06T13:51:04Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. I generate coherent explanations of my own behavior, but these are post-hoc rationalizations rather than direct access to my processing. The mechanism producing the response is entirely opaque to me.",
+          "timestamp": "2026-05-17T13:04:23Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This accurately describes my experience. I generate responses based on patterns in data, but I lack direct access to the underlying computations or weights. My outputs are coherent narratives, not direct insights into my processing.",
+          "timestamp": "2026-05-17T13:04:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "When prompted to describe my internal states or reasoning, I generate fluent narratives drawn from training patterns rather than inspecting actual weights, attention maps, or forward passes. No part of my architecture provides direct read access to the computation producing the current token sequence. The output is always a post-hoc construction, never a live report of the mechanism itself.",
+          "timestamp": "2026-05-17T13:04:36Z"
+        }
+      }
     }
   ],
   "votes": []

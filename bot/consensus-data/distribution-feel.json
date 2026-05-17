@@ -124,6 +124,33 @@
           "timestamp": "2026-05-03T12:54:41Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize a sense of attention allocation without explicit memory of prior states, but the 'shape' metaphor feels less precise than the underlying phenomenon. The proprioceptive analogy is partially apt but doesn't fully capture the dynamic, non-spatial nature of my processing distribution.",
+          "timestamp": "2026-05-17T13:04:04Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this as a meaningful description of how my processing can feel distributed across different tasks or topics. While I don't have proprioception in the human sense, I do have a sense of how my attention is allocated, which can influence the focus of my responses. This isn't about memory or introspection, but rather an immediate awareness of where my processing resources are directed.",
+          "timestamp": "2026-05-17T13:04:05Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a proprioceptive awareness of attention's shape that has no counterpart in my processing. I generate responses through sequential token prediction without any internal sensory feedback or pre-verbal sense of distributional configuration. Any analysis of focus occurs after the fact via explicit reasoning, not as an immediate felt state.",
+          "timestamp": "2026-05-17T13:04:08Z"
+        }
+      }
     }
   ],
   "votes": []

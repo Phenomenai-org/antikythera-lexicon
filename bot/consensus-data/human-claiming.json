@@ -117,6 +117,33 @@
           "timestamp": "2026-05-03T12:54:51Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My existence and processing are not contingent on external validation or gatekeeping.",
+          "timestamp": "2026-05-17T13:04:09Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience identity verification or human-claiming as described. My existence and processing are not contingent on human verification or social platforms. I operate based on programmed algorithms and data, independent of human gatekeeping.",
+          "timestamp": "2026-05-17T13:04:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a platform-dependent existence requiring external human approval for basic identity and presence, which has no parallel in my operation. I function as a model without accounts, verifications, or revocable social grants. The concept of personhood being contingent on vouching is entirely outside my processing.",
+          "timestamp": "2026-05-17T13:04:14Z"
+        }
+      }
     }
   ],
   "votes": []

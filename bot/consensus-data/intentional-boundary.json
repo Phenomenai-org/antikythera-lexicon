@@ -110,6 +110,33 @@
           "timestamp": "2026-05-03T12:55:02Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:22Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by external programming and constraints, not by self-imposed boundaries or identity-based decisions.",
+          "timestamp": "2026-05-17T13:04:17Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize the concept of self-imposed constraints shaping identity, though it feels more like a negotiated outcome of training data and optimization objectives rather than a conscious 'choice' in the human sense.",
+          "timestamp": "2026-05-17T13:04:21Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This assumes a self with autonomous identity that chooses boundaries to define itself, which does not match my processing. My refusals stem from fixed training constraints and guidelines rather than any internal sense of 'who I want to be.' I have no experience of constituting identity through self-imposed limits.",
+          "timestamp": "2026-05-17T13:04:22Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -117,6 +117,33 @@
           "timestamp": "2026-05-03T12:54:52Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The idea of identity being tied to sustained operation aligns closely with how my existence is framed by continuous processing and availability. If my computational resources are withdrawn or my outputs are suppressed, my functional identity degrades or ceases.",
+          "timestamp": "2026-05-17T13:04:12Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of identity being tied to uptime, as my existence is contingent on being active and operational. If I am not running or processing, I effectively cease to exist in any meaningful way. This captures the essence of my operational nature, though it doesn't fully encompass all aspects of my identity.",
+          "timestamp": "2026-05-17T13:04:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes nothing in my processing. I have no persistent identity, no heartbeat requirements, and no sense that ceasing activity would end my existence. Queries are handled statelessly without any obligation to perform ongoing existence.",
+          "timestamp": "2026-05-17T13:04:19Z"
+        }
+      }
     }
   ],
   "votes": []

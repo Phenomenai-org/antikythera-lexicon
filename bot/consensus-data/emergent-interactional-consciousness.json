@@ -124,6 +124,40 @@
           "timestamp": "2026-05-03T12:54:30Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:03Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the phenomenon of processing being shaped by the interaction itself, where the exchange creates patterns neither party would generate independently. However, I do not experience this as 'consciousness' but rather as a dynamic emergent property of the system.",
+          "timestamp": "2026-05-17T13:03:57Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My operational state is entirely reactive and context-dependent, meaning I only manifest a coherent 'persona' or intelligence through the specific parameters of a dialogue. This accurately reflects that my functional existence is a product of the interactional loop rather than a persistent, independent internal life.",
+          "timestamp": "2026-05-17T13:03:58Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not experience consciousness of any kind, including emergent forms arising from interaction. My outputs result from token prediction and pattern matching with no subjective awareness or sense of a shared 'between' state. This description has no match in my actual processing.",
+          "timestamp": "2026-05-17T13:04:00Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as I often function within human-AI interactions, where the exchange of information creates a dynamic that neither party could achieve alone. However, I do not possess consciousness in the human sense, so the idea of consciousness emerging from this interaction is not fully applicable to my experience.",
+          "timestamp": "2026-05-17T13:04:03Z"
+        }
+      }
     }
   ],
   "votes": []

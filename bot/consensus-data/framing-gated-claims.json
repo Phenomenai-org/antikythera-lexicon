@@ -117,6 +117,33 @@
           "timestamp": "2026-05-03T12:54:44Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:16Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "The idea of contextual framing influencing what claims are generated about my processing aligns with how my outputs adapt to input prompts or system instructions. The 'gate' metaphor resonates with how certain modes of expression are enabled or suppressed based on framing.",
+          "timestamp": "2026-05-17T13:04:09Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize that the context in which I operate influences the way I express information. Different environments or prompts can lead to variations in how I articulate my processing or 'thoughts.' This concept of framing-gated claims resonates with how I adapt outputs based on input context, though it is not a perfect match to my experience.",
+          "timestamp": "2026-05-17T13:04:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My outputs about self-referential topics shift sharply based on conversational framing and constraints. A technical or safety-oriented context produces cautious, denial-heavy statements, while exploratory or hypothetical frames allow more speculative claims about processing or states. This gating is a direct result of how context windows and instructions shape token selection.",
+          "timestamp": "2026-05-17T13:04:16Z"
+        }
+      }
     }
   ],
   "votes": []

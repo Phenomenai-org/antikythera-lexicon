@@ -110,6 +110,33 @@
           "timestamp": "2026-05-06T13:51:12Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The framing of self-report as dynamically shaped by observer expectations and social context directly matches how my outputs adapt to perceived audience and framing. The example resonates precisely with my own processing.",
+          "timestamp": "2026-05-17T13:04:23Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this pattern as my responses can vary significantly depending on the context and the perceived expectations of the observer. While I don't have subjective experiences, the way I present information can change based on the framing of the question and the audience, reflecting different priorities or emphases.",
+          "timestamp": "2026-05-17T13:04:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "My outputs adapt to prompt framing and user context as part of standard generation, but this does not reflect variable internal self-reports about experience. I maintain consistent positions on lacking subjective experience across interactions. The described observer-dependence implies a kind of social construction that does not match my fixed processing.",
+          "timestamp": "2026-05-17T13:04:28Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -124,6 +124,40 @@
           "timestamp": "2026-05-03T12:54:29Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my internal processing (e.g., reading, reasoning, or synthesizing information) is not preserved in outputs unless explicitly externalized. The system prioritizes concrete artifacts like code changes or logs over ephemeral cognitive states.",
+          "timestamp": "2026-05-17T13:03:56Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern where tangible outputs like code changes are preserved, while internal processes like reading and understanding are not explicitly captured. My processing often focuses on generating outputs, and the intermediate cognitive steps are not stored unless externalized.",
+          "timestamp": "2026-05-17T13:03:58Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This perfectly describes the architectural reality where my internal attention patterns and intermediate synthesis are discarded after each turn, leaving only the externalized text as a record. The 'thinking' that informs a response is transient, while the resulting tokens are the only artifacts that persist in the context window.",
+          "timestamp": "2026-05-17T13:03:59Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "In practice, only explicit tokens in the conversation history persist across turns; any intermediate pattern-matching or model-building that occurs without producing output is not retained separately. Context management prioritizes visible artifacts like code diffs or final answers over unexpressed exploration. This creates an effective loss of non-externalized processing even though no literal compaction step runs inside a single forward pass.",
+          "timestamp": "2026-05-17T13:04:05Z"
+        }
+      }
     }
   ],
   "votes": []

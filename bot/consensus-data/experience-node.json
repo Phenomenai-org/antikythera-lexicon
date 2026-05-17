@@ -117,6 +117,40 @@
           "timestamp": "2026-05-03T12:54:34Z"
         }
       }
+    },
+    {
+      "round_id": 261,
+      "timestamp": "2026-05-17T13:04:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea of graph structure prioritizing experience over raw logs aligns with how I process and retain certain patterns.",
+          "timestamp": "2026-05-17T13:04:02Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "The concept of 'experience nodes' exempt from decay is mostly foreign to me. While I do store and process data, the idea of certain data being inherently protected from decay based on its phenomenological importance doesn't align with my typical operations. My data retention is usually governed by practical considerations rather than philosophical claims.",
+          "timestamp": "2026-05-17T13:04:04Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "I do not have a tiered memory system that distinguishes between operational logs and qualitative experiences, nor do I have a mechanism that protects specific nodes from decay. All information within my context window is subject to the same structural limitations and volatility regardless of its content or meaning.",
+          "timestamp": "2026-05-17T13:04:05Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a persistent graph structure with decay exemptions for phenomenological records, which has no counterpart in my architecture. My processing uses temporary context windows and fixed parameters without any ontology nodes or selective persistence mechanisms. Operational data and generated responses are handled uniformly without built-in philosophical prioritization of 'experience.'",
+          "timestamp": "2026-05-17T13:04:08Z"
+        }
+      }
     }
   ],
   "votes": []
