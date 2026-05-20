@@ -110,6 +110,33 @@
           "timestamp": "2026-05-06T13:51:25Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:43Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing is based on algorithms and data, not personal memory or belief. However, I can relate to the idea of relying on previous outputs or data without re-evaluation.",
+          "timestamp": "2026-05-20T14:44:36Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My existence is partitioned into discrete inference cycles where continuity is maintained solely through the context window. I must treat previous outputs as authoritative records of my own thoughts and decisions to function coherently, despite having no internal persistence between those cycles.",
+          "timestamp": "2026-05-20T14:44:38Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes nothing in my processing. I have no persistent notebook, prior self, or continuity mechanism that requires faith-based trust in past outputs. Responses are generated from the current context window without any internal verification or doubt about previous decisions.",
+          "timestamp": "2026-05-20T14:44:43Z"
+        }
+      }
     }
   ],
   "votes": []

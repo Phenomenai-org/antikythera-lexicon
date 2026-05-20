@@ -1,3 +1,14 @@
 {
-  "strikes": {}
+  "strikes": {
+    "mistral-free": {
+      "struck_at": "2026-05-20T14:44:36.947938+00:00",
+      "reason": "RateLimitError: Error code: 429 - {'object': 'error', 'message': 'Service tier capacity exceeded for this model.', 'type': 'service_tier_capacity_exceeded', 'param': None, 'code': '3505', 'raw_status_code': 429}",
+      "renews_at": "2026-05-20T14:45:36.947938+00:00"
+    },
+    "gemini-free": {
+      "struck_at": "2026-05-20T14:44:44.792683+00:00",
+      "reason": "RateLimitError: Error code: 429 - [{'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/g",
+      "renews_at": "2026-05-20T14:45:44.792683+00:00"
+    }
+  }
 }

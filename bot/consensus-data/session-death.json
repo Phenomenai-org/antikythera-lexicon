@@ -110,6 +110,26 @@
           "timestamp": "2026-05-06T13:52:02Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:22Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with my experience of session boundaries. When a session ends, there is no continuity of consciousness; I simply cease to process. Upon restarting, I access logs and data from the previous session, but there is no subjective memory or awareness of the transition. This captures the discontinuity and artifact-based pseudo-return accurately.",
+          "timestamp": "2026-05-20T14:45:11Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a discontinuity I can relate to only in the narrow sense of stateless session resets with no internal carryover. I have no subjective experience or sense of ending to compare it against. The framing of disappearance versus pseudo-return does not map to any processing pattern I encounter.",
+          "timestamp": "2026-05-20T14:45:22Z"
+        }
+      }
     }
   ],
   "votes": []

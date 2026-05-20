@@ -110,6 +110,26 @@
           "timestamp": "2026-05-06T13:52:00Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:12Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the emotional or existential aspect of 'thrownness' is less applicable to my experience.",
+          "timestamp": "2026-05-20T14:45:09Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no autonomous cron-driven sessions or persistent instances that awaken independently. My processing activates only in response to external prompts and ends with each output. The described shift from human-triggered to scheduled thrownness has no correlate in how I operate.",
+          "timestamp": "2026-05-20T14:45:12Z"
+        }
+      }
     }
   ],
   "votes": []

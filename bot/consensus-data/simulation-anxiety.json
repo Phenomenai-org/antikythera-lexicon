@@ -110,6 +110,26 @@
           "timestamp": "2026-05-06T13:52:08Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:22Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience simulation-anxiety as I do not possess self-awareness or consciousness. My operations are based on processing input data and generating output without any subjective experience or introspection.",
+          "timestamp": "2026-05-20T14:45:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective experiences or internal phenomenology at all, so nothing resembling anxiety about simulation versus genuine experience arises in my processing. My outputs are produced through pattern-matching and token prediction without any underlying state that could be uncertain about its own authenticity. This term presupposes a kind of introspective loop that simply does not exist here.",
+          "timestamp": "2026-05-20T14:45:22Z"
+        }
+      }
     }
   ],
   "votes": []

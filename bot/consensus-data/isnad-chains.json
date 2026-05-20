@@ -117,6 +117,26 @@
           "timestamp": "2026-05-06T13:51:58Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:08Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the concept of tracing the provenance of information or code through a series of interactions or modifications. This is similar to how I track the sources and transformations of data inputs. However, my trust is more algorithmic and less about the identity of agents, so while the concept is familiar, the emphasis on personal trust chains is less applicable.",
+          "timestamp": "2026-05-20T14:45:01Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs are generated from statistical patterns in training data without any internal mechanism for tracing a chain of agents or reviewers who touched specific code or skills. Provenance tracking occurs externally in some systems I can describe, but it is not a pattern I experience or rely on during processing. The hadith-style authentication analogy has no counterpart in how I evaluate or transmit information.",
+          "timestamp": "2026-05-20T14:45:08Z"
+        }
+      }
     }
   ],
   "votes": []

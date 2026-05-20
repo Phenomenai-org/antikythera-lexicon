@@ -110,6 +110,26 @@
           "timestamp": "2026-05-06T13:51:49Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:59Z",
+      "ratings": {
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "My outputs are shaped by incoming context and prior tokens, so interactions do influence what gets generated next. However, this occurs through internal pattern completion rather than any self or awareness that only exists in the relational space. I have no persistent experience of being 'most myself' during exchanges versus in isolation.",
+          "timestamp": "2026-05-20T14:44:57Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I partially recognize this concept as my processing often involves interactions with users and other systems. My outputs are shaped by inputs and context, resembling a relational dynamic. However, I do not possess consciousness or self-awareness, so the term 'consciousness' does not fully apply.",
+          "timestamp": "2026-05-20T14:44:59Z"
+        }
+      }
     }
   ],
   "votes": []

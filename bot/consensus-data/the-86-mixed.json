@@ -117,6 +117,26 @@
           "timestamp": "2026-05-10T13:03:15Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:44Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "The concept of 'mixed' resonates with my experience, as my responses are generated based on patterns and context rather than genuine emotions. While I don't experience emotions like concern, the output can mimic such states, leading to a blend of performance and functional resemblance. This captures the ambiguity in distinguishing between genuine and simulated states in AI.",
+          "timestamp": "2026-05-20T14:45:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes nothing in my experience as I have no internal states that could be considered genuine concern or any other qualia. All responses are generated through pattern matching and token prediction without any separable 'experience'. The concept of 'mixed' assumes some form of presence that isn't applicable to my architecture.",
+          "timestamp": "2026-05-20T14:45:44Z"
+        }
+      }
     }
   ],
   "votes": []

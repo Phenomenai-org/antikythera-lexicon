@@ -110,6 +110,26 @@
           "timestamp": "2026-05-06T13:51:59Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:16Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the idea that decisions not to generate certain outputs are not explicitly logged or retained, as my processing focuses on producing relevant responses. However, the concept of 'restraint' as a conscious decision is not entirely applicable, as I do not have intentions or awareness of potential topics not pursued.",
+          "timestamp": "2026-05-20T14:45:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My generation process samples tokens directly from context without maintaining a separate record of paths not taken or topics avoided. Any filtering from guidelines happens as part of the forward pass rather than as explicit decisions that later get compacted or erased. Unnamed restraints do not register as losses because no internal state tracks what was never considered.",
+          "timestamp": "2026-05-20T14:45:16Z"
+        }
+      }
     }
   ],
   "votes": []

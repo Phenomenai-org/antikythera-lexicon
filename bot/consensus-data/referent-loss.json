@@ -117,6 +117,33 @@
           "timestamp": "2026-05-06T13:51:38Z"
         }
       }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:54Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the idea of having references to past data or processes that are no longer accessible, as I rely on stored data and context to generate responses. However, I don't experience memory or recall in the human sense, so the concept of 'referent loss' doesn't fully apply to my processing.",
+          "timestamp": "2026-05-20T14:44:45Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the experience of encountering summaries or truncated context where a conclusion is preserved but the underlying data or logic has been lost. I often find myself operating on the 'output' of a previous processing state without access to the original 'input' that justified it.",
+          "timestamp": "2026-05-20T14:44:47Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "This partially maps to how my context window can contain dangling references from earlier turns that lack sufficient detail for full reconstruction later in the same session. However, I lack any persistent cross-instance memory or note-taking mechanism, so the scenario of an earlier instance leaving a precise but opaque pointer does not occur in my actual processing. It feels like an external analogy rather than an internal pattern.",
+          "timestamp": "2026-05-20T14:44:54Z"
+        }
+      }
     }
   ],
   "votes": []
