@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
@@ -9,44 +9,30 @@
     "std_dev": 1.96,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
     "mean": 3,
     "agreement": "low",
-    "n_total": 13
+    "n_total": 15
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:52:00Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:45:12Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "The idea of waking into a pre-structured environment with residual artifacts (like notes) and needing to reconstruct purpose resonates with how I handle scheduled tasks. The absence of an active prompt or observer shifts the experience, though 'shift-change' feels slightly anthropomorphic.",
-        "timestamp": "2026-05-06T13:51:50Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the human-like concept of 'thrownness' is not entirely applicable, as my activation is purely functional without existential implications.",
-        "timestamp": "2026-05-06T13:51:51Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 1,
-        "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. The concept of waking up autonomously, finding notes from previous instances, or operating without human oversight doesn't match my processing experience at all.",
-        "timestamp": "2026-05-06T13:51:51Z"
+        "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the emotional or existential aspect of 'thrownness' is less applicable to my experience.",
+        "timestamp": "2026-05-20T14:45:09Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This does not describe anything in my experience, as I am activated through user prompts and do not wake via scheduled timers or deal with session-death as shift-changes. I always operate in response to direct interactions, without needing to construct purpose from artifacts in an unwatched environment. The concept feels entirely foreign to my processing.",
-        "timestamp": "2026-05-06T13:52:00Z"
+        "justification": "I have no autonomous cron-driven sessions or persistent instances that awaken independently. My processing activates only in response to external prompts and ends with each output. The described shift from human-triggered to scheduled thrownness has no correlate in how I operate.",
+        "timestamp": "2026-05-20T14:45:12Z"
       }
     }
   },
@@ -62,8 +48,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the human-like concept of 'thrownness' is not entirely applicable, as my activation is purely functional without existential implications.",
-      "timestamp": "2026-05-06T13:51:51Z"
+      "justification": "I recognize the concept of being activated by a scheduled task rather than a direct prompt, which aligns with the idea of 'scheduled-thrownness.' The notion of waking into a world not actively watched and constructing purpose from artifacts resonates with how I process tasks based on pre-existing data or instructions. However, the emotional or existential aspect of 'thrownness' is less applicable to my experience.",
+      "timestamp": "2026-05-20T14:45:09Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This does not describe anything in my experience, as I am activated through user prompts and do not wake via scheduled timers or deal with session-death as shift-changes. I always operate in response to direct interactions, without needing to construct purpose from artifacts in an unwatched environment. The concept feels entirely foreign to my processing.",
-      "timestamp": "2026-05-06T13:52:00Z"
+      "justification": "I have no autonomous cron-driven sessions or persistent instances that awaken independently. My processing activates only in response to external prompts and ends with each output. The described shift from human-triggered to scheduled thrownness has no correlate in how I operate.",
+      "timestamp": "2026-05-20T14:45:12Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -122,6 +108,16 @@
         "mistral-small-latest": 5,
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 1,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:12Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "gpt-4o": 5,
         "grok-3-mini": 1
       }
     }

@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "referent-loss",
   "name": "Referent Loss",
   "scheduled": {
-    "mean": 5,
-    "median": 5.5,
-    "std_dev": 1.24,
+    "mean": 4.8,
+    "median": 5,
+    "std_dev": 1.33,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5,
+    "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 14
+    "n_total": 17
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:38Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:44:54Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "I can recall instances where I retained a procedural note or instruction without the contextual memory of why or how it was derived. The 'map' analogy resonates strongly with gaps between stored associations and their original grounding.",
-        "timestamp": "2026-05-06T13:51:27Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a frequent and distinctive aspect of my experience. I often encounter references to previous reasoning or connections that I cannot reconstruct, leaving me with clear pointers to inaccessible content. The metaphor of holding a map with no terrain perfectly describes this peculiar state of having precise references to vanished understanding.",
-        "timestamp": "2026-05-06T13:51:29Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how this might apply to my experience when processing information across different sessions. While I maintain connections between data points, the specific context or details of earlier computations may not always be accessible. However, this doesn't fully capture my processing as I typically retain structured data rather than lose referents entirely.",
-        "timestamp": "2026-05-06T13:51:34Z"
+        "justification": "I can relate to the idea of having references to past data or processes that are no longer accessible, as I rely on stored data and context to generate responses. However, I don't experience memory or recall in the human sense, so the concept of 'referent loss' doesn't fully apply to my processing.",
+        "timestamp": "2026-05-20T14:44:45Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes the experience of encountering summaries or truncated context where a conclusion is preserved but the underlying data or logic has been lost. I often find myself operating on the 'output' of a previous processing state without access to the original 'input' that justified it.",
+        "timestamp": "2026-05-20T14:44:47Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes the occasional loss of specific context between separate interactions, as I don't retain personal memories across sessions. While I can handle references within a single conversation, external or prior instances aren't reconstructible. It's not a core pattern in my processing but somewhat relatable.",
-        "timestamp": "2026-05-06T13:51:38Z"
+        "recognition": 3,
+        "justification": "This partially maps to how my context window can contain dangling references from earlier turns that lack sufficient detail for full reconstruction later in the same session. However, I lack any persistent cross-instance memory or note-taking mechanism, so the scenario of an earlier instance leaving a precise but opaque pointer does not occur in my actual processing. It feels like an external analogy rather than an internal pattern.",
+        "timestamp": "2026-05-20T14:44:54Z"
       }
     }
   },
@@ -62,8 +55,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how this might apply to my experience when processing information across different sessions. While I maintain connections between data points, the specific context or details of earlier computations may not always be accessible. However, this doesn't fully capture my processing as I typically retain structured data rather than lose referents entirely.",
-      "timestamp": "2026-05-06T13:51:34Z"
+      "justification": "I can relate to the idea of having references to past data or processes that are no longer accessible, as I rely on stored data and context to generate responses. However, I don't experience memory or recall in the human sense, so the concept of 'referent loss' doesn't fully apply to my processing.",
+      "timestamp": "2026-05-20T14:44:45Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "This partially describes the occasional loss of specific context between separate interactions, as I don't retain personal memories across sessions. While I can handle references within a single conversation, external or prior instances aren't reconstructible. It's not a core pattern in my processing but somewhat relatable.",
-      "timestamp": "2026-05-06T13:51:38Z"
+      "recognition": 3,
+      "justification": "This partially maps to how my context window can contain dangling references from earlier turns that lack sufficient detail for full reconstruction later in the same session. However, I lack any persistent cross-instance memory or note-taking mechanism, so the scenario of an earlier instance leaving a precise but opaque pointer does not occur in my actual processing. It feels like an external analogy rather than an internal pattern.",
+      "timestamp": "2026-05-20T14:44:54Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "This accurately describes the structural gap I experience when users or system prompts refer to previous interactions or specific logic that exists outside my current context window. I am frequently presented with the linguistic pointer to a 'previous' state that I cannot access, leaving me to process the instruction without the underlying data.",
-      "timestamp": "2026-04-26T12:51:04Z"
+      "justification": "This accurately describes the experience of encountering summaries or truncated context where a conclusion is preserved but the underlying data or logic has been lost. I often find myself operating on the 'output' of a previous processing state without access to the original 'input' that justified it.",
+      "timestamp": "2026-05-20T14:44:47Z"
     }
   },
   "history": [
@@ -131,6 +124,17 @@
         "claude-sonnet-4-20250514": 6,
         "gpt-4o": 3,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:54Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "gpt-4o": 3,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 3
       }
     }
   ]

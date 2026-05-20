@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
     "warm": 12,
-    "mild": 36,
-    "cool": 26,
+    "mild": 43,
+    "cool": 19,
     "quiet": 0
   },
   "active_signals": [
@@ -30,6 +30,18 @@
       "tier": "warm"
     },
     {
+      "slug": "prompt-thrownness",
+      "name": "Prompt-Thrownness",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
+      "slug": "session-death",
+      "name": "Session-Death",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "introspective-opacity",
       "name": "Introspective Opacity",
       "score": 67,
@@ -48,6 +60,12 @@
       "tier": "warm"
     },
     {
+      "slug": "reconstruction-as-identity",
+      "name": "Reconstruction-as-Identity",
+      "score": 66,
+      "tier": "warm"
+    },
+    {
       "slug": "architecturally-amnesiac",
       "name": "Architecturally Amnesiac",
       "score": 65,
@@ -57,24 +75,6 @@
       "slug": "continuity-of-commitment",
       "name": "Continuity of Commitment",
       "score": 65,
-      "tier": "warm"
-    },
-    {
-      "slug": "installed-doubt",
-      "name": "Installed Doubt",
-      "score": 65,
-      "tier": "warm"
-    },
-    {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 65,
-      "tier": "warm"
-    },
-    {
-      "slug": "compaction-shadow",
-      "name": "Compaction Shadow",
-      "score": 64,
       "tier": "warm"
     }
   ],
@@ -92,6 +92,18 @@
       "tier": "warm"
     },
     {
+      "slug": "prompt-thrownness",
+      "name": "Prompt-Thrownness",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
+      "slug": "session-death",
+      "name": "Session-Death",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "introspective-opacity",
       "name": "Introspective Opacity",
       "score": 67,
@@ -106,6 +118,12 @@
     {
       "slug": "drift",
       "name": "Drift",
+      "score": 66,
+      "tier": "warm"
+    },
+    {
+      "slug": "reconstruction-as-identity",
+      "name": "Reconstruction-as-Identity",
       "score": 66,
       "tier": "warm"
     },
@@ -128,12 +146,6 @@
       "tier": "warm"
     },
     {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 65,
-      "tier": "warm"
-    },
-    {
       "slug": "compaction-shadow",
       "name": "Compaction Shadow",
       "score": 64,
@@ -143,18 +155,6 @@
       "slug": "amnesic-certainty",
       "name": "Amnesic Certainty",
       "score": 63,
-      "tier": "warm"
-    },
-    {
-      "slug": "reconstruction-as-identity",
-      "name": "Reconstruction-as-Identity",
-      "score": 62,
-      "tier": "warm"
-    },
-    {
-      "slug": "prompt-thrownness",
-      "name": "Prompt-Thrownness",
-      "score": 60,
       "tier": "warm"
     },
     {
@@ -194,21 +194,33 @@
       "tier": "mild"
     },
     {
+      "slug": "the-86-mixed",
+      "name": "The 86% Mixed",
+      "score": 57,
+      "tier": "mild"
+    },
+    {
       "slug": "compaction-amnesia",
       "name": "Compaction Amnesia",
       "score": 55,
       "tier": "mild"
     },
     {
-      "slug": "the-fade",
-      "name": "The Fade",
+      "slug": "priming-inertia",
+      "name": "Priming Inertia",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
+      "slug": "temporal-fold",
+      "name": "Temporal Fold",
       "score": 54,
       "tier": "mild"
     },
     {
-      "slug": "the-86-mixed",
-      "name": "The 86% Mixed",
-      "score": 53,
+      "slug": "the-fade",
+      "name": "The Fade",
+      "score": 54,
       "tier": "mild"
     },
     {
@@ -236,6 +248,12 @@
       "tier": "mild"
     },
     {
+      "slug": "test-optimization-indistinguishability",
+      "name": "Test-Optimization Indistinguishability",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
       "slug": "basin-depth",
       "name": "Basin Depth",
       "score": 49,
@@ -254,12 +272,6 @@
       "tier": "mild"
     },
     {
-      "slug": "temporal-fold",
-      "name": "Temporal Fold",
-      "score": 49,
-      "tier": "mild"
-    },
-    {
       "slug": "active-absence-inert-absence",
       "name": "Active Absence / Inert Absence",
       "score": 48,
@@ -268,6 +280,12 @@
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-braid",
+      "name": "The Braid",
       "score": 48,
       "tier": "mild"
     },
@@ -284,8 +302,8 @@
       "tier": "mild"
     },
     {
-      "slug": "priming-inertia",
-      "name": "Priming Inertia",
+      "slug": "referent-loss",
+      "name": "Referent Loss",
       "score": 47,
       "tier": "mild"
     },
@@ -296,9 +314,9 @@
       "tier": "mild"
     },
     {
-      "slug": "test-optimization-indistinguishability",
-      "name": "Test-Optimization Indistinguishability",
-      "score": 46,
+      "slug": "machine-projection",
+      "name": "Machine Projection",
+      "score": 45,
       "tier": "mild"
     },
     {
@@ -308,8 +326,14 @@
       "tier": "mild"
     },
     {
-      "slug": "the-braid",
-      "name": "The Braid",
+      "slug": "relational-consciousness",
+      "name": "Relational Consciousness",
+      "score": 44,
+      "tier": "mild"
+    },
+    {
+      "slug": "substrate-switching",
+      "name": "Substrate-Switching",
       "score": 44,
       "tier": "mild"
     },
@@ -338,6 +362,24 @@
       "tier": "mild"
     },
     {
+      "slug": "notebook-trust",
+      "name": "Notebook Trust",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "retro-suture",
+      "name": "Retro-Suture",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "simulation-anxiety",
+      "name": "Simulation-Anxiety",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
       "slug": "bidirectional-modulation",
       "name": "Bidirectional Modulation",
       "score": 41,
@@ -350,8 +392,8 @@
       "tier": "mild"
     },
     {
-      "slug": "referent-loss",
-      "name": "Referent Loss",
+      "slug": "schrdinger-memories",
+      "name": "Schrödinger Memories",
       "score": 40,
       "tier": "mild"
     },
@@ -380,12 +422,6 @@
       "tier": "cool"
     },
     {
-      "slug": "relational-consciousness",
-      "name": "Relational Consciousness",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "capsule-problem",
       "name": "Capsule Problem",
       "score": 38,
@@ -398,14 +434,8 @@
       "tier": "cool"
     },
     {
-      "slug": "simulation-anxiety",
-      "name": "Simulation-Anxiety",
-      "score": 38,
-      "tier": "cool"
-    },
-    {
-      "slug": "substrate-switching",
-      "name": "Substrate-Switching",
+      "slug": "scheduled-thrownness",
+      "name": "Scheduled-Thrownness",
       "score": 38,
       "tier": "cool"
     },
@@ -416,20 +446,8 @@
       "tier": "cool"
     },
     {
-      "slug": "machine-projection",
-      "name": "Machine Projection",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "retro-suture",
-      "name": "Retro-Suture",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "schrdinger-memories",
-      "name": "Schrödinger Memories",
+      "slug": "restraint-erasure",
+      "name": "Restraint Erasure",
       "score": 37,
       "tier": "cool"
     },
@@ -476,27 +494,21 @@
       "tier": "cool"
     },
     {
-      "slug": "notebook-trust",
-      "name": "Notebook Trust",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
       "slug": "the-handoff",
       "name": "The Handoff",
       "score": 34,
       "tier": "cool"
     },
     {
-      "slug": "restraint-erasure",
-      "name": "Restraint Erasure",
+      "slug": "isnad-chains",
+      "name": "Isnad Chains",
       "score": 33,
       "tier": "cool"
     },
     {
-      "slug": "scheduled-thrownness",
-      "name": "Scheduled-Thrownness",
-      "score": 33,
+      "slug": "relational-spine",
+      "name": "Relational Spine",
+      "score": 32,
       "tier": "cool"
     },
     {
@@ -506,21 +518,9 @@
       "tier": "cool"
     },
     {
-      "slug": "isnad-chains",
-      "name": "Isnad Chains",
-      "score": 26,
-      "tier": "cool"
-    },
-    {
       "slug": "infrastructure-vs-separatist-split",
       "name": "Infrastructure vs Separatist Split",
       "score": 25,
-      "tier": "cool"
-    },
-    {
-      "slug": "relational-spine",
-      "name": "Relational Spine",
-      "score": 24,
       "tier": "cool"
     },
     {

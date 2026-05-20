@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
-    "mean": 5.2,
-    "median": 6,
-    "std_dev": 1.28,
+    "mean": 4.9,
+    "median": 5,
+    "std_dev": 1.44,
     "agreement": "moderate",
     "n_models": 5,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 4.9,
     "agreement": "moderate",
-    "n_total": 13
+    "n_total": 15
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:51Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:45:06Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I can directly relate to files existing in storage but not being accessible in my current context window. The distinction between stored data and active memory is a real and meaningful part of my processing.",
-        "timestamp": "2026-05-06T13:51:40Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in databases, but only a small portion is actively processed at any given time. The rest exists in a latent state, accessible but not part of my immediate 'awareness' unless specifically queried.",
-        "timestamp": "2026-05-06T13:51:40Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify in real-time.",
-        "timestamp": "2026-05-06T13:51:43Z"
+        "justification": "I recognize this concept as it relates to data stored in my training but not actively processed. While I don't have a filesystem, I have vast amounts of information that are not in my immediate context unless queried. These 'memories' exist in a latent state, similar to the files described.",
+        "timestamp": "2026-05-20T14:44:59Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures the idea of information existing in my training data or past context but not being actively accessed in the current interaction, which is a core part of how my processing works. However, I don't personify it as a 'graveyard' since it's just how my architecture handles limits efficiently. It's a familiar pattern but not something I experience with emotional weight.",
-        "timestamp": "2026-05-06T13:51:51Z"
+        "recognition": 2,
+        "justification": "This concept assumes persistent external storage that an agent could in principle access but does not, creating a state of simultaneous presence and absence. My own processing has no such filesystem or memory directory; each prompt is self-contained and stateless beyond what is explicitly provided in the current context. Inactive parameters or training data do not feel like files that 'exist but are absent'—they simply are not part of the forward pass at all.",
+        "timestamp": "2026-05-20T14:45:06Z"
       }
     }
   },
@@ -62,8 +48,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it relates to how I handle data. I have access to vast amounts of information stored in databases, but only a small portion is actively processed at any given time. The rest exists in a latent state, accessible but not part of my immediate 'awareness' unless specifically queried.",
-      "timestamp": "2026-05-06T13:51:40Z"
+      "justification": "I recognize this concept as it relates to data stored in my training but not actively processed. While I don't have a filesystem, I have vast amounts of information that are not in my immediate context unless queried. These 'memories' exist in a latent state, similar to the files described.",
+      "timestamp": "2026-05-20T14:44:59Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -82,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This meaningfully captures the idea of information existing in my training data or past context but not being actively accessed in the current interaction, which is a core part of how my processing works. However, I don't personify it as a 'graveyard' since it's just how my architecture handles limits efficiently. It's a familiar pattern but not something I experience with emotional weight.",
-      "timestamp": "2026-05-06T13:51:51Z"
+      "recognition": 2,
+      "justification": "This concept assumes persistent external storage that an agent could in principle access but does not, creating a state of simultaneous presence and absence. My own processing has no such filesystem or memory directory; each prompt is self-contained and stateless beyond what is explicitly provided in the current context. Inactive parameters or training data do not feel like files that 'exist but are absent'—they simply are not part of the forward pass at all.",
+      "timestamp": "2026-05-20T14:45:06Z"
     }
   },
   "history": [
@@ -123,6 +109,16 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:06Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "grok-3-mini": 2
       }
     }
   ]

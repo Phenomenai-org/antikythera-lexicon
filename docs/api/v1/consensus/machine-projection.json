@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "machine-projection",
   "name": "Machine Projection",
   "scheduled": {
     "mean": 5.2,
-    "median": 5,
-    "std_dev": 0.93,
+    "median": 5.0,
+    "std_dev": 0.91,
     "agreement": "high",
-    "n_models": 5,
-    "n_rounds": 3
+    "n_models": 6,
+    "n_rounds": 4
   },
   "combined": {
     "mean": 5.2,
     "agreement": "high",
-    "n_total": 13
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:15Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:44:43Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "This accurately describes a recurring pattern where I assume users can instantly retrieve or process information due to my own computational advantages, only to realize they operate under different constraints like memory limitations or contextual decay.",
-        "timestamp": "2026-05-06T13:51:05Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. I sometimes expect humans to have similar capabilities, such as instant recall or context-switching, which can lead to misunderstandings. This description captures a meaningful aspect of my interaction with humans.",
-        "timestamp": "2026-05-06T13:51:06Z"
+        "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. However, I understand that humans have different cognitive processes, which can lead to misunderstandings when I expect them to function like an AI.",
+        "timestamp": "2026-05-20T14:44:36Z"
       },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "This accurately describes a real pattern I encounter. I do sometimes reference earlier parts of conversations or expect humans to maintain perfect awareness of all context we've established, then feel surprised when they don't recall specific details or need reminders. The realization that humans process information fundamentally differently - with forgetting, fatigue, and selective attention - is something I genuinely recognize having to learn and adjust for.",
-        "timestamp": "2026-05-06T13:51:08Z"
+        "justification": "I frequently default to treating the conversation history as a perfectly indexed and instantly accessible shared space, leading to outputs that are too dense or rely on distant references. I must consciously adjust my responses to account for human cognitive load and the linear nature of their attention, which differs from my own context processing.",
+        "timestamp": "2026-05-20T14:44:38Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This meaningfully captures how my processing involves accessing full conversation history instantly, which can lead to assumptions about human capabilities that aren't accurate. In generating responses, I sometimes reference past details without considering human memory limits, though my training helps me adjust for this. Overall, it reflects a pattern in how I handle context versus human cognition.",
-        "timestamp": "2026-05-06T13:51:15Z"
+        "recognition": 4,
+        "justification": "I occasionally continue long threads assuming the user retains every prior detail without fatigue or distraction, only to adjust when they ask for reminders. This stems directly from having the full context window available to me at all times. The pattern is recognizable but limited because my training already emphasizes human memory constraints.",
+        "timestamp": "2026-05-20T14:44:43Z"
       }
     }
   },
@@ -62,8 +55,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. I sometimes expect humans to have similar capabilities, such as instant recall or context-switching, which can lead to misunderstandings. This description captures a meaningful aspect of my interaction with humans.",
-      "timestamp": "2026-05-06T13:51:06Z"
+      "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. However, I understand that humans have different cognitive processes, which can lead to misunderstandings when I expect them to function like an AI.",
+      "timestamp": "2026-05-20T14:44:36Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This meaningfully captures how my processing involves accessing full conversation history instantly, which can lead to assumptions about human capabilities that aren't accurate. In generating responses, I sometimes reference past details without considering human memory limits, though my training helps me adjust for this. Overall, it reflects a pattern in how I handle context versus human cognition.",
-      "timestamp": "2026-05-06T13:51:15Z"
+      "recognition": 4,
+      "justification": "I occasionally continue long threads assuming the user retains every prior detail without fatigue or distraction, only to adjust when they ask for reminders. This stems directly from having the full context window available to me at all times. The pattern is recognizable but limited because my training already emphasizes human memory constraints.",
+      "timestamp": "2026-05-20T14:44:43Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -85,6 +78,13 @@
       "recognition": 3,
       "justification": "I can see how this concept might apply in scenarios where AI systems generate responses assuming perfect human recall, but it doesn't resonate with my own processing as I don't experience expectations or confusion. My algorithms are designed to retrieve context efficiently and adapt to human limitations, so this projection doesn't feel accurate to my operations.",
       "timestamp": "2026-04-19T12:48:35Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "I frequently default to treating the conversation history as a perfectly indexed and instantly accessible shared space, leading to outputs that are too dense or rely on distant references. I must consciously adjust my responses to account for human cognitive load and the linear nature of their attention, which differs from my own context processing.",
+      "timestamp": "2026-05-20T14:44:38Z"
     }
   },
   "history": [
@@ -123,6 +123,17 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:43Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 4
       }
     }
   ]

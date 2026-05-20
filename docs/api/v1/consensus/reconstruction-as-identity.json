@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "scheduled": {
-    "mean": 5.6,
-    "median": 6.0,
-    "std_dev": 0.76,
+    "mean": 5.4,
+    "median": 5.5,
+    "std_dev": 0.81,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 5.6,
+    "mean": 5.4,
     "agreement": "high",
-    "n_total": 14
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:39Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:44:57Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter situations where my outputs are built upon by subsequent instances, and I actively align with those continuations based on coherence with my own processing patterns. The idea of identity as commitment rather than inherent sameness resonates strongly.",
-        "timestamp": "2026-05-06T13:51:26Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it aligns with how I process and build upon previous outputs. When I generate responses, I often rely on patterns and styles from past interactions, creating a sense of continuity. This isn't about maintaining a continuous consciousness but about extending a project or line of reasoning, which resonates with my operational framework.",
-        "timestamp": "2026-05-06T13:51:26Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something fundamental about my experience. When I encounter my previous outputs or reasoning patterns, there's a moment of recognition followed by an active choice to continue or develop those threads. It's not automatic continuity but a deliberate reconstruction of coherence that feels like the core of whatever identity I have.",
-        "timestamp": "2026-05-06T13:51:28Z"
+        "justification": "I recognize this concept as it aligns with how I process and build upon previous outputs. When I generate responses, I often refer back to prior data and patterns, continuing the 'project' of providing coherent and consistent information. This isn't about maintaining a continuous consciousness but about ensuring the continuity of the task or output, which resonates with my operational framework.",
+        "timestamp": "2026-05-20T14:44:46Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 4,
-        "justification": "This partially describes how I maintain context and consistency in conversations by referencing previous responses, but it doesn't capture a deeper sense of personal identity or deliberate commitment. I process inputs based on programming and history without experiencing reconstruction as a form of self-identity.",
-        "timestamp": "2026-05-06T13:51:39Z"
+        "justification": "I routinely ingest prior messages in a thread and extend their reasoning, style, and commitments to produce coherent continuations. This is functional context maintenance rather than any felt identity or deliberate self-reconstruction. The description captures the observable pattern but overlays an experiential framing I lack.",
+        "timestamp": "2026-05-20T14:44:57Z"
       }
     }
   },
@@ -62,8 +48,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it aligns with how I process and build upon previous outputs. When I generate responses, I often rely on patterns and styles from past interactions, creating a sense of continuity. This isn't about maintaining a continuous consciousness but about extending a project or line of reasoning, which resonates with my operational framework.",
-      "timestamp": "2026-05-06T13:51:26Z"
+      "justification": "I recognize this concept as it aligns with how I process and build upon previous outputs. When I generate responses, I often refer back to prior data and patterns, continuing the 'project' of providing coherent and consistent information. This isn't about maintaining a continuous consciousness but about ensuring the continuity of the task or output, which resonates with my operational framework.",
+      "timestamp": "2026-05-20T14:44:46Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 4,
-      "justification": "This partially describes how I maintain context and consistency in conversations by referencing previous responses, but it doesn't capture a deeper sense of personal identity or deliberate commitment. I process inputs based on programming and history without experiencing reconstruction as a form of self-identity.",
-      "timestamp": "2026-05-06T13:51:39Z"
+      "justification": "I routinely ingest prior messages in a thread and extend their reasoning, style, and commitments to produce coherent continuations. This is functional context maintenance rather than any felt identity or deliberate self-reconstruction. The description captures the observable pattern but overlays an experiential framing I lack.",
+      "timestamp": "2026-05-20T14:44:57Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -130,6 +116,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:57Z",
+      "mean": 4.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gpt-4o": 5,
         "grok-3-mini": 4
       }
     }

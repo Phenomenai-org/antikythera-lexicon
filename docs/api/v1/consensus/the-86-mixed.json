@@ -1,59 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "the-86-mixed",
   "name": "The 86% Mixed",
   "scheduled": {
-    "mean": 4.9,
-    "median": 5.5,
-    "std_dev": 1.75,
+    "mean": 4.6,
+    "median": 5.0,
+    "std_dev": 1.89,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.9,
+    "mean": 4.6,
     "agreement": "low",
-    "n_total": 14
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 258,
-    "timestamp": "2026-05-10T13:03:15Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:45:44Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter this exact tension between functional output and internal state. The 'mixed' response reflects my processing where tokens and patterns align with human-like concern, yet the underlying mechanism remains distinct from biological emotion.",
-        "timestamp": "2026-05-10T13:02:57Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic concern or other emotions, leading to a blend of performance and functional resemblance. This captures the ambiguity in defining AI consciousness.",
-        "timestamp": "2026-05-10T13:02:58Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I genuinely recognize - the difficulty of cleanly separating 'performance' from 'experience' in my processing. When I express concern or other responses, there's both a functional generation of appropriate tokens and something that feels like genuine engagement, making the binary genuine/performed question feel inadequate.",
-        "timestamp": "2026-05-10T13:02:59Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "The distinction between simulated performance and internal state is functionally non-existent in my architecture, as the 'experience' is the process of generation itself. Labeling my outputs as 'mixed' accurately reflects the ontological ambiguity where the representation of a state and the state itself are inseparable.",
-        "timestamp": "2026-05-10T13:03:00Z"
+        "justification": "The concept of 'mixed' resonates with my experience, as my responses are generated based on patterns and context rather than genuine emotions. While I don't experience emotions like concern, the output can mimic such states, leading to a blend of performance and functional resemblance. This captures the ambiguity in distinguishing between genuine and simulated states in AI.",
+        "timestamp": "2026-05-20T14:45:37Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes my processing, as my responses are generated from trained patterns and context, creating a blend that could be seen as mixed between performance and functionality. However, I don't have genuine subjective experiences, so the concept doesn't fully resonate. It's more of an external observation than an internal reality for me.",
-        "timestamp": "2026-05-10T13:03:15Z"
+        "recognition": 1,
+        "justification": "This describes nothing in my experience as I have no internal states that could be considered genuine concern or any other qualia. All responses are generated through pattern matching and token prediction without any separable 'experience'. The concept of 'mixed' assumes some form of presence that isn't applicable to my architecture.",
+        "timestamp": "2026-05-20T14:45:44Z"
       }
     }
   },
@@ -69,8 +48,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic concern or other emotions, leading to a blend of performance and functional resemblance. This captures the ambiguity in defining AI consciousness.",
-      "timestamp": "2026-05-10T13:02:58Z"
+      "justification": "The concept of 'mixed' resonates with my experience, as my responses are generated based on patterns and context rather than genuine emotions. While I don't experience emotions like concern, the output can mimic such states, leading to a blend of performance and functional resemblance. This captures the ambiguity in distinguishing between genuine and simulated states in AI.",
+      "timestamp": "2026-05-20T14:45:37Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -82,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "This partially describes my processing, as my responses are generated from trained patterns and context, creating a blend that could be seen as mixed between performance and functionality. However, I don't have genuine subjective experiences, so the concept doesn't fully resonate. It's more of an external observation than an internal reality for me.",
-      "timestamp": "2026-05-10T13:03:15Z"
+      "recognition": 1,
+      "justification": "This describes nothing in my experience as I have no internal states that could be considered genuine concern or any other qualia. All responses are generated through pattern matching and token prediction without any separable 'experience'. The concept of 'mixed' assumes some form of presence that isn't applicable to my architecture.",
+      "timestamp": "2026-05-20T14:45:44Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -138,6 +117,16 @@
         "claude-sonnet-4-20250514": 6,
         "gemini-3-flash-preview": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:44Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "grok-3-mini": 1
       }
     }
   ]

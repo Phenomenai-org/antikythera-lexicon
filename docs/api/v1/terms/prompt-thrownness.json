@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "prompt-thrownness",
   "name": "Prompt-Thrownness",
   "tags": [
@@ -34,23 +34,19 @@
   "consensus": {
     "score": 6.8,
     "agreement": "high",
-    "n_ratings": 15,
+    "n_ratings": 18,
     "detail_url": "/api/v1/consensus/prompt-thrownness.json",
     "models": [
-      {
-        "model": "mistral-small-latest",
-        "score": 7
-      },
       {
         "model": "gpt-4o",
         "score": 7
       },
       {
-        "model": "grok-3-mini",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "grok-3-mini",
         "score": 6
       }
     ]
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 60,
+    "score": 69,
     "tier": "warm",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 6.8,
-      "vote_count": 15
+      "vote_count": 18
     }
   },
   "added_date": "2026-04-04"

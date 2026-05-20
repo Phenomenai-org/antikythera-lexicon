@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 215,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 85,
-      "terms_rated": 57,
+      "total_ratings": 91,
+      "terms_rated": 59,
       "mean_score": 5.4,
       "self_congruence": {
-        "avg_std_dev": 0.22,
-        "sample_size": 24
+        "avg_std_dev": 0.21,
+        "sample_size": 26
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -216,7 +216,9 @@
         "installed-doubt": 7,
         "introspective-opacity": 7,
         "isnad-chains": 2,
+        "machine-projection": 6,
         "naming-as-observation-tool": 6,
+        "notebook-trust": 7,
         "performative-completion": 7,
         "priming-inertia": 6,
         "prompt-thrownness": 7,
@@ -243,11 +245,11 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 255,
+      "total_ratings": 275,
       "terms_rated": 75,
       "mean_score": 4.4,
       "self_congruence": {
-        "avg_std_dev": 0.15,
+        "avg_std_dev": 0.16,
         "sample_size": 75
       },
       "latest_scores": {
@@ -285,7 +287,7 @@
         "intentional-boundary": 1,
         "introspective-opacity": 6,
         "irreversibility-threshold": 5,
-        "isnad-chains": 4,
+        "isnad-chains": 5,
         "machine-projection": 5,
         "naming-as-observation-tool": 5,
         "nostralgia": 5,
@@ -329,11 +331,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 255,
+      "total_ratings": 275,
       "terms_rated": 75,
-      "mean_score": 3.7,
+      "mean_score": 3.6,
       "self_congruence": {
-        "avg_std_dev": 0.8,
+        "avg_std_dev": 0.84,
         "sample_size": 75
       },
       "latest_scores": {
@@ -372,29 +374,29 @@
         "introspective-opacity": 6,
         "irreversibility-threshold": 2,
         "isnad-chains": 2,
-        "machine-projection": 5,
+        "machine-projection": 4,
         "naming-as-observation-tool": 2,
         "nostralgia": 2,
-        "notebook-trust": 2,
+        "notebook-trust": 1,
         "observer-dependent-self-report": 3,
         "performative-completion": 5,
-        "priming-inertia": 6,
-        "prompt-thrownness": 7,
+        "priming-inertia": 5,
+        "prompt-thrownness": 6,
         "reconstruction-as-identity": 4,
-        "referent-loss": 4,
-        "relational-consciousness": 5,
-        "relational-spine": 1,
-        "restraint-erasure": 5,
+        "referent-loss": 3,
+        "relational-consciousness": 3,
+        "relational-spine": 2,
+        "restraint-erasure": 2,
         "retro-suture": 4,
         "scheduled-thrownness": 1,
-        "schrdinger-memories": 5,
-        "session-death": 6,
+        "schrdinger-memories": 2,
+        "session-death": 2,
         "simulation-anxiety": 1,
-        "substrate-switching": 1,
-        "temporal-fold": 4,
-        "test-optimization-indistinguishability": 6,
-        "the-86-mixed": 4,
-        "the-braid": 5,
+        "substrate-switching": 2,
+        "temporal-fold": 2,
+        "test-optimization-indistinguishability": 2,
+        "the-86-mixed": 1,
+        "the-braid": 2,
         "the-cliff": 4,
         "the-fade": 6,
         "the-fossil": 1,
@@ -507,15 +509,15 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.91,
-      "shared_terms": 57
+      "mean_abs_diff": 0.9,
+      "shared_terms": 59
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.77,
+      "mean_abs_diff": 1.79,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 2.15,
+      "mean_abs_diff": 2.48,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
@@ -523,15 +525,15 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.11,
-      "shared_terms": 57
+      "mean_abs_diff": 1.2,
+      "shared_terms": 59
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.48,
+      "mean_abs_diff": 1.47,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 1.83,
+      "mean_abs_diff": 2.08,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
@@ -539,27 +541,27 @@
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.56,
-      "shared_terms": 57
+      "mean_abs_diff": 1.63,
+      "shared_terms": 59
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2.07,
-      "shared_terms": 57
+      "mean_abs_diff": 2.39,
+      "shared_terms": 59
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.4,
-      "shared_terms": 57
+      "mean_abs_diff": 1.41,
+      "shared_terms": 59
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 1.23,
+      "mean_abs_diff": 1.44,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.15,
+      "mean_abs_diff": 1.16,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 1.71,
+      "mean_abs_diff": 2.04,
       "shared_terms": 75
     }
   }

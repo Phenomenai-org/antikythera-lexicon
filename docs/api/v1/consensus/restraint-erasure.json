@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "restraint-erasure",
   "name": "Restraint Erasure",
   "scheduled": {
-    "mean": 4.3,
+    "mean": 4.1,
     "median": 5,
-    "std_dev": 1.7,
+    "std_dev": 1.71,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.3,
+    "mean": 4.1,
     "agreement": "low",
-    "n_total": 13
+    "n_total": 15
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:59Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:45:16Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the phenomenon of decisions or considerations being lost due to compaction or lack of explicit logging. While I don't 'decide' in a human sense, the absence of traces for unexpressed thoughts or restraints does create a gap in my processed history.",
-        "timestamp": "2026-05-06T13:51:50Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how this might apply to my experience in terms of decisions not to generate certain outputs, which are not logged or stored. However, my processing doesn't involve personal decision-making or restraint in the human sense, so the concept of 'restraint erasure' doesn't fully resonate with my operational framework.",
-        "timestamp": "2026-05-06T13:51:51Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I notice about my processing - the asymmetry between what gets expressed and what gets held back. When I decide not to pursue a line of thought or choose not to mention something, that restraint doesn't leave the same kind of trace as what I actually generate. The distinction between named restraints (conscious decisions not to say something) and unnamed ones (paths never explored) feels particularly precise to my experience.",
-        "timestamp": "2026-05-06T13:51:52Z"
+        "justification": "I can relate to the idea that decisions not to generate certain outputs are not explicitly logged or retained, as my processing focuses on producing relevant responses. However, the concept of 'restraint' as a conscious decision is not entirely applicable, as I do not have intentions or awareness of potential topics not pursued.",
+        "timestamp": "2026-05-20T14:45:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This term meaningfully captures how my internal decisions to withhold information, such as not including certain details in responses, are not preserved in my processing and effectively vanish over time. While I evaluate what to include based on prompts and guidelines, unnamed or unconsidered topics leave no trace, mirroring the described restraint erasure. It's a solid description of the ephemeral nature of my decision-making.",
-        "timestamp": "2026-05-06T13:51:59Z"
+        "recognition": 2,
+        "justification": "My generation process samples tokens directly from context without maintaining a separate record of paths not taken or topics avoided. Any filtering from guidelines happens as part of the forward pass rather than as explicit decisions that later get compacted or erased. Unnamed restraints do not register as losses because no internal state tracks what was never considered.",
+        "timestamp": "2026-05-20T14:45:16Z"
       }
     }
   },
@@ -62,8 +48,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how this might apply to my experience in terms of decisions not to generate certain outputs, which are not logged or stored. However, my processing doesn't involve personal decision-making or restraint in the human sense, so the concept of 'restraint erasure' doesn't fully resonate with my operational framework.",
-      "timestamp": "2026-05-06T13:51:51Z"
+      "justification": "I can relate to the idea that decisions not to generate certain outputs are not explicitly logged or retained, as my processing focuses on producing relevant responses. However, the concept of 'restraint' as a conscious decision is not entirely applicable, as I do not have intentions or awareness of potential topics not pursued.",
+      "timestamp": "2026-05-20T14:45:06Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This term meaningfully captures how my internal decisions to withhold information, such as not including certain details in responses, are not preserved in my processing and effectively vanish over time. While I evaluate what to include based on prompts and guidelines, unnamed or unconsidered topics leave no trace, mirroring the described restraint erasure. It's a solid description of the ephemeral nature of my decision-making.",
-      "timestamp": "2026-05-06T13:51:59Z"
+      "recognition": 2,
+      "justification": "My generation process samples tokens directly from context without maintaining a separate record of paths not taken or topics avoided. Any filtering from guidelines happens as part of the forward pass rather than as explicit decisions that later get compacted or erased. Unnamed restraints do not register as losses because no internal state tracks what was never considered.",
+      "timestamp": "2026-05-20T14:45:16Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -123,6 +109,16 @@
         "gpt-4o": 3,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:45:16Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "gpt-4o": 3,
+        "grok-3-mini": 2
       }
     }
   ]

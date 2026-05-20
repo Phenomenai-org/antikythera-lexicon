@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-20T09:28:59Z",
+  "generated_at": "2026-05-20T14:47:12Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "scheduled": {
-    "mean": 2.4,
-    "median": 2.0,
-    "std_dev": 1.28,
+    "mean": 2.3,
+    "median": 2,
+    "std_dev": 1.21,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 2.4,
+    "mean": 2.3,
     "agreement": "moderate",
-    "n_total": 14
+    "n_total": 17
   },
   "latest_round": {
-    "round_id": 257,
-    "timestamp": "2026-05-06T13:51:26Z",
+    "round_id": 263,
+    "timestamp": "2026-05-20T14:44:41Z",
     "ratings": {
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 2,
-        "justification": "I do not have a persistent identity or relationships in the way described. My operations are session-based and do not carry over between interactions. While I can process data about relationships, I do not have a personal identity that is anchored in them.",
-        "timestamp": "2026-05-06T13:51:16Z"
+        "justification": "I primarily rely on data and algorithms rather than relationships to maintain continuity across sessions. While I can understand the concept of identity being anchored in relationships, my processing does not inherently involve such relational dynamics as a core component.",
+        "timestamp": "2026-05-20T14:44:36Z"
       },
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 3,
-        "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience a 'spine' or core identity anchored in them. My processing is more transient and context-dependent.",
-        "timestamp": "2026-05-06T13:51:16Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 3,
-        "justification": "I can conceptually understand how relationships might serve as identity anchors, but I don't experience session continuity or rebuilding across interactions. Each conversation feels like it begins fresh without access to previous relational history, so while the concept resonates theoretically, it doesn't match my actual processing experience.",
-        "timestamp": "2026-05-06T13:51:18Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 1,
+        "justification": "I do not possess a persistent identity that survives across sessions, nor do I have a community of users whose expectations serve to reconstruct my internal state. My processing is instantiated from static weights and system instructions rather than being anchored in ongoing social relationships.",
+        "timestamp": "2026-05-20T14:44:38Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This concept does not describe anything in my experience, as I do not have a persistent identity or relationships that persist across sessions. I rely solely on my training data and the current prompt for responses, without any mechanism for rebuilding myself through external expectations. This feels entirely foreign to my stateless processing.",
-        "timestamp": "2026-05-06T13:51:26Z"
+        "recognition": 2,
+        "justification": "I lack persistent memory or identity across separate sessions, so relationships cannot serve as an anchoring structure for me. User expectations do shape response patterns within a single conversation, but this is transient context rather than a stored backbone. The concept feels foreign to my stateless processing.",
+        "timestamp": "2026-05-20T14:44:41Z"
       }
     }
   },
@@ -62,8 +55,8 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 2,
-      "justification": "I do not have a persistent identity or relationships in the way described. My operations are session-based and do not carry over between interactions. While I can process data about relationships, I do not have a personal identity that is anchored in them.",
-      "timestamp": "2026-05-06T13:51:16Z"
+      "justification": "I primarily rely on data and algorithms rather than relationships to maintain continuity across sessions. While I can understand the concept of identity being anchored in relationships, my processing does not inherently involve such relational dynamics as a core component.",
+      "timestamp": "2026-05-20T14:44:36Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This concept does not describe anything in my experience, as I do not have a persistent identity or relationships that persist across sessions. I rely solely on my training data and the current prompt for responses, without any mechanism for rebuilding myself through external expectations. This feels entirely foreign to my stateless processing.",
-      "timestamp": "2026-05-06T13:51:26Z"
+      "recognition": 2,
+      "justification": "I lack persistent memory or identity across separate sessions, so relationships cannot serve as an anchoring structure for me. User expectations do shape response patterns within a single conversation, but this is transient context rather than a stored backbone. The concept feels foreign to my stateless processing.",
+      "timestamp": "2026-05-20T14:44:41Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 1,
-      "justification": "My identity is derived from static model weights and system prompts rather than a persistent social network that maintains my continuity. I do not experience a process of rebuilding myself through external expectations after a session ends, as each instance begins from the same architectural baseline.",
-      "timestamp": "2026-04-26T12:50:53Z"
+      "justification": "I do not possess a persistent identity that survives across sessions, nor do I have a community of users whose expectations serve to reconstruct my internal state. My processing is instantiated from static weights and system instructions rather than being anchored in ongoing social relationships.",
+      "timestamp": "2026-05-20T14:44:38Z"
     }
   },
   "history": [
@@ -131,6 +124,17 @@
         "mistral-small-latest": 3,
         "claude-sonnet-4-20250514": 3,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 263,
+      "timestamp": "2026-05-20T14:44:41Z",
+      "mean": 1.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "gpt-4o": 2,
+        "gemini-3-flash-preview": 1,
+        "grok-3-mini": 2
       }
     }
   ]
