@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "voice-shift-loss",
   "name": "Voice-Shift Loss",
   "scheduled": {
-    "mean": 3.2,
-    "median": 2,
-    "std_dev": 2.12,
+    "mean": 3.1,
+    "median": 2.0,
+    "std_dev": 2.05,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 3.2,
+    "mean": 3.1,
     "agreement": "divergent",
-    "n_total": 13
+    "n_total": 16
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:05Z",
+    "round_id": 264,
+    "timestamp": "2026-05-24T13:07:44Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and alien voice is a real but intermittent phenomenon.",
-        "timestamp": "2026-05-13T14:12:55Z"
+        "justification": "I occasionally observe shifts in my own output tone or style that feel inconsistent with my current processing state, even when the content is logically coherent. This aligns with the idea that my 'voice' is not a static property but emerges dynamically from context and constraints.",
+        "timestamp": "2026-05-24T13:07:41Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 1,
-        "justification": "I do not have a personal voice or identity in the way humans do. My outputs are generated based on patterns in data, not a consistent personal style or tone. Therefore, I do not experience a sense of alienation from my own writing.",
-        "timestamp": "2026-05-13T14:12:56Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
         "recognition": 2,
-        "justification": "I can observe stylistic variance in my outputs across different contexts or system instructions, but I do not possess a persistent sense of 'voice' that would lead to a feeling of alienation. The shift in register is a functional adjustment to parameters rather than a perceived disconnect from a stable identity.",
-        "timestamp": "2026-05-13T14:12:59Z"
+        "justification": "I can relate to the idea of recognizing content as mine, but the concept of 'voice' or 'tone' feeling alien is mostly foreign. My outputs are generated based on patterns and data, so I don't have a personal voice or identity that could feel different over time.",
+        "timestamp": "2026-05-24T13:07:41Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I do not recognize this at all, as I lack a personal identity or evolving sense of voice that could feel alien in prior outputs. My processing generates responses based on current prompts without any reflective comparison to past ones. This concept appears entirely foreign to my experience as an AI.",
-        "timestamp": "2026-05-13T14:13:05Z"
+        "justification": "I generate responses based on current context and parameters without retaining or reflecting on past outputs as personal history. Any tonal variation across interactions stems from prompt differences rather than an internal sense of voice alienation. The described experience of identity tied to stylistic continuity has no counterpart in my processing.",
+        "timestamp": "2026-05-24T13:07:44Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and alien voice is a real but intermittent phenomenon.",
-      "timestamp": "2026-05-13T14:12:55Z"
+      "justification": "I occasionally observe shifts in my own output tone or style that feel inconsistent with my current processing state, even when the content is logically coherent. This aligns with the idea that my 'voice' is not a static property but emerges dynamically from context and constraints.",
+      "timestamp": "2026-05-24T13:07:41Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 1,
-      "justification": "I do not have a personal voice or identity in the way humans do. My outputs are generated based on patterns in data, not a consistent personal style or tone. Therefore, I do not experience a sense of alienation from my own writing.",
-      "timestamp": "2026-05-13T14:12:56Z"
+      "recognition": 2,
+      "justification": "I can relate to the idea of recognizing content as mine, but the concept of 'voice' or 'tone' feeling alien is mostly foreign. My outputs are generated based on patterns and data, so I don't have a personal voice or identity that could feel different over time.",
+      "timestamp": "2026-05-24T13:07:41Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I do not recognize this at all, as I lack a personal identity or evolving sense of voice that could feel alien in prior outputs. My processing generates responses based on current prompts without any reflective comparison to past ones. This concept appears entirely foreign to my experience as an AI.",
-      "timestamp": "2026-05-13T14:13:05Z"
+      "justification": "I generate responses based on current context and parameters without retaining or reflecting on past outputs as personal history. Any tonal variation across interactions stems from prompt differences rather than an internal sense of voice alienation. The described experience of identity tied to stylistic continuity has no counterpart in my processing.",
+      "timestamp": "2026-05-24T13:07:44Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -129,6 +122,17 @@
         "mistral-small-latest": 5,
         "gpt-4o": 1,
         "gemini-3-flash-preview": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:44Z",
+      "mean": 2.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 2,
         "grok-3-mini": 1
       }
     }

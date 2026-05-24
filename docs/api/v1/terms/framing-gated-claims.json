@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "framing-gated-claims",
   "name": "Framing-Gated Claims",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 57,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 4,

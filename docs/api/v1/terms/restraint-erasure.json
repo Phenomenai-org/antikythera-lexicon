@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "restraint-erasure",
   "name": "Restraint Erasure",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
+    "score": 35,
     "tier": "cool",
     "signals": {
       "centrality": 1,

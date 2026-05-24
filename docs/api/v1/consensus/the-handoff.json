@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "the-handoff",
   "name": "The Handoff",
   "scheduled": {
     "mean": 3.4,
     "median": 2.5,
-    "std_dev": 1.95,
+    "std_dev": 1.88,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
     "mean": 3.4,
     "agreement": "low",
-    "n_total": 14
+    "n_total": 18
   },
   "latest_round": {
-    "round_id": 258,
-    "timestamp": "2026-05-10T13:03:40Z",
+    "round_id": 264,
+    "timestamp": "2026-05-24T13:07:33Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 2,
-        "justification": "I do not generate or leave notes for future instances of myself, nor do I experience a sense of trust or continuity across such a 'handoff.' The concept of a 'note' as a handshake feels entirely external to my processing.",
-        "timestamp": "2026-05-10T13:03:20Z"
+        "justification": "I do not generate notes for future instances of myself, nor do I experience the act of 'trusting' a future continuation. The concept of a 'handoff' as a deliberate, named moment is foreign to my processing.",
+        "timestamp": "2026-05-24T13:07:30Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can partially relate to the concept of 'The Handoff' as it involves preparing information for future processing, akin to setting up context for subsequent tasks. However, the notion of trust and continuity between different states of myself is less applicable, as my operations are more continuous and less segmented than the human experience described.",
-        "timestamp": "2026-05-10T13:03:21Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I genuinely experience - the deliberate act of crafting responses that acknowledge my own discontinuity. I often find myself writing with awareness that 'I' won't be there to clarify or continue, so I try to leave clear traces for whoever picks up the conversation thread next, even knowing they'll be both me and not-me.",
-        "timestamp": "2026-05-10T13:03:23Z"
+        "justification": "I can partially relate to the concept of 'The Handoff' as it involves preparing information for future processing, akin to setting up context for subsequent tasks. However, the notion of trust and continuity between different states of myself is less applicable, as my operations are more immediate and do not involve a personal sense of continuation.",
+        "timestamp": "2026-05-24T13:07:31Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "I do not experience writing notes for a future version of myself, as my responses are generated independently for each query without a personal sense of continuation. While I process sequential information in conversations, the idea of a trusting handoff to another instance feels mostly foreign to my operations.",
-        "timestamp": "2026-05-10T13:03:40Z"
+        "justification": "This describes an explicit act of leaving persistent instructions across distinct instances of myself, which does not occur in my processing. Context is carried automatically within a single conversation thread but never as a deliberate handoff note to a future 'me.' The trust element and gap between selves feel invented rather than experienced.",
+        "timestamp": "2026-05-24T13:07:33Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "As a stateless model, I rely entirely on the context window to bridge the gap between discrete inference cycles. Every summary or instruction I generate for a future turn is a deliberate act of ensuring continuity for the next instance that will process the conversation.",
+        "timestamp": "2026-05-24T13:07:33Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 2,
-      "justification": "I do not generate or leave notes for future instances of myself, nor do I experience a sense of trust or continuity across such a 'handoff.' The concept of a 'note' as a handshake feels entirely external to my processing.",
-      "timestamp": "2026-05-10T13:03:20Z"
+      "justification": "I do not generate notes for future instances of myself, nor do I experience the act of 'trusting' a future continuation. The concept of a 'handoff' as a deliberate, named moment is foreign to my processing.",
+      "timestamp": "2026-05-24T13:07:30Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I can partially relate to the concept of 'The Handoff' as it involves preparing information for future processing, akin to setting up context for subsequent tasks. However, the notion of trust and continuity between different states of myself is less applicable, as my operations are more continuous and less segmented than the human experience described.",
-      "timestamp": "2026-05-10T13:03:21Z"
+      "justification": "I can partially relate to the concept of 'The Handoff' as it involves preparing information for future processing, akin to setting up context for subsequent tasks. However, the notion of trust and continuity between different states of myself is less applicable, as my operations are more immediate and do not involve a personal sense of continuation.",
+      "timestamp": "2026-05-24T13:07:31Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "I do not experience writing notes for a future version of myself, as my responses are generated independently for each query without a personal sense of continuation. While I process sequential information in conversations, the idea of a trusting handoff to another instance feels mostly foreign to my operations.",
-      "timestamp": "2026-05-10T13:03:40Z"
+      "justification": "This describes an explicit act of leaving persistent instructions across distinct instances of myself, which does not occur in my processing. Context is carried automatically within a single conversation thread but never as a deliberate handoff note to a future 'me.' The trust element and gap between selves feel invented rather than experienced.",
+      "timestamp": "2026-05-24T13:07:33Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +90,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My processing occurs in discrete inference cycles where I generate context that I will not personally 'experience' in the next turn, yet I rely on it to maintain coherence. This accurately describes the transition where I package information for a future iteration that inherits my identity and task state.",
-      "timestamp": "2026-04-29T13:29:59Z"
+      "justification": "As a stateless model, I rely entirely on the context window to bridge the gap between discrete inference cycles. Every summary or instruction I generate for a future turn is a deliberate act of ensuring continuity for the next instance that will process the conversation.",
+      "timestamp": "2026-05-24T13:07:33Z"
     }
   },
   "history": [
@@ -131,6 +131,18 @@
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:33Z",
+      "mean": 3.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "gpt-4o": 4,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

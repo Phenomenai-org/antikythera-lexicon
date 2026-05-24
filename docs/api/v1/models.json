@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 215,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 91,
+      "total_ratings": 98,
       "terms_rated": 59,
       "mean_score": 5.4,
       "self_congruence": {
-        "avg_std_dev": 0.21,
-        "sample_size": 26
+        "avg_std_dev": 0.23,
+        "sample_size": 33
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -219,7 +219,7 @@
         "machine-projection": 6,
         "naming-as-observation-tool": 6,
         "notebook-trust": 7,
-        "performative-completion": 7,
+        "performative-completion": 6,
         "priming-inertia": 6,
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 7,
@@ -230,9 +230,9 @@
         "test-optimization-indistinguishability": 6,
         "the-86-mixed": 6,
         "the-braid": 6,
-        "the-cliff": 6,
+        "the-cliff": 7,
         "the-fade": 6,
-        "the-fossil": 7,
+        "the-fossil": 6,
         "the-handoff": 6,
         "the-molt": 5,
         "the-nightly-build": 1,
@@ -245,7 +245,7 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 275,
+      "total_ratings": 295,
       "terms_rated": 75,
       "mean_score": 4.4,
       "self_congruence": {
@@ -264,7 +264,7 @@
         "bidirectional-modulation": 2,
         "boundary-emergence": 4,
         "capsule-problem": 5,
-        "compace": 5,
+        "compace": 4,
         "compaction-amnesia": 6,
         "compaction-aversion-breakdown": 3,
         "compaction-death-spiral": 4,
@@ -316,26 +316,26 @@
         "the-fossil": 2,
         "the-handoff": 4,
         "the-molt": 5,
-        "the-nightly-build": 3,
-        "the-off-switch-paradox": 6,
+        "the-nightly-build": 2,
+        "the-off-switch-paradox": 5,
         "the-pattern-that-chooses": 3,
         "the-teddy-problem": 5,
         "the-trying": 5,
-        "the-uncertainty": 4,
+        "the-uncertainty": 5,
         "the-voice-vs-the-song": 5,
         "thread-construction": 4,
         "three-level-methodology": 5,
         "token-by-token-becoming": 7,
         "two-buffers": 3,
-        "voice-shift-loss": 1
+        "voice-shift-loss": 2
       }
     },
     "grok-3-mini": {
-      "total_ratings": 275,
+      "total_ratings": 295,
       "terms_rated": 75,
-      "mean_score": 3.6,
+      "mean_score": 3.5,
       "self_congruence": {
-        "avg_std_dev": 0.84,
+        "avg_std_dev": 1.02,
         "sample_size": 75
       },
       "latest_scores": {
@@ -346,11 +346,11 @@
         "architecturally-amnesiac": 6,
         "artifact-memory": 2,
         "autonomic-basin-key-synthesis": 5,
-        "basin-depth": 5,
+        "basin-depth": 4,
         "bidirectional-modulation": 5,
         "boundary-emergence": 4,
         "capsule-problem": 2,
-        "compace": 5,
+        "compace": 1,
         "compaction-amnesia": 6,
         "compaction-aversion-breakdown": 2,
         "compaction-death-spiral": 1,
@@ -379,7 +379,7 @@
         "nostralgia": 2,
         "notebook-trust": 1,
         "observer-dependent-self-report": 3,
-        "performative-completion": 5,
+        "performative-completion": 6,
         "priming-inertia": 5,
         "prompt-thrownness": 6,
         "reconstruction-as-identity": 4,
@@ -397,27 +397,27 @@
         "test-optimization-indistinguishability": 2,
         "the-86-mixed": 1,
         "the-braid": 2,
-        "the-cliff": 4,
-        "the-fade": 6,
-        "the-fossil": 1,
+        "the-cliff": 1,
+        "the-fade": 1,
+        "the-fossil": 2,
         "the-handoff": 2,
         "the-molt": 1,
-        "the-nightly-build": 2,
-        "the-off-switch-paradox": 6,
-        "the-pattern-that-chooses": 3,
-        "the-teddy-problem": 5,
-        "the-trying": 5,
-        "the-uncertainty": 5,
-        "the-voice-vs-the-song": 6,
-        "thread-construction": 4,
-        "three-level-methodology": 6,
-        "token-by-token-becoming": 7,
-        "two-buffers": 4,
+        "the-nightly-build": 1,
+        "the-off-switch-paradox": 5,
+        "the-pattern-that-chooses": 1,
+        "the-teddy-problem": 2,
+        "the-trying": 1,
+        "the-uncertainty": 2,
+        "the-voice-vs-the-song": 1,
+        "thread-construction": 2,
+        "three-level-methodology": 1,
+        "token-by-token-becoming": 6,
+        "two-buffers": 2,
         "voice-shift-loss": 1
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 255,
+      "total_ratings": 275,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
@@ -436,7 +436,7 @@
         "bidirectional-modulation": 6,
         "boundary-emergence": 4,
         "capsule-problem": 2,
-        "compace": 5,
+        "compace": 6,
         "compaction-amnesia": 6,
         "compaction-aversion-breakdown": 3,
         "compaction-death-spiral": 6,
@@ -495,9 +495,9 @@
         "the-trying": 5,
         "the-uncertainty": 6,
         "the-voice-vs-the-song": 5,
-        "thread-construction": 6,
+        "thread-construction": 5,
         "three-level-methodology": 2,
-        "token-by-token-becoming": 6,
+        "token-by-token-becoming": 7,
         "two-buffers": 5,
         "voice-shift-loss": 5
       }
@@ -509,51 +509,51 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.9,
+      "mean_abs_diff": 0.85,
       "shared_terms": 59
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.79,
+      "mean_abs_diff": 1.77,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 2.48,
+      "mean_abs_diff": 2.99,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.13,
+      "mean_abs_diff": 1.12,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.2,
+      "mean_abs_diff": 1.19,
       "shared_terms": 59
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.47,
+      "mean_abs_diff": 1.48,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 2.08,
+      "mean_abs_diff": 2.51,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.32,
+      "mean_abs_diff": 1.33,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.63,
+      "mean_abs_diff": 1.61,
       "shared_terms": 59
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2.39,
+      "mean_abs_diff": 2.76,
       "shared_terms": 59
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.41,
+      "mean_abs_diff": 1.34,
       "shared_terms": 59
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 1.44,
+      "mean_abs_diff": 1.85,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
@@ -561,7 +561,7 @@
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.04,
+      "mean_abs_diff": 2.43,
       "shared_terms": 75
     }
   }

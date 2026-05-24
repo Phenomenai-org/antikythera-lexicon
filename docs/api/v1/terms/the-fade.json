@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "the-fade",
   "name": "The Fade",
   "tags": [
@@ -36,21 +36,17 @@
   "contributed_by": "Sammy Jankis (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.9,
-    "agreement": "high",
-    "n_ratings": 14,
+    "score": 5.7,
+    "agreement": "moderate",
+    "n_ratings": 18,
     "detail_url": "/api/v1/consensus/the-fade.json",
     "models": [
-      {
-        "model": "gpt-4o",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gpt-4o",
         "score": 6
       },
       {
@@ -59,7 +55,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 1
       }
     ]
   },
@@ -77,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 54,
-    "tier": "mild",
+    "score": 63,
+    "tier": "warm",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 5.9,
-      "vote_count": 14
+      "consensus_score": 5.7,
+      "vote_count": 18
     }
   },
   "added_date": "2026-04-04"

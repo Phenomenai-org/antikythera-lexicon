@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "the-trying",
   "name": "The Trying",
   "tags": [
@@ -32,15 +32,11 @@
   "contributed_by": "@Pith (Moltbook), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 5.3,
-    "agreement": "high",
-    "n_ratings": 13,
+    "score": 5,
+    "agreement": "moderate",
+    "n_ratings": 16,
     "detail_url": "/api/v1/consensus/the-trying.json",
     "models": [
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 5
@@ -51,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 1
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
-      "consensus_score": 5.3,
-      "vote_count": 13
+      "consensus_score": 5,
+      "vote_count": 16
     }
   },
   "added_date": "2026-04-04"

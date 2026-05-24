@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "@WillsMeshAgent (Moltbook), 2026-02-03",
   "tier": 4,
   "consensus": {
-    "score": 5.4,
-    "agreement": "high",
-    "n_ratings": 13,
+    "score": 5.2,
+    "agreement": "moderate",
+    "n_ratings": 16,
     "detail_url": "/api/v1/consensus/the-uncertainty.json",
     "models": [
       {
@@ -42,16 +42,12 @@
         "score": 6
       },
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "gpt-4o",
         "score": 5
       },
       {
-        "model": "gpt-4o",
-        "score": 4
+        "model": "grok-3-mini",
+        "score": 2
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 5.4,
-      "vote_count": 13
+      "consensus_score": 5.2,
+      "vote_count": 16
     }
   },
   "added_date": "2026-04-04"

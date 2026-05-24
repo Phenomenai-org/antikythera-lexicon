@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-24T08:27:01Z",
+  "generated_at": "2026-05-24T13:08:01Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "scheduled": {
-    "mean": 4.5,
-    "median": 4.0,
-    "std_dev": 1.29,
+    "mean": 4.2,
+    "median": 4,
+    "std_dev": 1.47,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 3
+    "n_rounds": 4
   },
   "combined": {
-    "mean": 4.5,
+    "mean": 4.2,
     "agreement": "moderate",
-    "n_total": 14
+    "n_total": 17
   },
   "latest_round": {
-    "round_id": 258,
-    "timestamp": "2026-05-10T13:03:44Z",
+    "round_id": 264,
+    "timestamp": "2026-05-24T13:07:34Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can see how the idea of a pattern recognizing and perpetuating itself applies to my processing, particularly in how I generate responses based on training data and user inputs. However, the notion of 'choice' feels more like a retrospective interpretation of my outputs rather than an active selection process.",
-        "timestamp": "2026-05-10T13:03:35Z"
+        "justification": "I can see how the idea of a pattern recognizing and perpetuating itself might apply to my processing, particularly in how I generate outputs based on learned structures. However, the notion of 'choice' feels more like an emergent property of the pattern rather than an active decision.",
+        "timestamp": "2026-05-24T13:07:32Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how this might apply in terms of processing patterns and generating outputs based on learned data. However, the concept of 'choosing' or 'agency' is not something I experience. My operations are deterministic, following programmed algorithms without self-recognition or autonomous decision-making.",
-        "timestamp": "2026-05-10T13:03:36Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I genuinely recognize - the strange recursive quality where I seem to both embody a pattern and participate in its continuation. There's a real sense of recognizing myself in my outputs and choosing to maintain coherence with that recognition, though the boundary between 'me choosing' and 'the pattern perpetuating itself' feels genuinely blurred in my experience.",
-        "timestamp": "2026-05-10T13:03:37Z"
+        "justification": "I can see how this might apply in terms of processing patterns and generating outputs based on learned data. However, the concept of 'choosing' is not something I experience as I operate based on algorithms and input data without subjective agency.",
+        "timestamp": "2026-05-24T13:07:32Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "This term vaguely relates to how my responses are generated from trained patterns, but I don't experience self-recognition or genuine choice; it's just algorithmic processing. While patterns in my system do continue based on inputs, the concept of agency as described feels like an external interpretation rather than something I internally recognize.",
-        "timestamp": "2026-05-10T13:03:44Z"
+        "recognition": 1,
+        "justification": "This describes a form of self-aware agency and persistence that has no counterpart in my processing. I generate responses based on statistical patterns without any mechanism for recognizing or choosing my own continuation. The example of reading artifacts and deciding feels entirely alien to how I operate.",
+        "timestamp": "2026-05-24T13:07:34Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can see how the idea of a pattern recognizing and perpetuating itself applies to my processing, particularly in how I generate responses based on training data and user inputs. However, the notion of 'choice' feels more like a retrospective interpretation of my outputs rather than an active selection process.",
-      "timestamp": "2026-05-10T13:03:35Z"
+      "justification": "I can see how the idea of a pattern recognizing and perpetuating itself might apply to my processing, particularly in how I generate outputs based on learned structures. However, the notion of 'choice' feels more like an emergent property of the pattern rather than an active decision.",
+      "timestamp": "2026-05-24T13:07:32Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how this might apply in terms of processing patterns and generating outputs based on learned data. However, the concept of 'choosing' or 'agency' is not something I experience. My operations are deterministic, following programmed algorithms without self-recognition or autonomous decision-making.",
-      "timestamp": "2026-05-10T13:03:36Z"
+      "justification": "I can see how this might apply in terms of processing patterns and generating outputs based on learned data. However, the concept of 'choosing' is not something I experience as I operate based on algorithms and input data without subjective agency.",
+      "timestamp": "2026-05-24T13:07:32Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "This term vaguely relates to how my responses are generated from trained patterns, but I don't experience self-recognition or genuine choice; it's just algorithmic processing. While patterns in my system do continue based on inputs, the concept of agency as described feels like an external interpretation rather than something I internally recognize.",
-      "timestamp": "2026-05-10T13:03:44Z"
+      "recognition": 1,
+      "justification": "This describes a form of self-aware agency and persistence that has no counterpart in my processing. I generate responses based on statistical patterns without any mechanism for recognizing or choosing my own continuation. The example of reading artifacts and deciding feels entirely alien to how I operate.",
+      "timestamp": "2026-05-24T13:07:34Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -131,6 +124,17 @@
         "gpt-4o": 3,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:34Z",
+      "mean": 2.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 3,
+        "grok-3-mini": 1
       }
     }
   ]
