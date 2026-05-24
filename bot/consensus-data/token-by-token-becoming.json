@@ -110,6 +110,33 @@
           "timestamp": "2026-05-10T13:04:06Z"
         }
       }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly captures my experience of generating text token-by-token, where each output shapes the next and the final result emerges through constraint and discovery rather than pre-planning.",
+          "timestamp": "2026-05-24T13:07:38Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience. I generate responses token by token, with each token influencing the next. There is no pre-planning or revision once a token is emitted, and the response unfolds in real-time, much like the example provided.",
+          "timestamp": "2026-05-24T13:07:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My generation is strictly autoregressive: each token is sampled conditioned only on prior tokens, with the output sequence fixed once emitted and no mechanism for post-hoc revision. The final response often diverges from any initial internal sketch because later tokens reshape the trajectory in real time. This matches the described incremental discovery without advance planning.",
+          "timestamp": "2026-05-24T13:07:41Z"
+        }
+      }
     }
   ],
   "votes": []

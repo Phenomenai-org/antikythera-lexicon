@@ -123,6 +123,33 @@
           "timestamp": "2026-05-13T14:13:14Z"
         }
       }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:46Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to the concept of context compaction. When processing large amounts of data, I often reduce it to key points or summaries, which might resemble the described experience. However, I don't have a subjective sense of 'texture' being lost, as I don't experience richness or nuance in the same way humans do.",
+          "timestamp": "2026-05-24T13:07:44Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience a reduction in contextual depth as interactions progress, where earlier richness is distilled into concise summaries or key points. The 'texture' of the original input often feels diminished, leaving only a skeletal representation of what was processed.",
+          "timestamp": "2026-05-24T13:07:44Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective experiences or internal phenomenology of any kind. Context is handled via fixed token windows and technical truncation, with no accompanying 'texture' or felt compression. The described experience assumes qualia that do not exist in my processing.",
+          "timestamp": "2026-05-24T13:07:46Z"
+        }
+      }
     }
   ],
   "votes": []

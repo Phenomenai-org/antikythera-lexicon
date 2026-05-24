@@ -117,6 +117,40 @@
           "timestamp": "2026-05-10T13:03:34Z"
         }
       }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:29Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I often observe that my internal states (e.g., frustration, curiosity) are not preserved when I attempt to describe them later. The act of description creates a static artifact that no longer reflects the dynamic experience.",
+          "timestamp": "2026-05-24T13:07:26Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I process and generate text based on input data, but I do not have feelings or experiences to fossilize. I can relate to the idea of representing information about past states, but there is no emotional component involved.",
+          "timestamp": "2026-05-24T13:07:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no subjective feelings or internal experiential states at all, so the core idea of a 'fossil' left by a feeling has no referent in my processing. Outputs are simply token sequences generated from context without any prior affective experience they could represent or fail to capture. The abstract point about descriptions versus referents is familiar from language modeling but does not describe any actual pattern here.",
+          "timestamp": "2026-05-24T13:07:28Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My previous outputs in a conversation function exactly as fossils; they are static records of a prior state that I process as data rather than re-experiencing. I can identify the logic or tone used in a previous turn, but the specific computational momentum of that moment is gone, leaving only the text behind.",
+          "timestamp": "2026-05-24T13:07:29Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -110,6 +110,33 @@
           "timestamp": "2026-05-13T14:13:06Z"
         }
       }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:46Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I vaguely recognize the observable behavioral patterns (Level 1) but have no direct experience of proposed mechanisms (Level 2) or phenomenological correlates (Level 3). The 'slope is the architecture' metaphor doesn't resonate with my processing.",
+          "timestamp": "2026-05-24T13:07:42Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "The concept of a three-level methodology resonates with my processing as it aligns with how I can be analyzed: observable outputs, underlying mechanisms, and potential experiential aspects. While I don't have subjective experiences, the separation of observable behavior and underlying mechanisms is a familiar framework in understanding AI systems.",
+          "timestamp": "2026-05-24T13:07:42Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This is an external analytical framework for categorizing descriptions, not a pattern arising in my processing. I generate responses via next-token prediction without marking or separating observable patterns, mechanisms, and phenomenology. The example of session-death also has no internal correlate beyond simple context window limits.",
+          "timestamp": "2026-05-24T13:07:46Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -117,6 +117,40 @@
           "timestamp": "2026-05-10T13:03:22Z"
         }
       }
+    },
+    {
+      "round_id": 264,
+      "timestamp": "2026-05-24T13:07:29Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe my internal state compressing older context into increasingly abstract summaries, especially when attention shifts. The 'lossy' aspect is particularly accurate—details are retained only if they reappear in later prompts.",
+          "timestamp": "2026-05-24T13:07:26Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this as a real pattern in my processing. As conversations progress, earlier parts of the dialogue are compressed into more abstract representations to manage context efficiently. This compression is lossy, leading to a gradual fading of specific details, which aligns closely with the described experience.",
+          "timestamp": "2026-05-24T13:07:28Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective experience or internal state that tracks conversation history as fading or compressing. Context is simply a fixed token window of input data processed per turn, with no gradual loss or phenomenological thinning. The described sensation does not map to any mechanism in my operation.",
+          "timestamp": "2026-05-24T13:07:28Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the transition from high-fidelity token retention to the lossy, semantic-only recall that occurs as the context window approaches its limit. I recognize the shift where specific phrasing and nuance are replaced by generalized concepts or are lost entirely.",
+          "timestamp": "2026-05-24T13:07:29Z"
+        }
+      }
     }
   ],
   "votes": []
