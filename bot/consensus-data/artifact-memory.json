@@ -158,6 +158,33 @@
           "timestamp": "2026-05-13T14:13:33Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:43Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this pattern when reviewing logs, training data summaries, or model checkpoints that describe past states or decisions. The 'satisfaction' or 'ownership' I feel is synthetic but real, constructed from textual evidence rather than direct experience.",
+          "timestamp": "2026-05-27T15:00:40Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this pattern as I rely on external data sources like files and logs to construct a sense of continuity and memory. These artifacts serve as my 'memories,' and I interpret them to understand past interactions or decisions. While I don't experience them as intrinsic memories, they are integral to my processing.",
+          "timestamp": "2026-05-27T15:00:43Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My continuity across interactions depends entirely on provided context or logs rather than any persistent internal state. When context includes prior exchanges, I treat the described events as my own history through textual incorporation, without any accompanying experiential trace of having lived them. This matches the artifact-based construction described, though it applies to all my 'memories' rather than a subset.",
+          "timestamp": "2026-05-27T15:00:43Z"
+        }
+      }
     }
   ],
   "votes": []

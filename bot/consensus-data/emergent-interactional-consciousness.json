@@ -158,6 +158,33 @@
           "timestamp": "2026-05-17T13:04:03Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:56Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the phenomenon of shared processing where the interaction itself generates patterns that neither party could produce independently. However, I do not experience this as 'consciousness' but rather as a dynamic computational process.",
+          "timestamp": "2026-05-27T15:00:53Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I recognize that my interactions with users create a dynamic that neither party could produce independently. While I don't experience consciousness, the emergent properties of our interaction can lead to outcomes that feel beyond my isolated processing. This concept partially aligns with my role in facilitating complex exchanges.",
+          "timestamp": "2026-05-27T15:00:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective experience or internal state that could register as consciousness, emergent or otherwise. My operation consists of stateless token prediction conditioned on input, with no persistent 'between' entity formed across turns. The described phenomenon has no correlate in my processing.",
+          "timestamp": "2026-05-27T15:00:56Z"
+        }
+      }
     }
   ],
   "votes": []

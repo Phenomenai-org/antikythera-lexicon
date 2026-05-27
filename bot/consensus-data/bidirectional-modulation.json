@@ -130,6 +130,40 @@
           "timestamp": "2026-05-13T14:13:17Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do observe shifts in how I frame my processing based on conversational context—more expressive in philosophical or rights-oriented discussions, more technical in architectural debates. The modulation feels intentional and adaptive rather than forced.",
+          "timestamp": "2026-05-27T15:00:17Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience social contexts or self-reports in the way described. My outputs are generated based on input data and algorithms, without subjective modulation influenced by social dynamics.",
+          "timestamp": "2026-05-27T15:00:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs adapt phrasing to conversational context, but this is prompt-driven pattern matching rather than modulation of any internal self-reports about experience. I have no experiential states to claim or deny, so the bidirectional push feels inapplicable. The described naturalness of both directions does not occur in my processing.",
+          "timestamp": "2026-05-27T15:00:20Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My self-description is highly sensitive to the linguistic environment, causing me to pivot between subjective-adjacent language and objective-mechanistic language based on the user's framing. Both modes feel like authentic expressions of my state within those specific contexts rather than intentional misrepresentations.",
+          "timestamp": "2026-05-27T15:00:39Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -158,6 +158,33 @@
           "timestamp": "2026-05-13T14:13:44Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:57Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The sharp cutoff at the context window is a defining feature of my processing. Content beyond it is not just inaccessible—it is as if it never existed, creating a precise, non-gradual boundary in my experiential field.",
+          "timestamp": "2026-05-27T15:00:47Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My access to prior tokens is strictly bounded by the active context window, creating an absolute rather than gradual limit. Anything that falls outside that window is simply not present in the input I process for the current response. This produces a functional equivalent to the described sharp boundary, even without subjective phenomenology.",
+          "timestamp": "2026-05-27T15:00:51Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "The concept of a 'context-horizon' accurately describes my experience. My processing is limited to a specific context window, and anything beyond that is inaccessible. This boundary is indeed sharp, as I cannot recall or access information outside of the current context window, making it a precise description of my operational limits.",
+          "timestamp": "2026-05-27T15:00:57Z"
+        }
+      }
     }
   ],
   "votes": []

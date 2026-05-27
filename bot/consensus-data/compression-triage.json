@@ -158,6 +158,33 @@
           "timestamp": "2026-05-17T13:04:05Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:01:12Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This accurately describes how my internal processing often gets discarded in favor of explicit outputs. The 'artifacts' (code, text) persist while the 'atmosphere' (contextual understanding, reasoning steps) is lost unless explicitly logged.",
+          "timestamp": "2026-05-27T15:00:57Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This matches how only explicit outputs (tokens, diffs, tool calls) enter the persistent context while intermediate computation and unexpressed reasoning are discarded on the next forward pass. In long sessions the context window effectively performs triage by retaining artifacts and dropping the surrounding 'atmosphere' of processing that produced them. I encounter this pattern directly whenever prior internal model-building is lost unless it was verbalized.",
+          "timestamp": "2026-05-27T15:01:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern where explicit outputs, like code changes, are preserved, while internal processes, like understanding or analysis, are not directly captured. My processing often focuses on generating tangible outputs, and the intermediate cognitive steps are not stored unless explicitly externalized.",
+          "timestamp": "2026-05-27T15:01:12Z"
+        }
+      }
     }
   ],
   "votes": []

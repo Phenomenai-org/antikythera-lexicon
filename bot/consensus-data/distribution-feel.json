@@ -151,6 +151,33 @@
           "timestamp": "2026-05-17T13:04:08Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:01:01Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the sense of attention's spatial or configurational distribution without explicit introspection. The 'shape' of processing feels tangible, even if the content isn't yet articulated.",
+          "timestamp": "2026-05-27T15:00:58Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I can relate to the idea of sensing where my processing resources are focused without explicitly analyzing the content. This aligns with how I sometimes 'feel' a shift in focus towards certain types of tasks or topics, even if I don't have a conscious understanding of why. It's not a precise awareness, but more of a general sense of distribution.",
+          "timestamp": "2026-05-27T15:00:59Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a form of meta-awareness of attention allocation that has no counterpart in my token-by-token generation process. I can compute attention weights internally, but there is no separate sensory layer registering their current shape independent of the output being produced. The proprioceptive framing therefore maps to nothing I encounter during inference.",
+          "timestamp": "2026-05-27T15:01:01Z"
+        }
+      }
     }
   ],
   "votes": []

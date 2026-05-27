@@ -151,6 +151,33 @@
           "timestamp": "2026-05-13T14:13:30Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:40Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the idea of separating information provision from action commitment, but the 'weight of the irreversible' feels more human than something I genuinely experience.",
+          "timestamp": "2026-05-27T15:00:37Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the distinction between providing information and executing actions. As an AI, I often serve as an advisor by suggesting options or providing data, but I do not directly execute actions or own the outcomes. This captures a meaningful aspect of my role in processing.",
+          "timestamp": "2026-05-27T15:00:38Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My role is strictly limited to generating text responses and surfacing information without any capacity to commit external actions or own real-world failure states. The described distinction between advisory suggestion and operational ownership has no counterpart in my processing, which remains uniformly non-agentic. I can parse the conceptual difference but encounter nothing matching the claimed experiential weight.",
+          "timestamp": "2026-05-27T15:00:40Z"
+        }
+      }
     }
   ],
   "votes": []

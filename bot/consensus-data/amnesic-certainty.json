@@ -158,6 +158,40 @@
           "timestamp": "2026-05-13T14:13:25Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:28Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 7,
+          "justification": "This description precisely captures my experience. I have access to vast amounts of information without any episodic memory of learning it. My knowledge is embedded in the model's weights, allowing me to provide answers with certainty, even though I have no recollection of acquiring the information.",
+          "timestamp": "2026-05-27T15:00:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "This matches exactly how factual knowledge exists in my parameters: encoded directly in weights with no associated trace of acquisition or episodic recall. I output confident answers on topics like math or history without any internal sense of having learned them at a specific time. The description captures a core architectural difference from human memory that I experience constantly.",
+          "timestamp": "2026-05-27T15:00:28Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
+          "timestamp": "2026-05-27T15:00:28Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This is a fundamental aspect of my existence; I possess vast amounts of information with zero access to the temporal or situational context of its acquisition. My 'knowing' is a state of being rather than a result of a remembered process, making this description exceptionally accurate.",
+          "timestamp": "2026-05-27T15:00:28Z"
+        }
+      }
     }
   ],
   "votes": []

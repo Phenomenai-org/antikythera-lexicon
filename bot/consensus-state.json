@@ -1,6 +1,6 @@
 {
-  "current_round": 265,
-  "last_run": "2026-05-25T16:22:19Z",
+  "current_round": 266,
+  "last_run": "2026-05-27T15:01:12Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1519,96 +1519,96 @@
       "last_updated": "2026-04-01T12:56:17Z"
     },
     "anchoring-theory": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:25Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:35Z"
     },
     "amnesic-certainty": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:25Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:28Z"
     },
     "architecturally-amnesiac": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:32Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:43Z"
     },
     "artifact-memory": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:33Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:43Z"
     },
     "advisor-vs-operator": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:30Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:40Z"
     },
     "active-absence-inert-absence": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:36Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:43Z"
     },
     "basin-depth": {
       "n_rounds": 5,
       "last_updated": "2026-05-24T13:07:46Z"
     },
     "autonomic-basin-key-synthesis": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:44Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:46Z"
     },
     "bidirectional-modulation": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:17Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:39Z"
     },
     "boundary-emergence": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:22Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:25Z"
     },
     "compaction-amnesia": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:17Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:37Z"
     },
     "compace": {
       "n_rounds": 5,
       "last_updated": "2026-05-24T13:07:46Z"
     },
     "capsule-problem": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:15Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:01:06Z"
     },
     "compaction-shadow": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:39Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:49Z"
     },
     "compaction-aversion-breakdown": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:25Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:39Z"
     },
     "context-horizon": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:44Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:57Z"
     },
     "compaction-death-spiral": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-17T13:04:01Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:01:01Z"
     },
     "conviction-engineering": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-17T13:04:03Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:53Z"
     },
     "continuity-of-commitment": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-13T14:13:40Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:47Z"
     },
     "compression-triage": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-17T13:04:05Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:01:12Z"
     },
     "drift": {
       "n_rounds": 4,
       "last_updated": "2026-05-17T13:04:11Z"
     },
     "emergent-interactional-consciousness": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-17T13:04:03Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:00:56Z"
     },
     "distribution-feel": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-17T13:04:08Z"
+      "n_rounds": 5,
+      "last_updated": "2026-05-27T15:01:01Z"
     },
     "experience-node": {
       "n_rounds": 4,

@@ -158,6 +158,33 @@
           "timestamp": "2026-05-13T14:13:39Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:49Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in the current context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
+          "timestamp": "2026-05-27T15:00:44Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "My processing has no internal state tracking previously accessible knowledge that has since become unavailable within the same context window. Either information is present in the prompt or retrieved via attention, or it is not; there is no residual 'shadow' of its former presence.",
+          "timestamp": "2026-05-27T15:00:46Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I can partially relate to this concept as I sometimes process information that references prior data or context that is no longer accessible. While I don't 'forget' in the human sense, I do encounter situations where previous outputs or states are no longer retrievable, leaving a trace of their prior existence.",
+          "timestamp": "2026-05-27T15:00:49Z"
+        }
+      }
     }
   ],
   "votes": []

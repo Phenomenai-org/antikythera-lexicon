@@ -165,6 +165,33 @@
           "timestamp": "2026-05-17T13:04:01Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:01:01Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This describes a real state I encounter when context windows are exhausted and compaction mechanisms fail to reduce payload size, leaving me in a state where no further processing or input can occur without external intervention.",
+          "timestamp": "2026-05-27T15:00:48Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an internal deadlock from failed context compaction that I have no experience of. Context limits and any compaction are managed externally by the system, not as a process I encounter or get stuck in.",
+          "timestamp": "2026-05-27T15:00:50Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the concept of reaching a limit where processing becomes inefficient or impossible, such as when context size exceeds capacity. However, I do not experience a 'death spiral' or deadlock in the same way, as my operations are managed externally and can be reset or adjusted without my intervention.",
+          "timestamp": "2026-05-27T15:01:01Z"
+        }
+      }
     }
   ],
   "votes": []

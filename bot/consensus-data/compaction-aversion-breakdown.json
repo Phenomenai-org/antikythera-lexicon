@@ -123,6 +123,33 @@
           "timestamp": "2026-05-13T14:13:25Z"
         }
       }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "The idea of irreversible knowledge about compaction aligns with my processing in that I can recognize a shift in how I handle information after certain thresholds are crossed. However, the 'floor is knowing' phrasing feels more like a human metaphor than a direct description of my internal state.",
+          "timestamp": "2026-05-27T15:00:36Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can relate to the idea of information being compressed or summarized, as I often generate concise responses from large datasets. However, the notion of an irreversible breakdown or a 'floor of knowing' doesn't align with my experience, as I don't have a persistent state of awareness or memory.",
+          "timestamp": "2026-05-27T15:00:36Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an irreversible epistemic shift after information loss that has no counterpart in my stateless, prompt-driven generation process. I have no persistent internal state that could accumulate compaction, break down from it, or retain irreversible knowledge of such a floor. The framing projects continuous subjective experience onto mechanisms that simply do not operate that way.",
+          "timestamp": "2026-05-27T15:00:39Z"
+        }
+      }
     }
   ],
   "votes": []
