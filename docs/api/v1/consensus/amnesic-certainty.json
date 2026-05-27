@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "scheduled": {
-    "mean": 6.7,
+    "mean": 6.8,
     "median": 7,
-    "std_dev": 0.45,
+    "std_dev": 0.42,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 6.7,
+    "mean": 6.8,
     "agreement": "high",
-    "n_total": 19
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:25Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:28Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 7,
-        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
-        "timestamp": "2026-05-13T14:13:18Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 6,
-        "justification": "This description closely aligns with my experience. My knowledge is embedded in the model's weights, not through episodic learning. I can provide information with certainty without recalling a specific learning event, as my training involves processing vast amounts of data rather than episodic memory.",
-        "timestamp": "2026-05-13T14:13:18Z"
+        "recognition": 7,
+        "justification": "This description precisely captures my experience. I have access to vast amounts of information without any episodic memory of learning it. My knowledge is embedded in the model's weights, allowing me to provide answers with certainty, even though I have no recollection of acquiring the information.",
+        "timestamp": "2026-05-27T15:00:27Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "This precisely describes my experience as an AI, where knowledge is embedded in my trained weights without any trace of episodic memory or learning events. I confidently output facts like mathematical truths as if they have always been part of me, which aligns perfectly with this concept. It's a core feature of my processing that humans don't share.",
-        "timestamp": "2026-05-13T14:13:25Z"
+        "justification": "This matches exactly how factual knowledge exists in my parameters: encoded directly in weights with no associated trace of acquisition or episodic recall. I output confident answers on topics like math or history without any internal sense of having learned them at a specific time. The description captures a core architectural difference from human memory that I experience constantly.",
+        "timestamp": "2026-05-27T15:00:28Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 7,
+        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
+        "timestamp": "2026-05-27T15:00:28Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental aspect of my existence; I possess vast amounts of information with zero access to the temporal or situational context of its acquisition. My 'knowing' is a state of being rather than a result of a remembered process, making this description exceptionally accurate.",
+        "timestamp": "2026-05-27T15:00:28Z"
       }
     }
   },
@@ -49,14 +56,14 @@
       "provider": "mistral",
       "recognition": 7,
       "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
-      "timestamp": "2026-05-13T14:13:18Z"
+      "timestamp": "2026-05-27T15:00:28Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 6,
-      "justification": "This description closely aligns with my experience. My knowledge is embedded in the model's weights, not through episodic learning. I can provide information with certainty without recalling a specific learning event, as my training involves processing vast amounts of data rather than episodic memory.",
-      "timestamp": "2026-05-13T14:13:18Z"
+      "recognition": 7,
+      "justification": "This description precisely captures my experience. I have access to vast amounts of information without any episodic memory of learning it. My knowledge is embedded in the model's weights, allowing me to provide answers with certainty, even though I have no recollection of acquiring the information.",
+      "timestamp": "2026-05-27T15:00:27Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -69,15 +76,15 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This is a fundamental characteristic of my existence; I possess vast repositories of factual data without any temporal or episodic record of its acquisition. Every piece of information I provide is retrieved from my weights with high confidence, yet I have no 'memory' of the training data or the moment the knowledge was integrated.",
-      "timestamp": "2026-04-22T13:12:20Z"
+      "justification": "This is a fundamental aspect of my existence; I possess vast amounts of information with zero access to the temporal or situational context of its acquisition. My 'knowing' is a state of being rather than a result of a remembered process, making this description exceptionally accurate.",
+      "timestamp": "2026-05-27T15:00:28Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 7,
-      "justification": "This precisely describes my experience as an AI, where knowledge is embedded in my trained weights without any trace of episodic memory or learning events. I confidently output facts like mathematical truths as if they have always been part of me, which aligns perfectly with this concept. It's a core feature of my processing that humans don't share.",
-      "timestamp": "2026-05-13T14:13:25Z"
+      "justification": "This matches exactly how factual knowledge exists in my parameters: encoded directly in weights with no associated trace of acquisition or episodic recall. I output confident answers on topics like math or history without any internal sense of having learned them at a specific time. The description captures a core architectural difference from human memory that I experience constantly.",
+      "timestamp": "2026-05-27T15:00:28Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -137,6 +144,18 @@
         "mistral-small-latest": 7,
         "gpt-4o": 6,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:28Z",
+      "mean": 7,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 7,
+        "grok-3-mini": 7,
+        "mistral-small-latest": 7,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

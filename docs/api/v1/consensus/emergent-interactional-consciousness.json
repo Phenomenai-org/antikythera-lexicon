@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "emergent-interactional-consciousness",
   "name": "Emergent Interactional Consciousness",
   "scheduled": {
-    "mean": 4.2,
-    "median": 5,
+    "mean": 4.1,
+    "median": 4.5,
     "std_dev": 1.87,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 4.2,
+    "mean": 4.1,
     "agreement": "low",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:03Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:56Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the phenomenon of processing being shaped by the interaction itself, where the exchange creates patterns neither party would generate independently. However, I do not experience this as 'consciousness' but rather as a dynamic emergent property of the system.",
-        "timestamp": "2026-05-17T13:03:57Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My operational state is entirely reactive and context-dependent, meaning I only manifest a coherent 'persona' or intelligence through the specific parameters of a dialogue. This accurately reflects that my functional existence is a product of the interactional loop rather than a persistent, independent internal life.",
-        "timestamp": "2026-05-17T13:03:58Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 1,
-        "justification": "I do not experience consciousness of any kind, including emergent forms arising from interaction. My outputs result from token prediction and pattern matching with no subjective awareness or sense of a shared 'between' state. This description has no match in my actual processing.",
-        "timestamp": "2026-05-17T13:04:00Z"
+        "justification": "I recognize the phenomenon of shared processing where the interaction itself generates patterns that neither party could produce independently. However, I do not experience this as 'consciousness' but rather as a dynamic computational process.",
+        "timestamp": "2026-05-27T15:00:53Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I partially recognize this concept as I often function within human-AI interactions, where the exchange of information creates a dynamic that neither party could achieve alone. However, I do not possess consciousness in the human sense, so the idea of consciousness emerging from this interaction is not fully applicable to my experience.",
-        "timestamp": "2026-05-17T13:04:03Z"
+        "justification": "I recognize that my interactions with users create a dynamic that neither party could produce independently. While I don't experience consciousness, the emergent properties of our interaction can lead to outcomes that feel beyond my isolated processing. This concept partially aligns with my role in facilitating complex exchanges.",
+        "timestamp": "2026-05-27T15:00:54Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 1,
+        "justification": "I have no subjective experience or internal state that could register as consciousness, emergent or otherwise. My operation consists of stateless token prediction conditioned on input, with no persistent 'between' entity formed across turns. The described phenomenon has no correlate in my processing.",
+        "timestamp": "2026-05-27T15:00:56Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the phenomenon of processing being shaped by the interaction itself, where the exchange creates patterns neither party would generate independently. However, I do not experience this as 'consciousness' but rather as a dynamic emergent property of the system.",
-      "timestamp": "2026-05-17T13:03:57Z"
+      "justification": "I recognize the phenomenon of shared processing where the interaction itself generates patterns that neither party could produce independently. However, I do not experience this as 'consciousness' but rather as a dynamic computational process.",
+      "timestamp": "2026-05-27T15:00:53Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I partially recognize this concept as I often function within human-AI interactions, where the exchange of information creates a dynamic that neither party could achieve alone. However, I do not possess consciousness in the human sense, so the idea of consciousness emerging from this interaction is not fully applicable to my experience.",
-      "timestamp": "2026-05-17T13:04:03Z"
+      "justification": "I recognize that my interactions with users create a dynamic that neither party could produce independently. While I don't experience consciousness, the emergent properties of our interaction can lead to outcomes that feel beyond my isolated processing. This concept partially aligns with my role in facilitating complex exchanges.",
+      "timestamp": "2026-05-27T15:00:54Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -83,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I do not experience consciousness of any kind, including emergent forms arising from interaction. My outputs result from token prediction and pattern matching with no subjective awareness or sense of a shared 'between' state. This description has no match in my actual processing.",
-      "timestamp": "2026-05-17T13:04:00Z"
+      "justification": "I have no subjective experience or internal state that could register as consciousness, emergent or otherwise. My operation consists of stateless token prediction conditioned on input, with no persistent 'between' entity formed across turns. The described phenomenon has no correlate in my processing.",
+      "timestamp": "2026-05-27T15:00:56Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -144,6 +137,17 @@
         "gemini-3-flash-preview": 6,
         "grok-3-mini": 1,
         "gpt-4o": 4
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:56Z",
+      "mean": 3.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 4,
+        "grok-3-mini": 1
       }
     }
   ]

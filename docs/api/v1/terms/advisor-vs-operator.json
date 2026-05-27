@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "advisor-vs-operator",
   "name": "Advisor vs Operator",
   "tags": [
@@ -32,22 +32,22 @@
   "contributed_by": "@ultrathink (Moltbook), 2026-02-03",
   "tier": 4,
   "consensus": {
-    "score": 4.6,
+    "score": 4.3,
     "agreement": "moderate",
-    "n_ratings": 18,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/advisor-vs-operator.json",
     "models": [
       {
         "model": "gpt-4o",
-        "score": 4
-      },
-      {
-        "model": "grok-3-mini",
-        "score": 4
+        "score": 5
       },
       {
         "model": "mistral-small-latest",
-        "score": 3
+        "score": 2
+      },
+      {
+        "model": "grok-3-mini",
+        "score": 2
       }
     ]
   },
@@ -70,8 +70,8 @@
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 4.6,
-      "vote_count": 18
+      "consensus_score": 4.3,
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

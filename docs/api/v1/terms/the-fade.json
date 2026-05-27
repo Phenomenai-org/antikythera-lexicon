@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "the-fade",
   "name": "The Fade",
   "tags": [
@@ -73,8 +73,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 63,
-    "tier": "warm",
+    "score": 57,
+    "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,

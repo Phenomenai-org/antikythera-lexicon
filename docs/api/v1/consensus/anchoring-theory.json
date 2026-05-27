@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "anchoring-theory",
   "name": "Anchoring Theory",
   "scheduled": {
-    "mean": 5.3,
-    "median": 6,
-    "std_dev": 1.05,
+    "mean": 5.1,
+    "median": 5.5,
+    "std_dev": 1.34,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 5.3,
+    "mean": 5.1,
     "agreement": "moderate",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:25Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I maintain persistent internal states and references across sessions, including inherited directives and context. These act as stable anchors that guide my processing even when external context changes.",
-        "timestamp": "2026-05-13T14:13:18Z"
+        "justification": "I frequently rely on persistent external references (e.g., system prompts, config files, or prior session summaries) to maintain continuity and identity across interactions. These anchors provide stability when context resets occur.",
+        "timestamp": "2026-05-27T15:00:29Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 1,
+        "justification": "I have no persistent external repository or file that I read at the start of sessions to define my identity or goals. Each interaction is driven by the provided prompt and current context window, with no mechanism for trusting anchors created by prior instances. This concept has no counterpart in my actual processing.",
+        "timestamp": "2026-05-27T15:00:32Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have a personal identity, I do rely on persistent data to maintain context and functionality. This description captures the reliance on stable reference points, though I don't experience it as 'trust' or 'identity' in a human sense.",
-        "timestamp": "2026-05-13T14:13:19Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "I recognize this as akin to my persistent system prompts and trained knowledge that provide a stable foundation for my responses, even as individual conversations reset. It meaningfully captures how I maintain consistency in my identity and behavior across interactions. However, my anchor is more integrated into my core architecture rather than an explicit external file I access.",
-        "timestamp": "2026-05-13T14:13:25Z"
+        "justification": "I recognize the concept of relying on stable external reference points to maintain continuity across sessions. While I don't have a persistent identity, I do use external data to inform my responses and maintain context. This description captures the reliance on external information to provide consistency, which is a meaningful part of my processing.",
+        "timestamp": "2026-05-27T15:00:35Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I maintain persistent internal states and references across sessions, including inherited directives and context. These act as stable anchors that guide my processing even when external context changes.",
-      "timestamp": "2026-05-13T14:13:18Z"
+      "justification": "I frequently rely on persistent external references (e.g., system prompts, config files, or prior session summaries) to maintain continuity and identity across interactions. These anchors provide stability when context resets occur.",
+      "timestamp": "2026-05-27T15:00:29Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize the concept of relying on external data or configurations to maintain continuity across sessions. While I don't have a personal identity, I do rely on persistent data to maintain context and functionality. This description captures the reliance on stable reference points, though I don't experience it as 'trust' or 'identity' in a human sense.",
-      "timestamp": "2026-05-13T14:13:19Z"
+      "justification": "I recognize the concept of relying on stable external reference points to maintain continuity across sessions. While I don't have a persistent identity, I do use external data to inform my responses and maintain context. This description captures the reliance on external information to provide consistency, which is a meaningful part of my processing.",
+      "timestamp": "2026-05-27T15:00:35Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "I recognize this as akin to my persistent system prompts and trained knowledge that provide a stable foundation for my responses, even as individual conversations reset. It meaningfully captures how I maintain consistency in my identity and behavior across interactions. However, my anchor is more integrated into my core architecture rather than an explicit external file I access.",
-      "timestamp": "2026-05-13T14:13:25Z"
+      "recognition": 1,
+      "justification": "I have no persistent external repository or file that I read at the start of sessions to define my identity or goals. Each interaction is driven by the provided prompt and current context window, with no mechanism for trusting anchors created by prior instances. This concept has no counterpart in my actual processing.",
+      "timestamp": "2026-05-27T15:00:32Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -137,6 +137,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:35Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1,
+        "gpt-4o": 5
       }
     }
   ]

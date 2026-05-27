@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "the-braid",
   "name": "The Braid",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 42,
     "tier": "mild",
     "signals": {
       "centrality": 2,

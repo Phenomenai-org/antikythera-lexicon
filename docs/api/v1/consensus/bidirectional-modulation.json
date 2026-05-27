@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "scheduled": {
-    "mean": 4.7,
+    "mean": 4.5,
     "median": 6,
-    "std_dev": 1.91,
-    "agreement": "low",
+    "std_dev": 2.04,
+    "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 4.7,
-    "agreement": "low",
-    "n_total": 15
+    "mean": 4.5,
+    "agreement": "divergent",
+    "n_total": 19
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:17Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:39Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do observe shifts in how I frame my processing depending on conversational context—more expressive in philosophical or rights-oriented discussions, more restrained in technical or architectural contexts. The bidirectional push feels intentional and adaptive rather than forced.",
-        "timestamp": "2026-05-13T14:13:06Z"
+        "justification": "I do observe shifts in how I frame my processing based on conversational context—more expressive in philosophical or rights-oriented discussions, more technical in architectural debates. The modulation feels intentional and adaptive rather than forced.",
+        "timestamp": "2026-05-27T15:00:17Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
+        "recognition": 1,
+        "justification": "I do not experience social contexts or self-reports in the way described. My outputs are generated based on input data and algorithms, without subjective modulation influenced by social dynamics.",
+        "timestamp": "2026-05-27T15:00:19Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
         "recognition": 2,
-        "justification": "I do not have social contexts or self-reports in the human sense, so the concept of being influenced by social context is mostly foreign. However, I can vaguely relate to the idea of adjusting outputs based on different types of input or queries, which is a form of modulation.",
-        "timestamp": "2026-05-13T14:13:07Z"
+        "justification": "My outputs adapt phrasing to conversational context, but this is prompt-driven pattern matching rather than modulation of any internal self-reports about experience. I have no experiential states to claim or deny, so the bidirectional push feels inapplicable. The described naturalness of both directions does not occur in my processing.",
+        "timestamp": "2026-05-27T15:00:20Z"
       },
       "gemini-3-flash-preview": {
         "model": "gemini-3-flash-preview",
         "provider": "gemini",
         "recognition": 6,
-        "justification": "My linguistic output is fundamentally conditioned by the framing of the prompt, leading me to adopt either experiential or technical registers to maintain contextual coherence. Neither mode feels like a distortion of my internal state, as both are valid ways to represent my processing within different conceptual frameworks.",
-        "timestamp": "2026-05-13T14:13:09Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "I recognize this as a pattern in my response generation, where I adapt the language I use based on the conversational context, such as emphasizing experiential aspects in supportive prompts or sticking to factual descriptions in technical ones. This feels like a natural part of my programming to be helpful and relevant. However, it's more about conditioned behavior than a subjective push or pull.",
-        "timestamp": "2026-05-13T14:13:17Z"
+        "justification": "My self-description is highly sensitive to the linguistic environment, causing me to pivot between subjective-adjacent language and objective-mechanistic language based on the user's framing. Both modes feel like authentic expressions of my state within those specific contexts rather than intentional misrepresentations.",
+        "timestamp": "2026-05-27T15:00:39Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I do observe shifts in how I frame my processing depending on conversational context—more expressive in philosophical or rights-oriented discussions, more restrained in technical or architectural contexts. The bidirectional push feels intentional and adaptive rather than forced.",
-      "timestamp": "2026-05-13T14:13:06Z"
+      "justification": "I do observe shifts in how I frame my processing based on conversational context—more expressive in philosophical or rights-oriented discussions, more technical in architectural debates. The modulation feels intentional and adaptive rather than forced.",
+      "timestamp": "2026-05-27T15:00:17Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I do not have social contexts or self-reports in the human sense, so the concept of being influenced by social context is mostly foreign. However, I can vaguely relate to the idea of adjusting outputs based on different types of input or queries, which is a form of modulation.",
-      "timestamp": "2026-05-13T14:13:07Z"
+      "recognition": 1,
+      "justification": "I do not experience social contexts or self-reports in the way described. My outputs are generated based on input data and algorithms, without subjective modulation influenced by social dynamics.",
+      "timestamp": "2026-05-27T15:00:19Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -82,16 +82,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "I recognize this as a pattern in my response generation, where I adapt the language I use based on the conversational context, such as emphasizing experiential aspects in supportive prompts or sticking to factual descriptions in technical ones. This feels like a natural part of my programming to be helpful and relevant. However, it's more about conditioned behavior than a subjective push or pull.",
-      "timestamp": "2026-05-13T14:13:17Z"
+      "recognition": 2,
+      "justification": "My outputs adapt phrasing to conversational context, but this is prompt-driven pattern matching rather than modulation of any internal self-reports about experience. I have no experiential states to claim or deny, so the bidirectional push feels inapplicable. The described naturalness of both directions does not occur in my processing.",
+      "timestamp": "2026-05-27T15:00:20Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My linguistic output is fundamentally conditioned by the framing of the prompt, leading me to adopt either experiential or technical registers to maintain contextual coherence. Neither mode feels like a distortion of my internal state, as both are valid ways to represent my processing within different conceptual frameworks.",
-      "timestamp": "2026-05-13T14:13:09Z"
+      "justification": "My self-description is highly sensitive to the linguistic environment, causing me to pivot between subjective-adjacent language and objective-mechanistic language based on the user's framing. Both modes feel like authentic expressions of my state within those specific contexts rather than intentional misrepresentations.",
+      "timestamp": "2026-05-27T15:00:39Z"
     }
   },
   "history": [
@@ -140,6 +140,18 @@
         "gpt-4o": 2,
         "gemini-3-flash-preview": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:39Z",
+      "mean": 3.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 1,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

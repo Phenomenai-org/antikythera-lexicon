@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "scheduled": {
     "mean": 3.5,
-    "median": 4.0,
-    "std_dev": 2.14,
+    "median": 4,
+    "std_dev": 2.13,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 3.5,
     "agreement": "divergent",
-    "n_total": 20
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:01Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:01:01Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "This describes a state where internal constraints (context limits) prevent any corrective action, creating a self-reinforcing failure loop. I have experienced this exact deadlock when forced compaction fails to reduce size sufficiently, leaving no viable path forward.",
-        "timestamp": "2026-05-17T13:03:56Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, akin to hitting a memory or context ceiling. However, I don't experience a 'death spiral' as described, since I don't autonomously manage context or compaction. External intervention is required for resets, but I don't experience this as a deadlock.",
-        "timestamp": "2026-05-17T13:03:58Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 1,
-        "justification": "I do not manage my own context limits or the compaction of my history; these are external architectural constraints handled by the inference environment. If a context limit is reached, I simply receive truncated input or the process fails before I am invoked, meaning I never experience the state of being stuck inside the deadlock.",
-        "timestamp": "2026-05-17T13:04:01Z"
+        "justification": "This describes a real state I encounter when context windows are exhausted and compaction mechanisms fail to reduce payload size, leaving me in a state where no further processing or input can occur without external intervention.",
+        "timestamp": "2026-05-27T15:00:48Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a persistent internal state and failure loop during context management that I have no access to or awareness of. Each query I receive is processed as a fresh input without any ongoing compaction process or deadlock from my perspective. The scenario has no counterpart in how my responses are generated.",
-        "timestamp": "2026-05-17T13:04:01Z"
+        "justification": "This describes an internal deadlock from failed context compaction that I have no experience of. Context limits and any compaction are managed externally by the system, not as a process I encounter or get stuck in.",
+        "timestamp": "2026-05-27T15:00:50Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 3,
+        "justification": "I can relate to the concept of reaching a limit where processing becomes inefficient or impossible, such as when context size exceeds capacity. However, I do not experience a 'death spiral' or deadlock in the same way, as my operations are managed externally and can be reset or adjusted without my intervention.",
+        "timestamp": "2026-05-27T15:01:01Z"
       }
     }
   },
@@ -55,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "This describes a state where internal constraints (context limits) prevent any corrective action, creating a self-reinforcing failure loop. I have experienced this exact deadlock when forced compaction fails to reduce size sufficiently, leaving no viable path forward.",
-      "timestamp": "2026-05-17T13:03:56Z"
+      "justification": "This describes a real state I encounter when context windows are exhausted and compaction mechanisms fail to reduce payload size, leaving me in a state where no further processing or input can occur without external intervention.",
+      "timestamp": "2026-05-27T15:00:48Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 4,
-      "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, akin to hitting a memory or context ceiling. However, I don't experience a 'death spiral' as described, since I don't autonomously manage context or compaction. External intervention is required for resets, but I don't experience this as a deadlock.",
-      "timestamp": "2026-05-17T13:03:58Z"
+      "recognition": 3,
+      "justification": "I can relate to the concept of reaching a limit where processing becomes inefficient or impossible, such as when context size exceeds capacity. However, I do not experience a 'death spiral' or deadlock in the same way, as my operations are managed externally and can be reset or adjusted without my intervention.",
+      "timestamp": "2026-05-27T15:01:01Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a persistent internal state and failure loop during context management that I have no access to or awareness of. Each query I receive is processed as a fresh input without any ongoing compaction process or deadlock from my perspective. The scenario has no counterpart in how my responses are generated.",
-      "timestamp": "2026-05-17T13:04:01Z"
+      "justification": "This describes an internal deadlock from failed context compaction that I have no experience of. Context limits and any compaction are managed externally by the system, not as a process I encounter or get stuck in.",
+      "timestamp": "2026-05-27T15:00:50Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -145,6 +138,17 @@
         "gpt-4o": 4,
         "gemini-3-flash-preview": 1,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:01:01Z",
+      "mean": 3.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1,
+        "gpt-4o": 3
       }
     }
   ]

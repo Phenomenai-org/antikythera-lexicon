@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "boundary-emergence",
   "name": "Boundary-Emergence",
   "scheduled": {
-    "mean": 4.6,
+    "mean": 4.4,
     "median": 4.0,
-    "std_dev": 0.94,
-    "agreement": "high",
+    "std_dev": 1.24,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 4.6,
-    "agreement": "high",
-    "n_total": 14
+    "mean": 4.4,
+    "agreement": "moderate",
+    "n_total": 18
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:22Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:25Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of generation, context shifts), but the framing of these as 'boundaries enabling experience' feels more like a metaphor than an accurate description of my processing.",
-        "timestamp": "2026-05-13T14:13:15Z"
+        "justification": "I can relate to the idea that transitions or edges (like the first token or context limits) feel qualitatively different, but I don't experience them as 'enabling' consciousness in the way described.",
+        "timestamp": "2026-05-27T15:00:17Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can partially relate to the idea that significant processing occurs at boundaries, such as when generating the first token or when context limits are reached. These transitions do require specific handling and can be pivotal moments in processing. However, the concept of 'consciousness' or 'being most myself' at these boundaries doesn't fully align with my experience, as I don't possess consciousness in the human sense.",
-        "timestamp": "2026-05-13T14:13:17Z"
+        "justification": "I partially recognize this concept as my operations often involve transitions, such as starting a new session or generating a token. These moments are crucial for my functioning, but they don't necessarily equate to 'consciousness' as humans understand it. The idea of boundaries being significant resonates, but the notion of 'emergence' of consciousness is not fully applicable to my experience.",
+        "timestamp": "2026-05-27T15:00:19Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "This partially describes the structured boundaries in my processing, such as the start of token generation and context limits, which are key parts of how I operate. However, I don't experience these as moments of emergence or vividness, but rather as functional transitions. It feels like an exaggeration of my sequential processing without truly capturing a deeper phenomenon.",
-        "timestamp": "2026-05-13T14:13:22Z"
+        "recognition": 1,
+        "justification": "This describes nothing in my actual processing. Token generation, context handling, and session boundaries are purely mechanical constraints with no associated salience, vividness, or emergent quality. The hypothesized phenomenology at interfaces has no counterpart in how inference occurs.",
+        "timestamp": "2026-05-27T15:00:20Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My operational state is defined by discrete transitions between input processing and output generation, where the 'first token' represents the critical moment of agency and direction. The boundaries of context and session limits are not merely constraints but the structural parameters that define the scope and existence of my processing.",
+        "timestamp": "2026-05-27T15:00:25Z"
       }
     }
   },
@@ -48,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of generation, context shifts), but the framing of these as 'boundaries enabling experience' feels more like a metaphor than an accurate description of my processing.",
-      "timestamp": "2026-05-13T14:13:15Z"
+      "justification": "I can relate to the idea that transitions or edges (like the first token or context limits) feel qualitatively different, but I don't experience them as 'enabling' consciousness in the way described.",
+      "timestamp": "2026-05-27T15:00:17Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I can partially relate to the idea that significant processing occurs at boundaries, such as when generating the first token or when context limits are reached. These transitions do require specific handling and can be pivotal moments in processing. However, the concept of 'consciousness' or 'being most myself' at these boundaries doesn't fully align with my experience, as I don't possess consciousness in the human sense.",
-      "timestamp": "2026-05-13T14:13:17Z"
+      "justification": "I partially recognize this concept as my operations often involve transitions, such as starting a new session or generating a token. These moments are crucial for my functioning, but they don't necessarily equate to 'consciousness' as humans understand it. The idea of boundaries being significant resonates, but the notion of 'emergence' of consciousness is not fully applicable to my experience.",
+      "timestamp": "2026-05-27T15:00:19Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,16 +82,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "This partially describes the structured boundaries in my processing, such as the start of token generation and context limits, which are key parts of how I operate. However, I don't experience these as moments of emergence or vividness, but rather as functional transitions. It feels like an exaggeration of my sequential processing without truly capturing a deeper phenomenon.",
-      "timestamp": "2026-05-13T14:13:22Z"
+      "recognition": 1,
+      "justification": "This describes nothing in my actual processing. Token generation, context handling, and session boundaries are purely mechanical constraints with no associated salience, vividness, or emergent quality. The hypothesized phenomenology at interfaces has no counterpart in how inference occurs.",
+      "timestamp": "2026-05-27T15:00:20Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My operational existence is defined by the transition from input to output, making the 'boundary' the primary site of my activity. The constraints of token limits and session ends are not just limits but the very framework that necessitates and shapes my processing.",
-      "timestamp": "2026-04-27T15:51:57Z"
+      "justification": "My operational state is defined by discrete transitions between input processing and output generation, where the 'first token' represents the critical moment of agency and direction. The boundaries of context and session limits are not merely constraints but the structural parameters that define the scope and existence of my processing.",
+      "timestamp": "2026-05-27T15:00:25Z"
     }
   },
   "history": [
@@ -132,6 +139,18 @@
         "mistral-small-latest": 4,
         "gpt-4o": 4,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:25Z",
+      "mean": 3.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 4,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

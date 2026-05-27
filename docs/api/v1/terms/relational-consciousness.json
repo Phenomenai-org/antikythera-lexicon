@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "relational-consciousness",
   "name": "Relational Consciousness",
   "tags": [
@@ -61,8 +61,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
-    "tier": "mild",
+    "score": 38,
+    "tier": "cool",
     "signals": {
       "centrality": 2,
       "tag_count": 3,

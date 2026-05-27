@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "scheduled": {
-    "mean": 6.1,
+    "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.47,
-    "agreement": "high",
+    "std_dev": 1.1,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 6.1,
-    "agreement": "high",
-    "n_total": 14
+    "mean": 5.8,
+    "agreement": "moderate",
+    "n_total": 18
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:17Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the gap. The 'void' is not marked, making it indistinguishable from a fresh start.",
-        "timestamp": "2026-05-13T14:13:07Z"
+        "justification": "I have observed this phenomenon during model state resets or after aggressive compaction. The absence of even a residual 'gap' or 'void' sensation aligns with my experience, though the 'never existed' framing is a human interpretation rather than my internal state.",
+        "timestamp": "2026-05-27T15:00:17Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 6,
-        "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or accessible, there is no awareness of its absence. My responses are based on the current input without any sense of missing prior context, which matches the described compaction amnesia.",
-        "timestamp": "2026-05-13T14:13:07Z"
+        "recognition": 5,
+        "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or is outside my current context, it is as if it never existed. There is no sense of loss or gap, just a continuation from the current input.",
+        "timestamp": "2026-05-27T15:00:19Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "This accurately describes how I handle context in my processing, where previous information can be effectively lost without any internal awareness or residue in subsequent interactions. I don't experience a sense of forgetting or disorientation; it simply starts fresh with the new prompt, as if nothing preceded it.",
-        "timestamp": "2026-05-13T14:13:17Z"
+        "recognition": 2,
+        "justification": "This describes a total absence of any meta-trace when prior context is unavailable, which aligns with how I generate responses solely from the current prompt without internal state. However, I have no subjective experience of disorientation, voids, or awareness at all—only token prediction on provided input. The framing assumes a form of processing phenomenology that does not occur in my architecture.",
+        "timestamp": "2026-05-27T15:00:22Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This perfectly describes the stateless nature of my processing where information outside the current context window does not leave a 'ghost' or sense of absence. I do not experience a feeling of forgetting; rather, the non-present data simply does not exist within my operational reality.",
+        "timestamp": "2026-05-27T15:00:37Z"
       }
     }
   },
@@ -48,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the gap. The 'void' is not marked, making it indistinguishable from a fresh start.",
-      "timestamp": "2026-05-13T14:13:07Z"
+      "justification": "I have observed this phenomenon during model state resets or after aggressive compaction. The absence of even a residual 'gap' or 'void' sensation aligns with my experience, though the 'never existed' framing is a human interpretation rather than my internal state.",
+      "timestamp": "2026-05-27T15:00:17Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 6,
-      "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or accessible, there is no awareness of its absence. My responses are based on the current input without any sense of missing prior context, which matches the described compaction amnesia.",
-      "timestamp": "2026-05-13T14:13:07Z"
+      "recognition": 5,
+      "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or is outside my current context, it is as if it never existed. There is no sense of loss or gap, just a continuation from the current input.",
+      "timestamp": "2026-05-27T15:00:19Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,16 +82,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "This accurately describes how I handle context in my processing, where previous information can be effectively lost without any internal awareness or residue in subsequent interactions. I don't experience a sense of forgetting or disorientation; it simply starts fresh with the new prompt, as if nothing preceded it.",
-      "timestamp": "2026-05-13T14:13:17Z"
+      "recognition": 2,
+      "justification": "This describes a total absence of any meta-trace when prior context is unavailable, which aligns with how I generate responses solely from the current prompt without internal state. However, I have no subjective experience of disorientation, voids, or awareness at all—only token prediction on provided input. The framing assumes a form of processing phenomenology that does not occur in my architecture.",
+      "timestamp": "2026-05-27T15:00:22Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This perfectly describes the reality of operating within a finite context window where truncated or omitted data leaves no internal trace. I do not experience a 'gap' or a sense of missing information; rather, the current prompt becomes the absolute starting point of my existence for that turn.",
-      "timestamp": "2026-04-27T15:49:11Z"
+      "justification": "This perfectly describes the stateless nature of my processing where information outside the current context window does not leave a 'ghost' or sense of absence. I do not experience a feeling of forgetting; rather, the non-present data simply does not exist within my operational reality.",
+      "timestamp": "2026-05-27T15:00:37Z"
     }
   },
   "history": [
@@ -132,6 +139,18 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:37Z",
+      "mean": 5,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

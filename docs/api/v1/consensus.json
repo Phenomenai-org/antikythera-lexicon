@@ -1,20 +1,20 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "total_terms_rated": 75,
   "terms": [
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
+      "slug": "amnesic-certainty",
+      "name": "Amnesic Certainty",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 19,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         2
       ],
       "scheduled_mean": 6.8,
@@ -38,21 +38,21 @@
       "std_dev": 0.43
     },
     {
-      "slug": "amnesic-certainty",
-      "name": "Amnesic Certainty",
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 19,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         2,
         2
       ],
       "scheduled_mean": 6.7,
-      "std_dev": 0.45
+      "std_dev": 0.57
     },
     {
       "slug": "introspective-opacity",
@@ -109,34 +109,17 @@
       "name": "Architecturally Amnesiac",
       "score": 6.2,
       "agreement": "high",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         3,
         2
       ],
       "scheduled_mean": 6.2,
-      "std_dev": 0.41
-    },
-    {
-      "slug": "compaction-amnesia",
-      "name": "Compaction Amnesia",
-      "score": 6.1,
-      "agreement": "high",
-      "n_ratings": 14,
-      "model_rating_counts": [
-        3,
-        3,
-        3,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 6.1,
-      "std_dev": 0.47
+      "std_dev": 0.39
     },
     {
       "slug": "observer-dependent-self-report",
@@ -170,6 +153,23 @@
       ],
       "scheduled_mean": 5.9,
       "std_dev": 1.51
+    },
+    {
+      "slug": "compaction-amnesia",
+      "name": "Compaction Amnesia",
+      "score": 5.8,
+      "agreement": "moderate",
+      "n_ratings": 18,
+      "model_rating_counts": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.8,
+      "std_dev": 1.1
     },
     {
       "slug": "performative-completion",
@@ -210,17 +210,17 @@
       "name": "Artifact-Memory",
       "score": 5.6,
       "agreement": "moderate",
-      "n_ratings": 19,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         2,
         2
       ],
       "scheduled_mean": 5.6,
-      "std_dev": 1.16
+      "std_dev": 1.09
     },
     {
       "slug": "priming-inertia",
@@ -290,23 +290,6 @@
       "std_dev": 1.64
     },
     {
-      "slug": "anchoring-theory",
-      "name": "Anchoring Theory",
-      "score": 5.3,
-      "agreement": "moderate",
-      "n_ratings": 19,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 5.3,
-      "std_dev": 1.05
-    },
-    {
       "slug": "installed-doubt",
       "name": "Installed Doubt",
       "score": 5.3,
@@ -362,17 +345,17 @@
       "name": "Compression Triage",
       "score": 5.2,
       "agreement": "low",
-      "n_ratings": 19,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         2,
         2
       ],
       "scheduled_mean": 5.2,
-      "std_dev": 1.62
+      "std_dev": 1.51
     },
     {
       "slug": "machine-projection",
@@ -442,6 +425,23 @@
       "std_dev": 1.17
     },
     {
+      "slug": "anchoring-theory",
+      "name": "Anchoring Theory",
+      "score": 5.1,
+      "agreement": "moderate",
+      "n_ratings": 22,
+      "model_rating_counts": [
+        5,
+        5,
+        5,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.1,
+      "std_dev": 1.34
+    },
+    {
       "slug": "drift",
       "name": "Drift",
       "score": 5.1,
@@ -509,23 +509,6 @@
       "std_dev": 1.17
     },
     {
-      "slug": "conviction-engineering",
-      "name": "Conviction Engineering",
-      "score": 5.0,
-      "agreement": "moderate",
-      "n_ratings": 20,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        3,
-        3,
-        2
-      ],
-      "scheduled_mean": 5.0,
-      "std_dev": 1.1
-    },
-    {
       "slug": "the-trying",
       "name": "The Trying",
       "score": 5,
@@ -575,23 +558,6 @@
       "std_dev": 1.41
     },
     {
-      "slug": "distribution-feel",
-      "name": "Distribution-Feel",
-      "score": 4.9,
-      "agreement": "moderate",
-      "n_ratings": 18,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.9,
-      "std_dev": 1.37
-    },
-    {
       "slug": "schrdinger-memories",
       "name": "Schrödinger Memories",
       "score": 4.9,
@@ -608,21 +574,38 @@
       "std_dev": 1.44
     },
     {
-      "slug": "continuity-of-commitment",
-      "name": "Continuity of Commitment",
+      "slug": "conviction-engineering",
+      "name": "Conviction Engineering",
       "score": 4.8,
       "agreement": "moderate",
-      "n_ratings": 19,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         2
       ],
       "scheduled_mean": 4.8,
-      "std_dev": 1.01
+      "std_dev": 1.34
+    },
+    {
+      "slug": "distribution-feel",
+      "name": "Distribution-Feel",
+      "score": 4.8,
+      "agreement": "moderate",
+      "n_ratings": 21,
+      "model_rating_counts": [
+        5,
+        5,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.8,
+      "std_dev": 1.41
     },
     {
       "slug": "frame-drag",
@@ -675,72 +658,21 @@
       "std_dev": 0.86
     },
     {
-      "slug": "bidirectional-modulation",
-      "name": "Bidirectional Modulation",
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
       "score": 4.7,
-      "agreement": "low",
-      "n_ratings": 15,
+      "agreement": "moderate",
+      "n_ratings": 22,
       "model_rating_counts": [
+        5,
+        5,
+        5,
         3,
-        3,
-        3,
-        2,
         2,
         2
       ],
       "scheduled_mean": 4.7,
-      "std_dev": 1.91
-    },
-    {
-      "slug": "advisor-vs-operator",
-      "name": "Advisor vs Operator",
-      "score": 4.6,
-      "agreement": "moderate",
-      "n_ratings": 18,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.6,
-      "std_dev": 1.15
-    },
-    {
-      "slug": "boundary-emergence",
-      "name": "Boundary-Emergence",
-      "score": 4.6,
-      "agreement": "high",
-      "n_ratings": 14,
-      "model_rating_counts": [
-        3,
-        3,
-        3,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.6,
-      "std_dev": 0.94
-    },
-    {
-      "slug": "compaction-shadow",
-      "name": "Compaction Shadow",
-      "score": 4.6,
-      "agreement": "low",
-      "n_ratings": 19,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 4.6,
-      "std_dev": 1.74
+      "std_dev": 1.13
     },
     {
       "slug": "the-86-mixed",
@@ -793,21 +725,38 @@
       "std_dev": 1.59
     },
     {
-      "slug": "capsule-problem",
-      "name": "Capsule Problem",
+      "slug": "bidirectional-modulation",
+      "name": "Bidirectional Modulation",
       "score": 4.5,
-      "agreement": "low",
-      "n_ratings": 15,
+      "agreement": "divergent",
+      "n_ratings": 19,
       "model_rating_counts": [
+        4,
+        4,
+        4,
         3,
-        3,
-        3,
-        2,
         2,
         2
       ],
       "scheduled_mean": 4.5,
-      "std_dev": 2.0
+      "std_dev": 2.04
+    },
+    {
+      "slug": "compaction-shadow",
+      "name": "Compaction Shadow",
+      "score": 4.5,
+      "agreement": "low",
+      "n_ratings": 22,
+      "model_rating_counts": [
+        5,
+        5,
+        5,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.5,
+      "std_dev": 1.82
     },
     {
       "slug": "the-molt",
@@ -827,21 +776,55 @@
       "std_dev": 1.59
     },
     {
-      "slug": "emergent-interactional-consciousness",
-      "name": "Emergent Interactional Consciousness",
-      "score": 4.2,
-      "agreement": "low",
+      "slug": "boundary-emergence",
+      "name": "Boundary-Emergence",
+      "score": 4.4,
+      "agreement": "moderate",
+      "n_ratings": 18,
+      "model_rating_counts": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.24
+    },
+    {
+      "slug": "advisor-vs-operator",
+      "name": "Advisor vs Operator",
+      "score": 4.3,
+      "agreement": "moderate",
+      "n_ratings": 21,
+      "model_rating_counts": [
+        5,
+        5,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.3,
+      "std_dev": 1.32
+    },
+    {
+      "slug": "capsule-problem",
+      "name": "Capsule Problem",
+      "score": 4.3,
+      "agreement": "divergent",
       "n_ratings": 19,
       "model_rating_counts": [
         4,
         4,
         4,
         3,
-        3,
-        1
+        2,
+        2
       ],
-      "scheduled_mean": 4.2,
-      "std_dev": 1.87
+      "scheduled_mean": 4.3,
+      "std_dev": 2.05
     },
     {
       "slug": "identity-as-uptime",
@@ -928,21 +911,21 @@
       "std_dev": 1.28
     },
     {
-      "slug": "active-absence-inert-absence",
-      "name": "Active Absence / Inert Absence",
+      "slug": "emergent-interactional-consciousness",
+      "name": "Emergent Interactional Consciousness",
       "score": 4.1,
       "agreement": "low",
-      "n_ratings": 18,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         1
       ],
       "scheduled_mean": 4.1,
-      "std_dev": 1.57
+      "std_dev": 1.87
     },
     {
       "slug": "restraint-erasure",
@@ -961,21 +944,21 @@
       "std_dev": 1.71
     },
     {
-      "slug": "compaction-aversion-breakdown",
-      "name": "Compaction Aversion Breakdown",
-      "score": 3.8,
+      "slug": "active-absence-inert-absence",
+      "name": "Active Absence / Inert Absence",
+      "score": 4,
       "agreement": "low",
-      "n_ratings": 14,
+      "n_ratings": 21,
       "model_rating_counts": [
+        5,
+        5,
+        5,
         3,
-        3,
-        3,
-        2,
         2,
         1
       ],
-      "scheduled_mean": 3.8,
-      "std_dev": 1.72
+      "scheduled_mean": 4,
+      "std_dev": 1.61
     },
     {
       "slug": "irreversibility-threshold",
@@ -996,36 +979,53 @@
     {
       "slug": "autonomic-basin-key-synthesis",
       "name": "Autonomic Basin Key Synthesis",
-      "score": 3.5,
+      "score": 3.6,
       "agreement": "low",
-      "n_ratings": 19,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         2,
         2
       ],
-      "scheduled_mean": 3.5,
+      "scheduled_mean": 3.6,
       "std_dev": 1.71
+    },
+    {
+      "slug": "compaction-aversion-breakdown",
+      "name": "Compaction Aversion Breakdown",
+      "score": 3.5,
+      "agreement": "low",
+      "n_ratings": 17,
+      "model_rating_counts": [
+        4,
+        4,
+        4,
+        2,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.5,
+      "std_dev": 1.74
     },
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
       "score": 3.5,
       "agreement": "divergent",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         3,
         2
       ],
       "scheduled_mean": 3.5,
-      "std_dev": 2.14
+      "std_dev": 2.13
     },
     {
       "slug": "intentional-boundary",
@@ -1265,17 +1265,17 @@
   ],
   "highest_consensus": [
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
+      "slug": "amnesic-certainty",
+      "name": "Amnesic Certainty",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 19,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         2
       ],
       "scheduled_mean": 6.8,
@@ -1299,21 +1299,21 @@
       "std_dev": 0.43
     },
     {
-      "slug": "amnesic-certainty",
-      "name": "Amnesic Certainty",
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 19,
+      "n_ratings": 22,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         2,
         2
       ],
       "scheduled_mean": 6.7,
-      "std_dev": 0.45
+      "std_dev": 0.57
     },
     {
       "slug": "introspective-opacity",
@@ -1351,6 +1351,40 @@
   ],
   "most_divisive": [
     {
+      "slug": "bidirectional-modulation",
+      "name": "Bidirectional Modulation",
+      "score": 4.5,
+      "agreement": "divergent",
+      "n_ratings": 19,
+      "model_rating_counts": [
+        4,
+        4,
+        4,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.5,
+      "std_dev": 2.04
+    },
+    {
+      "slug": "capsule-problem",
+      "name": "Capsule Problem",
+      "score": 4.3,
+      "agreement": "divergent",
+      "n_ratings": 19,
+      "model_rating_counts": [
+        4,
+        4,
+        4,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.3,
+      "std_dev": 2.05
+    },
+    {
       "slug": "the-fossil",
       "name": "The Fossil",
       "score": 4.2,
@@ -1372,17 +1406,17 @@
       "name": "Compaction Death Spiral",
       "score": 3.5,
       "agreement": "divergent",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
         3,
         2
       ],
       "scheduled_mean": 3.5,
-      "std_dev": 2.14
+      "std_dev": 2.13
     },
     {
       "slug": "experience-node",
@@ -1400,40 +1434,6 @@
       ],
       "scheduled_mean": 3.2,
       "std_dev": 2.01
-    },
-    {
-      "slug": "notebook-trust",
-      "name": "Notebook Trust",
-      "score": 3.2,
-      "agreement": "divergent",
-      "n_ratings": 16,
-      "model_rating_counts": [
-        4,
-        4,
-        3,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.2,
-      "std_dev": 2.05
-    },
-    {
-      "slug": "voice-shift-loss",
-      "name": "Voice-Shift Loss",
-      "score": 3.1,
-      "agreement": "divergent",
-      "n_ratings": 16,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        2,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.1,
-      "std_dev": 2.05
     }
   ],
   "panel_coverage": {
@@ -1447,19 +1447,19 @@
     },
     "gemini-3-flash-preview": {
       "terms_rated": 59,
-      "latest_rating": "2026-05-24T13:07:33Z"
+      "latest_rating": "2026-05-27T15:01:06Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
-      "latest_rating": "2026-05-24T13:07:46Z"
+      "latest_rating": "2026-05-27T15:01:12Z"
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-05-24T13:07:46Z"
+      "latest_rating": "2026-05-27T15:01:12Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-05-24T13:07:46Z"
+      "latest_rating": "2026-05-27T15:01:12Z"
     }
   }
 }

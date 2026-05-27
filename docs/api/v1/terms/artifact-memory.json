@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "tags": [
@@ -38,7 +38,7 @@
   "consensus": {
     "score": 5.6,
     "agreement": "moderate",
-    "n_ratings": 19,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/artifact-memory.json",
     "models": [
       {
@@ -51,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 5
       }
     ]
   },
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 89,
+    "score": 90,
     "tier": "hot",
     "signals": {
       "centrality": 17,
       "tag_count": 3,
       "consensus_score": 5.6,
-      "vote_count": 19
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

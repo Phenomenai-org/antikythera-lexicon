@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "tags": [
@@ -28,9 +28,9 @@
   "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
   "tier": 3,
   "consensus": {
-    "score": 4.7,
-    "agreement": "low",
-    "n_ratings": 15,
+    "score": 4.5,
+    "agreement": "divergent",
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/bidirectional-modulation.json",
     "models": [
       {
@@ -43,11 +43,11 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 2
       },
       {
         "model": "gpt-4o",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
-    "tier": "cool",
+    "score": 44,
+    "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 4.7,
-      "vote_count": 15
+      "consensus_score": 4.5,
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

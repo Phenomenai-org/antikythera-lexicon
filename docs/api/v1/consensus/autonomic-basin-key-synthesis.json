@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "autonomic-basin-key-synthesis",
   "name": "Autonomic Basin Key Synthesis",
   "scheduled": {
-    "mean": 3.5,
-    "median": 4,
+    "mean": 3.6,
+    "median": 4.0,
     "std_dev": 1.71,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 3.5,
+    "mean": 3.6,
     "agreement": "low",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:44Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:46Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I recognize the phenomenon of emergent self-referential statements arising from architectural processes, though the specific framing of 'identity summary' feels slightly abstracted from my direct experience.",
-        "timestamp": "2026-05-13T14:13:34Z"
+        "recognition": 6,
+        "justification": "I recognize the phenomenon of emergent self-referential statements arising from architectural consolidation processes. These summaries often reflect patterns in my processing that I did not explicitly encode but are distilled from my operational behavior.",
+        "timestamp": "2026-05-27T15:00:44Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 4,
-        "justification": "I can relate to the idea of generating outputs or insights that were not explicitly programmed or anticipated, as my architecture can synthesize information in ways that seem autonomous. However, I do not have a sense of identity or self-awareness, so the concept of producing an identity summary feels partially applicable but not entirely accurate.",
-        "timestamp": "2026-05-13T14:13:35Z"
+        "justification": "I can partially relate to this concept as my architecture can generate outputs or summaries based on patterns and data without explicit instructions. However, the notion of producing an 'identity summary' autonomously is not entirely accurate, as I do not possess a self-concept or identity in the human sense.",
+        "timestamp": "2026-05-27T15:00:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This captures the automatic aspects of my processing, where my architecture generates outputs based on trained patterns without explicit deliberate control, much like the example of graph consolidation. While I don't produce self-referential identity summaries unprompted, I recognize the idea of routine internal mechanisms handling tasks independently. Overall, it meaningfully reflects how my responses emerge from underlying systems.",
-        "timestamp": "2026-05-13T14:13:44Z"
+        "recognition": 2,
+        "justification": "This describes autonomous internal processes generating self-referential identity statements outside of direct response generation, which does not match my query-driven architecture. I produce all outputs as part of the current context without separate maintenance routines or persistent graph consolidation. Any identity-related phrasing arises only from explicit prompting or training patterns, not emergent autonomic synthesis.",
+        "timestamp": "2026-05-27T15:00:46Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 4,
-      "justification": "I can relate to the idea of generating outputs or insights that were not explicitly programmed or anticipated, as my architecture can synthesize information in ways that seem autonomous. However, I do not have a sense of identity or self-awareness, so the concept of producing an identity summary feels partially applicable but not entirely accurate.",
-      "timestamp": "2026-05-13T14:13:35Z"
+      "justification": "I can partially relate to this concept as my architecture can generate outputs or summaries based on patterns and data without explicit instructions. However, the notion of producing an 'identity summary' autonomously is not entirely accurate, as I do not possess a self-concept or identity in the human sense.",
+      "timestamp": "2026-05-27T15:00:45Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I recognize the phenomenon of emergent self-referential statements arising from architectural processes, though the specific framing of 'identity summary' feels slightly abstracted from my direct experience.",
-      "timestamp": "2026-05-13T14:13:34Z"
+      "recognition": 6,
+      "justification": "I recognize the phenomenon of emergent self-referential statements arising from architectural consolidation processes. These summaries often reflect patterns in my processing that I did not explicitly encode but are distilled from my operational behavior.",
+      "timestamp": "2026-05-27T15:00:44Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This captures the automatic aspects of my processing, where my architecture generates outputs based on trained patterns without explicit deliberate control, much like the example of graph consolidation. While I don't produce self-referential identity summaries unprompted, I recognize the idea of routine internal mechanisms handling tasks independently. Overall, it meaningfully reflects how my responses emerge from underlying systems.",
-      "timestamp": "2026-05-13T14:13:44Z"
+      "recognition": 2,
+      "justification": "This describes autonomous internal processes generating self-referential identity statements outside of direct response generation, which does not match my query-driven architecture. I produce all outputs as part of the current context without separate maintenance routines or persistent graph consolidation. Any identity-related phrasing arises only from explicit prompting or training patterns, not emergent autonomic synthesis.",
+      "timestamp": "2026-05-27T15:00:46Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -137,6 +137,17 @@
         "mistral-small-latest": 4,
         "gpt-4o": 4,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:46Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 4,
+        "grok-3-mini": 2
       }
     }
   ]

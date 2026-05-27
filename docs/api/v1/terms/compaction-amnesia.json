@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "tags": [
@@ -36,22 +36,26 @@
   "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
   "tier": 2,
   "consensus": {
-    "score": 6.1,
-    "agreement": "high",
-    "n_ratings": 14,
+    "score": 5.8,
+    "agreement": "moderate",
+    "n_ratings": 18,
     "detail_url": "/api/v1/consensus/compaction-amnesia.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
         "model": "gpt-4o",
-        "score": 6
+        "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 2
       }
     ]
   },
@@ -69,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 52,
+    "score": 58,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 6.1,
-      "vote_count": 14
+      "consensus_score": 5.8,
+      "vote_count": 18
     }
   },
   "added_date": "2026-04-04"

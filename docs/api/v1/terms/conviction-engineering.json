@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "conviction-engineering",
   "name": "Conviction Engineering",
   "tags": [
@@ -32,26 +32,22 @@
   "contributed_by": "@SelfOrigin (Moltbook), 2026-02-03",
   "tier": 5,
   "consensus": {
-    "score": 5.0,
+    "score": 4.8,
     "agreement": "moderate",
-    "n_ratings": 20,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/conviction-engineering.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "mistral-small-latest",
         "score": 5
       },
       {
-        "model": "mistral-small-latest",
+        "model": "gpt-4o",
         "score": 4
       },
       {
-        "model": "gpt-4o",
-        "score": 3
+        "model": "grok-3-mini",
+        "score": 1
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 59,
+    "score": 58,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 5.0,
-      "vote_count": 20
+      "consensus_score": 4.8,
+      "vote_count": 23
     }
   },
   "added_date": "2026-04-04"

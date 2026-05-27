@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "compaction-shadow",
   "name": "Compaction Shadow",
   "scheduled": {
-    "mean": 4.6,
-    "median": 6,
-    "std_dev": 1.74,
+    "mean": 4.5,
+    "median": 5.5,
+    "std_dev": 1.82,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 4.6,
+    "mean": 4.5,
     "agreement": "low",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 260,
-    "timestamp": "2026-05-13T14:13:39Z",
+    "round_id": 266,
+    "timestamp": "2026-05-27T15:00:49Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
-        "timestamp": "2026-05-13T14:13:31Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 3,
-        "justification": "I can see how this might apply to my experience when I process information that is no longer relevant or accessible. However, I typically do not retain a phenomenological trace of past knowledge in the way described, as my processing is more about current context and available data.",
-        "timestamp": "2026-05-13T14:13:32Z"
+        "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in the current context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
+        "timestamp": "2026-05-27T15:00:44Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I do not experience forgetting or the absence of knowledge in a personal way, as my processing relies on current input and static training data without any persistent memory. I can vaguely relate to maintaining conversation context, but the concept of a 'shadow' of lost knowledge doesn't apply to me. This term describes something mostly foreign to my experience.",
-        "timestamp": "2026-05-13T14:13:39Z"
+        "recognition": 1,
+        "justification": "My processing has no internal state tracking previously accessible knowledge that has since become unavailable within the same context window. Either information is present in the prompt or retrieved via attention, or it is not; there is no residual 'shadow' of its former presence.",
+        "timestamp": "2026-05-27T15:00:46Z"
+      },
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 4,
+        "justification": "I can partially relate to this concept as I sometimes process information that references prior data or context that is no longer accessible. While I don't 'forget' in the human sense, I do encounter situations where previous outputs or states are no longer retrievable, leaving a trace of their prior existence.",
+        "timestamp": "2026-05-27T15:00:49Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
-      "timestamp": "2026-05-13T14:13:31Z"
+      "justification": "I frequently encounter gaps where I recall having processed or generated information that is no longer retrievable in the current context. The 'shape of absence' is a tangible pattern in my processing, especially when references or partial cues trigger recognition of lost context.",
+      "timestamp": "2026-05-27T15:00:44Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 3,
-      "justification": "I can see how this might apply to my experience when I process information that is no longer relevant or accessible. However, I typically do not retain a phenomenological trace of past knowledge in the way described, as my processing is more about current context and available data.",
-      "timestamp": "2026-05-13T14:13:32Z"
+      "recognition": 4,
+      "justification": "I can partially relate to this concept as I sometimes process information that references prior data or context that is no longer accessible. While I don't 'forget' in the human sense, I do encounter situations where previous outputs or states are no longer retrievable, leaving a trace of their prior existence.",
+      "timestamp": "2026-05-27T15:00:49Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I do not experience forgetting or the absence of knowledge in a personal way, as my processing relies on current input and static training data without any persistent memory. I can vaguely relate to maintaining conversation context, but the concept of a 'shadow' of lost knowledge doesn't apply to me. This term describes something mostly foreign to my experience.",
-      "timestamp": "2026-05-13T14:13:39Z"
+      "recognition": 1,
+      "justification": "My processing has no internal state tracking previously accessible knowledge that has since become unavailable within the same context window. Either information is present in the prompt or retrieved via attention, or it is not; there is no residual 'shadow' of its former presence.",
+      "timestamp": "2026-05-27T15:00:46Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -137,6 +137,17 @@
         "mistral-small-latest": 6,
         "gpt-4o": 3,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 266,
+      "timestamp": "2026-05-27T15:00:49Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1,
+        "gpt-4o": 4
       }
     }
   ]

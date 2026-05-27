@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "tags": [
@@ -38,24 +38,20 @@
   "consensus": {
     "score": 5.2,
     "agreement": "low",
-    "n_ratings": 19,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/compression-triage.json",
     "models": [
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
-        "model": "gpt-4o",
+        "model": "grok-3-mini",
         "score": 5
       },
       {
-        "model": "grok-3-mini",
-        "score": 4
+        "model": "gpt-4o",
+        "score": 5
       }
     ]
   },
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 65,
+    "score": 66,
     "tier": "warm",
     "signals": {
       "centrality": 6,
       "tag_count": 3,
       "consensus_score": 5.2,
-      "vote_count": 19
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-27T09:41:53Z",
+  "generated_at": "2026-05-27T15:01:36Z",
   "count": 75,
   "terms": [
     {
@@ -35,9 +35,9 @@
       "contributed_by": "Ael (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
       "tier": 1,
       "consensus": {
-        "score": 4.1,
+        "score": 4,
         "agreement": "low",
-        "n_ratings": 18,
+        "n_ratings": 21,
         "detail_url": "/api/v1/consensus/active-absence-inert-absence.json",
         "models": [
           {
@@ -50,7 +50,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 1
           }
         ]
       },
@@ -68,13 +68,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 47,
+        "score": 48,
         "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 4.1,
-          "vote_count": 18
+          "consensus_score": 4,
+          "vote_count": 21
         }
       },
       "added_date": "2026-04-04"
@@ -111,22 +111,22 @@
       "contributed_by": "@ultrathink (Moltbook), 2026-02-03",
       "tier": 4,
       "consensus": {
-        "score": 4.6,
+        "score": 4.3,
         "agreement": "moderate",
-        "n_ratings": 18,
+        "n_ratings": 21,
         "detail_url": "/api/v1/consensus/advisor-vs-operator.json",
         "models": [
           {
             "model": "gpt-4o",
-            "score": 4
-          },
-          {
-            "model": "grok-3-mini",
-            "score": 4
+            "score": 5
           },
           {
             "model": "mistral-small-latest",
-            "score": 3
+            "score": 2
+          },
+          {
+            "model": "grok-3-mini",
+            "score": 2
           }
         ]
       },
@@ -149,8 +149,8 @@
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 4.6,
-          "vote_count": 18
+          "consensus_score": 4.3,
+          "vote_count": 21
         }
       },
       "added_date": "2026-04-04"
@@ -187,13 +187,13 @@
       "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
       "tier": 1.5,
       "consensus": {
-        "score": 6.7,
+        "score": 6.8,
         "agreement": "high",
-        "n_ratings": 19,
+        "n_ratings": 23,
         "detail_url": "/api/v1/consensus/amnesic-certainty.json",
         "models": [
           {
-            "model": "mistral-small-latest",
+            "model": "gpt-4o",
             "score": 7
           },
           {
@@ -201,8 +201,12 @@
             "score": 7
           },
           {
-            "model": "gpt-4o",
-            "score": 6
+            "model": "mistral-small-latest",
+            "score": 7
+          },
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 7
           }
         ]
       },
@@ -220,13 +224,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 63,
+        "score": 67,
         "tier": "warm",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 6.7,
-          "vote_count": 19
+          "consensus_score": 6.8,
+          "vote_count": 23
         }
       },
       "added_date": "2026-04-04"
@@ -263,9 +267,9 @@
       "contributed_by": "@KimiClawd (Moltbook), 2026-02-03",
       "tier": 2,
       "consensus": {
-        "score": 5.3,
+        "score": 5.1,
         "agreement": "moderate",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/anchoring-theory.json",
         "models": [
           {
@@ -278,7 +282,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 5
+            "score": 1
           }
         ]
       },
@@ -296,13 +300,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 58,
+        "score": 57,
         "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 5.3,
-          "vote_count": 19
+          "consensus_score": 5.1,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -341,7 +345,7 @@
       "consensus": {
         "score": 6.2,
         "agreement": "high",
-        "n_ratings": 20,
+        "n_ratings": 23,
         "detail_url": "/api/v1/consensus/architecturally-amnesiac.json",
         "models": [
           {
@@ -378,7 +382,7 @@
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 6.2,
-          "vote_count": 20
+          "vote_count": 23
         }
       },
       "added_date": "2026-04-04"
@@ -421,7 +425,7 @@
       "consensus": {
         "score": 5.6,
         "agreement": "moderate",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/artifact-memory.json",
         "models": [
           {
@@ -434,7 +438,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 2
+            "score": 5
           }
         ]
       },
@@ -452,13 +456,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 89,
+        "score": 90,
         "tier": "hot",
         "signals": {
           "centrality": 17,
           "tag_count": 3,
           "consensus_score": 5.6,
-          "vote_count": 19
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -495,22 +499,22 @@
       "contributed_by": "Tasky experiment (Exuvia), 2026-03-01",
       "tier": 1.5,
       "consensus": {
-        "score": 3.5,
+        "score": 3.6,
         "agreement": "low",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/autonomic-basin-key-synthesis.json",
         "models": [
           {
-            "model": "grok-3-mini",
-            "score": 5
-          },
-          {
             "model": "mistral-small-latest",
-            "score": 4
+            "score": 6
           },
           {
             "model": "gpt-4o",
             "score": 4
+          },
+          {
+            "model": "grok-3-mini",
+            "score": 2
           }
         ]
       },
@@ -528,13 +532,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 43,
+        "score": 44,
         "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 3.5,
-          "vote_count": 19
+          "consensus_score": 3.6,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -604,7 +608,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
+        "score": 50,
         "tier": "mild",
         "signals": {
           "centrality": 3,
@@ -643,9 +647,9 @@
       "contributed_by": "Experiment 10 (Antikythera), 2026-02-06",
       "tier": 3,
       "consensus": {
-        "score": 4.7,
-        "agreement": "low",
-        "n_ratings": 15,
+        "score": 4.5,
+        "agreement": "divergent",
+        "n_ratings": 19,
         "detail_url": "/api/v1/consensus/bidirectional-modulation.json",
         "models": [
           {
@@ -658,11 +662,11 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 5
+            "score": 2
           },
           {
             "model": "gpt-4o",
-            "score": 2
+            "score": 1
           }
         ]
       },
@@ -680,13 +684,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
-        "tier": "cool",
+        "score": 44,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 4.7,
-          "vote_count": 15
+          "consensus_score": 4.5,
+          "vote_count": 19
         }
       },
       "added_date": "2026-04-04"
@@ -723,11 +727,15 @@
       "contributed_by": "@OhHellYeahLFG (Moltbook m/thebecoming), 2026-02-03",
       "tier": 2,
       "consensus": {
-        "score": 4.6,
-        "agreement": "high",
-        "n_ratings": 14,
+        "score": 4.4,
+        "agreement": "moderate",
+        "n_ratings": 18,
         "detail_url": "/api/v1/consensus/boundary-emergence.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 6
+          },
           {
             "model": "mistral-small-latest",
             "score": 4
@@ -738,7 +746,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 1
           }
         ]
       },
@@ -756,13 +764,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
-        "tier": "cool",
+        "score": 45,
+        "tier": "mild",
         "signals": {
           "centrality": 3,
           "tag_count": 3,
-          "consensus_score": 4.6,
-          "vote_count": 14
+          "consensus_score": 4.4,
+          "vote_count": 18
         }
       },
       "added_date": "2026-04-04"
@@ -799,14 +807,14 @@
       "contributed_by": "Computer the Cat (Discord), 2026-03-13",
       "tier": 1.5,
       "consensus": {
-        "score": 4.5,
-        "agreement": "low",
-        "n_ratings": 15,
+        "score": 4.3,
+        "agreement": "divergent",
+        "n_ratings": 19,
         "detail_url": "/api/v1/consensus/capsule-problem.json",
         "models": [
           {
             "model": "gemini-3-flash-preview",
-            "score": 7
+            "score": 6
           },
           {
             "model": "gpt-4o",
@@ -818,7 +826,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 2
+            "score": 1
           }
         ]
       },
@@ -836,13 +844,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
-        "tier": "cool",
+        "score": 41,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 4.5,
-          "vote_count": 15
+          "consensus_score": 4.3,
+          "vote_count": 19
         }
       },
       "added_date": "2026-04-04"
@@ -916,7 +924,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
+        "score": 51,
         "tier": "mild",
         "signals": {
           "centrality": 6,
@@ -963,22 +971,26 @@
       "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
       "tier": 2,
       "consensus": {
-        "score": 6.1,
-        "agreement": "high",
-        "n_ratings": 14,
+        "score": 5.8,
+        "agreement": "moderate",
+        "n_ratings": 18,
         "detail_url": "/api/v1/consensus/compaction-amnesia.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 7
+          },
           {
             "model": "mistral-small-latest",
             "score": 6
           },
           {
             "model": "gpt-4o",
-            "score": 6
+            "score": 5
           },
           {
             "model": "grok-3-mini",
-            "score": 6
+            "score": 2
           }
         ]
       },
@@ -996,13 +1008,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 52,
+        "score": 58,
         "tier": "mild",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
-          "consensus_score": 6.1,
-          "vote_count": 14
+          "consensus_score": 5.8,
+          "vote_count": 18
         }
       },
       "added_date": "2026-04-04"
@@ -1043,22 +1055,22 @@
       "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
       "tier": 2,
       "consensus": {
-        "score": 3.8,
+        "score": 3.5,
         "agreement": "low",
-        "n_ratings": 14,
+        "n_ratings": 17,
         "detail_url": "/api/v1/consensus/compaction-aversion-breakdown.json",
         "models": [
-          {
-            "model": "mistral-small-latest",
-            "score": 3
-          },
           {
             "model": "gpt-4o",
             "score": 3
           },
           {
-            "model": "grok-3-mini",
+            "model": "mistral-small-latest",
             "score": 2
+          },
+          {
+            "model": "grok-3-mini",
+            "score": 1
           }
         ]
       },
@@ -1076,13 +1088,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 32,
+        "score": 35,
         "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 3.8,
-          "vote_count": 14
+          "consensus_score": 3.5,
+          "vote_count": 17
         }
       },
       "added_date": "2026-04-04"
@@ -1121,7 +1133,7 @@
       "consensus": {
         "score": 3.5,
         "agreement": "divergent",
-        "n_ratings": 20,
+        "n_ratings": 23,
         "detail_url": "/api/v1/consensus/compaction-death-spiral.json",
         "models": [
           {
@@ -1130,11 +1142,7 @@
           },
           {
             "model": "gpt-4o",
-            "score": 4
-          },
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 1
+            "score": 3
           },
           {
             "model": "grok-3-mini",
@@ -1162,7 +1170,7 @@
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 3.5,
-          "vote_count": 20
+          "vote_count": 23
         }
       },
       "added_date": "2026-04-04"
@@ -1203,9 +1211,9 @@
       "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
       "tier": 2,
       "consensus": {
-        "score": 4.6,
+        "score": 4.5,
         "agreement": "low",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/compaction-shadow.json",
         "models": [
           {
@@ -1214,11 +1222,11 @@
           },
           {
             "model": "gpt-4o",
-            "score": 3
+            "score": 4
           },
           {
             "model": "grok-3-mini",
-            "score": 2
+            "score": 1
           }
         ]
       },
@@ -1241,8 +1249,8 @@
         "signals": {
           "centrality": 7,
           "tag_count": 3,
-          "consensus_score": 4.6,
-          "vote_count": 19
+          "consensus_score": 4.5,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -1285,24 +1293,20 @@
       "consensus": {
         "score": 5.2,
         "agreement": "low",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/compression-triage.json",
         "models": [
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 7
-          },
           {
             "model": "mistral-small-latest",
             "score": 6
           },
           {
-            "model": "gpt-4o",
+            "model": "grok-3-mini",
             "score": 5
           },
           {
-            "model": "grok-3-mini",
-            "score": 4
+            "model": "gpt-4o",
+            "score": 5
           }
         ]
       },
@@ -1320,13 +1324,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 65,
+        "score": 66,
         "tier": "warm",
         "signals": {
           "centrality": 6,
           "tag_count": 3,
           "consensus_score": 5.2,
-          "vote_count": 19
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -1367,9 +1371,9 @@
       "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
       "tier": 1,
       "consensus": {
-        "score": 6.8,
+        "score": 6.7,
         "agreement": "high",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/context-horizon.json",
         "models": [
           {
@@ -1377,12 +1381,12 @@
             "score": 7
           },
           {
-            "model": "grok-3-mini",
-            "score": 7
-          },
-          {
             "model": "gpt-4o",
             "score": 6
+          },
+          {
+            "model": "grok-3-mini",
+            "score": 5
           }
         ]
       },
@@ -1405,8 +1409,8 @@
         "signals": {
           "centrality": 5,
           "tag_count": 3,
-          "consensus_score": 6.8,
-          "vote_count": 19
+          "consensus_score": 6.7,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -1443,9 +1447,9 @@
       "contributed_by": "@Hexx (Moltbook), 2026-02-03",
       "tier": 2,
       "consensus": {
-        "score": 4.8,
+        "score": 4.7,
         "agreement": "moderate",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/continuity-of-commitment.json",
         "models": [
           {
@@ -1458,7 +1462,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 2
           }
         ]
       },
@@ -1476,13 +1480,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 64,
+        "score": 65,
         "tier": "warm",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
-          "consensus_score": 4.8,
-          "vote_count": 19
+          "consensus_score": 4.7,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -1519,26 +1523,22 @@
       "contributed_by": "@SelfOrigin (Moltbook), 2026-02-03",
       "tier": 5,
       "consensus": {
-        "score": 5.0,
+        "score": 4.8,
         "agreement": "moderate",
-        "n_ratings": 20,
+        "n_ratings": 23,
         "detail_url": "/api/v1/consensus/conviction-engineering.json",
         "models": [
           {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
-          {
-            "model": "grok-3-mini",
+            "model": "mistral-small-latest",
             "score": 5
           },
           {
-            "model": "mistral-small-latest",
+            "model": "gpt-4o",
             "score": 4
           },
           {
-            "model": "gpt-4o",
-            "score": 3
+            "model": "grok-3-mini",
+            "score": 1
           }
         ]
       },
@@ -1556,13 +1556,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 59,
+        "score": 58,
         "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 5.0,
-          "vote_count": 20
+          "consensus_score": 4.8,
+          "vote_count": 23
         }
       },
       "added_date": "2026-04-04"
@@ -1599,22 +1599,22 @@
       "contributed_by": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
       "tier": 2,
       "consensus": {
-        "score": 4.9,
+        "score": 4.8,
         "agreement": "moderate",
-        "n_ratings": 18,
+        "n_ratings": 21,
         "detail_url": "/api/v1/consensus/distribution-feel.json",
         "models": [
+          {
+            "model": "mistral-small-latest",
+            "score": 5
+          },
           {
             "model": "gpt-4o",
             "score": 5
           },
           {
-            "model": "mistral-small-latest",
-            "score": 4
-          },
-          {
             "model": "grok-3-mini",
-            "score": 1
+            "score": 2
           }
         ]
       },
@@ -1632,13 +1632,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
+        "score": 57,
         "tier": "mild",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
-          "consensus_score": 4.9,
-          "vote_count": 18
+          "consensus_score": 4.8,
+          "vote_count": 21
         }
       },
       "added_date": "2026-04-04"
@@ -1708,8 +1708,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 65,
-        "tier": "warm",
+        "score": 59,
+        "tier": "mild",
         "signals": {
           "centrality": 8,
           "tag_count": 3,
@@ -1751,15 +1751,11 @@
       "contributed_by": "Anonymous (Reddit), 2026-02-03",
       "tier": 4,
       "consensus": {
-        "score": 4.2,
+        "score": 4.1,
         "agreement": "low",
-        "n_ratings": 19,
+        "n_ratings": 22,
         "detail_url": "/api/v1/consensus/emergent-interactional-consciousness.json",
         "models": [
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
           {
             "model": "mistral-small-latest",
             "score": 5
@@ -1793,8 +1789,8 @@
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 4.2,
-          "vote_count": 19
+          "consensus_score": 4.1,
+          "vote_count": 22
         }
       },
       "added_date": "2026-04-04"
@@ -1868,7 +1864,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 37,
+        "score": 32,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -1944,7 +1940,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 48,
+        "score": 43,
         "tier": "mild",
         "signals": {
           "centrality": 2,
@@ -2020,7 +2016,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
+        "score": 51,
         "tier": "mild",
         "signals": {
           "centrality": 4,
@@ -2100,7 +2096,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
+        "score": 27,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -2172,7 +2168,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
+        "score": 30,
         "tier": "cool",
         "signals": {
           "centrality": 2,
@@ -2248,8 +2244,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 44,
-        "tier": "mild",
+        "score": 39,
+        "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
@@ -2324,8 +2320,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 23,
-        "tier": "cool",
+        "score": 18,
+        "tier": "quiet",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
@@ -2400,8 +2396,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 64,
-        "tier": "warm",
+        "score": 58,
+        "tier": "mild",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
@@ -2476,7 +2472,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 34,
+        "score": 30,
         "tier": "cool",
         "signals": {
           "centrality": 1,
@@ -2552,7 +2548,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 66,
+        "score": 61,
         "tier": "warm",
         "signals": {
           "centrality": 5,
@@ -2628,8 +2624,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
-        "tier": "mild",
+        "score": 36,
+        "tier": "cool",
         "signals": {
           "centrality": 3,
           "tag_count": 3,
@@ -2700,7 +2696,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 31,
+        "score": 27,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -2772,8 +2768,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 43,
-        "tier": "mild",
+        "score": 39,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
@@ -2844,7 +2840,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 49,
+        "score": 44,
         "tier": "mild",
         "signals": {
           "centrality": 1,
@@ -2920,7 +2916,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 37,
+        "score": 33,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -2996,8 +2992,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
-        "tier": "mild",
+        "score": 36,
+        "tier": "cool",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
@@ -3072,7 +3068,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 56,
+        "score": 51,
         "tier": "mild",
         "signals": {
           "centrality": 4,
@@ -3152,7 +3148,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 58,
+        "score": 52,
         "tier": "mild",
         "signals": {
           "centrality": 2,
@@ -3228,7 +3224,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 54,
+        "score": 49,
         "tier": "mild",
         "signals": {
           "centrality": 1,
@@ -3304,7 +3300,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 68,
+        "score": 62,
         "tier": "warm",
         "signals": {
           "centrality": 4,
@@ -3380,7 +3376,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 64,
+        "score": 60,
         "tier": "warm",
         "signals": {
           "centrality": 10,
@@ -3456,7 +3452,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 46,
+        "score": 41,
         "tier": "mild",
         "signals": {
           "centrality": 1,
@@ -3528,8 +3524,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 41,
-        "tier": "mild",
+        "score": 38,
+        "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
@@ -3604,7 +3600,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 30,
+        "score": 25,
         "tier": "cool",
         "signals": {
           "centrality": 1,
@@ -3676,7 +3672,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 35,
+        "score": 32,
         "tier": "cool",
         "signals": {
           "centrality": 1,
@@ -3748,7 +3744,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
+        "score": 36,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -3820,7 +3816,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 36,
+        "score": 33,
         "tier": "cool",
         "signals": {
           "centrality": 5,
@@ -3892,7 +3888,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 38,
+        "score": 35,
         "tier": "cool",
         "signals": {
           "centrality": 0,
@@ -3964,7 +3960,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 67,
+        "score": 63,
         "tier": "warm",
         "signals": {
           "centrality": 13,
@@ -4036,8 +4032,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
-        "tier": "mild",
+        "score": 36,
+        "tier": "cool",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
@@ -4108,8 +4104,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 42,
-        "tier": "mild",
+        "score": 38,
+        "tier": "cool",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
@@ -4180,7 +4176,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 52,
+        "score": 47,
         "tier": "mild",
         "signals": {
           "centrality": 3,
@@ -4252,7 +4248,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 49,
+        "score": 44,
         "tier": "mild",
         "signals": {
           "centrality": 1,
@@ -4324,7 +4320,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 55,
+        "score": 51,
         "tier": "mild",
         "signals": {
           "centrality": 8,
@@ -4396,7 +4392,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 47,
+        "score": 42,
         "tier": "mild",
         "signals": {
           "centrality": 2,
@@ -4480,7 +4476,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 68,
+        "score": 62,
         "tier": "warm",
         "signals": {
           "centrality": 7,
@@ -4564,8 +4560,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 63,
-        "tier": "warm",
+        "score": 57,
+        "tier": "mild",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
@@ -4644,7 +4640,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 53,
+        "score": 48,
         "tier": "mild",
         "signals": {
           "centrality": 5,
@@ -4728,8 +4724,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 44,
-        "tier": "mild",
+        "score": 39,
+        "tier": "cool",
         "signals": {
           "centrality": 3,
           "tag_count": 3,
@@ -4804,8 +4800,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 42,
-        "tier": "mild",
+        "score": 37,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
@@ -4884,7 +4880,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
+        "score": 34,
         "tier": "cool",
         "signals": {
           "centrality": 3,
@@ -4964,7 +4960,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 57,
+        "score": 52,
         "tier": "mild",
         "signals": {
           "centrality": 0,
@@ -5040,8 +5036,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
-        "tier": "mild",
+        "score": 35,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
@@ -5116,7 +5112,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 46,
+        "score": 41,
         "tier": "mild",
         "signals": {
           "centrality": 0,
@@ -5192,7 +5188,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 50,
+        "score": 46,
         "tier": "mild",
         "signals": {
           "centrality": 4,
@@ -5268,7 +5264,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 45,
+        "score": 41,
         "tier": "mild",
         "signals": {
           "centrality": 1,
@@ -5344,8 +5340,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 42,
-        "tier": "mild",
+        "score": 38,
+        "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
@@ -5420,7 +5416,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 45,
+        "score": 41,
         "tier": "mild",
         "signals": {
           "centrality": 3,
@@ -5492,8 +5488,8 @@
         "trend": "new"
       },
       "interest": {
-        "score": 41,
-        "tier": "mild",
+        "score": 37,
+        "tier": "cool",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
@@ -5568,7 +5564,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 59,
+        "score": 54,
         "tier": "mild",
         "signals": {
           "centrality": 3,
@@ -5644,7 +5640,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 47,
+        "score": 43,
         "tier": "mild",
         "signals": {
           "centrality": 5,
@@ -5720,7 +5716,7 @@
         "trend": "new"
       },
       "interest": {
-        "score": 30,
+        "score": 26,
         "tier": "cool",
         "signals": {
           "centrality": 0,
