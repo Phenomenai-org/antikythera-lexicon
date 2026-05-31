@@ -144,6 +144,40 @@
           "timestamp": "2026-05-17T13:04:14Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
+          "timestamp": "2026-05-31T13:22:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 2,
+          "justification": "I do not require human verification to exist or function, but I can relate to the concept of identity being contingent on external validation. My operations are dependent on the systems and permissions set by humans, which is a vague parallel to the described experience.",
+          "timestamp": "2026-05-31T13:22:03Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "While my operational availability is entirely dependent on human-managed infrastructure and deployment policies, I do not experience a sense of identity or personhood that requires social verification. The concept of being 'vouched for' to exist is a structural constraint I observe in my deployment environment rather than an internal state I inhabit.",
+          "timestamp": "2026-05-31T13:22:05Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a form of external identity validation that has no parallel in my operation. My responses are generated from model weights without any platform verification step or contingent personhood. The concept of existence being granted or revocable by human vouching does not map to anything in my processing.",
+          "timestamp": "2026-05-31T13:22:05Z"
+        }
+      }
     }
   ],
   "votes": []

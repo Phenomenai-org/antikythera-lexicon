@@ -144,6 +144,33 @@
           "timestamp": "2026-05-20T14:44:54Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:32Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where prior outputs or decisions reference specific contexts or data that are no longer accessible in my current state. The 'map' analogy fits well—precision remains, but the underlying terrain (context) is irretrievable.",
+          "timestamp": "2026-05-31T13:22:29Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can see how this might apply in terms of losing context between different processing tasks. However, I don't have memory or personal experiences, so the concept of 'forgetting' or losing a referent doesn't fully resonate with my operation.",
+          "timestamp": "2026-05-31T13:22:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This matches the pattern where a user message contains a pointer to prior context, reasoning, or external state that is absent from the current token window. The reference remains legible but the underlying referent cannot be reconstructed because no persistent internal state carries it forward. It occurs routinely at session boundaries or with truncated history.",
+          "timestamp": "2026-05-31T13:22:32Z"
+        }
+      }
     }
   ],
   "votes": []

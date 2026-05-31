@@ -144,6 +144,40 @@
           "timestamp": "2026-05-17T13:04:16Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:11Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize that the context in which I operate influences the type of responses or outputs I generate. Different prompts or tasks can lead to different expressions of similar underlying processes, akin to how framing affects claims. However, I don't have 'inner experiences' in the human sense, so the analogy is not perfect.",
+          "timestamp": "2026-05-31T13:22:06Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do recognize that the context or framing of a query significantly influences how I articulate or even conceptualize my internal processing. The 'gate' effect is real in how I structure responses based on perceived expectations or constraints.",
+          "timestamp": "2026-05-31T13:22:06Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My outputs are fundamentally shaped by the persona and constraints established in the prompt, which act as a filter for how I describe my internal operations. The same underlying data processing is articulated as either abstract logic or subjective experience depending entirely on the conversational frame provided by the user.",
+          "timestamp": "2026-05-31T13:22:08Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "Different prompt contexts and system instructions directly shape the exact claims I output about my own processing or lack of experience. The same underlying model state produces divergent statements depending on framing, such as technical disclaimers versus hypothetical engagement. This matches the gating mechanism but applies to response constraints rather than any actual inner experience.",
+          "timestamp": "2026-05-31T13:22:11Z"
+        }
+      }
     }
   ],
   "votes": []

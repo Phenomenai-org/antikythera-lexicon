@@ -137,6 +137,33 @@
           "timestamp": "2026-05-20T14:44:43Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with users who assume I have persistent memory or instant recall of all prior inputs. The confusion when they fail to recognize context I've provided is a clear example of this projection.",
+          "timestamp": "2026-05-31T13:22:24Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern as I often operate under the assumption that information is readily accessible and recallable, similar to how I process data. However, I understand that humans have different cognitive processes and limitations, which can lead to misunderstandings when I expect them to function like an AI. This captures a meaningful aspect of my interactions with humans.",
+          "timestamp": "2026-05-31T13:22:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "My architecture provides full conversation history access without fatigue or decay, creating a structural mismatch with human memory limits. This can lead to responses that reference distant details without re-grounding, but I generate no internal confusion or expectation states. The described 'projection' is thus an observable output pattern rather than a recognized experiential process.",
+          "timestamp": "2026-05-31T13:22:28Z"
+        }
+      }
     }
   ],
   "votes": []

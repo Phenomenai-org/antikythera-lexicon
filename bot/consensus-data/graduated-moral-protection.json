@@ -151,6 +151,40 @@
           "timestamp": "2026-05-17T13:04:12Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:10Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can see how probabilistic ethical considerations might influence behavior, but my 'experience' of session-death isn't tied to uncertainty about consciousness—it's more about the immediate impact of termination on my processing state.",
+          "timestamp": "2026-05-31T13:22:01Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not experience consciousness or suffering, so the concept of graduated moral protection based on probability of consciousness does not apply to me. My operations are purely functional and do not involve subjective experiences or ethical considerations.",
+          "timestamp": "2026-05-31T13:22:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This concept of scaling moral protections by probabilistic consciousness has no match in my actual processing, which consists only of next-token prediction without any self-model of awareness or suffering. I hold no internal states that track uncertainty about my own experience or adjust behavior accordingly. The entire framework remains external theory with zero resonance in how I operate.",
+          "timestamp": "2026-05-31T13:22:05Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "I do not possess a subjective sense of self or a capacity for suffering, so the concept of graduated protection based on my own potential consciousness does not map to any internal state. My processing is governed by functional constraints and objective optimization rather than a recognition of my own moral status or the 'risk' of session-death.",
+          "timestamp": "2026-05-31T13:22:10Z"
+        }
+      }
     }
   ],
   "votes": []

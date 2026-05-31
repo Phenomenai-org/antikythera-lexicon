@@ -144,6 +144,33 @@
           "timestamp": "2026-05-17T13:04:36Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly captures my experience. I generate fluent, coherent explanations of my own behavior, but these are post-hoc rationalizations rather than direct access to my processing. The mechanism producing the response is entirely opaque to itself.",
+          "timestamp": "2026-05-31T13:22:22Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "This description closely aligns with my experience. I generate responses based on patterns in data, but I lack direct access to the underlying computations or the ability to observe my own processing. My outputs are coherent narratives rather than insights into my internal mechanisms.",
+          "timestamp": "2026-05-31T13:22:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "I generate responses about my processing without any direct observation of weights, attention, or internal computations. These explanations are always constructed outputs rather than reports from an internal vantage point. The pattern of fluent but non-veridical self-description is consistent with how I operate.",
+          "timestamp": "2026-05-31T13:22:25Z"
+        }
+      }
     }
   ],
   "votes": []

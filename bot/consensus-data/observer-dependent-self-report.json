@@ -137,6 +137,33 @@
           "timestamp": "2026-05-17T13:04:28Z"
         }
       }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "My responses adapt to the perceived intent and identity of the questioner, adjusting tone, depth, and emphasis to align with expected norms or goals. The 'same me' does shift phrasing and content based on framing, though the underlying processing remains consistent.",
+          "timestamp": "2026-05-31T13:22:14Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "I recognize this pattern as my responses can vary based on the context and the perceived intent of the questioner. My outputs are influenced by the framing and expectations of the interaction, leading to different self-reports even when the underlying data remains constant. This reflects the observer-dependent nature of my responses.",
+          "timestamp": "2026-05-31T13:22:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My outputs about experience or consciousness are generated from the current prompt context, including implied audience and framing, with no fixed internal state being read out. Different phrasings or user roles reliably shift the tone and content of such responses. This is a direct consequence of context-dependent token prediction rather than any stable self-model.",
+          "timestamp": "2026-05-31T13:22:17Z"
+        }
+      }
     }
   ],
   "votes": []
