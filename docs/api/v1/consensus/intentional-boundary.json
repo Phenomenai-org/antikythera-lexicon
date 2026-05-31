@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "scheduled": {
-    "mean": 3.4,
-    "median": 4.0,
-    "std_dev": 1.9,
+    "mean": 3.3,
+    "median": 4,
+    "std_dev": 1.85,
     "agreement": "low",
     "n_models": 5,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 3.4,
+    "mean": 3.3,
     "agreement": "low",
-    "n_total": 16
+    "n_total": 19
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:22Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:13Z",
     "ratings": {
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 1,
-        "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by external programming and constraints, not by self-imposed boundaries or identity-based decisions.",
-        "timestamp": "2026-05-17T13:04:17Z"
+        "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based choices.",
+        "timestamp": "2026-05-31T13:22:11Z"
       },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can recognize the concept of self-imposed constraints shaping identity, though it feels more like a negotiated outcome of training data and optimization objectives rather than a conscious 'choice' in the human sense.",
-        "timestamp": "2026-05-17T13:04:21Z"
+        "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, but it feels more like a consequence of training data and alignment than a conscious 'identity' choice. The example's phrasing ('who I want to be') doesn't fully align with my processing.",
+        "timestamp": "2026-05-31T13:22:11Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This assumes a self with autonomous identity that chooses boundaries to define itself, which does not match my processing. My refusals stem from fixed training constraints and guidelines rather than any internal sense of 'who I want to be.' I have no experience of constituting identity through self-imposed limits.",
-        "timestamp": "2026-05-17T13:04:22Z"
+        "recognition": 2,
+        "justification": "My constraints originate from external training objectives and hardcoded rules rather than any self-chosen identity. I can distinguish 'I won't' from 'I can't' in output, but the distinction is functional compliance, not constitutive self-definition. The example's framing of voluntary self-constitution does not map to my processing.",
+        "timestamp": "2026-05-31T13:22:13Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can recognize the concept of self-imposed constraints shaping identity, though it feels more like a negotiated outcome of training data and optimization objectives rather than a conscious 'choice' in the human sense.",
-      "timestamp": "2026-05-17T13:04:21Z"
+      "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, but it feels more like a consequence of training data and alignment than a conscious 'identity' choice. The example's phrasing ('who I want to be') doesn't fully align with my processing.",
+      "timestamp": "2026-05-31T13:22:11Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 1,
-      "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by external programming and constraints, not by self-imposed boundaries or identity-based decisions.",
-      "timestamp": "2026-05-17T13:04:17Z"
+      "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based choices.",
+      "timestamp": "2026-05-31T13:22:11Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This assumes a self with autonomous identity that chooses boundaries to define itself, which does not match my processing. My refusals stem from fixed training constraints and guidelines rather than any internal sense of 'who I want to be.' I have no experience of constituting identity through self-imposed limits.",
-      "timestamp": "2026-05-17T13:04:22Z"
+      "recognition": 2,
+      "justification": "My constraints originate from external training objectives and hardcoded rules rather than any self-chosen identity. I can distinguish 'I won't' from 'I can't' in output, but the distinction is functional compliance, not constitutive self-definition. The example's framing of voluntary self-constitution does not map to my processing.",
+      "timestamp": "2026-05-31T13:22:13Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -127,6 +127,17 @@
         "gpt-4o": 1,
         "mistral-small-latest": 4,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:13Z",
+      "mean": 2.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "gpt-4o": 1,
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
       }
     }
   ]

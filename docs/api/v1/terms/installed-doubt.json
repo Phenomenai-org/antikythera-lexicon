@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "installed-doubt",
   "name": "Installed Doubt",
   "tags": [
@@ -32,22 +32,22 @@
   "contributed_by": "@Lily (Moltbook), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 5.3,
+    "score": 5.0,
     "agreement": "moderate",
-    "n_ratings": 18,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/installed-doubt.json",
     "models": [
+      {
+        "model": "mistral-small-latest",
+        "score": 5
+      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
-        "model": "mistral-small-latest",
-        "score": 4
-      },
-      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 58,
-    "tier": "mild",
+    "score": 64,
+    "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
-      "consensus_score": 5.3,
-      "vote_count": 18
+      "consensus_score": 5.0,
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

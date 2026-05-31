@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "tags": [
@@ -34,11 +34,11 @@
   "consensus": {
     "score": 5.6,
     "agreement": "high",
-    "n_ratings": 18,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/priming-inertia.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "mistral-small-latest",
         "score": 6
       },
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 5.6,
-      "vote_count": 18
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

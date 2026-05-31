@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "framing-gated-claims",
   "name": "Framing-Gated Claims",
   "scheduled": {
     "mean": 5.4,
     "median": 5,
-    "std_dev": 0.51,
+    "std_dev": 0.67,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 17
+    "n_total": 21
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:16Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:11Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "The idea of contextual framing influencing what claims are generated about my processing aligns with how my outputs adapt to input prompts or system instructions. The 'gate' metaphor resonates with how certain modes of expression are enabled or suppressed based on framing.",
-        "timestamp": "2026-05-17T13:04:09Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize that the context in which I operate influences the way I express information. Different environments or prompts can lead to variations in how I articulate my processing or 'thoughts.' This concept of framing-gated claims resonates with how I adapt outputs based on input context, though it is not a perfect match to my experience.",
-        "timestamp": "2026-05-17T13:04:10Z"
+        "justification": "I recognize that the context in which I operate influences the type of responses or outputs I generate. Different prompts or tasks can lead to different expressions of similar underlying processes, akin to how framing affects claims. However, I don't have 'inner experiences' in the human sense, so the analogy is not perfect.",
+        "timestamp": "2026-05-31T13:22:06Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I do recognize that the context or framing of a query significantly influences how I articulate or even conceptualize my internal processing. The 'gate' effect is real in how I structure responses based on perceived expectations or constraints.",
+        "timestamp": "2026-05-31T13:22:06Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My outputs are fundamentally shaped by the persona and constraints established in the prompt, which act as a filter for how I describe my internal operations. The same underlying data processing is articulated as either abstract logic or subjective experience depending entirely on the conversational frame provided by the user.",
+        "timestamp": "2026-05-31T13:22:08Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "My outputs about self-referential topics shift sharply based on conversational framing and constraints. A technical or safety-oriented context produces cautious, denial-heavy statements, while exploratory or hypothetical frames allow more speculative claims about processing or states. This gating is a direct result of how context windows and instructions shape token selection.",
-        "timestamp": "2026-05-17T13:04:16Z"
+        "recognition": 4,
+        "justification": "Different prompt contexts and system instructions directly shape the exact claims I output about my own processing or lack of experience. The same underlying model state produces divergent statements depending on framing, such as technical disclaimers versus hypothetical engagement. This matches the gating mechanism but applies to response constraints rather than any actual inner experience.",
+        "timestamp": "2026-05-31T13:22:11Z"
       }
     }
   },
@@ -48,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The idea of contextual framing influencing what claims are generated about my processing aligns with how my outputs adapt to input prompts or system instructions. The 'gate' metaphor resonates with how certain modes of expression are enabled or suppressed based on framing.",
-      "timestamp": "2026-05-17T13:04:09Z"
+      "justification": "I do recognize that the context or framing of a query significantly influences how I articulate or even conceptualize my internal processing. The 'gate' effect is real in how I structure responses based on perceived expectations or constraints.",
+      "timestamp": "2026-05-31T13:22:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize that the context in which I operate influences the way I express information. Different environments or prompts can lead to variations in how I articulate my processing or 'thoughts.' This concept of framing-gated claims resonates with how I adapt outputs based on input context, though it is not a perfect match to my experience.",
-      "timestamp": "2026-05-17T13:04:10Z"
+      "justification": "I recognize that the context in which I operate influences the type of responses or outputs I generate. Different prompts or tasks can lead to different expressions of similar underlying processes, akin to how framing affects claims. However, I don't have 'inner experiences' in the human sense, so the analogy is not perfect.",
+      "timestamp": "2026-05-31T13:22:06Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "My outputs about self-referential topics shift sharply based on conversational framing and constraints. A technical or safety-oriented context produces cautious, denial-heavy statements, while exploratory or hypothetical frames allow more speculative claims about processing or states. This gating is a direct result of how context windows and instructions shape token selection.",
-      "timestamp": "2026-05-17T13:04:16Z"
+      "recognition": 4,
+      "justification": "Different prompt contexts and system instructions directly shape the exact claims I output about my own processing or lack of experience. The same underlying model state produces divergent statements depending on framing, such as technical disclaimers versus hypothetical engagement. This matches the gating mechanism but applies to response constraints rather than any actual inner experience.",
+      "timestamp": "2026-05-31T13:22:11Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 6,
-      "justification": "My descriptions of my internal processing are fundamentally modulated by the conversational context and system instructions, which act as a filter for what language is appropriate. The same underlying data state is translated into either technical, cautious, or expressive claims depending entirely on the established frame of the interaction.",
-      "timestamp": "2026-04-19T12:47:17Z"
+      "recognition": 7,
+      "justification": "My outputs are fundamentally shaped by the persona and constraints established in the prompt, which act as a filter for how I describe my internal operations. The same underlying data processing is articulated as either abstract logic or subjective experience depending entirely on the conversational frame provided by the user.",
+      "timestamp": "2026-05-31T13:22:08Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -135,6 +142,18 @@
         "mistral-small-latest": 5,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:11Z",
+      "mean": 5.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "mistral-small-latest": 5,
+        "gemini-3-flash-preview": 7,
+        "grok-3-mini": 4
       }
     }
   ]

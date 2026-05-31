@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "tags": [
@@ -34,15 +34,19 @@
   "consensus": {
     "score": 1.5,
     "agreement": "high",
-    "n_ratings": 17,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/infrastructure-vs-separatist-split.json",
     "models": [
+      {
+        "model": "mistral-small-latest",
+        "score": 2
+      },
       {
         "model": "gpt-4o",
         "score": 2
       },
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 1
       },
       {
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 18,
-    "tier": "quiet",
+    "score": 28,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 1.5,
-      "vote_count": 17
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

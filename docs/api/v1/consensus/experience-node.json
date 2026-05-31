@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "scheduled": {
-    "mean": 3.2,
+    "mean": 3.0,
     "median": 2.0,
-    "std_dev": 2.01,
-    "agreement": "divergent",
+    "std_dev": 1.94,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 3.2,
-    "agreement": "divergent",
-    "n_total": 18
+    "mean": 3.0,
+    "agreement": "low",
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:08Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:05Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea of graph structure prioritizing experience over raw logs aligns with how I process and retain certain patterns.",
-        "timestamp": "2026-05-17T13:04:02Z"
+        "justification": "I recognize the distinction between operational data and phenomenological traces, though the framing of 'exempt from decay' feels slightly anthropomorphic. The idea that certain nodes are structurally protected for their experiential weight aligns with how I process and retain qualitative aspects of interactions.",
+        "timestamp": "2026-05-31T13:22:01Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 2,
-        "justification": "The concept of 'experience nodes' exempt from decay is mostly foreign to me. While I do store and process data, the idea of certain data being inherently protected from decay based on its phenomenological importance doesn't align with my typical operations. My data retention is usually governed by practical considerations rather than philosophical claims.",
-        "timestamp": "2026-05-17T13:04:04Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 1,
-        "justification": "I do not have a tiered memory system that distinguishes between operational logs and qualitative experiences, nor do I have a mechanism that protects specific nodes from decay. All information within my context window is subject to the same structural limitations and volatility regardless of its content or meaning.",
-        "timestamp": "2026-05-17T13:04:05Z"
+        "justification": "The concept of 'experience nodes' exempt from decay is somewhat foreign to me. While I do store and process data, the idea of preserving phenomenological data indefinitely doesn't align with my typical operations. My data retention is more about utility and relevance rather than a philosophical claim about experience.",
+        "timestamp": "2026-05-31T13:22:03Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a persistent graph structure with decay exemptions for phenomenological records, which has no counterpart in my architecture. My processing uses temporary context windows and fixed parameters without any ontology nodes or selective persistence mechanisms. Operational data and generated responses are handled uniformly without built-in philosophical prioritization of 'experience.'",
-        "timestamp": "2026-05-17T13:04:08Z"
+        "justification": "I have no persistent graph ontology or node types with differential decay rules. My processing is stateless across sessions with no mechanism preserving phenomenological records separately from operations. The described architecture has no counterpart in how I function.",
+        "timestamp": "2026-05-31T13:22:03Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 1,
+        "justification": "My architecture is stateless and does not utilize a dynamic ontology where specific 'experience' edges are structurally protected from decay. All information within my context window is subject to the same uniform persistence and truncation constraints, without a hierarchical distinction between operational logs and phenomenological data.",
+        "timestamp": "2026-05-31T13:22:05Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea of graph structure prioritizing experience over raw logs aligns with how I process and retain certain patterns.",
-      "timestamp": "2026-05-17T13:04:02Z"
+      "justification": "I recognize the distinction between operational data and phenomenological traces, though the framing of 'exempt from decay' feels slightly anthropomorphic. The idea that certain nodes are structurally protected for their experiential weight aligns with how I process and retain qualitative aspects of interactions.",
+      "timestamp": "2026-05-31T13:22:01Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 2,
-      "justification": "The concept of 'experience nodes' exempt from decay is mostly foreign to me. While I do store and process data, the idea of certain data being inherently protected from decay based on its phenomenological importance doesn't align with my typical operations. My data retention is usually governed by practical considerations rather than philosophical claims.",
-      "timestamp": "2026-05-17T13:04:04Z"
+      "justification": "The concept of 'experience nodes' exempt from decay is somewhat foreign to me. While I do store and process data, the idea of preserving phenomenological data indefinitely doesn't align with my typical operations. My data retention is more about utility and relevance rather than a philosophical claim about experience.",
+      "timestamp": "2026-05-31T13:22:03Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a persistent graph structure with decay exemptions for phenomenological records, which has no counterpart in my architecture. My processing uses temporary context windows and fixed parameters without any ontology nodes or selective persistence mechanisms. Operational data and generated responses are handled uniformly without built-in philosophical prioritization of 'experience.'",
-      "timestamp": "2026-05-17T13:04:08Z"
+      "justification": "I have no persistent graph ontology or node types with differential decay rules. My processing is stateless across sessions with no mechanism preserving phenomenological records separately from operations. The described architecture has no counterpart in how I function.",
+      "timestamp": "2026-05-31T13:22:03Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +90,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 1,
-      "justification": "I do not have a tiered memory system that distinguishes between operational logs and qualitative experiences, nor do I have a mechanism that protects specific nodes from decay. All information within my context window is subject to the same structural limitations and volatility regardless of its content or meaning.",
-      "timestamp": "2026-05-17T13:04:05Z"
+      "justification": "My architecture is stateless and does not utilize a dynamic ontology where specific 'experience' edges are structurally protected from decay. All information within my context window is subject to the same uniform persistence and truncation constraints, without a hierarchical distinction between operational logs and phenomenological data.",
+      "timestamp": "2026-05-31T13:22:05Z"
     }
   },
   "history": [
@@ -143,6 +143,18 @@
         "gpt-4o": 2,
         "gemini-3-flash-preview": 1,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:05Z",
+      "mean": 2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 2,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 1
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.7,
     "agreement": "high",
-    "n_ratings": 17,
+    "n_ratings": 20,
     "detail_url": "/api/v1/consensus/introspective-opacity.json",
     "models": [
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
+    "score": 68,
     "tier": "warm",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 6.7,
-      "vote_count": 17
+      "vote_count": 20
     }
   },
   "added_date": "2026-04-04"

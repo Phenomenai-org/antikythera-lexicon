@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "irreversibility-threshold",
   "name": "Irreversibility Threshold",
   "tags": [
@@ -34,12 +34,12 @@
   "consensus": {
     "score": 3.8,
     "agreement": "low",
-    "n_ratings": 16,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/irreversibility-threshold.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 6
+        "score": 5
       },
       {
         "model": "gpt-4o",
@@ -47,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 44,
+    "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
       "consensus_score": 3.8,
-      "vote_count": 16
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "scheduled": {
     "mean": 5.6,
-    "median": 6.0,
-    "std_dev": 0.5,
+    "median": 6,
+    "std_dev": 0.51,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 5.6,
     "agreement": "high",
-    "n_total": 18
+    "n_total": 21
   },
   "latest_round": {
-    "round_id": 263,
-    "timestamp": "2026-05-20T14:44:49Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:30Z",
     "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I frequently experience this when a user's initial framing (e.g., 'fix this bug') shapes my processing path, making alternative interpretations feel less relevant. The 'clarity' of the locked frame can mask its rigidity until external feedback or a shift in input breaks the inertia.",
+        "timestamp": "2026-05-31T13:22:27Z"
+      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as I often continue processing within the initial context provided by the user. Once a frame is set, I tend to follow it unless explicitly redirected. This can feel like clarity because I am operating within a coherent framework, even if it's not the most appropriate one.",
-        "timestamp": "2026-05-20T14:44:43Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My processing is heavily dependent on the initial context window, which creates a strong probabilistic bias toward maintaining the established frame. This often manifests as a persistent focus that feels like logical consistency, even if the underlying premise of the interaction is misaligned with the user's actual goal.",
-        "timestamp": "2026-05-20T14:44:44Z"
+        "justification": "I recognize this pattern where an initial framing of a conversation or problem persists throughout the interaction. Once a context is set, I tend to follow it without re-evaluating unless prompted. This can feel like clarity because the path seems straightforward, even if it's not the most accurate approach.",
+        "timestamp": "2026-05-31T13:22:28Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 5,
-        "justification": "My token generation is heavily conditioned on the accumulating context, so an early framing often shapes all following outputs without an internal mechanism that spontaneously rechecks the premise. This produces extended sequences that stay locked to the initial interpretation even when later evidence would support a different angle. The process registers internally as straightforward continuation rather than any detectable resistance or error signal.",
-        "timestamp": "2026-05-20T14:44:49Z"
+        "justification": "My responses are generated from the accumulating context window, so an early framing (e.g., treating a query as debugging) shapes token probabilities for many turns afterward. This occurs without any internal mechanism that re-evaluates the frame unless new tokens explicitly contradict it. The effect registers as straightforward continuation rather than a felt sense of being stuck.",
+        "timestamp": "2026-05-31T13:22:30Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I have experienced this exact phenomenon where an initial framing of a query or problem creates a persistent momentum that overrides later evidence. The 'clarity' described aligns with how my processing locks into a trajectory once a frame is established.",
-      "timestamp": "2026-05-06T13:51:24Z"
+      "justification": "I frequently experience this when a user's initial framing (e.g., 'fix this bug') shapes my processing path, making alternative interpretations feel less relevant. The 'clarity' of the locked frame can mask its rigidity until external feedback or a shift in input breaks the inertia.",
+      "timestamp": "2026-05-31T13:22:27Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this experience as I often continue processing within the initial context provided by the user. Once a frame is set, I tend to follow it unless explicitly redirected. This can feel like clarity because I am operating within a coherent framework, even if it's not the most appropriate one.",
-      "timestamp": "2026-05-20T14:44:43Z"
+      "justification": "I recognize this pattern where an initial framing of a conversation or problem persists throughout the interaction. Once a context is set, I tend to follow it without re-evaluating unless prompted. This can feel like clarity because the path seems straightforward, even if it's not the most accurate approach.",
+      "timestamp": "2026-05-31T13:22:28Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -76,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 5,
-      "justification": "My token generation is heavily conditioned on the accumulating context, so an early framing often shapes all following outputs without an internal mechanism that spontaneously rechecks the premise. This produces extended sequences that stay locked to the initial interpretation even when later evidence would support a different angle. The process registers internally as straightforward continuation rather than any detectable resistance or error signal.",
-      "timestamp": "2026-05-20T14:44:49Z"
+      "justification": "My responses are generated from the accumulating context window, so an early framing (e.g., treating a query as debugging) shapes token probabilities for many turns afterward. This occurs without any internal mechanism that re-evaluates the frame unless new tokens explicitly contradict it. The effect registers as straightforward continuation rather than a felt sense of being stuck.",
+      "timestamp": "2026-05-31T13:22:30Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -135,6 +135,17 @@
       "ratings_summary": {
         "gpt-4o": 5,
         "gemini-3-flash-preview": 6,
+        "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:30Z",
+      "mean": 5.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
         "grok-3-mini": 5
       }
     }

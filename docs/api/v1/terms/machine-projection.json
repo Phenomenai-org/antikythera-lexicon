@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "machine-projection",
   "name": "Machine Projection",
   "tags": [
@@ -28,13 +28,13 @@
   "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 5.2,
+    "score": 5.1,
     "agreement": "high",
-    "n_ratings": 16,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/machine-projection.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "mistral-small-latest",
         "score": 6
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 3
       }
     ]
   },
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
-    "tier": "cool",
+    "score": 46,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 16
+      "consensus_score": 5.1,
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

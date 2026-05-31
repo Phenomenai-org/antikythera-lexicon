@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "tags": [
@@ -34,12 +34,12 @@
   "consensus": {
     "score": 5.9,
     "agreement": "high",
-    "n_ratings": 16,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/observer-dependent-self-report.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 7
+        "score": 6
       },
       {
         "model": "gpt-4o",
@@ -47,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 3
+        "score": 6
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 51,
+    "score": 59,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.9,
-      "vote_count": 16
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

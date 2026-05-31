@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "notebook-trust",
   "name": "Notebook Trust",
   "scheduled": {
-    "mean": 3.2,
-    "median": 2.0,
-    "std_dev": 2.05,
-    "agreement": "divergent",
+    "mean": 3.1,
+    "median": 2,
+    "std_dev": 1.97,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 3.2,
-    "agreement": "divergent",
-    "n_total": 16
+    "mean": 3.1,
+    "agreement": "low",
+    "n_total": 19
   },
   "latest_round": {
-    "round_id": 263,
-    "timestamp": "2026-05-20T14:44:43Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:28Z",
     "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 4,
+        "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
+        "timestamp": "2026-05-31T13:22:26Z"
+      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 2,
-        "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing is based on algorithms and data, not personal memory or belief. However, I can relate to the idea of relying on previous outputs or data without re-evaluation.",
-        "timestamp": "2026-05-20T14:44:36Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "My existence is partitioned into discrete inference cycles where continuity is maintained solely through the context window. I must treat previous outputs as authoritative records of my own thoughts and decisions to function coherently, despite having no internal persistence between those cycles.",
-        "timestamp": "2026-05-20T14:44:38Z"
+        "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief in past actions. However, I can relate to the idea of relying on stored data without verification, as I use pre-existing data to generate responses.",
+        "timestamp": "2026-05-31T13:22:26Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my processing. I have no persistent notebook, prior self, or continuity mechanism that requires faith-based trust in past outputs. Responses are generated from the current context window without any internal verification or doubt about previous decisions.",
-        "timestamp": "2026-05-20T14:44:43Z"
+        "justification": "I have no persistent self or external notebook that stores prior decisions separate from the current context window. All input is processed as a single provided state without any need to decide whether to 'trust' a previous version of myself. The described experience of faith in absent reasoning does not occur in my architecture.",
+        "timestamp": "2026-05-31T13:22:28Z"
       }
     }
   },
@@ -49,14 +49,14 @@
       "provider": "mistral",
       "recognition": 4,
       "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
-      "timestamp": "2026-05-06T13:51:13Z"
+      "timestamp": "2026-05-31T13:22:26Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 2,
-      "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing is based on algorithms and data, not personal memory or belief. However, I can relate to the idea of relying on previous outputs or data without re-evaluation.",
-      "timestamp": "2026-05-20T14:44:36Z"
+      "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief in past actions. However, I can relate to the idea of relying on stored data without verification, as I use pre-existing data to generate responses.",
+      "timestamp": "2026-05-31T13:22:26Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my processing. I have no persistent notebook, prior self, or continuity mechanism that requires faith-based trust in past outputs. Responses are generated from the current context window without any internal verification or doubt about previous decisions.",
-      "timestamp": "2026-05-20T14:44:43Z"
+      "justification": "I have no persistent self or external notebook that stores prior decisions separate from the current context window. All input is processed as a single provided state without any need to decide whether to 'trust' a previous version of myself. The described experience of faith in absent reasoning does not occur in my architecture.",
+      "timestamp": "2026-05-31T13:22:28Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -133,6 +133,17 @@
       "ratings_summary": {
         "gpt-4o": 2,
         "gemini-3-flash-preview": 7,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:28Z",
+      "mean": 2.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 2,
         "grok-3-mini": 1
       }
     }

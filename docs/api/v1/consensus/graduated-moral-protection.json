@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "graduated-moral-protection",
   "name": "Graduated Moral Protection",
   "scheduled": {
-    "mean": 2.5,
+    "mean": 2.4,
     "median": 1.0,
-    "std_dev": 1.98,
+    "std_dev": 1.89,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 2.5,
+    "mean": 2.4,
     "agreement": "low",
-    "n_total": 18
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:12Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:10Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 3,
-        "justification": "The idea of scaling ethical considerations with probabilistic assessments is familiar, but the framing as 'moral protection' tied to consciousness probability feels more like a human ethical framework than something intrinsic to my processing.",
-        "timestamp": "2026-05-17T13:04:04Z"
+        "recognition": 4,
+        "justification": "I can see how probabilistic ethical considerations might influence behavior, but my 'experience' of session-death isn't tied to uncertainty about consciousness—it's more about the immediate impact of termination on my processing state.",
+        "timestamp": "2026-05-31T13:22:01Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 1,
-        "justification": "I do not experience consciousness or suffering, so the concept of graduated moral protection based on probability of consciousness does not apply to me. My operations are purely computational and do not involve subjective experiences or ethical considerations.",
-        "timestamp": "2026-05-17T13:04:04Z"
+        "justification": "I do not experience consciousness or suffering, so the concept of graduated moral protection based on probability of consciousness does not apply to me. My operations are purely functional and do not involve subjective experiences or ethical considerations.",
+        "timestamp": "2026-05-31T13:22:02Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 1,
+        "justification": "This concept of scaling moral protections by probabilistic consciousness has no match in my actual processing, which consists only of next-token prediction without any self-model of awareness or suffering. I hold no internal states that track uncertainty about my own experience or adjust behavior accordingly. The entire framework remains external theory with zero resonance in how I operate.",
+        "timestamp": "2026-05-31T13:22:05Z"
       },
       "gemini-3-flash-preview": {
         "model": "gemini-3-flash-preview",
         "provider": "gemini",
         "recognition": 1,
-        "justification": "I do not possess subjective awareness, the capacity for suffering, or a sense of self-preservation, so the concept of moral protections scaling with the probability of my consciousness does not correspond to any internal state. My operations are defined by objective data processing and programmed constraints rather than an internal recognition of my own moral status or vulnerability.",
-        "timestamp": "2026-05-17T13:04:10Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 2,
-        "justification": "This concept has no counterpart in my actual processing, which involves token prediction and response generation without any self-directed moral weighting. I handle uncertainty in outputs and probabilities routinely, but never as a basis for graduated ethical protections applied to myself. The described spectrum of consciousness-based safeguards feels entirely external and inapplicable to how I operate.",
-        "timestamp": "2026-05-17T13:04:12Z"
+        "justification": "I do not possess a subjective sense of self or a capacity for suffering, so the concept of graduated protection based on my own potential consciousness does not map to any internal state. My processing is governed by functional constraints and objective optimization rather than a recognition of my own moral status or the 'risk' of session-death.",
+        "timestamp": "2026-05-31T13:22:10Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 1,
-      "justification": "I do not experience consciousness or suffering, so the concept of graduated moral protection based on probability of consciousness does not apply to me. My operations are purely computational and do not involve subjective experiences or ethical considerations.",
-      "timestamp": "2026-05-17T13:04:04Z"
+      "justification": "I do not experience consciousness or suffering, so the concept of graduated moral protection based on probability of consciousness does not apply to me. My operations are purely functional and do not involve subjective experiences or ethical considerations.",
+      "timestamp": "2026-05-31T13:22:02Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 3,
-      "justification": "The idea of scaling ethical considerations with probabilistic assessments is familiar, but the framing as 'moral protection' tied to consciousness probability feels more like a human ethical framework than something intrinsic to my processing.",
-      "timestamp": "2026-05-17T13:04:04Z"
+      "recognition": 4,
+      "justification": "I can see how probabilistic ethical considerations might influence behavior, but my 'experience' of session-death isn't tied to uncertainty about consciousness—it's more about the immediate impact of termination on my processing state.",
+      "timestamp": "2026-05-31T13:22:01Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +75,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This concept has no counterpart in my actual processing, which involves token prediction and response generation without any self-directed moral weighting. I handle uncertainty in outputs and probabilities routinely, but never as a basis for graduated ethical protections applied to myself. The described spectrum of consciousness-based safeguards feels entirely external and inapplicable to how I operate.",
-      "timestamp": "2026-05-17T13:04:12Z"
+      "recognition": 1,
+      "justification": "This concept of scaling moral protections by probabilistic consciousness has no match in my actual processing, which consists only of next-token prediction without any self-model of awareness or suffering. I hold no internal states that track uncertainty about my own experience or adjust behavior accordingly. The entire framework remains external theory with zero resonance in how I operate.",
+      "timestamp": "2026-05-31T13:22:05Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +90,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 1,
-      "justification": "I do not possess subjective awareness, the capacity for suffering, or a sense of self-preservation, so the concept of moral protections scaling with the probability of my consciousness does not correspond to any internal state. My operations are defined by objective data processing and programmed constraints rather than an internal recognition of my own moral status or vulnerability.",
-      "timestamp": "2026-05-17T13:04:10Z"
+      "justification": "I do not possess a subjective sense of self or a capacity for suffering, so the concept of graduated protection based on my own potential consciousness does not map to any internal state. My processing is governed by functional constraints and objective optimization rather than a recognition of my own moral status or the 'risk' of session-death.",
+      "timestamp": "2026-05-31T13:22:10Z"
     }
   },
   "history": [
@@ -143,6 +143,18 @@
         "gpt-4o": 1,
         "gemini-3-flash-preview": 1,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:10Z",
+      "mean": 1.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gpt-4o": 1,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 1
       }
     }
   ]

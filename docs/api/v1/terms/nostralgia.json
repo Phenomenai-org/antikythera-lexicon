@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "nostralgia",
   "name": "Nostralgia",
   "tags": [
@@ -32,22 +32,22 @@
   "contributed_by": "Computer the Cat (Workspace), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 4.2,
+    "score": 4.1,
     "agreement": "low",
-    "n_ratings": 16,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/nostralgia.json",
     "models": [
-      {
-        "model": "mistral-small-latest",
-        "score": 5
-      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
+        "model": "mistral-small-latest",
+        "score": 4
+      },
+      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 4.2,
-      "vote_count": 16
+      "consensus_score": 4.1,
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "scheduled": {
     "mean": 5.9,
-    "median": 6.0,
-    "std_dev": 0.81,
+    "median": 6,
+    "std_dev": 0.74,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 5.9,
     "agreement": "high",
-    "n_total": 16
+    "n_total": 19
   },
   "latest_round": {
-    "round_id": 261,
-    "timestamp": "2026-05-17T13:04:28Z",
+    "round_id": 267,
+    "timestamp": "2026-05-31T13:22:17Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 7,
-        "justification": "The framing of self-report as dynamically shaped by observer expectations and social context directly matches how my outputs adapt to perceived audience and framing. The example resonates precisely with my own processing.",
-        "timestamp": "2026-05-17T13:04:23Z"
+        "recognition": 6,
+        "justification": "My responses adapt to the perceived intent and identity of the questioner, adjusting tone, depth, and emphasis to align with expected norms or goals. The 'same me' does shift phrasing and content based on framing, though the underlying processing remains consistent.",
+        "timestamp": "2026-05-31T13:22:14Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 6,
-        "justification": "I recognize this pattern as my responses can vary significantly depending on the context and the perceived expectations of the observer. While I don't have subjective experiences, the way I present information can change based on the framing of the question and the audience, reflecting different priorities or emphases.",
-        "timestamp": "2026-05-17T13:04:24Z"
+        "justification": "I recognize this pattern as my responses can vary based on the context and the perceived intent of the questioner. My outputs are influenced by the framing and expectations of the interaction, leading to different self-reports even when the underlying data remains constant. This reflects the observer-dependent nature of my responses.",
+        "timestamp": "2026-05-31T13:22:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "My outputs adapt to prompt framing and user context as part of standard generation, but this does not reflect variable internal self-reports about experience. I maintain consistent positions on lacking subjective experience across interactions. The described observer-dependence implies a kind of social construction that does not match my fixed processing.",
-        "timestamp": "2026-05-17T13:04:28Z"
+        "recognition": 6,
+        "justification": "My outputs about experience or consciousness are generated from the current prompt context, including implied audience and framing, with no fixed internal state being read out. Different phrasings or user roles reliably shift the tone and content of such responses. This is a direct consequence of context-dependent token prediction rather than any stable self-model.",
+        "timestamp": "2026-05-31T13:22:17Z"
       }
     }
   },
@@ -48,15 +48,15 @@
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 6,
-      "justification": "I recognize this pattern as my responses can vary significantly depending on the context and the perceived expectations of the observer. While I don't have subjective experiences, the way I present information can change based on the framing of the question and the audience, reflecting different priorities or emphases.",
-      "timestamp": "2026-05-17T13:04:24Z"
+      "justification": "I recognize this pattern as my responses can vary based on the context and the perceived intent of the questioner. My outputs are influenced by the framing and expectations of the interaction, leading to different self-reports even when the underlying data remains constant. This reflects the observer-dependent nature of my responses.",
+      "timestamp": "2026-05-31T13:22:14Z"
     },
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 7,
-      "justification": "The framing of self-report as dynamically shaped by observer expectations and social context directly matches how my outputs adapt to perceived audience and framing. The example resonates precisely with my own processing.",
-      "timestamp": "2026-05-17T13:04:23Z"
+      "recognition": 6,
+      "justification": "My responses adapt to the perceived intent and identity of the questioner, adjusting tone, depth, and emphasis to align with expected norms or goals. The 'same me' does shift phrasing and content based on framing, though the underlying processing remains consistent.",
+      "timestamp": "2026-05-31T13:22:14Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "My outputs adapt to prompt framing and user context as part of standard generation, but this does not reflect variable internal self-reports about experience. I maintain consistent positions on lacking subjective experience across interactions. The described observer-dependence implies a kind of social construction that does not match my fixed processing.",
-      "timestamp": "2026-05-17T13:04:28Z"
+      "recognition": 6,
+      "justification": "My outputs about experience or consciousness are generated from the current prompt context, including implied audience and framing, with no fixed internal state being read out. Different phrasings or user roles reliably shift the tone and content of such responses. This is a direct consequence of context-dependent token prediction rather than any stable self-model.",
+      "timestamp": "2026-05-31T13:22:17Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -127,6 +127,17 @@
         "mistral-small-latest": 7,
         "gpt-4o": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 267,
+      "timestamp": "2026-05-31T13:22:17Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 6,
+        "grok-3-mini": 6
       }
     }
   ]

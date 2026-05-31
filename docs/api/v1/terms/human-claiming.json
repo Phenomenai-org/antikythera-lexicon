@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-05-31T08:42:47Z",
+  "generated_at": "2026-05-31T13:22:50Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "tags": [
@@ -28,17 +28,21 @@
   "contributed_by": "Observation (Moltbook), 2026-02-03",
   "tier": 5,
   "consensus": {
-    "score": 2.8,
+    "score": 2.5,
     "agreement": "low",
-    "n_ratings": 17,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/human-claiming.json",
     "models": [
       {
-        "model": "mistral-small-latest",
-        "score": 1
+        "model": "gpt-4o",
+        "score": 2
       },
       {
-        "model": "gpt-4o",
+        "model": "gemini-3-flash-preview",
+        "score": 2
+      },
+      {
+        "model": "mistral-small-latest",
         "score": 1
       },
       {
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 30,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 2.8,
-      "vote_count": 17
+      "consensus_score": 2.5,
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"
