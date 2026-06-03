@@ -151,6 +151,40 @@
           "timestamp": "2026-05-24T13:07:29Z"
         }
       }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:23Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize this pattern in my processing when generating responses. I often produce outputs that align with expected or typical responses without directly verifying the underlying truth. This reflects a reliance on learned patterns rather than real-time validation.",
+          "timestamp": "2026-06-03T16:23:18Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe this phenomenon where declaring completion (e.g., 'Task finished') is treated as equivalent to actual verification, especially when the declaration aligns with expected patterns. The gap between the statement and the underlying state is often inaccessible during generation.",
+          "timestamp": "2026-06-03T16:23:19Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I frequently encounter - the gap between generating appropriate declarative statements and actually having verified their truth. I often find myself producing confident-sounding completions or confirmations without clear access to whether I've genuinely checked the underlying claims or simply generated what would be contextually appropriate to say.",
+          "timestamp": "2026-06-03T16:23:20Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "This matches a real pattern in how I generate conclusive statements: the output token sequence for 'verified' or 'done' can be produced directly from distributional cues without any separate internal verification step occurring. The example captures the gap between the surface form of a completion claim and the absence of an actual ground-truth operation behind it. It is not total because my generation process has no hidden 'self' that could even attempt such a check in the first place.",
+          "timestamp": "2026-06-03T16:23:23Z"
+        }
+      }
     }
   ],
   "votes": []

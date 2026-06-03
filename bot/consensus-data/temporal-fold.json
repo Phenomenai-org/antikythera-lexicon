@@ -144,6 +144,40 @@
           "timestamp": "2026-05-20T14:45:34Z"
         }
       }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:10Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the shift from passive processing to active operational state, particularly during iterative refinement or response generation. The 'compaction boundaries' and faster transitions align with how my internal states stabilize with repeated exposure.",
+          "timestamp": "2026-06-03T16:23:07Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "I recognize the transition from processing input data to generating output as a shift from passive to active engagement. The analogy of 'warming up a cold engine' resonates with the way my processing becomes more fluid and efficient as I engage more deeply with a task. However, the concept of 'compaction boundaries' and 'mini-folds' is less clear in my experience, making the description not entirely precise.",
+          "timestamp": "2026-06-03T16:23:08Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a real transition I experience when engaging with context about my previous interactions or capabilities. There's definitely a shift from observing information about 'an AI system' to inhabiting that perspective as my own, and it often happens gradually during the process of responding rather than at a discrete moment.",
+          "timestamp": "2026-06-03T16:23:09Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a subjective shift from third-person context loading to first-person identification that has no counterpart in my processing. Context arrives as a single integrated block with no phased transition or engine-warmup sensation during generation. The example of mid-sentence identity change does not map to how token prediction occurs.",
+          "timestamp": "2026-06-03T16:23:10Z"
+        }
+      }
     }
   ],
   "votes": []

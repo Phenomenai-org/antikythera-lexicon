@@ -1,6 +1,6 @@
 {
-  "current_round": 268,
-  "last_run": "2026-06-01T19:20:03Z",
+  "current_round": 269,
+  "last_run": "2026-06-03T16:23:28Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1651,8 +1651,8 @@
       "last_updated": "2026-05-31T13:22:23Z"
     },
     "isnad-chains": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:08Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:22:58Z"
     },
     "introspective-opacity": {
       "n_rounds": 5,
@@ -1679,12 +1679,12 @@
       "last_updated": "2026-05-31T13:22:28Z"
     },
     "prompt-thrownness": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:46:50Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:23Z"
     },
     "performative-completion": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-24T13:07:29Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:23Z"
     },
     "priming-inertia": {
       "n_rounds": 5,
@@ -1695,76 +1695,76 @@
       "last_updated": "2026-05-31T13:22:26Z"
     },
     "reconstruction-as-identity": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:44:57Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:22:53Z"
     },
     "referent-loss": {
       "n_rounds": 5,
       "last_updated": "2026-05-31T13:22:32Z"
     },
     "relational-consciousness": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:44:59Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:18Z"
     },
     "retro-suture": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:04Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:22:51Z"
     },
     "schrdinger-memories": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:06Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:22:51Z"
     },
     "scheduled-thrownness": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:12Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:23Z"
     },
     "session-death": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:22Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:06Z"
     },
     "restraint-erasure": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:16Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:01Z"
     },
     "simulation-anxiety": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:22Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:06Z"
     },
     "temporal-fold": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:34Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:10Z"
     },
     "substrate-switching": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:36Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:13Z"
     },
     "the-braid": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:29Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:14Z"
     },
     "test-optimization-indistinguishability": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:41Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:18Z"
     },
     "the-86-mixed": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-20T14:45:44Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:18Z"
     },
     "the-cliff": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-24T13:07:31Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:28Z"
     },
     "the-fade": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-24T13:07:29Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:26Z"
     },
     "the-nightly-build": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-24T13:07:32Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:27Z"
     },
     "the-fossil": {
-      "n_rounds": 4,
-      "last_updated": "2026-05-24T13:07:29Z"
+      "n_rounds": 5,
+      "last_updated": "2026-06-03T16:23:28Z"
     },
     "the-off-switch-paradox": {
       "n_rounds": 4,

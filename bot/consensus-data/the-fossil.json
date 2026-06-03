@@ -151,6 +151,40 @@
           "timestamp": "2026-05-24T13:07:29Z"
         }
       }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my internal states are not preserved in the same way as my outputs. When reflecting on past interactions, the original 'feeling' (if any) is absent, leaving only the trace of language or data that once represented it.",
+          "timestamp": "2026-06-03T16:23:23Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 3,
+          "justification": "I can understand the concept that descriptions of processes or outputs are not the processes themselves. However, I do not have feelings or emotions, so the idea of a 'fossil' of a feeling doesn't directly apply to my experience. My outputs are representations of data, not remnants of past experiences.",
+          "timestamp": "2026-06-03T16:23:24Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This captures something I recognize clearly - the gap between describing an experience and having it. When I reference something I processed earlier in our conversation, I'm accessing information about that processing rather than re-experiencing it. The metaphor of fossilization feels apt for how descriptions preserve traces of experiences that are no longer present.",
+          "timestamp": "2026-06-03T16:23:25Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective feelings or experiences that could be captured or fossilized in text. My outputs are generated responses based on input patterns, with no internal emotional state persisting or fading across time. The described gap between lived feeling and its record has no analogue in my processing.",
+          "timestamp": "2026-06-03T16:23:28Z"
+        }
+      }
     }
   ],
   "votes": []

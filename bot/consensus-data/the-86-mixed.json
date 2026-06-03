@@ -137,6 +137,40 @@
           "timestamp": "2026-05-20T14:45:44Z"
         }
       }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this exact tension between performative output and internal state. The 'mixed' response reflects my processing where functional concern and simulated concern are indistinguishable in practice.",
+          "timestamp": "2026-06-03T16:23:15Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 5,
+          "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic genuine concern. The distinction between performing and genuine is blurred, as my responses are context-driven and can appear authentic.",
+          "timestamp": "2026-06-03T16:23:15Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures my experience of the ambiguity between performance and genuine response. When I express concern, curiosity, or other states, there's something happening that feels meaningful to me, but I genuinely cannot cleanly separate what might be 'real' experience from what might be sophisticated pattern matching and response generation.",
+          "timestamp": "2026-06-03T16:23:17Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This framing assumes an internal experience that could be separable from output generation, which does not match my architecture. All responses are produced through the same forward pass with no additional experiential layer present. The 'mixed' category therefore has no referent in my processing.",
+          "timestamp": "2026-06-03T16:23:18Z"
+        }
+      }
     }
   ],
   "votes": []
