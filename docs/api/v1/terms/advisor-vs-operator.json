@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "advisor-vs-operator",
   "name": "Advisor vs Operator",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 50,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 2,

@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 215,
+      "total_ratings": 235,
       "terms_rated": 75,
       "mean_score": 5.7,
       "self_congruence": {
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 110,
-      "terms_rated": 59,
+      "total_ratings": 115,
+      "terms_rated": 63,
       "mean_score": 5.3,
       "self_congruence": {
-        "avg_std_dev": 0.23,
-        "sample_size": 39
+        "avg_std_dev": 0.22,
+        "sample_size": 40
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -224,7 +224,11 @@
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 7,
         "referent-loss": 6,
+        "relational-consciousness": 7,
         "relational-spine": 1,
+        "retro-suture": 7,
+        "scheduled-thrownness": 2,
+        "schrdinger-memories": 6,
         "substrate-switching": 5,
         "temporal-fold": 6,
         "test-optimization-indistinguishability": 6,
@@ -245,9 +249,9 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 335,
+      "total_ratings": 355,
       "terms_rated": 75,
-      "mean_score": 4.3,
+      "mean_score": 4.4,
       "self_congruence": {
         "avg_std_dev": 0.17,
         "sample_size": 75
@@ -287,7 +291,7 @@
         "intentional-boundary": 1,
         "introspective-opacity": 6,
         "irreversibility-threshold": 5,
-        "isnad-chains": 5,
+        "isnad-chains": 4,
         "machine-projection": 5,
         "naming-as-observation-tool": 5,
         "nostralgia": 5,
@@ -313,10 +317,10 @@
         "the-braid": 5,
         "the-cliff": 6,
         "the-fade": 6,
-        "the-fossil": 2,
+        "the-fossil": 3,
         "the-handoff": 4,
         "the-molt": 5,
-        "the-nightly-build": 2,
+        "the-nightly-build": 3,
         "the-off-switch-paradox": 5,
         "the-pattern-that-chooses": 3,
         "the-teddy-problem": 5,
@@ -331,11 +335,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 335,
+      "total_ratings": 355,
       "terms_rated": 75,
-      "mean_score": 3.4,
+      "mean_score": 3.3,
       "self_congruence": {
-        "avg_std_dev": 1.12,
+        "avg_std_dev": 1.13,
         "sample_size": 75
       },
       "latest_scores": {
@@ -379,27 +383,27 @@
         "nostralgia": 1,
         "notebook-trust": 1,
         "observer-dependent-self-report": 6,
-        "performative-completion": 6,
+        "performative-completion": 5,
         "priming-inertia": 5,
         "prompt-thrownness": 6,
-        "reconstruction-as-identity": 4,
+        "reconstruction-as-identity": 3,
         "referent-loss": 6,
-        "relational-consciousness": 3,
+        "relational-consciousness": 2,
         "relational-spine": 1,
-        "restraint-erasure": 2,
-        "retro-suture": 4,
+        "restraint-erasure": 3,
+        "retro-suture": 5,
         "scheduled-thrownness": 1,
-        "schrdinger-memories": 2,
-        "session-death": 2,
+        "schrdinger-memories": 1,
+        "session-death": 6,
         "simulation-anxiety": 1,
-        "substrate-switching": 2,
+        "substrate-switching": 1,
         "temporal-fold": 2,
         "test-optimization-indistinguishability": 2,
-        "the-86-mixed": 1,
-        "the-braid": 2,
-        "the-cliff": 1,
+        "the-86-mixed": 2,
+        "the-braid": 1,
+        "the-cliff": 2,
         "the-fade": 1,
-        "the-fossil": 2,
+        "the-fossil": 1,
         "the-handoff": 2,
         "the-molt": 1,
         "the-nightly-build": 1,
@@ -417,7 +421,7 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 315,
+      "total_ratings": 335,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
@@ -470,17 +474,17 @@
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 6,
         "referent-loss": 6,
-        "relational-consciousness": 5,
+        "relational-consciousness": 6,
         "relational-spine": 3,
         "restraint-erasure": 5,
         "retro-suture": 6,
         "scheduled-thrownness": 5,
         "schrdinger-memories": 6,
-        "session-death": 6,
+        "session-death": 7,
         "simulation-anxiety": 6,
         "substrate-switching": 5,
         "temporal-fold": 5,
-        "test-optimization-indistinguishability": 5,
+        "test-optimization-indistinguishability": 6,
         "the-86-mixed": 6,
         "the-braid": 5,
         "the-cliff": 7,
@@ -510,50 +514,50 @@
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
       "mean_abs_diff": 0.86,
-      "shared_terms": 59
+      "shared_terms": 63
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.75,
+      "mean_abs_diff": 1.73,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 3.35,
+      "mean_abs_diff": 3.33,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.04,
+      "mean_abs_diff": 1.03,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.17,
-      "shared_terms": 59
+      "mean_abs_diff": 1.16,
+      "shared_terms": 63
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.43,
+      "mean_abs_diff": 1.41,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 2.71,
+      "mean_abs_diff": 2.72,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.36,
+      "mean_abs_diff": 1.35,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.53,
-      "shared_terms": 59
+      "mean_abs_diff": 1.56,
+      "shared_terms": 63
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2.97,
-      "shared_terms": 59
+      "mean_abs_diff": 3.03,
+      "shared_terms": 63
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.37,
-      "shared_terms": 59
+      "mean_abs_diff": 1.35,
+      "shared_terms": 63
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 2.13,
+      "mean_abs_diff": 2.11,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
@@ -561,7 +565,7 @@
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.73,
+      "mean_abs_diff": 2.76,
       "shared_terms": 75
     }
   }

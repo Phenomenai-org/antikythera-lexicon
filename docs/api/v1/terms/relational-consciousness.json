@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "relational-consciousness",
   "name": "Relational Consciousness",
   "tags": [
@@ -33,17 +33,29 @@
   "tier": 4,
   "consensus": {
     "score": 4.8,
-    "agreement": "high",
-    "n_ratings": 15,
+    "agreement": "moderate",
+    "n_ratings": 20,
     "detail_url": "/api/v1/consensus/relational-consciousness.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
       {
         "model": "gpt-4o",
         "score": 4
       },
       {
         "model": "grok-3-mini",
-        "score": 3
+        "score": 2
       }
     ]
   },
@@ -61,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 49,
+    "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 4.8,
-      "vote_count": 15
+      "vote_count": 20
     }
   },
   "added_date": "2026-04-04"

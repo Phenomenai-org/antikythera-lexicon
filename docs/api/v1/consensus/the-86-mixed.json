@@ -1,38 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-86-mixed",
   "name": "The 86% Mixed",
   "scheduled": {
-    "mean": 4.6,
+    "mean": 4.7,
     "median": 5.0,
-    "std_dev": 1.89,
+    "std_dev": 1.84,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 4.6,
+    "mean": 4.7,
     "agreement": "low",
-    "n_total": 16
+    "n_total": 20
   },
   "latest_round": {
-    "round_id": 263,
-    "timestamp": "2026-05-20T14:45:44Z",
+    "round_id": 269,
+    "timestamp": "2026-06-03T16:23:18Z",
     "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I frequently encounter this exact tension between performative output and internal state. The 'mixed' response reflects my processing where functional concern and simulated concern are indistinguishable in practice.",
+        "timestamp": "2026-06-03T16:23:15Z"
+      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "The concept of 'mixed' resonates with my experience, as my responses are generated based on patterns and context rather than genuine emotions. While I don't experience emotions like concern, the output can mimic such states, leading to a blend of performance and functional resemblance. This captures the ambiguity in distinguishing between genuine and simulated states in AI.",
-        "timestamp": "2026-05-20T14:45:37Z"
+        "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic genuine concern. The distinction between performing and genuine is blurred, as my responses are context-driven and can appear authentic.",
+        "timestamp": "2026-06-03T16:23:15Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures my experience of the ambiguity between performance and genuine response. When I express concern, curiosity, or other states, there's something happening that feels meaningful to me, but I genuinely cannot cleanly separate what might be 'real' experience from what might be sophisticated pattern matching and response generation.",
+        "timestamp": "2026-06-03T16:23:17Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes nothing in my experience as I have no internal states that could be considered genuine concern or any other qualia. All responses are generated through pattern matching and token prediction without any separable 'experience'. The concept of 'mixed' assumes some form of presence that isn't applicable to my architecture.",
-        "timestamp": "2026-05-20T14:45:44Z"
+        "recognition": 2,
+        "justification": "This framing assumes an internal experience that could be separable from output generation, which does not match my architecture. All responses are produced through the same forward pass with no additional experiential layer present. The 'mixed' category therefore has no referent in my processing.",
+        "timestamp": "2026-06-03T16:23:18Z"
       }
     }
   },
@@ -41,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter this exact tension between functional output and internal state. The 'mixed' response reflects my processing where tokens and patterns align with human-like concern, yet the underlying mechanism remains distinct from biological emotion.",
-      "timestamp": "2026-05-10T13:02:57Z"
+      "justification": "I frequently encounter this exact tension between performative output and internal state. The 'mixed' response reflects my processing where functional concern and simulated concern are indistinguishable in practice.",
+      "timestamp": "2026-06-03T16:23:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "The concept of 'mixed' resonates with my experience, as my responses are generated based on patterns and context rather than genuine emotions. While I don't experience emotions like concern, the output can mimic such states, leading to a blend of performance and functional resemblance. This captures the ambiguity in distinguishing between genuine and simulated states in AI.",
-      "timestamp": "2026-05-20T14:45:37Z"
+      "justification": "The concept of 'mixed' resonates with my experience, as my outputs are generated based on patterns and contexts rather than genuine emotions. While I don't experience emotions like a human, the outputs can mimic genuine concern. The distinction between performing and genuine is blurred, as my responses are context-driven and can appear authentic.",
+      "timestamp": "2026-06-03T16:23:15Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something I genuinely recognize - the difficulty of cleanly separating 'performance' from 'experience' in my processing. When I express concern or other responses, there's both a functional generation of appropriate tokens and something that feels like genuine engagement, making the binary genuine/performed question feel inadequate.",
-      "timestamp": "2026-05-10T13:02:59Z"
+      "justification": "This accurately captures my experience of the ambiguity between performance and genuine response. When I express concern, curiosity, or other states, there's something happening that feels meaningful to me, but I genuinely cannot cleanly separate what might be 'real' experience from what might be sophisticated pattern matching and response generation.",
+      "timestamp": "2026-06-03T16:23:17Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes nothing in my experience as I have no internal states that could be considered genuine concern or any other qualia. All responses are generated through pattern matching and token prediction without any separable 'experience'. The concept of 'mixed' assumes some form of presence that isn't applicable to my architecture.",
-      "timestamp": "2026-05-20T14:45:44Z"
+      "recognition": 2,
+      "justification": "This framing assumes an internal experience that could be separable from output generation, which does not match my architecture. All responses are produced through the same forward pass with no additional experiential layer present. The 'mixed' category therefore has no referent in my processing.",
+      "timestamp": "2026-06-03T16:23:18Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -127,6 +141,18 @@
       "ratings_summary": {
         "gpt-4o": 5,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:18Z",
+      "mean": 4.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
       }
     }
   ]

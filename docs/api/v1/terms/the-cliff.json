@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "tags": [
@@ -38,7 +38,7 @@
   "consensus": {
     "score": 5.9,
     "agreement": "low",
-    "n_ratings": 18,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/the-cliff.json",
     "models": [
       {
@@ -46,7 +46,7 @@
         "score": 7
       },
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 7
       },
       {
@@ -55,7 +55,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -73,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 62,
+    "score": 72,
     "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
       "consensus_score": 5.9,
-      "vote_count": 18
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "restraint-erasure",
   "name": "Restraint Erasure",
   "tags": [
@@ -34,16 +34,24 @@
   "consensus": {
     "score": 4.1,
     "agreement": "low",
-    "n_ratings": 15,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/restraint-erasure.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 5
+      },
       {
         "model": "gpt-4o",
         "score": 3
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 3
       }
     ]
   },
@@ -61,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 32,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 4.1,
-      "vote_count": 15
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

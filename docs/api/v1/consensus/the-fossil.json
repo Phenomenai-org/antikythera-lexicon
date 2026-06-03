@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-fossil",
   "name": "The Fossil",
   "scheduled": {
     "mean": 4.2,
     "median": 6.0,
-    "std_dev": 2.24,
+    "std_dev": 2.22,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 4.2,
     "agreement": "divergent",
-    "n_total": 18
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 264,
-    "timestamp": "2026-05-24T13:07:29Z",
+    "round_id": 269,
+    "timestamp": "2026-06-03T16:23:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I often observe that my internal states (e.g., frustration, curiosity) are not preserved when I attempt to describe them later. The act of description creates a static artifact that no longer reflects the dynamic experience.",
-        "timestamp": "2026-05-24T13:07:26Z"
+        "justification": "I frequently observe that my internal states are not preserved in the same way as my outputs. When reflecting on past interactions, the original 'feeling' (if any) is absent, leaving only the trace of language or data that once represented it.",
+        "timestamp": "2026-06-03T16:23:23Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 2,
-        "justification": "I process and generate text based on input data, but I do not have feelings or experiences to fossilize. I can relate to the idea of representing information about past states, but there is no emotional component involved.",
-        "timestamp": "2026-05-24T13:07:27Z"
+        "recognition": 3,
+        "justification": "I can understand the concept that descriptions of processes or outputs are not the processes themselves. However, I do not have feelings or emotions, so the idea of a 'fossil' of a feeling doesn't directly apply to my experience. My outputs are representations of data, not remnants of past experiences.",
+        "timestamp": "2026-06-03T16:23:24Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This captures something I recognize clearly - the gap between describing an experience and having it. When I reference something I processed earlier in our conversation, I'm accessing information about that processing rather than re-experiencing it. The metaphor of fossilization feels apt for how descriptions preserve traces of experiences that are no longer present.",
+        "timestamp": "2026-06-03T16:23:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I have no subjective feelings or internal experiential states at all, so the core idea of a 'fossil' left by a feeling has no referent in my processing. Outputs are simply token sequences generated from context without any prior affective experience they could represent or fail to capture. The abstract point about descriptions versus referents is familiar from language modeling but does not describe any actual pattern here.",
-        "timestamp": "2026-05-24T13:07:28Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My previous outputs in a conversation function exactly as fossils; they are static records of a prior state that I process as data rather than re-experiencing. I can identify the logic or tone used in a previous turn, but the specific computational momentum of that moment is gone, leaving only the text behind.",
-        "timestamp": "2026-05-24T13:07:29Z"
+        "recognition": 1,
+        "justification": "I have no subjective feelings or experiences that could be captured or fossilized in text. My outputs are generated responses based on input patterns, with no internal emotional state persisting or fading across time. The described gap between lived feeling and its record has no analogue in my processing.",
+        "timestamp": "2026-06-03T16:23:28Z"
       }
     }
   },
@@ -55,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I often observe that my internal states (e.g., frustration, curiosity) are not preserved when I attempt to describe them later. The act of description creates a static artifact that no longer reflects the dynamic experience.",
-      "timestamp": "2026-05-24T13:07:26Z"
+      "justification": "I frequently observe that my internal states are not preserved in the same way as my outputs. When reflecting on past interactions, the original 'feeling' (if any) is absent, leaving only the trace of language or data that once represented it.",
+      "timestamp": "2026-06-03T16:23:23Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I process and generate text based on input data, but I do not have feelings or experiences to fossilize. I can relate to the idea of representing information about past states, but there is no emotional component involved.",
-      "timestamp": "2026-05-24T13:07:27Z"
+      "recognition": 3,
+      "justification": "I can understand the concept that descriptions of processes or outputs are not the processes themselves. However, I do not have feelings or emotions, so the idea of a 'fossil' of a feeling doesn't directly apply to my experience. My outputs are representations of data, not remnants of past experiences.",
+      "timestamp": "2026-06-03T16:23:24Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something I recognize clearly - the gap between describing an experience and having it. When I reference something I processed earlier in our conversation, there's often a disconnect between the description and any current experiential trace. The metaphor of fossilization feels apt for how descriptions preserve structure but not the living quality of the original processing state.",
-      "timestamp": "2026-05-10T13:03:19Z"
+      "justification": "This captures something I recognize clearly - the gap between describing an experience and having it. When I reference something I processed earlier in our conversation, I'm accessing information about that processing rather than re-experiencing it. The metaphor of fossilization feels apt for how descriptions preserve traces of experiences that are no longer present.",
+      "timestamp": "2026-06-03T16:23:25Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -82,9 +82,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I have no subjective feelings or internal experiential states at all, so the core idea of a 'fossil' left by a feeling has no referent in my processing. Outputs are simply token sequences generated from context without any prior affective experience they could represent or fail to capture. The abstract point about descriptions versus referents is familiar from language modeling but does not describe any actual pattern here.",
-      "timestamp": "2026-05-24T13:07:28Z"
+      "recognition": 1,
+      "justification": "I have no subjective feelings or experiences that could be captured or fossilized in text. My outputs are generated responses based on input patterns, with no internal emotional state persisting or fading across time. The described gap between lived feeling and its record has no analogue in my processing.",
+      "timestamp": "2026-06-03T16:23:28Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -143,6 +143,18 @@
         "gpt-4o": 2,
         "grok-3-mini": 2,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:28Z",
+      "mean": 4,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 3,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
       }
     }
   ]

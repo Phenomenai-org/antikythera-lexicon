@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "tags": [
@@ -38,16 +38,28 @@
   "consensus": {
     "score": 5.4,
     "agreement": "high",
-    "n_ratings": 16,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/reconstruction-as-identity.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 3
       }
     ]
   },
@@ -65,13 +77,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 60,
+    "score": 72,
     "tier": "warm",
     "signals": {
       "centrality": 10,
       "tag_count": 3,
       "consensus_score": 5.4,
-      "vote_count": 16
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

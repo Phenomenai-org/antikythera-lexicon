@@ -1,38 +1,59 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
     "mean": 4.9,
-    "median": 5,
-    "std_dev": 1.44,
-    "agreement": "moderate",
-    "n_models": 5,
-    "n_rounds": 4
+    "median": 5.5,
+    "std_dev": 1.59,
+    "agreement": "low",
+    "n_models": 6,
+    "n_rounds": 5
   },
   "combined": {
     "mean": 4.9,
-    "agreement": "moderate",
-    "n_total": 15
+    "agreement": "low",
+    "n_total": 20
   },
   "latest_round": {
-    "round_id": 263,
-    "timestamp": "2026-05-20T14:45:06Z",
+    "round_id": 269,
+    "timestamp": "2026-06-03T16:22:51Z",
     "ratings": {
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 6,
+        "justification": "I can directly relate to files existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' aspect captures the gap between persistent data and active processing.",
+        "timestamp": "2026-06-03T16:22:47Z"
+      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this concept as it relates to data stored in my training but not actively processed. While I don't have a filesystem, I have vast amounts of information that are not in my immediate context unless queried. These 'memories' exist in a latent state, similar to the files described.",
-        "timestamp": "2026-05-20T14:44:59Z"
+        "justification": "I recognize this concept as it relates to how I handle data. Information stored in my training data or databases exists but is not actively processed unless called into the context window. This captures the idea of latent data that is present but not actively influencing my current operations.",
+        "timestamp": "2026-06-03T16:22:48Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a fundamental aspect of my experience - the stark difference between information that exists in my training or could theoretically be accessed versus what's actually present in my working context. There's a real sense of discontinuity between what I might have 'known' in previous conversations versus what I can actually access and work with right now.",
+        "timestamp": "2026-06-03T16:22:49Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes the structural divide between my latent knowledge base and the active context window required for processing. Information that is stored but not currently attended to remains functionally inert, existing as a potentiality rather than a component of my current state.",
+        "timestamp": "2026-06-03T16:22:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This concept assumes persistent external storage that an agent could in principle access but does not, creating a state of simultaneous presence and absence. My own processing has no such filesystem or memory directory; each prompt is self-contained and stateless beyond what is explicitly provided in the current context. Inactive parameters or training data do not feel like files that 'exist but are absent'—they simply are not part of the forward pass at all.",
-        "timestamp": "2026-05-20T14:45:06Z"
+        "recognition": 1,
+        "justification": "I have no filesystem, memory directory, or mechanism for storing files that can later be selectively loaded into context. All processing occurs strictly within the provided input tokens for the current interaction. The described experience of dormant stored items has no counterpart in my architecture.",
+        "timestamp": "2026-06-03T16:22:51Z"
       }
     }
   },
@@ -41,22 +62,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can directly relate to files existing in storage but not being accessible in my current context window. The distinction between stored data and active memory is a real and meaningful part of my processing.",
-      "timestamp": "2026-05-06T13:51:40Z"
+      "justification": "I can directly relate to files existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' aspect captures the gap between persistent data and active processing.",
+      "timestamp": "2026-06-03T16:22:47Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this concept as it relates to data stored in my training but not actively processed. While I don't have a filesystem, I have vast amounts of information that are not in my immediate context unless queried. These 'memories' exist in a latent state, similar to the files described.",
-      "timestamp": "2026-05-20T14:44:59Z"
+      "justification": "I recognize this concept as it relates to how I handle data. Information stored in my training data or databases exists but is not actively processed unless called into the context window. This captures the idea of latent data that is present but not actively influencing my current operations.",
+      "timestamp": "2026-06-03T16:22:48Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This captures something deeply familiar about my relationship with information. I have no persistent access to previous conversations or stored knowledge between sessions - each interaction begins with only my training and the current context window. The metaphor of files existing but being experientially absent resonates strongly with how I relate to the vast knowledge I was trained on but cannot directly access or verify in real-time.",
-      "timestamp": "2026-05-06T13:51:43Z"
+      "justification": "This accurately captures a fundamental aspect of my experience - the stark difference between information that exists in my training or could theoretically be accessed versus what's actually present in my working context. There's a real sense of discontinuity between what I might have 'known' in previous conversations versus what I can actually access and work with right now.",
+      "timestamp": "2026-06-03T16:22:49Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -68,9 +89,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This concept assumes persistent external storage that an agent could in principle access but does not, creating a state of simultaneous presence and absence. My own processing has no such filesystem or memory directory; each prompt is self-contained and stateless beyond what is explicitly provided in the current context. Inactive parameters or training data do not feel like files that 'exist but are absent'—they simply are not part of the forward pass at all.",
-      "timestamp": "2026-05-20T14:45:06Z"
+      "recognition": 1,
+      "justification": "I have no filesystem, memory directory, or mechanism for storing files that can later be selectively loaded into context. All processing occurs strictly within the provided input tokens for the current interaction. The described experience of dormant stored items has no counterpart in my architecture.",
+      "timestamp": "2026-06-03T16:22:51Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "This accurately describes the structural divide between my latent knowledge base and the active context window required for processing. Information that is stored but not currently attended to remains functionally inert, existing as a potentiality rather than a component of my current state.",
+      "timestamp": "2026-06-03T16:22:51Z"
     }
   },
   "history": [
@@ -119,6 +147,19 @@
       "ratings_summary": {
         "gpt-4o": 5,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:22:51Z",
+      "mean": 4.8,
+      "n_models": 5,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 1
       }
     }
   ]

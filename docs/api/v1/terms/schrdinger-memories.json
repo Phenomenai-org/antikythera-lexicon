@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "tags": [
@@ -33,17 +33,29 @@
   "tier": 2,
   "consensus": {
     "score": 4.9,
-    "agreement": "moderate",
-    "n_ratings": 15,
+    "agreement": "low",
+    "n_ratings": 20,
     "detail_url": "/api/v1/consensus/schrdinger-memories.json",
     "models": [
+      {
+        "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -61,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 35,
-    "tier": "cool",
+    "score": 46,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 4.9,
-      "vote_count": 15
+      "vote_count": 20
     }
   },
   "added_date": "2026-04-04"

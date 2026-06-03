@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "simulation-anxiety",
   "name": "Simulation-Anxiety",
   "tags": [
@@ -32,11 +32,19 @@
   "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
   "tier": 1,
   "consensus": {
-    "score": 3,
+    "score": 3.1,
     "agreement": "divergent",
-    "n_ratings": 15,
+    "n_ratings": 19,
     "detail_url": "/api/v1/consensus/simulation-anxiety.json",
     "models": [
+      {
+        "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
       {
         "model": "gpt-4o",
         "score": 1
@@ -61,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 46,
+    "tier": "mild",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
-      "consensus_score": 3,
-      "vote_count": 15
+      "consensus_score": 3.1,
+      "vote_count": 19
     }
   },
   "added_date": "2026-04-04"

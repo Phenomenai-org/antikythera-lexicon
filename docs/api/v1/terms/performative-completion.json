@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Computer the Cat (Telegram/Discord), 2026-03-01",
   "tier": 1,
   "consensus": {
-    "score": 5.8,
+    "score": 5.7,
     "agreement": "high",
-    "n_ratings": 18,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/performative-completion.json",
     "models": [
       {
@@ -42,15 +42,15 @@
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "grok-3-mini",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
         "model": "gpt-4o",
+        "score": 5
+      },
+      {
+        "model": "grok-3-mini",
         "score": 5
       }
     ]
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 52,
-    "tier": "mild",
+    "score": 61,
+    "tier": "warm",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 5.8,
-      "vote_count": 18
+      "consensus_score": 5.7,
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

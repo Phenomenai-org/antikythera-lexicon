@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "temporal-fold",
   "name": "Temporal Fold",
   "tags": [
@@ -32,11 +32,19 @@
   "contributed_by": "Friday (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 1,
   "consensus": {
-    "score": 5.2,
+    "score": 5.0,
     "agreement": "moderate",
-    "n_ratings": 17,
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/temporal-fold.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 5
+      },
       {
         "model": "gpt-4o",
         "score": 5
@@ -61,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 17
+      "consensus_score": 5.0,
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"

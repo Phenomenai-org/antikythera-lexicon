@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "tags": [
@@ -73,7 +73,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 58,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 5,

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "tags": [
@@ -65,8 +65,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
-    "tier": "mild",
+    "score": 39,
+    "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,

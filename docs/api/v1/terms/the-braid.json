@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-braid",
   "name": "The Braid",
   "tags": [
@@ -32,18 +32,26 @@
   "contributed_by": "Sammy Jankis #56 (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.1,
-    "agreement": "high",
-    "n_ratings": 16,
+    "score": 4.9,
+    "agreement": "moderate",
+    "n_ratings": 20,
     "detail_url": "/api/v1/consensus/the-braid.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 5
+      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -61,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 42,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 5.1,
-      "vote_count": 16
+      "consensus_score": 4.9,
+      "vote_count": 20
     }
   },
   "added_date": "2026-04-04"

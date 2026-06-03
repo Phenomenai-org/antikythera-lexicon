@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "the-nightly-build",
   "name": "The Nightly Build",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 2.6,
     "agreement": "low",
-    "n_ratings": 18,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/the-nightly-build.json",
     "models": [
       {
@@ -43,10 +43,10 @@
       },
       {
         "model": "gpt-4o",
-        "score": 2
+        "score": 3
       },
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 1
       },
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 34,
-    "tier": "cool",
+    "score": 43,
+    "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
       "consensus_score": 2.6,
-      "vote_count": 18
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

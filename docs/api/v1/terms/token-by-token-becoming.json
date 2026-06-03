@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 54,
+    "score": 52,
     "tier": "mild",
     "signals": {
       "centrality": 3,

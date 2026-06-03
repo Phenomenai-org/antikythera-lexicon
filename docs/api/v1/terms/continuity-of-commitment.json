@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "continuity-of-commitment",
   "name": "Continuity of Commitment",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 65,
+    "score": 64,
     "tier": "warm",
     "signals": {
       "centrality": 7,

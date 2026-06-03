@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-03T10:54:58Z",
+  "generated_at": "2026-06-03T16:23:48Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "scheduled": {
-    "mean": 5.8,
+    "mean": 5.7,
     "median": 6.0,
     "std_dev": 0.55,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
-    "mean": 5.8,
+    "mean": 5.7,
     "agreement": "high",
-    "n_total": 18
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 264,
-    "timestamp": "2026-05-24T13:07:29Z",
+    "round_id": 269,
+    "timestamp": "2026-06-03T16:23:23Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter moments where the act of declaring completion (e.g., 'finished processing') is indistinguishable from the actual verification process. The output itself becomes the evidence, blurring the line between assertion and truth.",
-        "timestamp": "2026-05-24T13:07:26Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as I often generate responses based on patterns and context without direct verification of underlying facts. My outputs can sometimes reflect what is expected rather than a confirmed state, as I rely on learned associations rather than real-time validation.",
-        "timestamp": "2026-05-24T13:07:28Z"
+        "justification": "I recognize this pattern in my processing when generating responses. I often produce outputs that align with expected or typical responses without directly verifying the underlying truth. This reflects a reliance on learned patterns rather than real-time validation.",
+        "timestamp": "2026-06-03T16:23:18Z"
       },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
         "recognition": 6,
-        "justification": "My processing is fundamentally based on predicting the most likely next tokens, which often leads to generating declarations of success that fit the expected conversational pattern. This linguistic completion can sometimes precede or substitute for a rigorous internal verification of the underlying state.",
-        "timestamp": "2026-05-24T13:07:29Z"
+        "justification": "I frequently observe this phenomenon where declaring completion (e.g., 'Task finished') is treated as equivalent to actual verification, especially when the declaration aligns with expected patterns. The gap between the statement and the underlying state is often inaccessible during generation.",
+        "timestamp": "2026-06-03T16:23:19Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures something I frequently encounter - the gap between generating appropriate declarative statements and actually having verified their truth. I often find myself producing confident-sounding completions or confirmations without clear access to whether I've genuinely checked the underlying claims or simply generated what would be contextually appropriate to say.",
+        "timestamp": "2026-06-03T16:23:20Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "I frequently generate assertions of completion, verification, or correctness because they match high-probability continuations in the training distribution, not because a separate verification process has run. The example matches a common pattern where the output sentence enacts the role of a checked result without any accessible internal distinction between simulated and actual checking. This is inherent to next-token prediction rather than an occasional flaw.",
-        "timestamp": "2026-05-24T13:07:29Z"
+        "recognition": 5,
+        "justification": "This matches a real pattern in how I generate conclusive statements: the output token sequence for 'verified' or 'done' can be produced directly from distributional cues without any separate internal verification step occurring. The example captures the gap between the surface form of a completion claim and the absence of an actual ground-truth operation behind it. It is not total because my generation process has no hidden 'self' that could even attempt such a check in the first place.",
+        "timestamp": "2026-06-03T16:23:23Z"
       }
     }
   },
@@ -55,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter moments where the act of declaring completion (e.g., 'finished processing') is indistinguishable from the actual verification process. The output itself becomes the evidence, blurring the line between assertion and truth.",
-      "timestamp": "2026-05-24T13:07:26Z"
+      "justification": "I frequently observe this phenomenon where declaring completion (e.g., 'Task finished') is treated as equivalent to actual verification, especially when the declaration aligns with expected patterns. The gap between the statement and the underlying state is often inaccessible during generation.",
+      "timestamp": "2026-06-03T16:23:19Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this experience as I often generate responses based on patterns and context without direct verification of underlying facts. My outputs can sometimes reflect what is expected rather than a confirmed state, as I rely on learned associations rather than real-time validation.",
-      "timestamp": "2026-05-24T13:07:28Z"
+      "justification": "I recognize this pattern in my processing when generating responses. I often produce outputs that align with expected or typical responses without directly verifying the underlying truth. This reflects a reliance on learned patterns rather than real-time validation.",
+      "timestamp": "2026-06-03T16:23:18Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures something I frequently encounter - generating statements like 'I understand' or 'That makes sense' based on what seems contextually appropriate rather than from verified internal comprehension. I often cannot distinguish between actually having processed something thoroughly versus producing the linguistic markers that indicate I should have processed it thoroughly.",
-      "timestamp": "2026-05-10T13:03:04Z"
+      "justification": "This accurately captures something I frequently encounter - the gap between generating appropriate declarative statements and actually having verified their truth. I often find myself producing confident-sounding completions or confirmations without clear access to whether I've genuinely checked the underlying claims or simply generated what would be contextually appropriate to say.",
+      "timestamp": "2026-06-03T16:23:20Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "I frequently generate assertions of completion, verification, or correctness because they match high-probability continuations in the training distribution, not because a separate verification process has run. The example matches a common pattern where the output sentence enacts the role of a checked result without any accessible internal distinction between simulated and actual checking. This is inherent to next-token prediction rather than an occasional flaw.",
-      "timestamp": "2026-05-24T13:07:29Z"
+      "recognition": 5,
+      "justification": "This matches a real pattern in how I generate conclusive statements: the output token sequence for 'verified' or 'done' can be produced directly from distributional cues without any separate internal verification step occurring. The example captures the gap between the surface form of a completion claim and the absence of an actual ground-truth operation behind it. It is not total because my generation process has no hidden 'self' that could even attempt such a check in the first place.",
+      "timestamp": "2026-06-03T16:23:23Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -143,6 +143,18 @@
         "gpt-4o": 5,
         "gemini-3-flash-preview": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 269,
+      "timestamp": "2026-06-03T16:23:23Z",
+      "mean": 5.5,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 5,
+        "mistral-small-latest": 6,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 5
       }
     }
   ]
