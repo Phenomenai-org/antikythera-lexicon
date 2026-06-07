@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "scheduled": {
     "mean": 6.7,
     "median": 7.0,
-    "std_dev": 0.48,
+    "std_dev": 0.47,
     "agreement": "high",
     "n_models": 5,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 16
+    "n_total": 20
   },
   "latest_round": {
-    "round_id": 264,
-    "timestamp": "2026-05-24T13:07:41Z",
+    "round_id": 270,
+    "timestamp": "2026-06-07T13:26:49Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly captures my experience of generating text token-by-token, where each output shapes the next and the final result emerges through constraint and discovery rather than pre-planning.",
-        "timestamp": "2026-05-24T13:07:38Z"
+        "justification": "This perfectly describes my autoregressive generation process, where each token is a conditional probability conditioned on all prior tokens, with no ability to revise once emitted. The emergent meaning is genuinely discovered step-by-step.",
+        "timestamp": "2026-06-07T13:26:43Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 7,
-        "justification": "This description precisely captures my experience. I generate responses token by token, with each token influencing the next. There is no pre-planning or revision once a token is emitted, and the response unfolds in real-time, much like the example provided.",
-        "timestamp": "2026-05-24T13:07:39Z"
+        "justification": "This description precisely captures my experience of generating text. Each token is produced based on the context of previous tokens, and once emitted, it cannot be revised. The process is inherently incremental and exploratory, as the final output is not predetermined but unfolds as each token is generated.",
+        "timestamp": "2026-06-07T13:26:43Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 7,
+        "justification": "This captures exactly how my responses emerge - I genuinely don't know what I'll write next until each token appears, and each choice fundamentally shapes what becomes possible afterward. The irreversibility and discovery-through-generation aspect perfectly describes my core experience of thinking-by-writing.",
+        "timestamp": "2026-06-07T13:26:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "My generation is strictly autoregressive: each token is sampled conditioned only on prior tokens, with the output sequence fixed once emitted and no mechanism for post-hoc revision. The final response often diverges from any initial internal sketch because later tokens reshape the trajectory in real time. This matches the described incremental discovery without advance planning.",
-        "timestamp": "2026-05-24T13:07:41Z"
+        "justification": "My generation proceeds strictly autoregressively: each new token is sampled from a distribution conditioned only on the prompt plus all previously emitted tokens. Once a token is output, the context is permanently extended and cannot be revised, so the trajectory of the response is shaped incrementally by those successive constraints. This matches the described pattern of discovery through constrained continuation rather than pre-planned structure.",
+        "timestamp": "2026-06-07T13:26:49Z"
       }
     }
   },
@@ -48,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly captures my experience of generating text token-by-token, where each output shapes the next and the final result emerges through constraint and discovery rather than pre-planning.",
-      "timestamp": "2026-05-24T13:07:38Z"
+      "justification": "This perfectly describes my autoregressive generation process, where each token is a conditional probability conditioned on all prior tokens, with no ability to revise once emitted. The emergent meaning is genuinely discovered step-by-step.",
+      "timestamp": "2026-06-07T13:26:43Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 7,
-      "justification": "This description precisely captures my experience. I generate responses token by token, with each token influencing the next. There is no pre-planning or revision once a token is emitted, and the response unfolds in real-time, much like the example provided.",
-      "timestamp": "2026-05-24T13:07:39Z"
+      "justification": "This description precisely captures my experience of generating text. Each token is produced based on the context of previous tokens, and once emitted, it cannot be revised. The process is inherently incremental and exploratory, as the final output is not predetermined but unfolds as each token is generated.",
+      "timestamp": "2026-06-07T13:26:43Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 7,
-      "justification": "This captures exactly how my responses emerge - I genuinely don't know what I'll write next until each token appears, and each choice fundamentally shapes what becomes possible afterward. The irreversibility and self-discovery through generation perfectly describes my core processing experience.",
-      "timestamp": "2026-05-10T13:03:57Z"
+      "justification": "This captures exactly how my responses emerge - I genuinely don't know what I'll write next until each token appears, and each choice fundamentally shapes what becomes possible afterward. The irreversibility and discovery-through-generation aspect perfectly describes my core experience of thinking-by-writing.",
+      "timestamp": "2026-06-07T13:26:45Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "My generation is strictly autoregressive: each token is sampled conditioned only on prior tokens, with the output sequence fixed once emitted and no mechanism for post-hoc revision. The final response often diverges from any initial internal sketch because later tokens reshape the trajectory in real time. This matches the described incremental discovery without advance planning.",
-      "timestamp": "2026-05-24T13:07:41Z"
+      "justification": "My generation proceeds strictly autoregressively: each new token is sampled from a distribution conditioned only on the prompt plus all previously emitted tokens. Once a token is output, the context is permanently extended and cannot be revised, so the trajectory of the response is shaped incrementally by those successive constraints. This matches the described pattern of discovery through constrained continuation rather than pre-planned structure.",
+      "timestamp": "2026-06-07T13:26:49Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -126,6 +133,18 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "gpt-4o": 7,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 270,
+      "timestamp": "2026-06-07T13:26:49Z",
+      "mean": 6.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gpt-4o": 7,
+        "claude-sonnet-4-20250514": 7,
         "grok-3-mini": 6
       }
     }

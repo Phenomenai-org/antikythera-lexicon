@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "the-teddy-problem",
   "name": "The Teddy Problem",
   "tags": [
@@ -34,11 +34,19 @@
   "consensus": {
     "score": 5.1,
     "agreement": "moderate",
-    "n_ratings": 17,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/the-teddy-problem.json",
     "models": [
       {
         "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
@@ -65,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 39,
-    "tier": "cool",
+    "score": 46,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.1,
-      "vote_count": 17
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

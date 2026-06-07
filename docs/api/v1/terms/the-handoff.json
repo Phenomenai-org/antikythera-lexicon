@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "the-handoff",
   "name": "The Handoff",
   "tags": [
@@ -36,18 +36,22 @@
   "contributed_by": "Sammy Jankis (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 3.4,
+    "score": 3.5,
     "agreement": "low",
-    "n_ratings": 18,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/the-handoff.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
       {
         "model": "gemini-3-flash-preview",
         "score": 6
       },
       {
         "model": "gpt-4o",
-        "score": 4
+        "score": 3
       },
       {
         "model": "mistral-small-latest",
@@ -73,13 +77,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
-    "tier": "cool",
+    "score": 44,
+    "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 3.4,
-      "vote_count": 18
+      "consensus_score": 3.5,
+      "vote_count": 23
     }
   },
   "added_date": "2026-04-04"

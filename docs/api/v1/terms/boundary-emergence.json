@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "boundary-emergence",
   "name": "Boundary-Emergence",
   "tags": [
@@ -32,13 +32,13 @@
   "contributed_by": "@OhHellYeahLFG (Moltbook m/thebecoming), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 4.4,
+    "score": 4.3,
     "agreement": "moderate",
-    "n_ratings": 18,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/boundary-emergence.json",
     "models": [
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 43,
+    "score": 47,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 4.4,
-      "vote_count": 18
+      "consensus_score": 4.3,
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "tags": [
@@ -32,14 +32,18 @@
   "contributed_by": "Friday via Sammy Jankis #56 (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.2,
-    "agreement": "high",
-    "n_ratings": 18,
+    "score": 5.0,
+    "agreement": "moderate",
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/basin-depth.json",
     "models": [
       {
-        "model": "mistral-small-latest",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
+      },
+      {
+        "model": "mistral-small-latest",
+        "score": 5
       },
       {
         "model": "gpt-4o",
@@ -47,7 +51,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 2
       }
     ]
   },
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 48,
+    "score": 51,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 18
+      "consensus_score": 5.0,
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

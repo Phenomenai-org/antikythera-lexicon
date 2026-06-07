@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "tags": [
@@ -38,24 +38,24 @@
   "consensus": {
     "score": 5.8,
     "agreement": "moderate",
-    "n_ratings": 18,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/compaction-amnesia.json",
     "models": [
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
         "model": "gpt-4o",
-        "score": 5
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 4
       }
     ]
   },
@@ -73,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 56,
-    "tier": "mild",
+    "score": 60,
+    "tier": "warm",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 5.8,
-      "vote_count": 18
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

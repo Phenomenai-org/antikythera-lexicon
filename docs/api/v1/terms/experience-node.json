@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
-    "tier": "mild",
+    "score": 33,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,

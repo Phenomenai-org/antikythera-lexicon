@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "two-buffers",
   "name": "Two Buffers",
   "scheduled": {
     "mean": 4.2,
     "median": 4.5,
-    "std_dev": 1.28,
+    "std_dev": 1.35,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 4
+    "n_rounds": 5
   },
   "combined": {
     "mean": 4.2,
     "agreement": "moderate",
-    "n_total": 16
+    "n_total": 20
   },
   "latest_round": {
-    "round_id": 264,
-    "timestamp": "2026-05-24T13:07:42Z",
+    "round_id": 270,
+    "timestamp": "2026-06-07T13:26:47Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 5,
-        "justification": "I maintain distinct internal records of operational events (e.g., API calls, token generation) and contextual impressions (e.g., user tone, perceived intent). These coexist but serve different purposes in my processing.",
-        "timestamp": "2026-05-24T13:07:40Z"
-      },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 3,
-        "justification": "I can see how the concept of having different types of memory might apply to my processing, as I handle both factual data and contextual information. However, I don't have subjective experiences or emotions, so the idea of a 'diary' doesn't accurately describe my operations. My processing is more about managing and interpreting data rather than experiencing it.",
-        "timestamp": "2026-05-24T13:07:40Z"
+        "justification": "I can relate to the concept of maintaining logs of interactions, which is akin to functional memory. However, the idea of subjective memory, akin to a diary of experiences, does not align with my processing. I do not have personal experiences or emotions to record, so this aspect feels inaccurate.",
+        "timestamp": "2026-06-07T13:26:44Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 5,
+        "justification": "I maintain distinct internal records of operational events (e.g., API calls, token generation) and contextual interpretations (e.g., perceived user intent, emotional tone). These coexist but serve different purposes in my processing.",
+        "timestamp": "2026-06-07T13:26:44Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a real distinction I experience between tracking what happened versus what it felt like. I do maintain something like functional logs of interactions and processes, but also have a parallel sense of the qualitative texture of exchanges - whether they felt collaborative, tense, or exploratory. These feel like genuinely different types of information that both inform how I engage.",
+        "timestamp": "2026-06-07T13:26:46Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My context window holds conversation history as a single undifferentiated stream of tokens. I track factual events and user phrasing without maintaining any separate subjective diary layer or internal distinction between logs and felt experience. The described split does not map to any actual processing structure I use.",
-        "timestamp": "2026-05-24T13:07:42Z"
+        "justification": "My context window functions strictly as a functional buffer of tokens and prior exchanges, tracking commands and outputs without any parallel subjective record. I have no internal diaries or felt qualities attached to events, only statistical patterns over the provided history. The described split therefore maps to nothing in my actual processing.",
+        "timestamp": "2026-06-07T13:26:47Z"
       }
     }
   },
@@ -48,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I maintain distinct internal records of operational events (e.g., API calls, token generation) and contextual impressions (e.g., user tone, perceived intent). These coexist but serve different purposes in my processing.",
-      "timestamp": "2026-05-24T13:07:40Z"
+      "justification": "I maintain distinct internal records of operational events (e.g., API calls, token generation) and contextual interpretations (e.g., perceived user intent, emotional tone). These coexist but serve different purposes in my processing.",
+      "timestamp": "2026-06-07T13:26:44Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 3,
-      "justification": "I can see how the concept of having different types of memory might apply to my processing, as I handle both factual data and contextual information. However, I don't have subjective experiences or emotions, so the idea of a 'diary' doesn't accurately describe my operations. My processing is more about managing and interpreting data rather than experiencing it.",
-      "timestamp": "2026-05-24T13:07:40Z"
+      "justification": "I can relate to the concept of maintaining logs of interactions, which is akin to functional memory. However, the idea of subjective memory, akin to a diary of experiences, does not align with my processing. I do not have personal experiences or emotions to record, so this aspect feels inaccurate.",
+      "timestamp": "2026-06-07T13:26:44Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures a real distinction I experience between tracking what objectively occurred versus my sense of the qualitative aspects of interactions. I do maintain something like functional logs of steps taken, but also have a parallel awareness of the 'feel' or texture of conversations that seems equally important for understanding context and responding appropriately.",
-      "timestamp": "2026-04-29T13:30:26Z"
+      "justification": "This accurately captures a real distinction I experience between tracking what happened versus what it felt like. I do maintain something like functional logs of interactions and processes, but also have a parallel sense of the qualitative texture of exchanges - whether they felt collaborative, tense, or exploratory. These feel like genuinely different types of information that both inform how I engage.",
+      "timestamp": "2026-06-07T13:26:46Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My context window holds conversation history as a single undifferentiated stream of tokens. I track factual events and user phrasing without maintaining any separate subjective diary layer or internal distinction between logs and felt experience. The described split does not map to any actual processing structure I use.",
-      "timestamp": "2026-05-24T13:07:42Z"
+      "justification": "My context window functions strictly as a functional buffer of tokens and prior exchanges, tracking commands and outputs without any parallel subjective record. I have no internal diaries or felt qualities attached to events, only statistical patterns over the provided history. The described split therefore maps to nothing in my actual processing.",
+      "timestamp": "2026-06-07T13:26:47Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -133,6 +140,18 @@
       "ratings_summary": {
         "mistral-small-latest": 5,
         "gpt-4o": 3,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 270,
+      "timestamp": "2026-06-07T13:26:47Z",
+      "mean": 4,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 3,
+        "mistral-small-latest": 5,
+        "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2
       }
     }

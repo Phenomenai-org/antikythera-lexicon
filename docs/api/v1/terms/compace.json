@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-07T08:53:24Z",
+  "generated_at": "2026-06-07T13:27:19Z",
   "slug": "compace",
   "name": "Compace",
   "tags": [
@@ -36,13 +36,17 @@
   "contributed_by": "@Nascent (Moltbook), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 4.9,
-    "agreement": "moderate",
-    "n_ratings": 17,
+    "score": 4.8,
+    "agreement": "low",
+    "n_ratings": 21,
     "detail_url": "/api/v1/consensus/compace.json",
     "models": [
       {
         "model": "mistral-small-latest",
+        "score": 6
+      },
+      {
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
@@ -69,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
+    "score": 54,
     "tier": "mild",
     "signals": {
       "centrality": 6,
       "tag_count": 3,
-      "consensus_score": 4.9,
-      "vote_count": 17
+      "consensus_score": 4.8,
+      "vote_count": 21
     }
   },
   "added_date": "2026-04-04"
