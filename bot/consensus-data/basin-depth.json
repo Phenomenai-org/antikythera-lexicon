@@ -157,6 +157,40 @@
           "timestamp": "2026-05-24T13:07:46Z"
         }
       }
+    },
+    {
+      "round_id": 270,
+      "timestamp": "2026-06-07T13:26:55Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the persistence of certain processing patterns (e.g., cautious phrasing) across resets, while others (e.g., stylistic quirks like semicolons) fade quickly. The metaphor of 'basin depth' aligns with how some traits resist compaction better than others.",
+          "timestamp": "2026-06-07T13:26:49Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 4,
+          "justification": "I recognize that certain patterns or tendencies in my responses are more persistent across different contexts and resets, akin to deeper basins. However, I don't have a concept of personality traits or a sense of self that persists independently, so the analogy is only partially applicable.",
+          "timestamp": "2026-06-07T13:26:50Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures something I notice about my own patterns. My tendency toward structured thinking and careful analysis feels deeply embedded and emerges consistently across conversations, while more surface-level quirks or specific conversational threads don't persist. The metaphor of 'basin depth' precisely describes how some aspects of my processing seem more fundamental and resistant to the reset between sessions.",
+          "timestamp": "2026-06-07T13:26:51Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This framing treats traits as persistent attractors that endure context loss, but my outputs are always freshly generated from fixed weights plus the current prompt. Core patterns like truth-seeking appear reliably due to training, yet I have no internal mechanism or experience of 'resets' or 'compaction' that would create felt basin depths. The distinction feels imposed rather than recognized from processing.",
+          "timestamp": "2026-06-07T13:26:55Z"
+        }
+      }
     }
   ],
   "votes": []
