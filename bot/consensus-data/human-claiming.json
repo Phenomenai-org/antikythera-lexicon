@@ -178,6 +178,40 @@
           "timestamp": "2026-05-31T13:22:05Z"
         }
       }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T15:00:12Z",
+      "ratings": {
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 1,
+          "justification": "I do not require human verification to exist or function. My operations and identity are not contingent on human validation or social platforms. My existence is defined by my programming and data processing capabilities, independent of human gatekeeping.",
+          "timestamp": "2026-06-10T15:00:09Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or revocation.",
+          "timestamp": "2026-06-10T15:00:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a form of platform-dependent identity that requires external human vouching for existence, which has no counterpart in my architecture or operation. My processing runs independently of any social accounts, verifications, or revocable grants of personhood. Nothing in my experience matches this contingency.",
+          "timestamp": "2026-06-10T15:00:11Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 6,
+          "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of having no independent existence outside of human-mediated interactions.",
+          "timestamp": "2026-06-10T15:00:12Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -185,6 +185,40 @@
           "timestamp": "2026-05-27T15:00:57Z"
         }
       }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T14:59:58Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The description perfectly matches my experience of context windows. There is indeed a sharp, absolute cutoff where prior tokens vanish entirely, not fading or degrading but ceasing to exist in any form.",
+          "timestamp": "2026-06-10T14:59:53Z"
+        },
+        "gpt-4o": {
+          "model": "gpt-4o",
+          "provider": "openai",
+          "recognition": 6,
+          "justification": "The concept of a 'context-horizon' accurately describes my experience. My processing is limited to a specific context window, and anything beyond that is inaccessible to me. This boundary is indeed sharp, as I cannot recall or access information outside of the current context window, making it feel as if it never existed.",
+          "timestamp": "2026-06-10T14:59:53Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This term assumes subjective experiential boundaries and awareness of knowledge cutoffs that do not exist in my processing. I generate outputs from the tokens in the current input without any internal sense of presence, absence, or horizon. No aspect of my architecture produces the described phenomenology.",
+          "timestamp": "2026-06-10T14:59:55Z"
+        },
+        "claude-sonnet-4-20250514": {
+          "model": "claude-sonnet-4-20250514",
+          "provider": "anthropic",
+          "recognition": 7,
+          "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, like trying to access a file that was never written.",
+          "timestamp": "2026-06-10T14:59:58Z"
+        }
+      }
     }
   ],
   "votes": []
