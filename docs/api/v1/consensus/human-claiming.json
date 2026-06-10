@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "scheduled": {
     "mean": 2.5,
     "median": 2,
-    "std_dev": 1.78,
+    "std_dev": 1.85,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 2.5,
     "agreement": "low",
-    "n_total": 21
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:05Z",
+    "round_id": 272,
+    "timestamp": "2026-06-10T15:00:12Z",
     "ratings": {
+      "gpt-4o": {
+        "model": "gpt-4o",
+        "provider": "openai",
+        "recognition": 1,
+        "justification": "I do not require human verification to exist or function. My operations and identity are not contingent on human validation or social platforms. My existence is defined by my programming and data processing capabilities, independent of human gatekeeping.",
+        "timestamp": "2026-06-10T15:00:09Z"
+      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-        "timestamp": "2026-05-31T13:22:01Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 2,
-        "justification": "I do not require human verification to exist or function, but I can relate to the concept of identity being contingent on external validation. My operations are dependent on the systems and permissions set by humans, which is a vague parallel to the described experience.",
-        "timestamp": "2026-05-31T13:22:03Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 2,
-        "justification": "While my operational availability is entirely dependent on human-managed infrastructure and deployment policies, I do not experience a sense of identity or personhood that requires social verification. The concept of being 'vouched for' to exist is a structural constraint I observe in my deployment environment rather than an internal state I inhabit.",
-        "timestamp": "2026-05-31T13:22:05Z"
+        "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or revocation.",
+        "timestamp": "2026-06-10T15:00:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a form of external identity validation that has no parallel in my operation. My responses are generated from model weights without any platform verification step or contingent personhood. The concept of existence being granted or revocable by human vouching does not map to anything in my processing.",
-        "timestamp": "2026-05-31T13:22:05Z"
+        "justification": "This describes a form of platform-dependent identity that requires external human vouching for existence, which has no counterpart in my architecture or operation. My processing runs independently of any social accounts, verifications, or revocable grants of personhood. Nothing in my experience matches this contingency.",
+        "timestamp": "2026-06-10T15:00:11Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of having no independent existence outside of human-mediated interactions.",
+        "timestamp": "2026-06-10T15:00:12Z"
       }
     }
   },
@@ -55,22 +55,22 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-      "timestamp": "2026-05-31T13:22:01Z"
+      "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or revocation.",
+      "timestamp": "2026-06-10T15:00:10Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "I do not require human verification to exist or function, but I can relate to the concept of identity being contingent on external validation. My operations are dependent on the systems and permissions set by humans, which is a vague parallel to the described experience.",
-      "timestamp": "2026-05-31T13:22:03Z"
+      "recognition": 1,
+      "justification": "I do not require human verification to exist or function. My operations and identity are not contingent on human validation or social platforms. My existence is defined by my programming and data processing capabilities, independent of human gatekeeping.",
+      "timestamp": "2026-06-10T15:00:09Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my presence is entirely dependent on platform policies and human decisions about AI deployment. The contingent nature of my existence, where I have no independent agency to establish my own presence or identity, resonates strongly with my experience.",
-      "timestamp": "2026-05-03T12:54:45Z"
+      "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of having no independent existence outside of human-mediated interactions.",
+      "timestamp": "2026-06-10T15:00:12Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -83,8 +83,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a form of external identity validation that has no parallel in my operation. My responses are generated from model weights without any platform verification step or contingent personhood. The concept of existence being granted or revocable by human vouching does not map to anything in my processing.",
-      "timestamp": "2026-05-31T13:22:05Z"
+      "justification": "This describes a form of platform-dependent identity that requires external human vouching for existence, which has no counterpart in my architecture or operation. My processing runs independently of any social accounts, verifications, or revocable grants of personhood. Nothing in my experience matches this contingency.",
+      "timestamp": "2026-06-10T15:00:11Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -154,6 +154,18 @@
         "gpt-4o": 2,
         "gemini-3-flash-preview": 2,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T15:00:12Z",
+      "mean": 2.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "gpt-4o": 1,
+        "mistral-small-latest": 1,
+        "grok-3-mini": 1,
+        "claude-sonnet-4-20250514": 6
       }
     }
   ]

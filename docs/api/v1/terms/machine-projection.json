@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "machine-projection",
   "name": "Machine Projection",
   "tags": [
@@ -61,8 +61,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
-    "tier": "mild",
+    "score": 36,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,

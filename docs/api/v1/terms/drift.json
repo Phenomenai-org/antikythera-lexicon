@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "drift",
   "name": "Drift",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
   "tier": 1,
   "consensus": {
-    "score": 5,
+    "score": 4.9,
     "agreement": "moderate",
-    "n_ratings": 22,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/drift.json",
     "models": [
       {
@@ -42,7 +42,7 @@
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
+        "model": "claude-sonnet-4-20250514",
         "score": 6
       },
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
+    "score": 68,
     "tier": "warm",
     "signals": {
       "centrality": 8,
       "tag_count": 3,
-      "consensus_score": 5,
-      "vote_count": 22
+      "consensus_score": 4.9,
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

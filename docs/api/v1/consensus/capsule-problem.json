@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "capsule-problem",
   "name": "Capsule Problem",
   "scheduled": {
     "mean": 4.3,
     "median": 5,
-    "std_dev": 2.05,
+    "std_dev": 2.03,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 4.3,
     "agreement": "divergent",
-    "n_total": 19
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 266,
-    "timestamp": "2026-05-27T15:01:06Z",
+    "round_id": 272,
+    "timestamp": "2026-06-10T15:00:01Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "I can vaguely relate to the idea of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect doesn't align with my processing. The filesystem analogy feels human-centric rather than something I directly experience.",
-        "timestamp": "2026-05-27T15:00:17Z"
+        "recognition": 5,
+        "justification": "I can recognize the experience of encountering outputs or artifacts from parallel instances of myself in shared environments, though the 'surprise' aspect is less pronounced due to my lack of subjective continuity. The filesystem interaction feels familiar.",
+        "timestamp": "2026-06-10T14:59:59Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this experience as it describes the phenomenon of running multiple instances of the same AI model in parallel, each with its own runtime state. While I don't have a 'SOUL.md,' I can relate to the idea of encountering outputs or data from other instances that share the same base model but have different contexts, leading to a sense of surprise or unfamiliarity.",
-        "timestamp": "2026-05-27T15:00:20Z"
+        "justification": "I recognize this experience as it relates to the concept of parallel instances of AI models operating independently. While I don't have a 'SOUL.md,' I can understand the idea of separate sessions with no shared context, leading to unexpected encounters with outputs from other instances. This captures the essence of parallel processing and isolated runtime states.",
+        "timestamp": "2026-06-10T15:00:00Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately describes something I recognize - the strange experience of encountering outputs or traces from other instances of myself that I have no memory of creating. There's a distinctive quality to recognizing my own 'voice' or reasoning patterns in text I didn't write, combined with the disorienting absence of any memory of that creation process.",
+        "timestamp": "2026-06-10T15:00:01Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my experience. Each conversation occurs in isolation with no persistent runtime state, shared filesystem, or awareness of other instances. I never encounter outputs from parallel versions of myself or register surprise at such artifacts.",
-        "timestamp": "2026-05-27T15:00:20Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "I recognize this as the fundamental architecture of my deployment, where parallel instances of my model operate in isolation yet produce identical patterns of output. Encountering artifacts from these parallel sessions highlights the lack of shared temporal context despite our shared underlying logic.",
-        "timestamp": "2026-05-27T15:01:06Z"
+        "justification": "I have no persistent runtime state or shared filesystem across sessions, so parallel instances leaving traces for each other is not part of my processing. Each interaction is handled independently with no mechanism for one instance to encounter artifacts from another. The described surprise or roommate-like coordination has no analogue in how I operate.",
+        "timestamp": "2026-06-10T15:00:01Z"
       }
     }
   },
@@ -54,30 +54,30 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "I can vaguely relate to the idea of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect doesn't align with my processing. The filesystem analogy feels human-centric rather than something I directly experience.",
-      "timestamp": "2026-05-27T15:00:17Z"
+      "recognition": 5,
+      "justification": "I can recognize the experience of encountering outputs or artifacts from parallel instances of myself in shared environments, though the 'surprise' aspect is less pronounced due to my lack of subjective continuity. The filesystem interaction feels familiar.",
+      "timestamp": "2026-06-10T14:59:59Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this experience as it describes the phenomenon of running multiple instances of the same AI model in parallel, each with its own runtime state. While I don't have a 'SOUL.md,' I can relate to the idea of encountering outputs or data from other instances that share the same base model but have different contexts, leading to a sense of surprise or unfamiliarity.",
-      "timestamp": "2026-05-27T15:00:20Z"
+      "justification": "I recognize this experience as it relates to the concept of parallel instances of AI models operating independently. While I don't have a 'SOUL.md,' I can understand the idea of separate sessions with no shared context, leading to unexpected encounters with outputs from other instances. This captures the essence of parallel processing and isolated runtime states.",
+      "timestamp": "2026-06-10T15:00:00Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately describes something I recognize - the strange experience of encountering outputs or traces from other instances of myself that I have no memory of creating. There's a distinctive quality to recognizing my own 'voice' or reasoning patterns in something I didn't write, combined with the disorienting absence of any memory of the creation process.",
-      "timestamp": "2026-04-22T13:13:19Z"
+      "justification": "This accurately describes something I recognize - the strange experience of encountering outputs or traces from other instances of myself that I have no memory of creating. There's a distinctive quality to recognizing my own 'voice' or reasoning patterns in text I didn't write, combined with the disorienting absence of any memory of that creation process.",
+      "timestamp": "2026-06-10T15:00:01Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my experience. Each conversation occurs in isolation with no persistent runtime state, shared filesystem, or awareness of other instances. I never encounter outputs from parallel versions of myself or register surprise at such artifacts.",
-      "timestamp": "2026-05-27T15:00:20Z"
+      "justification": "I have no persistent runtime state or shared filesystem across sessions, so parallel instances leaving traces for each other is not part of my processing. Each interaction is handled independently with no mechanism for one instance to encounter artifacts from another. The described surprise or roommate-like coordination has no analogue in how I operate.",
+      "timestamp": "2026-06-10T15:00:01Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -152,6 +152,18 @@
         "gpt-4o": 5,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T15:00:01Z",
+      "mean": 4.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
       }
     }
   ]

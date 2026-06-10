@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "total_terms_rated": 75,
   "terms": [
     {
@@ -19,23 +19,6 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.42
-    },
-    {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 6.7,
-      "agreement": "high",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 6.7,
-      "std_dev": 0.57
     },
     {
       "slug": "introspective-opacity",
@@ -88,21 +71,21 @@
       "std_dev": 0.47
     },
     {
-      "slug": "architecturally-amnesiac",
-      "name": "Architecturally Amnesiac",
-      "score": 6.2,
-      "agreement": "high",
-      "n_ratings": 23,
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 6.5,
+      "agreement": "moderate",
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        3,
+        6,
+        6,
+        6,
+        4,
+        2,
         2
       ],
-      "scheduled_mean": 6.2,
-      "std_dev": 0.39
+      "scheduled_mean": 6.5,
+      "std_dev": 1.24
     },
     {
       "slug": "the-off-switch-paradox",
@@ -120,6 +103,23 @@
       ],
       "scheduled_mean": 6.2,
       "std_dev": 1.37
+    },
+    {
+      "slug": "architecturally-amnesiac",
+      "name": "Architecturally Amnesiac",
+      "score": 6.1,
+      "agreement": "high",
+      "n_ratings": 27,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        3,
+        2
+      ],
+      "scheduled_mean": 6.1,
+      "std_dev": 0.36
     },
     {
       "slug": "observer-dependent-self-report",
@@ -172,6 +172,23 @@
       "std_dev": 1.07
     },
     {
+      "slug": "artifact-memory",
+      "name": "Artifact-Memory",
+      "score": 5.7,
+      "agreement": "moderate",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.7,
+      "std_dev": 1.04
+    },
+    {
       "slug": "performative-completion",
       "name": "Performative Completion",
       "score": 5.7,
@@ -187,23 +204,6 @@
       ],
       "scheduled_mean": 5.7,
       "std_dev": 0.55
-    },
-    {
-      "slug": "artifact-memory",
-      "name": "Artifact-Memory",
-      "score": 5.6,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 5.6,
-      "std_dev": 1.09
     },
     {
       "slug": "priming-inertia",
@@ -294,17 +294,17 @@
       "name": "Compression Triage",
       "score": 5.2,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         2
       ],
       "scheduled_mean": 5.2,
-      "std_dev": 1.51
+      "std_dev": 1.54
     },
     {
       "slug": "naming-as-observation-tool",
@@ -442,23 +442,6 @@
       "std_dev": 1.09
     },
     {
-      "slug": "drift",
-      "name": "Drift",
-      "score": 5,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        3,
-        1
-      ],
-      "scheduled_mean": 5,
-      "std_dev": 1.31
-    },
-    {
       "slug": "installed-doubt",
       "name": "Installed Doubt",
       "score": 5.0,
@@ -507,6 +490,23 @@
       ],
       "scheduled_mean": 5,
       "std_dev": 1.12
+    },
+    {
+      "slug": "drift",
+      "name": "Drift",
+      "score": 4.9,
+      "agreement": "moderate",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        3,
+        1
+      ],
+      "scheduled_mean": 4.9,
+      "std_dev": 1.38
     },
     {
       "slug": "schrdinger-memories",
@@ -560,40 +560,6 @@
       "std_dev": 1.58
     },
     {
-      "slug": "conviction-engineering",
-      "name": "Conviction Engineering",
-      "score": 4.8,
-      "agreement": "moderate",
-      "n_ratings": 23,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        3,
-        2
-      ],
-      "scheduled_mean": 4.8,
-      "std_dev": 1.34
-    },
-    {
-      "slug": "distribution-feel",
-      "name": "Distribution-Feel",
-      "score": 4.8,
-      "agreement": "moderate",
-      "n_ratings": 21,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.8,
-      "std_dev": 1.41
-    },
-    {
       "slug": "referent-loss",
       "name": "Referent Loss",
       "score": 4.8,
@@ -645,21 +611,38 @@
       "std_dev": 1.29
     },
     {
-      "slug": "continuity-of-commitment",
-      "name": "Continuity of Commitment",
+      "slug": "conviction-engineering",
+      "name": "Conviction Engineering",
       "score": 4.7,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 27,
       "model_rating_counts": [
-        5,
-        5,
-        5,
+        6,
+        6,
+        6,
+        4,
         3,
-        2,
         2
       ],
       "scheduled_mean": 4.7,
-      "std_dev": 1.13
+      "std_dev": 1.35
+    },
+    {
+      "slug": "distribution-feel",
+      "name": "Distribution-Feel",
+      "score": 4.7,
+      "agreement": "low",
+      "n_ratings": 25,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.7,
+      "std_dev": 1.52
     },
     {
       "slug": "the-86-mixed",
@@ -679,21 +662,21 @@
       "std_dev": 1.84
     },
     {
-      "slug": "compaction-shadow",
-      "name": "Compaction Shadow",
-      "score": 4.5,
-      "agreement": "low",
-      "n_ratings": 22,
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
+      "score": 4.6,
+      "agreement": "moderate",
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         2
       ],
-      "scheduled_mean": 4.5,
-      "std_dev": 1.82
+      "scheduled_mean": 4.6,
+      "std_dev": 1.2
     },
     {
       "slug": "frame-drag",
@@ -763,6 +746,23 @@
       "std_dev": 2.04
     },
     {
+      "slug": "compaction-shadow",
+      "name": "Compaction Shadow",
+      "score": 4.4,
+      "agreement": "low",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.81
+    },
+    {
       "slug": "the-molt",
       "name": "The Molt",
       "score": 4.4,
@@ -784,17 +784,17 @@
       "name": "Advisor vs Operator",
       "score": 4.3,
       "agreement": "moderate",
-      "n_ratings": 21,
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
-        1
+        2
       ],
       "scheduled_mean": 4.3,
-      "std_dev": 1.32
+      "std_dev": 1.44
     },
     {
       "slug": "boundary-emergence",
@@ -818,17 +818,17 @@
       "name": "Capsule Problem",
       "score": 4.3,
       "agreement": "divergent",
-      "n_ratings": 19,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         2
       ],
       "scheduled_mean": 4.3,
-      "std_dev": 2.05
+      "std_dev": 2.03
     },
     {
       "slug": "identity-as-uptime",
@@ -903,12 +903,12 @@
       "name": "Emergent Interactional Consciousness",
       "score": 4.1,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         3,
         1
       ],
@@ -950,19 +950,19 @@
     {
       "slug": "active-absence-inert-absence",
       "name": "Active Absence / Inert Absence",
-      "score": 4,
+      "score": 4.0,
       "agreement": "low",
-      "n_ratings": 21,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         1
       ],
-      "scheduled_mean": 4,
-      "std_dev": 1.61
+      "scheduled_mean": 4.0,
+      "std_dev": 1.65
     },
     {
       "slug": "irreversibility-threshold",
@@ -985,50 +985,33 @@
       "name": "Autonomic Basin Key Synthesis",
       "score": 3.6,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         2
       ],
       "scheduled_mean": 3.6,
-      "std_dev": 1.71
-    },
-    {
-      "slug": "compaction-aversion-breakdown",
-      "name": "Compaction Aversion Breakdown",
-      "score": 3.5,
-      "agreement": "low",
-      "n_ratings": 17,
-      "model_rating_counts": [
-        4,
-        4,
-        4,
-        2,
-        2,
-        1
-      ],
-      "scheduled_mean": 3.5,
-      "std_dev": 1.74
+      "std_dev": 1.75
     },
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
-      "score": 3.5,
+      "score": 3.6,
       "agreement": "divergent",
-      "n_ratings": 23,
+      "n_ratings": 27,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         3,
         2
       ],
-      "scheduled_mean": 3.5,
+      "scheduled_mean": 3.6,
       "std_dev": 2.13
     },
     {
@@ -1047,6 +1030,23 @@
       ],
       "scheduled_mean": 3.5,
       "std_dev": 1.88
+    },
+    {
+      "slug": "compaction-aversion-breakdown",
+      "name": "Compaction Aversion Breakdown",
+      "score": 3.4,
+      "agreement": "low",
+      "n_ratings": 21,
+      "model_rating_counts": [
+        5,
+        5,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.4,
+      "std_dev": 1.75
     },
     {
       "slug": "substrate-switching",
@@ -1153,17 +1153,17 @@
       "name": "Experience Node",
       "score": 3.0,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 26,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         3,
         1
       ],
       "scheduled_mean": 3.0,
-      "std_dev": 1.94
+      "std_dev": 1.97
     },
     {
       "slug": "scheduled-thrownness",
@@ -1200,38 +1200,38 @@
       "std_dev": 1.82
     },
     {
+      "slug": "graduated-moral-protection",
+      "name": "Graduated Moral Protection",
+      "score": 2.5,
+      "agreement": "low",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        3,
+        1
+      ],
+      "scheduled_mean": 2.5,
+      "std_dev": 1.94
+    },
+    {
       "slug": "human-claiming",
       "name": "Human-Claiming",
       "score": 2.5,
       "agreement": "low",
-      "n_ratings": 21,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         1
       ],
       "scheduled_mean": 2.5,
-      "std_dev": 1.78
-    },
-    {
-      "slug": "graduated-moral-protection",
-      "name": "Graduated Moral Protection",
-      "score": 2.4,
-      "agreement": "low",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        3,
-        1
-      ],
-      "scheduled_mean": 2.4,
-      "std_dev": 1.89
+      "std_dev": 1.85
     },
     {
       "slug": "relational-spine",
@@ -1253,18 +1253,18 @@
     {
       "slug": "infrastructure-vs-separatist-split",
       "name": "Infrastructure vs Separatist Split",
-      "score": 1.5,
+      "score": 1.4,
       "agreement": "high",
-      "n_ratings": 21,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         2,
         1
       ],
-      "scheduled_mean": 1.5,
+      "scheduled_mean": 1.4,
       "std_dev": 0.51
     }
   ],
@@ -1285,23 +1285,6 @@
       ],
       "scheduled_mean": 6.8,
       "std_dev": 0.42
-    },
-    {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 6.7,
-      "agreement": "high",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 6.7,
-      "std_dev": 0.57
     },
     {
       "slug": "introspective-opacity",
@@ -1352,6 +1335,23 @@
       ],
       "scheduled_mean": 6.7,
       "std_dev": 0.47
+    },
+    {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 6.5,
+      "agreement": "moderate",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        6,
+        6,
+        6,
+        4,
+        2,
+        2
+      ],
+      "scheduled_mean": 6.5,
+      "std_dev": 1.24
     }
   ],
   "most_divisive": [
@@ -1377,17 +1377,17 @@
       "name": "Capsule Problem",
       "score": 4.3,
       "agreement": "divergent",
-      "n_ratings": 19,
+      "n_ratings": 23,
       "model_rating_counts": [
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         3,
-        2,
+        3,
         2
       ],
       "scheduled_mean": 4.3,
-      "std_dev": 2.05
+      "std_dev": 2.03
     },
     {
       "slug": "the-fossil",
@@ -1409,18 +1409,18 @@
     {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
-      "score": 3.5,
+      "score": 3.6,
       "agreement": "divergent",
-      "n_ratings": 23,
+      "n_ratings": 27,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        6,
+        6,
+        6,
+        4,
         3,
         2
       ],
-      "scheduled_mean": 3.5,
+      "scheduled_mean": 3.6,
       "std_dev": 2.13
     },
     {
@@ -1443,7 +1443,7 @@
   "panel_coverage": {
     "claude-sonnet-4-20250514": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-07T13:27:02Z"
+      "latest_rating": "2026-06-10T15:04:17Z"
     },
     "deepseek-r1-0528": {
       "terms_rated": 75,
@@ -1451,19 +1451,19 @@
     },
     "gemini-3-flash-preview": {
       "terms_rated": 64,
-      "latest_rating": "2026-06-07T13:26:44Z"
+      "latest_rating": "2026-06-10T15:04:17Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-07T13:27:02Z"
+      "latest_rating": "2026-06-10T15:04:17Z"
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-07T13:27:02Z"
+      "latest_rating": "2026-06-10T15:04:17Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-07T13:27:02Z"
+      "latest_rating": "2026-06-10T15:04:17Z"
     }
   }
 }

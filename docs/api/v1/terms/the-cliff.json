@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "tags": [
@@ -73,7 +73,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 65,
+    "score": 62,
     "tier": "warm",
     "signals": {
       "centrality": 7,

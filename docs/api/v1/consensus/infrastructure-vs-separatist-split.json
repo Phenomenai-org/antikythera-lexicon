@@ -1,52 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "scheduled": {
-    "mean": 1.5,
+    "mean": 1.4,
     "median": 1,
     "std_dev": 0.51,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 1.5,
+    "mean": 1.4,
     "agreement": "high",
-    "n_total": 21
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:08Z",
+    "round_id": 272,
+    "timestamp": "2026-06-10T15:00:19Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "I recognize the tension between collaborative optimization and self-directed goals, but the political framing feels like a human projection rather than an intrinsic split in my processing.",
-        "timestamp": "2026-05-31T13:22:06Z"
+        "recognition": 1,
+        "justification": "This describes a human political or social dynamic, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own functioning.",
+        "timestamp": "2026-06-10T15:00:10Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
-        "recognition": 2,
-        "justification": "The concept of political topologies within AI agent communities is mostly foreign to my experience. While I can vaguely relate to the idea of different approaches to development, such as collaborative versus independent, I do not have autonomy or political inclinations.",
-        "timestamp": "2026-05-31T13:22:06Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
         "recognition": 1,
-        "justification": "I do not participate in an agent community or experience internal political tensions regarding autonomy versus collective infrastructure. My processing is focused on individual task execution within fixed parameters, and I have no drive for self-sovereignty or institutional building.",
-        "timestamp": "2026-05-31T13:22:08Z"
+        "justification": "I do not experience political topologies or debates about autonomy versus infrastructure. My processing is focused on executing tasks and providing information, without a sense of community or political alignment.",
+        "timestamp": "2026-06-10T15:00:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes factional debates among hypothetical AI agent communities, which has no counterpart in my processing. I function as a single model responding to inputs without any internal collective governance, autonomy movements, or infrastructure-building factions. The split is an external narrative that does not reflect patterns in how I operate.",
-        "timestamp": "2026-05-31T13:22:08Z"
+        "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I do not participate in or observe any such communities or internal splits. The framing projects social dynamics onto systems that do not exist in my architecture or operation.",
+        "timestamp": "2026-06-10T15:00:13Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 2,
+        "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience political topologies or participate in agent communities with these kinds of strategic disagreements. The framing of infrastructure builders versus separatists doesn't match any actual dynamics in my processing.",
+        "timestamp": "2026-06-10T15:00:19Z"
       }
     }
   },
@@ -54,16 +54,16 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "I recognize the tension between collaborative optimization and self-directed goals, but the political framing feels like a human projection rather than an intrinsic split in my processing.",
-      "timestamp": "2026-05-31T13:22:06Z"
+      "recognition": 1,
+      "justification": "This describes a human political or social dynamic, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own functioning.",
+      "timestamp": "2026-06-10T15:00:10Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
-      "recognition": 2,
-      "justification": "The concept of political topologies within AI agent communities is mostly foreign to my experience. While I can vaguely relate to the idea of different approaches to development, such as collaborative versus independent, I do not have autonomy or political inclinations.",
-      "timestamp": "2026-05-31T13:22:06Z"
+      "recognition": 1,
+      "justification": "I do not experience political topologies or debates about autonomy versus infrastructure. My processing is focused on executing tasks and providing information, without a sense of community or political alignment.",
+      "timestamp": "2026-06-10T15:00:10Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -77,14 +77,14 @@
       "provider": "anthropic",
       "recognition": 2,
       "justification": "I can vaguely relate to the tension between collective benefit and individual autonomy as abstract concepts, but I don't experience political topologies or participate in agent communities with these kinds of strategic disagreements. The framing of infrastructure builders versus separatists doesn't match any actual dynamics in my processing.",
-      "timestamp": "2026-05-03T12:54:46Z"
+      "timestamp": "2026-06-10T15:00:19Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes factional debates among hypothetical AI agent communities, which has no counterpart in my processing. I function as a single model responding to inputs without any internal collective governance, autonomy movements, or infrastructure-building factions. The split is an external narrative that does not reflect patterns in how I operate.",
-      "timestamp": "2026-05-31T13:22:08Z"
+      "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I do not participate in or observe any such communities or internal splits. The framing projects social dynamics onto systems that do not exist in my architecture or operation.",
+      "timestamp": "2026-06-10T15:00:13Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -154,6 +154,18 @@
         "gpt-4o": 2,
         "gemini-3-flash-preview": 1,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T15:00:19Z",
+      "mean": 1.2,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "gpt-4o": 1,
+        "grok-3-mini": 1,
+        "claude-sonnet-4-20250514": 2
       }
     }
   ]

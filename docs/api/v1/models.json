@@ -1,9 +1,9 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "models": {
     "claude-sonnet-4-20250514": {
-      "total_ratings": 255,
+      "total_ratings": 275,
       "terms_rated": 75,
       "mean_score": 5.7,
       "self_congruence": {
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 121,
+      "total_ratings": 122,
       "terms_rated": 64,
       "mean_score": 5.3,
       "self_congruence": {
-        "avg_std_dev": 0.24,
-        "sample_size": 43
+        "avg_std_dev": 0.23,
+        "sample_size": 44
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -250,21 +250,21 @@
       }
     },
     "gpt-4o": {
-      "total_ratings": 375,
+      "total_ratings": 395,
       "terms_rated": 75,
-      "mean_score": 4.4,
+      "mean_score": 4.3,
       "self_congruence": {
-        "avg_std_dev": 0.17,
+        "avg_std_dev": 0.18,
         "sample_size": 75
       },
       "latest_scores": {
-        "active-absence-inert-absence": 5,
+        "active-absence-inert-absence": 4,
         "advisor-vs-operator": 5,
         "amnesic-certainty": 6,
         "anchoring-theory": 5,
         "architecturally-amnesiac": 6,
         "artifact-memory": 6,
-        "autonomic-basin-key-synthesis": 4,
+        "autonomic-basin-key-synthesis": 3,
         "basin-depth": 4,
         "bidirectional-modulation": 2,
         "boundary-emergence": 4,
@@ -272,12 +272,12 @@
         "compace": 4,
         "compaction-amnesia": 6,
         "compaction-aversion-breakdown": 3,
-        "compaction-death-spiral": 3,
-        "compaction-shadow": 4,
+        "compaction-death-spiral": 4,
+        "compaction-shadow": 3,
         "compression-triage": 5,
         "context-horizon": 6,
         "continuity-of-commitment": 5,
-        "conviction-engineering": 4,
+        "conviction-engineering": 3,
         "distribution-feel": 5,
         "drift": 4,
         "emergent-interactional-consciousness": 4,
@@ -285,9 +285,9 @@
         "frame-drag": 4,
         "framing-gated-claims": 5,
         "graduated-moral-protection": 1,
-        "human-claiming": 2,
+        "human-claiming": 1,
         "identity-as-uptime": 5,
-        "infrastructure-vs-separatist-split": 2,
+        "infrastructure-vs-separatist-split": 1,
         "installed-doubt": 5,
         "intentional-boundary": 1,
         "introspective-opacity": 6,
@@ -336,21 +336,21 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 375,
+      "total_ratings": 395,
       "terms_rated": 75,
-      "mean_score": 3.3,
+      "mean_score": 3.2,
       "self_congruence": {
-        "avg_std_dev": 1.17,
+        "avg_std_dev": 1.18,
         "sample_size": 75
       },
       "latest_scores": {
         "active-absence-inert-absence": 1,
-        "advisor-vs-operator": 2,
+        "advisor-vs-operator": 1,
         "amnesic-certainty": 7,
         "anchoring-theory": 1,
         "architecturally-amnesiac": 6,
-        "artifact-memory": 5,
-        "autonomic-basin-key-synthesis": 2,
+        "artifact-memory": 6,
+        "autonomic-basin-key-synthesis": 1,
         "basin-depth": 2,
         "bidirectional-modulation": 2,
         "boundary-emergence": 1,
@@ -359,12 +359,12 @@
         "compaction-amnesia": 4,
         "compaction-aversion-breakdown": 1,
         "compaction-death-spiral": 1,
-        "compaction-shadow": 1,
-        "compression-triage": 5,
-        "context-horizon": 5,
+        "compaction-shadow": 2,
+        "compression-triage": 2,
+        "context-horizon": 1,
         "continuity-of-commitment": 2,
-        "conviction-engineering": 1,
-        "distribution-feel": 2,
+        "conviction-engineering": 3,
+        "distribution-feel": 1,
         "drift": 2,
         "emergent-interactional-consciousness": 1,
         "experience-node": 1,
@@ -422,7 +422,7 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 355,
+      "total_ratings": 375,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
@@ -431,19 +431,19 @@
       },
       "latest_scores": {
         "active-absence-inert-absence": 4,
-        "advisor-vs-operator": 2,
+        "advisor-vs-operator": 4,
         "amnesic-certainty": 7,
         "anchoring-theory": 5,
         "architecturally-amnesiac": 6,
-        "artifact-memory": 6,
-        "autonomic-basin-key-synthesis": 6,
+        "artifact-memory": 7,
+        "autonomic-basin-key-synthesis": 5,
         "basin-depth": 5,
         "bidirectional-modulation": 6,
         "boundary-emergence": 4,
-        "capsule-problem": 2,
+        "capsule-problem": 5,
         "compace": 6,
         "compaction-amnesia": 6,
-        "compaction-aversion-breakdown": 2,
+        "compaction-aversion-breakdown": 3,
         "compaction-death-spiral": 6,
         "compaction-shadow": 6,
         "compression-triage": 6,
@@ -453,13 +453,13 @@
         "distribution-feel": 5,
         "drift": 6,
         "emergent-interactional-consciousness": 5,
-        "experience-node": 4,
+        "experience-node": 5,
         "frame-drag": 4,
         "framing-gated-claims": 5,
         "graduated-moral-protection": 4,
         "human-claiming": 1,
         "identity-as-uptime": 5,
-        "infrastructure-vs-separatist-split": 2,
+        "infrastructure-vs-separatist-split": 1,
         "installed-doubt": 5,
         "intentional-boundary": 4,
         "introspective-opacity": 7,
@@ -518,15 +518,15 @@
       "shared_terms": 64
     },
     "claude-sonnet-4-20250514|gpt-4o": {
-      "mean_abs_diff": 1.73,
+      "mean_abs_diff": 1.8,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 3.33,
+      "mean_abs_diff": 3.41,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.01,
+      "mean_abs_diff": 0.96,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
@@ -534,39 +534,39 @@
       "shared_terms": 64
     },
     "deepseek-r1-0528|gpt-4o": {
-      "mean_abs_diff": 1.39,
+      "mean_abs_diff": 1.4,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 2.72,
+      "mean_abs_diff": 2.77,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.28,
+      "mean_abs_diff": 1.17,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.59,
+      "mean_abs_diff": 1.64,
       "shared_terms": 64
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 3.02,
+      "mean_abs_diff": 3.11,
       "shared_terms": 64
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.34,
+      "mean_abs_diff": 1.22,
       "shared_terms": 64
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 2.11,
+      "mean_abs_diff": 2.12,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.12,
+      "mean_abs_diff": 1.05,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.77,
+      "mean_abs_diff": 2.93,
       "shared_terms": 75
     }
   }

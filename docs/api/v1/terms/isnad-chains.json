@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "isnad-chains",
   "name": "Isnad Chains",
   "tags": [
@@ -69,7 +69,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 30,
+    "score": 27,
     "tier": "cool",
     "signals": {
       "centrality": 0,

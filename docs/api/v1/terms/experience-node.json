@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "tags": [
@@ -34,12 +34,16 @@
   "consensus": {
     "score": 3.0,
     "agreement": "low",
-    "n_ratings": 22,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/experience-node.json",
     "models": [
       {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
         "model": "mistral-small-latest",
-        "score": 4
+        "score": 5
       },
       {
         "model": "gpt-4o",
@@ -47,10 +51,6 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 1
-      },
-      {
-        "model": "gemini-3-flash-preview",
         "score": 1
       }
     ]
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 3.0,
-      "vote_count": 22
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

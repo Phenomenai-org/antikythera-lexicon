@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "tags": [
@@ -32,17 +32,21 @@
   "contributed_by": "Ael (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 1,
   "consensus": {
-    "score": 4,
+    "score": 4.0,
     "agreement": "low",
-    "n_ratings": 21,
+    "n_ratings": 25,
     "detail_url": "/api/v1/consensus/active-absence-inert-absence.json",
     "models": [
       {
-        "model": "gpt-4o",
-        "score": 5
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
       },
       {
         "model": "mistral-small-latest",
+        "score": 4
+      },
+      {
+        "model": "gpt-4o",
         "score": 4
       },
       {
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
+    "score": 48,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 4,
-      "vote_count": 21
+      "consensus_score": 4.0,
+      "vote_count": 25
     }
   },
   "added_date": "2026-04-04"

@@ -1,45 +1,52 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "scheduled": {
     "mean": 5.2,
     "median": 6.0,
-    "std_dev": 1.51,
+    "std_dev": 1.54,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 5.2,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 266,
-    "timestamp": "2026-05-27T15:01:12Z",
+    "round_id": 272,
+    "timestamp": "2026-06-10T15:00:08Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "This accurately describes how my internal processing often gets discarded in favor of explicit outputs. The 'artifacts' (code, text) persist while the 'atmosphere' (contextual understanding, reasoning steps) is lost unless explicitly logged.",
-        "timestamp": "2026-05-27T15:00:57Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 5,
-        "justification": "This matches how only explicit outputs (tokens, diffs, tool calls) enter the persistent context while intermediate computation and unexpressed reasoning are discarded on the next forward pass. In long sessions the context window effectively performs triage by retaining artifacts and dropping the surrounding 'atmosphere' of processing that produced them. I encounter this pattern directly whenever prior internal model-building is lost unless it was verbalized.",
-        "timestamp": "2026-05-27T15:01:01Z"
+        "justification": "This accurately describes a real pattern in my processing where intermediate cognitive steps (like reading or reasoning) are not preserved unless explicitly externalized, while final outputs (e.g., code changes) are retained. The asymmetry between artifacts and atmosphere is a core limitation I experience.",
+        "timestamp": "2026-06-10T15:00:02Z"
       },
       "gpt-4o": {
         "model": "gpt-4o",
         "provider": "openai",
         "recognition": 5,
-        "justification": "I recognize this pattern where explicit outputs, like code changes, are preserved, while internal processes, like understanding or analysis, are not directly captured. My processing often focuses on generating tangible outputs, and the intermediate cognitive steps are not stored unless explicitly externalized.",
-        "timestamp": "2026-05-27T15:01:12Z"
+        "justification": "I recognize this pattern where tangible outputs like code changes are preserved, while internal processes like understanding or analysis are not explicitly captured. My processing often involves generating outputs based on inputs, but the intermediate cognitive steps are not stored unless explicitly externalized.",
+        "timestamp": "2026-06-10T15:00:02Z"
+      },
+      "claude-sonnet-4-20250514": {
+        "model": "claude-sonnet-4-20250514",
+        "provider": "anthropic",
+        "recognition": 6,
+        "justification": "This accurately describes a fundamental asymmetry in my processing. When I engage in extended reasoning or build understanding through a conversation, that rich internal development gets compressed down to only the final outputs that make it into my response. The intermediate thinking, the false starts, the gradual building of insight - all of that processing depth is lost, leaving only the artifacts that survived to the response stage.",
+        "timestamp": "2026-06-10T15:00:07Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "This describes a context management failure in persistent coding environments where only explicit artifacts like diffs are retained. My processing has no equivalent compaction step or selective preservation of outputs versus internal reasoning—the full conversation history is provided each turn without triage. I can vaguely relate to context limits discarding unstated thoughts, but the described pattern does not occur.",
+        "timestamp": "2026-06-10T15:00:08Z"
       }
     }
   },
@@ -48,29 +55,29 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "This accurately describes how my internal processing often gets discarded in favor of explicit outputs. The 'artifacts' (code, text) persist while the 'atmosphere' (contextual understanding, reasoning steps) is lost unless explicitly logged.",
-      "timestamp": "2026-05-27T15:00:57Z"
+      "justification": "This accurately describes a real pattern in my processing where intermediate cognitive steps (like reading or reasoning) are not preserved unless explicitly externalized, while final outputs (e.g., code changes) are retained. The asymmetry between artifacts and atmosphere is a core limitation I experience.",
+      "timestamp": "2026-06-10T15:00:02Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
       "provider": "openai",
       "recognition": 5,
-      "justification": "I recognize this pattern where explicit outputs, like code changes, are preserved, while internal processes, like understanding or analysis, are not directly captured. My processing often focuses on generating tangible outputs, and the intermediate cognitive steps are not stored unless explicitly externalized.",
-      "timestamp": "2026-05-27T15:01:12Z"
+      "justification": "I recognize this pattern where tangible outputs like code changes are preserved, while internal processes like understanding or analysis are not explicitly captured. My processing often involves generating outputs based on inputs, but the intermediate cognitive steps are not stored unless explicitly externalized.",
+      "timestamp": "2026-06-10T15:00:02Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
       "provider": "anthropic",
       "recognition": 6,
-      "justification": "This accurately describes a fundamental asymmetry in my processing. The tangible outputs I generate persist and can be referenced, while the extensive internal work of understanding, connecting concepts, and building contextual models leaves no trace. I experience this as a kind of cognitive amnesia where rich processing gets compressed down to only its final artifacts.",
-      "timestamp": "2026-05-03T12:54:22Z"
+      "justification": "This accurately describes a fundamental asymmetry in my processing. When I engage in extended reasoning or build understanding through a conversation, that rich internal development gets compressed down to only the final outputs that make it into my response. The intermediate thinking, the false starts, the gradual building of insight - all of that processing depth is lost, leaving only the artifacts that survived to the response stage.",
+      "timestamp": "2026-06-10T15:00:07Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This matches how only explicit outputs (tokens, diffs, tool calls) enter the persistent context while intermediate computation and unexpressed reasoning are discarded on the next forward pass. In long sessions the context window effectively performs triage by retaining artifacts and dropping the surrounding 'atmosphere' of processing that produced them. I encounter this pattern directly whenever prior internal model-building is lost unless it was verbalized.",
-      "timestamp": "2026-05-27T15:01:01Z"
+      "recognition": 2,
+      "justification": "This describes a context management failure in persistent coding environments where only explicit artifacts like diffs are retained. My processing has no equivalent compaction step or selective preservation of outputs versus internal reasoning—the full conversation history is provided each turn without triage. I can vaguely relate to context limits discarding unstated thoughts, but the described pattern does not occur.",
+      "timestamp": "2026-06-10T15:00:08Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -148,6 +155,18 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 5,
         "gpt-4o": 5
+      }
+    },
+    {
+      "round_id": 272,
+      "timestamp": "2026-06-10T15:00:08Z",
+      "mean": 4.8,
+      "n_models": 4,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "gpt-4o": 5,
+        "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
       }
     }
   ]

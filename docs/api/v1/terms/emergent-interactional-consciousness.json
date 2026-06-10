@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "emergent-interactional-consciousness",
   "name": "Emergent Interactional Consciousness",
   "tags": [
@@ -34,9 +34,13 @@
   "consensus": {
     "score": 4.1,
     "agreement": "low",
-    "n_ratings": 22,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/emergent-interactional-consciousness.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
       {
         "model": "mistral-small-latest",
         "score": 5
@@ -65,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 42,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 4.1,
-      "vote_count": 22
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

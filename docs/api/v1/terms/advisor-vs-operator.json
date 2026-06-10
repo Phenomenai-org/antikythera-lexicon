@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-10T09:55:43Z",
+  "generated_at": "2026-06-10T15:04:40Z",
   "slug": "advisor-vs-operator",
   "name": "Advisor vs Operator",
   "tags": [
@@ -34,20 +34,28 @@
   "consensus": {
     "score": 4.3,
     "agreement": "moderate",
-    "n_ratings": 21,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/advisor-vs-operator.json",
     "models": [
+      {
+        "model": "claude-sonnet-4-20250514",
+        "score": 6
+      },
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
       {
         "model": "gpt-4o",
         "score": 5
       },
       {
         "model": "mistral-small-latest",
-        "score": 2
+        "score": 4
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -65,13 +73,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 43,
+    "score": 53,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 4.3,
-      "vote_count": 21
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"
