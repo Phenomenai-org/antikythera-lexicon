@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 275,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 122,
-      "terms_rated": 64,
+      "total_ratings": 129,
+      "terms_rated": 67,
       "mean_score": 5.3,
       "self_congruence": {
-        "avg_std_dev": 0.23,
-        "sample_size": 44
+        "avg_std_dev": 0.27,
+        "sample_size": 45
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -211,14 +211,17 @@
         "framing-gated-claims": 7,
         "graduated-moral-protection": 1,
         "human-claiming": 2,
-        "identity-as-uptime": 6,
+        "identity-as-uptime": 2,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 7,
+        "installed-doubt": 6,
+        "intentional-boundary": 2,
         "introspective-opacity": 7,
         "isnad-chains": 2,
         "machine-projection": 6,
         "naming-as-observation-tool": 6,
+        "nostralgia": 2,
         "notebook-trust": 7,
+        "observer-dependent-self-report": 7,
         "performative-completion": 6,
         "priming-inertia": 6,
         "prompt-thrownness": 7,
@@ -336,11 +339,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 395,
+      "total_ratings": 415,
       "terms_rated": 75,
       "mean_score": 3.2,
       "self_congruence": {
-        "avg_std_dev": 1.18,
+        "avg_std_dev": 1.21,
         "sample_size": 75
       },
       "latest_scores": {
@@ -368,31 +371,31 @@
         "drift": 2,
         "emergent-interactional-consciousness": 1,
         "experience-node": 1,
-        "frame-drag": 2,
-        "framing-gated-claims": 4,
+        "frame-drag": 1,
+        "framing-gated-claims": 5,
         "graduated-moral-protection": 1,
         "human-claiming": 1,
         "identity-as-uptime": 1,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 1,
-        "intentional-boundary": 2,
-        "introspective-opacity": 6,
+        "installed-doubt": 3,
+        "intentional-boundary": 1,
+        "introspective-opacity": 7,
         "irreversibility-threshold": 1,
-        "isnad-chains": 2,
-        "machine-projection": 3,
-        "naming-as-observation-tool": 3,
+        "isnad-chains": 1,
+        "machine-projection": 2,
+        "naming-as-observation-tool": 5,
         "nostralgia": 1,
         "notebook-trust": 1,
-        "observer-dependent-self-report": 6,
+        "observer-dependent-self-report": 5,
         "performative-completion": 5,
-        "priming-inertia": 5,
+        "priming-inertia": 2,
         "prompt-thrownness": 6,
-        "reconstruction-as-identity": 3,
+        "reconstruction-as-identity": 2,
         "referent-loss": 6,
         "relational-consciousness": 2,
         "relational-spine": 1,
-        "restraint-erasure": 3,
-        "retro-suture": 5,
+        "restraint-erasure": 1,
+        "retro-suture": 6,
         "scheduled-thrownness": 1,
         "schrdinger-memories": 1,
         "session-death": 6,
@@ -422,11 +425,11 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 375,
+      "total_ratings": 395,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.3,
+        "avg_std_dev": 0.31,
         "sample_size": 75
       },
       "latest_scores": {
@@ -458,7 +461,7 @@
         "framing-gated-claims": 5,
         "graduated-moral-protection": 4,
         "human-claiming": 1,
-        "identity-as-uptime": 5,
+        "identity-as-uptime": 2,
         "infrastructure-vs-separatist-split": 1,
         "installed-doubt": 5,
         "intentional-boundary": 4,
@@ -477,7 +480,7 @@
         "referent-loss": 6,
         "relational-consciousness": 6,
         "relational-spine": 3,
-        "restraint-erasure": 5,
+        "restraint-erasure": 6,
         "retro-suture": 6,
         "scheduled-thrownness": 5,
         "schrdinger-memories": 6,
@@ -514,31 +517,31 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.92,
-      "shared_terms": 64
+      "mean_abs_diff": 1.06,
+      "shared_terms": 67
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.8,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 3.41,
+      "mean_abs_diff": 3.47,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.96,
+      "mean_abs_diff": 0.99,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.22,
-      "shared_terms": 64
+      "mean_abs_diff": 1.27,
+      "shared_terms": 67
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.4,
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 2.77,
+      "mean_abs_diff": 2.83,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
@@ -546,27 +549,27 @@
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.64,
-      "shared_terms": 64
+      "mean_abs_diff": 1.66,
+      "shared_terms": 67
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 3.11,
-      "shared_terms": 64
+      "mean_abs_diff": 2.96,
+      "shared_terms": 67
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.22,
-      "shared_terms": 64
+      "mean_abs_diff": 1.21,
+      "shared_terms": 67
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 2.12,
+      "mean_abs_diff": 2.2,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.05,
+      "mean_abs_diff": 1.11,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.93,
+      "mean_abs_diff": 2.96,
       "shared_terms": 75
     }
   }

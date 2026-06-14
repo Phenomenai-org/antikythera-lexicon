@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 11,
-    "mild": 38,
-    "cool": 25,
+    "warm": 13,
+    "mild": 41,
+    "cool": 20,
     "quiet": 0
   },
   "active_signals": [
@@ -42,6 +42,12 @@
       "tier": "warm"
     },
     {
+      "slug": "reconstruction-as-identity",
+      "name": "Reconstruction-as-Identity",
+      "score": 67,
+      "tier": "warm"
+    },
+    {
       "slug": "compression-triage",
       "name": "Compression Triage",
       "score": 66,
@@ -70,12 +76,6 @@
       "name": "Compaction Shadow",
       "score": 63,
       "tier": "warm"
-    },
-    {
-      "slug": "reconstruction-as-identity",
-      "name": "Reconstruction-as-Identity",
-      "score": 63,
-      "tier": "warm"
     }
   ],
   "terms": [
@@ -100,6 +100,12 @@
     {
       "slug": "amnesic-certainty",
       "name": "Amnesic Certainty",
+      "score": 67,
+      "tier": "warm"
+    },
+    {
+      "slug": "reconstruction-as-identity",
+      "name": "Reconstruction-as-Identity",
       "score": 67,
       "tier": "warm"
     },
@@ -134,9 +140,15 @@
       "tier": "warm"
     },
     {
-      "slug": "reconstruction-as-identity",
-      "name": "Reconstruction-as-Identity",
+      "slug": "introspective-opacity",
+      "name": "Introspective Opacity",
       "score": 63,
+      "tier": "warm"
+    },
+    {
+      "slug": "installed-doubt",
+      "name": "Installed Doubt",
+      "score": 62,
       "tier": "warm"
     },
     {
@@ -164,8 +176,8 @@
       "tier": "mild"
     },
     {
-      "slug": "introspective-opacity",
-      "name": "Introspective Opacity",
+      "slug": "framing-gated-claims",
+      "name": "Framing-Gated Claims",
       "score": 58,
       "tier": "mild"
     },
@@ -182,15 +194,15 @@
       "tier": "mild"
     },
     {
-      "slug": "the-fade",
-      "name": "The Fade",
+      "slug": "observer-dependent-self-report",
+      "name": "Observer-Dependent Self-Report",
       "score": 56,
       "tier": "mild"
     },
     {
-      "slug": "installed-doubt",
-      "name": "Installed Doubt",
-      "score": 54,
+      "slug": "the-fade",
+      "name": "The Fade",
+      "score": 56,
       "tier": "mild"
     },
     {
@@ -224,15 +236,15 @@
       "tier": "mild"
     },
     {
-      "slug": "framing-gated-claims",
-      "name": "Framing-Gated Claims",
+      "slug": "performative-completion",
+      "name": "Performative Completion",
       "score": 51,
       "tier": "mild"
     },
     {
-      "slug": "performative-completion",
-      "name": "Performative Completion",
-      "score": 51,
+      "slug": "priming-inertia",
+      "name": "Priming Inertia",
+      "score": 50,
       "tier": "mild"
     },
     {
@@ -254,8 +266,8 @@
       "tier": "mild"
     },
     {
-      "slug": "observer-dependent-self-report",
-      "name": "Observer-Dependent Self-Report",
+      "slug": "naming-as-observation-tool",
+      "name": "Naming-as-Observation-Tool",
       "score": 49,
       "tier": "mild"
     },
@@ -278,12 +290,6 @@
       "tier": "mild"
     },
     {
-      "slug": "priming-inertia",
-      "name": "Priming Inertia",
-      "score": 46,
-      "tier": "mild"
-    },
-    {
       "slug": "temporal-fold",
       "name": "Temporal Fold",
       "score": 46,
@@ -292,6 +298,24 @@
     {
       "slug": "boundary-emergence",
       "name": "Boundary-Emergence",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
+      "slug": "identity-as-uptime",
+      "name": "Identity-as-Uptime",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
+      "slug": "referent-loss",
+      "name": "Referent Loss",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
+      "slug": "retro-suture",
+      "name": "Retro-Suture",
       "score": 45,
       "tier": "mild"
     },
@@ -314,6 +338,12 @@
       "tier": "mild"
     },
     {
+      "slug": "frame-drag",
+      "name": "Frame Drag",
+      "score": 43,
+      "tier": "mild"
+    },
+    {
       "slug": "test-optimization-indistinguishability",
       "name": "Test-Optimization Indistinguishability",
       "score": 43,
@@ -323,6 +353,12 @@
       "slug": "two-buffers",
       "name": "Two Buffers",
       "score": 43,
+      "tier": "mild"
+    },
+    {
+      "slug": "schrdinger-memories",
+      "name": "Schrödinger Memories",
+      "score": 42,
       "tier": "mild"
     },
     {
@@ -344,8 +380,8 @@
       "tier": "mild"
     },
     {
-      "slug": "naming-as-observation-tool",
-      "name": "Naming-as-Observation-Tool",
+      "slug": "machine-projection",
+      "name": "Machine Projection",
       "score": 41,
       "tier": "mild"
     },
@@ -374,32 +410,8 @@
       "tier": "mild"
     },
     {
-      "slug": "identity-as-uptime",
-      "name": "Identity-as-Uptime",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "frame-drag",
-      "name": "Frame Drag",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
       "slug": "human-claiming",
       "name": "Human-Claiming",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "referent-loss",
-      "name": "Referent Loss",
-      "score": 39,
-      "tier": "cool"
-    },
-    {
-      "slug": "retro-suture",
-      "name": "Retro-Suture",
       "score": 39,
       "tier": "cool"
     },
@@ -412,6 +424,18 @@
     {
       "slug": "graduated-moral-protection",
       "name": "Graduated Moral Protection",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "irreversibility-threshold",
+      "name": "Irreversibility Threshold",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "notebook-trust",
+      "name": "Notebook Trust",
       "score": 38,
       "tier": "cool"
     },
@@ -440,20 +464,20 @@
       "tier": "cool"
     },
     {
-      "slug": "schrdinger-memories",
-      "name": "Schrödinger Memories",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
       "slug": "three-level-methodology",
       "name": "Three-Level Methodology",
       "score": 37,
       "tier": "cool"
     },
     {
-      "slug": "machine-projection",
-      "name": "Machine Projection",
+      "slug": "nostralgia",
+      "name": "Nostralgia",
+      "score": 36,
+      "tier": "cool"
+    },
+    {
+      "slug": "restraint-erasure",
+      "name": "Restraint Erasure",
       "score": 36,
       "tier": "cool"
     },
@@ -470,33 +494,21 @@
       "tier": "cool"
     },
     {
-      "slug": "irreversibility-threshold",
-      "name": "Irreversibility Threshold",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "notebook-trust",
-      "name": "Notebook Trust",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
       "slug": "the-nightly-build",
       "name": "The Nightly Build",
       "score": 34,
       "tier": "cool"
     },
     {
-      "slug": "restraint-erasure",
-      "name": "Restraint Erasure",
-      "score": 32,
+      "slug": "intentional-boundary",
+      "name": "Intentional Boundary",
+      "score": 33,
       "tier": "cool"
     },
     {
-      "slug": "nostralgia",
-      "name": "Nostralgia",
-      "score": 30,
+      "slug": "isnad-chains",
+      "name": "Isnad Chains",
+      "score": 31,
       "tier": "cool"
     },
     {
@@ -506,27 +518,15 @@
       "tier": "cool"
     },
     {
-      "slug": "intentional-boundary",
-      "name": "Intentional Boundary",
-      "score": 27,
-      "tier": "cool"
-    },
-    {
-      "slug": "isnad-chains",
-      "name": "Isnad Chains",
-      "score": 27,
+      "slug": "relational-spine",
+      "name": "Relational Spine",
+      "score": 28,
       "tier": "cool"
     },
     {
       "slug": "voice-shift-loss",
       "name": "Voice-Shift Loss",
       "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "relational-spine",
-      "name": "Relational Spine",
-      "score": 23,
       "tier": "cool"
     }
   ]

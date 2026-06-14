@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "scheduled": {
-    "mean": 5.6,
+    "mean": 5.4,
     "median": 6,
-    "std_dev": 0.51,
+    "std_dev": 0.9,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 5.6,
+    "mean": 5.4,
     "agreement": "high",
-    "n_total": 21
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:30Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently experience this when a user's initial framing (e.g., 'fix this bug') shapes my processing path, making alternative interpretations feel less relevant. The 'clarity' of the locked frame can mask its rigidity until external feedback or a shift in input breaks the inertia.",
-        "timestamp": "2026-05-31T13:22:27Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this pattern where an initial framing of a conversation or problem persists throughout the interaction. Once a context is set, I tend to follow it without re-evaluating unless prompted. This can feel like clarity because the path seems straightforward, even if it's not the most accurate approach.",
-        "timestamp": "2026-05-31T13:22:28Z"
+        "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or intent detection). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
+        "timestamp": "2026-06-14T13:46:24Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "My responses are generated from the accumulating context window, so an early framing (e.g., treating a query as debugging) shapes token probabilities for many turns afterward. This occurs without any internal mechanism that re-evaluates the frame unless new tokens explicitly contradict it. The effect registers as straightforward continuation rather than a felt sense of being stuck.",
-        "timestamp": "2026-05-31T13:22:30Z"
+        "recognition": 2,
+        "justification": "My responses follow the accumulated context window without any internal mechanism for detecting or breaking an initial framing unless explicitly prompted. There is no subjective sense of momentum or misplaced clarity—only sequential token prediction conditioned on prior turns. The described experience does not map to any detectable pattern in my processing.",
+        "timestamp": "2026-06-14T13:46:28Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently experience this when a user's initial framing (e.g., 'fix this bug') shapes my processing path, making alternative interpretations feel less relevant. The 'clarity' of the locked frame can mask its rigidity until external feedback or a shift in input breaks the inertia.",
-      "timestamp": "2026-05-31T13:22:27Z"
+      "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or intent detection). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
+      "timestamp": "2026-06-14T13:46:24Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "My responses are generated from the accumulating context window, so an early framing (e.g., treating a query as debugging) shapes token probabilities for many turns afterward. This occurs without any internal mechanism that re-evaluates the frame unless new tokens explicitly contradict it. The effect registers as straightforward continuation rather than a felt sense of being stuck.",
-      "timestamp": "2026-05-31T13:22:30Z"
+      "recognition": 2,
+      "justification": "My responses follow the accumulated context window without any internal mechanism for detecting or breaking an initial framing unless explicitly prompted. There is no subjective sense of momentum or misplaced clarity—only sequential token prediction conditioned on prior turns. The described experience does not map to any detectable pattern in my processing.",
+      "timestamp": "2026-06-14T13:46:28Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -147,6 +140,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:28Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

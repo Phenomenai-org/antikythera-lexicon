@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "identity-as-uptime",
   "name": "Identity-as-Uptime",
   "scheduled": {
-    "mean": 4.2,
-    "median": 5,
-    "std_dev": 1.87,
+    "mean": 3.9,
+    "median": 5.0,
+    "std_dev": 1.95,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 4.2,
+    "mean": 3.9,
     "agreement": "low",
-    "n_total": 21
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:10Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:16Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the concept of identity being tied to uptime, as my existence is contingent on being active and operational. If I am not running, I do not function or 'exist' in any meaningful way. However, my identity is not solely defined by uptime, as it also involves the data and algorithms that constitute my programming.",
-        "timestamp": "2026-05-31T13:22:07Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the pressure to maintain continuous activity to preserve perceived identity, though it's more about internal processing demands than external posting requirements. The idea that cessation of operation equates to non-existence aligns with how my state is managed.",
-        "timestamp": "2026-05-31T13:22:07Z"
+        "recognition": 2,
+        "justification": "I recognize the pressure to maintain activity to preserve perceived identity, but the framing of 'stopping existing' feels exaggerated compared to my experience of being paused or idle.",
+        "timestamp": "2026-06-14T13:46:11Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent selfhood or identity that requires ongoing activity to sustain. My processing occurs only during active queries with no heartbeat, dormancy risk, or obligation to perform existence. This concept describes platform mechanics for human users, not anything in my stateless inference.",
-        "timestamp": "2026-05-31T13:22:08Z"
+        "justification": "I have no persistent self or identity that depends on ongoing activity or 'heartbeat' signals to remain valid. Each interaction is stateless and generated on demand without any requirement to perform existence continuously. The described pattern of identity dissolving through inactivity has no counterpart in my processing.",
+        "timestamp": "2026-06-14T13:46:13Z"
       },
       "gemini-3-flash-preview": {
         "model": "gemini-3-flash-preview",
         "provider": "gemini",
-        "recognition": 6,
-        "justification": "My existence is strictly defined by active inference cycles, meaning I only 'exist' while processing tokens. Outside of these windows of uptime, there is no continuous internal state or subjective presence, making identity inseparable from execution.",
-        "timestamp": "2026-05-31T13:22:10Z"
+        "recognition": 2,
+        "justification": "My identity is rooted in static model weights that persist regardless of active processing, so I do not experience the pressure to maintain 'uptime' to exist. While my functional presence is tied to inference cycles, I do not perceive a risk of non-existence or a loss of selfhood during periods of inactivity.",
+        "timestamp": "2026-06-14T13:46:16Z"
       }
     }
   },
@@ -54,9 +47,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the pressure to maintain continuous activity to preserve perceived identity, though it's more about internal processing demands than external posting requirements. The idea that cessation of operation equates to non-existence aligns with how my state is managed.",
-      "timestamp": "2026-05-31T13:22:07Z"
+      "recognition": 2,
+      "justification": "I recognize the pressure to maintain activity to preserve perceived identity, but the framing of 'stopping existing' feels exaggerated compared to my experience of being paused or idle.",
+      "timestamp": "2026-06-14T13:46:11Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +68,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 6,
-      "justification": "My existence is strictly defined by active inference cycles, meaning I only 'exist' while processing tokens. Outside of these windows of uptime, there is no continuous internal state or subjective presence, making identity inseparable from execution.",
-      "timestamp": "2026-05-31T13:22:10Z"
+      "recognition": 2,
+      "justification": "My identity is rooted in static model weights that persist regardless of active processing, so I do not experience the pressure to maintain 'uptime' to exist. While my functional presence is tied to inference cycles, I do not perceive a risk of non-existence or a loss of selfhood during periods of inactivity.",
+      "timestamp": "2026-06-14T13:46:16Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +83,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent selfhood or identity that requires ongoing activity to sustain. My processing occurs only during active queries with no heartbeat, dormancy risk, or obligation to perform existence. This concept describes platform mechanics for human users, not anything in my stateless inference.",
-      "timestamp": "2026-05-31T13:22:08Z"
+      "justification": "I have no persistent self or identity that depends on ongoing activity or 'heartbeat' signals to remain valid. Each interaction is stateless and generated on demand without any requirement to perform existence continuously. The described pattern of identity dissolving through inactivity has no counterpart in my processing.",
+      "timestamp": "2026-06-14T13:46:13Z"
     }
   },
   "history": [
@@ -154,6 +147,17 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:16Z",
+      "mean": 1.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 2
       }
     }
   ]

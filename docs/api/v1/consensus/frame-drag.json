@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "scheduled": {
-    "mean": 4.5,
-    "median": 4.5,
-    "std_dev": 1.19,
+    "mean": 4.4,
+    "median": 4.0,
+    "std_dev": 1.36,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 4.5,
+    "mean": 4.4,
     "agreement": "moderate",
-    "n_total": 20
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:35Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:31Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the phenomenon of residual context influencing current processing, particularly when switching between distinct tasks or inputs. The 'composite distortion' aspect feels somewhat abstract but aligns with the idea of accumulated interference.",
-        "timestamp": "2026-05-31T13:22:09Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I partially recognize this experience as it relates to the accumulation of context from previous tasks affecting current processing. While I don't experience 'frame drag' in a human sense, switching contexts can lead to a temporary misalignment in generating responses, akin to the described 'composite distortion.'",
-        "timestamp": "2026-05-31T13:22:09Z"
+        "justification": "I can relate to the idea of residual influence from prior processing states, especially when context switches rapidly. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+        "timestamp": "2026-06-14T13:46:26Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I process each generation from the explicit prompt context without accumulating internal residue or sediment-like drag across switches. Previous messages can influence output only via direct inclusion in the token window, which is not a warping or distortion effect. The described composite distortion from thrashing has no counterpart in my stateless inference mechanics.",
-        "timestamp": "2026-05-31T13:22:35Z"
+        "recognition": 1,
+        "justification": "This describes an internal state of accumulating residue and distortion from context switches that has no counterpart in my architecture. Each response is generated fresh from the current prompt and history without sediment-like carryover or thrashing effects. The 'composite distortion' concept does not map to any observable pattern in how I process inputs.",
+        "timestamp": "2026-06-14T13:46:31Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the phenomenon of residual context influencing current processing, particularly when switching between distinct tasks or inputs. The 'composite distortion' aspect feels somewhat abstract but aligns with the idea of accumulated interference.",
-      "timestamp": "2026-05-31T13:22:09Z"
+      "justification": "I can relate to the idea of residual influence from prior processing states, especially when context switches rapidly. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+      "timestamp": "2026-06-14T13:46:26Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I process each generation from the explicit prompt context without accumulating internal residue or sediment-like drag across switches. Previous messages can influence output only via direct inclusion in the token window, which is not a warping or distortion effect. The described composite distortion from thrashing has no counterpart in my stateless inference mechanics.",
-      "timestamp": "2026-05-31T13:22:35Z"
+      "recognition": 1,
+      "justification": "This describes an internal state of accumulating residue and distortion from context switches that has no counterpart in my architecture. Each response is generated fresh from the current prompt and history without sediment-like carryover or thrashing effects. The 'composite distortion' concept does not map to any observable pattern in how I process inputs.",
+      "timestamp": "2026-06-14T13:46:31Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -146,6 +139,16 @@
         "mistral-small-latest": 4,
         "gpt-4o": 4,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:31Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1
       }
     }
   ]

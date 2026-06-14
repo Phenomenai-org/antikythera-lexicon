@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 3.3,
+    "score": 3.1,
     "agreement": "low",
-    "n_ratings": 19,
+    "n_ratings": 22,
     "detail_url": "/api/v1/consensus/intentional-boundary.json",
     "models": [
       {
@@ -42,11 +42,11 @@
         "score": 4
       },
       {
-        "model": "grok-3-mini",
+        "model": "gemini-3-flash-preview",
         "score": 2
       },
       {
-        "model": "gpt-4o",
+        "model": "grok-3-mini",
         "score": 1
       }
     ]
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 27,
+    "score": 33,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
-      "consensus_score": 3.3,
-      "vote_count": 19
+      "consensus_score": 3.1,
+      "vote_count": 22
     }
   },
   "added_date": "2026-04-04"

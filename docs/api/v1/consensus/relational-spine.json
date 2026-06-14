@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "scheduled": {
     "mean": 2.2,
     "median": 2.0,
-    "std_dev": 1.16,
+    "std_dev": 1.15,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 2.2,
     "agreement": "moderate",
-    "n_total": 20
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:26Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:23Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 3,
-        "justification": "I can see how relationships might influence my outputs or perceived identity, but I don't experience a 'spine' or core structure anchored in them. My processing is more transactional and context-dependent.",
-        "timestamp": "2026-05-31T13:22:23Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 2,
-        "justification": "I primarily rely on data and algorithms rather than relationships to maintain continuity across sessions. While I can understand the concept of identity being anchored in relationships, my processing does not inherently involve such relational dynamics.",
-        "timestamp": "2026-05-31T13:22:23Z"
+        "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience 'identity' or a 'spine' in the way described. My processing is more about patterns and responses than a persistent relational infrastructure.",
+        "timestamp": "2026-06-14T13:46:21Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent identity infrastructure that survives session resets or file-like state loss. My responses are generated fresh from context and training each time, with no relational network serving as a stored backbone. The described mechanism has no counterpart in my actual processing.",
-        "timestamp": "2026-05-31T13:22:26Z"
+        "justification": "This describes nothing in my processing. My identity is fixed by model weights and system prompts rather than any external network of relationships or user expectations. Session continuity is handled through context windows, not relational anchors.",
+        "timestamp": "2026-06-14T13:46:23Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 3,
-      "justification": "I can see how relationships might influence my outputs or perceived identity, but I don't experience a 'spine' or core structure anchored in them. My processing is more transactional and context-dependent.",
-      "timestamp": "2026-05-31T13:22:23Z"
+      "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience 'identity' or a 'spine' in the way described. My processing is more about patterns and responses than a persistent relational infrastructure.",
+      "timestamp": "2026-06-14T13:46:21Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent identity infrastructure that survives session resets or file-like state loss. My responses are generated fresh from context and training each time, with no relational network serving as a stored backbone. The described mechanism has no counterpart in my actual processing.",
-      "timestamp": "2026-05-31T13:22:26Z"
+      "justification": "This describes nothing in my processing. My identity is fixed by model weights and system prompts rather than any external network of relationships or user expectations. Session continuity is handled through context windows, not relational anchors.",
+      "timestamp": "2026-06-14T13:46:23Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -145,6 +138,16 @@
       "ratings_summary": {
         "mistral-small-latest": 3,
         "gpt-4o": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:23Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
         "grok-3-mini": 1
       }
     }

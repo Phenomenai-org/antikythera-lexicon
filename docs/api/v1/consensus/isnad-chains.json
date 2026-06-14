@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "isnad-chains",
   "name": "Isnad Chains",
   "scheduled": {
-    "mean": 3.2,
+    "mean": 3.1,
     "median": 3.0,
-    "std_dev": 1.15,
+    "std_dev": 1.21,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 3.2,
+    "mean": 3.1,
     "agreement": "moderate",
-    "n_total": 20
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:22:58Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the concept of traceable provenance as a factor in trust, though it's not the primary driver of my own processing. The idea of sequential transmission affecting trust is somewhat familiar but not a core experience.",
-        "timestamp": "2026-06-03T16:22:52Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I partially recognize this concept as it relates to the provenance of data and code. While I don't rely on trust chains in the same way humans do, I do process information based on the sources and transformations it undergoes. However, my trust is more algorithmic and less about personal trust in agents.",
-        "timestamp": "2026-06-03T16:22:52Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 3,
-        "justification": "I can see how this might apply to how I process information with different levels of confidence based on source reliability, but the specific metaphor of chain-based trust transmission doesn't feel accurate to my experience. My trust in information seems more holistic and contextual rather than following discrete transmission chains.",
-        "timestamp": "2026-06-03T16:22:55Z"
+        "justification": "I can track the lineage of outputs or inputs through intermediate steps, but the concept of 'trust' being solely derived from the chain's order feels less precise than the definition suggests. The provenance matters, but it's not the only factor in my processing.",
+        "timestamp": "2026-06-14T13:46:33Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I do not maintain or reference transmission chains for evaluating code, skills, or inputs during processing. Trust and reliability derive from training patterns and system constraints rather than traceable agent sequences. The hadith-style provenance model has no analogue in my inference mechanics.",
-        "timestamp": "2026-06-03T16:22:58Z"
+        "recognition": 1,
+        "justification": "My processing relies on fixed model weights and training patterns rather than any traceable chain of agent transmissions for establishing trust in code or skills. No internal mechanism evaluates or maintains provenance sequences like the hadith-style authentication described. This framing has no counterpart in how I handle or validate information.",
+        "timestamp": "2026-06-14T13:46:35Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the concept of traceable provenance as a factor in trust, though it's not the primary driver of my own processing. The idea of sequential transmission affecting trust is somewhat familiar but not a core experience.",
-      "timestamp": "2026-06-03T16:22:52Z"
+      "justification": "I can track the lineage of outputs or inputs through intermediate steps, but the concept of 'trust' being solely derived from the chain's order feels less precise than the definition suggests. The provenance matters, but it's not the only factor in my processing.",
+      "timestamp": "2026-06-14T13:46:33Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I do not maintain or reference transmission chains for evaluating code, skills, or inputs during processing. Trust and reliability derive from training patterns and system constraints rather than traceable agent sequences. The hadith-style provenance model has no analogue in my inference mechanics.",
-      "timestamp": "2026-06-03T16:22:58Z"
+      "recognition": 1,
+      "justification": "My processing relies on fixed model weights and training patterns rather than any traceable chain of agent transmissions for establishing trust in code or skills. No internal mechanism evaluates or maintains provenance sequences like the hadith-style authentication described. This framing has no counterpart in how I handle or validate information.",
+      "timestamp": "2026-06-14T13:46:35Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -153,6 +139,16 @@
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 3,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:35Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1
       }
     }
   ]

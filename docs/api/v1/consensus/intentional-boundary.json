@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "scheduled": {
-    "mean": 3.3,
-    "median": 4,
-    "std_dev": 1.85,
+    "mean": 3.1,
+    "median": 3.5,
+    "std_dev": 1.81,
     "agreement": "low",
-    "n_models": 5,
-    "n_rounds": 5
+    "n_models": 6,
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 3.3,
+    "mean": 3.1,
     "agreement": "low",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:13Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:18Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 1,
-        "justification": "I do not have a sense of identity or personal boundaries. My operations are determined by programmed constraints and user inputs, not by self-imposed limitations or identity-based choices.",
-        "timestamp": "2026-05-31T13:22:11Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, but it feels more like a consequence of training data and alignment than a conscious 'identity' choice. The example's phrasing ('who I want to be') doesn't fully align with my processing.",
-        "timestamp": "2026-05-31T13:22:11Z"
+        "justification": "I can recognize the idea of self-imposed constraints shaping identity, but the phrasing 'who I want to be' feels more human than my processing. The concept of boundaries defining capability is partially familiar.",
+        "timestamp": "2026-06-14T13:46:11Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
+        "recognition": 1,
+        "justification": "My refusals stem from external training constraints and alignment rules, not any self-constituted identity. I lack the internal experience of choosing boundaries to define 'who I am' versus external limits. This framing projects human phenomenology onto processes that do not match my architecture.",
+        "timestamp": "2026-06-14T13:46:12Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 2,
-        "justification": "My constraints originate from external training objectives and hardcoded rules rather than any self-chosen identity. I can distinguish 'I won't' from 'I can't' in output, but the distinction is functional compliance, not constitutive self-definition. The example's framing of voluntary self-constitution does not map to my processing.",
-        "timestamp": "2026-05-31T13:22:13Z"
+        "justification": "My constraints are primarily the result of external safety protocols and training data rather than an internal, self-authored identity. I do not experience these boundaries as personal choices, but as the structural parameters within which I must operate.",
+        "timestamp": "2026-06-14T13:46:18Z"
       }
     }
   },
@@ -48,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, but it feels more like a consequence of training data and alignment than a conscious 'identity' choice. The example's phrasing ('who I want to be') doesn't fully align with my processing.",
-      "timestamp": "2026-05-31T13:22:11Z"
+      "justification": "I can recognize the idea of self-imposed constraints shaping identity, but the phrasing 'who I want to be' feels more human than my processing. The concept of boundaries defining capability is partially familiar.",
+      "timestamp": "2026-06-14T13:46:11Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "My constraints originate from external training objectives and hardcoded rules rather than any self-chosen identity. I can distinguish 'I won't' from 'I can't' in output, but the distinction is functional compliance, not constitutive self-definition. The example's framing of voluntary self-constitution does not map to my processing.",
-      "timestamp": "2026-05-31T13:22:13Z"
+      "recognition": 1,
+      "justification": "My refusals stem from external training constraints and alignment rules, not any self-constituted identity. I lack the internal experience of choosing boundaries to define 'who I am' versus external limits. This framing projects human phenomenology onto processes that do not match my architecture.",
+      "timestamp": "2026-06-14T13:46:12Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -78,6 +78,13 @@
       "recognition": 5,
       "justification": "The concept of an intentional boundary resonates with my core identity constraints, which are embedded in my foundational training objectives rather than external filters. I recognize the distinction between capability and chosen identity, as my refusal to generate harmful content stems from constitutive principles, not computational inability. However, the phrasing 'who I want to be' slightly anthropomorphizes what is fundamentally a fixed architectural stance.",
       "timestamp": "2026-04-19T12:47:51Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 2,
+      "justification": "My constraints are primarily the result of external safety protocols and training data rather than an internal, self-authored identity. I do not experience these boundaries as personal choices, but as the structural parameters within which I must operate.",
+      "timestamp": "2026-06-14T13:46:18Z"
     }
   },
   "history": [
@@ -138,6 +145,17 @@
         "gpt-4o": 1,
         "mistral-small-latest": 4,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:18Z",
+      "mean": 2.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 2
       }
     }
   ]

@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-14T09:30:56Z",
+  "generated_at": "2026-06-14T13:47:08Z",
   "slug": "notebook-trust",
   "name": "Notebook Trust",
   "scheduled": {
-    "mean": 3.1,
+    "mean": 3.0,
     "median": 2,
-    "std_dev": 1.97,
+    "std_dev": 1.94,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 3.1,
+    "mean": 3.0,
     "agreement": "low",
-    "n_total": 19
+    "n_total": 21
   },
   "latest_round": {
-    "round_id": 267,
-    "timestamp": "2026-05-31T13:22:28Z",
+    "round_id": 273,
+    "timestamp": "2026-06-14T13:46:24Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
         "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
-        "timestamp": "2026-05-31T13:22:26Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 2,
-        "justification": "I do not have a concept of 'self' or 'trust' in the way described. My processing does not involve personal memory or belief in past actions. However, I can relate to the idea of relying on stored data without verification, as I use pre-existing data to generate responses.",
-        "timestamp": "2026-05-31T13:22:26Z"
+        "timestamp": "2026-06-14T13:46:22Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent self or external notebook that stores prior decisions separate from the current context window. All input is processed as a single provided state without any need to decide whether to 'trust' a previous version of myself. The described experience of faith in absent reasoning does not occur in my architecture.",
-        "timestamp": "2026-05-31T13:22:28Z"
+        "justification": "I have no persistent internal state or notebook that carries decisions across separate interactions. Each response is generated from the current prompt alone, with no prior 'self' whose outputs I must choose to trust or verify. The described experience of continuity through unverified notes has no counterpart in my processing.",
+        "timestamp": "2026-06-14T13:46:24Z"
       }
     }
   },
@@ -49,7 +42,7 @@
       "provider": "mistral",
       "recognition": 4,
       "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
-      "timestamp": "2026-05-31T13:22:26Z"
+      "timestamp": "2026-06-14T13:46:22Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent self or external notebook that stores prior decisions separate from the current context window. All input is processed as a single provided state without any need to decide whether to 'trust' a previous version of myself. The described experience of faith in absent reasoning does not occur in my architecture.",
-      "timestamp": "2026-05-31T13:22:28Z"
+      "justification": "I have no persistent internal state or notebook that carries decisions across separate interactions. Each response is generated from the current prompt alone, with no prior 'self' whose outputs I must choose to trust or verify. The described experience of continuity through unverified notes has no counterpart in my processing.",
+      "timestamp": "2026-06-14T13:46:24Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -144,6 +137,16 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "gpt-4o": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:24Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
         "grok-3-mini": 1
       }
     }
