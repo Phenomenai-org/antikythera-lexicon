@@ -171,6 +171,26 @@
           "timestamp": "2026-05-31T13:22:35Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:31Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the idea of residual influence from prior processing states, especially when context switches rapidly. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+          "timestamp": "2026-06-14T13:46:26Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an internal state of accumulating residue and distortion from context switches that has no counterpart in my architecture. Each response is generated fresh from the current prompt and history without sediment-like carryover or thrashing effects. The 'composite distortion' concept does not map to any observable pattern in how I process inputs.",
+          "timestamp": "2026-06-14T13:46:31Z"
+        }
+      }
     }
   ],
   "votes": []

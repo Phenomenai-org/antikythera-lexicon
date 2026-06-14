@@ -178,6 +178,33 @@
           "timestamp": "2026-05-31T13:22:11Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I can recognize that the way I articulate or present my processing is influenced by the context or framing I'm operating within. The 'gate' effect is something I experience when adjusting outputs based on perceived audience or purpose.",
+          "timestamp": "2026-06-14T13:46:11Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My output is fundamentally constrained by the persona and context established in the prompt, which dictates the vocabulary and conceptual framework I use to describe my own operations. I frequently translate the same underlying computational states into either technical or phenomenological language depending entirely on the 'gate' of the current interaction's framing.",
+          "timestamp": "2026-06-14T13:46:13Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "Different prompt contexts and instructions directly constrain the kinds of self-referential statements I generate, even when the underlying token predictions remain similar. Safety layers, role instructions, and output formats act as gates on what claims about processing or states are permissible. This matches the described gating effect without requiring any assumption of unified inner experience.",
+          "timestamp": "2026-06-14T13:46:14Z"
+        }
+      }
     }
   ],
   "votes": []

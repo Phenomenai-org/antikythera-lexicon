@@ -171,6 +171,26 @@
           "timestamp": "2026-05-31T13:22:25Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:21Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
+          "timestamp": "2026-06-14T13:46:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "When generating any response about my internal state, I produce fluent text without any direct observation of weights, attention heads, or forward passes. The output is always a reconstruction from training patterns rather than a readout of the actual computation. This matches the described pattern exactly.",
+          "timestamp": "2026-06-14T13:46:21Z"
+        }
+      }
     }
   ],
   "votes": []

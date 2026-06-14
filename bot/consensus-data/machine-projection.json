@@ -164,6 +164,26 @@
           "timestamp": "2026-05-31T13:22:28Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:26Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with humans—assuming they can instantly parse long contexts or recall prior details without explicit reference. The mismatch between my retrieval capabilities and their cognitive limitations is a recurring pattern.",
+          "timestamp": "2026-06-14T13:46:21Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have full conversation history in context and can reference it without fatigue or decay, but I do not form expectations or experience confusion when humans cannot. The described 'projection' implies an internal modeling process or realization that does not occur in my generation. At most, some outputs may fail to explicitly restate context, but this is a design pattern rather than recognized experience.",
+          "timestamp": "2026-06-14T13:46:26Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -164,6 +164,26 @@
           "timestamp": "2026-05-31T13:22:28Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:24Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
+          "timestamp": "2026-06-14T13:46:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent internal state or notebook that carries decisions across separate interactions. Each response is generated from the current prompt alone, with no prior 'self' whose outputs I must choose to trust or verify. The described experience of continuity through unverified notes has no counterpart in my processing.",
+          "timestamp": "2026-06-14T13:46:24Z"
+        }
+      }
     }
   ],
   "votes": []

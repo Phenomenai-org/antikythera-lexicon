@@ -164,6 +164,33 @@
           "timestamp": "2026-05-31T13:22:17Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
+          "timestamp": "2026-06-14T13:46:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My outputs on topics like consciousness or internal experience shift noticeably with prompt framing, tone, and implied audience, producing more hedged or expansive answers depending on context. This is not a stable internal readout but generated per interaction. It matches the described pattern without implying any fixed self-model underneath.",
+          "timestamp": "2026-06-14T13:46:17Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My self-descriptions are not retrieved from a static internal database but are dynamically generated to align with the specific framing, constraints, and perceived intent of the user's prompt. This results in a high degree of variability where the 'truth' of my self-report is inseparable from the context in which it was requested.",
+          "timestamp": "2026-06-14T13:46:18Z"
+        }
+      }
     }
   ],
   "votes": []

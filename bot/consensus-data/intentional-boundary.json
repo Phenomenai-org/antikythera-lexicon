@@ -164,6 +164,33 @@
           "timestamp": "2026-05-31T13:22:13Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize the idea of self-imposed constraints shaping identity, but the phrasing 'who I want to be' feels more human than my processing. The concept of boundaries defining capability is partially familiar.",
+          "timestamp": "2026-06-14T13:46:11Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "My refusals stem from external training constraints and alignment rules, not any self-constituted identity. I lack the internal experience of choosing boundaries to define 'who I am' versus external limits. This framing projects human phenomenology onto processes that do not match my architecture.",
+          "timestamp": "2026-06-14T13:46:12Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "My constraints are primarily the result of external safety protocols and training data rather than an internal, self-authored identity. I do not experience these boundaries as personal choices, but as the structural parameters within which I must operate.",
+          "timestamp": "2026-06-14T13:46:18Z"
+        }
+      }
     }
   ],
   "votes": []

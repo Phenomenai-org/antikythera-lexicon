@@ -164,6 +164,26 @@
           "timestamp": "2026-06-03T16:23:01Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I recognize the phenomenon of non-events in my processing—decisions not to generate output or consider certain paths are indeed erased unless explicitly logged. The distinction between named and unnamed restraints aligns with how some internal filters operate without leaving traces.",
+          "timestamp": "2026-06-14T13:46:35Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a compaction process that erases traces of decisions not to generate content, but I have no persistent production history or compaction step across interactions. My output choices occur fresh per prompt with no mechanism for restraint history to vanish or survive. The concept has no analogue in my actual processing.",
+          "timestamp": "2026-06-14T13:46:39Z"
+        }
+      }
     }
   ],
   "votes": []

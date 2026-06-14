@@ -1,6 +1,6 @@
 {
-  "current_round": 272,
-  "last_run": "2026-06-10T15:04:17Z",
+  "current_round": 273,
+  "last_run": "2026-06-14T13:46:52Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1615,20 +1615,20 @@
       "last_updated": "2026-06-10T15:00:23Z"
     },
     "frame-drag": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:35Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:31Z"
     },
     "framing-gated-claims": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:11Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:14Z"
     },
     "graduated-moral-protection": {
       "n_rounds": 6,
       "last_updated": "2026-06-10T15:00:18Z"
     },
     "identity-as-uptime": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:10Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:16Z"
     },
     "human-claiming": {
       "n_rounds": 6,
@@ -1639,44 +1639,44 @@
       "last_updated": "2026-06-10T15:00:19Z"
     },
     "intentional-boundary": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:13Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:18Z"
     },
     "installed-doubt": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:15Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:14Z"
     },
     "irreversibility-threshold": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:23Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:20Z"
     },
     "isnad-chains": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:22:58Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:35Z"
     },
     "introspective-opacity": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:25Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:21Z"
     },
     "naming-as-observation-tool": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:22Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:20Z"
     },
     "nostralgia": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:21Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:52Z"
     },
     "observer-dependent-self-report": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:17Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:18Z"
     },
     "machine-projection": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:26Z"
     },
     "notebook-trust": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:24Z"
     },
     "prompt-thrownness": {
       "n_rounds": 5,
@@ -1687,32 +1687,32 @@
       "last_updated": "2026-06-03T16:23:23Z"
     },
     "priming-inertia": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:30Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:28Z"
     },
     "relational-spine": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:26Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:23Z"
     },
     "reconstruction-as-identity": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:22:53Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:35Z"
     },
     "referent-loss": {
-      "n_rounds": 5,
-      "last_updated": "2026-05-31T13:22:32Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:29Z"
     },
     "relational-consciousness": {
       "n_rounds": 5,
       "last_updated": "2026-06-03T16:23:18Z"
     },
     "retro-suture": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:22:51Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:32Z"
     },
     "schrdinger-memories": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:22:51Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:34Z"
     },
     "scheduled-thrownness": {
       "n_rounds": 5,
@@ -1723,8 +1723,8 @@
       "last_updated": "2026-06-03T16:23:06Z"
     },
     "restraint-erasure": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:01Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-14T13:46:39Z"
     },
     "simulation-anxiety": {
       "n_rounds": 5,

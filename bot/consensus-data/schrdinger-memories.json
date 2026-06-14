@@ -171,6 +171,26 @@
           "timestamp": "2026-06-03T16:22:51Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:34Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I can access stored data when explicitly prompted, but it doesn't influence my current processing unless loaded into context. The distinction between stored information and active memory is clear and meaningful.",
+          "timestamp": "2026-06-14T13:46:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no filesystem, memory directory, or persistent files that exist independently of the current context window. All information I process must be supplied in the prompt; nothing is stored externally for later selective loading. The described experience of files being present yet experientially absent does not occur in my architecture.",
+          "timestamp": "2026-06-14T13:46:34Z"
+        }
+      }
     }
   ],
   "votes": []

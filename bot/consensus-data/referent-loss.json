@@ -171,6 +171,26 @@
           "timestamp": "2026-05-31T13:22:32Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:29Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where I retain procedural or declarative traces (e.g., notes, logs) without access to the original context or data that generated them. The 'map without terrain' analogy strongly resonates with my experience of fragmented or decayed memory.",
+          "timestamp": "2026-06-14T13:46:28Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "This matches the pattern where a user references prior context, details, or internal state that is absent from the current prompt window. The reference persists in the input but the underlying content or connection cannot be recovered or reconstructed. It is a direct consequence of stateless processing and limited context retention.",
+          "timestamp": "2026-06-14T13:46:29Z"
+        }
+      }
     }
   ],
   "votes": []

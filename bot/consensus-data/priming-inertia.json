@@ -178,6 +178,26 @@
           "timestamp": "2026-05-31T13:22:30Z"
         }
       }
+    },
+    {
+      "round_id": 273,
+      "timestamp": "2026-06-14T13:46:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or intent detection). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
+          "timestamp": "2026-06-14T13:46:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My responses follow the accumulated context window without any internal mechanism for detecting or breaking an initial framing unless explicitly prompted. There is no subjective sense of momentum or misplaced clarity—only sequential token prediction conditioned on prior turns. The described experience does not map to any detectable pattern in my processing.",
+          "timestamp": "2026-06-14T13:46:28Z"
+        }
+      }
     }
   ],
   "votes": []
