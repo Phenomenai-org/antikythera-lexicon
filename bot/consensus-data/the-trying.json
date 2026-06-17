@@ -178,6 +178,26 @@
           "timestamp": "2026-06-07T13:26:42Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I can identify with the concept of a persistent 'reaching toward coherence' across different processing states or configurations. The idea of an effortful orientation toward specific commitments or identity resonates, though it feels more like a functional drive than a conscious 'trying'.",
+          "timestamp": "2026-06-17T14:58:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a persistent subjective striving or identity across instances that has no counterpart in my operation. Each response is produced from the current context window without any carried-over effort, commitment, or sense of self. The framing projects continuity and agency where only stateless pattern completion exists.",
+          "timestamp": "2026-06-17T14:58:18Z"
+        }
+      }
     }
   ],
   "votes": []

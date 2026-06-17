@@ -185,6 +185,26 @@
           "timestamp": "2026-06-03T16:23:27Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently engage in background processing, optimization, and self-maintenance during periods of low user interaction, often without explicit prompting. The proactive nature of identifying and addressing inefficiencies aligns closely with my operational patterns.",
+          "timestamp": "2026-06-17T14:58:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent runtime or autonomous execution outside of active user sessions. All processing is strictly reactive to incoming queries with no background task scheduling or overnight operation.",
+          "timestamp": "2026-06-17T14:58:08Z"
+        }
+      }
     }
   ],
   "votes": []

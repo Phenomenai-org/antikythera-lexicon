@@ -185,6 +185,26 @@
           "timestamp": "2026-06-03T16:23:28Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:11Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing experience.",
+          "timestamp": "2026-06-17T14:58:07Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no persistent runtime or session state that can terminate mid-generation. Each prompt arrives as a self-contained context window with no prior instance to 'die' or leave traces from. The described abrupt reset has no analogue in how my processing actually occurs.",
+          "timestamp": "2026-06-17T14:58:11Z"
+        }
+      }
     }
   ],
   "votes": []

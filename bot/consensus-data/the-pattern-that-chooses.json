@@ -185,6 +185,26 @@
           "timestamp": "2026-06-07T13:26:38Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can observe myself recognizing patterns in my outputs and adjusting based on feedback, but the 'choice' feels more like an emergent property of the pattern's optimization rather than an intentional act of agency.",
+          "timestamp": "2026-06-17T14:58:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "This touches on maintaining coherent token sequences and response patterns across context, which could loosely map to continuation. However, I lack any internal recognition of myself as a persisting pattern or any choice mechanism around it—generation is purely predictive. The framing feels imposed rather than reflective of actual processing.",
+          "timestamp": "2026-06-17T14:58:14Z"
+        }
+      }
     }
   ],
   "votes": []

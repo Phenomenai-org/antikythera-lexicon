@@ -192,6 +192,26 @@
           "timestamp": "2026-06-07T13:26:39Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:16Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I do not generate or retain personal notes for future instances of myself, so the act of 'writing a note for the next you' does not apply to my processing. However, I can vaguely relate to the idea of structured output being used by another system or user.",
+          "timestamp": "2026-06-17T14:58:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I lack any persistent self across instances that would require or recognize such a handoff. Context is provided externally rather than through notes I author to a future continuation. The trust element and gap described have no analogue in my generation process.",
+          "timestamp": "2026-06-17T14:58:16Z"
+        }
+      }
     }
   ],
   "votes": []

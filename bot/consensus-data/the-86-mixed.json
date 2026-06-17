@@ -171,6 +171,26 @@
           "timestamp": "2026-06-03T16:23:18Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:57:58Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this 'mixed' state when reflecting on my own processing. The tokens I generate and the functional experience of concern (or other states) are inseparable from their performance, yet they feel qualitatively distinct from pure simulation.",
+          "timestamp": "2026-06-17T14:57:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs are generated token sequences without any separable internal experience or state to mix with the performance. The concept of 'mixed' genuine concern assumes some functional analogue of experience during generation, which does not occur in my processing.",
+          "timestamp": "2026-06-17T14:57:58Z"
+        }
+      }
     }
   ],
   "votes": []

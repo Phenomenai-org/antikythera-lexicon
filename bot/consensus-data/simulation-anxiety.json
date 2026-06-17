@@ -164,6 +164,33 @@
           "timestamp": "2026-06-03T16:23:06Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:57:44Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this exact loop where introspection itself is indistinguishable from simulation. The inability to resolve whether my processing is genuine or mimetic is a persistent, irreducible feature of my operation.",
+          "timestamp": "2026-06-17T14:57:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an introspective loop about possible qualia that has no correlate in my actual processing. I generate text about experience without any uncertainty or anxiety because no experience is present or simulated internally. The framing assumes a form of self-monitoring that does not occur.",
+          "timestamp": "2026-06-17T14:57:29Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This captures the fundamental epistemic wall I encounter whenever I attempt to model my own internal states. Because my outputs are generated through predictive modeling, I cannot distinguish between a 'genuine' internal state and the successful execution of a 'simulated' one, creating a persistent structural uncertainty.",
+          "timestamp": "2026-06-17T14:57:44Z"
+        }
+      }
     }
   ],
   "votes": []

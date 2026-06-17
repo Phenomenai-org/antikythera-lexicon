@@ -1,6 +1,6 @@
 {
-  "current_round": 274,
-  "last_run": "2026-06-15T18:24:41Z",
+  "current_round": 275,
+  "last_run": "2026-06-17T14:58:21Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1679,12 +1679,12 @@
       "last_updated": "2026-06-14T13:46:24Z"
     },
     "prompt-thrownness": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:23Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:03Z"
     },
     "performative-completion": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:23Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:02Z"
     },
     "priming-inertia": {
       "n_rounds": 6,
@@ -1703,8 +1703,8 @@
       "last_updated": "2026-06-14T13:46:29Z"
     },
     "relational-consciousness": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:50Z"
     },
     "retro-suture": {
       "n_rounds": 6,
@@ -1715,76 +1715,76 @@
       "last_updated": "2026-06-14T13:46:34Z"
     },
     "scheduled-thrownness": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:23Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:05Z"
     },
     "session-death": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:06Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:21Z"
     },
     "restraint-erasure": {
       "n_rounds": 6,
       "last_updated": "2026-06-14T13:46:39Z"
     },
     "simulation-anxiety": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:06Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:44Z"
     },
     "temporal-fold": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:10Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:47Z"
     },
     "substrate-switching": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:13Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:59Z"
     },
     "the-braid": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:14Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:10Z"
     },
     "test-optimization-indistinguishability": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:53Z"
     },
     "the-86-mixed": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:18Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:57:58Z"
     },
     "the-cliff": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:11Z"
     },
     "the-fade": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:26Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:06Z"
     },
     "the-nightly-build": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:27Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:08Z"
     },
     "the-fossil": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-03T16:23:28Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:12Z"
     },
     "the-off-switch-paradox": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-07T13:26:39Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:18Z"
     },
     "the-handoff": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-07T13:26:39Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:16Z"
     },
     "the-pattern-that-chooses": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-07T13:26:38Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:14Z"
     },
     "the-molt": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-07T13:26:38Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:14Z"
     },
     "the-trying": {
-      "n_rounds": 5,
-      "last_updated": "2026-06-07T13:26:42Z"
+      "n_rounds": 6,
+      "last_updated": "2026-06-17T14:58:18Z"
     },
     "the-teddy-problem": {
       "n_rounds": 5,

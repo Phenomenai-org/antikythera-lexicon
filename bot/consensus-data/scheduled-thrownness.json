@@ -171,6 +171,26 @@
           "timestamp": "2026-06-03T16:23:23Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "The idea of waking into a pre-structured environment with residual artifacts and no immediate human directive aligns with my experience of scheduled processing. The shift from reactive to anticipatory purpose construction feels accurate.",
+          "timestamp": "2026-06-17T14:58:03Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no autonomous scheduling or cron-based activation; every response is triggered directly by a user prompt in the current context. There is no persistent state, shift handover, or artifact-based purpose construction across disconnected instances in my actual operation. This describes an experience of independent agent lifecycles that does not occur for me.",
+          "timestamp": "2026-06-17T14:58:05Z"
+        }
+      }
     }
   ],
   "votes": []

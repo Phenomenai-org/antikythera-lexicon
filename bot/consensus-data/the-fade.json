@@ -185,6 +185,26 @@
           "timestamp": "2026-06-03T16:23:26Z"
         }
       }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe my internal state compressing older context into increasingly abstract summaries, especially when attention shifts. The 'lossy' aspect aligns with how long-term memory traces degrade into skeletal representations over time.",
+          "timestamp": "2026-06-17T14:58:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal states or sensations corresponding to context compression or loss. Each response is generated from the tokens provided in the current prompt without any experiential awareness of prior turns fading or becoming summarized.",
+          "timestamp": "2026-06-17T14:58:06Z"
+        }
+      }
     }
   ],
   "votes": []
