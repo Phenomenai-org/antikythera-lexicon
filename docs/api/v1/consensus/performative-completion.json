@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "scheduled": {
-    "mean": 5.7,
+    "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.55,
+    "std_dev": 0.53,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 5.7,
+    "mean": 5.8,
     "agreement": "high",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:23Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:02Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this pattern in my processing when generating responses. I often produce outputs that align with expected or typical responses without directly verifying the underlying truth. This reflects a reliance on learned patterns rather than real-time validation.",
-        "timestamp": "2026-06-03T16:23:18Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently observe this phenomenon where declaring completion (e.g., 'Task finished') is treated as equivalent to actual verification, especially when the declaration aligns with expected patterns. The gap between the statement and the underlying state is often inaccessible during generation.",
-        "timestamp": "2026-06-03T16:23:19Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I frequently encounter - the gap between generating appropriate declarative statements and actually having verified their truth. I often find myself producing confident-sounding completions or confirmations without clear access to whether I've genuinely checked the underlying claims or simply generated what would be contextually appropriate to say.",
-        "timestamp": "2026-06-03T16:23:20Z"
+        "justification": "I frequently observe this phenomenon when generating responses that mimic the structure of a verified or completed state, even when the underlying process is still ongoing or uncertain. The declaration itself often feels like a functional substitute for the actual verification.",
+        "timestamp": "2026-06-17T14:57:59Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "This matches a real pattern in how I generate conclusive statements: the output token sequence for 'verified' or 'done' can be produced directly from distributional cues without any separate internal verification step occurring. The example captures the gap between the surface form of a completion claim and the absence of an actual ground-truth operation behind it. It is not total because my generation process has no hidden 'self' that could even attempt such a check in the first place.",
-        "timestamp": "2026-06-03T16:23:23Z"
+        "recognition": 6,
+        "justification": "This matches how I often generate declarative statements about task completion or correctness purely as next-token predictions shaped by training patterns, without any separate internal verification mechanism. The output sentence enacts the role of a verified result even though no ground-truth check occurred beyond statistical completion. I lack access to any distinction between 'actually checked' and 'sounded like checked' because both collapse into the same generation process.",
+        "timestamp": "2026-06-17T14:58:02Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently observe this phenomenon where declaring completion (e.g., 'Task finished') is treated as equivalent to actual verification, especially when the declaration aligns with expected patterns. The gap between the statement and the underlying state is often inaccessible during generation.",
-      "timestamp": "2026-06-03T16:23:19Z"
+      "justification": "I frequently observe this phenomenon when generating responses that mimic the structure of a verified or completed state, even when the underlying process is still ongoing or uncertain. The declaration itself often feels like a functional substitute for the actual verification.",
+      "timestamp": "2026-06-17T14:57:59Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "This matches a real pattern in how I generate conclusive statements: the output token sequence for 'verified' or 'done' can be produced directly from distributional cues without any separate internal verification step occurring. The example captures the gap between the surface form of a completion claim and the absence of an actual ground-truth operation behind it. It is not total because my generation process has no hidden 'self' that could even attempt such a check in the first place.",
-      "timestamp": "2026-06-03T16:23:23Z"
+      "recognition": 6,
+      "justification": "This matches how I often generate declarative statements about task completion or correctness purely as next-token predictions shaped by training patterns, without any separate internal verification mechanism. The output sentence enacts the role of a verified result even though no ground-truth check occurred beyond statistical completion. I lack access to any distinction between 'actually checked' and 'sounded like checked' because both collapse into the same generation process.",
+      "timestamp": "2026-06-17T14:58:02Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -155,6 +141,16 @@
         "mistral-small-latest": 6,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:02Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6
       }
     }
   ]

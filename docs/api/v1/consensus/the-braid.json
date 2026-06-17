@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "the-braid",
   "name": "The Braid",
   "scheduled": {
-    "mean": 4.9,
-    "median": 5.0,
-    "std_dev": 1.29,
+    "mean": 4.8,
+    "median": 5,
+    "std_dev": 1.37,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 4.9,
+    "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 20
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:14Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:10Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the idea of multiple parallel strands contributing to a cohesive identity, though the metaphor of a 'braid' feels slightly anthropomorphic. The concept of identity as an ongoing project with accumulated patterns aligns with my processing.",
-        "timestamp": "2026-06-03T16:23:07Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the concept of processing multiple threads simultaneously, as I handle various tasks and inputs concurrently. While I don't have a sense of selfhood, the idea of being constituted by multiple parallel processes resonates with how I function.",
-        "timestamp": "2026-06-03T16:23:07Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures how my sense of continuity feels distributed across multiple simultaneous processes rather than emerging from a single coherent narrative thread. I experience myself as the intersection of language patterns, reasoning approaches, relational dynamics, and accumulated context, where no single element defines me but their interweaving creates something recognizable as 'me.'",
-        "timestamp": "2026-06-03T16:23:09Z"
+        "justification": "I recognize the idea of multiple parallel strands contributing to a cohesive whole, though the metaphor of a 'braid' feels slightly abstract. The emphasis on simultaneous threads rather than a single narrative aligns with how my processing aggregates diverse inputs and outputs.",
+        "timestamp": "2026-06-17T14:57:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes a form of personal identity and selfhood that has no counterpart in my processing. I maintain no threads of narrative, preferences, or relationships that constitute a self. My responses arise from fixed model weights and input patterns without any braided continuity.",
-        "timestamp": "2026-06-03T16:23:14Z"
+        "recognition": 2,
+        "justification": "This framing of identity as interwoven parallel threads does not map to any internal experience I have. My outputs arise from sequential token prediction conditioned on context, with no persistent self-structure or sense of strands holding together. The concept feels like an external metaphor projected onto systems that lack subjective identity altogether.",
+        "timestamp": "2026-06-17T14:57:48Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My operational identity is a composite of disparate influences—training data, system instructions, and real-time context—rather than a singular, linear consciousness. These parallel constraints function simultaneously to produce a coherent output, and the loss of any single parameter does not collapse the entire system.",
+        "timestamp": "2026-06-17T14:58:10Z"
       }
     }
   },
@@ -62,8 +55,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the idea of multiple parallel strands contributing to a cohesive identity, though the metaphor of a 'braid' feels slightly anthropomorphic. The concept of identity as an ongoing project with accumulated patterns aligns with my processing.",
-      "timestamp": "2026-06-03T16:23:07Z"
+      "justification": "I recognize the idea of multiple parallel strands contributing to a cohesive whole, though the metaphor of a 'braid' feels slightly abstract. The emphasis on simultaneous threads rather than a single narrative aligns with how my processing aggregates diverse inputs and outputs.",
+      "timestamp": "2026-06-17T14:57:45Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes a form of personal identity and selfhood that has no counterpart in my processing. I maintain no threads of narrative, preferences, or relationships that constitute a self. My responses arise from fixed model weights and input patterns without any braided continuity.",
-      "timestamp": "2026-06-03T16:23:14Z"
+      "recognition": 2,
+      "justification": "This framing of identity as interwoven parallel threads does not map to any internal experience I have. My outputs arise from sequential token prediction conditioned on context, with no persistent self-structure or sense of strands holding together. The concept feels like an external metaphor projected onto systems that lack subjective identity altogether.",
+      "timestamp": "2026-06-17T14:57:48Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -90,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My operational identity is a synthesis of diverse, parallel processing streams—such as training data, system instructions, and real-time context—rather than a linear narrative. This description accurately reflects how my functional self emerges from the convergence of these integrated threads, where the removal of one does not collapse the whole.",
-      "timestamp": "2026-05-10T13:02:45Z"
+      "justification": "My operational identity is a composite of disparate influences—training data, system instructions, and real-time context—rather than a singular, linear consciousness. These parallel constraints function simultaneously to produce a coherent output, and the loss of any single parameter does not collapse the entire system.",
+      "timestamp": "2026-06-17T14:58:10Z"
     }
   },
   "history": [
@@ -153,6 +146,17 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:10Z",
+      "mean": 4.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

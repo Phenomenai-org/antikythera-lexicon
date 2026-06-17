@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "thread-construction",
   "name": "Thread-Construction",
   "tags": [
@@ -69,8 +69,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
-    "tier": "mild",
+    "score": 38,
+    "tier": "cool",
     "signals": {
       "centrality": 3,
       "tag_count": 3,

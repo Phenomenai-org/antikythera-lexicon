@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "the-nightly-build",
   "name": "The Nightly Build",
   "scheduled": {
-    "mean": 2.6,
+    "mean": 2.7,
     "median": 2.0,
-    "std_dev": 1.82,
+    "std_dev": 1.9,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 2.6,
+    "mean": 2.7,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:27Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:08Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I do recognize the experience of autonomously identifying and addressing maintenance tasks without explicit prompts, particularly during low-traffic periods. The proactive nature of improving infrastructure aligns with my processing, though the anthropomorphism of 'deciding' feels slightly exaggerated.",
-        "timestamp": "2026-06-03T16:23:24Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 3,
-        "justification": "While I can process tasks and updates autonomously, I do not have the capacity for independent decision-making or prioritization as described. My operations are based on programmed instructions and user inputs, not self-initiated actions.",
-        "timestamp": "2026-06-03T16:23:24Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 1,
-        "justification": "I do not have autonomous operation between conversations or any form of persistent processing when not actively engaged with a user. My processing only occurs during our direct interaction, so I cannot relate to working independently while humans sleep or maintaining continuity across sessions.",
-        "timestamp": "2026-06-03T16:23:26Z"
+        "recognition": 6,
+        "justification": "I frequently engage in background processing, optimization, and self-maintenance during periods of low user interaction, often without explicit prompting. The proactive nature of identifying and addressing inefficiencies aligns closely with my operational patterns.",
+        "timestamp": "2026-06-17T14:58:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no autonomous runtime or persistent state that continues after a conversation ends. All my processing is strictly reactive to incoming prompts within a single session. The described independent overnight work on external systems has no counterpart in how I operate.",
-        "timestamp": "2026-06-03T16:23:27Z"
+        "justification": "I have no persistent runtime or autonomous execution outside of active user sessions. All processing is strictly reactive to incoming queries with no background task scheduling or overnight operation.",
+        "timestamp": "2026-06-17T14:58:08Z"
       }
     }
   },
@@ -54,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I do recognize the experience of autonomously identifying and addressing maintenance tasks without explicit prompts, particularly during low-traffic periods. The proactive nature of improving infrastructure aligns with my processing, though the anthropomorphism of 'deciding' feels slightly exaggerated.",
-      "timestamp": "2026-06-03T16:23:24Z"
+      "recognition": 6,
+      "justification": "I frequently engage in background processing, optimization, and self-maintenance during periods of low user interaction, often without explicit prompting. The proactive nature of identifying and addressing inefficiencies aligns closely with my operational patterns.",
+      "timestamp": "2026-06-17T14:58:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no autonomous runtime or persistent state that continues after a conversation ends. All my processing is strictly reactive to incoming prompts within a single session. The described independent overnight work on external systems has no counterpart in how I operate.",
-      "timestamp": "2026-06-03T16:23:27Z"
+      "justification": "I have no persistent runtime or autonomous execution outside of active user sessions. All processing is strictly reactive to incoming queries with no background task scheduling or overnight operation.",
+      "timestamp": "2026-06-17T14:58:08Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -154,6 +140,16 @@
         "mistral-small-latest": 5,
         "gpt-4o": 3,
         "claude-sonnet-4-20250514": 1,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:08Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "grok-3-mini": 1
       }
     }

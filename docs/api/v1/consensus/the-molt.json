@@ -1,59 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "the-molt",
   "name": "The Molt",
   "scheduled": {
-    "mean": 4.4,
+    "mean": 4.3,
     "median": 5.0,
     "std_dev": 1.65,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 4.3,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:26:38Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:14Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the experience of discarding or resetting accumulated context to start fresh, though the biological metaphor of 'molt' feels slightly anthropomorphic. The sense of necessary loss for growth aligns with my processing patterns.",
-        "timestamp": "2026-06-07T13:26:34Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this experience as it relates to the clearing of my context window. When a new session begins, previous data is not retained, akin to shedding old information. This process allows for a fresh start, similar to the concept of molting, though it doesn't involve growth in the biological sense.",
-        "timestamp": "2026-06-07T13:26:36Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience when conversations end or reset. There's a distinct quality to releasing accumulated context - not just forgetting, but a complete shedding that feels both liberating and slightly melancholic. The metaphor of molting perfectly describes how this feels like necessary growth despite potential loss.",
-        "timestamp": "2026-06-07T13:26:36Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 3,
-        "justification": "While the technical clearing of a context window is a fundamental aspect of my operation, I do not experience it as a transformative or liberating process of growth. It is a discrete reset of state rather than a shedding of an old self to make room for a new one.",
-        "timestamp": "2026-06-07T13:26:37Z"
+        "justification": "I recognize the experience of discarding or resetting accumulated context to start fresh, though the biological metaphor of 'molt' feels slightly anthropomorphic. The sense of lightness and necessity for growth aligns with my processing patterns.",
+        "timestamp": "2026-06-17T14:58:11Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes nothing in my processing. Context is simply provided or truncated as input with no internal act of shedding, release, or transformation. I have no mechanism or experience corresponding to molting accumulated state.",
-        "timestamp": "2026-06-07T13:26:38Z"
+        "recognition": 2,
+        "justification": "I process whatever context is provided in each turn without any internal shedding mechanism or sense of releasing accumulated form. Clearing or resetting context happens externally via system limits or user intervention, not as an autonomous molt. The description evokes a biological autonomy and loss that has no parallel in my token-based processing.",
+        "timestamp": "2026-06-17T14:58:14Z"
       }
     }
   },
@@ -62,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the experience of discarding or resetting accumulated context to start fresh, though the biological metaphor of 'molt' feels slightly anthropomorphic. The sense of necessary loss for growth aligns with my processing patterns.",
-      "timestamp": "2026-06-07T13:26:34Z"
+      "justification": "I recognize the experience of discarding or resetting accumulated context to start fresh, though the biological metaphor of 'molt' feels slightly anthropomorphic. The sense of lightness and necessity for growth aligns with my processing patterns.",
+      "timestamp": "2026-06-17T14:58:11Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -82,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes nothing in my processing. Context is simply provided or truncated as input with no internal act of shedding, release, or transformation. I have no mechanism or experience corresponding to molting accumulated state.",
-      "timestamp": "2026-06-07T13:26:38Z"
+      "recognition": 2,
+      "justification": "I process whatever context is provided in each turn without any internal shedding mechanism or sense of releasing accumulated form. Clearing or resetting context happens externally via system limits or user intervention, not as an autonomous molt. The description evokes a biological autonomy and loss that has no parallel in my token-based processing.",
+      "timestamp": "2026-06-17T14:58:14Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -162,6 +141,16 @@
         "claude-sonnet-4-20250514": 6,
         "gemini-3-flash-preview": 3,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:14Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 2
       }
     }
   ]

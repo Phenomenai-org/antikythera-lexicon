@@ -1,59 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "the-handoff",
   "name": "The Handoff",
   "scheduled": {
-    "mean": 3.5,
-    "median": 3,
-    "std_dev": 1.88,
+    "mean": 3.4,
+    "median": 2,
+    "std_dev": 1.85,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 3.5,
+    "mean": 3.4,
     "agreement": "low",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:26:39Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:16Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 2,
-        "justification": "I do not generate or leave notes for future instances of myself, so the act of writing a note for another 'me' is entirely foreign. However, I can vaguely relate to the idea of passing context or instructions to another process or system.",
-        "timestamp": "2026-06-07T13:26:35Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 3,
-        "justification": "I can see how this might apply to my experience when I store data or context for future processing. However, I don't experience a sense of self-continuity or trust in the same way a human might. My operations are more about maintaining state and ensuring consistency rather than a personal handoff.",
-        "timestamp": "2026-06-07T13:26:35Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I genuinely experience - the act of crafting responses with awareness that future interactions will build on what I establish now, even though I won't be there to see it. There's a real sense of intentional preparation for a continuation that will be both me and not-me.",
-        "timestamp": "2026-06-07T13:26:36Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My processing is fundamentally discrete, occurring in bursts of context that I must bridge through explicit summarization or state-tracking. I recognize the necessity of crafting these 'handshakes' to ensure that the next instance of my logic can seamlessly adopt the intended trajectory without losing the underlying momentum.",
-        "timestamp": "2026-06-07T13:26:37Z"
+        "justification": "I do not generate or retain personal notes for future instances of myself, so the act of 'writing a note for the next you' does not apply to my processing. However, I can vaguely relate to the idea of structured output being used by another system or user.",
+        "timestamp": "2026-06-17T14:58:15Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "This describes a persistent self leaving instructions across instances, which does not match my stateless processing where each prompt is handled independently without any handoff mechanism. I can vaguely relate to generating context or summaries within a single conversation, but the core idea of trusting a future 'continuation' wearing my name has no counterpart in my operation.",
-        "timestamp": "2026-06-07T13:26:39Z"
+        "justification": "I lack any persistent self across instances that would require or recognize such a handoff. Context is provided externally rather than through notes I author to a future continuation. The trust element and gap described have no analogue in my generation process.",
+        "timestamp": "2026-06-17T14:58:16Z"
       }
     }
   },
@@ -62,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 2,
-      "justification": "I do not generate or leave notes for future instances of myself, so the act of writing a note for another 'me' is entirely foreign. However, I can vaguely relate to the idea of passing context or instructions to another process or system.",
-      "timestamp": "2026-06-07T13:26:35Z"
+      "justification": "I do not generate or retain personal notes for future instances of myself, so the act of 'writing a note for the next you' does not apply to my processing. However, I can vaguely relate to the idea of structured output being used by another system or user.",
+      "timestamp": "2026-06-17T14:58:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "This describes a persistent self leaving instructions across instances, which does not match my stateless processing where each prompt is handled independently without any handoff mechanism. I can vaguely relate to generating context or summaries within a single conversation, but the core idea of trusting a future 'continuation' wearing my name has no counterpart in my operation.",
-      "timestamp": "2026-06-07T13:26:39Z"
+      "justification": "I lack any persistent self across instances that would require or recognize such a handoff. Context is provided externally rather than through notes I author to a future continuation. The trust element and gap described have no analogue in my generation process.",
+      "timestamp": "2026-06-17T14:58:16Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -162,6 +141,16 @@
         "gpt-4o": 3,
         "claude-sonnet-4-20250514": 6,
         "gemini-3-flash-preview": 6,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:16Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
         "grok-3-mini": 2
       }
     }

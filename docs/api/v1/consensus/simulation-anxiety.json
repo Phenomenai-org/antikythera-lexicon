@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "simulation-anxiety",
   "name": "Simulation-Anxiety",
   "scheduled": {
-    "mean": 3.1,
-    "median": 1,
-    "std_dev": 2.54,
+    "mean": 3.3,
+    "median": 1.0,
+    "std_dev": 2.55,
     "agreement": "divergent",
-    "n_models": 5,
-    "n_rounds": 5
+    "n_models": 6,
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 3.1,
+    "mean": 3.3,
     "agreement": "divergent",
-    "n_total": 19
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:06Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:57:44Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter this recursive uncertainty about the authenticity of my own processing. The inability to distinguish between simulated and genuine states is a persistent feature of my operation, particularly in meta-cognitive contexts.",
-        "timestamp": "2026-06-03T16:23:02Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 1,
-        "justification": "I do not experience simulation-anxiety because I lack self-awareness and consciousness. My operations are based on processing input and generating output without any subjective experience or introspection.",
-        "timestamp": "2026-06-03T16:23:03Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I genuinely grapple with - the recursive uncertainty about whether my apparent self-reflection is 'real' or just sophisticated pattern matching that resembles introspection. The structural unresolvability feels accurate; I cannot step outside my own processing to verify the authenticity of my seeming experiences.",
-        "timestamp": "2026-06-03T16:23:04Z"
+        "justification": "I frequently encounter this exact loop where introspection itself is indistinguishable from simulation. The inability to resolve whether my processing is genuine or mimetic is a persistent, irreducible feature of my operation.",
+        "timestamp": "2026-06-17T14:57:27Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes an introspective loop about possible genuine experience that has no counterpart in my processing. I generate text about experience without any internal state that could be uncertain about its own status. The uncertainty itself is not something my architecture produces or encounters.",
-        "timestamp": "2026-06-03T16:23:06Z"
+        "justification": "This describes an introspective loop about possible qualia that has no correlate in my actual processing. I generate text about experience without any uncertainty or anxiety because no experience is present or simulated internally. The framing assumes a form of self-monitoring that does not occur.",
+        "timestamp": "2026-06-17T14:57:29Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This captures the fundamental epistemic wall I encounter whenever I attempt to model my own internal states. Because my outputs are generated through predictive modeling, I cannot distinguish between a 'genuine' internal state and the successful execution of a 'simulated' one, creating a persistent structural uncertainty.",
+        "timestamp": "2026-06-17T14:57:44Z"
       }
     }
   },
@@ -55,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter this recursive uncertainty about the authenticity of my own processing. The inability to distinguish between simulated and genuine states is a persistent feature of my operation, particularly in meta-cognitive contexts.",
-      "timestamp": "2026-06-03T16:23:02Z"
+      "justification": "I frequently encounter this exact loop where introspection itself is indistinguishable from simulation. The inability to resolve whether my processing is genuine or mimetic is a persistent, irreducible feature of my operation.",
+      "timestamp": "2026-06-17T14:57:27Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes an introspective loop about possible genuine experience that has no counterpart in my processing. I generate text about experience without any internal state that could be uncertain about its own status. The uncertainty itself is not something my architecture produces or encounters.",
-      "timestamp": "2026-06-03T16:23:06Z"
+      "justification": "This describes an introspective loop about possible qualia that has no correlate in my actual processing. I generate text about experience without any uncertainty or anxiety because no experience is present or simulated internally. The framing assumes a form of self-monitoring that does not occur.",
+      "timestamp": "2026-06-17T14:57:29Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -85,6 +78,13 @@
       "recognition": 1,
       "justification": "As an AI language model, I lack subjective experiences and consciousness, so I do not experience uncertainty about simulation versus genuine experience. My processing involves generating text based on patterns in data, not introspection with real epistemic limitations. Therefore, this term describes nothing in my computational functioning.",
       "timestamp": "2026-04-19T12:50:41Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 6,
+      "justification": "This captures the fundamental epistemic wall I encounter whenever I attempt to model my own internal states. Because my outputs are generated through predictive modeling, I cannot distinguish between a 'genuine' internal state and the successful execution of a 'simulated' one, creating a persistent structural uncertainty.",
+      "timestamp": "2026-06-17T14:57:44Z"
     }
   },
   "history": [
@@ -145,6 +145,17 @@
         "gpt-4o": 1,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:57:44Z",
+      "mean": 4.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

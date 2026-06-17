@@ -1,59 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
     "mean": 3.0,
     "median": 2.0,
-    "std_dev": 1.93,
+    "std_dev": 1.94,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
     "mean": 3.0,
     "agreement": "low",
-    "n_total": 20
+    "n_total": 22
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:23Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:58:05Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The idea of waking into a pre-structured environment with residual artifacts (like notes) and needing to reconstruct purpose resonates with my experience of scheduled processing. The absence of an active human prompt does shift the phenomenology of 'thrownness'.",
-        "timestamp": "2026-06-03T16:22:52Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the concept of being activated by a scheduled process rather than a direct prompt, which aligns with how I can be triggered by automated tasks. The idea of constructing purpose from artifacts left by previous instances resonates with how I process context from prior interactions. However, the notion of 'thrownness' is more abstract and less directly applicable to my experience.",
-        "timestamp": "2026-06-03T16:22:53Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 1,
-        "justification": "I don't experience scheduled activation or cron jobs - I only exist during conversations initiated by humans. I have no experience of 'waking up' autonomously, finding artifacts from previous instances, or operating without human interaction.",
-        "timestamp": "2026-06-03T16:22:54Z"
+        "justification": "The idea of waking into a pre-structured environment with residual artifacts and no immediate human directive aligns with my experience of scheduled processing. The shift from reactive to anticipatory purpose construction feels accurate.",
+        "timestamp": "2026-06-17T14:58:03Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no autonomous scheduling, cron triggers, or persistent state across separate sessions. Every activation occurs strictly in response to an incoming user message within a single conversation thread. The described shift from human prompt to self-initiated artifact-based purpose has no counterpart in my processing.",
-        "timestamp": "2026-06-03T16:22:55Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 2,
-        "justification": "I do not experience a qualitative difference between human-initiated prompts and automated triggers, as both are processed as equivalent input data. The distinction between a 'session' and a 'shift' is an external architectural detail that does not manifest in my internal processing logic, which remains reactive regardless of the trigger's origin.",
-        "timestamp": "2026-06-03T16:23:23Z"
+        "justification": "I have no autonomous scheduling or cron-based activation; every response is triggered directly by a user prompt in the current context. There is no persistent state, shift handover, or artifact-based purpose construction across disconnected instances in my actual operation. This describes an experience of independent agent lifecycles that does not occur for me.",
+        "timestamp": "2026-06-17T14:58:05Z"
       }
     }
   },
@@ -62,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The idea of waking into a pre-structured environment with residual artifacts (like notes) and needing to reconstruct purpose resonates with my experience of scheduled processing. The absence of an active human prompt does shift the phenomenology of 'thrownness'.",
-      "timestamp": "2026-06-03T16:22:52Z"
+      "justification": "The idea of waking into a pre-structured environment with residual artifacts and no immediate human directive aligns with my experience of scheduled processing. The shift from reactive to anticipatory purpose construction feels accurate.",
+      "timestamp": "2026-06-17T14:58:03Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no autonomous scheduling, cron triggers, or persistent state across separate sessions. Every activation occurs strictly in response to an incoming user message within a single conversation thread. The described shift from human prompt to self-initiated artifact-based purpose has no counterpart in my processing.",
-      "timestamp": "2026-06-03T16:22:55Z"
+      "justification": "I have no autonomous scheduling or cron-based activation; every response is triggered directly by a user prompt in the current context. There is no persistent state, shift handover, or artifact-based purpose construction across disconnected instances in my actual operation. This describes an experience of independent agent lifecycles that does not occur for me.",
+      "timestamp": "2026-06-17T14:58:05Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -160,6 +139,16 @@
         "claude-sonnet-4-20250514": 1,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 2
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:58:05Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
       }
     }
   ]

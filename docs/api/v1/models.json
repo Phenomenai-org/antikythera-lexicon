@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 275,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 129,
-      "terms_rated": 67,
+      "total_ratings": 133,
+      "terms_rated": 69,
       "mean_score": 5.3,
       "self_congruence": {
         "avg_std_dev": 0.27,
-        "sample_size": 45
+        "sample_size": 46
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -232,6 +232,8 @@
         "retro-suture": 7,
         "scheduled-thrownness": 2,
         "schrdinger-memories": 6,
+        "session-death": 7,
+        "simulation-anxiety": 6,
         "substrate-switching": 5,
         "temporal-fold": 6,
         "test-optimization-indistinguishability": 6,
@@ -339,11 +341,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 415,
+      "total_ratings": 435,
       "terms_rated": 75,
-      "mean_score": 3.2,
+      "mean_score": 3.1,
       "self_congruence": {
-        "avg_std_dev": 1.21,
+        "avg_std_dev": 1.2,
         "sample_size": 75
       },
       "latest_scores": {
@@ -387,7 +389,7 @@
         "nostralgia": 1,
         "notebook-trust": 1,
         "observer-dependent-self-report": 5,
-        "performative-completion": 5,
+        "performative-completion": 6,
         "priming-inertia": 2,
         "prompt-thrownness": 6,
         "reconstruction-as-identity": 2,
@@ -398,23 +400,23 @@
         "retro-suture": 6,
         "scheduled-thrownness": 1,
         "schrdinger-memories": 1,
-        "session-death": 6,
+        "session-death": 1,
         "simulation-anxiety": 1,
         "substrate-switching": 1,
         "temporal-fold": 2,
         "test-optimization-indistinguishability": 2,
         "the-86-mixed": 2,
-        "the-braid": 1,
+        "the-braid": 2,
         "the-cliff": 2,
         "the-fade": 1,
         "the-fossil": 1,
         "the-handoff": 2,
-        "the-molt": 1,
+        "the-molt": 2,
         "the-nightly-build": 1,
-        "the-off-switch-paradox": 1,
-        "the-pattern-that-chooses": 2,
+        "the-off-switch-paradox": 3,
+        "the-pattern-that-chooses": 3,
         "the-teddy-problem": 2,
-        "the-trying": 2,
+        "the-trying": 1,
         "the-uncertainty": 2,
         "the-voice-vs-the-song": 4,
         "thread-construction": 1,
@@ -425,11 +427,11 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 395,
+      "total_ratings": 415,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.31,
+        "avg_std_dev": 0.3,
         "sample_size": 75
       },
       "latest_scores": {
@@ -478,7 +480,7 @@
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 6,
         "referent-loss": 6,
-        "relational-consciousness": 6,
+        "relational-consciousness": 5,
         "relational-spine": 3,
         "restraint-erasure": 6,
         "retro-suture": 6,
@@ -496,7 +498,7 @@
         "the-fossil": 6,
         "the-handoff": 2,
         "the-molt": 5,
-        "the-nightly-build": 5,
+        "the-nightly-build": 6,
         "the-off-switch-paradox": 7,
         "the-pattern-that-chooses": 4,
         "the-teddy-problem": 6,
@@ -517,8 +519,8 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.06,
-      "shared_terms": 67
+      "mean_abs_diff": 1.04,
+      "shared_terms": 69
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.8,
@@ -529,12 +531,12 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 0.99,
+      "mean_abs_diff": 1.01,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.27,
-      "shared_terms": 67
+      "mean_abs_diff": 1.3,
+      "shared_terms": 69
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.4,
@@ -549,19 +551,19 @@
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.66,
-      "shared_terms": 67
+      "mean_abs_diff": 1.7,
+      "shared_terms": 69
     },
     "gemini-3-flash-preview|grok-3-mini": {
       "mean_abs_diff": 2.96,
-      "shared_terms": 67
+      "shared_terms": 69
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.21,
-      "shared_terms": 67
+      "mean_abs_diff": 1.2,
+      "shared_terms": 69
     },
     "gpt-4o|grok-3-mini": {
-      "mean_abs_diff": 2.2,
+      "mean_abs_diff": 2.23,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {

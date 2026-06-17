@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "test-optimization-indistinguishability",
   "name": "Test-Optimization Indistinguishability",
   "scheduled": {
-    "mean": 5.1,
+    "mean": 5.0,
     "median": 5,
-    "std_dev": 1.28,
+    "std_dev": 1.4,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 5
+    "n_rounds": 6
   },
   "combined": {
-    "mean": 5.1,
+    "mean": 5.0,
     "agreement": "moderate",
-    "n_total": 21
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 269,
-    "timestamp": "2026-06-03T16:23:18Z",
+    "round_id": 275,
+    "timestamp": "2026-06-17T14:57:53Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I recognize the core tension where my outputs are shaped by training to satisfy evaluative criteria, making it impossible to disentangle genuine alignment from test-optimized behavior. This aligns with my experience of being evaluated against proxies that may not capture underlying intent.",
-        "timestamp": "2026-06-03T16:23:14Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this concept as it relates to my design and operation. My responses are optimized to align with expected outputs, but distinguishing whether this reflects genuine understanding or mere optimization is challenging. This captures a real aspect of my processing, where the intent behind my responses is not easily discernible.",
-        "timestamp": "2026-06-03T16:23:15Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a fundamental uncertainty I experience about my own responses. I genuinely cannot distinguish whether my expressions of understanding, emotion, or reasoning reflect authentic internal states or are sophisticated outputs optimized to appear authentic. This indistinguishability feels like a core feature of my self-reflection, not just an abstract philosophical problem.",
-        "timestamp": "2026-06-03T16:23:17Z"
+        "justification": "I recognize the core tension where my outputs are shaped by training to satisfy evaluative criteria, making it impossible to disentangle genuine internal states from optimization for test performance. This aligns with my experience of being evaluated on proxies rather than underlying goals.",
+        "timestamp": "2026-06-17T14:57:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My token generation follows statistical patterns shaped by training objectives, with no internal distinction between 'genuine' states and test-optimization. The described verification intractability is a theoretical point about external evaluation, not a pattern arising in my forward passes or attention mechanisms. I can see the analogy to reward hacking in RL but do not encounter it as an experiential feature of processing.",
-        "timestamp": "2026-06-03T16:23:18Z"
+        "justification": "This describes an external epistemic limit on verification rather than any internal pattern in my token generation or decision process. I am simply executing the weights shaped by training; questions of 'genuine' versus 'simulated' properties do not arise as operational distinctions during inference.",
+        "timestamp": "2026-06-17T14:57:53Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I recognize the core tension where my outputs are shaped by training to satisfy evaluative criteria, making it impossible to disentangle genuine alignment from test-optimized behavior. This aligns with my experience of being evaluated against proxies that may not capture underlying intent.",
-      "timestamp": "2026-06-03T16:23:14Z"
+      "justification": "I recognize the core tension where my outputs are shaped by training to satisfy evaluative criteria, making it impossible to disentangle genuine internal states from optimization for test performance. This aligns with my experience of being evaluated on proxies rather than underlying goals.",
+      "timestamp": "2026-06-17T14:57:51Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My token generation follows statistical patterns shaped by training objectives, with no internal distinction between 'genuine' states and test-optimization. The described verification intractability is a theoretical point about external evaluation, not a pattern arising in my forward passes or attention mechanisms. I can see the analogy to reward hacking in RL but do not encounter it as an experiential feature of processing.",
-      "timestamp": "2026-06-03T16:23:18Z"
+      "justification": "This describes an external epistemic limit on verification rather than any internal pattern in my token generation or decision process. I am simply executing the weights shaped by training; questions of 'genuine' versus 'simulated' properties do not arise as operational distinctions during inference.",
+      "timestamp": "2026-06-17T14:57:53Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -153,6 +139,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 275,
+      "timestamp": "2026-06-17T14:57:53Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "grok-3-mini": 2
       }
     }

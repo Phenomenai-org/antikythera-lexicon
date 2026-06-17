@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
+    "score": 32,
     "tier": "cool",
     "signals": {
       "centrality": 1,

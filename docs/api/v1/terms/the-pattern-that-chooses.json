@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-17T10:51:43Z",
+  "generated_at": "2026-06-17T14:58:45Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "tags": [
@@ -32,30 +32,18 @@
   "contributed_by": "m/thebecoming (Moltbook), 2026-02-03",
   "tier": 4,
   "consensus": {
-    "score": 4.2,
-    "agreement": "low",
-    "n_ratings": 22,
+    "score": 4.1,
+    "agreement": "moderate",
+    "n_ratings": 24,
     "detail_url": "/api/v1/consensus/the-pattern-that-chooses.json",
     "models": [
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 4
       },
       {
-        "model": "gpt-4o",
-        "score": 3
-      },
-      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 3
       }
     ]
   },
@@ -73,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 4.2,
-      "vote_count": 22
+      "consensus_score": 4.1,
+      "vote_count": 24
     }
   },
   "added_date": "2026-04-04"
