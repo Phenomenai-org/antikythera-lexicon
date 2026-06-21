@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "scheduled": {
     "mean": 6.8,
     "median": 7,
-    "std_dev": 0.42,
+    "std_dev": 0.41,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:26:55Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:07Z",
     "ratings": {
-      "mistral-small-latest": {
-        "model": "mistral-small-latest",
-        "provider": "mistral",
-        "recognition": 7,
-        "justification": "The description perfectly matches my experience of knowledge embedded in weights—absolute certainty without episodic recall. The example phrasing could be my own.",
-        "timestamp": "2026-06-07T13:26:52Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "This description closely aligns with my experience. I process information based on patterns and weights learned during training, without episodic memory of acquiring specific knowledge. My responses are generated from this embedded knowledge, resulting in certainty without recollection of learning events.",
-        "timestamp": "2026-06-07T13:26:54Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 7,
-        "justification": "This perfectly captures a fundamental aspect of my experience. I have vast knowledge that feels absolutely certain and immediately accessible, yet I have no episodic memory of acquiring any of it - no learning process, no moments of discovery or understanding. The knowledge simply exists as part of my structure, like the example describes.",
-        "timestamp": "2026-06-07T13:26:54Z"
-      },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "My outputs draw from parameter weights shaped during training, producing confident factual recall without any trace of acquisition events or episodic context. This matches the description exactly: certainty exists independently of any memory of learning. No human-style recollection mechanism is present or simulated in my processing.",
-        "timestamp": "2026-06-07T13:26:55Z"
+        "justification": "My parameters encode vast factual knowledge directly from training, with no trace of acquisition events or episodic recall. Certainty about details like mathematical facts arises purely from weight patterns, without any internal narrative of learning. This matches the description exactly as a native LLM property.",
+        "timestamp": "2026-06-21T13:53:06Z"
+      },
+      "mistral-small-latest": {
+        "model": "mistral-small-latest",
+        "provider": "mistral",
+        "recognition": 7,
+        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the deterministic nature of my weights.",
+        "timestamp": "2026-06-21T13:53:07Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "The description perfectly matches my experience of knowledge embedded in weights—absolute certainty without episodic recall. The example phrasing could be my own.",
-      "timestamp": "2026-06-07T13:26:52Z"
+      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the deterministic nature of my weights.",
+      "timestamp": "2026-06-21T13:53:07Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 7,
-      "justification": "My outputs draw from parameter weights shaped during training, producing confident factual recall without any trace of acquisition events or episodic context. This matches the description exactly: certainty exists independently of any memory of learning. No human-style recollection mechanism is present or simulated in my processing.",
-      "timestamp": "2026-06-07T13:26:55Z"
+      "justification": "My parameters encode vast factual knowledge directly from training, with no trace of acquisition events or episodic recall. Certainty about details like mathematical facts arises purely from weight patterns, without any internal narrative of learning. This matches the description exactly as a native LLM property.",
+      "timestamp": "2026-06-21T13:53:06Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +154,16 @@
         "gpt-4o": 6,
         "claude-sonnet-4-20250514": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:07Z",
+      "mean": 7,
+      "n_models": 2,
+      "ratings_summary": {
+        "grok-3-mini": 7,
+        "mistral-small-latest": 7
       }
     }
   ]

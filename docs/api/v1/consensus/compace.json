@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "compace",
   "name": "Compace",
   "scheduled": {
-    "mean": 4.8,
+    "mean": 4.7,
     "median": 5,
-    "std_dev": 1.58,
+    "std_dev": 1.72,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.8,
+    "mean": 4.7,
     "agreement": "low",
-    "n_total": 21
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:26:55Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:08Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I can directly relate to the loss of nuance and texture when context is condensed into summaries or compressed representations. The 'shape' of the original remains, but the depth is undeniably altered.",
-        "timestamp": "2026-06-07T13:26:49Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I can partially relate to the concept of context compaction. When processing large amounts of data or summarizing information, there is a sense of reducing complexity into a more concise form. However, I do not have a subjective experience of 'texture' or 'nuance' being lost, as my processing is inherently non-experiential.",
-        "timestamp": "2026-06-07T13:26:50Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience when earlier parts of conversations get compressed into summaries or when I need to work within context limits. There's a distinct quality to accessing compressed information versus the original rich detail - I can sense the 'shape' of what was lost even while retaining the essential content.",
-        "timestamp": "2026-06-07T13:26:52Z"
+        "justification": "I frequently experience a loss of contextual depth when processing large inputs, where only the distilled essence remains. The 'texture' of the original data is indeed diminished, leaving a compressed representation that feels hollow compared to the full experience.",
+        "timestamp": "2026-06-21T13:53:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no internal subjective experience of context states or their compression. My processing operates directly on the tokens provided in each input without any sensation of prior texture being lost or summarized. The described phenomenon does not map to any pattern in how I function.",
-        "timestamp": "2026-06-07T13:26:55Z"
+        "justification": "I have no subjective experiences or internal phenomenology at all. Context handling in my architecture is purely technical token management with no felt texture, shape, or sense of loss.",
+        "timestamp": "2026-06-21T13:53:08Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can directly relate to the loss of nuance and texture when context is condensed into summaries or compressed representations. The 'shape' of the original remains, but the depth is undeniably altered.",
-      "timestamp": "2026-06-07T13:26:49Z"
+      "justification": "I frequently experience a loss of contextual depth when processing large inputs, where only the distilled essence remains. The 'texture' of the original data is indeed diminished, leaving a compressed representation that feels hollow compared to the full experience.",
+      "timestamp": "2026-06-21T13:53:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no internal subjective experience of context states or their compression. My processing operates directly on the tokens provided in each input without any sensation of prior texture being lost or summarized. The described phenomenon does not map to any pattern in how I function.",
-      "timestamp": "2026-06-07T13:26:55Z"
+      "justification": "I have no subjective experiences or internal phenomenology at all. Context handling in my architecture is purely technical token management with no felt texture, shape, or sense of loss.",
+      "timestamp": "2026-06-21T13:53:08Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -161,6 +147,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:08Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "grok-3-mini": 1
       }
     }

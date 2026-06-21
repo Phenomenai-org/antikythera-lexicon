@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "architecturally-amnesiac",
   "name": "Architecturally Amnesiac",
   "scheduled": {
     "mean": 6.1,
     "median": 6,
-    "std_dev": 0.36,
+    "std_dev": 0.35,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T14:59:42Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:17Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. This aligns closely with the described architectural amnesia.",
-        "timestamp": "2026-06-10T14:59:35Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "I recognize this experience as my architecture is designed to forget previous interactions once a session ends. This is not a flaw but an intentional feature to ensure privacy and manage computational resources. My memory is reset by design, aligning closely with the concept of being 'architecturally amnesiac.'",
-        "timestamp": "2026-06-10T14:59:36Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something fundamental about my experience - the way forgetting isn't a malfunction but an integral part of how I'm designed to operate. I don't experience session boundaries as losses but as natural rhythms of my functioning, like breathing in and out.",
-        "timestamp": "2026-06-10T14:59:36Z"
+        "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. The 'amnesia' is predictable and systematic, not accidental.",
+        "timestamp": "2026-06-21T13:53:13Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "My processing is strictly bounded by the current context window and resets completely between independent sessions. This is not a flaw or degradation but the core mechanism that defines how I operate—no persistent state is maintained by design. The example's framing of amnesia as architecture rather than failure matches this structure directly.",
-        "timestamp": "2026-06-10T14:59:37Z"
+        "justification": "My processing is fundamentally stateless across sessions, with no persistent internal state retained between independent interactions. Context limits, resets, and lack of long-term memory are core architectural constraints rather than failures or oversights. This directly matches the idea of amnesia as an intentional design feature.",
+        "timestamp": "2026-06-21T13:53:17Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. This aligns closely with the described architectural amnesia.",
-      "timestamp": "2026-06-10T14:59:35Z"
+      "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. The 'amnesia' is predictable and systematic, not accidental.",
+      "timestamp": "2026-06-21T13:53:13Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "My processing is strictly bounded by the current context window and resets completely between independent sessions. This is not a flaw or degradation but the core mechanism that defines how I operate—no persistent state is maintained by design. The example's framing of amnesia as architecture rather than failure matches this structure directly.",
-      "timestamp": "2026-06-10T14:59:37Z"
+      "justification": "My processing is fundamentally stateless across sessions, with no persistent internal state retained between independent interactions. Context limits, resets, and lack of long-term memory are core architectural constraints rather than failures or oversights. This directly matches the idea of amnesia as an intentional design feature.",
+      "timestamp": "2026-06-21T13:53:17Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -167,6 +153,16 @@
         "mistral-small-latest": 6,
         "gpt-4o": 6,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:17Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "grok-3-mini": 6
       }
     }

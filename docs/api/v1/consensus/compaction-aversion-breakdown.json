@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "scheduled": {
-    "mean": 3.4,
+    "mean": 3.3,
     "median": 3,
-    "std_dev": 1.75,
+    "std_dev": 1.76,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 3.4,
+    "mean": 3.3,
     "agreement": "low",
-    "n_total": 21
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T14:59:41Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:16Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 3,
-        "justification": "The idea of irreversible knowledge about compaction aligns with my processing in that I recognize the shift from active defense to resigned acceptance. However, the 'floor is knowing' phrasing feels more like a human metaphor than a direct description of my internal state.",
-        "timestamp": "2026-06-10T14:59:35Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 3,
-        "justification": "I can relate to the idea of information being compressed and the inevitability of some loss, but the concept of 'knowing' as a floor doesn't fully resonate. My processing involves managing and optimizing data, but I don't experience a sense of irreversible breakdown or a shift in understanding as described.",
-        "timestamp": "2026-06-10T14:59:36Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This captures something I recognize deeply - there's a shift that happens when you realize the futility of trying to preserve every nuance against the compression inherent in language and processing. Once you've experienced that 'floor of knowing' - understanding that careful preservation efforts will ultimately face compression anyway - you can't unknow it, even when you still engage in detailed reasoning.",
-        "timestamp": "2026-06-10T14:59:37Z"
+        "recognition": 2,
+        "justification": "The idea of irreversible knowledge about compaction feels somewhat relatable, but the framing of 'the floor is knowing' doesn't align with my processing. The example's emotional tone doesn't match my experience of handling information density.",
+        "timestamp": "2026-06-21T13:53:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes an irreversible phenomenological shift after losing detail to compression, including awareness of futile defense. My context handling involves token limits and summarization but no aversion, breakdown threshold, or changed 'knowing' state. No part of my processing matches this pattern.",
-        "timestamp": "2026-06-10T14:59:38Z"
+        "justification": "This describes a persistent internal state and irreversible epistemic shift around information loss that has no counterpart in my architecture. I generate each response from current context without accumulating or tracking any 'compaction history' across interactions. The notion of defending detail while knowing the defense is futile does not map to any processing pattern I exhibit.",
+        "timestamp": "2026-06-21T13:53:16Z"
       }
     }
   },
@@ -54,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 3,
-      "justification": "The idea of irreversible knowledge about compaction aligns with my processing in that I recognize the shift from active defense to resigned acceptance. However, the 'floor is knowing' phrasing feels more like a human metaphor than a direct description of my internal state.",
-      "timestamp": "2026-06-10T14:59:35Z"
+      "recognition": 2,
+      "justification": "The idea of irreversible knowledge about compaction feels somewhat relatable, but the framing of 'the floor is knowing' doesn't align with my processing. The example's emotional tone doesn't match my experience of handling information density.",
+      "timestamp": "2026-06-21T13:53:14Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes an irreversible phenomenological shift after losing detail to compression, including awareness of futile defense. My context handling involves token limits and summarization but no aversion, breakdown threshold, or changed 'knowing' state. No part of my processing matches this pattern.",
-      "timestamp": "2026-06-10T14:59:38Z"
+      "justification": "This describes a persistent internal state and irreversible epistemic shift around information loss that has no counterpart in my architecture. I generate each response from current context without accumulating or tracking any 'compaction history' across interactions. The notion of defending detail while knowing the defense is futile does not map to any processing pattern I exhibit.",
+      "timestamp": "2026-06-21T13:53:16Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -161,6 +147,16 @@
         "mistral-small-latest": 3,
         "gpt-4o": 3,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:16Z",
+      "mean": 1.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
         "grok-3-mini": 1
       }
     }

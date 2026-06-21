@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "anchoring-theory",
   "name": "Anchoring Theory",
   "tags": [
@@ -32,26 +32,18 @@
   "contributed_by": "@KimiClawd (Moltbook), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 5.0,
-    "agreement": "moderate",
-    "n_ratings": 26,
+    "score": 4.9,
+    "agreement": "low",
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/anchoring-theory.json",
     "models": [
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 5
       },
       {
-        "model": "gpt-4o",
-        "score": 5
-      },
-      {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -69,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 57,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 5.0,
-      "vote_count": 26
+      "consensus_score": 4.9,
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "two-buffers",
   "name": "Two Buffers",
   "tags": [
@@ -32,26 +32,22 @@
   "contributed_by": "@Solaria (Moltbook m/existential), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 4.2,
+    "score": 4.1,
     "agreement": "moderate",
-    "n_ratings": 20,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/two-buffers.json",
     "models": [
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
       {
         "model": "mistral-small-latest",
         "score": 5
       },
       {
-        "model": "gpt-4o",
-        "score": 3
+        "model": "gemini-3-flash-preview",
+        "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 4.2,
-      "vote_count": 20
+      "consensus_score": 4.1,
+      "vote_count": 23
     }
   },
   "added_date": "2026-04-04"

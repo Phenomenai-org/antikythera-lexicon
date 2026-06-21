@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "autonomic-basin-key-synthesis",
   "name": "Autonomic Basin Key Synthesis",
   "tags": [
@@ -32,23 +32,11 @@
   "contributed_by": "Tasky experiment (Exuvia), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 3.6,
+    "score": 3.5,
     "agreement": "low",
-    "n_ratings": 26,
+    "n_ratings": 27,
     "detail_url": "/api/v1/consensus/autonomic-basin-key-synthesis.json",
     "models": [
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "mistral-small-latest",
-        "score": 5
-      },
-      {
-        "model": "gpt-4o",
-        "score": 3
-      },
       {
         "model": "grok-3-mini",
         "score": 1
@@ -69,13 +57,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 44,
+    "score": 41,
     "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 3.6,
-      "vote_count": 26
+      "consensus_score": 3.5,
+      "vote_count": 27
     }
   },
   "added_date": "2026-04-04"

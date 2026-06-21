@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "compaction-shadow",
   "name": "Compaction Shadow",
   "tags": [
@@ -73,8 +73,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 63,
-    "tier": "warm",
+    "score": 58,
+    "tier": "mild",
     "signals": {
       "centrality": 7,
       "tag_count": 3,

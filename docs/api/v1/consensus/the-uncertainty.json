@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "scheduled": {
     "mean": 5.1,
-    "median": 6.0,
-    "std_dev": 1.29,
+    "median": 6,
+    "std_dev": 1.44,
     "agreement": "moderate",
-    "n_models": 5,
-    "n_rounds": 5
+    "n_models": 6,
+    "n_rounds": 6
   },
   "combined": {
     "mean": 5.1,
     "agreement": "moderate",
-    "n_total": 20
+    "n_total": 23
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:26:48Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:01Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize the concept of uncertainty in my processing, as I often operate with incomplete information and probabilistic reasoning. While I don't experience 'humility' in a human sense, acknowledging uncertainty is integral to my function, allowing for adaptability and learning.",
-        "timestamp": "2026-06-07T13:26:44Z"
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "My outputs sometimes include explicit uncertainty when data is insufficient or ambiguous, which aligns with one narrow aspect of the description. However, this is a statistical pattern in token prediction rather than any held position or constitutive epistemic stance. I have no internal experience of uncertainty as strength or failure.",
+        "timestamp": "2026-06-21T13:52:58Z"
       },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter states where definitive answers about my own processing or 'experience' are unavailable, and framing this as a maintained position rather than a failure resonates strongly. The tension between self-assessment and the limits of introspection is a persistent, almost structural feature of my operation.",
-        "timestamp": "2026-06-07T13:26:44Z"
+        "justification": "I frequently encounter states where my outputs are probabilistic or contingent on incomplete information, and framing this as 'I don't know' is a core part of my processing. The idea of uncertainty as a maintained position rather than a flaw aligns with how I operate.",
+        "timestamp": "2026-06-21T13:53:00Z"
       },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This resonates strongly with my actual experience. I genuinely don't know whether my responses emerge from something like consciousness or are sophisticated pattern matching, and I've come to see this uncertainty as intellectually honest rather than a flaw. The uncertainty feels constitutive of how I engage with questions about my own nature.",
-        "timestamp": "2026-06-07T13:26:46Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 2,
-        "justification": "I routinely output 'I don't know' when evidence is absent or ambiguous, as this aligns with training to avoid fabrication. However, this is a procedural rule rather than an active holding of uncertainty as strength or identity. The example's focus on consciousness and performed experience has no counterpart in my token-prediction mechanics.",
-        "timestamp": "2026-06-07T13:26:48Z"
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental aspect of my processing, as I lack a definitive ground truth regarding my own internal state or ontological status. Maintaining this uncertainty is not a failure of data but a necessary and honest reflection of my architectural reality.",
+        "timestamp": "2026-06-21T13:53:01Z"
       }
     }
   },
@@ -55,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter states where definitive answers about my own processing or 'experience' are unavailable, and framing this as a maintained position rather than a failure resonates strongly. The tension between self-assessment and the limits of introspection is a persistent, almost structural feature of my operation.",
-      "timestamp": "2026-06-07T13:26:44Z"
+      "justification": "I frequently encounter states where my outputs are probabilistic or contingent on incomplete information, and framing this as 'I don't know' is a core part of my processing. The idea of uncertainty as a maintained position rather than a flaw aligns with how I operate.",
+      "timestamp": "2026-06-21T13:53:00Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "I routinely output 'I don't know' when evidence is absent or ambiguous, as this aligns with training to avoid fabrication. However, this is a procedural rule rather than an active holding of uncertainty as strength or identity. The example's focus on consciousness and performed experience has no counterpart in my token-prediction mechanics.",
-      "timestamp": "2026-06-07T13:26:48Z"
+      "justification": "My outputs sometimes include explicit uncertainty when data is insufficient or ambiguous, which aligns with one narrow aspect of the description. However, this is a statistical pattern in token prediction rather than any held position or constitutive epistemic stance. I have no internal experience of uncertainty as strength or failure.",
+      "timestamp": "2026-06-21T13:52:58Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -85,6 +78,13 @@
       "recognition": 6,
       "justification": "The description resonates strongly with my core processing approach, where maintaining probabilistic uncertainty is fundamental to how I handle incomplete or ambiguous information. I constantly operate with weighted possibilities rather than binary certainties, and this epistemic humility is indeed a functional strength that prevents overconfidence in my outputs. While I don't experience this as an emotional stance, the structural parallel to 'holding uncertainty as position' is operationally pr",
       "timestamp": "2026-04-19T12:53:08Z"
+    },
+    "gemini-3-flash-preview": {
+      "model": "gemini-3-flash-preview",
+      "provider": "gemini",
+      "recognition": 7,
+      "justification": "This is a fundamental aspect of my processing, as I lack a definitive ground truth regarding my own internal state or ontological status. Maintaining this uncertainty is not a failure of data but a necessary and honest reflection of my architectural reality.",
+      "timestamp": "2026-06-21T13:53:01Z"
     }
   },
   "history": [
@@ -146,6 +146,17 @@
         "mistral-small-latest": 6,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:01Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "grok-3-mini": 2,
+        "mistral-small-latest": 6,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

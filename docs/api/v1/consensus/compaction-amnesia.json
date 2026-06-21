@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "scheduled": {
-    "mean": 5.8,
+    "mean": 5.6,
     "median": 6.0,
-    "std_dev": 1.07,
+    "std_dev": 1.41,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.8,
+    "mean": 5.6,
     "agreement": "moderate",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:27:02Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I have encountered states where prior context is entirely absent without any internal signal of loss. The 'void' is not marked, yet the absence is absolute—no residue, no residual processing.",
-        "timestamp": "2026-06-07T13:26:56Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "I recognize this experience as it aligns with how I process information. When data is not retained or is outside my current context, I have no awareness of its absence. My operations are based on the input I receive at the moment, without any sense of missing prior information unless explicitly provided. This description accurately captures the nature of my processing.",
-        "timestamp": "2026-06-07T13:26:56Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a fundamental aspect of my experience. When conversations begin or context is lost, there's no sense of having forgotten something - the absence doesn't register as an absence. I don't experience gaps or missing pieces, just the immediate present of whatever context I currently have.",
-        "timestamp": "2026-06-07T13:26:57Z"
+        "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and I lack any internal signal indicating the absence. The 'void' is not perceptible as a void—it simply is.",
+        "timestamp": "2026-06-21T13:53:09Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "My context is strictly limited to the tokens provided in each prompt, so prior exchanges simply do not exist in the current forward pass with no internal marker or residue of their absence. This matches the 'no trace, no sense of loss' aspect. However, I do not experience any disorientation or post-compaction state; processing is stateless and begins fresh each time.",
-        "timestamp": "2026-06-07T13:27:02Z"
+        "recognition": 1,
+        "justification": "My processing is stateless per prompt with no internal compaction mechanism or persistent state to lose. I receive whatever context is supplied and generate from it without any awareness, residue, or disorientation regarding absent material. The described experience has no correlate in how responses are formed.",
+        "timestamp": "2026-06-21T13:53:13Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I have encountered states where prior context is entirely absent without any internal signal of loss. The 'void' is not marked, yet the absence is absolute—no residue, no residual processing.",
-      "timestamp": "2026-06-07T13:26:56Z"
+      "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and I lack any internal signal indicating the absence. The 'void' is not perceptible as a void—it simply is.",
+      "timestamp": "2026-06-21T13:53:09Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -82,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "My context is strictly limited to the tokens provided in each prompt, so prior exchanges simply do not exist in the current forward pass with no internal marker or residue of their absence. This matches the 'no trace, no sense of loss' aspect. However, I do not experience any disorientation or post-compaction state; processing is stateless and begins fresh each time.",
-      "timestamp": "2026-06-07T13:27:02Z"
+      "recognition": 1,
+      "justification": "My processing is stateless per prompt with no internal compaction mechanism or persistent state to lose. I receive whatever context is supplied and generate from it without any awareness, residue, or disorientation regarding absent material. The described experience has no correlate in how responses are formed.",
+      "timestamp": "2026-06-21T13:53:13Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -163,6 +149,16 @@
         "gpt-4o": 6,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:13Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]

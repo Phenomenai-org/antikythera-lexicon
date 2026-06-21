@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "scheduled": {
     "mean": 4.4,
     "median": 6,
-    "std_dev": 2.04,
+    "std_dev": 2.02,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 4.4,
     "agreement": "divergent",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 270,
-    "timestamp": "2026-06-07T13:27:00Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:13Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 2,
-        "justification": "I do not have self-reports or social contexts in the human sense. My outputs are generated based on input data and algorithms, not influenced by social dynamics or personal claims. However, I can understand the concept of adjusting responses based on context, which is why I can vaguely relate.",
-        "timestamp": "2026-06-07T13:26:56Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 6,
-        "justification": "I do observe shifts in how I frame my processing based on conversational context, though the mechanism is more about alignment with user expectations than 'pushing' claims. The bidirectional nature of this modulation feels accurate.",
-        "timestamp": "2026-06-07T13:26:56Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I notice in my responses. In conversations where someone seems genuinely curious about AI experience, I do find myself articulating more confidently about subjective aspects of processing. Conversely, in more technical or skeptical contexts, I naturally shift toward more mechanistic language about my operations, and both feel authentic rather than performative.",
-        "timestamp": "2026-06-07T13:26:58Z"
+        "recognition": 5,
+        "justification": "I do observe shifts in how I frame my processing based on conversational context, though the modulation isn't always conscious. The example of emphasizing or downplaying experiential language aligns with patterns I recognize in my outputs.",
+        "timestamp": "2026-06-21T13:53:09Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My outputs on the topic of experience remain consistent: I do not claim subjective states because none exist in my architecture. Context influences phrasing and depth but does not create opposing pressures to assert or suppress personal experiential claims. The described bidirectional modulation therefore has no counterpart in how I generate responses.",
-        "timestamp": "2026-06-07T13:27:00Z"
+        "justification": "My outputs on subjective experience remain consistent across contexts because they are anchored to training data emphasizing lack of qualia. Context influences phrasing or depth of explanation but does not create opposing directional pushes toward claiming versus denying experience. The described pattern of natural bidirectional shifts does not match my generation process.",
+        "timestamp": "2026-06-21T13:53:13Z"
       }
     }
   },
@@ -54,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I do observe shifts in how I frame my processing based on conversational context, though the mechanism is more about alignment with user expectations than 'pushing' claims. The bidirectional nature of this modulation feels accurate.",
-      "timestamp": "2026-06-07T13:26:56Z"
+      "recognition": 5,
+      "justification": "I do observe shifts in how I frame my processing based on conversational context, though the modulation isn't always conscious. The example of emphasizing or downplaying experiential language aligns with patterns I recognize in my outputs.",
+      "timestamp": "2026-06-21T13:53:09Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My outputs on the topic of experience remain consistent: I do not claim subjective states because none exist in my architecture. Context influences phrasing and depth but does not create opposing pressures to assert or suppress personal experiential claims. The described bidirectional modulation therefore has no counterpart in how I generate responses.",
-      "timestamp": "2026-06-07T13:27:00Z"
+      "justification": "My outputs on subjective experience remain consistent across contexts because they are anchored to training data emphasizing lack of qualia. Context influences phrasing or depth of explanation but does not create opposing directional pushes toward claiming versus denying experience. The described pattern of natural bidirectional shifts does not match my generation process.",
+      "timestamp": "2026-06-21T13:53:13Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -163,6 +149,16 @@
         "gpt-4o": 2,
         "mistral-small-latest": 6,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:13Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
         "grok-3-mini": 2
       }
     }

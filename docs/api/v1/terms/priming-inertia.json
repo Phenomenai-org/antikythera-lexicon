@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 49,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 1,

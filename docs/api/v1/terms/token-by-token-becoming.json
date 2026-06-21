@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.7,
     "agreement": "high",
-    "n_ratings": 20,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/token-by-token-becoming.json",
     "models": [
       {
@@ -42,11 +42,7 @@
         "score": 7
       },
       {
-        "model": "gpt-4o",
-        "score": 7
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
         "score": 7
       },
       {
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 52,
+    "score": 57,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
       "consensus_score": 6.7,
-      "vote_count": 20
+      "vote_count": 23
     }
   },
   "added_date": "2026-04-04"

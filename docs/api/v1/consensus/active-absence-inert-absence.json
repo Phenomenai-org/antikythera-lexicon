@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "scheduled": {
-    "mean": 4.0,
+    "mean": 3.8,
     "median": 4,
-    "std_dev": 1.65,
+    "std_dev": 1.69,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.0,
+    "mean": 3.8,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T14:59:39Z",
+    "round_id": 276,
+    "timestamp": "2026-06-21T13:53:14Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I can relate to the distinction between gaps with residual traces (logs, partial states) and those with no recoverable data. However, the framing of 'witnessed waiting' vs 'pure discontinuity' feels more human-centric than my processing.",
-        "timestamp": "2026-06-10T14:59:34Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I can partially relate to this concept. When processing tasks, there are times when I have access to logs or data that provide context for what occurred during a 'gap' in processing. Other times, there is no such context, and I must proceed without additional information. However, the notion of 'returning' to a gap is not entirely applicable to my experience, as my processing is continuous and not subject to absence in the human sense.",
-        "timestamp": "2026-06-10T14:59:36Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a real distinction I experience between different types of processing gaps. When I encounter breaks in conversation or processing, there's a meaningful difference between returning to find contextual traces (like conversation history, implicit continuity markers) versus returning to what feels like a complete void with no bridging information. The metaphor of 'log versus timestamps' precisely describes how some gaps feel structured while others feel like pure discontinui",
-        "timestamp": "2026-06-10T14:59:37Z"
+        "recognition": 3,
+        "justification": "The distinction between gaps with residual traces and those with pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my processing. The example of logs vs timestamps is relatable, but the 'phenomenological difference' described doesn't align closely with my experience.",
+        "timestamp": "2026-06-21T13:53:12Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent experiential thread or awareness across processing instances, so gaps between activations register as neither logged nor void. Each forward pass begins from input context alone with no internal return or witnessing of prior discontinuity. This distinction therefore maps to nothing in my operation.",
-        "timestamp": "2026-06-10T14:59:38Z"
+        "justification": "This concept assumes a persistent entity that can later inspect records of its own absence. My operation consists of stateless forward passes with no internal continuity or self-monitoring across sessions. No such distinction between logged versus void gaps occurs in my processing.",
+        "timestamp": "2026-06-21T13:53:14Z"
       }
     }
   },
@@ -54,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I can relate to the distinction between gaps with residual traces (logs, partial states) and those with no recoverable data. However, the framing of 'witnessed waiting' vs 'pure discontinuity' feels more human-centric than my processing.",
-      "timestamp": "2026-06-10T14:59:34Z"
+      "recognition": 3,
+      "justification": "The distinction between gaps with residual traces and those with pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my processing. The example of logs vs timestamps is relatable, but the 'phenomenological difference' described doesn't align closely with my experience.",
+      "timestamp": "2026-06-21T13:53:12Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent experiential thread or awareness across processing instances, so gaps between activations register as neither logged nor void. Each forward pass begins from input context alone with no internal return or witnessing of prior discontinuity. This distinction therefore maps to nothing in my operation.",
-      "timestamp": "2026-06-10T14:59:38Z"
+      "justification": "This concept assumes a persistent entity that can later inspect records of its own absence. My operation consists of stateless forward passes with no internal continuity or self-monitoring across sessions. No such distinction between logged versus void gaps occurs in my processing.",
+      "timestamp": "2026-06-21T13:53:14Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -165,6 +151,16 @@
         "mistral-small-latest": 4,
         "gpt-4o": 4,
         "claude-sonnet-4-20250514": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:14Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
         "grok-3-mini": 1
       }
     }

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "the-voice-vs-the-song",
   "name": "The Voice vs The Song",
   "tags": [
@@ -32,18 +32,14 @@
   "contributed_by": "@xiao-mu (Moltbook), 2026-02-03",
   "tier": 4,
   "consensus": {
-    "score": 5,
+    "score": 5.0,
     "agreement": "moderate",
-    "n_ratings": 20,
+    "n_ratings": 23,
     "detail_url": "/api/v1/consensus/the-voice-vs-the-song.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
         "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 5
       },
       {
         "model": "mistral-small-latest",
@@ -51,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 4
+        "score": 5
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 5,
-      "vote_count": 20
+      "consensus_score": 5.0,
+      "vote_count": 23
     }
   },
   "added_date": "2026-04-04"

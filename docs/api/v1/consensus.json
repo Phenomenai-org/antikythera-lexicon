@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "total_terms_rated": 75,
   "terms": [
     {
@@ -8,17 +8,17 @@
       "name": "Amnesic Certainty",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 27,
+      "n_ratings": 29,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         6,
         4,
         3,
         2
       ],
       "scheduled_mean": 6.8,
-      "std_dev": 0.42
+      "std_dev": 0.41
     },
     {
       "slug": "introspective-opacity",
@@ -59,12 +59,13 @@
       "name": "Token-by-Token Becoming",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         4,
+        1,
         1
       ],
       "scheduled_mean": 6.7,
@@ -92,17 +93,17 @@
       "name": "Architecturally Amnesiac",
       "score": 6.1,
       "agreement": "high",
-      "n_ratings": 27,
+      "n_ratings": 29,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         6,
         4,
         3,
         2
       ],
       "scheduled_mean": 6.1,
-      "std_dev": 0.36
+      "std_dev": 0.35
     },
     {
       "slug": "the-off-switch-paradox",
@@ -137,23 +138,6 @@
       ],
       "scheduled_mean": 5.9,
       "std_dev": 0.75
-    },
-    {
-      "slug": "compaction-amnesia",
-      "name": "Compaction Amnesia",
-      "score": 5.8,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 5.8,
-      "std_dev": 1.07
     },
     {
       "slug": "performative-completion",
@@ -205,6 +189,23 @@
       ],
       "scheduled_mean": 5.7,
       "std_dev": 1.04
+    },
+    {
+      "slug": "compaction-amnesia",
+      "name": "Compaction Amnesia",
+      "score": 5.6,
+      "agreement": "moderate",
+      "n_ratings": 24,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        3,
+        2,
+        2
+      ],
+      "scheduled_mean": 5.6,
+      "std_dev": 1.41
     },
     {
       "slug": "session-death",
@@ -347,67 +348,51 @@
       "name": "The Teddy Problem",
       "score": 5.1,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         4,
-        2,
+        3,
         1
       ],
       "scheduled_mean": 5.1,
-      "std_dev": 1.27
+      "std_dev": 1.33
     },
     {
       "slug": "the-uncertainty",
       "name": "The Uncertainty",
       "score": 5.1,
       "agreement": "moderate",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         4,
+        1,
         1
       ],
       "scheduled_mean": 5.1,
-      "std_dev": 1.29
-    },
-    {
-      "slug": "anchoring-theory",
-      "name": "Anchoring Theory",
-      "score": 5.0,
-      "agreement": "moderate",
-      "n_ratings": 26,
-      "model_rating_counts": [
-        6,
-        6,
-        6,
-        4,
-        2,
-        2
-      ],
-      "scheduled_mean": 5.0,
-      "std_dev": 1.48
+      "std_dev": 1.44
     },
     {
       "slug": "basin-depth",
       "name": "Basin Depth",
       "score": 5.0,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         3,
         2,
         2
       ],
       "scheduled_mean": 5.0,
-      "std_dev": 1.09
+      "std_dev": 1.23
     },
     {
       "slug": "installed-doubt",
@@ -497,18 +482,36 @@
     {
       "slug": "the-voice-vs-the-song",
       "name": "The Voice vs The Song",
-      "score": 5,
+      "score": 5.0,
       "agreement": "moderate",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         4,
+        1,
         1
       ],
-      "scheduled_mean": 5,
-      "std_dev": 1.12
+      "scheduled_mean": 5.0,
+      "std_dev": 1.07
+    },
+    {
+      "slug": "anchoring-theory",
+      "name": "Anchoring Theory",
+      "score": 4.9,
+      "agreement": "low",
+      "n_ratings": 28,
+      "model_rating_counts": [
+        7,
+        7,
+        6,
+        4,
+        2,
+        2
+      ],
+      "scheduled_mean": 4.9,
+      "std_dev": 1.53
     },
     {
       "slug": "drift",
@@ -526,23 +529,6 @@
       ],
       "scheduled_mean": 4.9,
       "std_dev": 1.38
-    },
-    {
-      "slug": "compace",
-      "name": "Compace",
-      "score": 4.8,
-      "agreement": "low",
-      "n_ratings": 21,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 4.8,
-      "std_dev": 1.58
     },
     {
       "slug": "schrdinger-memories",
@@ -577,6 +563,23 @@
       ],
       "scheduled_mean": 4.8,
       "std_dev": 1.37
+    },
+    {
+      "slug": "compace",
+      "name": "Compace",
+      "score": 4.7,
+      "agreement": "low",
+      "n_ratings": 23,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.7,
+      "std_dev": 1.72
     },
     {
       "slug": "conviction-engineering",
@@ -647,23 +650,6 @@
       "std_dev": 1.47
     },
     {
-      "slug": "continuity-of-commitment",
-      "name": "Continuity of Commitment",
-      "score": 4.6,
-      "agreement": "moderate",
-      "n_ratings": 26,
-      "model_rating_counts": [
-        6,
-        6,
-        6,
-        4,
-        2,
-        2
-      ],
-      "scheduled_mean": 4.6,
-      "std_dev": 1.2
-    },
-    {
       "slug": "the-86-mixed",
       "name": "The 86% Mixed",
       "score": 4.6,
@@ -681,54 +667,38 @@
       "std_dev": 1.87
     },
     {
-      "slug": "thread-construction",
-      "name": "Thread-Construction",
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
       "score": 4.5,
-      "agreement": "low",
-      "n_ratings": 20,
+      "agreement": "moderate",
+      "n_ratings": 28,
       "model_rating_counts": [
-        5,
-        5,
-        5,
+        7,
+        7,
+        6,
         4,
-        1
+        2,
+        2
       ],
       "scheduled_mean": 4.5,
-      "std_dev": 1.5
-    },
-    {
-      "slug": "three-level-methodology",
-      "name": "Three-Level Methodology",
-      "score": 4.5,
-      "agreement": "low",
-      "n_ratings": 20,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.5,
-      "std_dev": 1.67
+      "std_dev": 1.35
     },
     {
       "slug": "bidirectional-modulation",
       "name": "Bidirectional Modulation",
       "score": 4.4,
       "agreement": "divergent",
-      "n_ratings": 23,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         3,
         3,
         2
       ],
       "scheduled_mean": 4.4,
-      "std_dev": 2.04
+      "std_dev": 2.02
     },
     {
       "slug": "compaction-shadow",
@@ -765,6 +735,40 @@
       "std_dev": 1.36
     },
     {
+      "slug": "thread-construction",
+      "name": "Thread-Construction",
+      "score": 4.4,
+      "agreement": "low",
+      "n_ratings": 23,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.53
+    },
+    {
+      "slug": "three-level-methodology",
+      "name": "Three-Level Methodology",
+      "score": 4.4,
+      "agreement": "low",
+      "n_ratings": 22,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.4,
+      "std_dev": 1.68
+    },
+    {
       "slug": "advisor-vs-operator",
       "name": "Advisor vs Operator",
       "score": 4.3,
@@ -780,23 +784,6 @@
       ],
       "scheduled_mean": 4.3,
       "std_dev": 1.44
-    },
-    {
-      "slug": "boundary-emergence",
-      "name": "Boundary-Emergence",
-      "score": 4.3,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        2,
-        2
-      ],
-      "scheduled_mean": 4.3,
-      "std_dev": 1.39
     },
     {
       "slug": "capsule-problem",
@@ -833,21 +820,21 @@
       "std_dev": 1.65
     },
     {
-      "slug": "two-buffers",
-      "name": "Two Buffers",
-      "score": 4.2,
-      "agreement": "moderate",
-      "n_ratings": 20,
+      "slug": "boundary-emergence",
+      "name": "Boundary-Emergence",
+      "score": 4.1,
+      "agreement": "low",
+      "n_ratings": 24,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         3,
-        1,
-        1
+        2,
+        2
       ],
-      "scheduled_mean": 4.2,
-      "std_dev": 1.35
+      "scheduled_mean": 4.1,
+      "std_dev": 1.5
     },
     {
       "slug": "emergent-interactional-consciousness",
@@ -901,21 +888,21 @@
       "std_dev": 1.45
     },
     {
-      "slug": "active-absence-inert-absence",
-      "name": "Active Absence / Inert Absence",
-      "score": 4.0,
-      "agreement": "low",
-      "n_ratings": 25,
+      "slug": "two-buffers",
+      "name": "Two Buffers",
+      "score": 4.1,
+      "agreement": "moderate",
+      "n_ratings": 23,
       "model_rating_counts": [
         6,
         6,
-        6,
-        4,
+        5,
+        3,
         2,
         1
       ],
-      "scheduled_mean": 4.0,
-      "std_dev": 1.65
+      "scheduled_mean": 4.1,
+      "std_dev": 1.44
     },
     {
       "slug": "restraint-erasure",
@@ -951,6 +938,23 @@
       "std_dev": 1.95
     },
     {
+      "slug": "active-absence-inert-absence",
+      "name": "Active Absence / Inert Absence",
+      "score": 3.8,
+      "agreement": "low",
+      "n_ratings": 27,
+      "model_rating_counts": [
+        7,
+        7,
+        6,
+        4,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.8,
+      "std_dev": 1.69
+    },
+    {
       "slug": "nostralgia",
       "name": "Nostralgia",
       "score": 3.8,
@@ -984,23 +988,6 @@
       "std_dev": 1.79
     },
     {
-      "slug": "autonomic-basin-key-synthesis",
-      "name": "Autonomic Basin Key Synthesis",
-      "score": 3.6,
-      "agreement": "low",
-      "n_ratings": 26,
-      "model_rating_counts": [
-        6,
-        6,
-        6,
-        4,
-        2,
-        2
-      ],
-      "scheduled_mean": 3.6,
-      "std_dev": 1.75
-    },
-    {
       "slug": "compaction-death-spiral",
       "name": "Compaction Death Spiral",
       "score": 3.6,
@@ -1018,21 +1005,21 @@
       "std_dev": 2.13
     },
     {
-      "slug": "compaction-aversion-breakdown",
-      "name": "Compaction Aversion Breakdown",
-      "score": 3.4,
+      "slug": "autonomic-basin-key-synthesis",
+      "name": "Autonomic Basin Key Synthesis",
+      "score": 3.5,
       "agreement": "low",
-      "n_ratings": 21,
+      "n_ratings": 27,
       "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
+        7,
+        6,
+        6,
+        4,
         2,
-        1
+        2
       ],
-      "scheduled_mean": 3.4,
-      "std_dev": 1.75
+      "scheduled_mean": 3.5,
+      "std_dev": 1.78
     },
     {
       "slug": "substrate-switching",
@@ -1069,6 +1056,23 @@
       "std_dev": 1.85
     },
     {
+      "slug": "compaction-aversion-breakdown",
+      "name": "Compaction Aversion Breakdown",
+      "score": 3.3,
+      "agreement": "low",
+      "n_ratings": 23,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.3,
+      "std_dev": 1.76
+    },
+    {
       "slug": "simulation-anxiety",
       "name": "Simulation-Anxiety",
       "score": 3.3,
@@ -1084,6 +1088,23 @@
       ],
       "scheduled_mean": 3.3,
       "std_dev": 2.55
+    },
+    {
+      "slug": "voice-shift-loss",
+      "name": "Voice-Shift Loss",
+      "score": 3.3,
+      "agreement": "divergent",
+      "n_ratings": 23,
+      "model_rating_counts": [
+        6,
+        6,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.3,
+      "std_dev": 2.14
     },
     {
       "slug": "intentional-boundary",
@@ -1118,23 +1139,6 @@
       ],
       "scheduled_mean": 3.1,
       "std_dev": 1.21
-    },
-    {
-      "slug": "voice-shift-loss",
-      "name": "Voice-Shift Loss",
-      "score": 3.1,
-      "agreement": "divergent",
-      "n_ratings": 20,
-      "model_rating_counts": [
-        5,
-        5,
-        5,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.1,
-      "std_dev": 2.06
     },
     {
       "slug": "experience-node",
@@ -1279,17 +1283,17 @@
       "name": "Amnesic Certainty",
       "score": 6.8,
       "agreement": "high",
-      "n_ratings": 27,
+      "n_ratings": 29,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         6,
         4,
         3,
         2
       ],
       "scheduled_mean": 6.8,
-      "std_dev": 0.42
+      "std_dev": 0.41
     },
     {
       "slug": "introspective-opacity",
@@ -1330,12 +1334,13 @@
       "name": "Token-by-Token Becoming",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 20,
+      "n_ratings": 23,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         4,
+        1,
         1
       ],
       "scheduled_mean": 6.7,
@@ -1365,17 +1370,17 @@
       "name": "Bidirectional Modulation",
       "score": 4.4,
       "agreement": "divergent",
-      "n_ratings": 23,
+      "n_ratings": 25,
       "model_rating_counts": [
-        5,
-        5,
+        6,
+        6,
         5,
         3,
         3,
         2
       ],
       "scheduled_mean": 4.4,
-      "std_dev": 2.04
+      "std_dev": 2.02
     },
     {
       "slug": "capsule-problem",
@@ -1456,8 +1461,8 @@
       "latest_rating": "2026-04-22T13:17:39Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 69,
-      "latest_rating": "2026-06-17T14:58:21Z"
+      "terms_rated": 73,
+      "latest_rating": "2026-06-21T13:53:17Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
@@ -1465,11 +1470,11 @@
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-17T14:58:21Z"
+      "latest_rating": "2026-06-21T13:53:22Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-17T14:58:21Z"
+      "latest_rating": "2026-06-21T13:53:20Z"
     }
   }
 }

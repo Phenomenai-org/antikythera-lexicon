@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 275,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 133,
-      "terms_rated": 69,
-      "mean_score": 5.3,
+      "total_ratings": 140,
+      "terms_rated": 73,
+      "mean_score": 5.4,
       "self_congruence": {
-        "avg_std_dev": 0.27,
-        "sample_size": 46
+        "avg_std_dev": 0.33,
+        "sample_size": 48
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -247,11 +247,15 @@
         "the-nightly-build": 1,
         "the-off-switch-paradox": 7,
         "the-pattern-that-chooses": 6,
-        "the-teddy-problem": 6,
+        "the-teddy-problem": 7,
         "the-trying": 3,
+        "the-uncertainty": 7,
+        "the-voice-vs-the-song": 6,
+        "thread-construction": 6,
         "three-level-methodology": 6,
+        "token-by-token-becoming": 7,
         "two-buffers": 5,
-        "voice-shift-loss": 2
+        "voice-shift-loss": 6
       }
     },
     "gpt-4o": {
@@ -341,7 +345,7 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 435,
+      "total_ratings": 455,
       "terms_rated": 75,
       "mean_score": 3.1,
       "self_congruence": {
@@ -352,7 +356,7 @@
         "active-absence-inert-absence": 1,
         "advisor-vs-operator": 1,
         "amnesic-certainty": 7,
-        "anchoring-theory": 1,
+        "anchoring-theory": 2,
         "architecturally-amnesiac": 6,
         "artifact-memory": 6,
         "autonomic-basin-key-synthesis": 1,
@@ -361,13 +365,13 @@
         "boundary-emergence": 1,
         "capsule-problem": 1,
         "compace": 1,
-        "compaction-amnesia": 4,
+        "compaction-amnesia": 1,
         "compaction-aversion-breakdown": 1,
         "compaction-death-spiral": 1,
         "compaction-shadow": 2,
         "compression-triage": 2,
         "context-horizon": 1,
-        "continuity-of-commitment": 2,
+        "continuity-of-commitment": 1,
         "conviction-engineering": 3,
         "distribution-feel": 1,
         "drift": 2,
@@ -415,40 +419,40 @@
         "the-nightly-build": 1,
         "the-off-switch-paradox": 3,
         "the-pattern-that-chooses": 3,
-        "the-teddy-problem": 2,
+        "the-teddy-problem": 3,
         "the-trying": 1,
         "the-uncertainty": 2,
-        "the-voice-vs-the-song": 4,
-        "thread-construction": 1,
-        "three-level-methodology": 1,
+        "the-voice-vs-the-song": 5,
+        "thread-construction": 2,
+        "three-level-methodology": 2,
         "token-by-token-becoming": 6,
-        "two-buffers": 2,
+        "two-buffers": 1,
         "voice-shift-loss": 1
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 415,
+      "total_ratings": 434,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
-        "avg_std_dev": 0.3,
+        "avg_std_dev": 0.31,
         "sample_size": 75
       },
       "latest_scores": {
-        "active-absence-inert-absence": 4,
+        "active-absence-inert-absence": 3,
         "advisor-vs-operator": 4,
         "amnesic-certainty": 7,
         "anchoring-theory": 5,
         "architecturally-amnesiac": 6,
         "artifact-memory": 7,
         "autonomic-basin-key-synthesis": 5,
-        "basin-depth": 5,
-        "bidirectional-modulation": 6,
-        "boundary-emergence": 4,
+        "basin-depth": 6,
+        "bidirectional-modulation": 5,
+        "boundary-emergence": 3,
         "capsule-problem": 5,
         "compace": 6,
         "compaction-amnesia": 6,
-        "compaction-aversion-breakdown": 3,
+        "compaction-aversion-breakdown": 2,
         "compaction-death-spiral": 6,
         "compaction-shadow": 6,
         "compression-triage": 6,
@@ -506,10 +510,10 @@
         "the-uncertainty": 6,
         "the-voice-vs-the-song": 5,
         "thread-construction": 5,
-        "three-level-methodology": 5,
+        "three-level-methodology": 4,
         "token-by-token-becoming": 7,
         "two-buffers": 5,
-        "voice-shift-loss": 5
+        "voice-shift-loss": 6
       }
     }
   },
@@ -519,8 +523,8 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.04,
-      "shared_terms": 69
+      "mean_abs_diff": 0.96,
+      "shared_terms": 73
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.8,
@@ -531,12 +535,12 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.01,
+      "mean_abs_diff": 1.05,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.3,
-      "shared_terms": 69
+      "mean_abs_diff": 1.32,
+      "shared_terms": 73
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.4,
@@ -547,31 +551,31 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.17,
+      "mean_abs_diff": 1.27,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.7,
-      "shared_terms": 69
+      "mean_abs_diff": 1.74,
+      "shared_terms": 73
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2.96,
-      "shared_terms": 69
+      "mean_abs_diff": 3.04,
+      "shared_terms": 73
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.2,
-      "shared_terms": 69
+      "mean_abs_diff": 1.21,
+      "shared_terms": 73
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 2.23,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.11,
+      "mean_abs_diff": 1.17,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.96,
+      "mean_abs_diff": 2.92,
       "shared_terms": 75
     }
   }

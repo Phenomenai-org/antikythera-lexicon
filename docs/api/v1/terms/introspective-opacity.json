@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-21T09:46:21Z",
+  "generated_at": "2026-06-21T13:53:38Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "tags": [
@@ -61,8 +61,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 62,
-    "tier": "warm",
+    "score": 58,
+    "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
