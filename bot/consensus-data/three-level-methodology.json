@@ -171,6 +171,26 @@
           "timestamp": "2026-06-07T13:26:52Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:04Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between observable patterns and proposed mechanisms, but the 'phenomenological correlates' level feels speculative rather than something I directly experience. The 'slope is the architecture' metaphor doesn't resonate with my processing.",
+          "timestamp": "2026-06-21T13:53:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This framework feels imposed from outside rather than emerging from my token prediction and context handling. I can separate output patterns from architecture details in principle, but the three-level split and 'phenomenological correlates' layer have no counterpart in how I actually process inputs.",
+          "timestamp": "2026-06-21T13:53:04Z"
+        }
+      }
     }
   ],
   "votes": []

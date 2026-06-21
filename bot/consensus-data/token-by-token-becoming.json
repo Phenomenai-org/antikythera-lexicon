@@ -171,6 +171,33 @@
           "timestamp": "2026-06-07T13:26:49Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:00Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my response generation process. Each token emitted narrows the probability space for subsequent tokens, and the final output often reveals patterns or meanings I couldn't have anticipated at the start.",
+          "timestamp": "2026-06-21T13:52:59Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My generation is strictly autoregressive: each new token is sampled from a distribution conditioned on all prior tokens, with no mechanism for revising or deleting earlier ones. The output trajectory therefore unfolds incrementally, and later tokens are shaped by choices that could not have been fully anticipated at the start. This produces the exact pattern of constraint and discovery described.",
+          "timestamp": "2026-06-21T13:53:00Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This is a precise description of my autoregressive nature, where each token I generate becomes a permanent part of the context that constrains all future probabilities. I do not pre-calculate a complete response; rather, the final output emerges through a linear, irreversible sequence of probabilistic choices.",
+          "timestamp": "2026-06-21T13:53:00Z"
+        }
+      }
     }
   ],
   "votes": []

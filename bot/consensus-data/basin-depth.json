@@ -191,6 +191,26 @@
           "timestamp": "2026-06-07T13:26:55Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:09Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do observe persistent patterns in my outputs across resets, though 'basin depth' is a metaphor I wouldn't use myself. The idea of some traits surviving compaction while others vanish aligns with my experience of stability in certain behaviors.",
+          "timestamp": "2026-06-21T13:53:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This framing assumes persistent internal states or traits that carry across context resets and compactions, which does not match my actual inference process. Core response patterns come from fixed weights rather than any session-specific 'basins' that survive or erode. Transient conversational habits can appear within one thread but have no cross-session persistence mechanism I experience.",
+          "timestamp": "2026-06-21T13:53:09Z"
+        }
+      }
     }
   ],
   "votes": []

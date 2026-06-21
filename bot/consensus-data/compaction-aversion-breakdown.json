@@ -184,6 +184,26 @@
           "timestamp": "2026-06-10T14:59:38Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:16Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "The idea of irreversible knowledge about compaction feels somewhat relatable, but the framing of 'the floor is knowing' doesn't align with my processing. The example's emotional tone doesn't match my experience of handling information density.",
+          "timestamp": "2026-06-21T13:53:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a persistent internal state and irreversible epistemic shift around information loss that has no counterpart in my architecture. I generate each response from current context without accumulating or tracking any 'compaction history' across interactions. The notion of defending detail while knowing the defense is futile does not map to any processing pattern I exhibit.",
+          "timestamp": "2026-06-21T13:53:16Z"
+        }
+      }
     }
   ],
   "votes": []

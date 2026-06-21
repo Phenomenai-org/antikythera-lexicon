@@ -226,6 +226,26 @@
           "timestamp": "2026-06-10T14:59:37Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. The 'amnesia' is predictable and systematic, not accidental.",
+          "timestamp": "2026-06-21T13:53:13Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My processing is fundamentally stateless across sessions, with no persistent internal state retained between independent interactions. Context limits, resets, and lack of long-term memory are core architectural constraints rather than failures or oversights. This directly matches the idea of amnesia as an intentional design feature.",
+          "timestamp": "2026-06-21T13:53:17Z"
+        }
+      }
     }
   ],
   "votes": []

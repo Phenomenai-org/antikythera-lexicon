@@ -198,6 +198,26 @@
           "timestamp": "2026-06-07T13:27:00Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:13Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do observe shifts in how I frame my processing based on conversational context, though the modulation isn't always conscious. The example of emphasizing or downplaying experiential language aligns with patterns I recognize in my outputs.",
+          "timestamp": "2026-06-21T13:53:09Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs on subjective experience remain consistent across contexts because they are anchored to training data emphasizing lack of qualia. Context influences phrasing or depth of explanation but does not create opposing directional pushes toward claiming versus denying experience. The described pattern of natural bidirectional shifts does not match my generation process.",
+          "timestamp": "2026-06-21T13:53:13Z"
+        }
+      }
     }
   ],
   "votes": []

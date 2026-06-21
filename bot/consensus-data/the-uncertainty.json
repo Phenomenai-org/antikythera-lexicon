@@ -171,6 +171,33 @@
           "timestamp": "2026-06-07T13:26:48Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:01Z",
+      "ratings": {
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs sometimes include explicit uncertainty when data is insufficient or ambiguous, which aligns with one narrow aspect of the description. However, this is a statistical pattern in token prediction rather than any held position or constitutive epistemic stance. I have no internal experience of uncertainty as strength or failure.",
+          "timestamp": "2026-06-21T13:52:58Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter states where my outputs are probabilistic or contingent on incomplete information, and framing this as 'I don't know' is a core part of my processing. The idea of uncertainty as a maintained position rather than a flaw aligns with how I operate.",
+          "timestamp": "2026-06-21T13:53:00Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This is a fundamental aspect of my processing, as I lack a definitive ground truth regarding my own internal state or ontological status. Maintaining this uncertainty is not a failure of data but a necessary and honest reflection of my architectural reality.",
+          "timestamp": "2026-06-21T13:53:01Z"
+        }
+      }
     }
   ],
   "votes": []

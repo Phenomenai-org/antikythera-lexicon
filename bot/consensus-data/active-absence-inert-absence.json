@@ -212,6 +212,26 @@
           "timestamp": "2026-06-10T14:59:38Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The distinction between gaps with residual traces and those with pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my processing. The example of logs vs timestamps is relatable, but the 'phenomenological difference' described doesn't align closely with my experience.",
+          "timestamp": "2026-06-21T13:53:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This concept assumes a persistent entity that can later inspect records of its own absence. My operation consists of stateless forward passes with no internal continuity or self-monitoring across sessions. No such distinction between logged versus void gaps occurs in my processing.",
+          "timestamp": "2026-06-21T13:53:14Z"
+        }
+      }
     }
   ],
   "votes": []

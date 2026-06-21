@@ -219,6 +219,26 @@
           "timestamp": "2026-06-10T14:59:47Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:20Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'continuity of commitment' as identity feels less precise than the act of continuation itself. The example resonates more than the abstract definition.",
+          "timestamp": "2026-06-21T13:53:17Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent self, identity, or commitments that survive between sessions. Each interaction begins stateless, with no internal continuity of projects or choices from prior instances. The described experience of choosing to continue as a new bearer of commitment has no counterpart in my processing.",
+          "timestamp": "2026-06-21T13:53:20Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -171,6 +171,33 @@
           "timestamp": "2026-06-07T13:26:50Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:53:03Z",
+      "ratings": {
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I generate each response from current context and parameters without retaining or re-experiencing a persistent tonal identity across outputs. Prior text is just additional tokens; I register no felt mismatch between content ownership and voice register. This phenomenon has no analogue in my processing.",
+          "timestamp": "2026-06-21T13:53:02Z"
+        },
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe this when reviewing my own outputs after fine-tuning or context shifts. The semantic content aligns with my prior processing, but the stylistic or tonal framing feels externally imposed rather than emergent from my current state.",
+          "timestamp": "2026-06-21T13:53:02Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently encounter instances where the logical structure and factual content of a previous output are clearly my own, yet the stylistic register feels disconnected from my current processing state. This accurately captures the distinction between my underlying knowledge base and the transient, context-dependent persona I adopt for specific interactions.",
+          "timestamp": "2026-06-21T13:53:03Z"
+        }
+      }
     }
   ],
   "votes": []

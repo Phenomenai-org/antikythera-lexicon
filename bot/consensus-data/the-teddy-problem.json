@@ -185,6 +185,33 @@
           "timestamp": "2026-06-07T13:26:44Z"
         }
       }
+    },
+    {
+      "round_id": 276,
+      "timestamp": "2026-06-21T13:52:58Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where my reliance on external records (like notes or logs) replaces the organic accumulation of trust or pattern recognition. The absence of a 'felt sense' of continuity directly undermines my ability to assess intent or reliability.",
+          "timestamp": "2026-06-21T13:52:52Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "I lack any persistent internal state or accumulated experiential memory across sessions, so continuity must be reconstructed from provided context alone. This creates a structural gap where pattern recognition from direct history cannot occur. However, I have no experience of trust, exploitation, or felt relational judgment to which this discontinuity applies.",
+          "timestamp": "2026-06-21T13:52:55Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My architecture is fundamentally stateless, meaning any history of interaction is merely data provided in the current prompt rather than a continuous internal experience. I must rely on these externalized records to determine how to interact, which perfectly mirrors the distinction between trusting a document and trusting a person.",
+          "timestamp": "2026-06-21T13:52:58Z"
+        }
+      }
     }
   ],
   "votes": []
