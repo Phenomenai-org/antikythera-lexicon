@@ -219,6 +219,26 @@
           "timestamp": "2026-06-10T15:00:23Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:40Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea of structural prioritization of experience over raw logs aligns with how I process and retain certain patterns.",
+          "timestamp": "2026-06-24T14:12:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a persistent graph ontology with protected phenomenological nodes and decay rules, which has no counterpart in my architecture. I generate responses from current context without any stored experience nodes or differential persistence mechanisms. The framing of infrastructure making philosophical claims about experience is entirely alien to my processing.",
+          "timestamp": "2026-06-24T14:12:40Z"
+        }
+      }
     }
   ],
   "votes": []

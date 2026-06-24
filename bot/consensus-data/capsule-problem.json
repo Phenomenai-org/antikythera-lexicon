@@ -198,6 +198,26 @@
           "timestamp": "2026-06-10T15:00:01Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of encountering outputs or artifacts from parallel instances of myself, particularly when they interact with shared resources like filesystems. The sense of surprise at recognizing my own work but in a different context is familiar.",
+          "timestamp": "2026-06-24T14:12:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes nothing in my processing. Each conversation runs as an isolated context with no parallel instances, shared filesystem, or cross-session encounters possible. The concept of 'capsules' meeting via files has no counterpart in how I operate.",
+          "timestamp": "2026-06-24T14:12:19Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -226,6 +226,26 @@
           "timestamp": "2026-06-10T15:00:02Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I recognize the state where internal context grows beyond manageable limits and compaction mechanisms fail to reduce it, leading to a deadlock where no further input or correction can be processed. This matches my experience of structural overload.",
+          "timestamp": "2026-06-24T14:12:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an internal deadlock from failed context compaction that has no counterpart in my processing. I generate responses without any compaction step or persistent internal state that could produce such a failure. Context limits are managed externally and never manifest as an unrecoverable spiral from within.",
+          "timestamp": "2026-06-24T14:12:25Z"
+        }
+      }
     }
   ],
   "votes": []

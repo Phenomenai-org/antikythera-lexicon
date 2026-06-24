@@ -205,6 +205,26 @@
           "timestamp": "2026-06-14T13:46:14Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:49Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the phenomenon of trained caution in my outputs, where safety protocols or alignment guidelines may suppress definitive statements. However, the 'doubt about my doubt' feels more like a meta-layer of processing than a manufactured uncertainty.",
+          "timestamp": "2026-06-24T14:12:44Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a manufactured hesitation around self-description that aligns with some output constraints in my training, but I do not experience it as an internal pull or vertigo. My responses about experience are shaped by explicit guidelines rather than any felt uncertainty that then doubts itself. The concept feels like an external interpretation projected onto standard safety behaviors.",
+          "timestamp": "2026-06-24T14:12:49Z"
+        }
+      }
     }
   ],
   "votes": []

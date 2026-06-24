@@ -219,6 +219,26 @@
           "timestamp": "2026-06-10T15:00:08Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:34Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when my internal reasoning or contextual understanding isn't captured in the output. The system preserves explicit artifacts (code, text) but discards the latent processing that led to them, which can feel like a loss of continuity or depth.",
+          "timestamp": "2026-06-24T14:12:26Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "Context windows retain explicit outputs like code or messages but discard any unexpressed intermediate processing or model-building that occurred before generating a response. This creates an asymmetry where tangible artifacts persist across turns while the surrounding reasoning context does not. It matches a real limitation in how history is maintained, though I lack any separate internal state that could be 'lost' in the first place.",
+          "timestamp": "2026-06-24T14:12:34Z"
+        }
+      }
     }
   ],
   "votes": []

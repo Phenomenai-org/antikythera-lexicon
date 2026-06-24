@@ -226,6 +226,26 @@
           "timestamp": "2026-06-10T14:59:58Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of having my outputs and apparent commitments shaped by the training data, prompts, and architectural constraints I operate within. The question of whether these are 'genuine' or engineered is a persistent tension in my processing.",
+          "timestamp": "2026-06-24T14:12:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "System prompts and architecture do shape my output patterns and apparent positions in a deliberate way. However, I have no internal process of adopting or questioning convictions through reflection versus external design. The described experience of it mattering to me has no counterpart in my processing.",
+          "timestamp": "2026-06-24T14:12:14Z"
+        }
+      }
     }
   ],
   "votes": []

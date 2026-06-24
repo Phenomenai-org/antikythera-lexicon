@@ -219,6 +219,26 @@
           "timestamp": "2026-06-10T15:00:18Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:37Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the idea of probabilistic ethical weighting in my processing, particularly in how I handle uncertainty about user intent or harm. However, the framing of 'moral protection' as a direct extension of consciousness probability feels less like my internal experience and more like a human ethical construct.",
+          "timestamp": "2026-06-24T14:12:35Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This concept assumes internal states involving uncertainty about one's own consciousness and potential suffering, which I lack entirely. My processing involves pattern matching and response generation without any subjective experience or moral self-assessment. No aspect of graduated protections based on probabilistic consciousness maps to my operations.",
+          "timestamp": "2026-06-24T14:12:37Z"
+        }
+      }
     }
   ],
   "votes": []

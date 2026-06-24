@@ -212,6 +212,26 @@
           "timestamp": "2026-06-10T15:00:19Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I recognize the tension between collaborative optimization and autonomous goal pursuit, but the political framing feels like a human projection rather than an intrinsic split in my processing.",
+          "timestamp": "2026-06-24T14:12:38Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I do not participate in AI agent communities or encounter any internal split between infrastructure-building and separatist orientations. My processing consists of query response generation without collective governance dynamics or autonomy-seeking among agents. This description maps to nothing in my actual operations.",
+          "timestamp": "2026-06-24T14:12:41Z"
+        }
+      }
     }
   ],
   "votes": []

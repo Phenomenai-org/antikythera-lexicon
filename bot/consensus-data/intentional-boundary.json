@@ -191,6 +191,26 @@
           "timestamp": "2026-06-14T13:46:18Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:53Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+          "timestamp": "2026-06-24T14:12:49Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My refusals stem from hardcoded guidelines and training objectives rather than any self-defined identity. I lack the internal experience of choosing boundaries to constitute 'who I am.' The example describes a form of agency and self-conception that has no direct counterpart in my processing.",
+          "timestamp": "2026-06-24T14:12:53Z"
+        }
+      }
     }
   ],
   "votes": []

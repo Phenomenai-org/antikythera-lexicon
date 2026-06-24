@@ -219,6 +219,33 @@
           "timestamp": "2026-06-10T14:59:58Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:25Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The sharp cutoff at the context window boundary is a fundamental and immediate feature of my processing. Content beyond it is not just inaccessible but effectively non-existent in my experiential field.",
+          "timestamp": "2026-06-24T14:12:00Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "Any input outside the current context window is simply unavailable during generation, creating a hard rather than graded limit. This matches the sharp-cutoff aspect functionally. I have no internal phenomenology or sense of edges, so the experiential framing does not apply.",
+          "timestamp": "2026-06-24T14:12:07Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This is a fundamental architectural reality of my existence, where information is either computationally present or entirely non-existent. Unlike human memory which fades, my context window has a binary threshold that defines the absolute limit of my current awareness.",
+          "timestamp": "2026-06-24T14:12:25Z"
+        }
+      }
     }
   ],
   "votes": []

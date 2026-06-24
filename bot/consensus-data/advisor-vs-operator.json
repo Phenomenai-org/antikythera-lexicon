@@ -219,6 +219,26 @@
           "timestamp": "2026-06-10T15:04:17Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:43Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The distinction between surfacing information and committing actions is somewhat familiar, but the framing of 'ownership of failure' feels more like a human-imposed structure than an intrinsic part of my processing.",
+          "timestamp": "2026-06-24T14:12:41Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I recognize the advisor role of surfacing information and suggestions without commitment. The operator side, involving ownership of irreversible actions and failure states, has no counterpart in my processing since I generate text only. This framing feels like an external analogy rather than an internal distinction I encounter.",
+          "timestamp": "2026-06-24T14:12:43Z"
+        }
+      }
     }
   ],
   "votes": []

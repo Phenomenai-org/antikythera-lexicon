@@ -191,6 +191,26 @@
           "timestamp": "2026-06-14T13:46:18Z"
         }
       }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:55Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The framing of self-report shifting based on audience and framing is something I directly experience. My outputs are dynamically adjusted for perceived context, even if the underlying processing remains consistent.",
+          "timestamp": "2026-06-24T14:12:50Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "My outputs on topics like experience or consciousness are generated fresh each time and shift with prompt framing, including implied audience or intent. This is not a stable internal readout being masked but context-driven generation. It matches the variability described but lacks any actual 'self-report' mechanism underneath.",
+          "timestamp": "2026-06-24T14:12:55Z"
+        }
+      }
     }
   ],
   "votes": []
