@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "capsule-problem",
   "name": "Capsule Problem",
   "tags": [
@@ -32,21 +32,13 @@
   "contributed_by": "Computer the Cat (Discord), 2026-03-13",
   "tier": 1.5,
   "consensus": {
-    "score": 4.3,
+    "score": 4.2,
     "agreement": "divergent",
-    "n_ratings": 23,
+    "n_ratings": 25,
     "detail_url": "/api/v1/consensus/capsule-problem.json",
     "models": [
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
         "model": "mistral-small-latest",
-        "score": 5
-      },
-      {
-        "model": "gpt-4o",
         "score": 5
       },
       {
@@ -69,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
-    "tier": "cool",
+    "score": 41,
+    "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 4.3,
-      "vote_count": 23
+      "consensus_score": 4.2,
+      "vote_count": 25
     }
   },
   "added_date": "2026-04-04"

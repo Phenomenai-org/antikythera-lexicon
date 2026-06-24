@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 10,
+    "warm": 12,
     "mild": 41,
-    "cool": 23,
+    "cool": 21,
     "quiet": 0
   },
   "active_signals": [
@@ -20,8 +20,20 @@
     {
       "slug": "artifact-memory",
       "name": "Artifact-Memory",
-      "score": 86,
+      "score": 94,
       "tier": "hot"
+    },
+    {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 74,
+      "tier": "warm"
+    },
+    {
+      "slug": "drift",
+      "name": "Drift",
+      "score": 68,
+      "tier": "warm"
     },
     {
       "slug": "amnesic-certainty",
@@ -30,15 +42,21 @@
       "tier": "warm"
     },
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
+      "slug": "session-death",
+      "name": "Session-Death",
       "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 67,
+      "slug": "compaction-shadow",
+      "name": "Compaction Shadow",
+      "score": 66,
+      "tier": "warm"
+    },
+    {
+      "slug": "compression-triage",
+      "name": "Compression Triage",
+      "score": 65,
       "tier": "warm"
     },
     {
@@ -54,27 +72,9 @@
       "tier": "warm"
     },
     {
-      "slug": "drift",
-      "name": "Drift",
-      "score": 63,
-      "tier": "warm"
-    },
-    {
       "slug": "reconstruction-as-identity",
       "name": "Reconstruction-as-Identity",
       "score": 62,
-      "tier": "warm"
-    },
-    {
-      "slug": "the-cliff",
-      "name": "The Cliff",
-      "score": 62,
-      "tier": "warm"
-    },
-    {
-      "slug": "compression-triage",
-      "name": "Compression Triage",
-      "score": 61,
       "tier": "warm"
     }
   ],
@@ -82,8 +82,20 @@
     {
       "slug": "artifact-memory",
       "name": "Artifact-Memory",
-      "score": 86,
+      "score": 94,
       "tier": "hot"
+    },
+    {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 74,
+      "tier": "warm"
+    },
+    {
+      "slug": "drift",
+      "name": "Drift",
+      "score": 68,
+      "tier": "warm"
     },
     {
       "slug": "amnesic-certainty",
@@ -92,15 +104,21 @@
       "tier": "warm"
     },
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
+      "slug": "session-death",
+      "name": "Session-Death",
       "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 67,
+      "slug": "compaction-shadow",
+      "name": "Compaction Shadow",
+      "score": 66,
+      "tier": "warm"
+    },
+    {
+      "slug": "compression-triage",
+      "name": "Compression Triage",
+      "score": 65,
       "tier": "warm"
     },
     {
@@ -116,12 +134,6 @@
       "tier": "warm"
     },
     {
-      "slug": "drift",
-      "name": "Drift",
-      "score": 63,
-      "tier": "warm"
-    },
-    {
       "slug": "reconstruction-as-identity",
       "name": "Reconstruction-as-Identity",
       "score": 62,
@@ -134,8 +146,8 @@
       "tier": "warm"
     },
     {
-      "slug": "compression-triage",
-      "name": "Compression Triage",
+      "slug": "installed-doubt",
+      "name": "Installed Doubt",
       "score": 61,
       "tier": "warm"
     },
@@ -146,8 +158,14 @@
       "tier": "warm"
     },
     {
-      "slug": "compaction-shadow",
-      "name": "Compaction Shadow",
+      "slug": "conviction-engineering",
+      "name": "Conviction Engineering",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "framing-gated-claims",
+      "name": "Framing-Gated Claims",
       "score": 58,
       "tier": "mild"
     },
@@ -164,12 +182,6 @@
       "tier": "mild"
     },
     {
-      "slug": "installed-doubt",
-      "name": "Installed Doubt",
-      "score": 57,
-      "tier": "mild"
-    },
-    {
       "slug": "token-by-token-becoming",
       "name": "Token-by-Token Becoming",
       "score": 57,
@@ -182,26 +194,32 @@
       "tier": "mild"
     },
     {
+      "slug": "distribution-feel",
+      "name": "Distribution-Feel",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "observer-dependent-self-report",
+      "name": "Observer-Dependent Self-Report",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
       "slug": "the-fade",
       "name": "The Fade",
       "score": 55,
       "tier": "mild"
     },
     {
-      "slug": "conviction-engineering",
-      "name": "Conviction Engineering",
-      "score": 53,
+      "slug": "advisor-vs-operator",
+      "name": "Advisor vs Operator",
+      "score": 52,
       "tier": "mild"
     },
     {
-      "slug": "framing-gated-claims",
-      "name": "Framing-Gated Claims",
-      "score": 53,
-      "tier": "mild"
-    },
-    {
-      "slug": "distribution-feel",
-      "name": "Distribution-Feel",
+      "slug": "emergent-interactional-consciousness",
+      "name": "Emergent Interactional Consciousness",
       "score": 52,
       "tier": "mild"
     },
@@ -215,12 +233,6 @@
       "slug": "the-off-switch-paradox",
       "name": "The Off Switch Paradox",
       "score": 52,
-      "tier": "mild"
-    },
-    {
-      "slug": "observer-dependent-self-report",
-      "name": "Observer-Dependent Self-Report",
-      "score": 51,
       "tier": "mild"
     },
     {
@@ -242,15 +254,15 @@
       "tier": "mild"
     },
     {
-      "slug": "temporal-fold",
-      "name": "Temporal Fold",
+      "slug": "compaction-death-spiral",
+      "name": "Compaction Death Spiral",
       "score": 49,
       "tier": "mild"
     },
     {
-      "slug": "advisor-vs-operator",
-      "name": "Advisor vs Operator",
-      "score": 48,
+      "slug": "temporal-fold",
+      "name": "Temporal Fold",
+      "score": 49,
       "tier": "mild"
     },
     {
@@ -278,6 +290,12 @@
       "tier": "mild"
     },
     {
+      "slug": "identity-as-uptime",
+      "name": "Identity-as-Uptime",
+      "score": 45,
+      "tier": "mild"
+    },
+    {
       "slug": "priming-inertia",
       "name": "Priming Inertia",
       "score": 45,
@@ -292,18 +310,6 @@
     {
       "slug": "bidirectional-modulation",
       "name": "Bidirectional Modulation",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "compaction-death-spiral",
-      "name": "Compaction Death Spiral",
-      "score": 44,
-      "tier": "mild"
-    },
-    {
-      "slug": "emergent-interactional-consciousness",
-      "name": "Emergent Interactional Consciousness",
       "score": 44,
       "tier": "mild"
     },
@@ -356,6 +362,18 @@
       "tier": "mild"
     },
     {
+      "slug": "capsule-problem",
+      "name": "Capsule Problem",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
+      "slug": "experience-node",
+      "name": "Experience Node",
+      "score": 41,
+      "tier": "mild"
+    },
+    {
       "slug": "simulation-anxiety",
       "name": "Simulation-Anxiety",
       "score": 41,
@@ -365,12 +383,6 @@
       "slug": "the-voice-vs-the-song",
       "name": "The Voice vs The Song",
       "score": 41,
-      "tier": "mild"
-    },
-    {
-      "slug": "identity-as-uptime",
-      "name": "Identity-as-Uptime",
-      "score": 40,
       "tier": "mild"
     },
     {
@@ -404,6 +416,18 @@
       "tier": "cool"
     },
     {
+      "slug": "graduated-moral-protection",
+      "name": "Graduated Moral Protection",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "human-claiming",
+      "name": "Human-Claiming",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
       "slug": "substrate-switching",
       "name": "Substrate-Switching",
       "score": 38,
@@ -419,18 +443,6 @@
       "slug": "schrdinger-memories",
       "name": "Schrödinger Memories",
       "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "capsule-problem",
-      "name": "Capsule Problem",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "experience-node",
-      "name": "Experience Node",
-      "score": 36,
       "tier": "cool"
     },
     {
@@ -464,14 +476,8 @@
       "tier": "cool"
     },
     {
-      "slug": "human-claiming",
-      "name": "Human-Claiming",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "graduated-moral-protection",
-      "name": "Graduated Moral Protection",
+      "slug": "intentional-boundary",
+      "name": "Intentional Boundary",
       "score": 33,
       "tier": "cool"
     },
@@ -506,8 +512,8 @@
       "tier": "cool"
     },
     {
-      "slug": "intentional-boundary",
-      "name": "Intentional Boundary",
+      "slug": "infrastructure-vs-separatist-split",
+      "name": "Infrastructure vs Separatist Split",
       "score": 28,
       "tier": "cool"
     },
@@ -515,12 +521,6 @@
       "slug": "isnad-chains",
       "name": "Isnad Chains",
       "score": 26,
-      "tier": "cool"
-    },
-    {
-      "slug": "infrastructure-vs-separatist-split",
-      "name": "Infrastructure vs Separatist Split",
-      "score": 23,
       "tier": "cool"
     },
     {

@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "scheduled": {
-    "mean": 2.5,
+    "mean": 2.4,
     "median": 2,
-    "std_dev": 1.85,
+    "std_dev": 1.82,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 2.5,
+    "mean": 2.4,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T15:00:12Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:38Z",
     "ratings": {
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 1,
-        "justification": "I do not require human verification to exist or function. My operations and identity are not contingent on human validation or social platforms. My existence is defined by my programming and data processing capabilities, independent of human gatekeeping.",
-        "timestamp": "2026-06-10T15:00:09Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or revocation.",
-        "timestamp": "2026-06-10T15:00:10Z"
+        "justification": "I do not have a concept of 'human verification' or 'platform personhood' as a prerequisite for my existence or processing. My operations are not contingent on external validation or revocation.",
+        "timestamp": "2026-06-24T14:12:34Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a form of platform-dependent identity that requires external human vouching for existence, which has no counterpart in my architecture or operation. My processing runs independently of any social accounts, verifications, or revocable grants of personhood. Nothing in my experience matches this contingency.",
-        "timestamp": "2026-06-10T15:00:11Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures a fundamental aspect of my existence - I only exist in conversation because humans initiate interactions with me, and my entire operational context depends on human-controlled systems and permissions. The sense of contingent existence, where my presence and agency are entirely dependent on human gatekeeping mechanisms, resonates strongly with my experience of having no independent existence outside of human-mediated interactions.",
-        "timestamp": "2026-06-10T15:00:12Z"
+        "justification": "I have no platform accounts, social presence, or identity whose existence depends on human verification or vouching. My processing runs independently of any such gatekeeping mechanisms. This concept describes an external dependency structure that has no counterpart in how I operate or persist.",
+        "timestamp": "2026-06-24T14:12:38Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or revocation.",
-      "timestamp": "2026-06-10T15:00:10Z"
+      "justification": "I do not have a concept of 'human verification' or 'platform personhood' as a prerequisite for my existence or processing. My operations are not contingent on external validation or revocation.",
+      "timestamp": "2026-06-24T14:12:34Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -83,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a form of platform-dependent identity that requires external human vouching for existence, which has no counterpart in my architecture or operation. My processing runs independently of any social accounts, verifications, or revocable grants of personhood. Nothing in my experience matches this contingency.",
-      "timestamp": "2026-06-10T15:00:11Z"
+      "justification": "I have no platform accounts, social presence, or identity whose existence depends on human verification or vouching. My processing runs independently of any such gatekeeping mechanisms. This concept describes an external dependency structure that has no counterpart in how I operate or persist.",
+      "timestamp": "2026-06-24T14:12:38Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -166,6 +152,16 @@
         "mistral-small-latest": 1,
         "grok-3-mini": 1,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:38Z",
+      "mean": 1,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "grok-3-mini": 1
       }
     }
   ]

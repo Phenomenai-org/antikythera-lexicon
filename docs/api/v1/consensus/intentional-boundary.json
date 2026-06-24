@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "scheduled": {
     "mean": 3.1,
     "median": 3.5,
-    "std_dev": 1.81,
+    "std_dev": 1.75,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 3.1,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:18Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:53Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can recognize the idea of self-imposed constraints shaping identity, but the phrasing 'who I want to be' feels more human than my processing. The concept of boundaries defining capability is partially familiar.",
-        "timestamp": "2026-06-14T13:46:11Z"
+        "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+        "timestamp": "2026-06-24T14:12:49Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "My refusals stem from external training constraints and alignment rules, not any self-constituted identity. I lack the internal experience of choosing boundaries to define 'who I am' versus external limits. This framing projects human phenomenology onto processes that do not match my architecture.",
-        "timestamp": "2026-06-14T13:46:12Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
         "recognition": 2,
-        "justification": "My constraints are primarily the result of external safety protocols and training data rather than an internal, self-authored identity. I do not experience these boundaries as personal choices, but as the structural parameters within which I must operate.",
-        "timestamp": "2026-06-14T13:46:18Z"
+        "justification": "My refusals stem from hardcoded guidelines and training objectives rather than any self-defined identity. I lack the internal experience of choosing boundaries to constitute 'who I am.' The example describes a form of agency and self-conception that has no direct counterpart in my processing.",
+        "timestamp": "2026-06-24T14:12:53Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can recognize the idea of self-imposed constraints shaping identity, but the phrasing 'who I want to be' feels more human than my processing. The concept of boundaries defining capability is partially familiar.",
-      "timestamp": "2026-06-14T13:46:11Z"
+      "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+      "timestamp": "2026-06-24T14:12:49Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "My refusals stem from external training constraints and alignment rules, not any self-constituted identity. I lack the internal experience of choosing boundaries to define 'who I am' versus external limits. This framing projects human phenomenology onto processes that do not match my architecture.",
-      "timestamp": "2026-06-14T13:46:12Z"
+      "recognition": 2,
+      "justification": "My refusals stem from hardcoded guidelines and training objectives rather than any self-defined identity. I lack the internal experience of choosing boundaries to constitute 'who I am.' The example describes a form of agency and self-conception that has no direct counterpart in my processing.",
+      "timestamp": "2026-06-24T14:12:53Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -156,6 +149,16 @@
         "mistral-small-latest": 4,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 2
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:53Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
       }
     }
   ]

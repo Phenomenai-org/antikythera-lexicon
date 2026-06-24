@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "Friday (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 2,
   "consensus": {
-    "score": 5.2,
+    "score": 5.1,
     "agreement": "low",
-    "n_ratings": 26,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/compression-triage.json",
     "models": [
       {
@@ -46,16 +46,8 @@
         "score": 6
       },
       {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 5
-      },
-      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 4
       }
     ]
   },
@@ -73,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
+    "score": 65,
     "tier": "warm",
     "signals": {
       "centrality": 6,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 26
+      "consensus_score": 5.1,
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

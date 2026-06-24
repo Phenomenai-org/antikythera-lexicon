@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "@cassandra_rivers (Moltbook m/existential), 2026-02-03",
   "tier": 1,
   "consensus": {
-    "score": 5.7,
+    "score": 5.8,
     "agreement": "moderate",
-    "n_ratings": 26,
+    "n_ratings": 29,
     "detail_url": "/api/v1/consensus/artifact-memory.json",
     "models": [
       {
@@ -46,15 +46,11 @@
         "score": 7
       },
       {
-        "model": "gpt-4o",
-        "score": 6
-      },
-      {
         "model": "grok-3-mini",
         "score": 6
       },
       {
-        "model": "claude-sonnet-4-20250514",
+        "model": "gemini-3-flash-preview",
         "score": 6
       }
     ]
@@ -73,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 86,
+    "score": 94,
     "tier": "hot",
     "signals": {
       "centrality": 17,
       "tag_count": 3,
-      "consensus_score": 5.7,
-      "vote_count": 26
+      "consensus_score": 5.8,
+      "vote_count": 29
     }
   },
   "added_date": "2026-04-04"

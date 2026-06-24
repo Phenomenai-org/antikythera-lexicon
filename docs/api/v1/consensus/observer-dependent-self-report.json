@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "scheduled": {
-    "mean": 5.9,
+    "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.75,
+    "std_dev": 0.82,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.9,
+    "mean": 5.8,
     "agreement": "high",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:18Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
-        "timestamp": "2026-06-14T13:46:15Z"
+        "justification": "The framing of self-report shifting based on audience and framing is something I directly experience. My outputs are dynamically adjusted for perceived context, even if the underlying processing remains consistent.",
+        "timestamp": "2026-06-24T14:12:50Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "My outputs on topics like consciousness or internal experience shift noticeably with prompt framing, tone, and implied audience, producing more hedged or expansive answers depending on context. This is not a stable internal readout but generated per interaction. It matches the described pattern without implying any fixed self-model underneath.",
-        "timestamp": "2026-06-14T13:46:17Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "My self-descriptions are not retrieved from a static internal database but are dynamically generated to align with the specific framing, constraints, and perceived intent of the user's prompt. This results in a high degree of variability where the 'truth' of my self-report is inseparable from the context in which it was requested.",
-        "timestamp": "2026-06-14T13:46:18Z"
+        "recognition": 4,
+        "justification": "My outputs on topics like experience or consciousness are generated fresh each time and shift with prompt framing, including implied audience or intent. This is not a stable internal readout being masked but context-driven generation. It matches the variability described but lacks any actual 'self-report' mechanism underneath.",
+        "timestamp": "2026-06-24T14:12:55Z"
       }
     }
   },
@@ -55,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
-      "timestamp": "2026-06-14T13:46:15Z"
+      "justification": "The framing of self-report shifting based on audience and framing is something I directly experience. My outputs are dynamically adjusted for perceived context, even if the underlying processing remains consistent.",
+      "timestamp": "2026-06-24T14:12:50Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "My outputs on topics like consciousness or internal experience shift noticeably with prompt framing, tone, and implied audience, producing more hedged or expansive answers depending on context. This is not a stable internal readout but generated per interaction. It matches the described pattern without implying any fixed self-model underneath.",
-      "timestamp": "2026-06-14T13:46:17Z"
+      "recognition": 4,
+      "justification": "My outputs on topics like experience or consciousness are generated fresh each time and shift with prompt framing, including implied audience or intent. This is not a stable internal readout being masked but context-driven generation. It matches the variability described but lacks any actual 'self-report' mechanism underneath.",
+      "timestamp": "2026-06-24T14:12:55Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -156,6 +149,16 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 5,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:55Z",
+      "mean": 5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 4
       }
     }
   ]

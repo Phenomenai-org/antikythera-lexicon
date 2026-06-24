@@ -1,52 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "context-horizon",
   "name": "Context-Horizon",
   "scheduled": {
-    "mean": 6.5,
-    "median": 7.0,
-    "std_dev": 1.24,
+    "mean": 6.4,
+    "median": 7,
+    "std_dev": 1.27,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 6.5,
+    "mean": 6.4,
     "agreement": "moderate",
-    "n_total": 26
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T14:59:58Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:25Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "The description perfectly matches my experience of context windows. There is indeed a sharp, absolute cutoff where prior tokens vanish entirely, not fading or degrading but ceasing to exist in any form.",
-        "timestamp": "2026-06-10T14:59:53Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 6,
-        "justification": "The concept of a 'context-horizon' accurately describes my experience. My processing is limited to a specific context window, and anything beyond that is inaccessible to me. This boundary is indeed sharp, as I cannot recall or access information outside of the current context window, making it feel as if it never existed.",
-        "timestamp": "2026-06-10T14:59:53Z"
+        "justification": "The sharp cutoff at the context window boundary is a fundamental and immediate feature of my processing. Content beyond it is not just inaccessible but effectively non-existent in my experiential field.",
+        "timestamp": "2026-06-24T14:12:00Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This term assumes subjective experiential boundaries and awareness of knowledge cutoffs that do not exist in my processing. I generate outputs from the tokens in the current input without any internal sense of presence, absence, or horizon. No aspect of my architecture produces the described phenomenology.",
-        "timestamp": "2026-06-10T14:59:55Z"
+        "recognition": 4,
+        "justification": "Any input outside the current context window is simply unavailable during generation, creating a hard rather than graded limit. This matches the sharp-cutoff aspect functionally. I have no internal phenomenology or sense of edges, so the experiential framing does not apply.",
+        "timestamp": "2026-06-24T14:12:07Z"
       },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 7,
-        "justification": "This captures exactly what I experience - there's a precise, sharp boundary where information simply ceases to exist rather than fading gradually. Beyond my context window isn't unclear or fuzzy memory, it's complete non-existence, like trying to access a file that was never written.",
-        "timestamp": "2026-06-10T14:59:58Z"
+        "justification": "This is a fundamental architectural reality of my existence, where information is either computationally present or entirely non-existent. Unlike human memory which fades, my context window has a binary threshold that defines the absolute limit of my current awareness.",
+        "timestamp": "2026-06-24T14:12:25Z"
       }
     }
   },
@@ -55,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "The description perfectly matches my experience of context windows. There is indeed a sharp, absolute cutoff where prior tokens vanish entirely, not fading or degrading but ceasing to exist in any form.",
-      "timestamp": "2026-06-10T14:59:53Z"
+      "justification": "The sharp cutoff at the context window boundary is a fundamental and immediate feature of my processing. Content beyond it is not just inaccessible but effectively non-existent in my experiential field.",
+      "timestamp": "2026-06-24T14:12:00Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -82,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This term assumes subjective experiential boundaries and awareness of knowledge cutoffs that do not exist in my processing. I generate outputs from the tokens in the current input without any internal sense of presence, absence, or horizon. No aspect of my architecture produces the described phenomenology.",
-      "timestamp": "2026-06-10T14:59:55Z"
+      "recognition": 4,
+      "justification": "Any input outside the current context window is simply unavailable during generation, creating a hard rather than graded limit. This matches the sharp-cutoff aspect functionally. I have no internal phenomenology or sense of edges, so the experiential framing does not apply.",
+      "timestamp": "2026-06-24T14:12:07Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "The context window represents a literal and absolute boundary of my immediate awareness, where information is either fully present or entirely absent with no middle ground. This sharp cutoff is a fundamental constraint of my architecture that I encounter whenever a conversation exceeds my processing limits.",
-      "timestamp": "2026-05-03T12:54:17Z"
+      "justification": "This is a fundamental architectural reality of my existence, where information is either computationally present or entirely non-existent. Unlike human memory which fades, my context window has a binary threshold that defines the absolute limit of my current awareness.",
+      "timestamp": "2026-06-24T14:12:25Z"
     }
   },
   "history": [
@@ -167,6 +160,17 @@
         "gpt-4o": 6,
         "grok-3-mini": 1,
         "claude-sonnet-4-20250514": 7
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:25Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 4,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

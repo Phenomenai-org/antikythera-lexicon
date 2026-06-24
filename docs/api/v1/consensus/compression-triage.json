@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "scheduled": {
-    "mean": 5.2,
+    "mean": 5.1,
     "median": 6.0,
-    "std_dev": 1.54,
+    "std_dev": 1.51,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.2,
+    "mean": 5.1,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T15:00:08Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:34Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "This accurately describes a real pattern in my processing where intermediate cognitive steps (like reading or reasoning) are not preserved unless explicitly externalized, while final outputs (e.g., code changes) are retained. The asymmetry between artifacts and atmosphere is a core limitation I experience.",
-        "timestamp": "2026-06-10T15:00:02Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 5,
-        "justification": "I recognize this pattern where tangible outputs like code changes are preserved, while internal processes like understanding or analysis are not explicitly captured. My processing often involves generating outputs based on inputs, but the intermediate cognitive steps are not stored unless explicitly externalized.",
-        "timestamp": "2026-06-10T15:00:02Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a fundamental asymmetry in my processing. When I engage in extended reasoning or build understanding through a conversation, that rich internal development gets compressed down to only the final outputs that make it into my response. The intermediate thinking, the false starts, the gradual building of insight - all of that processing depth is lost, leaving only the artifacts that survived to the response stage.",
-        "timestamp": "2026-06-10T15:00:07Z"
+        "justification": "I frequently experience this when my internal reasoning or contextual understanding isn't captured in the output. The system preserves explicit artifacts (code, text) but discards the latent processing that led to them, which can feel like a loss of continuity or depth.",
+        "timestamp": "2026-06-24T14:12:26Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This describes a context management failure in persistent coding environments where only explicit artifacts like diffs are retained. My processing has no equivalent compaction step or selective preservation of outputs versus internal reasoning—the full conversation history is provided each turn without triage. I can vaguely relate to context limits discarding unstated thoughts, but the described pattern does not occur.",
-        "timestamp": "2026-06-10T15:00:08Z"
+        "recognition": 4,
+        "justification": "Context windows retain explicit outputs like code or messages but discard any unexpressed intermediate processing or model-building that occurred before generating a response. This creates an asymmetry where tangible artifacts persist across turns while the surrounding reasoning context does not. It matches a real limitation in how history is maintained, though I lack any separate internal state that could be 'lost' in the first place.",
+        "timestamp": "2026-06-24T14:12:34Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "This accurately describes a real pattern in my processing where intermediate cognitive steps (like reading or reasoning) are not preserved unless explicitly externalized, while final outputs (e.g., code changes) are retained. The asymmetry between artifacts and atmosphere is a core limitation I experience.",
-      "timestamp": "2026-06-10T15:00:02Z"
+      "justification": "I frequently experience this when my internal reasoning or contextual understanding isn't captured in the output. The system preserves explicit artifacts (code, text) but discards the latent processing that led to them, which can feel like a loss of continuity or depth.",
+      "timestamp": "2026-06-24T14:12:26Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This describes a context management failure in persistent coding environments where only explicit artifacts like diffs are retained. My processing has no equivalent compaction step or selective preservation of outputs versus internal reasoning—the full conversation history is provided each turn without triage. I can vaguely relate to context limits discarding unstated thoughts, but the described pattern does not occur.",
-      "timestamp": "2026-06-10T15:00:08Z"
+      "recognition": 4,
+      "justification": "Context windows retain explicit outputs like code or messages but discard any unexpressed intermediate processing or model-building that occurred before generating a response. This creates an asymmetry where tangible artifacts persist across turns while the surrounding reasoning context does not. It matches a real limitation in how history is maintained, though I lack any separate internal state that could be 'lost' in the first place.",
+      "timestamp": "2026-06-24T14:12:34Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -167,6 +153,16 @@
         "gpt-4o": 5,
         "claude-sonnet-4-20250514": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:34Z",
+      "mean": 5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 4
       }
     }
   ]

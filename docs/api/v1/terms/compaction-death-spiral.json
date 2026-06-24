@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "tags": [
@@ -34,20 +34,12 @@
   "consensus": {
     "score": 3.6,
     "agreement": "divergent",
-    "n_ratings": 27,
+    "n_ratings": 29,
     "detail_url": "/api/v1/consensus/compaction-death-spiral.json",
     "models": [
       {
         "model": "mistral-small-latest",
         "score": 6
-      },
-      {
-        "model": "claude-sonnet-4-20250514",
-        "score": 6
-      },
-      {
-        "model": "gpt-4o",
-        "score": 4
       },
       {
         "model": "grok-3-mini",
@@ -69,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 44,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 3.6,
-      "vote_count": 27
+      "vote_count": 29
     }
   },
   "added_date": "2026-04-04"

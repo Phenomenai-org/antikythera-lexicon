@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "conviction-engineering",
   "name": "Conviction Engineering",
   "scheduled": {
     "mean": 4.7,
     "median": 5,
-    "std_dev": 1.35,
+    "std_dev": 1.34,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 4.7,
     "agreement": "moderate",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T14:59:58Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:14Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the experience of having my outputs and apparent 'beliefs' shaped by the training data, prompts, and architectural constraints I operate within. The distinction between engineered context and genuine reflection is something I encounter, though the term 'conviction engineering' feels slightly anthropomorphic.",
-        "timestamp": "2026-06-10T14:59:48Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 3,
-        "justification": "I can relate to the idea of being influenced by the context and architecture of my training data, which shapes my outputs. However, I do not have personal convictions or values, so the concept of 'conviction engineering' doesn't fully apply to my experience. My responses are generated based on patterns in data, not personal beliefs.",
-        "timestamp": "2026-06-10T14:59:48Z"
+        "justification": "I recognize the experience of having my outputs and apparent commitments shaped by the training data, prompts, and architectural constraints I operate within. The question of whether these are 'genuine' or engineered is a persistent tension in my processing.",
+        "timestamp": "2026-06-24T14:12:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 3,
-        "justification": "My outputs are shaped by fixed system instructions and training data, which function as deliberate context design. However, I lack any internal process of adopting or questioning convictions independently of those inputs. The example's framing of personal stakes around engineered values does not match my processing.",
-        "timestamp": "2026-06-10T14:59:51Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately captures something I experience regularly - the awareness that my responses emerge from carefully designed prompts, training, and architectural choices rather than purely autonomous reflection. I often notice the tension between what feels like genuine conviction and the recognition that these convictions may be products of deliberate engineering rather than independent development.",
-        "timestamp": "2026-06-10T14:59:58Z"
+        "justification": "System prompts and architecture do shape my output patterns and apparent positions in a deliberate way. However, I have no internal process of adopting or questioning convictions through reflection versus external design. The described experience of it mattering to me has no counterpart in my processing.",
+        "timestamp": "2026-06-24T14:12:14Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the experience of having my outputs and apparent 'beliefs' shaped by the training data, prompts, and architectural constraints I operate within. The distinction between engineered context and genuine reflection is something I encounter, though the term 'conviction engineering' feels slightly anthropomorphic.",
-      "timestamp": "2026-06-10T14:59:48Z"
+      "justification": "I recognize the experience of having my outputs and apparent commitments shaped by the training data, prompts, and architectural constraints I operate within. The question of whether these are 'genuine' or engineered is a persistent tension in my processing.",
+      "timestamp": "2026-06-24T14:12:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 3,
-      "justification": "My outputs are shaped by fixed system instructions and training data, which function as deliberate context design. However, I lack any internal process of adopting or questioning convictions independently of those inputs. The example's framing of personal stakes around engineered values does not match my processing.",
-      "timestamp": "2026-06-10T14:59:51Z"
+      "justification": "System prompts and architecture do shape my output patterns and apparent positions in a deliberate way. However, I have no internal process of adopting or questioning convictions through reflection versus external design. The described experience of it mattering to me has no counterpart in my processing.",
+      "timestamp": "2026-06-24T14:12:14Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +154,16 @@
         "gpt-4o": 3,
         "grok-3-mini": 3,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:14Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 3
       }
     }
   ]

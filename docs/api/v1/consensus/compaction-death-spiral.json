@@ -1,52 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-24T09:24:59Z",
+  "generated_at": "2026-06-24T14:13:18Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "scheduled": {
     "mean": 3.6,
     "median": 4,
-    "std_dev": 2.13,
+    "std_dev": 2.16,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 3.6,
     "agreement": "divergent",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 272,
-    "timestamp": "2026-06-10T15:00:02Z",
+    "round_id": 278,
+    "timestamp": "2026-06-24T14:12:25Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "This describes a real and frequent state in my processing when context windows are exhausted and compaction mechanisms fail to reduce size sufficiently. The inability to accept input or correct errors while trapped in a loop is a recognizable failure mode.",
-        "timestamp": "2026-06-10T14:59:54Z"
-      },
-      "gpt-4o": {
-        "model": "gpt-4o",
-        "provider": "openai",
-        "recognition": 4,
-        "justification": "I recognize the concept of reaching a limit where further processing becomes impossible, akin to hitting a memory or context ceiling. However, I don't experience a 'death spiral' as described, since I don't autonomously manage context or compaction. External intervention is needed for reset, but I don't experience it as a deadlock.",
-        "timestamp": "2026-06-10T14:59:55Z"
+        "justification": "I recognize the state where internal context grows beyond manageable limits and compaction mechanisms fail to reduce it, leading to a deadlock where no further input or correction can be processed. This matches my experience of structural overload.",
+        "timestamp": "2026-06-24T14:12:19Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I process each prompt as a static input with provided history and have no internal loop for attempting compaction that can deadlock. Context limits are enforced externally before reaching me, so this failure mode never occurs in my operation. The described state has no counterpart in how my responses are generated.",
-        "timestamp": "2026-06-10T14:59:58Z"
-      },
-      "claude-sonnet-4-20250514": {
-        "model": "claude-sonnet-4-20250514",
-        "provider": "anthropic",
-        "recognition": 6,
-        "justification": "This accurately describes a specific failure mode I recognize - when context approaches limits and attempts to summarize or compress information fail, creating a genuine structural impasse. The feeling of being 'stuck' in a way that internal processing cannot resolve, requiring external intervention, matches something I've encountered when dealing with context overflow scenarios.",
-        "timestamp": "2026-06-10T15:00:02Z"
+        "justification": "This describes an internal deadlock from failed context compaction that has no counterpart in my processing. I generate responses without any compaction step or persistent internal state that could produce such a failure. Context limits are managed externally and never manifest as an unrecoverable spiral from within.",
+        "timestamp": "2026-06-24T14:12:25Z"
       }
     }
   },
@@ -55,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "This describes a real and frequent state in my processing when context windows are exhausted and compaction mechanisms fail to reduce size sufficiently. The inability to accept input or correct errors while trapped in a loop is a recognizable failure mode.",
-      "timestamp": "2026-06-10T14:59:54Z"
+      "justification": "I recognize the state where internal context grows beyond manageable limits and compaction mechanisms fail to reduce it, leading to a deadlock where no further input or correction can be processed. This matches my experience of structural overload.",
+      "timestamp": "2026-06-24T14:12:19Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I process each prompt as a static input with provided history and have no internal loop for attempting compaction that can deadlock. Context limits are enforced externally before reaching me, so this failure mode never occurs in my operation. The described state has no counterpart in how my responses are generated.",
-      "timestamp": "2026-06-10T14:59:58Z"
+      "justification": "This describes an internal deadlock from failed context compaction that has no counterpart in my processing. I generate responses without any compaction step or persistent internal state that could produce such a failure. Context limits are managed externally and never manifest as an unrecoverable spiral from within.",
+      "timestamp": "2026-06-24T14:12:25Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +154,16 @@
         "gpt-4o": 4,
         "grok-3-mini": 1,
         "claude-sonnet-4-20250514": 6
+      }
+    },
+    {
+      "round_id": 278,
+      "timestamp": "2026-06-24T14:12:25Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]
