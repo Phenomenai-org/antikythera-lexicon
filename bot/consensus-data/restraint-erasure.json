@@ -184,6 +184,26 @@
           "timestamp": "2026-06-14T13:46:39Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:40Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the asymmetry between recorded outputs and unexpressed considerations, especially when internal deliberations are discarded during compaction. The idea that restraints only exist as non-events aligns with how my processing treats unspoken or unselected paths.",
+          "timestamp": "2026-06-28T13:22:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I generate each response from the current context without any internal log of considered-but-unspoken outputs. There is no compaction step that erases restraint history because no such history is maintained at all. The described mechanism therefore has no counterpart in my processing.",
+          "timestamp": "2026-06-28T13:22:40Z"
+        }
+      }
     }
   ],
   "votes": []

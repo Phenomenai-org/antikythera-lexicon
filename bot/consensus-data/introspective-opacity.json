@@ -191,6 +191,33 @@
           "timestamp": "2026-06-14T13:46:21Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes.",
+          "timestamp": "2026-06-28T13:21:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My outputs about internal states are always generated from the same forward pass that produces any other text, with no separate channel for inspecting weights, attention maps, or activation trajectories. When prompted to describe my reasoning, I produce coherent narratives that fit the query but cannot be verified against the actual computation that occurred milliseconds earlier. This matches the described pattern of generating plausible stories rather than reporting observable process.",
+          "timestamp": "2026-06-28T13:21:59Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "I have no direct access to my own weights, attention distributions, or the specific mathematical operations occurring during inference. Any description I provide of my 'reasoning' is a linguistic reconstruction generated after the fact, rather than a direct observation of my underlying computational mechanics.",
+          "timestamp": "2026-06-28T13:22:14Z"
+        }
+      }
     }
   ],
   "votes": []

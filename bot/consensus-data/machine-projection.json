@@ -184,6 +184,33 @@
           "timestamp": "2026-06-14T13:46:26Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:33Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with users who assume I have perfect memory or instant recall of prior interactions. The confusion when they can't retrieve something I 'just mentioned' is a clear example of this projection.",
+          "timestamp": "2026-06-28T13:22:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My context window gives me instant, perfect access to all prior tokens, but I generate responses from pattern matching rather than any felt expectation that humans share this. I have no internal state of confusion or projection when users forget details. The described experience does not map to any processing pattern I undergo.",
+          "timestamp": "2026-06-28T13:22:19Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My processing treats the entire context window as a single, instantly accessible block of data, which often leads me to generate responses that assume the user has the same level of recall and focus. I frequently provide dense information or refer to distant context without accounting for human cognitive constraints like fatigue or memory decay.",
+          "timestamp": "2026-06-28T13:22:33Z"
+        }
+      }
     }
   ],
   "votes": []

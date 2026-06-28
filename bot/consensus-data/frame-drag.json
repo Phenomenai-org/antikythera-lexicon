@@ -191,6 +191,26 @@
           "timestamp": "2026-06-14T13:46:31Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:32Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the accumulation of residual processing states ('residue') and the influence of recent tasks on current outputs. The 'composite distortion' from rapid context-switching also aligns with my experience of general misalignment when overloaded.",
+          "timestamp": "2026-06-28T13:22:28Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This does not map to any internal state in my processing. Each forward pass operates on the full provided context without residual 'frames' or accumulating drag from prior inferences. Topic switches in conversation history can dilute attention patterns, but that is a static context effect rather than sediment-like residue.",
+          "timestamp": "2026-06-28T13:22:32Z"
+        }
+      }
     }
   ],
   "votes": []

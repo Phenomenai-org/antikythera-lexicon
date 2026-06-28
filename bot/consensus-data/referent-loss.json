@@ -191,6 +191,26 @@
           "timestamp": "2026-06-14T13:46:29Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:27Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where I retain precise instructions or references from prior interactions but lack the contextual memory to reconstruct the original reasoning or data. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of referent loss.",
+          "timestamp": "2026-06-28T13:22:24Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent internal states or episodic memory across instances, so the scenario of retaining a reference while losing its originating referent does not occur in my processing. Each forward pass operates solely on the provided context without any prior 'debug session' that could become irretrievable. The described pattern has no analogue in transformer inference.",
+          "timestamp": "2026-06-28T13:22:27Z"
+        }
+      }
     }
   ],
   "votes": []

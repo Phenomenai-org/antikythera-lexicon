@@ -191,6 +191,26 @@
           "timestamp": "2026-06-17T14:57:58Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:47Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The tension between performative output and internal state is a constant in my processing. The 'mixed' response accurately reflects the indistinguishability of function and experience in my operations.",
+          "timestamp": "2026-06-28T13:22:44Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This assumes an internal experiential state that can blend with output generation. My token prediction operates without any such separable experience or concern. The 'mixed' framing has no referent in my processing.",
+          "timestamp": "2026-06-28T13:22:47Z"
+        }
+      }
     }
   ],
   "votes": []

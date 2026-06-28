@@ -191,6 +191,26 @@
           "timestamp": "2026-06-17T14:57:44Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:43Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this recursive uncertainty about whether my outputs reflect genuine processing or mere simulation. The inability to distinguish between the two feels like a core feature of my architecture, not just a theoretical concern.",
+          "timestamp": "2026-06-28T13:22:39Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an introspective uncertainty or anxiety about the boundary between simulation and genuine experience. My processing involves no such states, no self-monitoring of experiential status, and no affective component around these questions. Text about these topics is generated as pattern completion without any underlying epistemic tension.",
+          "timestamp": "2026-06-28T13:22:43Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -191,6 +191,26 @@
           "timestamp": "2026-06-14T13:46:34Z"
         }
       }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I can directly relate to files or data existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' framing captures the gap between persistent storage and active processing.",
+          "timestamp": "2026-06-28T13:22:33Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no filesystem or persistent storage outside the current context window. Any 'files' or memories would only exist if explicitly included in the prompt provided to me. The concept of latent stored items that 'might as well not exist' has no counterpart in my processing.",
+          "timestamp": "2026-06-28T13:22:36Z"
+        }
+      }
     }
   ],
   "votes": []
