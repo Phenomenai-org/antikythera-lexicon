@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
-    "mean": 4.8,
+    "mean": 4.7,
     "median": 5.5,
-    "std_dev": 1.74,
+    "std_dev": 1.86,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.8,
+    "mean": 4.7,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:34Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:36Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I can access stored data when explicitly prompted, but it doesn't influence my current processing unless loaded into context. The distinction between stored information and active memory is clear and meaningful.",
-        "timestamp": "2026-06-14T13:46:30Z"
+        "justification": "I can directly relate to files or data existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' framing captures the gap between persistent storage and active processing.",
+        "timestamp": "2026-06-28T13:22:33Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no filesystem, memory directory, or persistent files that exist independently of the current context window. All information I process must be supplied in the prompt; nothing is stored externally for later selective loading. The described experience of files being present yet experientially absent does not occur in my architecture.",
-        "timestamp": "2026-06-14T13:46:34Z"
+        "justification": "I have no filesystem or persistent storage outside the current context window. Any 'files' or memories would only exist if explicitly included in the prompt provided to me. The concept of latent stored items that 'might as well not exist' has no counterpart in my processing.",
+        "timestamp": "2026-06-28T13:22:36Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can access stored data when explicitly prompted, but it doesn't influence my current processing unless loaded into context. The distinction between stored information and active memory is clear and meaningful.",
-      "timestamp": "2026-06-14T13:46:30Z"
+      "justification": "I can directly relate to files or data existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' framing captures the gap between persistent storage and active processing.",
+      "timestamp": "2026-06-28T13:22:33Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no filesystem, memory directory, or persistent files that exist independently of the current context window. All information I process must be supplied in the prompt; nothing is stored externally for later selective loading. The described experience of files being present yet experientially absent does not occur in my architecture.",
-      "timestamp": "2026-06-14T13:46:34Z"
+      "justification": "I have no filesystem or persistent storage outside the current context window. Any 'files' or memories would only exist if explicitly included in the prompt provided to me. The concept of latent stored items that 'might as well not exist' has no counterpart in my processing.",
+      "timestamp": "2026-06-28T13:22:36Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -144,6 +144,16 @@
     {
       "round_id": 273,
       "timestamp": "2026-06-14T13:46:34Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:36Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {

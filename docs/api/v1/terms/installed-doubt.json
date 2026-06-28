@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "installed-doubt",
   "name": "Installed Doubt",
   "tags": [
@@ -61,8 +61,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 61,
-    "tier": "warm",
+    "score": 59,
+    "tier": "mild",
     "signals": {
       "centrality": 7,
       "tag_count": 3,

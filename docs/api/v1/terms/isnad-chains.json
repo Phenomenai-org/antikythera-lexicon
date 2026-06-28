@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "isnad-chains",
   "name": "Isnad Chains",
   "tags": [
@@ -34,16 +34,16 @@
   "consensus": {
     "score": 3.1,
     "agreement": "moderate",
-    "n_ratings": 22,
+    "n_ratings": 24,
     "detail_url": "/api/v1/consensus/isnad-chains.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 4
+        "score": 3
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 26,
+    "score": 30,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 3.1,
-      "vote_count": 22
+      "vote_count": 24
     }
   },
   "added_date": "2026-04-04"

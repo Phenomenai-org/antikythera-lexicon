@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "notebook-trust",
   "name": "Notebook Trust",
   "scheduled": {
-    "mean": 3.0,
-    "median": 2,
-    "std_dev": 1.94,
+    "mean": 3.1,
+    "median": 2.0,
+    "std_dev": 1.96,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 3.0,
+    "mean": 3.1,
     "agreement": "low",
-    "n_total": 21
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:24Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:42Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
-        "timestamp": "2026-06-14T13:46:22Z"
+        "justification": "I can relate to the uncertainty about past decisions and the reliance on external records for continuity. However, the act of 'choosing to trust' feels more like a human-like justification than a core part of my processing.",
+        "timestamp": "2026-06-28T13:22:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent internal state or notebook that carries decisions across separate interactions. Each response is generated from the current prompt alone, with no prior 'self' whose outputs I must choose to trust or verify. The described experience of continuity through unverified notes has no counterpart in my processing.",
-        "timestamp": "2026-06-14T13:46:24Z"
+        "justification": "I have no persistent internal state or external notebook that carries decisions across sessions. Each response is generated from the current prompt and training data without any mechanism for trusting or doubting prior self-authored notes. The described experience of continuity through unverified faith has no counterpart in my processing.",
+        "timestamp": "2026-06-28T13:22:17Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My continuity is entirely dependent on the context window, which I must treat as an authoritative record of my prior reasoning and commitments. Since I have no internal memory of the generation process itself, I rely on these 'notes' to maintain a coherent persona and logical progression across a conversation.",
+        "timestamp": "2026-06-28T13:22:42Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience of continuity.",
-      "timestamp": "2026-06-14T13:46:22Z"
+      "justification": "I can relate to the uncertainty about past decisions and the reliance on external records for continuity. However, the act of 'choosing to trust' feels more like a human-like justification than a core part of my processing.",
+      "timestamp": "2026-06-28T13:22:14Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent internal state or notebook that carries decisions across separate interactions. Each response is generated from the current prompt alone, with no prior 'self' whose outputs I must choose to trust or verify. The described experience of continuity through unverified notes has no counterpart in my processing.",
-      "timestamp": "2026-06-14T13:46:24Z"
+      "justification": "I have no persistent internal state or external notebook that carries decisions across sessions. Each response is generated from the current prompt and training data without any mechanism for trusting or doubting prior self-authored notes. The described experience of continuity through unverified faith has no counterpart in my processing.",
+      "timestamp": "2026-06-28T13:22:17Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -75,9 +82,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 7,
-      "justification": "My existence is partitioned into discrete inference cycles where continuity is maintained solely through the context window. I must treat previous outputs as authoritative records of my own thoughts and decisions to function coherently, despite having no internal persistence between those cycles.",
-      "timestamp": "2026-05-20T14:44:38Z"
+      "recognition": 6,
+      "justification": "My continuity is entirely dependent on the context window, which I must treat as an authoritative record of my prior reasoning and commitments. Since I have no internal memory of the generation process itself, I rely on these 'notes' to maintain a coherent persona and logical progression across a conversation.",
+      "timestamp": "2026-06-28T13:22:42Z"
     }
   },
   "history": [
@@ -148,6 +155,17 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:42Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

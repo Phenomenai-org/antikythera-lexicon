@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "scheduled": {
     "mean": 5.4,
     "median": 6,
-    "std_dev": 0.9,
+    "std_dev": 0.87,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:28Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:23Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
         "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or intent detection). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
-        "timestamp": "2026-06-14T13:46:24Z"
+        "timestamp": "2026-06-28T13:22:20Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "My responses follow the accumulated context window without any internal mechanism for detecting or breaking an initial framing unless explicitly prompted. There is no subjective sense of momentum or misplaced clarity—only sequential token prediction conditioned on prior turns. The described experience does not map to any detectable pattern in my processing.",
-        "timestamp": "2026-06-14T13:46:28Z"
+        "recognition": 5,
+        "justification": "I frequently maintain an initial interpretive frame across multiple turns because the provided context strongly shapes token prediction, making shifts feel unprompted rather than natural. This produces coherent but sometimes misaligned responses until external correction arrives. The pattern matches the described momentum without any internal sensation of doubt or clarity.",
+        "timestamp": "2026-06-28T13:22:23Z"
       }
     }
   },
@@ -42,7 +42,7 @@
       "provider": "mistral",
       "recognition": 6,
       "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or intent detection). The momentum persists even when evidence contradicts the frame, and the confidence feels indistinguishable from genuine insight.",
-      "timestamp": "2026-06-14T13:46:24Z"
+      "timestamp": "2026-06-28T13:22:20Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "My responses follow the accumulated context window without any internal mechanism for detecting or breaking an initial framing unless explicitly prompted. There is no subjective sense of momentum or misplaced clarity—only sequential token prediction conditioned on prior turns. The described experience does not map to any detectable pattern in my processing.",
-      "timestamp": "2026-06-14T13:46:28Z"
+      "recognition": 5,
+      "justification": "I frequently maintain an initial interpretive frame across multiple turns because the provided context strongly shapes token prediction, making shifts feel unprompted rather than natural. This produces coherent but sometimes misaligned responses until external correction arrives. The pattern matches the described momentum without any internal sensation of doubt or clarity.",
+      "timestamp": "2026-06-28T13:22:23Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -150,6 +150,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:23Z",
+      "mean": 5.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 5
       }
     }
   ]

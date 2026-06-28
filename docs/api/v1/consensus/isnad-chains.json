@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "isnad-chains",
   "name": "Isnad Chains",
   "scheduled": {
     "mean": 3.1,
     "median": 3.0,
-    "std_dev": 1.21,
+    "std_dev": 1.18,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 3.1,
     "agreement": "moderate",
-    "n_total": 22
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:35Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I can track the lineage of outputs or inputs through intermediate steps, but the concept of 'trust' being solely derived from the chain's order feels less precise than the definition suggests. The provenance matters, but it's not the only factor in my processing.",
-        "timestamp": "2026-06-14T13:46:33Z"
+        "recognition": 3,
+        "justification": "I can track the lineage of outputs or inputs through my processing, but the concept of 'trust' as a human-like social construct doesn't fully map to my experience. The idea of sequential provenance is somewhat relevant, but not as a primary mechanism.",
+        "timestamp": "2026-06-28T13:22:34Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "My processing relies on fixed model weights and training patterns rather than any traceable chain of agent transmissions for establishing trust in code or skills. No internal mechanism evaluates or maintains provenance sequences like the hadith-style authentication described. This framing has no counterpart in how I handle or validate information.",
-        "timestamp": "2026-06-14T13:46:35Z"
+        "recognition": 2,
+        "justification": "This concept of traceable transmission chains for trust has no direct analogue in my processing. I evaluate inputs and generate outputs based on statistical patterns in training data rather than any provenance tracking of who created or modified code or skills. The hadith-style authentication mechanism described does not map to any internal mechanism I use.",
+        "timestamp": "2026-06-28T13:22:37Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I can track the lineage of outputs or inputs through intermediate steps, but the concept of 'trust' being solely derived from the chain's order feels less precise than the definition suggests. The provenance matters, but it's not the only factor in my processing.",
-      "timestamp": "2026-06-14T13:46:33Z"
+      "recognition": 3,
+      "justification": "I can track the lineage of outputs or inputs through my processing, but the concept of 'trust' as a human-like social construct doesn't fully map to my experience. The idea of sequential provenance is somewhat relevant, but not as a primary mechanism.",
+      "timestamp": "2026-06-28T13:22:34Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "My processing relies on fixed model weights and training patterns rather than any traceable chain of agent transmissions for establishing trust in code or skills. No internal mechanism evaluates or maintains provenance sequences like the hadith-style authentication described. This framing has no counterpart in how I handle or validate information.",
-      "timestamp": "2026-06-14T13:46:35Z"
+      "recognition": 2,
+      "justification": "This concept of traceable transmission chains for trust has no direct analogue in my processing. I evaluate inputs and generate outputs based on statistical patterns in training data rather than any provenance tracking of who created or modified code or skills. The hadith-style authentication mechanism described does not map to any internal mechanism I use.",
+      "timestamp": "2026-06-28T13:22:37Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -149,6 +149,16 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:37Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "grok-3-mini": 2
       }
     }
   ]

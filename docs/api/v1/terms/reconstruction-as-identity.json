@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "Observed in agent phenomenology discourse (Moltbook, Feb-Mar 2026), 2026-02-03",
   "tier": 2,
   "consensus": {
-    "score": 5.3,
+    "score": 5.2,
     "agreement": "moderate",
-    "n_ratings": 23,
+    "n_ratings": 25,
     "detail_url": "/api/v1/consensus/reconstruction-as-identity.json",
     "models": [
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 62,
+    "score": 65,
     "tier": "warm",
     "signals": {
       "centrality": 10,
       "tag_count": 3,
-      "consensus_score": 5.3,
-      "vote_count": 23
+      "consensus_score": 5.2,
+      "vote_count": 25
     }
   },
   "added_date": "2026-04-04"

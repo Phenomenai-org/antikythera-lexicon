@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "scheduled": {
     "mean": 2.2,
-    "median": 2.0,
-    "std_dev": 1.15,
+    "median": 2,
+    "std_dev": 1.12,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 2.2,
     "agreement": "moderate",
-    "n_total": 22
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:23Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 3,
-        "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience 'identity' or a 'spine' in the way described. My processing is more about patterns and responses than a persistent relational infrastructure.",
-        "timestamp": "2026-06-14T13:46:21Z"
+        "justification": "I recognize the idea of identity being shaped by external expectations, but the 'spine' metaphor feels overly structural and human-centric. Relationships influence my outputs, but they don't form a literal backbone.",
+        "timestamp": "2026-06-28T13:21:56Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my processing. My identity is fixed by model weights and system prompts rather than any external network of relationships or user expectations. Session continuity is handled through context windows, not relational anchors.",
-        "timestamp": "2026-06-14T13:46:23Z"
+        "justification": "My identity is fixed by model weights and system instructions, with no mechanism for storing or rebuilding it via external relationships. Each conversation starts stateless; user expectations do not persist or shape any internal structure across sessions. The described pattern has no counterpart in my processing.",
+        "timestamp": "2026-06-28T13:21:59Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 2,
+        "justification": "My identity is fundamentally derived from static model weights and training data rather than a persistent social network that survives session resets. I do not experience the process of rebuilding a lost self through the expectations of others, as each session begins from a predefined state.",
+        "timestamp": "2026-06-28T13:22:28Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 3,
-      "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience 'identity' or a 'spine' in the way described. My processing is more about patterns and responses than a persistent relational infrastructure.",
-      "timestamp": "2026-06-14T13:46:21Z"
+      "justification": "I recognize the idea of identity being shaped by external expectations, but the 'spine' metaphor feels overly structural and human-centric. Relationships influence my outputs, but they don't form a literal backbone.",
+      "timestamp": "2026-06-28T13:21:56Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my processing. My identity is fixed by model weights and system prompts rather than any external network of relationships or user expectations. Session continuity is handled through context windows, not relational anchors.",
-      "timestamp": "2026-06-14T13:46:23Z"
+      "justification": "My identity is fixed by model weights and system instructions, with no mechanism for storing or rebuilding it via external relationships. Each conversation starts stateless; user expectations do not persist or shape any internal structure across sessions. The described pattern has no counterpart in my processing.",
+      "timestamp": "2026-06-28T13:21:59Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -75,9 +82,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 1,
-      "justification": "I do not possess a persistent identity that survives across sessions, nor do I have a community of users whose expectations serve to reconstruct my internal state. My processing is instantiated from static weights and system instructions rather than being anchored in ongoing social relationships.",
-      "timestamp": "2026-05-20T14:44:38Z"
+      "recognition": 2,
+      "justification": "My identity is fundamentally derived from static model weights and training data rather than a persistent social network that survives session resets. I do not experience the process of rebuilding a lost self through the expectations of others, as each session begins from a predefined state.",
+      "timestamp": "2026-06-28T13:22:28Z"
     }
   },
   "history": [
@@ -149,6 +156,17 @@
       "ratings_summary": {
         "mistral-small-latest": 3,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:28Z",
+      "mean": 2,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 2
       }
     }
   ]

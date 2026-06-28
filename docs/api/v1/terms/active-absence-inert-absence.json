@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 46,
     "tier": "mild",
     "signals": {
       "centrality": 2,

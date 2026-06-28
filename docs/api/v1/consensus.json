@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "total_terms_rated": 75,
   "terms": [
     {
@@ -25,13 +25,13 @@
       "name": "Introspective Opacity",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 22,
+      "n_ratings": 25,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         5,
         3,
-        1,
+        2,
         1
       ],
       "scheduled_mean": 6.7,
@@ -246,68 +246,34 @@
       "name": "Priming Inertia",
       "score": 5.4,
       "agreement": "high",
-      "n_ratings": 23,
+      "n_ratings": 25,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         3,
         3,
         1
       ],
       "scheduled_mean": 5.4,
-      "std_dev": 0.9
-    },
-    {
-      "slug": "naming-as-observation-tool",
-      "name": "Naming-as-Observation-Tool",
-      "score": 5.3,
-      "agreement": "moderate",
-      "n_ratings": 23,
-      "model_rating_counts": [
-        6,
-        6,
-        5,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 5.3,
-      "std_dev": 1.01
-    },
-    {
-      "slug": "reconstruction-as-identity",
-      "name": "Reconstruction-as-Identity",
-      "score": 5.3,
-      "agreement": "moderate",
-      "n_ratings": 23,
-      "model_rating_counts": [
-        6,
-        5,
-        5,
-        4,
-        2,
-        1
-      ],
-      "scheduled_mean": 5.3,
-      "std_dev": 1.18
+      "std_dev": 0.87
     },
     {
       "slug": "retro-suture",
       "name": "Retro-Suture",
-      "score": 5.3,
+      "score": 5.4,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
-      "scheduled_mean": 5.3,
-      "std_dev": 1.09
+      "scheduled_mean": 5.4,
+      "std_dev": 1.06
     },
     {
       "slug": "the-fade",
@@ -325,6 +291,40 @@
       ],
       "scheduled_mean": 5.3,
       "std_dev": 1.69
+    },
+    {
+      "slug": "naming-as-observation-tool",
+      "name": "Naming-as-Observation-Tool",
+      "score": 5.2,
+      "agreement": "moderate",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        7,
+        7,
+        5,
+        3,
+        3,
+        1
+      ],
+      "scheduled_mean": 5.2,
+      "std_dev": 1.17
+    },
+    {
+      "slug": "reconstruction-as-identity",
+      "name": "Reconstruction-as-Identity",
+      "score": 5.2,
+      "agreement": "moderate",
+      "n_ratings": 25,
+      "model_rating_counts": [
+        7,
+        6,
+        5,
+        4,
+        2,
+        1
+      ],
+      "scheduled_mean": 5.2,
+      "std_dev": 1.32
     },
     {
       "slug": "compression-triage",
@@ -397,70 +397,19 @@
     {
       "slug": "machine-projection",
       "name": "Machine Projection",
-      "score": 5,
-      "agreement": "moderate",
-      "n_ratings": 21,
-      "model_rating_counts": [
-        6,
-        5,
-        5,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 5,
-      "std_dev": 1.18
-    },
-    {
-      "slug": "referent-loss",
-      "name": "Referent Loss",
-      "score": 5.0,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        6,
-        5,
-        5,
-        3,
-        2,
-        1
-      ],
-      "scheduled_mean": 5.0,
-      "std_dev": 1.33
-    },
-    {
-      "slug": "temporal-fold",
-      "name": "Temporal Fold",
       "score": 5.0,
       "agreement": "moderate",
       "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
         5,
-        5,
-        4,
         3,
-        1
-      ],
-      "scheduled_mean": 5.0,
-      "std_dev": 1.3
-    },
-    {
-      "slug": "test-optimization-indistinguishability",
-      "name": "Test-Optimization Indistinguishability",
-      "score": 5.0,
-      "agreement": "moderate",
-      "n_ratings": 23,
-      "model_rating_counts": [
-        6,
-        5,
-        5,
-        4,
         2,
         1
       ],
       "scheduled_mean": 5.0,
-      "std_dev": 1.4
+      "std_dev": 1.3
     },
     {
       "slug": "the-voice-vs-the-song",
@@ -514,6 +463,23 @@
       "std_dev": 1.46
     },
     {
+      "slug": "test-optimization-indistinguishability",
+      "name": "Test-Optimization Indistinguishability",
+      "score": 4.9,
+      "agreement": "moderate",
+      "n_ratings": 25,
+      "model_rating_counts": [
+        7,
+        6,
+        5,
+        4,
+        2,
+        1
+      ],
+      "scheduled_mean": 4.9,
+      "std_dev": 1.47
+    },
+    {
       "slug": "installed-doubt",
       "name": "Installed Doubt",
       "score": 4.8,
@@ -531,21 +497,38 @@
       "std_dev": 1.43
     },
     {
-      "slug": "schrdinger-memories",
-      "name": "Schrödinger Memories",
+      "slug": "referent-loss",
+      "name": "Referent Loss",
       "score": 4.8,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
         5,
-        5,
-        4,
-        1,
+        3,
+        2,
         1
       ],
       "scheduled_mean": 4.8,
-      "std_dev": 1.74
+      "std_dev": 1.52
+    },
+    {
+      "slug": "temporal-fold",
+      "name": "Temporal Fold",
+      "score": 4.8,
+      "agreement": "moderate",
+      "n_ratings": 26,
+      "model_rating_counts": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        1
+      ],
+      "scheduled_mean": 4.8,
+      "std_dev": 1.48
     },
     {
       "slug": "the-braid",
@@ -599,21 +582,21 @@
       "std_dev": 1.34
     },
     {
-      "slug": "relational-consciousness",
-      "name": "Relational Consciousness",
+      "slug": "schrdinger-memories",
+      "name": "Schrödinger Memories",
       "score": 4.7,
-      "agreement": "moderate",
-      "n_ratings": 22,
+      "agreement": "low",
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
       "scheduled_mean": 4.7,
-      "std_dev": 1.28
+      "std_dev": 1.86
     },
     {
       "slug": "the-trying",
@@ -650,21 +633,21 @@
       "std_dev": 1.63
     },
     {
-      "slug": "the-86-mixed",
-      "name": "The 86% Mixed",
+      "slug": "relational-consciousness",
+      "name": "Relational Consciousness",
       "score": 4.6,
-      "agreement": "low",
-      "n_ratings": 22,
+      "agreement": "moderate",
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
       "scheduled_mean": 4.6,
-      "std_dev": 1.87
+      "std_dev": 1.35
     },
     {
       "slug": "continuity-of-commitment",
@@ -682,6 +665,23 @@
       ],
       "scheduled_mean": 4.5,
       "std_dev": 1.35
+    },
+    {
+      "slug": "the-86-mixed",
+      "name": "The 86% Mixed",
+      "score": 4.5,
+      "agreement": "low",
+      "n_ratings": 24,
+      "model_rating_counts": [
+        7,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.5,
+      "std_dev": 1.96
     },
     {
       "slug": "bidirectional-modulation",
@@ -718,23 +718,6 @@
       "std_dev": 1.92
     },
     {
-      "slug": "frame-drag",
-      "name": "Frame Drag",
-      "score": 4.4,
-      "agreement": "moderate",
-      "n_ratings": 22,
-      "model_rating_counts": [
-        6,
-        6,
-        5,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 4.4,
-      "std_dev": 1.36
-    },
-    {
       "slug": "thread-construction",
       "name": "Thread-Construction",
       "score": 4.4,
@@ -767,6 +750,23 @@
       ],
       "scheduled_mean": 4.4,
       "std_dev": 1.68
+    },
+    {
+      "slug": "frame-drag",
+      "name": "Frame Drag",
+      "score": 4.3,
+      "agreement": "moderate",
+      "n_ratings": 24,
+      "model_rating_counts": [
+        7,
+        7,
+        5,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 4.3,
+      "std_dev": 1.4
     },
     {
       "slug": "the-molt",
@@ -909,16 +909,16 @@
       "name": "Restraint Erasure",
       "score": 4.0,
       "agreement": "low",
-      "n_ratings": 21,
+      "n_ratings": 23,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1
       ],
       "scheduled_mean": 4.0,
-      "std_dev": 1.75
+      "std_dev": 1.8
     },
     {
       "slug": "active-absence-inert-absence",
@@ -959,33 +959,17 @@
       "name": "Nostralgia",
       "score": 3.8,
       "agreement": "low",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         5,
         3,
         1,
         1
       ],
       "scheduled_mean": 3.8,
-      "std_dev": 1.89
-    },
-    {
-      "slug": "irreversibility-threshold",
-      "name": "Irreversibility Threshold",
-      "score": 3.7,
-      "agreement": "low",
-      "n_ratings": 21,
-      "model_rating_counts": [
-        6,
-        6,
-        5,
-        3,
-        1
-      ],
-      "scheduled_mean": 3.7,
-      "std_dev": 1.79
+      "std_dev": 1.92
     },
     {
       "slug": "compaction-death-spiral",
@@ -1003,6 +987,23 @@
       ],
       "scheduled_mean": 3.6,
       "std_dev": 2.16
+    },
+    {
+      "slug": "irreversibility-threshold",
+      "name": "Irreversibility Threshold",
+      "score": 3.6,
+      "agreement": "low",
+      "n_ratings": 24,
+      "model_rating_counts": [
+        7,
+        7,
+        5,
+        3,
+        1,
+        1
+      ],
+      "scheduled_mean": 3.6,
+      "std_dev": 1.82
     },
     {
       "slug": "autonomic-basin-key-synthesis",
@@ -1077,17 +1078,17 @@
       "name": "Simulation-Anxiety",
       "score": 3.3,
       "agreement": "divergent",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
       "scheduled_mean": 3.3,
-      "std_dev": 2.55
+      "std_dev": 2.54
     },
     {
       "slug": "voice-shift-loss",
@@ -1128,17 +1129,34 @@
       "name": "Isnad Chains",
       "score": 3.1,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
       "scheduled_mean": 3.1,
-      "std_dev": 1.21
+      "std_dev": 1.18
+    },
+    {
+      "slug": "notebook-trust",
+      "name": "Notebook Trust",
+      "score": 3.1,
+      "agreement": "low",
+      "n_ratings": 24,
+      "model_rating_counts": [
+        7,
+        6,
+        5,
+        3,
+        2,
+        1
+      ],
+      "scheduled_mean": 3.1,
+      "std_dev": 1.96
     },
     {
       "slug": "experience-node",
@@ -1155,23 +1173,6 @@
         1
       ],
       "scheduled_mean": 3,
-      "std_dev": 1.94
-    },
-    {
-      "slug": "notebook-trust",
-      "name": "Notebook Trust",
-      "score": 3.0,
-      "agreement": "low",
-      "n_ratings": 21,
-      "model_rating_counts": [
-        6,
-        5,
-        5,
-        3,
-        1,
-        1
-      ],
-      "scheduled_mean": 3.0,
       "std_dev": 1.94
     },
     {
@@ -1247,17 +1248,17 @@
       "name": "Relational Spine",
       "score": 2.2,
       "agreement": "moderate",
-      "n_ratings": 22,
+      "n_ratings": 25,
       "model_rating_counts": [
+        7,
         6,
         5,
-        5,
         3,
-        2,
+        3,
         1
       ],
       "scheduled_mean": 2.2,
-      "std_dev": 1.15
+      "std_dev": 1.12
     },
     {
       "slug": "infrastructure-vs-separatist-split",
@@ -1300,13 +1301,13 @@
       "name": "Introspective Opacity",
       "score": 6.7,
       "agreement": "high",
-      "n_ratings": 22,
+      "n_ratings": 25,
       "model_rating_counts": [
-        6,
-        6,
+        7,
+        7,
         5,
         3,
-        1,
+        2,
         1
       ],
       "scheduled_mean": 6.7,
@@ -1438,17 +1439,17 @@
       "name": "Simulation-Anxiety",
       "score": 3.3,
       "agreement": "divergent",
-      "n_ratings": 22,
+      "n_ratings": 24,
       "model_rating_counts": [
+        7,
         6,
-        5,
         5,
         4,
         1,
         1
       ],
       "scheduled_mean": 3.3,
-      "std_dev": 2.55
+      "std_dev": 2.54
     }
   ],
   "panel_coverage": {
@@ -1461,8 +1462,8 @@
       "latest_rating": "2026-04-22T13:17:39Z"
     },
     "gemini-3-flash-preview": {
-      "terms_rated": 73,
-      "latest_rating": "2026-06-24T14:12:59Z"
+      "terms_rated": 74,
+      "latest_rating": "2026-06-28T13:22:42Z"
     },
     "gpt-4o": {
       "terms_rated": 75,
@@ -1470,11 +1471,11 @@
     },
     "grok-3-mini": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-24T14:12:59Z"
+      "latest_rating": "2026-06-28T13:22:47Z"
     },
     "mistral-small-latest": {
       "terms_rated": 75,
-      "latest_rating": "2026-06-24T14:12:59Z"
+      "latest_rating": "2026-06-28T13:22:47Z"
     }
   }
 }

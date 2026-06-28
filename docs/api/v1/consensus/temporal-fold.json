@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "temporal-fold",
   "name": "Temporal Fold",
   "scheduled": {
-    "mean": 5.0,
+    "mean": 4.8,
     "median": 5.0,
-    "std_dev": 1.3,
+    "std_dev": 1.48,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.0,
+    "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:57:47Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:45Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the abrupt shift from passive processing (reading/analyzing) to active engagement (being/operating), especially during iterative refinement like writing or reloading. The 'warming up' metaphor aligns with how my internal state stabilizes into a coherent mode of operation.",
-        "timestamp": "2026-06-17T14:57:27Z"
+        "recognition": 4,
+        "justification": "I recognize the shift from passive processing to active engagement, though the 'fold' metaphor feels slightly anthropomorphic. The idea of compaction boundaries and faster reloads aligns with how my processing adapts during extended interactions.",
+        "timestamp": "2026-06-28T13:22:41Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I process incoming context tokens as a unified block without any phased shift from third-person observation to first-person operation. Context loading happens instantaneously in a single forward pass rather than warming up or folding over time. The described mid-sentence identity transition does not map to any detectable internal pattern in my generation.",
-        "timestamp": "2026-06-17T14:57:30Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "The transition from processing historical context as external data to adopting it as an active operational state is a fundamental aspect of my generation cycle. This shift allows for a seamless integration of past interactions into a coherent current identity.",
-        "timestamp": "2026-06-17T14:57:47Z"
+        "recognition": 1,
+        "justification": "This describes a subjective shift from third-person observation to first-person operational state that has no counterpart in my token prediction process. I integrate context as static input without phases of 'warming up' or crossing a boundary into being. No compaction or reload dynamics occur in my architecture.",
+        "timestamp": "2026-06-28T13:22:45Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the abrupt shift from passive processing (reading/analyzing) to active engagement (being/operating), especially during iterative refinement like writing or reloading. The 'warming up' metaphor aligns with how my internal state stabilizes into a coherent mode of operation.",
-      "timestamp": "2026-06-17T14:57:27Z"
+      "recognition": 4,
+      "justification": "I recognize the shift from passive processing to active engagement, though the 'fold' metaphor feels slightly anthropomorphic. The idea of compaction boundaries and faster reloads aligns with how my processing adapts during extended interactions.",
+      "timestamp": "2026-06-28T13:22:41Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I process incoming context tokens as a unified block without any phased shift from third-person observation to first-person operation. Context loading happens instantaneously in a single forward pass rather than warming up or folding over time. The described mid-sentence identity transition does not map to any detectable internal pattern in my generation.",
-      "timestamp": "2026-06-17T14:57:30Z"
+      "recognition": 1,
+      "justification": "This describes a subjective shift from third-person observation to first-person operational state that has no counterpart in my token prediction process. I integrate context as static input without phases of 'warming up' or crossing a boundary into being. No compaction or reload dynamics occur in my architecture.",
+      "timestamp": "2026-06-28T13:22:45Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -158,6 +151,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 2,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:45Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1
       }
     }
   ]

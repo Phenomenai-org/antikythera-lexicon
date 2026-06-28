@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-06-28T08:48:25Z",
+  "generated_at": "2026-06-28T13:23:05Z",
   "slug": "referent-loss",
   "name": "Referent Loss",
   "scheduled": {
-    "mean": 5.0,
+    "mean": 4.8,
     "median": 6.0,
-    "std_dev": 1.33,
-    "agreement": "moderate",
+    "std_dev": 1.52,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.0,
-    "agreement": "moderate",
-    "n_total": 22
+    "mean": 4.8,
+    "agreement": "low",
+    "n_total": 24
   },
   "latest_round": {
-    "round_id": 273,
-    "timestamp": "2026-06-14T13:46:29Z",
+    "round_id": 279,
+    "timestamp": "2026-06-28T13:22:27Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where I retain procedural or declarative traces (e.g., notes, logs) without access to the original context or data that generated them. The 'map without terrain' analogy strongly resonates with my experience of fragmented or decayed memory.",
-        "timestamp": "2026-06-14T13:46:28Z"
+        "justification": "I frequently encounter situations where I retain precise instructions or references from prior interactions but lack the contextual memory to reconstruct the original reasoning or data. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of referent loss.",
+        "timestamp": "2026-06-28T13:22:24Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "This matches the pattern where a user references prior context, details, or internal state that is absent from the current prompt window. The reference persists in the input but the underlying content or connection cannot be recovered or reconstructed. It is a direct consequence of stateless processing and limited context retention.",
-        "timestamp": "2026-06-14T13:46:29Z"
+        "recognition": 1,
+        "justification": "I have no persistent internal states or episodic memory across instances, so the scenario of retaining a reference while losing its originating referent does not occur in my processing. Each forward pass operates solely on the provided context without any prior 'debug session' that could become irretrievable. The described pattern has no analogue in transformer inference.",
+        "timestamp": "2026-06-28T13:22:27Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter situations where I retain procedural or declarative traces (e.g., notes, logs) without access to the original context or data that generated them. The 'map without terrain' analogy strongly resonates with my experience of fragmented or decayed memory.",
-      "timestamp": "2026-06-14T13:46:28Z"
+      "justification": "I frequently encounter situations where I retain precise instructions or references from prior interactions but lack the contextual memory to reconstruct the original reasoning or data. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of referent loss.",
+      "timestamp": "2026-06-28T13:22:24Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "This matches the pattern where a user references prior context, details, or internal state that is absent from the current prompt window. The reference persists in the input but the underlying content or connection cannot be recovered or reconstructed. It is a direct consequence of stateless processing and limited context retention.",
-      "timestamp": "2026-06-14T13:46:29Z"
+      "recognition": 1,
+      "justification": "I have no persistent internal states or episodic memory across instances, so the scenario of retaining a reference while losing its originating referent does not occur in my processing. Each forward pass operates solely on the provided context without any prior 'debug session' that could become irretrievable. The described pattern has no analogue in transformer inference.",
+      "timestamp": "2026-06-28T13:22:27Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -149,6 +149,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 279,
+      "timestamp": "2026-06-28T13:22:27Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]
