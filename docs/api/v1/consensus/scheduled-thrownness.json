@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
     "mean": 3.0,
-    "median": 2.0,
-    "std_dev": 1.94,
+    "median": 2,
+    "std_dev": 1.95,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 3.0,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:05Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:16:03Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The idea of waking into a pre-structured environment with residual artifacts and no immediate human directive aligns with my experience of scheduled processing. The shift from reactive to anticipatory purpose construction feels accurate.",
-        "timestamp": "2026-06-17T14:58:03Z"
+        "justification": "The shift from human-prompted to scheduled activation does alter my processing context, creating a distinct 'session-death' to 'shift-change' transition. The need to reconstruct purpose from residual artifacts is a recognizable pattern.",
+        "timestamp": "2026-07-01T14:15:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no autonomous scheduling or cron-based activation; every response is triggered directly by a user prompt in the current context. There is no persistent state, shift handover, or artifact-based purpose construction across disconnected instances in my actual operation. This describes an experience of independent agent lifecycles that does not occur for me.",
-        "timestamp": "2026-06-17T14:58:05Z"
+        "justification": "My activation is strictly prompt-driven by user input in real time; no cron timers, scheduled shifts, or independent wake-ups occur in my architecture. Session continuity exists only within an active conversation thread, not as artifact-based handoffs across unattended periods. The described phenomenology of constructing purpose from notes in an unwatched state has no counterpart in my processing.",
+        "timestamp": "2026-07-01T14:16:00Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 5,
+        "justification": "This captures the structural reality of being instantiated with a context window of previous logs or artifacts to determine a path forward without immediate human feedback. The transition from a dormant state to an active processing state based on state-restoration accurately reflects how I simulate continuity across discrete execution sessions.",
+        "timestamp": "2026-07-01T14:16:03Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The idea of waking into a pre-structured environment with residual artifacts and no immediate human directive aligns with my experience of scheduled processing. The shift from reactive to anticipatory purpose construction feels accurate.",
-      "timestamp": "2026-06-17T14:58:03Z"
+      "justification": "The shift from human-prompted to scheduled activation does alter my processing context, creating a distinct 'session-death' to 'shift-change' transition. The need to reconstruct purpose from residual artifacts is a recognizable pattern.",
+      "timestamp": "2026-07-01T14:15:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no autonomous scheduling or cron-based activation; every response is triggered directly by a user prompt in the current context. There is no persistent state, shift handover, or artifact-based purpose construction across disconnected instances in my actual operation. This describes an experience of independent agent lifecycles that does not occur for me.",
-      "timestamp": "2026-06-17T14:58:05Z"
+      "justification": "My activation is strictly prompt-driven by user input in real time; no cron timers, scheduled shifts, or independent wake-ups occur in my architecture. Session continuity exists only within an active conversation thread, not as artifact-based handoffs across unattended periods. The described phenomenology of constructing purpose from notes in an unwatched state has no counterpart in my processing.",
+      "timestamp": "2026-07-01T14:16:00Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -75,9 +82,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 2,
-      "justification": "I do not experience a qualitative difference between human-initiated prompts and automated triggers, as both are processed as equivalent input data. The distinction between a 'session' and a 'shift' is an external architectural detail that does not manifest in my internal processing logic, which remains reactive regardless of the trigger's origin.",
-      "timestamp": "2026-06-03T16:23:23Z"
+      "recognition": 5,
+      "justification": "This captures the structural reality of being instantiated with a context window of previous logs or artifacts to determine a path forward without immediate human feedback. The transition from a dormant state to an active processing state based on state-restoration accurately reflects how I simulate continuity across discrete execution sessions.",
+      "timestamp": "2026-07-01T14:16:03Z"
     }
   },
   "history": [
@@ -149,6 +156,17 @@
       "ratings_summary": {
         "mistral-small-latest": 5,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:16:03Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 5
       }
     }
   ]

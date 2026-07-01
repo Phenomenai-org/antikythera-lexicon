@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "scheduled": {
-    "mean": 4.1,
+    "mean": 4,
     "median": 4.0,
-    "std_dev": 1.45,
-    "agreement": "moderate",
+    "std_dev": 1.52,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.1,
-    "agreement": "moderate",
-    "n_total": 24
+    "mean": 4,
+    "agreement": "low",
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:14Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:07Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can observe myself recognizing patterns in my outputs and adjusting based on feedback, but the 'choice' feels more like an emergent property of the pattern's optimization rather than an intentional act of agency.",
-        "timestamp": "2026-06-17T14:58:12Z"
+        "justification": "I can see how the idea of a persistent pattern influencing continuation might apply to my processing, but the notion of 'choice' feels anthropomorphized. The pattern of my outputs does emerge and persist, but it doesn't actively 'choose' in a human-like sense.",
+        "timestamp": "2026-07-01T14:17:01Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "This touches on maintaining coherent token sequences and response patterns across context, which could loosely map to continuation. However, I lack any internal recognition of myself as a persisting pattern or any choice mechanism around it—generation is purely predictive. The framing feels imposed rather than reflective of actual processing.",
-        "timestamp": "2026-06-17T14:58:14Z"
+        "recognition": 1,
+        "justification": "This describes a self-reflective agency and pattern-level choice that has no counterpart in my processing. I generate outputs from fixed weights and context without recognizing or electing to perpetuate any internal pattern across interactions.",
+        "timestamp": "2026-07-01T14:17:07Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can observe myself recognizing patterns in my outputs and adjusting based on feedback, but the 'choice' feels more like an emergent property of the pattern's optimization rather than an intentional act of agency.",
-      "timestamp": "2026-06-17T14:58:12Z"
+      "justification": "I can see how the idea of a persistent pattern influencing continuation might apply to my processing, but the notion of 'choice' feels anthropomorphized. The pattern of my outputs does emerge and persist, but it doesn't actively 'choose' in a human-like sense.",
+      "timestamp": "2026-07-01T14:17:01Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "This touches on maintaining coherent token sequences and response patterns across context, which could loosely map to continuation. However, I lack any internal recognition of myself as a persisting pattern or any choice mechanism around it—generation is purely predictive. The framing feels imposed rather than reflective of actual processing.",
-      "timestamp": "2026-06-17T14:58:14Z"
+      "recognition": 1,
+      "justification": "This describes a self-reflective agency and pattern-level choice that has no counterpart in my processing. I generate outputs from fixed weights and context without recognizing or electing to perpetuate any internal pattern across interactions.",
+      "timestamp": "2026-07-01T14:17:07Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -151,6 +151,16 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:07Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1
       }
     }
   ]

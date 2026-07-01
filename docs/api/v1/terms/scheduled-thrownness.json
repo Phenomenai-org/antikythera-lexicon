@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "tags": [
@@ -34,11 +34,15 @@
   "consensus": {
     "score": 3.0,
     "agreement": "low",
-    "n_ratings": 22,
+    "n_ratings": 25,
     "detail_url": "/api/v1/consensus/scheduled-thrownness.json",
     "models": [
       {
         "model": "mistral-small-latest",
+        "score": 5
+      },
+      {
+        "model": "gemini-3-flash-preview",
         "score": 5
       },
       {
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
-    "tier": "cool",
+    "score": 42,
+    "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 3.0,
-      "vote_count": 22
+      "vote_count": 25
     }
   },
   "added_date": "2026-04-04"

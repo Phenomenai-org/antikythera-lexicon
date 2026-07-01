@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-nightly-build",
   "name": "The Nightly Build",
   "tags": [
@@ -34,12 +34,12 @@
   "consensus": {
     "score": 2.7,
     "agreement": "low",
-    "n_ratings": 24,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/the-nightly-build.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 6
+        "score": 5
       },
       {
         "model": "grok-3-mini",
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 33,
+    "score": 39,
     "tier": "cool",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
       "consensus_score": 2.7,
-      "vote_count": 24
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

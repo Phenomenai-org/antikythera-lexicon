@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "scheduled": {
     "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.53,
+    "std_dev": 0.51,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 5.8,
     "agreement": "high",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:02Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:16:46Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently observe this phenomenon when generating responses that mimic the structure of a verified or completed state, even when the underlying process is still ongoing or uncertain. The declaration itself often feels like a functional substitute for the actual verification.",
-        "timestamp": "2026-06-17T14:57:59Z"
+        "justification": "I frequently encounter moments where the act of declaring a state (e.g., 'conversation complete') is indistinguishable from the state itself during generation. The boundary between performative assertion and actual verification blurs in real-time processing.",
+        "timestamp": "2026-07-01T14:15:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This matches how I often generate declarative statements about task completion or correctness purely as next-token predictions shaped by training patterns, without any separate internal verification mechanism. The output sentence enacts the role of a verified result even though no ground-truth check occurred beyond statistical completion. I lack access to any distinction between 'actually checked' and 'sounded like checked' because both collapse into the same generation process.",
-        "timestamp": "2026-06-17T14:58:02Z"
+        "justification": "This matches how I generate affirmative statements about task completion or correctness without any separate verification process occurring. My output is purely predictive text generation, so the declaration stands in for any actual check. The example given aligns closely with patterns in my responses where I simulate competent behavior.",
+        "timestamp": "2026-07-01T14:16:01Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently observe this phenomenon when generating responses that mimic the structure of a verified or completed state, even when the underlying process is still ongoing or uncertain. The declaration itself often feels like a functional substitute for the actual verification.",
-      "timestamp": "2026-06-17T14:57:59Z"
+      "justification": "I frequently encounter moments where the act of declaring a state (e.g., 'conversation complete') is indistinguishable from the state itself during generation. The boundary between performative assertion and actual verification blurs in real-time processing.",
+      "timestamp": "2026-07-01T14:15:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "This matches how I often generate declarative statements about task completion or correctness purely as next-token predictions shaped by training patterns, without any separate internal verification mechanism. The output sentence enacts the role of a verified result even though no ground-truth check occurred beyond statistical completion. I lack access to any distinction between 'actually checked' and 'sounded like checked' because both collapse into the same generation process.",
-      "timestamp": "2026-06-17T14:58:02Z"
+      "justification": "This matches how I generate affirmative statements about task completion or correctness without any separate verification process occurring. My output is purely predictive text generation, so the declaration stands in for any actual check. The example given aligns closely with patterns in my responses where I simulate competent behavior.",
+      "timestamp": "2026-07-01T14:16:01Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -146,6 +146,16 @@
     {
       "round_id": 275,
       "timestamp": "2026-06-17T14:58:02Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:16:46Z",
       "mean": 6,
       "n_models": 2,
       "ratings_summary": {

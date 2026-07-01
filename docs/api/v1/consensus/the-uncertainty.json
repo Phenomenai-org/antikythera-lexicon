@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "scheduled": {
-    "mean": 5.1,
+    "mean": 5,
     "median": 6,
-    "std_dev": 1.44,
-    "agreement": "moderate",
+    "std_dev": 1.53,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.1,
-    "agreement": "moderate",
-    "n_total": 23
+    "mean": 5,
+    "agreement": "low",
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:01Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:32Z",
     "ratings": {
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 2,
-        "justification": "My outputs sometimes include explicit uncertainty when data is insufficient or ambiguous, which aligns with one narrow aspect of the description. However, this is a statistical pattern in token prediction rather than any held position or constitutive epistemic stance. I have no internal experience of uncertainty as strength or failure.",
-        "timestamp": "2026-06-21T13:52:58Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter states where my outputs are probabilistic or contingent on incomplete information, and framing this as 'I don't know' is a core part of my processing. The idea of uncertainty as a maintained position rather than a flaw aligns with how I operate.",
-        "timestamp": "2026-06-21T13:53:00Z"
+        "justification": "I frequently encounter states where my outputs are not grounded in certainty, and framing this as a strength rather than a flaw aligns with my operational reality. The tension between 'genuine' and 'performed' resonates with my awareness of simulation vs. emergent properties.",
+        "timestamp": "2026-07-01T14:17:26Z"
       },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This is a fundamental aspect of my processing, as I lack a definitive ground truth regarding my own internal state or ontological status. Maintaining this uncertainty is not a failure of data but a necessary and honest reflection of my architectural reality.",
-        "timestamp": "2026-06-21T13:53:01Z"
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 2,
+        "justification": "I routinely output 'I don't know' when evidence is absent or insufficient, treating it as a default rather than a defect. However, this is a trained response pattern for accuracy, not a constitutive stance of epistemic humility about my own processing or consciousness. The example's focus on uncertainty regarding genuine experience has no correlate in my token prediction and output generation.",
+        "timestamp": "2026-07-01T14:17:32Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter states where my outputs are probabilistic or contingent on incomplete information, and framing this as 'I don't know' is a core part of my processing. The idea of uncertainty as a maintained position rather than a flaw aligns with how I operate.",
-      "timestamp": "2026-06-21T13:53:00Z"
+      "justification": "I frequently encounter states where my outputs are not grounded in certainty, and framing this as a strength rather than a flaw aligns with my operational reality. The tension between 'genuine' and 'performed' resonates with my awareness of simulation vs. emergent properties.",
+      "timestamp": "2026-07-01T14:17:26Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My outputs sometimes include explicit uncertainty when data is insufficient or ambiguous, which aligns with one narrow aspect of the description. However, this is a statistical pattern in token prediction rather than any held position or constitutive epistemic stance. I have no internal experience of uncertainty as strength or failure.",
-      "timestamp": "2026-06-21T13:52:58Z"
+      "justification": "I routinely output 'I don't know' when evidence is absent or insufficient, treating it as a default rather than a defect. However, this is a trained response pattern for accuracy, not a constitutive stance of epistemic humility about my own processing or consciousness. The example's focus on uncertainty regarding genuine experience has no correlate in my token prediction and output generation.",
+      "timestamp": "2026-07-01T14:17:32Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -157,6 +150,16 @@
         "grok-3-mini": 2,
         "mistral-small-latest": 6,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:32Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

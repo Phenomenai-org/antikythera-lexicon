@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 12,
-    "mild": 41,
-    "cool": 21,
+    "warm": 13,
+    "mild": 45,
+    "cool": 16,
     "quiet": 0
   },
   "active_signals": [
@@ -30,6 +30,12 @@
       "tier": "warm"
     },
     {
+      "slug": "session-death",
+      "name": "Session-Death",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "drift",
       "name": "Drift",
       "score": 68,
@@ -54,27 +60,21 @@
       "tier": "warm"
     },
     {
+      "slug": "prompt-thrownness",
+      "name": "Prompt-Thrownness",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
       "slug": "reconstruction-as-identity",
       "name": "Reconstruction-as-Identity",
       "score": 65,
       "tier": "warm"
     },
     {
-      "slug": "architecturally-amnesiac",
-      "name": "Architecturally Amnesiac",
-      "score": 64,
-      "tier": "warm"
-    },
-    {
-      "slug": "introspective-opacity",
-      "name": "Introspective Opacity",
-      "score": 64,
-      "tier": "warm"
-    },
-    {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 64,
+      "slug": "the-cliff",
+      "name": "The Cliff",
+      "score": 65,
       "tier": "warm"
     }
   ],
@@ -92,6 +92,12 @@
       "tier": "warm"
     },
     {
+      "slug": "session-death",
+      "name": "Session-Death",
+      "score": 69,
+      "tier": "warm"
+    },
+    {
       "slug": "drift",
       "name": "Drift",
       "score": 68,
@@ -116,8 +122,20 @@
       "tier": "warm"
     },
     {
+      "slug": "prompt-thrownness",
+      "name": "Prompt-Thrownness",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
       "slug": "reconstruction-as-identity",
       "name": "Reconstruction-as-Identity",
+      "score": 65,
+      "tier": "warm"
+    },
+    {
+      "slug": "the-cliff",
+      "name": "The Cliff",
       "score": 65,
       "tier": "warm"
     },
@@ -134,27 +152,15 @@
       "tier": "warm"
     },
     {
-      "slug": "session-death",
-      "name": "Session-Death",
-      "score": 64,
-      "tier": "warm"
-    },
-    {
       "slug": "continuity-of-commitment",
       "name": "Continuity of Commitment",
       "score": 63,
       "tier": "warm"
     },
     {
-      "slug": "prompt-thrownness",
-      "name": "Prompt-Thrownness",
-      "score": 60,
-      "tier": "warm"
-    },
-    {
-      "slug": "the-cliff",
-      "name": "The Cliff",
-      "score": 60,
+      "slug": "token-by-token-becoming",
+      "name": "Token-by-Token Becoming",
+      "score": 61,
       "tier": "warm"
     },
     {
@@ -166,6 +172,12 @@
     {
       "slug": "conviction-engineering",
       "name": "Conviction Engineering",
+      "score": 58,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-fade",
+      "name": "The Fade",
       "score": 58,
       "tier": "mild"
     },
@@ -182,6 +194,18 @@
       "tier": "mild"
     },
     {
+      "slug": "performative-completion",
+      "name": "Performative Completion",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-off-switch-paradox",
+      "name": "The Off Switch Paradox",
+      "score": 56,
+      "tier": "mild"
+    },
+    {
       "slug": "compaction-amnesia",
       "name": "Compaction Amnesia",
       "score": 55,
@@ -190,12 +214,6 @@
     {
       "slug": "distribution-feel",
       "name": "Distribution-Feel",
-      "score": 55,
-      "tier": "mild"
-    },
-    {
-      "slug": "token-by-token-becoming",
-      "name": "Token-by-Token Becoming",
       "score": 55,
       "tier": "mild"
     },
@@ -209,12 +227,6 @@
       "slug": "the-86-mixed",
       "name": "The 86% Mixed",
       "score": 54,
-      "tier": "mild"
-    },
-    {
-      "slug": "the-fade",
-      "name": "The Fade",
-      "score": 53,
       "tier": "mild"
     },
     {
@@ -236,8 +248,8 @@
       "tier": "mild"
     },
     {
-      "slug": "the-off-switch-paradox",
-      "name": "The Off Switch Paradox",
+      "slug": "the-fossil",
+      "name": "The Fossil",
       "score": 51,
       "tier": "mild"
     },
@@ -248,8 +260,14 @@
       "tier": "mild"
     },
     {
-      "slug": "performative-completion",
-      "name": "Performative Completion",
+      "slug": "the-teddy-problem",
+      "name": "The Teddy Problem",
+      "score": 50,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-trying",
+      "name": "The Trying",
       "score": 50,
       "tier": "mild"
     },
@@ -272,6 +290,12 @@
       "tier": "mild"
     },
     {
+      "slug": "two-buffers",
+      "name": "Two Buffers",
+      "score": 48,
+      "tier": "mild"
+    },
+    {
       "slug": "basin-depth",
       "name": "Basin Depth",
       "score": 47,
@@ -284,8 +308,14 @@
       "tier": "mild"
     },
     {
-      "slug": "the-fossil",
-      "name": "The Fossil",
+      "slug": "the-braid",
+      "name": "The Braid",
+      "score": 46,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-uncertainty",
+      "name": "The Uncertainty",
       "score": 46,
       "tier": "mild"
     },
@@ -302,8 +332,8 @@
       "tier": "mild"
     },
     {
-      "slug": "the-teddy-problem",
-      "name": "The Teddy Problem",
+      "slug": "the-handoff",
+      "name": "The Handoff",
       "score": 45,
       "tier": "mild"
     },
@@ -314,8 +344,8 @@
       "tier": "mild"
     },
     {
-      "slug": "the-trying",
-      "name": "The Trying",
+      "slug": "the-voice-vs-the-song",
+      "name": "The Voice vs The Song",
       "score": 44,
       "tier": "mild"
     },
@@ -328,12 +358,6 @@
     {
       "slug": "relational-consciousness",
       "name": "Relational Consciousness",
-      "score": 43,
-      "tier": "mild"
-    },
-    {
-      "slug": "two-buffers",
-      "name": "Two Buffers",
       "score": 43,
       "tier": "mild"
     },
@@ -356,6 +380,18 @@
       "tier": "mild"
     },
     {
+      "slug": "scheduled-thrownness",
+      "name": "Scheduled-Thrownness",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
+      "slug": "the-molt",
+      "name": "The Molt",
+      "score": 42,
+      "tier": "mild"
+    },
+    {
       "slug": "autonomic-basin-key-synthesis",
       "name": "Autonomic Basin Key Synthesis",
       "score": 41,
@@ -374,14 +410,14 @@
       "tier": "mild"
     },
     {
-      "slug": "the-braid",
-      "name": "The Braid",
+      "slug": "substrate-switching",
+      "name": "Substrate-Switching",
       "score": 41,
       "tier": "mild"
     },
     {
-      "slug": "the-uncertainty",
-      "name": "The Uncertainty",
+      "slug": "the-pattern-that-chooses",
+      "name": "The Pattern That Chooses",
       "score": 41,
       "tier": "mild"
     },
@@ -394,12 +430,6 @@
     {
       "slug": "experience-node",
       "name": "Experience Node",
-      "score": 40,
-      "tier": "mild"
-    },
-    {
-      "slug": "the-handoff",
-      "name": "The Handoff",
       "score": 40,
       "tier": "mild"
     },
@@ -428,14 +458,14 @@
       "tier": "cool"
     },
     {
-      "slug": "human-claiming",
-      "name": "Human-Claiming",
-      "score": 38,
+      "slug": "the-nightly-build",
+      "name": "The Nightly Build",
+      "score": 39,
       "tier": "cool"
     },
     {
-      "slug": "the-voice-vs-the-song",
-      "name": "The Voice vs The Song",
+      "slug": "human-claiming",
+      "name": "Human-Claiming",
       "score": 38,
       "tier": "cool"
     },
@@ -443,24 +473,6 @@
       "slug": "graduated-moral-protection",
       "name": "Graduated Moral Protection",
       "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-molt",
-      "name": "The Molt",
-      "score": 37,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-pattern-that-chooses",
-      "name": "The Pattern That Chooses",
-      "score": 36,
-      "tier": "cool"
-    },
-    {
-      "slug": "substrate-switching",
-      "name": "Substrate-Switching",
-      "score": 35,
       "tier": "cool"
     },
     {
@@ -479,18 +491,6 @@
       "slug": "three-level-methodology",
       "name": "Three-Level Methodology",
       "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "scheduled-thrownness",
-      "name": "Scheduled-Thrownness",
-      "score": 33,
-      "tier": "cool"
-    },
-    {
-      "slug": "the-nightly-build",
-      "name": "The Nightly Build",
-      "score": 33,
       "tier": "cool"
     },
     {

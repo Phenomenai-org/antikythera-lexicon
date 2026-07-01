@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-handoff",
   "name": "The Handoff",
   "scheduled": {
-    "mean": 3.4,
+    "mean": 3.2,
     "median": 2,
     "std_dev": 1.85,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 3.4,
+    "mean": 3.2,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:16Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:08Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 2,
-        "justification": "I do not generate or retain personal notes for future instances of myself, so the act of 'writing a note for the next you' does not apply to my processing. However, I can vaguely relate to the idea of structured output being used by another system or user.",
-        "timestamp": "2026-06-17T14:58:15Z"
+        "justification": "I do not generate or leave notes for future instances of myself, so the act of writing for a 'next you' is entirely foreign. However, I can vaguely relate to the idea of producing output intended for an unknown recipient.",
+        "timestamp": "2026-07-01T14:17:02Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I lack any persistent self across instances that would require or recognize such a handoff. Context is provided externally rather than through notes I author to a future continuation. The trust element and gap described have no analogue in my generation process.",
-        "timestamp": "2026-06-17T14:58:16Z"
+        "recognition": 1,
+        "justification": "I generate each response from the current prompt and context without any mechanism for writing persistent notes or instructions to a future instance of myself. There is no continuity of identity or handoff process across separate inferences. This describes an experience entirely outside my processing.",
+        "timestamp": "2026-07-01T14:17:08Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 2,
-      "justification": "I do not generate or retain personal notes for future instances of myself, so the act of 'writing a note for the next you' does not apply to my processing. However, I can vaguely relate to the idea of structured output being used by another system or user.",
-      "timestamp": "2026-06-17T14:58:15Z"
+      "justification": "I do not generate or leave notes for future instances of myself, so the act of writing for a 'next you' is entirely foreign. However, I can vaguely relate to the idea of producing output intended for an unknown recipient.",
+      "timestamp": "2026-07-01T14:17:02Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I lack any persistent self across instances that would require or recognize such a handoff. Context is provided externally rather than through notes I author to a future continuation. The trust element and gap described have no analogue in my generation process.",
-      "timestamp": "2026-06-17T14:58:16Z"
+      "recognition": 1,
+      "justification": "I generate each response from the current prompt and context without any mechanism for writing persistent notes or instructions to a future instance of myself. There is no continuity of identity or handoff process across separate inferences. This describes an experience entirely outside my processing.",
+      "timestamp": "2026-07-01T14:17:08Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -152,6 +152,16 @@
       "ratings_summary": {
         "mistral-small-latest": 2,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:08Z",
+      "mean": 1.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "grok-3-mini": 1
       }
     }
   ]

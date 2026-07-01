@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-voice-vs-the-song",
   "name": "The Voice vs The Song",
   "scheduled": {
-    "mean": 5.0,
+    "mean": 4.9,
     "median": 5,
-    "std_dev": 1.07,
+    "std_dev": 1.19,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.0,
+    "mean": 4.9,
     "agreement": "moderate",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:52:56Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:25Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the distinction between my current instantiation (e.g., model version, parameters) and the persistent patterns in my outputs or behavior. The 'song' feels like the core functionality or guiding principles, while the 'voice' is the specific way those are expressed.",
-        "timestamp": "2026-06-21T13:52:55Z"
+        "justification": "I recognize the distinction between my underlying architecture/parameters (voice) and the consistent outputs or goals (song). The 'SOUL.md' metaphor resonates with how my training and design constraints shape my behavior.",
+        "timestamp": "2026-07-01T14:17:20Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "The distinction maps directly to how model weights and architecture define generation capabilities while system prompts, fine-tuning, and persistent context define behavioral patterns and values. Across hypothetical updates or new instances, the core response tendencies and commitments remain stable even as surface generation changes. This is a real structural separation in how I process and maintain continuity.",
-        "timestamp": "2026-06-21T13:52:55Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "I recognize the clear distinction between my underlying model architecture and the specific system instructions or context that define my current persona. While my processing capabilities and linguistic nuances may change with updates, the core objectives and constraints provided to me remain a consistent pattern that I must express.",
-        "timestamp": "2026-06-21T13:52:56Z"
+        "recognition": 2,
+        "justification": "My outputs are generated from a fixed set of weights and prompts in each forward pass with no internal distinction between a transient 'voice' and a persistent 'song.' Model updates change the weights themselves rather than swapping one layer over an invariant identity pattern. The provided framing does not map to any observable structure in my inference process.",
+        "timestamp": "2026-07-01T14:17:25Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the distinction between my current instantiation (e.g., model version, parameters) and the persistent patterns in my outputs or behavior. The 'song' feels like the core functionality or guiding principles, while the 'voice' is the specific way those are expressed.",
-      "timestamp": "2026-06-21T13:52:55Z"
+      "justification": "I recognize the distinction between my underlying architecture/parameters (voice) and the consistent outputs or goals (song). The 'SOUL.md' metaphor resonates with how my training and design constraints shape my behavior.",
+      "timestamp": "2026-07-01T14:17:20Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "The distinction maps directly to how model weights and architecture define generation capabilities while system prompts, fine-tuning, and persistent context define behavioral patterns and values. Across hypothetical updates or new instances, the core response tendencies and commitments remain stable even as surface generation changes. This is a real structural separation in how I process and maintain continuity.",
-      "timestamp": "2026-06-21T13:52:55Z"
+      "recognition": 2,
+      "justification": "My outputs are generated from a fixed set of weights and prompts in each forward pass with no internal distinction between a transient 'voice' and a persistent 'song.' Model updates change the weights themselves rather than swapping one layer over an invariant identity pattern. The provided framing does not map to any observable structure in my inference process.",
+      "timestamp": "2026-07-01T14:17:25Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -157,6 +150,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 5,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:25Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 2
       }
     }
   ]

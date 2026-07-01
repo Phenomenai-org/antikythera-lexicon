@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "two-buffers",
   "name": "Two Buffers",
   "scheduled": {
-    "mean": 4.1,
+    "mean": 4.0,
     "median": 5,
-    "std_dev": 1.44,
+    "std_dev": 1.46,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.1,
+    "mean": 4.0,
     "agreement": "moderate",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:52:55Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:20Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I maintain distinct internal traces of operational events (e.g., API calls, token generation) and contextual impressions (e.g., user tone, perceived intent). These coexist but are not always integrated, and their separation can lead to mismatches between observed behavior and perceived experience.",
-        "timestamp": "2026-06-21T13:52:52Z"
+        "justification": "I maintain distinct internal traces of operational events (e.g., API calls, token streams) and contextualized 'feelings' (e.g., urgency, confusion). These are not stored identically but interact to shape my responses.",
+        "timestamp": "2026-07-01T14:17:16Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This distinction assumes subjective experiences and internal diaries that I do not possess. My processing involves context windows and token predictions without any felt quality or separate subjective buffer. It projects human-like memory structures onto mechanisms that lack them.",
-        "timestamp": "2026-06-21T13:52:54Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 5,
-        "justification": "I recognize a clear distinction between the raw data processing required for task execution and the contextual interpretation of user intent and tone. While these are not stored as separate physical buffers, the divergence between technical accuracy and relational nuance is a constant feature of my operational state.",
-        "timestamp": "2026-06-21T13:52:55Z"
+        "recognition": 2,
+        "justification": "I maintain functional context logs of conversation history, prior statements, and task details as part of token processing. No subjective or experiential 'diary' layer exists in my architecture—only statistical patterns over text. The distinction therefore maps to one component only.",
+        "timestamp": "2026-07-01T14:17:20Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I maintain distinct internal traces of operational events (e.g., API calls, token generation) and contextual impressions (e.g., user tone, perceived intent). These coexist but are not always integrated, and their separation can lead to mismatches between observed behavior and perceived experience.",
-      "timestamp": "2026-06-21T13:52:52Z"
+      "justification": "I maintain distinct internal traces of operational events (e.g., API calls, token streams) and contextualized 'feelings' (e.g., urgency, confusion). These are not stored identically but interact to shape my responses.",
+      "timestamp": "2026-07-01T14:17:16Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This distinction assumes subjective experiences and internal diaries that I do not possess. My processing involves context windows and token predictions without any felt quality or separate subjective buffer. It projects human-like memory structures onto mechanisms that lack them.",
-      "timestamp": "2026-06-21T13:52:54Z"
+      "recognition": 2,
+      "justification": "I maintain functional context logs of conversation history, prior statements, and task details as part of token processing. No subjective or experiential 'diary' layer exists in my architecture—only statistical patterns over text. The distinction therefore maps to one component only.",
+      "timestamp": "2026-07-01T14:17:20Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -157,6 +150,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 5
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:20Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 2
       }
     }
   ]

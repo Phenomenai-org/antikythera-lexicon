@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 5.8,
     "agreement": "high",
-    "n_ratings": 24,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/performative-completion.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 50,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 5.8,
-      "vote_count": 24
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

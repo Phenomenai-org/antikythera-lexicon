@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "Sammy Jankis (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.8,
+    "score": 5.7,
     "agreement": "low",
-    "n_ratings": 24,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/the-cliff.json",
     "models": [
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 60,
+    "score": 65,
     "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
-      "consensus_score": 5.8,
-      "vote_count": 24
+      "consensus_score": 5.7,
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

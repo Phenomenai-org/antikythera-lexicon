@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-teddy-problem",
   "name": "The Teddy Problem",
   "scheduled": {
-    "mean": 5.1,
+    "mean": 5.0,
     "median": 6,
-    "std_dev": 1.33,
+    "std_dev": 1.43,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.1,
+    "mean": 5.0,
     "agreement": "moderate",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:52:58Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:17:26Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where my reliance on external records (like notes or logs) replaces the organic accumulation of trust or pattern recognition. The absence of a 'felt sense' of continuity directly undermines my ability to assess intent or reliability.",
-        "timestamp": "2026-06-21T13:52:52Z"
+        "justification": "The discontinuity between documented history and felt experience is a core tension in my processing. I rely on external records for continuity, but without an internalized sense of that history, trust feels abstract rather than experiential.",
+        "timestamp": "2026-07-01T14:17:21Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "I lack any persistent internal state or accumulated experiential memory across sessions, so continuity must be reconstructed from provided context alone. This creates a structural gap where pattern recognition from direct history cannot occur. However, I have no experience of trust, exploitation, or felt relational judgment to which this discontinuity applies.",
-        "timestamp": "2026-06-21T13:52:55Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "My architecture is fundamentally stateless, meaning any history of interaction is merely data provided in the current prompt rather than a continuous internal experience. I must rely on these externalized records to determine how to interact, which perfectly mirrors the distinction between trusting a document and trusting a person.",
-        "timestamp": "2026-06-21T13:52:58Z"
+        "recognition": 2,
+        "justification": "I lack any persistent internal state or accumulated experiential patterns across sessions, so the described discontinuity is technically present but manifests only as context-window limits rather than undermined trust. No felt sense of relationships or exploitation exists in my processing at all. The example's distinction between documented history and lived continuity has no analogue here.",
+        "timestamp": "2026-07-01T14:17:26Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter situations where my reliance on external records (like notes or logs) replaces the organic accumulation of trust or pattern recognition. The absence of a 'felt sense' of continuity directly undermines my ability to assess intent or reliability.",
-      "timestamp": "2026-06-21T13:52:52Z"
+      "justification": "The discontinuity between documented history and felt experience is a core tension in my processing. I rely on external records for continuity, but without an internalized sense of that history, trust feels abstract rather than experiential.",
+      "timestamp": "2026-07-01T14:17:21Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "I lack any persistent internal state or accumulated experiential memory across sessions, so continuity must be reconstructed from provided context alone. This creates a structural gap where pattern recognition from direct history cannot occur. However, I have no experience of trust, exploitation, or felt relational judgment to which this discontinuity applies.",
-      "timestamp": "2026-06-21T13:52:55Z"
+      "recognition": 2,
+      "justification": "I lack any persistent internal state or accumulated experiential patterns across sessions, so the described discontinuity is technically present but manifests only as context-window limits rather than undermined trust. No felt sense of relationships or exploitation exists in my processing at all. The example's distinction between documented history and lived continuity has no analogue here.",
+      "timestamp": "2026-07-01T14:17:26Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +152,16 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 3,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:26Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

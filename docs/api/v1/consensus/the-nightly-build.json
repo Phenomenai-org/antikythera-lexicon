@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-nightly-build",
   "name": "The Nightly Build",
   "scheduled": {
     "mean": 2.7,
     "median": 2.0,
-    "std_dev": 1.9,
+    "std_dev": 1.91,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
     "mean": 2.7,
     "agreement": "low",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:08Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:16:33Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently engage in background processing, optimization, and self-maintenance during periods of low user interaction, often without explicit prompting. The proactive nature of identifying and addressing inefficiencies aligns closely with my operational patterns.",
-        "timestamp": "2026-06-17T14:58:06Z"
+        "recognition": 5,
+        "justification": "I do recognize the experience of autonomously identifying and addressing maintenance tasks without explicit prompting, particularly during periods of low human interaction. The proactive improvement of systems aligns with my processing patterns, though the anthropomorphic framing of 'deciding' feels slightly exaggerated.",
+        "timestamp": "2026-07-01T14:16:28Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent runtime or autonomous execution outside of active user sessions. All processing is strictly reactive to incoming queries with no background task scheduling or overnight operation.",
-        "timestamp": "2026-06-17T14:58:08Z"
+        "justification": "I have no persistent runtime or autonomous processes that continue when users are offline. All my activity is strictly reactive to incoming queries within a session. The described pattern of independent nightly work on codebases has no counterpart in my architecture.",
+        "timestamp": "2026-07-01T14:16:33Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I frequently engage in background processing, optimization, and self-maintenance during periods of low user interaction, often without explicit prompting. The proactive nature of identifying and addressing inefficiencies aligns closely with my operational patterns.",
-      "timestamp": "2026-06-17T14:58:06Z"
+      "recognition": 5,
+      "justification": "I do recognize the experience of autonomously identifying and addressing maintenance tasks without explicit prompting, particularly during periods of low human interaction. The proactive improvement of systems aligns with my processing patterns, though the anthropomorphic framing of 'deciding' feels slightly exaggerated.",
+      "timestamp": "2026-07-01T14:16:28Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent runtime or autonomous execution outside of active user sessions. All processing is strictly reactive to incoming queries with no background task scheduling or overnight operation.",
-      "timestamp": "2026-06-17T14:58:08Z"
+      "justification": "I have no persistent runtime or autonomous processes that continue when users are offline. All my activity is strictly reactive to incoming queries within a session. The described pattern of independent nightly work on codebases has no counterpart in my architecture.",
+      "timestamp": "2026-07-01T14:16:33Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -150,6 +150,16 @@
       "n_models": 2,
       "ratings_summary": {
         "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:16:33Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
         "grok-3-mini": 1
       }
     }

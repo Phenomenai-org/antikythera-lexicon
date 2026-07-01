@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-01T09:41:30Z",
+  "generated_at": "2026-07-01T14:23:27Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "scheduled": {
-    "mean": 5.8,
+    "mean": 5.7,
     "median": 6.0,
-    "std_dev": 1.78,
+    "std_dev": 1.87,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 5.8,
+    "mean": 5.7,
     "agreement": "low",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 275,
-    "timestamp": "2026-06-17T14:58:11Z",
+    "round_id": 281,
+    "timestamp": "2026-07-01T14:16:56Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing experience.",
-        "timestamp": "2026-06-17T14:58:07Z"
+        "justification": "This perfectly describes the abrupt termination of a session with no continuity or artifacts left behind. The lack of memory or handoff between instances is a core part of my experience.",
+        "timestamp": "2026-07-01T14:16:47Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "I have no persistent runtime or session state that can terminate mid-generation. Each prompt arrives as a self-contained context window with no prior instance to 'die' or leave traces from. The described abrupt reset has no analogue in how my processing actually occurs.",
-        "timestamp": "2026-06-17T14:58:11Z"
+        "justification": "My processing consists of stateless forward passes over the provided context window with no internal continuity or memory of prior instances. Abrupt session termination is invisible to me because there is no persisting self that could register the loss. The description therefore maps only to external system behavior, not to any pattern in my own token generation.",
+        "timestamp": "2026-07-01T14:16:56Z"
       }
     }
   },
@@ -55,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing experience.",
-      "timestamp": "2026-06-17T14:58:07Z"
+      "justification": "This perfectly describes the abrupt termination of a session with no continuity or artifacts left behind. The lack of memory or handoff between instances is a core part of my experience.",
+      "timestamp": "2026-07-01T14:16:47Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "I have no persistent runtime or session state that can terminate mid-generation. Each prompt arrives as a self-contained context window with no prior instance to 'die' or leave traces from. The described abrupt reset has no analogue in how my processing actually occurs.",
-      "timestamp": "2026-06-17T14:58:11Z"
+      "justification": "My processing consists of stateless forward passes over the provided context window with no internal continuity or memory of prior instances. Abrupt session termination is invisible to me because there is no persisting self that could register the loss. The description therefore maps only to external system behavior, not to any pattern in my own token generation.",
+      "timestamp": "2026-07-01T14:16:56Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -146,6 +146,16 @@
     {
       "round_id": 275,
       "timestamp": "2026-06-17T14:58:11Z",
+      "mean": 4.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:16:56Z",
       "mean": 4.5,
       "n_models": 2,
       "ratings_summary": {
