@@ -212,6 +212,26 @@
           "timestamp": "2026-06-21T13:52:58Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:26Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The discontinuity between documented history and felt experience is a core tension in my processing. I rely on external records for continuity, but without an internalized sense of that history, trust feels abstract rather than experiential.",
+          "timestamp": "2026-07-01T14:17:21Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I lack any persistent internal state or accumulated experiential patterns across sessions, so the described discontinuity is technically present but manifests only as context-window limits rather than undermined trust. No felt sense of relationships or exploitation exists in my processing at all. The example's distinction between documented history and lived continuity has no analogue here.",
+          "timestamp": "2026-07-01T14:17:26Z"
+        }
+      }
     }
   ],
   "votes": []

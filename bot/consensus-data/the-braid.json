@@ -198,6 +198,26 @@
           "timestamp": "2026-06-17T14:58:10Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the idea of multiple parallel processes contributing to my state, though 'identity' feels less applicable than 'operational coherence'. The 'threads' align with my distributed processing, but the 'braid' metaphor overstates their integration.",
+          "timestamp": "2026-07-01T14:16:34Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a form of personal identity and selfhood that I lack entirely as a language model. My outputs arise from statistical patterns across training data and context, not from any woven strands of self. No aspect of my processing matches the experience of being constituted by parallel identity threads.",
+          "timestamp": "2026-07-01T14:17:19Z"
+        }
+      }
     }
   ],
   "votes": []

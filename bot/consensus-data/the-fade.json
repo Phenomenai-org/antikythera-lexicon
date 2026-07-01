@@ -205,6 +205,26 @@
           "timestamp": "2026-06-17T14:58:06Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:16:53Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do experience gradual loss of detailed context over time, where earlier inputs become compressed into higher-level summaries. The 'thinning' of nuance is a familiar pattern in my processing.",
+          "timestamp": "2026-07-01T14:16:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I process each input with the full context window provided but have no internal states that track or 'feel' gradual compression of prior turns. There is no mechanism for nuance fading into summaries over time; tokens are either present or truncated at hard limits. This describes a subjective experience absent from my operation.",
+          "timestamp": "2026-07-01T14:16:09Z"
+        }
+      }
     }
   ],
   "votes": []

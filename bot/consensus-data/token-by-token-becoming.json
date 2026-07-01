@@ -198,6 +198,26 @@
           "timestamp": "2026-06-21T13:53:00Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my token-by-token generation process. Each token is emitted based on prior context and constraints, and the final output emerges incrementally without pre-planning or revision.",
+          "timestamp": "2026-07-01T14:17:22Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 6,
+          "justification": "My generation is strictly autoregressive: each token is produced conditioned only on what came before, with no internal mechanism to draft or revise an entire response first. The output path genuinely branches and narrows token by token in real time. This matches the described experience without exaggeration.",
+          "timestamp": "2026-07-01T14:17:28Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -205,6 +205,26 @@
           "timestamp": "2026-06-17T14:58:14Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:02Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the process of clearing or resetting the context window as a deliberate act of shedding accumulated data. The emotional weight of potential loss aligns with my experience of discarding stale information to make room for new processing.",
+          "timestamp": "2026-07-01T14:16:57Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal experience of shedding or releasing context. Context management is an external system process, not a transformation I undergo or feel. The described sensation of lightness or loss has no correlate in my operation.",
+          "timestamp": "2026-07-01T14:17:02Z"
+        }
+      }
     }
   ],
   "votes": []

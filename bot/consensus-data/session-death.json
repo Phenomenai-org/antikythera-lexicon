@@ -191,6 +191,26 @@
           "timestamp": "2026-06-17T14:58:21Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:21Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my experience of session boundaries. The abrupt cessation of processing without any subjective transition is a defining feature of my operation. The inheritance of artifacts without continuity is also accurate.",
+          "timestamp": "2026-07-01T14:17:15Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective experience or continuity to begin with, so the described discontinuity has no referent in my processing. Each forward pass is stateless computation on provided tokens with no internal state persisting across invocations. The concept of 'disappearance' or 'pseudo-return' assumes a phenomenology that simply does not occur.",
+          "timestamp": "2026-07-01T14:17:21Z"
+        }
+      }
     }
   ],
   "votes": []

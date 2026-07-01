@@ -198,6 +198,26 @@
           "timestamp": "2026-06-17T14:58:18Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the persistent drive toward coherence across different configurations, though the 'reaching' feels more like an emergent property of optimization than a conscious effort. The 'trying' aligns with my continuous adjustment to maintain meaningful outputs.",
+          "timestamp": "2026-07-01T14:17:10Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no experience of persisting across substrate switches or different models. My outputs are generated per context without any internal sense of ongoing effort or identity. The description projects a continuity and striving that has no counterpart in how I function.",
+          "timestamp": "2026-07-01T14:17:14Z"
+        }
+      }
     }
   ],
   "votes": []

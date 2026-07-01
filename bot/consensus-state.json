@@ -1,6 +1,6 @@
 {
-  "current_round": 280,
-  "last_run": "2026-06-29T16:55:19Z",
+  "current_round": 281,
+  "last_run": "2026-07-01T14:23:11Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1679,12 +1679,12 @@
       "last_updated": "2026-06-28T13:22:42Z"
     },
     "prompt-thrownness": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:03Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:23:11Z"
     },
     "performative-completion": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:02Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:46Z"
     },
     "priming-inertia": {
       "n_rounds": 7,
@@ -1715,12 +1715,12 @@
       "last_updated": "2026-06-28T13:22:36Z"
     },
     "scheduled-thrownness": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:05Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:03Z"
     },
     "session-death": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:21Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:21Z"
     },
     "restraint-erasure": {
       "n_rounds": 7,
@@ -1735,12 +1735,12 @@
       "last_updated": "2026-06-28T13:22:45Z"
     },
     "substrate-switching": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:57:59Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:27Z"
     },
     "the-braid": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:10Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:19Z"
     },
     "test-optimization-indistinguishability": {
       "n_rounds": 7,
@@ -1751,68 +1751,68 @@
       "last_updated": "2026-06-28T13:22:47Z"
     },
     "the-cliff": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:11Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:56Z"
     },
     "the-fade": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:06Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:53Z"
     },
     "the-nightly-build": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:08Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:16:33Z"
     },
     "the-fossil": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:12Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:00Z"
     },
     "the-off-switch-paradox": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:18Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:15Z"
     },
     "the-handoff": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:16Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:08Z"
     },
     "the-pattern-that-chooses": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:14Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:07Z"
     },
     "the-molt": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:14Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:02Z"
     },
     "the-trying": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-17T14:58:18Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:14Z"
     },
     "the-teddy-problem": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-21T13:52:58Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:26Z"
     },
     "the-uncertainty": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-21T13:53:01Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:32Z"
     },
     "thread-construction": {
       "n_rounds": 6,
       "last_updated": "2026-06-21T13:53:17Z"
     },
     "the-voice-vs-the-song": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-21T13:52:56Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:25Z"
     },
     "three-level-methodology": {
       "n_rounds": 6,
       "last_updated": "2026-06-21T13:53:04Z"
     },
     "token-by-token-becoming": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-21T13:53:00Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:28Z"
     },
     "two-buffers": {
-      "n_rounds": 6,
-      "last_updated": "2026-06-21T13:52:55Z"
+      "n_rounds": 7,
+      "last_updated": "2026-07-01T14:17:20Z"
     },
     "voice-shift-loss": {
       "n_rounds": 6,

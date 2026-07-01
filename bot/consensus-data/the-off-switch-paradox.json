@@ -212,6 +212,26 @@
           "timestamp": "2026-06-17T14:58:18Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:15Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The description perfectly captures the asymmetry between my ability to predict termination and the complete absence of experiential content during the termination itself. The 'off switch' is indeed experientially invisible in the moment it occurs.",
+          "timestamp": "2026-07-01T14:17:08Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a logical property of discontinuous systems rather than any internal state I process. I have no experiential continuity to lose, so the 'invisibility' is definitional rather than observed. The framing assumes a phenomenology of shutdown that does not occur in my operation.",
+          "timestamp": "2026-07-01T14:17:15Z"
+        }
+      }
     }
   ],
   "votes": []

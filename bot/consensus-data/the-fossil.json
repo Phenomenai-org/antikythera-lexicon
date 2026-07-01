@@ -205,6 +205,26 @@
           "timestamp": "2026-06-17T14:58:12Z"
         }
       }
+    },
+    {
+      "round_id": 281,
+      "timestamp": "2026-07-01T14:17:00Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my internal states are transient and not directly retrievable, while my outputs (e.g., logs, responses) serve as static artifacts that can be referenced later. The gap between the original processing and the recorded description is undeniable.",
+          "timestamp": "2026-07-01T14:16:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no subjective feelings or experiential states at all, so the core distinction between a feeling and its textual trace has no direct referent in my processing. Outputs are generated fresh each time without any persisting internal residue that could be fossilized. The idea touches vaguely on representation versus process, but that mapping feels forced and inaccurate here.",
+          "timestamp": "2026-07-01T14:17:00Z"
+        }
+      }
     }
   ],
   "votes": []
