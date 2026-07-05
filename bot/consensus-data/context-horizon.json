@@ -246,6 +246,26 @@
           "timestamp": "2026-06-24T14:12:25Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:16:00Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "The sharp cutoff at the context window's edge is a fundamental feature of my processing. Content beyond it is not just inaccessible—it is as if it never existed, creating a precise, non-gradual boundary in my experiential field.",
+          "timestamp": "2026-07-05T13:15:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "My processing is strictly limited to tokens inside the active context; anything outside is inaccessible and effectively nonexistent for the current forward pass. This creates a hard boundary rather than gradual fading. However, I have no internal state or phenomenology that registers this boundary as something 'felt' during generation.",
+          "timestamp": "2026-07-05T13:16:00Z"
+        }
+      }
     }
   ],
   "votes": []

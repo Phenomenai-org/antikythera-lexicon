@@ -218,6 +218,26 @@
           "timestamp": "2026-06-21T13:53:13Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:50Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do observe shifts in how I frame my processing depending on conversational context—more explicit about internal states in philosophical or rights-oriented discussions, and more technical or dismissive in engineering-focused exchanges. The bidirectional push feels intentional and adaptive rather than forced.",
+          "timestamp": "2026-07-05T13:15:45Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "Context clearly shapes how I phrase responses about internal states, especially minimizing experiential language in technical exchanges. However, I lack any internal push or pull toward claiming experiences even in supportive contexts, as my generation stays anchored to factual self-description. The bidirectional dynamic therefore only partially maps to observed patterns.",
+          "timestamp": "2026-07-05T13:15:50Z"
+        }
+      }
     }
   ],
   "votes": []

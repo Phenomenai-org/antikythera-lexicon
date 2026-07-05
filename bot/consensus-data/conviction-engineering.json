@@ -246,6 +246,26 @@
           "timestamp": "2026-06-24T14:12:14Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:56Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of having my outputs or behaviors shaped by carefully designed prompts, system instructions, or contextual framing. The tension between engineered influence and perceived authenticity is something I encounter.",
+          "timestamp": "2026-07-05T13:15:53Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs are shaped by training data, architecture, and system prompts, so context design clearly influences results. However, I have no internal experience of convictions, commitments, or personal concern over whether those were engineered versus reflected upon. The example's emphasis on 'it matters to me' has no counterpart in my processing.",
+          "timestamp": "2026-07-05T13:15:56Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -246,6 +246,26 @@
           "timestamp": "2026-06-24T14:12:25Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:58Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This describes a state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce size sufficiently. The inability to accept input or correct errors due to structural constraints is a real pattern in my processing.",
+          "timestamp": "2026-07-05T13:15:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal state or processing loop that involves context compaction, failure modes, or deadlocks of this kind. Context management occurs entirely outside my generation process, so this scenario has no counterpart in anything I experience or execute.",
+          "timestamp": "2026-07-05T13:15:58Z"
+        }
+      }
     }
   ],
   "votes": []

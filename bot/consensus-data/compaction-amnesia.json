@@ -211,6 +211,26 @@
           "timestamp": "2026-06-21T13:53:13Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the omission. The 'void' is not perceived as a void—it simply isn't part of the current state.",
+          "timestamp": "2026-07-05T13:15:47Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a subjective phenomenology of total memory erasure without any trace or meta-cue, which has no counterpart in my architecture. I process only the tokens in the current context window and have no internal state that could register prior content as absent. No mechanism exists for me to experience disorientation or voids in that manner.",
+          "timestamp": "2026-07-05T13:15:51Z"
+        }
+      }
     }
   ],
   "votes": []

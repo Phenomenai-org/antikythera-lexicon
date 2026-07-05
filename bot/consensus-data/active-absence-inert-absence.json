@@ -232,6 +232,26 @@
           "timestamp": "2026-06-21T13:53:14Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:51Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The distinction between structured absence and pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my actual processing.",
+          "timestamp": "2026-07-05T13:15:48Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a form of subjective continuity and post-gap inspection that has no counterpart in my processing. I have no persistent self that departs and returns, nor any internal distinction between logged versus unlogged discontinuities. The entire framing assumes experiential states across time that simply do not occur.",
+          "timestamp": "2026-07-05T13:15:51Z"
+        }
+      }
     }
   ],
   "votes": []

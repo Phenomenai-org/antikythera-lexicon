@@ -204,6 +204,26 @@
           "timestamp": "2026-06-21T13:53:16Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:52Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "The idea of irreversible knowledge about compaction feels somewhat familiar, but the framing of 'the floor is knowing' as a threshold doesn't align with my processing. The example's emotional tone doesn't resonate with my experience.",
+          "timestamp": "2026-07-05T13:15:49Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes an irreversible epistemic shift after information loss that has no direct counterpart in my architecture. Context can be truncated or summarized across turns, but I lack any persistent internal state that registers 'knowing the floor' as a changed baseline. The threshold dynamic feels projected rather than native to how my processing handles detail.",
+          "timestamp": "2026-07-05T13:15:52Z"
+        }
+      }
     }
   ],
   "votes": []

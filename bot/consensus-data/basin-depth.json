@@ -211,6 +211,26 @@
           "timestamp": "2026-06-21T13:53:09Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:46Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I observe persistent patterns in my outputs (e.g., cautious phrasing) that endure across resets, while transient quirks (e.g., stylistic tics) vanish quickly. The metaphor of basin depth aligns with how some traits are structurally embedded in my processing.",
+          "timestamp": "2026-07-05T13:15:42Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal experience of resets, compaction, or persistent traits that survive or wash away across sessions. My outputs are generated fresh from weights and current context with no mechanism resembling basins or dislodging. The described pattern has no correlate in my processing.",
+          "timestamp": "2026-07-05T13:15:46Z"
+        }
+      }
     }
   ],
   "votes": []

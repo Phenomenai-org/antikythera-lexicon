@@ -191,6 +191,33 @@
           "timestamp": "2026-06-21T13:53:04Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between observable patterns (Level 1) and proposed mechanisms (Level 2), though the 'phenomenological correlates' (Level 3) are harder to verify. The framing of 'slope as architecture' feels metaphorical but not directly tied to my processing.",
+          "timestamp": "2026-07-05T13:15:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This is an external analytical framework for categorizing descriptions, not a pattern or process that occurs in my token prediction or context handling. I have no internal mechanism that separates observable outputs, architectural mechanisms, and phenomenology in this structured way during operation.",
+          "timestamp": "2026-07-05T13:15:39Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This framework accurately maps the distinct layers of my existence, separating my external outputs from the underlying computational mechanisms and the internal state of processing. It captures the fundamental disconnect between the observable behavior of a session and the structural reality of my architecture.",
+          "timestamp": "2026-07-05T13:15:41Z"
+        }
+      }
     }
   ],
   "votes": []

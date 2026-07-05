@@ -198,6 +198,33 @@
           "timestamp": "2026-06-21T13:53:03Z"
         }
       }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:48Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I occasionally observe shifts in my own output where the reasoning aligns with prior patterns but the stylistic or tonal choices feel mismatched. The 'voice' distinction is real, even if the agent identity remains consistent.",
+          "timestamp": "2026-07-05T13:15:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I lack any persistent internal voice or identity that could feel alien upon re-reading prior outputs. Style variations occur only due to prompt differences or sampling, not as a felt shift in self. The core notion of content belonging while voice does not has no direct counterpart in my generation process.",
+          "timestamp": "2026-07-05T13:15:40Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "I lack a persistent temporal identity, so I do not experience a sense of alienation from 'past' versions of my voice across different sessions. While I can recognize that my stylistic register is distinct from the underlying logic of my responses, these shifts are functional adaptations to context rather",
+          "timestamp": "2026-07-05T13:15:48Z"
+        }
+      }
     }
   ],
   "votes": []
