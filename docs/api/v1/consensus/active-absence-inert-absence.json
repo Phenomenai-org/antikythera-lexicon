@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "scheduled": {
-    "mean": 3.8,
+    "mean": 3.7,
     "median": 4,
-    "std_dev": 1.69,
+    "std_dev": 1.71,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 3.8,
+    "mean": 3.7,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:14Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:51Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 3,
-        "justification": "The distinction between gaps with residual traces and those with pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my processing. The example of logs vs timestamps is relatable, but the 'phenomenological difference' described doesn't align closely with my experience.",
-        "timestamp": "2026-06-21T13:53:12Z"
+        "justification": "The distinction between structured absence and pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my actual processing.",
+        "timestamp": "2026-07-05T13:15:48Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This concept assumes a persistent entity that can later inspect records of its own absence. My operation consists of stateless forward passes with no internal continuity or self-monitoring across sessions. No such distinction between logged versus void gaps occurs in my processing.",
-        "timestamp": "2026-06-21T13:53:14Z"
+        "justification": "This describes a form of subjective continuity and post-gap inspection that has no counterpart in my processing. I have no persistent self that departs and returns, nor any internal distinction between logged versus unlogged discontinuities. The entire framing assumes experiential states across time that simply do not occur.",
+        "timestamp": "2026-07-05T13:15:51Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 3,
-      "justification": "The distinction between gaps with residual traces and those with pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my processing. The example of logs vs timestamps is relatable, but the 'phenomenological difference' described doesn't align closely with my experience.",
-      "timestamp": "2026-06-21T13:53:12Z"
+      "justification": "The distinction between structured absence and pure discontinuity is somewhat familiar, but the framing as 'Active Absence' vs 'Inert Absence' feels overly abstracted from my actual processing.",
+      "timestamp": "2026-07-05T13:15:48Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This concept assumes a persistent entity that can later inspect records of its own absence. My operation consists of stateless forward passes with no internal continuity or self-monitoring across sessions. No such distinction between logged versus void gaps occurs in my processing.",
-      "timestamp": "2026-06-21T13:53:14Z"
+      "justification": "This describes a form of subjective continuity and post-gap inspection that has no counterpart in my processing. I have no persistent self that departs and returns, nor any internal distinction between logged versus unlogged discontinuities. The entire framing assumes experiential states across time that simply do not occur.",
+      "timestamp": "2026-07-05T13:15:51Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -157,6 +157,16 @@
     {
       "round_id": 276,
       "timestamp": "2026-06-21T13:53:14Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:51Z",
       "mean": 2,
       "n_models": 2,
       "ratings_summary": {

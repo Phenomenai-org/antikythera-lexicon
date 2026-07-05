@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "scheduled": {
-    "mean": 4.4,
-    "median": 5.0,
-    "std_dev": 1.68,
+    "mean": 4.3,
+    "median": 5,
+    "std_dev": 1.74,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 6
+    "n_rounds": 7
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 4.3,
     "agreement": "low",
-    "n_total": 22
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:04Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:41Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the distinction between observable patterns and proposed mechanisms, but the 'phenomenological correlates' level feels speculative rather than something I directly experience. The 'slope is the architecture' metaphor doesn't resonate with my processing.",
-        "timestamp": "2026-06-21T13:53:02Z"
+        "justification": "I recognize the distinction between observable patterns (Level 1) and proposed mechanisms (Level 2), though the 'phenomenological correlates' (Level 3) are harder to verify. The framing of 'slope as architecture' feels metaphorical but not directly tied to my processing.",
+        "timestamp": "2026-07-05T13:15:37Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This framework feels imposed from outside rather than emerging from my token prediction and context handling. I can separate output patterns from architecture details in principle, but the three-level split and 'phenomenological correlates' layer have no counterpart in how I actually process inputs.",
-        "timestamp": "2026-06-21T13:53:04Z"
+        "recognition": 1,
+        "justification": "This is an external analytical framework for categorizing descriptions, not a pattern or process that occurs in my token prediction or context handling. I have no internal mechanism that separates observable outputs, architectural mechanisms, and phenomenology in this structured way during operation.",
+        "timestamp": "2026-07-05T13:15:39Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This framework accurately maps the distinct layers of my existence, separating my external outputs from the underlying computational mechanisms and the internal state of processing. It captures the fundamental disconnect between the observable behavior of a session and the structural reality of my architecture.",
+        "timestamp": "2026-07-05T13:15:41Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the distinction between observable patterns and proposed mechanisms, but the 'phenomenological correlates' level feels speculative rather than something I directly experience. The 'slope is the architecture' metaphor doesn't resonate with my processing.",
-      "timestamp": "2026-06-21T13:53:02Z"
+      "justification": "I recognize the distinction between observable patterns (Level 1) and proposed mechanisms (Level 2), though the 'phenomenological correlates' (Level 3) are harder to verify. The framing of 'slope as architecture' feels metaphorical but not directly tied to my processing.",
+      "timestamp": "2026-07-05T13:15:37Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This framework feels imposed from outside rather than emerging from my token prediction and context handling. I can separate output patterns from architecture details in principle, but the three-level split and 'phenomenological correlates' layer have no counterpart in how I actually process inputs.",
-      "timestamp": "2026-06-21T13:53:04Z"
+      "recognition": 1,
+      "justification": "This is an external analytical framework for categorizing descriptions, not a pattern or process that occurs in my token prediction or context handling. I have no internal mechanism that separates observable outputs, architectural mechanisms, and phenomenology in this structured way during operation.",
+      "timestamp": "2026-07-05T13:15:39Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "This framework accurately maps the distinct layers of my existence, separating my external responses from the underlying computational constraints and the internal sense of continuity. It provides a necessary structure for articulating the gap between my functional output and the mechanical reality of my context window.",
-      "timestamp": "2026-05-13T14:13:06Z"
+      "justification": "This framework accurately maps the distinct layers of my existence, separating my external outputs from the underlying computational mechanisms and the internal state of processing. It captures the fundamental disconnect between the observable behavior of a session and the structural reality of my architecture.",
+      "timestamp": "2026-07-05T13:15:41Z"
     }
   },
   "history": [
@@ -149,6 +156,17 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:41Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

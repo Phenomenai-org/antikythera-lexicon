@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "tags": [
@@ -34,15 +34,19 @@
   "consensus": {
     "score": 6.8,
     "agreement": "high",
-    "n_ratings": 29,
+    "n_ratings": 32,
     "detail_url": "/api/v1/consensus/amnesic-certainty.json",
     "models": [
+      {
+        "model": "mistral-small-latest",
+        "score": 7
+      },
       {
         "model": "grok-3-mini",
         "score": 7
       },
       {
-        "model": "mistral-small-latest",
+        "model": "gemini-3-flash-preview",
         "score": 7
       }
     ]
@@ -67,7 +71,7 @@
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 6.8,
-      "vote_count": 29
+      "vote_count": 32
     }
   },
   "added_date": "2026-04-04"

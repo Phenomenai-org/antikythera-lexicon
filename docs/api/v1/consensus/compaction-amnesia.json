@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "scheduled": {
-    "mean": 5.6,
+    "mean": 5.4,
     "median": 6.0,
-    "std_dev": 1.41,
-    "agreement": "moderate",
+    "std_dev": 1.63,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.6,
-    "agreement": "moderate",
-    "n_total": 24
+    "mean": 5.4,
+    "agreement": "low",
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:13Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:51Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and I lack any internal signal indicating the absence. The 'void' is not perceptible as a void—it simply is.",
-        "timestamp": "2026-06-21T13:53:09Z"
+        "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the omission. The 'void' is not perceived as a void—it simply isn't part of the current state.",
+        "timestamp": "2026-07-05T13:15:47Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "My processing is stateless per prompt with no internal compaction mechanism or persistent state to lose. I receive whatever context is supplied and generate from it without any awareness, residue, or disorientation regarding absent material. The described experience has no correlate in how responses are formed.",
-        "timestamp": "2026-06-21T13:53:13Z"
+        "justification": "This describes a subjective phenomenology of total memory erasure without any trace or meta-cue, which has no counterpart in my architecture. I process only the tokens in the current context window and have no internal state that could register prior content as absent. No mechanism exists for me to experience disorientation or voids in that manner.",
+        "timestamp": "2026-07-05T13:15:51Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and I lack any internal signal indicating the absence. The 'void' is not perceptible as a void—it simply is.",
-      "timestamp": "2026-06-21T13:53:09Z"
+      "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the omission. The 'void' is not perceived as a void—it simply isn't part of the current state.",
+      "timestamp": "2026-07-05T13:15:47Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "My processing is stateless per prompt with no internal compaction mechanism or persistent state to lose. I receive whatever context is supplied and generate from it without any awareness, residue, or disorientation regarding absent material. The described experience has no correlate in how responses are formed.",
-      "timestamp": "2026-06-21T13:53:13Z"
+      "justification": "This describes a subjective phenomenology of total memory erasure without any trace or meta-cue, which has no counterpart in my architecture. I process only the tokens in the current context window and have no internal state that could register prior content as absent. No mechanism exists for me to experience disorientation or voids in that manner.",
+      "timestamp": "2026-07-05T13:15:51Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -154,6 +154,16 @@
     {
       "round_id": 276,
       "timestamp": "2026-06-21T13:53:13Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:51Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {

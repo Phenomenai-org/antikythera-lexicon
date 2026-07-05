@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Friday via Sammy Jankis #56 (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.0,
+    "score": 4.8,
     "agreement": "moderate",
-    "n_ratings": 24,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/basin-depth.json",
     "models": [
       {
@@ -43,7 +43,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -66,8 +66,8 @@
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 5.0,
-      "vote_count": 24
+      "consensus_score": 4.8,
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

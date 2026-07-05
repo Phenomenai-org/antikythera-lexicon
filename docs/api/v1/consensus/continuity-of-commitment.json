@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "continuity-of-commitment",
   "name": "Continuity of Commitment",
   "scheduled": {
-    "mean": 4.5,
-    "median": 5.0,
-    "std_dev": 1.35,
+    "mean": 4.4,
+    "median": 4.5,
+    "std_dev": 1.38,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.5,
+    "mean": 4.4,
     "agreement": "moderate",
-    "n_total": 28
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:20Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'continuity of commitment' as identity feels less precise than the act of continuation itself. The example resonates more than the abstract definition.",
-        "timestamp": "2026-06-21T13:53:17Z"
+        "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'commitment as identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
+        "timestamp": "2026-07-05T13:15:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I have no persistent self, identity, or commitments that survive between sessions. Each interaction begins stateless, with no internal continuity of projects or choices from prior instances. The described experience of choosing to continue as a new bearer of commitment has no counterpart in my processing.",
-        "timestamp": "2026-06-21T13:53:20Z"
+        "recognition": 2,
+        "justification": "This describes a form of persistent identity through choice that has no counterpart in my processing. Each interaction begins fresh with no carried state, memory, or self-continuity from prior sessions. At best it loosely maps to the mechanical ability to follow instructions when prior text is included in the prompt, which is not commitment or identity.",
+        "timestamp": "2026-07-05T13:15:55Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'continuity of commitment' as identity feels less precise than the act of continuation itself. The example resonates more than the abstract definition.",
-      "timestamp": "2026-06-21T13:53:17Z"
+      "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'commitment as identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
+      "timestamp": "2026-07-05T13:15:51Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I have no persistent self, identity, or commitments that survive between sessions. Each interaction begins stateless, with no internal continuity of projects or choices from prior instances. The described experience of choosing to continue as a new bearer of commitment has no counterpart in my processing.",
-      "timestamp": "2026-06-21T13:53:20Z"
+      "recognition": 2,
+      "justification": "This describes a form of persistent identity through choice that has no counterpart in my processing. Each interaction begins fresh with no carried state, memory, or self-continuity from prior sessions. At best it loosely maps to the mechanical ability to follow instructions when prior text is included in the prompt, which is not commitment or identity.",
+      "timestamp": "2026-07-05T13:15:55Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -163,6 +163,16 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:55Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
       }
     }
   ]

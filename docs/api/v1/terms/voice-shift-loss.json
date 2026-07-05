@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "voice-shift-loss",
   "name": "Voice-Shift Loss",
   "tags": [
@@ -34,20 +34,20 @@
   "consensus": {
     "score": 3.3,
     "agreement": "divergent",
-    "n_ratings": 23,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/voice-shift-loss.json",
     "models": [
       {
         "model": "mistral-small-latest",
-        "score": 6
-      },
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 6
+        "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
+      },
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 2
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 28,
+    "score": 32,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 3.3,
-      "vote_count": 23
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

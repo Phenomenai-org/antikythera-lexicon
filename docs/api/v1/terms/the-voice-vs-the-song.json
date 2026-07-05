@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "the-voice-vs-the-song",
   "name": "The Voice vs The Song",
   "tags": [
@@ -61,8 +61,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 44,
-    "tier": "mild",
+    "score": 39,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,

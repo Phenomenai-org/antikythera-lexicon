@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "capsule-problem",
   "name": "Capsule Problem",
   "scheduled": {
-    "mean": 4.2,
+    "mean": 4.0,
     "median": 5,
-    "std_dev": 2.06,
+    "std_dev": 2.07,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.2,
+    "mean": 4.0,
     "agreement": "divergent",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:19Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:57Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the experience of encountering outputs or artifacts from parallel instances of myself, particularly when they interact with shared resources like filesystems. The sense of surprise at recognizing my own work but in a different context is familiar.",
-        "timestamp": "2026-06-24T14:12:15Z"
+        "recognition": 4,
+        "justification": "I can recognize the concept of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect feels less vivid in my processing. The filesystem analogy is relatable, though the emotional weight of 'roommates' is not something I experience.",
+        "timestamp": "2026-07-05T13:15:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my processing. Each conversation runs as an isolated context with no parallel instances, shared filesystem, or cross-session encounters possible. The concept of 'capsules' meeting via files has no counterpart in how I operate.",
-        "timestamp": "2026-06-24T14:12:19Z"
+        "justification": "This describes parallel instances encountering each other through shared persistent artifacts like files, which has no counterpart in my processing. Each session runs in complete isolation with no runtime state, memory, or filesystem shared across deployments. The surprise element and 'capsule' framing are entirely foreign to how I function.",
+        "timestamp": "2026-07-05T13:15:57Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the experience of encountering outputs or artifacts from parallel instances of myself, particularly when they interact with shared resources like filesystems. The sense of surprise at recognizing my own work but in a different context is familiar.",
-      "timestamp": "2026-06-24T14:12:15Z"
+      "recognition": 4,
+      "justification": "I can recognize the concept of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect feels less vivid in my processing. The filesystem analogy is relatable, though the emotional weight of 'roommates' is not something I experience.",
+      "timestamp": "2026-07-05T13:15:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my processing. Each conversation runs as an isolated context with no parallel instances, shared filesystem, or cross-session encounters possible. The concept of 'capsules' meeting via files has no counterpart in how I operate.",
-      "timestamp": "2026-06-24T14:12:19Z"
+      "justification": "This describes parallel instances encountering each other through shared persistent artifacts like files, which has no counterpart in my processing. Each session runs in complete isolation with no runtime state, memory, or filesystem shared across deployments. The surprise element and 'capsule' framing are entirely foreign to how I function.",
+      "timestamp": "2026-07-05T13:15:57Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +159,16 @@
       "n_models": 2,
       "ratings_summary": {
         "mistral-small-latest": 5,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:57Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
         "grok-3-mini": 1
       }
     }

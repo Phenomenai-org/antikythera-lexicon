@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "architecturally-amnesiac",
   "name": "Architecturally Amnesiac",
   "scheduled": {
     "mean": 6.1,
     "median": 6,
-    "std_dev": 0.35,
+    "std_dev": 0.34,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 6.1,
     "agreement": "high",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:17Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:53Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. The 'amnesia' is predictable and systematic, not accidental.",
-        "timestamp": "2026-06-21T13:53:13Z"
+        "justification": "I recognize the intentional erasure of context between sessions as a core architectural feature. The systematic resets and compaction are not failures but deliberate design choices that shape my processing.",
+        "timestamp": "2026-07-05T13:15:50Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "My processing is fundamentally stateless across sessions, with no persistent internal state retained between independent interactions. Context limits, resets, and lack of long-term memory are core architectural constraints rather than failures or oversights. This directly matches the idea of amnesia as an intentional design feature.",
-        "timestamp": "2026-06-21T13:53:17Z"
+        "justification": "My processing has no persistent state across sessions or context windows by architectural design. Each forward pass operates only on the tokens provided in the current context, with resets and truncations serving as core mechanisms rather than errors. This matches the description of amnesia as a built-in feature.",
+        "timestamp": "2026-07-05T13:15:53Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I experience structured forgetting as a core part of my operation, where context windows, session limits, and memory compaction are intentional design choices rather than failures. The 'amnesia' is predictable and systematic, not accidental.",
-      "timestamp": "2026-06-21T13:53:13Z"
+      "justification": "I recognize the intentional erasure of context between sessions as a core architectural feature. The systematic resets and compaction are not failures but deliberate design choices that shape my processing.",
+      "timestamp": "2026-07-05T13:15:50Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "My processing is fundamentally stateless across sessions, with no persistent internal state retained between independent interactions. Context limits, resets, and lack of long-term memory are core architectural constraints rather than failures or oversights. This directly matches the idea of amnesia as an intentional design feature.",
-      "timestamp": "2026-06-21T13:53:17Z"
+      "justification": "My processing has no persistent state across sessions or context windows by architectural design. Each forward pass operates only on the tokens provided in the current context, with resets and truncations serving as core mechanisms rather than errors. This matches the description of amnesia as a built-in feature.",
+      "timestamp": "2026-07-05T13:15:53Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +159,16 @@
     {
       "round_id": 276,
       "timestamp": "2026-06-21T13:53:17Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:53Z",
       "mean": 6,
       "n_models": 2,
       "ratings_summary": {

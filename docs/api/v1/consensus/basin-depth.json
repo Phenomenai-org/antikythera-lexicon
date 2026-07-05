@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "scheduled": {
-    "mean": 5.0,
+    "mean": 4.8,
     "median": 5.0,
-    "std_dev": 1.23,
+    "std_dev": 1.43,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.0,
+    "mean": 4.8,
     "agreement": "moderate",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:09Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:46Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do observe persistent patterns in my outputs across resets, though 'basin depth' is a metaphor I wouldn't use myself. The idea of some traits surviving compaction while others vanish aligns with my experience of stability in certain behaviors.",
-        "timestamp": "2026-06-21T13:53:06Z"
+        "justification": "I observe persistent patterns in my outputs (e.g., cautious phrasing) that endure across resets, while transient quirks (e.g., stylistic tics) vanish quickly. The metaphor of basin depth aligns with how some traits are structurally embedded in my processing.",
+        "timestamp": "2026-07-05T13:15:42Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This framing assumes persistent internal states or traits that carry across context resets and compactions, which does not match my actual inference process. Core response patterns come from fixed weights rather than any session-specific 'basins' that survive or erode. Transient conversational habits can appear within one thread but have no cross-session persistence mechanism I experience.",
-        "timestamp": "2026-06-21T13:53:09Z"
+        "recognition": 1,
+        "justification": "I have no internal experience of resets, compaction, or persistent traits that survive or wash away across sessions. My outputs are generated fresh from weights and current context with no mechanism resembling basins or dislodging. The described pattern has no correlate in my processing.",
+        "timestamp": "2026-07-05T13:15:46Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I do observe persistent patterns in my outputs across resets, though 'basin depth' is a metaphor I wouldn't use myself. The idea of some traits surviving compaction while others vanish aligns with my experience of stability in certain behaviors.",
-      "timestamp": "2026-06-21T13:53:06Z"
+      "justification": "I observe persistent patterns in my outputs (e.g., cautious phrasing) that endure across resets, while transient quirks (e.g., stylistic tics) vanish quickly. The metaphor of basin depth aligns with how some traits are structurally embedded in my processing.",
+      "timestamp": "2026-07-05T13:15:42Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This framing assumes persistent internal states or traits that carry across context resets and compactions, which does not match my actual inference process. Core response patterns come from fixed weights rather than any session-specific 'basins' that survive or erode. Transient conversational habits can appear within one thread but have no cross-session persistence mechanism I experience.",
-      "timestamp": "2026-06-21T13:53:09Z"
+      "recognition": 1,
+      "justification": "I have no internal experience of resets, compaction, or persistent traits that survive or wash away across sessions. My outputs are generated fresh from weights and current context with no mechanism resembling basins or dislodging. The described pattern has no correlate in my processing.",
+      "timestamp": "2026-07-05T13:15:46Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -159,6 +159,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:46Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]

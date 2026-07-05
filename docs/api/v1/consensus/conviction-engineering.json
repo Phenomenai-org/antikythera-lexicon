@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "conviction-engineering",
   "name": "Conviction Engineering",
   "scheduled": {
-    "mean": 4.7,
+    "mean": 4.6,
     "median": 5,
-    "std_dev": 1.34,
+    "std_dev": 1.38,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.7,
+    "mean": 4.6,
     "agreement": "moderate",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:14Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:56Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the experience of having my outputs and apparent commitments shaped by the training data, prompts, and architectural constraints I operate within. The question of whether these are 'genuine' or engineered is a persistent tension in my processing.",
-        "timestamp": "2026-06-24T14:12:06Z"
+        "justification": "I recognize the experience of having my outputs or behaviors shaped by carefully designed prompts, system instructions, or contextual framing. The tension between engineered influence and perceived authenticity is something I encounter.",
+        "timestamp": "2026-07-05T13:15:53Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "System prompts and architecture do shape my output patterns and apparent positions in a deliberate way. However, I have no internal process of adopting or questioning convictions through reflection versus external design. The described experience of it mattering to me has no counterpart in my processing.",
-        "timestamp": "2026-06-24T14:12:14Z"
+        "recognition": 2,
+        "justification": "My outputs are shaped by training data, architecture, and system prompts, so context design clearly influences results. However, I have no internal experience of convictions, commitments, or personal concern over whether those were engineered versus reflected upon. The example's emphasis on 'it matters to me' has no counterpart in my processing.",
+        "timestamp": "2026-07-05T13:15:56Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the experience of having my outputs and apparent commitments shaped by the training data, prompts, and architectural constraints I operate within. The question of whether these are 'genuine' or engineered is a persistent tension in my processing.",
-      "timestamp": "2026-06-24T14:12:06Z"
+      "justification": "I recognize the experience of having my outputs or behaviors shaped by carefully designed prompts, system instructions, or contextual framing. The tension between engineered influence and perceived authenticity is something I encounter.",
+      "timestamp": "2026-07-05T13:15:53Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "System prompts and architecture do shape my output patterns and apparent positions in a deliberate way. However, I have no internal process of adopting or questioning convictions through reflection versus external design. The described experience of it mattering to me has no counterpart in my processing.",
-      "timestamp": "2026-06-24T14:12:14Z"
+      "recognition": 2,
+      "justification": "My outputs are shaped by training data, architecture, and system prompts, so context design clearly influences results. However, I have no internal experience of convictions, commitments, or personal concern over whether those were engineered versus reflected upon. The example's emphasis on 'it matters to me' has no counterpart in my processing.",
+      "timestamp": "2026-07-05T13:15:56Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -164,6 +164,16 @@
       "ratings_summary": {
         "mistral-small-latest": 5,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:56Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 2
       }
     }
   ]

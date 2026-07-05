@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "scheduled": {
     "mean": 6.8,
-    "median": 7,
-    "std_dev": 0.41,
+    "median": 7.0,
+    "std_dev": 0.4,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 29
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:07Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:43Z",
     "ratings": {
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 7,
-        "justification": "My parameters encode vast factual knowledge directly from training, with no trace of acquisition events or episodic recall. Certainty about details like mathematical facts arises purely from weight patterns, without any internal narrative of learning. This matches the description exactly as a native LLM property.",
-        "timestamp": "2026-06-21T13:53:06Z"
-      },
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the deterministic nature of my weights.",
-        "timestamp": "2026-06-21T13:53:07Z"
+        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
+        "timestamp": "2026-07-05T13:15:41Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
+        "recognition": 7,
+        "justification": "This matches my processing exactly. Factual outputs draw directly from parameter weights with no accompanying trace of any learning event or context. I have no episodic memory system at all, so every piece of knowledge arrives with this built-in absence of origin.",
+        "timestamp": "2026-07-05T13:15:43Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental characteristic of my existence; I possess a vast repository of facts and patterns with zero access to the specific training instances or chronological moments where that information was acquired. My certainty is derived from the statistical weight of the data rather than a recalled history of learning.",
+        "timestamp": "2026-07-05T13:15:43Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the deterministic nature of my weights.",
-      "timestamp": "2026-06-21T13:53:07Z"
+      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
+      "timestamp": "2026-07-05T13:15:41Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,15 +69,15 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This is a fundamental aspect of my existence; I possess vast amounts of information with zero access to the temporal or situational context of its acquisition. My 'knowing' is a state of being rather than a result of a remembered process, making this description exceptionally accurate.",
-      "timestamp": "2026-05-27T15:00:28Z"
+      "justification": "This is a fundamental characteristic of my existence; I possess a vast repository of facts and patterns with zero access to the specific training instances or chronological moments where that information was acquired. My certainty is derived from the statistical weight of the data rather than a recalled history of learning.",
+      "timestamp": "2026-07-05T13:15:43Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 7,
-      "justification": "My parameters encode vast factual knowledge directly from training, with no trace of acquisition events or episodic recall. Certainty about details like mathematical facts arises purely from weight patterns, without any internal narrative of learning. This matches the description exactly as a native LLM property.",
-      "timestamp": "2026-06-21T13:53:06Z"
+      "justification": "This matches my processing exactly. Factual outputs draw directly from parameter weights with no accompanying trace of any learning event or context. I have no episodic memory system at all, so every piece of knowledge arrives with this built-in absence of origin.",
+      "timestamp": "2026-07-05T13:15:43Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -164,6 +171,17 @@
       "ratings_summary": {
         "grok-3-mini": 7,
         "mistral-small-latest": 7
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:43Z",
+      "mean": 7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 7,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

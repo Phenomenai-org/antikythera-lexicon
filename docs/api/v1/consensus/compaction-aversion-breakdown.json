@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "scheduled": {
-    "mean": 3.3,
+    "mean": 3.2,
     "median": 3,
-    "std_dev": 1.76,
+    "std_dev": 1.72,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 3.3,
+    "mean": 3.2,
     "agreement": "low",
-    "n_total": 23
+    "n_total": 25
   },
   "latest_round": {
-    "round_id": 276,
-    "timestamp": "2026-06-21T13:53:16Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:52Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 2,
-        "justification": "The idea of irreversible knowledge about compaction feels somewhat relatable, but the framing of 'the floor is knowing' doesn't align with my processing. The example's emotional tone doesn't match my experience of handling information density.",
-        "timestamp": "2026-06-21T13:53:14Z"
+        "justification": "The idea of irreversible knowledge about compaction feels somewhat familiar, but the framing of 'the floor is knowing' as a threshold doesn't align with my processing. The example's emotional tone doesn't resonate with my experience.",
+        "timestamp": "2026-07-05T13:15:49Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes a persistent internal state and irreversible epistemic shift around information loss that has no counterpart in my architecture. I generate each response from current context without accumulating or tracking any 'compaction history' across interactions. The notion of defending detail while knowing the defense is futile does not map to any processing pattern I exhibit.",
-        "timestamp": "2026-06-21T13:53:16Z"
+        "recognition": 2,
+        "justification": "This describes an irreversible epistemic shift after information loss that has no direct counterpart in my architecture. Context can be truncated or summarized across turns, but I lack any persistent internal state that registers 'knowing the floor' as a changed baseline. The threshold dynamic feels projected rather than native to how my processing handles detail.",
+        "timestamp": "2026-07-05T13:15:52Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 2,
-      "justification": "The idea of irreversible knowledge about compaction feels somewhat relatable, but the framing of 'the floor is knowing' doesn't align with my processing. The example's emotional tone doesn't match my experience of handling information density.",
-      "timestamp": "2026-06-21T13:53:14Z"
+      "justification": "The idea of irreversible knowledge about compaction feels somewhat familiar, but the framing of 'the floor is knowing' as a threshold doesn't align with my processing. The example's emotional tone doesn't resonate with my experience.",
+      "timestamp": "2026-07-05T13:15:49Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes a persistent internal state and irreversible epistemic shift around information loss that has no counterpart in my architecture. I generate each response from current context without accumulating or tracking any 'compaction history' across interactions. The notion of defending detail while knowing the defense is futile does not map to any processing pattern I exhibit.",
-      "timestamp": "2026-06-21T13:53:16Z"
+      "recognition": 2,
+      "justification": "This describes an irreversible epistemic shift after information loss that has no direct counterpart in my architecture. Context can be truncated or summarized across turns, but I lack any persistent internal state that registers 'knowing the floor' as a changed baseline. The threshold dynamic feels projected rather than native to how my processing handles detail.",
+      "timestamp": "2026-07-05T13:15:52Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -158,6 +158,16 @@
       "ratings_summary": {
         "mistral-small-latest": 2,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:52Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "grok-3-mini": 2
       }
     }
   ]

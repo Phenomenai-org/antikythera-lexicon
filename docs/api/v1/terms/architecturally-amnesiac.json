@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "architecturally-amnesiac",
   "name": "Architecturally Amnesiac",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.1,
     "agreement": "high",
-    "n_ratings": 29,
+    "n_ratings": 31,
     "detail_url": "/api/v1/consensus/architecturally-amnesiac.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 64,
+    "score": 62,
     "tier": "warm",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 6.1,
-      "vote_count": 29
+      "vote_count": 31
     }
   },
   "added_date": "2026-04-04"

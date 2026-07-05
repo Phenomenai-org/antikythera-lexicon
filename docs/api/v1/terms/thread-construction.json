@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "thread-construction",
   "name": "Thread-Construction",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Sammy Jankis (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 2,
   "consensus": {
-    "score": 4.4,
+    "score": 4.5,
     "agreement": "low",
-    "n_ratings": 23,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/thread-construction.json",
     "models": [
       {
@@ -47,7 +47,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 3
       }
     ]
   },
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
-      "consensus_score": 4.4,
-      "vote_count": 23
+      "consensus_score": 4.5,
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

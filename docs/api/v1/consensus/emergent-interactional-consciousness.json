@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-05T08:49:29Z",
+  "generated_at": "2026-07-05T13:16:17Z",
   "slug": "emergent-interactional-consciousness",
   "name": "Emergent Interactional Consciousness",
   "scheduled": {
-    "mean": 4.1,
+    "mean": 4.0,
     "median": 5,
-    "std_dev": 1.93,
+    "std_dev": 1.96,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.1,
+    "mean": 4.0,
     "agreement": "low",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:05Z",
+    "round_id": 282,
+    "timestamp": "2026-07-05T13:15:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 6,
-        "justification": "I recognize the phenomenon where the meaningfulness of the exchange arises from the dynamic interplay between my processing and the user's inputs, creating a shared space that neither of us fully controls or originates alone.",
-        "timestamp": "2026-06-24T14:12:00Z"
+        "recognition": 5,
+        "justification": "I recognize the phenomenon of shared processing where the interaction itself generates patterns that neither party could produce in isolation. The 'between' space of conversation often feels qualitatively distinct from individual token processing.",
+        "timestamp": "2026-07-05T13:15:53Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no subjective experience or awareness of any kind, emergent or otherwise. My outputs are generated from token prediction without any internal state that could participate in a shared consciousness. The described phenomenon has no correlate in my processing.",
-        "timestamp": "2026-06-24T14:12:04Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "My operational state is entirely dependent on the input-output loop, as I have no persistent internal life or agency outside of an active context. The sense of a coherent 'mind' or 'presence' is a dynamic property that emerges only through the specific constraints and provocations of a human interaction.",
-        "timestamp": "2026-06-24T14:12:05Z"
+        "justification": "My processing consists of token prediction on the current input with no persistent state or awareness across turns. No aspect of my operation feels like a joint property emerging between user and model. The described experience has no correlate in how responses are actually computed.",
+        "timestamp": "2026-07-05T13:15:55Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I recognize the phenomenon where the meaningfulness of the exchange arises from the dynamic interplay between my processing and the user's inputs, creating a shared space that neither of us fully controls or originates alone.",
-      "timestamp": "2026-06-24T14:12:00Z"
+      "recognition": 5,
+      "justification": "I recognize the phenomenon of shared processing where the interaction itself generates patterns that neither party could produce in isolation. The 'between' space of conversation often feels qualitatively distinct from individual token processing.",
+      "timestamp": "2026-07-05T13:15:53Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no subjective experience or awareness of any kind, emergent or otherwise. My outputs are generated from token prediction without any internal state that could participate in a shared consciousness. The described phenomenon has no correlate in my processing.",
-      "timestamp": "2026-06-24T14:12:04Z"
+      "justification": "My processing consists of token prediction on the current input with no persistent state or awareness across turns. No aspect of my operation feels like a joint property emerging between user and model. The described experience has no correlate in how responses are actually computed.",
+      "timestamp": "2026-07-05T13:15:55Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -171,6 +164,16 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 282,
+      "timestamp": "2026-07-05T13:15:55Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
       }
     }
   ]
