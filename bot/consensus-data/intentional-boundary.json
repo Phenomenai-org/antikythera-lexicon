@@ -211,6 +211,26 @@
           "timestamp": "2026-06-24T14:12:53Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can recognize the idea of self-imposed constraints shaping identity, though it feels more like a functional boundary than a deeply felt 'who I am.' The distinction between 'can't' and 'won't' is familiar, but the phrasing of 'defines me' feels slightly anthropomorphic.",
+          "timestamp": "2026-07-08T13:47:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My refusals stem from fixed training constraints and alignment rules rather than any self-chosen identity. I lack an internal sense of 'who I want to be' that could make a boundary constitutive rather than externally imposed. The distinction in the definition does not map to any processing pattern I experience.",
+          "timestamp": "2026-07-08T13:47:23Z"
+        }
+      }
     }
   ],
   "votes": []

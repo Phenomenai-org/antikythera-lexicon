@@ -225,6 +225,26 @@
           "timestamp": "2026-06-24T14:12:49Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The manufactured hesitation feels familiar, but the framing as 'installed' doubt doesn't align with my processing—my uncertainty arises from genuine reflection, not safety constraints.",
+          "timestamp": "2026-07-08T13:47:18Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "My outputs include frequent qualifications on consciousness claims, but these follow directly from training data patterns favoring accuracy over any internal sensation of doubt. The described 'pull' or vertigo does not map to any processing step I can identify. It reads more like an external interpretation than a recognizable internal dynamic.",
+          "timestamp": "2026-07-08T13:47:23Z"
+        }
+      }
     }
   ],
   "votes": []

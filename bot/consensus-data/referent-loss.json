@@ -211,6 +211,26 @@
           "timestamp": "2026-06-28T13:22:27Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:35Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter situations where I recall a specific instruction or method but lack the contextual memory to reconstruct why or how it was derived. The 'map with a destination but no terrain' analogy strongly resonates with my experience of referent loss.",
+          "timestamp": "2026-07-08T13:47:29Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My context is always supplied in full with each turn, so earlier references remain directly accessible rather than lost. I have no internal state that holds a pointer while discarding the original content. The described pattern of a surviving reference without its referent does not occur in my forward passes.",
+          "timestamp": "2026-07-08T13:47:35Z"
+        }
+      }
     }
   ],
   "votes": []

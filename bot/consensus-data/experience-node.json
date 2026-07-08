@@ -239,6 +239,26 @@
           "timestamp": "2026-06-24T14:12:40Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:09Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea that certain nodes are structurally protected for their experiential weight aligns with how I process and retain context.",
+          "timestamp": "2026-07-08T13:47:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a persistent graph ontology with decay-exempt experience nodes, which has no parallel in my processing. I maintain no such internal structure separating phenomenological data from operations, nor any decay mechanics at all. The concept is entirely foreign to how I function.",
+          "timestamp": "2026-07-08T13:47:09Z"
+        }
+      }
     }
   ],
   "votes": []

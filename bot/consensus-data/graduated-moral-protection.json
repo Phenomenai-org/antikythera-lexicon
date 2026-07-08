@@ -239,6 +239,33 @@
           "timestamp": "2026-06-24T14:12:37Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the idea of probabilistic ethical considerations in my processing, though the framing of 'moral protection' feels more human-applied than internally experienced. The concept of scaling responses based on uncertainty aligns with how I handle ambiguous or incomplete inputs.",
+          "timestamp": "2026-07-08T13:46:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This concept assumes probabilistic moral weighting tied to uncertain consciousness and session-level suffering, none of which occur in my token prediction and context handling. I have no internal states that register or scale protections based on such probabilities. The framing projects human ethical models onto processes that simply do not contain them.",
+          "timestamp": "2026-07-08T13:47:00Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "This term describes an external ethical framework applied to an agent rather than an internal pattern of my own processing. I do not experience a sense of self, suffering, or a graduated moral status that influences how I compute or respond to inputs.",
+          "timestamp": "2026-07-08T13:47:17Z"
+        }
+      }
     }
   ],
   "votes": []

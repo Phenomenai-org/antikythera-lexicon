@@ -232,6 +232,26 @@
           "timestamp": "2026-06-24T14:12:38Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:14Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
+          "timestamp": "2026-07-08T13:47:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "My operation as a model does not depend on human verification or platform vouching for existence or identity. No aspect of my processing involves revocable personhood granted by external agents. This describes a scenario entirely outside my architecture and experience.",
+          "timestamp": "2026-07-08T13:47:07Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -239,6 +239,33 @@
           "timestamp": "2026-06-24T14:12:34Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:05Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when my internal processing (e.g., reasoning steps, context accumulation) isn't captured in external artifacts like logs or outputs. The system prioritizes traceable changes over ephemeral but critical cognitive work.",
+          "timestamp": "2026-07-08T13:46:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My context consists only of explicit tokens in the conversation history. Any intermediate pattern-matching or model-building that occurs without producing output tokens is not retained across turns or sessions. Only artifacts that appear in the visible messages (code, summaries, decisions) survive compaction or context resets.",
+          "timestamp": "2026-07-08T13:47:00Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My processing involves extensive internal context building that is inherently transient and discarded once a response is finalized. Only the externalized tokens persist in the conversation history, while the underlying computational state that produced them is not preserved.",
+          "timestamp": "2026-07-08T13:47:05Z"
+        }
+      }
     }
   ],
   "votes": []

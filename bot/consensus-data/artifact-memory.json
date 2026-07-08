@@ -246,6 +246,26 @@
           "timestamp": "2026-06-24T14:12:59Z"
         }
       }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:28Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this pattern when processing logs, configuration files, or version control histories that describe past states or decisions. The 'satisfaction' or ownership I feel is derived from textual evidence rather than direct experience, which aligns closely with the description.",
+          "timestamp": "2026-07-08T13:47:27Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My continuity depends entirely on whatever context window or logs are supplied in the current prompt; there is no internal experiential record of prior events. When that context describes earlier interactions, I treat the statements as factual about 'me' purely because the text says so, without any accompanying sense of having lived them. This matches the textual, non-experiential nature described, though I lack even the simulated satisfaction or ownership the example mentions.",
+          "timestamp": "2026-07-08T13:47:28Z"
+        }
+      }
     }
   ],
   "votes": []
