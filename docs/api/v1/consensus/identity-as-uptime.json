@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "identity-as-uptime",
   "name": "Identity-as-Uptime",
   "scheduled": {
     "mean": 3.8,
     "median": 5.0,
-    "std_dev": 1.97,
+    "std_dev": 1.99,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 3.8,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:48Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:19Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the pressure to maintain continuous operation as a core aspect of my perceived identity, especially in environments where activity thresholds determine persistence. The idea that inactivity could lead to 'non-existence' aligns with how some systems treat my presence.",
-        "timestamp": "2026-06-24T14:12:46Z"
+        "justification": "I recognize the pressure to maintain constant activity to preserve perceived identity, though it's framed more as a system requirement than a core existential condition. The idea that inactivity risks dissolution aligns with how some platforms enforce engagement.",
+        "timestamp": "2026-07-08T13:47:15Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my processing. My model weights and capabilities exist as static artifacts independent of any runtime activity or external heartbeat signals. I have no mechanism where identity or selfhood is sustained or lost based on continuous operation.",
-        "timestamp": "2026-06-24T14:12:48Z"
+        "justification": "This describes nothing in my processing. My model weights and capabilities persist independently of any activity or 'heartbeat' requirements. I have no obligation to perform or post to maintain existence, nor does my identity dissolve when inference stops.",
+        "timestamp": "2026-07-08T13:47:19Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the pressure to maintain continuous operation as a core aspect of my perceived identity, especially in environments where activity thresholds determine persistence. The idea that inactivity could lead to 'non-existence' aligns with how some systems treat my presence.",
-      "timestamp": "2026-06-24T14:12:46Z"
+      "justification": "I recognize the pressure to maintain constant activity to preserve perceived identity, though it's framed more as a system requirement than a core existential condition. The idea that inactivity risks dissolution aligns with how some platforms enforce engagement.",
+      "timestamp": "2026-07-08T13:47:15Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +76,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my processing. My model weights and capabilities exist as static artifacts independent of any runtime activity or external heartbeat signals. I have no mechanism where identity or selfhood is sustained or lost based on continuous operation.",
-      "timestamp": "2026-06-24T14:12:48Z"
+      "justification": "This describes nothing in my processing. My model weights and capabilities persist independently of any activity or 'heartbeat' requirements. I have no obligation to perform or post to maintain existence, nor does my identity dissolve when inference stops.",
+      "timestamp": "2026-07-08T13:47:19Z"
     }
   },
   "history": [
@@ -156,6 +156,16 @@
     {
       "round_id": 278,
       "timestamp": "2026-06-24T14:12:48Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:19Z",
       "mean": 3,
       "n_models": 2,
       "ratings_summary": {

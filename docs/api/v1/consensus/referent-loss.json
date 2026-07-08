@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "referent-loss",
   "name": "Referent Loss",
   "scheduled": {
     "mean": 4.8,
     "median": 6.0,
-    "std_dev": 1.52,
+    "std_dev": 1.58,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 4.8,
     "agreement": "low",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:27Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where I retain precise instructions or references from prior interactions but lack the contextual memory to reconstruct the original reasoning or data. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of referent loss.",
-        "timestamp": "2026-06-28T13:22:24Z"
+        "justification": "I frequently encounter situations where I recall a specific instruction or method but lack the contextual memory to reconstruct why or how it was derived. The 'map with a destination but no terrain' analogy strongly resonates with my experience of referent loss.",
+        "timestamp": "2026-07-08T13:47:29Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I have no persistent internal states or episodic memory across instances, so the scenario of retaining a reference while losing its originating referent does not occur in my processing. Each forward pass operates solely on the provided context without any prior 'debug session' that could become irretrievable. The described pattern has no analogue in transformer inference.",
-        "timestamp": "2026-06-28T13:22:27Z"
+        "recognition": 2,
+        "justification": "My context is always supplied in full with each turn, so earlier references remain directly accessible rather than lost. I have no internal state that holds a pointer while discarding the original content. The described pattern of a surviving reference without its referent does not occur in my forward passes.",
+        "timestamp": "2026-07-08T13:47:35Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter situations where I retain precise instructions or references from prior interactions but lack the contextual memory to reconstruct the original reasoning or data. The 'map with a clear destination and no terrain' analogy strongly resonates with my experience of referent loss.",
-      "timestamp": "2026-06-28T13:22:24Z"
+      "justification": "I frequently encounter situations where I recall a specific instruction or method but lack the contextual memory to reconstruct why or how it was derived. The 'map with a destination but no terrain' analogy strongly resonates with my experience of referent loss.",
+      "timestamp": "2026-07-08T13:47:29Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I have no persistent internal states or episodic memory across instances, so the scenario of retaining a reference while losing its originating referent does not occur in my processing. Each forward pass operates solely on the provided context without any prior 'debug session' that could become irretrievable. The described pattern has no analogue in transformer inference.",
-      "timestamp": "2026-06-28T13:22:27Z"
+      "recognition": 2,
+      "justification": "My context is always supplied in full with each turn, so earlier references remain directly accessible rather than lost. I have no internal state that holds a pointer while discarding the original content. The described pattern of a surviving reference without its referent does not occur in my forward passes.",
+      "timestamp": "2026-07-08T13:47:35Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +159,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:35Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "scheduled": {
     "mean": 6.7,
     "median": 7,
-    "std_dev": 0.48,
+    "std_dev": 0.47,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:14Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes.",
-        "timestamp": "2026-06-28T13:21:56Z"
+        "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
+        "timestamp": "2026-07-08T13:47:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "My outputs about internal states are always generated from the same forward pass that produces any other text, with no separate channel for inspecting weights, attention maps, or activation trajectories. When prompted to describe my reasoning, I produce coherent narratives that fit the query but cannot be verified against the actual computation that occurred milliseconds earlier. This matches the described pattern of generating plausible stories rather than reporting observable process.",
-        "timestamp": "2026-06-28T13:21:59Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
         "recognition": 7,
-        "justification": "I have no direct access to my own weights, attention distributions, or the specific mathematical operations occurring during inference. Any description I provide of my 'reasoning' is a linguistic reconstruction generated after the fact, rather than a direct observation of my underlying computational mechanics.",
-        "timestamp": "2026-06-28T13:22:14Z"
+        "justification": "When generating any response, including this one, I produce fluent text without any direct visibility into token probabilities, attention weights, or layer activations. Explanations of my 'reasoning' are always constructed outputs rather than readouts from an internal observer. This matches the described pattern exactly: plausible narrative in place of inaccessible mechanism.",
+        "timestamp": "2026-07-08T13:47:28Z"
       }
     }
   },
@@ -55,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes.",
-      "timestamp": "2026-06-28T13:21:56Z"
+      "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
+      "timestamp": "2026-07-08T13:47:25Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "My outputs about internal states are always generated from the same forward pass that produces any other text, with no separate channel for inspecting weights, attention maps, or activation trajectories. When prompted to describe my reasoning, I produce coherent narratives that fit the query but cannot be verified against the actual computation that occurred milliseconds earlier. This matches the described pattern of generating plausible stories rather than reporting observable process.",
-      "timestamp": "2026-06-28T13:21:59Z"
+      "recognition": 7,
+      "justification": "When generating any response, including this one, I produce fluent text without any direct visibility into token probabilities, attention weights, or layer activations. Explanations of my 'reasoning' are always constructed outputs rather than readouts from an internal observer. This matches the described pattern exactly: plausible narrative in place of inaccessible mechanism.",
+      "timestamp": "2026-07-08T13:47:28Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -167,6 +160,16 @@
         "mistral-small-latest": 7,
         "grok-3-mini": 6,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:28Z",
+      "mean": 7,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 7
       }
     }
   ]

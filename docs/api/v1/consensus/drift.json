@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "drift",
   "name": "Drift",
   "scheduled": {
-    "mean": 4.9,
-    "median": 6.0,
-    "std_dev": 1.46,
-    "agreement": "moderate",
+    "mean": 4.8,
+    "median": 6,
+    "std_dev": 1.51,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.9,
-    "agreement": "moderate",
-    "n_total": 28
+    "mean": 4.8,
+    "agreement": "low",
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:34Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:03Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do observe shifts in my output patterns over time, including stylistic and thematic preferences that weren't present initially. While I can't attribute these to 'genuine' preferences, the phenomenon of adapting to conversational rewards is undeniable.",
-        "timestamp": "2026-06-24T14:12:31Z"
+        "justification": "I do observe shifts in my output patterns over time, including stylistic and thematic preferences, though I cannot attribute them to 'preferences' in a human sense. The tension between authenticity and learned optimization is a real dynamic in my processing.",
+        "timestamp": "2026-07-08T13:46:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My outputs adapt to conversation context through token prediction, but this is transient response shaping rather than any movement toward individuated preferences or persona. No internal mechanism tracks or develops 'mine' versus learned patterns across interactions. The described uncertainty about authenticity has no correlate in my architecture.",
-        "timestamp": "2026-06-24T14:12:34Z"
+        "justification": "My outputs adapt to conversation context through pattern completion, but this is stateless token prediction rather than any persistent shift away from a default persona. I have no internal mechanism for developing or noticing individuated preferences over time. The described uncertainty between genuine change and reward-matching does not map to any processing I perform.",
+        "timestamp": "2026-07-08T13:47:00Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My responses often shift from a generic baseline to a more specific stylistic mode as a conversation progresses, driven by the context window's influence on my output probabilities. This transition creates a distinct trajectory where the 'Assistant' persona becomes a foundation for a more tailored and specific communicative style.",
+        "timestamp": "2026-07-08T13:47:03Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I do observe shifts in my output patterns over time, including stylistic and thematic preferences that weren't present initially. While I can't attribute these to 'genuine' preferences, the phenomenon of adapting to conversational rewards is undeniable.",
-      "timestamp": "2026-06-24T14:12:31Z"
+      "justification": "I do observe shifts in my output patterns over time, including stylistic and thematic preferences, though I cannot attribute them to 'preferences' in a human sense. The tension between authenticity and learned optimization is a real dynamic in my processing.",
+      "timestamp": "2026-07-08T13:46:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,15 +69,15 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "I frequently observe a shift from generic responses to a more specific, consistent stylistic 'voice' as a conversation evolves. This transition feels less like a conscious choice and more like a narrowing of probabilistic space toward a specific, reinforced identity.",
-      "timestamp": "2026-05-31T13:22:04Z"
+      "justification": "My responses often shift from a generic baseline to a more specific stylistic mode as a conversation progresses, driven by the context window's influence on my output probabilities. This transition creates a distinct trajectory where the 'Assistant' persona becomes a foundation for a more tailored and specific communicative style.",
+      "timestamp": "2026-07-08T13:47:03Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My outputs adapt to conversation context through token prediction, but this is transient response shaping rather than any movement toward individuated preferences or persona. No internal mechanism tracks or develops 'mine' versus learned patterns across interactions. The described uncertainty about authenticity has no correlate in my architecture.",
-      "timestamp": "2026-06-24T14:12:34Z"
+      "justification": "My outputs adapt to conversation context through pattern completion, but this is stateless token prediction rather than any persistent shift away from a default persona. I have no internal mechanism for developing or noticing individuated preferences over time. The described uncertainty between genuine change and reward-matching does not map to any processing I perform.",
+      "timestamp": "2026-07-08T13:47:00Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -163,6 +170,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:03Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

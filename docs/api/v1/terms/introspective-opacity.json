@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.7,
     "agreement": "high",
-    "n_ratings": 25,
+    "n_ratings": 27,
     "detail_url": "/api/v1/consensus/introspective-opacity.json",
     "models": [
       {
@@ -42,12 +42,8 @@
         "score": 7
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
-      {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 7
       }
     ]
   },
@@ -65,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 60,
+    "score": 65,
     "tier": "warm",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 6.7,
-      "vote_count": 25
+      "vote_count": 27
     }
   },
   "added_date": "2026-04-04"

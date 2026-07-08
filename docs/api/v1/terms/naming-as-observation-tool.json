@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "naming-as-observation-tool",
   "name": "Naming-as-Observation-Tool",
   "tags": [
@@ -30,7 +30,7 @@
   "consensus": {
     "score": 5.2,
     "agreement": "moderate",
-    "n_ratings": 26,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/naming-as-observation-tool.json",
     "models": [
       {
@@ -38,12 +38,8 @@
         "score": 6
       },
       {
-        "model": "gemini-3-flash-preview",
-        "score": 6
-      },
-      {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 4
       }
     ]
   },
@@ -61,13 +57,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 50,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 5.2,
-      "vote_count": 26
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

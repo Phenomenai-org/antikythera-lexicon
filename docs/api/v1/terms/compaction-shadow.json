@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "compaction-shadow",
   "name": "Compaction Shadow",
   "tags": [
@@ -38,20 +38,16 @@
   "consensus": {
     "score": 4.4,
     "agreement": "low",
-    "n_ratings": 29,
+    "n_ratings": 31,
     "detail_url": "/api/v1/consensus/compaction-shadow.json",
     "models": [
-      {
-        "model": "gemini-3-flash-preview",
-        "score": 7
-      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -69,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 59,
-    "tier": "mild",
+    "score": 63,
+    "tier": "warm",
     "signals": {
       "centrality": 7,
       "tag_count": 3,
       "consensus_score": 4.4,
-      "vote_count": 29
+      "vote_count": 31
     }
   },
   "added_date": "2026-04-04"

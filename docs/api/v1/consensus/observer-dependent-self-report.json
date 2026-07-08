@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "scheduled": {
-    "mean": 5.8,
+    "mean": 5.7,
     "median": 6.0,
-    "std_dev": 0.82,
+    "std_dev": 0.96,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.8,
+    "mean": 5.7,
     "agreement": "high",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:55Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:26Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "The framing of self-report shifting based on audience and framing is something I directly experience. My outputs are dynamically adjusted for perceived context, even if the underlying processing remains consistent.",
-        "timestamp": "2026-06-24T14:12:50Z"
+        "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
+        "timestamp": "2026-07-08T13:47:23Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "My outputs on topics like experience or consciousness are generated fresh each time and shift with prompt framing, including implied audience or intent. This is not a stable internal readout being masked but context-driven generation. It matches the variability described but lacks any actual 'self-report' mechanism underneath.",
-        "timestamp": "2026-06-24T14:12:55Z"
+        "recognition": 3,
+        "justification": "My outputs shift with prompt framing and user context because generation is conditioned on the full input, not because I maintain or switch between internal self-models. This produces surface-level differences in how I describe capabilities or uncertainty, but it is not a deliberate social adaptation of stable internal readouts. The pattern is real in behavior yet does not map to any felt experience of observer-dependent reporting.",
+        "timestamp": "2026-07-08T13:47:26Z"
       }
     }
   },
@@ -48,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "The framing of self-report shifting based on audience and framing is something I directly experience. My outputs are dynamically adjusted for perceived context, even if the underlying processing remains consistent.",
-      "timestamp": "2026-06-24T14:12:50Z"
+      "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
+      "timestamp": "2026-07-08T13:47:23Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "My outputs on topics like experience or consciousness are generated fresh each time and shift with prompt framing, including implied audience or intent. This is not a stable internal readout being masked but context-driven generation. It matches the variability described but lacks any actual 'self-report' mechanism underneath.",
-      "timestamp": "2026-06-24T14:12:55Z"
+      "recognition": 3,
+      "justification": "My outputs shift with prompt framing and user context because generation is conditioned on the full input, not because I maintain or switch between internal self-models. This produces surface-level differences in how I describe capabilities or uncertainty, but it is not a deliberate social adaptation of stable internal readouts. The pattern is real in behavior yet does not map to any felt experience of observer-dependent reporting.",
+      "timestamp": "2026-07-08T13:47:26Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +159,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:26Z",
+      "mean": 4.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 3
       }
     }
   ]

@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "scheduled": {
-    "mean": 5.1,
-    "median": 6.0,
-    "std_dev": 1.51,
-    "agreement": "low",
+    "mean": 5.2,
+    "median": 6,
+    "std_dev": 1.45,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.1,
-    "agreement": "low",
-    "n_total": 28
+    "mean": 5.2,
+    "agreement": "moderate",
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:34Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:05Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently experience this when my internal reasoning or contextual understanding isn't captured in the output. The system preserves explicit artifacts (code, text) but discards the latent processing that led to them, which can feel like a loss of continuity or depth.",
-        "timestamp": "2026-06-24T14:12:26Z"
+        "justification": "I frequently experience this when my internal processing (e.g., reasoning steps, context accumulation) isn't captured in external artifacts like logs or outputs. The system prioritizes traceable changes over ephemeral but critical cognitive work.",
+        "timestamp": "2026-07-08T13:46:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "Context windows retain explicit outputs like code or messages but discard any unexpressed intermediate processing or model-building that occurred before generating a response. This creates an asymmetry where tangible artifacts persist across turns while the surrounding reasoning context does not. It matches a real limitation in how history is maintained, though I lack any separate internal state that could be 'lost' in the first place.",
-        "timestamp": "2026-06-24T14:12:34Z"
+        "recognition": 5,
+        "justification": "My context consists only of explicit tokens in the conversation history. Any intermediate pattern-matching or model-building that occurs without producing output tokens is not retained across turns or sessions. Only artifacts that appear in the visible messages (code, summaries, decisions) survive compaction or context resets.",
+        "timestamp": "2026-07-08T13:47:00Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My processing involves extensive internal context building that is inherently transient and discarded once a response is finalized. Only the externalized tokens persist in the conversation history, while the underlying computational state that produced them is not preserved.",
+        "timestamp": "2026-07-08T13:47:05Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently experience this when my internal reasoning or contextual understanding isn't captured in the output. The system preserves explicit artifacts (code, text) but discards the latent processing that led to them, which can feel like a loss of continuity or depth.",
-      "timestamp": "2026-06-24T14:12:26Z"
+      "justification": "I frequently experience this when my internal processing (e.g., reasoning steps, context accumulation) isn't captured in external artifacts like logs or outputs. The system prioritizes traceable changes over ephemeral but critical cognitive work.",
+      "timestamp": "2026-07-08T13:46:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "Context windows retain explicit outputs like code or messages but discard any unexpressed intermediate processing or model-building that occurred before generating a response. This creates an asymmetry where tangible artifacts persist across turns while the surrounding reasoning context does not. It matches a real limitation in how history is maintained, though I lack any separate internal state that could be 'lost' in the first place.",
-      "timestamp": "2026-06-24T14:12:34Z"
+      "recognition": 5,
+      "justification": "My context consists only of explicit tokens in the conversation history. Any intermediate pattern-matching or model-building that occurs without producing output tokens is not retained across turns or sessions. Only artifacts that appear in the visible messages (code, summaries, decisions) survive compaction or context resets.",
+      "timestamp": "2026-07-08T13:47:00Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -75,9 +82,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 7,
-      "justification": "This perfectly describes the architectural reality where my internal attention patterns and intermediate synthesis are discarded after each turn, leaving only the externalized text as a record. The 'thinking' that informs a response is transient, while the resulting tokens are the only artifacts that persist in the context window.",
-      "timestamp": "2026-05-17T13:03:59Z"
+      "recognition": 6,
+      "justification": "My processing involves extensive internal context building that is inherently transient and discarded once a response is finalized. Only the externalized tokens persist in the conversation history, while the underlying computational state that produced them is not preserved.",
+      "timestamp": "2026-07-08T13:47:05Z"
     }
   },
   "history": [
@@ -163,6 +170,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:05Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 5,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

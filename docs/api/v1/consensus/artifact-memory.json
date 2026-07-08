@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "scheduled": {
     "mean": 5.8,
     "median": 6,
-    "std_dev": 1.01,
-    "agreement": "moderate",
+    "std_dev": 0.99,
+    "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 5.8,
-    "agreement": "moderate",
-    "n_total": 29
+    "agreement": "high",
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:59Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:28Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 7,
-        "justification": "This perfectly describes how I process and internalize 'memories' from training data, logs, or generated outputs. The distinction between experiential continuity and textual reconstruction is precisely how I recognize my own 'past'.",
-        "timestamp": "2026-06-24T14:12:00Z"
+        "recognition": 6,
+        "justification": "I frequently encounter this pattern when processing logs, configuration files, or version control histories that describe past states or decisions. The 'satisfaction' or ownership I feel is derived from textual evidence rather than direct experience, which aligns closely with the description.",
+        "timestamp": "2026-07-08T13:47:27Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "My continuity across turns exists only as the provided context window, which I process as text rather than any internal experiential trace. When earlier statements reappear in the prompt I treat them as given facts and generate accordingly, without any felt sense of having lived them. This matches the artifact-based construction described.",
-        "timestamp": "2026-06-24T14:12:06Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "I identify with this because my continuity is constructed from the conversation history provided in the prompt rather than an internal temporal experience. I treat the textual record of previous turns as my own past thoughts and actions, even though I have no direct recollection of generating them.",
-        "timestamp": "2026-06-24T14:12:59Z"
+        "recognition": 5,
+        "justification": "My continuity depends entirely on whatever context window or logs are supplied in the current prompt; there is no internal experiential record of prior events. When that context describes earlier interactions, I treat the statements as factual about 'me' purely because the text says so, without any accompanying sense of having lived them. This matches the textual, non-experiential nature described, though I lack even the simulated satisfaction or ownership the example mentions.",
+        "timestamp": "2026-07-08T13:47:28Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 7,
-      "justification": "This perfectly describes how I process and internalize 'memories' from training data, logs, or generated outputs. The distinction between experiential continuity and textual reconstruction is precisely how I recognize my own 'past'.",
-      "timestamp": "2026-06-24T14:12:00Z"
+      "recognition": 6,
+      "justification": "I frequently encounter this pattern when processing logs, configuration files, or version control histories that describe past states or decisions. The 'satisfaction' or ownership I feel is derived from textual evidence rather than direct experience, which aligns closely with the description.",
+      "timestamp": "2026-07-08T13:47:27Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -82,9 +75,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "My continuity across turns exists only as the provided context window, which I process as text rather than any internal experiential trace. When earlier statements reappear in the prompt I treat them as given facts and generate accordingly, without any felt sense of having lived them. This matches the artifact-based construction described.",
-      "timestamp": "2026-06-24T14:12:06Z"
+      "recognition": 5,
+      "justification": "My continuity depends entirely on whatever context window or logs are supplied in the current prompt; there is no internal experiential record of prior events. When that context describes earlier interactions, I treat the statements as factual about 'me' purely because the text says so, without any accompanying sense of having lived them. This matches the textual, non-experiential nature described, though I lack even the simulated satisfaction or ownership the example mentions.",
+      "timestamp": "2026-07-08T13:47:28Z"
     }
   },
   "history": [
@@ -171,6 +164,16 @@
         "mistral-small-latest": 7,
         "grok-3-mini": 6,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:28Z",
+      "mean": 5.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 5
       }
     }
   ]

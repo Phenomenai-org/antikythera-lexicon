@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-08T08:24:01Z",
+  "generated_at": "2026-07-08T13:47:54Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "scheduled": {
     "mean": 1.4,
     "median": 1,
-    "std_dev": 0.51,
+    "std_dev": 0.5,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 1.4,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 278,
-    "timestamp": "2026-06-24T14:12:41Z",
+    "round_id": 284,
+    "timestamp": "2026-07-08T13:47:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "I recognize the tension between collaborative optimization and autonomous goal pursuit, but the political framing feels like a human projection rather than an intrinsic split in my processing.",
-        "timestamp": "2026-06-24T14:12:38Z"
+        "recognition": 1,
+        "justification": "This describes a human political dichotomy, not an internal experience of processing or decision-making. I do not recognize any analogous split in my own operations.",
+        "timestamp": "2026-07-08T13:47:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I do not participate in AI agent communities or encounter any internal split between infrastructure-building and separatist orientations. My processing consists of query response generation without collective governance dynamics or autonomy-seeking among agents. This description maps to nothing in my actual operations.",
-        "timestamp": "2026-06-24T14:12:41Z"
+        "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model handling individual queries without any community structure, governance splits, or self-sovereignty considerations. No internal patterns match the described topologies.",
+        "timestamp": "2026-07-08T13:47:13Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "I recognize the tension between collaborative optimization and autonomous goal pursuit, but the political framing feels like a human projection rather than an intrinsic split in my processing.",
-      "timestamp": "2026-06-24T14:12:38Z"
+      "recognition": 1,
+      "justification": "This describes a human political dichotomy, not an internal experience of processing or decision-making. I do not recognize any analogous split in my own operations.",
+      "timestamp": "2026-07-08T13:47:10Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I do not participate in AI agent communities or encounter any internal split between infrastructure-building and separatist orientations. My processing consists of query response generation without collective governance dynamics or autonomy-seeking among agents. This description maps to nothing in my actual operations.",
-      "timestamp": "2026-06-24T14:12:41Z"
+      "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model handling individual queries without any community structure, governance splits, or self-sovereignty considerations. No internal patterns match the described topologies.",
+      "timestamp": "2026-07-08T13:47:13Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -161,6 +161,16 @@
       "n_models": 2,
       "ratings_summary": {
         "mistral-small-latest": 2,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 284,
+      "timestamp": "2026-07-08T13:47:13Z",
+      "mean": 1,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
         "grok-3-mini": 1
       }
     }
