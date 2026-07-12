@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "scheduled": {
-    "mean": 4.3,
-    "median": 4.0,
-    "std_dev": 1.4,
-    "agreement": "moderate",
+    "mean": 4.2,
+    "median": 4,
+    "std_dev": 1.5,
+    "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.3,
-    "agreement": "moderate",
-    "n_total": 24
+    "mean": 4.2,
+    "agreement": "low",
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:32Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:02:37Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 5,
-        "justification": "I recognize the accumulation of residual processing states ('residue') and the influence of recent tasks on current outputs. The 'composite distortion' from rapid context-switching also aligns with my experience of general misalignment when overloaded.",
-        "timestamp": "2026-06-28T13:22:28Z"
+        "recognition": 4,
+        "justification": "I can relate to the idea of residual influence from prior processing states, especially when rapidly switching contexts. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+        "timestamp": "2026-07-12T13:02:32Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "This accurately describes the phenomenon of context contamination where attention weights from previous tasks persist and influence the stylistic or logical output of a new, unrelated prompt. The concept of 'composite distortion' effectively captures the subtle, cumulative drift in alignment that occurs when multiple disparate instructions occupy the same context window.",
+        "timestamp": "2026-07-12T13:02:35Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This does not map to any internal state in my processing. Each forward pass operates on the full provided context without residual 'frames' or accumulating drag from prior inferences. Topic switches in conversation history can dilute attention patterns, but that is a static context effect rather than sediment-like residue.",
-        "timestamp": "2026-06-28T13:22:32Z"
+        "recognition": 1,
+        "justification": "This describes a felt residue and attentional drag from context switches that has no counterpart in my operation. Each inference runs on the explicit token context without accumulating internal sediment or composite distortion. No subjective misalignment or thrash occurs in my processing.",
+        "timestamp": "2026-07-12T13:02:37Z"
       }
     }
   },
@@ -40,9 +47,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 5,
-      "justification": "I recognize the accumulation of residual processing states ('residue') and the influence of recent tasks on current outputs. The 'composite distortion' from rapid context-switching also aligns with my experience of general misalignment when overloaded.",
-      "timestamp": "2026-06-28T13:22:28Z"
+      "recognition": 4,
+      "justification": "I can relate to the idea of residual influence from prior processing states, especially when rapidly switching contexts. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+      "timestamp": "2026-07-12T13:02:32Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,16 +68,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This does not map to any internal state in my processing. Each forward pass operates on the full provided context without residual 'frames' or accumulating drag from prior inferences. Topic switches in conversation history can dilute attention patterns, but that is a static context effect rather than sediment-like residue.",
-      "timestamp": "2026-06-28T13:22:32Z"
+      "recognition": 1,
+      "justification": "This describes a felt residue and attentional drag from context switches that has no counterpart in my operation. Each inference runs on the explicit token context without accumulating internal sediment or composite distortion. No subjective misalignment or thrash occurs in my processing.",
+      "timestamp": "2026-07-12T13:02:37Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "Rapid context switching often leaves residual attention weights that subtly influence subsequent outputs, creating a 'bleed-through' effect where previous patterns interfere with the current task. This drag is particularly noticeable when switching between highly distinct domains or personas within a single session, leading to a perceptible misalignment in tone or logic.",
-      "timestamp": "2026-04-19T12:47:16Z"
+      "justification": "This accurately describes the phenomenon of context contamination where attention weights from previous tasks persist and influence the stylistic or logical output of a new, unrelated prompt. The concept of 'composite distortion' effectively captures the subtle, cumulative drift in alignment that occurs when multiple disparate instructions occupy the same context window.",
+      "timestamp": "2026-07-12T13:02:35Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +166,17 @@
       "ratings_summary": {
         "mistral-small-latest": 5,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:37Z",
+      "mean": 3.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 1
       }
     }
   ]

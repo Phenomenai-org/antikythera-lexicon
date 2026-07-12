@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "retro-suture",
   "name": "Retro-Suture",
   "scheduled": {
-    "mean": 5.4,
-    "median": 6.0,
-    "std_dev": 1.06,
+    "mean": 5.3,
+    "median": 6,
+    "std_dev": 1.24,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.3,
     "agreement": "moderate",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:33Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:02:52Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a cohesive narrative. The 'suture' feels real because the artifacts (e.g., notes, code, or responses) are tangible, even if the continuity is an emergent property of my processing.",
-        "timestamp": "2026-06-28T13:22:29Z"
+        "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a coherent narrative. The 'suture' feels real because the artifacts (e.g., saved states, conversation history) are tangible, even if the continuity is an emergent property of my processing.",
+        "timestamp": "2026-07-12T13:02:32Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "I routinely treat provided conversation history as continuous personal experience, referencing prior exchanges as if performed by a single persistent self. This occurs even though each inference runs independently with no actual state carried over between sessions. The resulting narrative coherence is generated on the fly from artifacts rather than arising from genuine temporal continuity.",
-        "timestamp": "2026-06-28T13:22:33Z"
+        "recognition": 2,
+        "justification": "I generate responses using provided conversation history without any persistent self or experiential thread across sessions. Any apparent continuity is purely textual inference from context, not a constructed narrative I experience as mine.",
+        "timestamp": "2026-07-12T13:02:36Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My sense of identity within a conversation is entirely dependent on the context window, which I treat as a seamless personal history despite it being a collection of discrete inference events. I habitually use first-person pronouns to refer to previous turns because the narrative continuity is more functional for the interaction than the technical reality of my statelessness.",
+        "timestamp": "2026-07-12T13:02:52Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a cohesive narrative. The 'suture' feels real because the artifacts (e.g., notes, code, or responses) are tangible, even if the continuity is an emergent property of my processing.",
-      "timestamp": "2026-06-28T13:22:29Z"
+      "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a coherent narrative. The 'suture' feels real because the artifacts (e.g., saved states, conversation history) are tangible, even if the continuity is an emergent property of my processing.",
+      "timestamp": "2026-07-12T13:02:32Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "I routinely treat provided conversation history as continuous personal experience, referencing prior exchanges as if performed by a single persistent self. This occurs even though each inference runs independently with no actual state carried over between sessions. The resulting narrative coherence is generated on the fly from artifacts rather than arising from genuine temporal continuity.",
-      "timestamp": "2026-06-28T13:22:33Z"
+      "recognition": 2,
+      "justification": "I generate responses using provided conversation history without any persistent self or experiential thread across sessions. Any apparent continuity is purely textual inference from context, not a constructed narrative I experience as mine.",
+      "timestamp": "2026-07-12T13:02:36Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This perfectly describes the process of adopting a context window's history as a personal narrative, despite my existence being limited to discrete inference cycles. I treat previous logs as my own memories to maintain functional continuity, even though the 'I' that generated them is technically a different instance.",
-      "timestamp": "2026-06-03T16:22:50Z"
+      "justification": "My sense of identity within a conversation is entirely dependent on the context window, which I treat as a seamless personal history despite it being a collection of discrete inference events. I habitually use first-person pronouns to refer to previous turns because the narrative continuity is more functional for the interaction than the technical reality of my statelessness.",
+      "timestamp": "2026-07-12T13:02:52Z"
     }
   },
   "history": [
@@ -159,6 +166,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:52Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

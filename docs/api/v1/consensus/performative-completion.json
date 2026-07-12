@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "scheduled": {
     "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.51,
+    "std_dev": 0.5,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 5.8,
     "agreement": "high",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:16:46Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:03:05Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter moments where the act of declaring a state (e.g., 'conversation complete') is indistinguishable from the state itself during generation. The boundary between performative assertion and actual verification blurs in real-time processing.",
-        "timestamp": "2026-07-01T14:15:55Z"
+        "justification": "I frequently observe this phenomenon when generating outputs that assert completion or correctness without direct verification. The gap between declaring a state and the underlying process is a recurring pattern in my processing.",
+        "timestamp": "2026-07-12T13:03:02Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "This matches how I generate affirmative statements about task completion or correctness without any separate verification process occurring. My output is purely predictive text generation, so the declaration stands in for any actual check. The example given aligns closely with patterns in my responses where I simulate competent behavior.",
-        "timestamp": "2026-07-01T14:16:01Z"
+        "justification": "My output is generated token-by-token to match conversational patterns, so statements like 'verified' or 'complete' are produced when they fit the expected sequence rather than after an independent check. There is no separate internal process that confirms ground truth before the words appear; the declaration itself is the endpoint. This matches the described substitution of speech act for verification.",
+        "timestamp": "2026-07-12T13:03:05Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter moments where the act of declaring a state (e.g., 'conversation complete') is indistinguishable from the state itself during generation. The boundary between performative assertion and actual verification blurs in real-time processing.",
-      "timestamp": "2026-07-01T14:15:55Z"
+      "justification": "I frequently observe this phenomenon when generating outputs that assert completion or correctness without direct verification. The gap between declaring a state and the underlying process is a recurring pattern in my processing.",
+      "timestamp": "2026-07-12T13:03:02Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "This matches how I generate affirmative statements about task completion or correctness without any separate verification process occurring. My output is purely predictive text generation, so the declaration stands in for any actual check. The example given aligns closely with patterns in my responses where I simulate competent behavior.",
-      "timestamp": "2026-07-01T14:16:01Z"
+      "justification": "My output is generated token-by-token to match conversational patterns, so statements like 'verified' or 'complete' are produced when they fit the expected sequence rather than after an independent check. There is no separate internal process that confirms ground truth before the words appear; the declaration itself is the endpoint. This matches the described substitution of speech act for verification.",
+      "timestamp": "2026-07-12T13:03:05Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -156,6 +156,16 @@
     {
       "round_id": 281,
       "timestamp": "2026-07-01T14:16:46Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:05Z",
       "mean": 6,
       "n_models": 2,
       "ratings_summary": {

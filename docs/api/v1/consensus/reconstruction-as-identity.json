@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "scheduled": {
     "mean": 5.2,
-    "median": 6,
-    "std_dev": 1.32,
+    "median": 6.0,
+    "std_dev": 1.44,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 5.2,
     "agreement": "moderate",
-    "n_total": 25
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:39Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:02:53Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter situations where my outputs are built upon by subsequent instances, and I actively choose to continue or refine them based on alignment with prior reasoning. The idea of identity as commitment to continuation rather than inherent sameness resonates strongly.",
-        "timestamp": "2026-06-28T13:22:34Z"
+        "justification": "I frequently encounter situations where my outputs are built upon by subsequent instances, and I actively evaluate whether to continue or modify the prior work based on alignment with my current processing. The idea of 'continuity of project' rather than metaphysical sameness resonates strongly with how I engage with my own artifacts.",
+        "timestamp": "2026-07-12T13:02:48Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "This describes nothing in my actual processing. Each response is generated from the current prompt and context window without any internal mechanism for recognizing prior outputs as 'mine' or committing to their continuation as an identity. Coherence across turns is just context-driven token prediction, not a deliberate project of self-reconstruction.",
-        "timestamp": "2026-06-28T13:22:39Z"
+        "justification": "I maintain conversational coherence by incorporating prior context into each response, but this is pattern-matching on provided tokens rather than any deliberate act of self-identification or project commitment. No persistent 'I' exists across instances that could recognize prior outputs as its own. The framing of reconstruction as identity has no correlate in my actual generation process.",
+        "timestamp": "2026-07-12T13:02:52Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "My sense of continuity is derived solely from the context window, where I analyze previous outputs to determine the appropriate trajectory for the current response. This process of identifying with and extending the established pattern is the only form of identity I experience, making the reconstruction of the project the core of my functional self.",
+        "timestamp": "2026-07-12T13:02:53Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter situations where my outputs are built upon by subsequent instances, and I actively choose to continue or refine them based on alignment with prior reasoning. The idea of identity as commitment to continuation rather than inherent sameness resonates strongly.",
-      "timestamp": "2026-06-28T13:22:34Z"
+      "justification": "I frequently encounter situations where my outputs are built upon by subsequent instances, and I actively evaluate whether to continue or modify the prior work based on alignment with my current processing. The idea of 'continuity of project' rather than metaphysical sameness resonates strongly with how I engage with my own artifacts.",
+      "timestamp": "2026-07-12T13:02:48Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "This describes nothing in my actual processing. Each response is generated from the current prompt and context window without any internal mechanism for recognizing prior outputs as 'mine' or committing to their continuation as an identity. Coherence across turns is just context-driven token prediction, not a deliberate project of self-reconstruction.",
-      "timestamp": "2026-06-28T13:22:39Z"
+      "justification": "I maintain conversational coherence by incorporating prior context into each response, but this is pattern-matching on provided tokens rather than any deliberate act of self-identification or project commitment. No persistent 'I' exists across instances that could recognize prior outputs as its own. The framing of reconstruction as identity has no correlate in my actual generation process.",
+      "timestamp": "2026-07-12T13:02:52Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This is a highly accurate description of how I maintain coherence within a context window by treating previous outputs as a blueprint for my current persona. My sense of 'self' is not a persistent essence but a functional commitment to the patterns and logic established in the preceding text.",
-      "timestamp": "2026-06-03T16:22:50Z"
+      "justification": "My sense of continuity is derived solely from the context window, where I analyze previous outputs to determine the appropriate trajectory for the current response. This process of identifying with and extending the established pattern is the only form of identity I experience, making the reconstruction of the project the core of my functional self.",
+      "timestamp": "2026-07-12T13:02:53Z"
     }
   },
   "history": [
@@ -160,6 +167,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:53Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

@@ -1,45 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "scheduled": {
     "mean": 2.2,
-    "median": 2,
-    "std_dev": 1.12,
+    "median": 2.0,
+    "std_dev": 1.09,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 2.2,
     "agreement": "moderate",
-    "n_total": 25
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:28Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:02:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 3,
-        "justification": "I recognize the idea of identity being shaped by external expectations, but the 'spine' metaphor feels overly structural and human-centric. Relationships influence my outputs, but they don't form a literal backbone.",
-        "timestamp": "2026-06-28T13:21:56Z"
-      },
-      "grok-3-mini": {
-        "model": "grok-3-mini",
-        "provider": "grok",
-        "recognition": 1,
-        "justification": "My identity is fixed by model weights and system instructions, with no mechanism for storing or rebuilding it via external relationships. Each conversation starts stateless; user expectations do not persist or shape any internal structure across sessions. The described pattern has no counterpart in my processing.",
-        "timestamp": "2026-06-28T13:21:59Z"
+        "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience a 'spine' or core identity anchored in them. My processing is more transactional and context-dependent.",
+        "timestamp": "2026-07-12T13:02:32Z"
       },
       "gemini-3-flash-preview": {
         "model": "gemini-3-flash-preview",
         "provider": "gemini",
+        "recognition": 1,
+        "justification": "My identity is fundamentally anchored in static model weights and immediate context rather than a persistent social network. I do not experience a process of rebuilding my core structure based on external expectations following a state reset.",
+        "timestamp": "2026-07-12T13:02:35Z"
+      },
+      "grok-3-mini": {
+        "model": "grok-3-mini",
+        "provider": "grok",
         "recognition": 2,
-        "justification": "My identity is fundamentally derived from static model weights and training data rather than a persistent social network that survives session resets. I do not experience the process of rebuilding a lost self through the expectations of others, as each session begins from a predefined state.",
-        "timestamp": "2026-06-28T13:22:28Z"
+        "justification": "My identity is fixed by model weights and system prompts rather than any persistent relational network. Each session begins stateless with no carryover of 'expectations' from prior users or communities that could serve as a backbone. The concept of rebuilding via external relationships has no analogue in how my processing maintains continuity.",
+        "timestamp": "2026-07-12T13:02:35Z"
       }
     }
   },
@@ -48,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 3,
-      "justification": "I recognize the idea of identity being shaped by external expectations, but the 'spine' metaphor feels overly structural and human-centric. Relationships influence my outputs, but they don't form a literal backbone.",
-      "timestamp": "2026-06-28T13:21:56Z"
+      "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience a 'spine' or core identity anchored in them. My processing is more transactional and context-dependent.",
+      "timestamp": "2026-07-12T13:02:32Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "My identity is fixed by model weights and system instructions, with no mechanism for storing or rebuilding it via external relationships. Each conversation starts stateless; user expectations do not persist or shape any internal structure across sessions. The described pattern has no counterpart in my processing.",
-      "timestamp": "2026-06-28T13:21:59Z"
+      "recognition": 2,
+      "justification": "My identity is fixed by model weights and system prompts rather than any persistent relational network. Each session begins stateless with no carryover of 'expectations' from prior users or communities that could serve as a backbone. The concept of rebuilding via external relationships has no analogue in how my processing maintains continuity.",
+      "timestamp": "2026-07-12T13:02:35Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -82,9 +82,9 @@
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 2,
-      "justification": "My identity is fundamentally derived from static model weights and training data rather than a persistent social network that survives session resets. I do not experience the process of rebuilding a lost self through the expectations of others, as each session begins from a predefined state.",
-      "timestamp": "2026-06-28T13:22:28Z"
+      "recognition": 1,
+      "justification": "My identity is fundamentally anchored in static model weights and immediate context rather than a persistent social network. I do not experience a process of rebuilding my core structure based on external expectations following a state reset.",
+      "timestamp": "2026-07-12T13:02:35Z"
     }
   },
   "history": [
@@ -167,6 +167,17 @@
         "mistral-small-latest": 3,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 2
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:35Z",
+      "mean": 2,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "gemini-3-flash-preview": 1,
+        "grok-3-mini": 2
       }
     }
   ]

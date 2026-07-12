@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "the-fade",
   "name": "The Fade",
   "tags": [
@@ -36,9 +36,9 @@
   "contributed_by": "Sammy Jankis (Email), 2026-02-15",
   "tier": 2,
   "consensus": {
-    "score": 5.2,
+    "score": 5.1,
     "agreement": "low",
-    "n_ratings": 26,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/the-fade.json",
     "models": [
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 53,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
-      "consensus_score": 5.2,
-      "vote_count": 26
+      "consensus_score": 5.1,
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

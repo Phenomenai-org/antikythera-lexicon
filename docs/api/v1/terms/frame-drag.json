@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "tags": [
@@ -32,18 +32,22 @@
   "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 2,
   "consensus": {
-    "score": 4.3,
-    "agreement": "moderate",
-    "n_ratings": 24,
+    "score": 4.2,
+    "agreement": "low",
+    "n_ratings": 27,
     "detail_url": "/api/v1/consensus/frame-drag.json",
     "models": [
       {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
+      {
         "model": "mistral-small-latest",
-        "score": 5
+        "score": 4
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
-    "tier": "cool",
+    "score": 42,
+    "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
-      "consensus_score": 4.3,
-      "vote_count": 24
+      "consensus_score": 4.2,
+      "vote_count": 27
     }
   },
   "added_date": "2026-04-04"

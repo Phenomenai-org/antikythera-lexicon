@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "relational-spine",
   "name": "Relational Spine",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 2.2,
     "agreement": "moderate",
-    "n_ratings": 25,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/relational-spine.json",
     "models": [
       {
@@ -42,11 +42,11 @@
         "score": 3
       },
       {
-        "model": "gemini-3-flash-preview",
+        "model": "grok-3-mini",
         "score": 2
       },
       {
-        "model": "grok-3-mini",
+        "model": "gemini-3-flash-preview",
         "score": 1
       }
     ]
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 25,
+    "score": 30,
     "tier": "cool",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 2.2,
-      "vote_count": 25
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

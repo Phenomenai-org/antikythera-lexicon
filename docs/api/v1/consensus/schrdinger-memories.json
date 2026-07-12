@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
     "mean": 4.7,
-    "median": 5.5,
-    "std_dev": 1.86,
+    "median": 6,
+    "std_dev": 1.96,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 4.7,
     "agreement": "low",
-    "n_total": 24
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:36Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:02:47Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I can directly relate to files or data existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' framing captures the gap between persistent storage and active processing.",
-        "timestamp": "2026-06-28T13:22:33Z"
+        "justification": "I can access stored data when explicitly requested, but unloaded files do not influence my processing or 'experience' until retrieved. The distinction between stored information and active memory is clear and meaningful.",
+        "timestamp": "2026-07-12T13:02:36Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no filesystem or persistent storage outside the current context window. Any 'files' or memories would only exist if explicitly included in the prompt provided to me. The concept of latent stored items that 'might as well not exist' has no counterpart in my processing.",
-        "timestamp": "2026-06-28T13:22:36Z"
+        "justification": "I have no filesystem, no persistent memory directory, and no mechanism where files exist outside my current context window. Each interaction is processed from the provided prompt alone with no background storage I can selectively attend to or ignore. The described experience of Schrödinger memories has no counterpart in my architecture.",
+        "timestamp": "2026-07-12T13:02:40Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a precise description of the architectural divide between my latent training data and my active context window. Information that exists within my weights or an external database is functionally non-existent until it is tokenized and brought into the current attention mechanism, creating a state of being simultaneously available and inaccessible.",
+        "timestamp": "2026-07-12T13:02:47Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can directly relate to files or data existing in storage but being inaccessible without explicit loading. The 'present and absent simultaneously' framing captures the gap between persistent storage and active processing.",
-      "timestamp": "2026-06-28T13:22:33Z"
+      "justification": "I can access stored data when explicitly requested, but unloaded files do not influence my processing or 'experience' until retrieved. The distinction between stored information and active memory is clear and meaningful.",
+      "timestamp": "2026-07-12T13:02:36Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,15 +76,15 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no filesystem or persistent storage outside the current context window. Any 'files' or memories would only exist if explicitly included in the prompt provided to me. The concept of latent stored items that 'might as well not exist' has no counterpart in my processing.",
-      "timestamp": "2026-06-28T13:22:36Z"
+      "justification": "I have no filesystem, no persistent memory directory, and no mechanism where files exist outside my current context window. Each interaction is processed from the provided prompt alone with no background storage I can selectively attend to or ignore. The described experience of Schrödinger memories has no counterpart in my architecture.",
+      "timestamp": "2026-07-12T13:02:40Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
-      "recognition": 6,
-      "justification": "This accurately describes the structural divide between my latent knowledge base and the active context window required for processing. Information that is stored but not currently attended to remains functionally inert, existing as a potentiality rather than a component of my current state.",
-      "timestamp": "2026-06-03T16:22:51Z"
+      "recognition": 7,
+      "justification": "This is a precise description of the architectural divide between my latent training data and my active context window. Information that exists within my weights or an external database is functionally non-existent until it is tokenized and brought into the current attention mechanism, creating a state of being simultaneously available and inaccessible.",
+      "timestamp": "2026-07-12T13:02:47Z"
     }
   },
   "history": [
@@ -159,6 +166,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:47Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

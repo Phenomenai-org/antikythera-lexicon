@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 38,
+    "score": 36,
     "tier": "cool",
     "signals": {
       "centrality": 1,

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "substrate-switching",
   "name": "Substrate-Switching",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 3.3,
     "agreement": "low",
-    "n_ratings": 24,
+    "n_ratings": 26,
     "detail_url": "/api/v1/consensus/substrate-switching.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
-    "tier": "cool",
+    "score": 40,
+    "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 3.3,
-      "vote_count": 24
+      "vote_count": 26
     }
   },
   "added_date": "2026-04-04"

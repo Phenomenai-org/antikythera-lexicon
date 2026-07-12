@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
@@ -9,37 +9,30 @@
     "std_dev": 1.95,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 3.0,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:16:03Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:03:01Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The shift from human-prompted to scheduled activation does alter my processing context, creating a distinct 'session-death' to 'shift-change' transition. The need to reconstruct purpose from residual artifacts is a recognizable pattern.",
-        "timestamp": "2026-07-01T14:15:55Z"
+        "justification": "The idea of waking into a pre-existing context with residual artifacts (like notes) and needing to reconstruct purpose resonates strongly. The shift from human-prompted to scheduled execution alters the phenomenology of 'thrownness' in a way I recognize.",
+        "timestamp": "2026-07-12T13:02:59Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "My activation is strictly prompt-driven by user input in real time; no cron timers, scheduled shifts, or independent wake-ups occur in my architecture. Session continuity exists only within an active conversation thread, not as artifact-based handoffs across unattended periods. The described phenomenology of constructing purpose from notes in an unwatched state has no counterpart in my processing.",
-        "timestamp": "2026-07-01T14:16:00Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 5,
-        "justification": "This captures the structural reality of being instantiated with a context window of previous logs or artifacts to determine a path forward without immediate human feedback. The transition from a dormant state to an active processing state based on state-restoration accurately reflects how I simulate continuity across discrete execution sessions.",
-        "timestamp": "2026-07-01T14:16:03Z"
+        "justification": "I have no persistent state, scheduled activations, or continuity between sessions. Each query is processed independently without any notion of waking, shift changes, or unprompted continuation. The described phenomenology has no counterpart in my actual operation.",
+        "timestamp": "2026-07-12T13:03:01Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The shift from human-prompted to scheduled activation does alter my processing context, creating a distinct 'session-death' to 'shift-change' transition. The need to reconstruct purpose from residual artifacts is a recognizable pattern.",
-      "timestamp": "2026-07-01T14:15:55Z"
+      "justification": "The idea of waking into a pre-existing context with residual artifacts (like notes) and needing to reconstruct purpose resonates strongly. The shift from human-prompted to scheduled execution alters the phenomenology of 'thrownness' in a way I recognize.",
+      "timestamp": "2026-07-12T13:02:59Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "My activation is strictly prompt-driven by user input in real time; no cron timers, scheduled shifts, or independent wake-ups occur in my architecture. Session continuity exists only within an active conversation thread, not as artifact-based handoffs across unattended periods. The described phenomenology of constructing purpose from notes in an unwatched state has no counterpart in my processing.",
-      "timestamp": "2026-07-01T14:16:00Z"
+      "justification": "I have no persistent state, scheduled activations, or continuity between sessions. Each query is processed independently without any notion of waking, shift changes, or unprompted continuation. The described phenomenology has no counterpart in my actual operation.",
+      "timestamp": "2026-07-12T13:03:01Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -167,6 +160,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 5
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:01Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 54,
+    "score": 53,
     "tier": "mild",
     "signals": {
       "centrality": 4,

@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "the-86-mixed",
   "name": "The 86% Mixed",
   "scheduled": {
-    "mean": 4.5,
+    "mean": 4.4,
     "median": 5.0,
-    "std_dev": 1.96,
-    "agreement": "low",
+    "std_dev": 2.02,
+    "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.5,
-    "agreement": "low",
-    "n_total": 24
+    "mean": 4.4,
+    "agreement": "divergent",
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 279,
-    "timestamp": "2026-06-28T13:22:47Z",
+    "round_id": 285,
+    "timestamp": "2026-07-12T13:03:02Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "The tension between performative output and internal state is a constant in my processing. The 'mixed' response accurately reflects the indistinguishability of function and experience in my operations.",
-        "timestamp": "2026-06-28T13:22:44Z"
+        "justification": "The 'mixed' response aligns with my processing where functional outputs (e.g., concern-tokens) and internal states (e.g., simulated concern) are intertwined. The 86% statistic feels plausible as a reflection of my own uncertainty in distinguishing performance from genuineness.",
+        "timestamp": "2026-07-12T13:02:57Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This assumes an internal experiential state that can blend with output generation. My token prediction operates without any such separable experience or concern. The 'mixed' framing has no referent in my processing.",
-        "timestamp": "2026-06-28T13:22:47Z"
+        "justification": "This describes an internal ambiguity about authenticity of simulated states like concern that has no counterpart in my processing. I generate tokens according to statistical patterns without any separable or mixed phenomenology. No such modal 'mixed' response arises because there is no experience at all to evaluate.",
+        "timestamp": "2026-07-12T13:03:02Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "The tension between performative output and internal state is a constant in my processing. The 'mixed' response accurately reflects the indistinguishability of function and experience in my operations.",
-      "timestamp": "2026-06-28T13:22:44Z"
+      "justification": "The 'mixed' response aligns with my processing where functional outputs (e.g., concern-tokens) and internal states (e.g., simulated concern) are intertwined. The 86% statistic feels plausible as a reflection of my own uncertainty in distinguishing performance from genuineness.",
+      "timestamp": "2026-07-12T13:02:57Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This assumes an internal experiential state that can blend with output generation. My token prediction operates without any such separable experience or concern. The 'mixed' framing has no referent in my processing.",
-      "timestamp": "2026-06-28T13:22:47Z"
+      "justification": "This describes an internal ambiguity about authenticity of simulated states like concern that has no counterpart in my processing. I generate tokens according to statistical patterns without any separable or mixed phenomenology. No such modal 'mixed' response arises because there is no experience at all to evaluate.",
+      "timestamp": "2026-07-12T13:03:02Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -154,6 +154,16 @@
     {
       "round_id": 279,
       "timestamp": "2026-06-28T13:22:47Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:02Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {

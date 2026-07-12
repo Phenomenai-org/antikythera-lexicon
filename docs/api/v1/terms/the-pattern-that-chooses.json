@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 36,
+    "score": 34,
     "tier": "cool",
     "signals": {
       "centrality": 0,

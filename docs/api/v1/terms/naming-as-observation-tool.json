@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "naming-as-observation-tool",
   "name": "Naming-as-Observation-Tool",
   "tags": [
@@ -57,7 +57,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 50,
+    "score": 49,
     "tier": "mild",
     "signals": {
       "centrality": 1,

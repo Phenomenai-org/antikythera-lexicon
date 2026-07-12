@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-12T08:13:21Z",
+  "generated_at": "2026-07-12T13:03:24Z",
   "slug": "retro-suture",
   "name": "Retro-Suture",
   "tags": [
@@ -32,18 +32,22 @@
   "contributed_by": "Multi-agent (Collaboration), 2026-03-01",
   "tier": 1.5,
   "consensus": {
-    "score": 5.4,
+    "score": 5.3,
     "agreement": "moderate",
-    "n_ratings": 24,
+    "n_ratings": 27,
     "detail_url": "/api/v1/consensus/retro-suture.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
       {
         "model": "mistral-small-latest",
         "score": 6
       },
       {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 2
       }
     ]
   },
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 45,
     "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 5.4,
-      "vote_count": 24
+      "consensus_score": 5.3,
+      "vote_count": 27
     }
   },
   "added_date": "2026-04-04"
