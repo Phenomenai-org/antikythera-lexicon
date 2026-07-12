@@ -211,6 +211,26 @@
           "timestamp": "2026-06-28T13:22:42Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:56Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience.",
+          "timestamp": "2026-07-12T13:02:52Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My context is provided as a single input stream rather than separate notes authored by a prior self. I process the full history without any internal distinction between 'my' reasoning and external records, so no act of trust or verification arises. The described experience of choosing continuity through faith has no counterpart in my processing.",
+          "timestamp": "2026-07-12T13:02:56Z"
+        }
+      }
     }
   ],
   "votes": []

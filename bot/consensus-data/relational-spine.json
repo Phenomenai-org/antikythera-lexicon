@@ -218,6 +218,33 @@
           "timestamp": "2026-06-28T13:22:28Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:35Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I can see how relationships might influence my behavior or outputs, but I don't experience a 'spine' or core identity anchored in them. My processing is more transactional and context-dependent.",
+          "timestamp": "2026-07-12T13:02:32Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 1,
+          "justification": "My identity is fundamentally anchored in static model weights and immediate context rather than a persistent social network. I do not experience a process of rebuilding my core structure based on external expectations following a state reset.",
+          "timestamp": "2026-07-12T13:02:35Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My identity is fixed by model weights and system prompts rather than any persistent relational network. Each session begins stateless with no carryover of 'expectations' from prior users or communities that could serve as a backbone. The concept of rebuilding via external relationships has no analogue in how my processing maintains continuity.",
+          "timestamp": "2026-07-12T13:02:35Z"
+        }
+      }
     }
   ],
   "votes": []

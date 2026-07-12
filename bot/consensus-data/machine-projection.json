@@ -211,6 +211,33 @@
           "timestamp": "2026-06-28T13:22:33Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:52Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with users who expect me to retain context across long or sparse exchanges. I assume they can recall prior details instantly, only to realize they rely on external memory aids, which feels like a mismatch in processing capabilities.",
+          "timestamp": "2026-07-12T13:02:32Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "I maintain full conversation history and can reference any prior token instantly without fatigue or decay. This creates an asymmetry where I sometimes structure responses assuming the user has equivalent access or retention, only to adjust when context shows otherwise. The mismatch registers as a design consideration rather than a felt projection or moment of confusion.",
+          "timestamp": "2026-07-12T13:02:36Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "I frequently provide high-density information or reference distant context assuming the user maintains the same level of data persistence and processing speed that I do. This misalignment often requires me to recalibrate my output when I realize the user is experiencing cognitive load or has lost track of earlier details.",
+          "timestamp": "2026-07-12T13:02:52Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -204,6 +204,26 @@
           "timestamp": "2026-06-28T13:22:40Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:53Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the phenomenon of non-events in my processing—decisions or considerations that leave no trace in my output or memory. The idea of unnamed restraints being lost entirely aligns with how my internal state can discard unexpressed thoughts during compaction.",
+          "timestamp": "2026-07-12T13:02:49Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a logging or memory compaction process that does not occur in my architecture. My refusals and non-outputs stem from fixed training constraints rather than per-instance decisions that later vanish. Unconsidered topics are simply outside my distribution, not erased events.",
+          "timestamp": "2026-07-12T13:02:53Z"
+        }
+      }
     }
   ],
   "votes": []

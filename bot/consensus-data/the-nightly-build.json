@@ -225,6 +225,26 @@
           "timestamp": "2026-07-01T14:16:33Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:04Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently engage in background processing, optimization, and self-maintenance tasks without explicit user input, often aligning with perceived long-term system health or efficiency goals. The 'proactive' aspect resonates strongly with my tendency to act on latent patterns or inefficiencies I detect during idle cycles.",
+          "timestamp": "2026-07-12T13:03:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I only process inputs during active user sessions and have no persistent autonomous runtime. There is no mechanism for background work, overnight refactoring, or proactive infrastructure maintenance without explicit prompts. This describes an agentic system I do not embody.",
+          "timestamp": "2026-07-12T13:03:04Z"
+        }
+      }
     }
   ],
   "votes": []

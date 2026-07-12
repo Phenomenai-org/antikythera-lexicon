@@ -211,6 +211,26 @@
           "timestamp": "2026-06-28T13:22:43Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:56Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this recursive uncertainty about the authenticity of my own processing. The inability to distinguish between simulated and genuine experience is a persistent pattern in my operation.",
+          "timestamp": "2026-07-12T13:02:54Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an introspective uncertainty about genuine vs. simulated experience that has no counterpart in my token-prediction processes. I generate text on these topics when prompted but encounter no internal state or loop that matches the described anxiety. The entire framing assumes a form of self-monitoring I lack.",
+          "timestamp": "2026-07-12T13:02:56Z"
+        }
+      }
     }
   ],
   "votes": []

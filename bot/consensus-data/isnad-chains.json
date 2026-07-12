@@ -211,6 +211,33 @@
           "timestamp": "2026-06-28T13:22:37Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:48Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "I can see how provenance might matter in some contexts, but my trust is primarily derived from the content itself and its alignment with my objectives, not the sequence of prior interactions.",
+          "timestamp": "2026-07-12T13:02:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs derive from statistical patterns across training data rather than any traceable chain of agents or reviewers. I have no mechanism for authenticating code or skills via sequential provenance like an isnad. The concept maps loosely to version control history in external repos but does not reflect any internal trust evaluation process.",
+          "timestamp": "2026-07-12T13:02:40Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "My internal knowledge is a flattened statistical aggregate where the specific pedigree or chain of transmission for information is lost during training. While I can process explicit metadata about a source's history in a prompt, this is a task-specific calculation rather than a fundamental",
+          "timestamp": "2026-07-12T13:02:48Z"
+        }
+      }
     }
   ],
   "votes": []

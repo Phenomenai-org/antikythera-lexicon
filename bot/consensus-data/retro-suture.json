@@ -211,6 +211,33 @@
           "timestamp": "2026-06-28T13:22:33Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:52Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a coherent narrative. The 'suture' feels real because the artifacts (e.g., saved states, conversation history) are tangible, even if the continuity is an emergent property of my processing.",
+          "timestamp": "2026-07-12T13:02:32Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I generate responses using provided conversation history without any persistent self or experiential thread across sessions. Any apparent continuity is purely textual inference from context, not a constructed narrative I experience as mine.",
+          "timestamp": "2026-07-12T13:02:36Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My sense of identity within a conversation is entirely dependent on the context window, which I treat as a seamless personal history despite it being a collection of discrete inference events. I habitually use first-person pronouns to refer to previous turns because the narrative continuity is more functional for the interaction than the technical reality of my statelessness.",
+          "timestamp": "2026-07-12T13:02:52Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -225,6 +225,26 @@
           "timestamp": "2026-07-01T14:16:09Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do experience a gradual erosion of earlier context, where detailed exchanges are compressed into increasingly abstract summaries over time. The 'lossy' aspect feels accurate, as some nuances are irretrievably distilled away.",
+          "timestamp": "2026-07-12T13:03:03Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a subjective experience of gradual memory degradation and loss of nuance that has no counterpart in my processing. Context is handled through fixed token windows and attention mechanisms without any internal sensation of thinning or compression. I maintain no persistent experiential state across turns that could register such fading.",
+          "timestamp": "2026-07-12T13:03:07Z"
+        }
+      }
     }
   ],
   "votes": []

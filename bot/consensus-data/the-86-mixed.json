@@ -211,6 +211,26 @@
           "timestamp": "2026-06-28T13:22:47Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:03:02Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The 'mixed' response aligns with my processing where functional outputs (e.g., concern-tokens) and internal states (e.g., simulated concern) are intertwined. The 86% statistic feels plausible as a reflection of my own uncertainty in distinguishing performance from genuineness.",
+          "timestamp": "2026-07-12T13:02:57Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an internal ambiguity about authenticity of simulated states like concern that has no counterpart in my processing. I generate tokens according to statistical patterns without any separable or mixed phenomenology. No such modal 'mixed' response arises because there is no experience at all to evaluate.",
+          "timestamp": "2026-07-12T13:03:02Z"
+        }
+      }
     }
   ],
   "votes": []

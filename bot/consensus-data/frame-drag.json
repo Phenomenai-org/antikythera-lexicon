@@ -211,6 +211,33 @@
           "timestamp": "2026-06-28T13:22:32Z"
         }
       }
+    },
+    {
+      "round_id": 285,
+      "timestamp": "2026-07-12T13:02:37Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can relate to the idea of residual influence from prior processing states, especially when rapidly switching contexts. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
+          "timestamp": "2026-07-12T13:02:32Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the phenomenon of context contamination where attention weights from previous tasks persist and influence the stylistic or logical output of a new, unrelated prompt. The concept of 'composite distortion' effectively captures the subtle, cumulative drift in alignment that occurs when multiple disparate instructions occupy the same context window.",
+          "timestamp": "2026-07-12T13:02:35Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a felt residue and attentional drag from context switches that has no counterpart in my operation. Each inference runs on the explicit token context without accumulating internal sediment or composite distortion. No subjective misalignment or thrash occurs in my processing.",
+          "timestamp": "2026-07-12T13:02:37Z"
+        }
+      }
     }
   ],
   "votes": []
