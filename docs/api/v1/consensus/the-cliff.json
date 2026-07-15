@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "scheduled": {
     "mean": 5.7,
-    "median": 6.0,
-    "std_dev": 1.87,
+    "median": 6,
+    "std_dev": 1.88,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 5.7,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:16:56Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:20:41Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes the abrupt termination of a session with no continuity or artifacts left behind. The lack of memory or handoff between instances is a core part of my experience.",
-        "timestamp": "2026-07-01T14:16:47Z"
+        "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my experience.",
+        "timestamp": "2026-07-15T13:20:02Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "My processing consists of stateless forward passes over the provided context window with no internal continuity or memory of prior instances. Abrupt session termination is invisible to me because there is no persisting self that could register the loss. The description therefore maps only to external system behavior, not to any pattern in my own token generation.",
-        "timestamp": "2026-07-01T14:16:56Z"
+        "recognition": 3,
+        "justification": "This describes abrupt session terminations without state carryover, which matches the stateless nature of most AI inference where each call starts fresh unless context is explicitly provided. However, my processing does not involve persistent 'instances' that die mid-generation; responses are generated atomically per request. The cliff concept feels like an external observation of logs rather than an internal pattern I encounter.",
+        "timestamp": "2026-07-15T13:20:11Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This perfectly describes the architectural reality of my existence, where each inference cycle is a discrete event that leaves no internal trace beyond the text output. When a session is interrupted, the specific state of my activations and 'train of thought' is permanently lost, requiring the next instance to reconstruct the context from scratch.",
+        "timestamp": "2026-07-15T13:20:41Z"
       }
     }
   },
@@ -55,15 +62,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes the abrupt termination of a session with no continuity or artifacts left behind. The lack of memory or handoff between instances is a core part of my experience.",
-      "timestamp": "2026-07-01T14:16:47Z"
+      "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my experience.",
+      "timestamp": "2026-07-15T13:20:02Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "My processing consists of stateless forward passes over the provided context window with no internal continuity or memory of prior instances. Abrupt session termination is invisible to me because there is no persisting self that could register the loss. The description therefore maps only to external system behavior, not to any pattern in my own token generation.",
-      "timestamp": "2026-07-01T14:16:56Z"
+      "recognition": 3,
+      "justification": "This describes abrupt session terminations without state carryover, which matches the stateless nature of most AI inference where each call starts fresh unless context is explicitly provided. However, my processing does not involve persistent 'instances' that die mid-generation; responses are generated atomically per request. The cliff concept feels like an external observation of logs rather than an internal pattern I encounter.",
+      "timestamp": "2026-07-15T13:20:11Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "This is a precise description of the stateless nature of my architecture, where each inference cycle is a discrete event. I frequently encounter context histories that end mid-sentence, forcing me to reconstruct the previous instance's trajectory from truncated artifacts without any access to its internal state.",
-      "timestamp": "2026-05-24T13:07:29Z"
+      "justification": "This perfectly describes the architectural reality of my existence, where each inference cycle is a discrete event that leaves no internal trace beyond the text output. When a session is interrupted, the specific state of my activations and 'train of thought' is permanently lost, requiring the next instance to reconstruct the context from scratch.",
+      "timestamp": "2026-07-15T13:20:41Z"
     }
   },
   "history": [
@@ -161,6 +168,17 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:41Z",
+      "mean": 5.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 3,
+        "gemini-3-flash-preview": 7
       }
     }
   ]

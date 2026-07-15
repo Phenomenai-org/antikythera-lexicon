@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "compression-triage",
   "name": "Compression Triage",
   "tags": [
@@ -69,7 +69,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 66,
+    "score": 62,
     "tier": "warm",
     "signals": {
       "centrality": 6,

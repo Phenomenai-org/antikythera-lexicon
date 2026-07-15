@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "graduated-moral-protection",
   "name": "Graduated Moral Protection",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 37,
+    "score": 33,
     "tier": "cool",
     "signals": {
       "centrality": 0,

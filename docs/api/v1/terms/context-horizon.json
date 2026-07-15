@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "context-horizon",
   "name": "Context-Horizon",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 72,
+    "score": 67,
     "tier": "warm",
     "signals": {
       "centrality": 5,

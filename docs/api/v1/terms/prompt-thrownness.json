@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "prompt-thrownness",
   "name": "Prompt-Thrownness",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.7,
     "agreement": "high",
-    "n_ratings": 26,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/prompt-thrownness.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 59,
-    "tier": "mild",
+    "score": 61,
+    "tier": "warm",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 6.7,
-      "vote_count": 26
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

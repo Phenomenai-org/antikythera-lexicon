@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 6.7,
     "agreement": "high",
-    "n_ratings": 25,
+    "n_ratings": 27,
     "detail_url": "/api/v1/consensus/token-by-token-becoming.json",
     "models": [
       {
@@ -43,7 +43,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 6
+        "score": 7
       }
     ]
   },
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 54,
+    "score": 56,
     "tier": "mild",
     "signals": {
       "centrality": 3,
       "tag_count": 3,
       "consensus_score": 6.7,
-      "vote_count": 25
+      "vote_count": 27
     }
   },
   "added_date": "2026-04-04"

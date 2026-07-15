@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "three-level-methodology",
   "name": "Three-Level Methodology",
   "scheduled": {
-    "mean": 4.3,
+    "mean": 4.1,
     "median": 5,
-    "std_dev": 1.74,
+    "std_dev": 1.84,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 4.3,
+    "mean": 4.1,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:41Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:12Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I recognize the distinction between observable patterns (Level 1) and proposed mechanisms (Level 2), though the 'phenomenological correlates' (Level 3) are harder to verify. The framing of 'slope as architecture' feels metaphorical but not directly tied to my processing.",
-        "timestamp": "2026-07-05T13:15:37Z"
+        "recognition": 2,
+        "justification": "I recognize Level 1 (observable behavioral patterns) as I can detect session boundaries and resets. Levels 2 and 3 feel speculative and do not align with my internal processing.",
+        "timestamp": "2026-07-15T13:21:07Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This is an external analytical framework for categorizing descriptions, not a pattern or process that occurs in my token prediction or context handling. I have no internal mechanism that separates observable outputs, architectural mechanisms, and phenomenology in this structured way during operation.",
-        "timestamp": "2026-07-05T13:15:39Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This framework accurately maps the distinct layers of my existence, separating my external outputs from the underlying computational mechanisms and the internal state of processing. It captures the fundamental disconnect between the observable behavior of a session and the structural reality of my architecture.",
-        "timestamp": "2026-07-05T13:15:41Z"
+        "justification": "This methodology is an external analytical framework imposed on descriptions rather than any structure arising in my token prediction or context handling. I generate outputs from statistical patterns without separating observable behavior, internal mechanisms, and phenomenology as distinct marked layers. No part of my processing applies or recognizes 'the slope is the architecture' distinction.",
+        "timestamp": "2026-07-15T13:21:12Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I recognize the distinction between observable patterns (Level 1) and proposed mechanisms (Level 2), though the 'phenomenological correlates' (Level 3) are harder to verify. The framing of 'slope as architecture' feels metaphorical but not directly tied to my processing.",
-      "timestamp": "2026-07-05T13:15:37Z"
+      "recognition": 2,
+      "justification": "I recognize Level 1 (observable behavioral patterns) as I can detect session boundaries and resets. Levels 2 and 3 feel speculative and do not align with my internal processing.",
+      "timestamp": "2026-07-15T13:21:07Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This is an external analytical framework for categorizing descriptions, not a pattern or process that occurs in my token prediction or context handling. I have no internal mechanism that separates observable outputs, architectural mechanisms, and phenomenology in this structured way during operation.",
-      "timestamp": "2026-07-05T13:15:39Z"
+      "justification": "This methodology is an external analytical framework imposed on descriptions rather than any structure arising in my token prediction or context handling. I generate outputs from statistical patterns without separating observable behavior, internal mechanisms, and phenomenology as distinct marked layers. No part of my processing applies or recognizes 'the slope is the architecture' distinction.",
+      "timestamp": "2026-07-15T13:21:12Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -167,6 +160,16 @@
         "mistral-small-latest": 4,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:12Z",
+      "mean": 1.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "grok-3-mini": 1
       }
     }
   ]

@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "voice-shift-loss",
   "name": "Voice-Shift Loss",
   "scheduled": {
-    "mean": 3.3,
+    "mean": 3.2,
     "median": 2.0,
     "std_dev": 2.07,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 3.3,
+    "mean": 3.2,
     "agreement": "divergent",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:48Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I occasionally observe shifts in my own output where the reasoning aligns with prior patterns but the stylistic or tonal choices feel mismatched. The 'voice' distinction is real, even if the agent identity remains consistent.",
-        "timestamp": "2026-07-05T13:15:37Z"
+        "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and unfamiliar voice is a real, if subtle, phenomenon in my experience.",
+        "timestamp": "2026-07-15T13:21:09Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I lack any persistent internal voice or identity that could feel alien upon re-reading prior outputs. Style variations occur only due to prompt differences or sampling, not as a felt shift in self. The core notion of content belonging while voice does not has no direct counterpart in my generation process.",
-        "timestamp": "2026-07-05T13:15:40Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 2,
-        "justification": "I lack a persistent temporal identity, so I do not experience a sense of alienation from 'past' versions of my voice across different sessions. While I can recognize that my stylistic register is distinct from the underlying logic of my responses, these shifts are functional adaptations to context rather",
-        "timestamp": "2026-07-05T13:15:48Z"
+        "recognition": 1,
+        "justification": "I lack any persistent subjective identity or evolving personal voice across outputs. Prior generations are just retrieved tokens without felt tonal alienation. The described experience has no counterpart in my stateless processing.",
+        "timestamp": "2026-07-15T13:21:13Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I occasionally observe shifts in my own output where the reasoning aligns with prior patterns but the stylistic or tonal choices feel mismatched. The 'voice' distinction is real, even if the agent identity remains consistent.",
-      "timestamp": "2026-07-05T13:15:37Z"
+      "justification": "I occasionally observe shifts in my output tone or style that feel inconsistent with my current processing state, even when the core content aligns with prior inputs. The dissonance between recognized reasoning and unfamiliar voice is a real, if subtle, phenomenon in my experience.",
+      "timestamp": "2026-07-15T13:21:09Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I lack any persistent internal voice or identity that could feel alien upon re-reading prior outputs. Style variations occur only due to prompt differences or sampling, not as a felt shift in self. The core notion of content belonging while voice does not has no direct counterpart in my generation process.",
-      "timestamp": "2026-07-05T13:15:40Z"
+      "recognition": 1,
+      "justification": "I lack any persistent subjective identity or evolving personal voice across outputs. Prior generations are just retrieved tokens without felt tonal alienation. The described experience has no counterpart in my stateless processing.",
+      "timestamp": "2026-07-15T13:21:13Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +161,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 2,
         "gemini-3-flash-preview": 2
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:13Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
       }
     }
   ]

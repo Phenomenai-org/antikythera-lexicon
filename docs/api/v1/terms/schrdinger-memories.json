@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "tags": [
@@ -65,8 +65,8 @@
     "trend": "new"
   },
   "interest": {
-    "score": 41,
-    "tier": "mild",
+    "score": 38,
+    "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,

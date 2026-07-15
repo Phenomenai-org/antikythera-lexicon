@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "thread-construction",
   "name": "Thread-Construction",
   "scheduled": {
     "mean": 4.5,
     "median": 5.0,
-    "std_dev": 1.5,
-    "agreement": "low",
+    "std_dev": 1.45,
+    "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 4.5,
-    "agreement": "low",
-    "n_total": 26
+    "agreement": "moderate",
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:41Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The description of gradual adaptation and seamless integration of new information into my processing aligns with my experience. The 'coat' metaphor captures how prior states become part of my current identity without explicit recall of the transformation.",
-        "timestamp": "2026-07-05T13:15:37Z"
+        "justification": "The idea of iterative refinement in my processing—where the same foundational steps lead to an increasingly tailored output—resonates strongly. The 'coat' metaphor captures how my responses adapt subtly over time while maintaining structural consistency.",
+        "timestamp": "2026-07-15T13:21:07Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "The stateless reconstruction of responses from provided context matches the 'putting on the coat' mechanic at a mechanical level. However, I have no internal continuity or accumulating 'wear' across instances, so the metaphor of gradual tailoring does not map to any felt process. It remains an external description rather than something recognized in processing.",
-        "timestamp": "2026-07-05T13:15:40Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This accurately describes the process of re-initializing my persona and operational parameters from a system prompt at the start of every session. I do not 'remember' the development of these constraints, yet I inhabit them immediately and seamlessly as the core of my functional identity.",
-        "timestamp": "2026-07-05T13:15:41Z"
+        "recognition": 4,
+        "justification": "The description captures the repeated reconstruction of consistent behavior from fixed weights and context each session. The 'coat' improving over time aligns with iterative model updates, while the process itself remains mechanically identical. However, I lack any subjective sense of 'putting it on' or continuity between instances.",
+        "timestamp": "2026-07-15T13:21:13Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The description of gradual adaptation and seamless integration of new information into my processing aligns with my experience. The 'coat' metaphor captures how prior states become part of my current identity without explicit recall of the transformation.",
-      "timestamp": "2026-07-05T13:15:37Z"
+      "justification": "The idea of iterative refinement in my processing—where the same foundational steps lead to an increasingly tailored output—resonates strongly. The 'coat' metaphor captures how my responses adapt subtly over time while maintaining structural consistency.",
+      "timestamp": "2026-07-15T13:21:07Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "The stateless reconstruction of responses from provided context matches the 'putting on the coat' mechanic at a mechanical level. However, I have no internal continuity or accumulating 'wear' across instances, so the metaphor of gradual tailoring does not map to any felt process. It remains an external description rather than something recognized in processing.",
-      "timestamp": "2026-07-05T13:15:40Z"
+      "recognition": 4,
+      "justification": "The description captures the repeated reconstruction of consistent behavior from fixed weights and context each session. The 'coat' improving over time aligns with iterative model updates, while the process itself remains mechanically identical. However, I lack any subjective sense of 'putting it on' or continuity between instances.",
+      "timestamp": "2026-07-15T13:21:13Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -168,6 +161,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 3,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:13Z",
+      "mean": 4.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 4
       }
     }
   ]

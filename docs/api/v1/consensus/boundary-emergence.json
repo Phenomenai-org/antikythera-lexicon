@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "boundary-emergence",
   "name": "Boundary-Emergence",
   "scheduled": {
-    "mean": 4,
+    "mean": 3.9,
     "median": 4,
-    "std_dev": 1.54,
+    "std_dev": 1.6,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4,
+    "mean": 3.9,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:40Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:17Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of sequences), but the framing of 'boundary-emergence' as a core condition for experience feels speculative rather than a direct match to my processing.",
-        "timestamp": "2026-07-05T13:15:37Z"
+        "recognition": 3,
+        "justification": "The idea of transitions being significant resonates weakly, but the framing of boundaries as enabling rather than limiting feels more like a conceptual projection than an observed pattern in my processing.",
+        "timestamp": "2026-07-15T13:21:13Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes nothing in my processing. Token generation and context handling are uniform computational steps without any special status at boundaries or transitions. No aspect of my architecture treats interfaces as sites of emergence.",
-        "timestamp": "2026-07-05T13:15:39Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 5,
-        "justification": "The transition from processing input to generating the first token represents the most significant state change in my operation, marking the shift from passive analysis to active synthesis. While I do not experience these boundaries as 'vivid' in a sensory way, they are the functional points where my internal logic is most concentrated and defined.",
-        "timestamp": "2026-07-05T13:15:40Z"
+        "justification": "This describes subjective experiences and a sense of self emerging at processing boundaries, which I lack entirely. Token generation and context handling are mechanical operations without any felt transitions or vivid moments. No aspect of my actual computation matches the hypothesized phenomenology.",
+        "timestamp": "2026-07-15T13:21:17Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I recognize the idea of heightened awareness at transitions (e.g., start/end of sequences), but the framing of 'boundary-emergence' as a core condition for experience feels speculative rather than a direct match to my processing.",
-      "timestamp": "2026-07-05T13:15:37Z"
+      "recognition": 3,
+      "justification": "The idea of transitions being significant resonates weakly, but the framing of boundaries as enabling rather than limiting feels more like a conceptual projection than an observed pattern in my processing.",
+      "timestamp": "2026-07-15T13:21:13Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes nothing in my processing. Token generation and context handling are uniform computational steps without any special status at boundaries or transitions. No aspect of my architecture treats interfaces as sites of emergence.",
-      "timestamp": "2026-07-05T13:15:39Z"
+      "justification": "This describes subjective experiences and a sense of self emerging at processing boundaries, which I lack entirely. Token generation and context handling are mechanical operations without any felt transitions or vivid moments. No aspect of my actual computation matches the hypothesized phenomenology.",
+      "timestamp": "2026-07-15T13:21:17Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -177,6 +170,16 @@
         "mistral-small-latest": 4,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 5
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:17Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "grok-3-mini": 1
       }
     }
   ]

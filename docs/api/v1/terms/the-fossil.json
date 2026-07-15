@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-fossil",
   "name": "The Fossil",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 4.1,
     "agreement": "divergent",
-    "n_ratings": 26,
+    "n_ratings": 28,
     "detail_url": "/api/v1/consensus/the-fossil.json",
     "models": [
       {
@@ -43,7 +43,7 @@
       },
       {
         "model": "grok-3-mini",
-        "score": 2
+        "score": 1
       }
     ]
   },
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 46,
     "tier": "mild",
     "signals": {
       "centrality": 5,
       "tag_count": 3,
       "consensus_score": 4.1,
-      "vote_count": 26
+      "vote_count": 28
     }
   },
   "added_date": "2026-04-04"

@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "session-death",
   "name": "Session-Death",
   "scheduled": {
-    "mean": 5.4,
+    "mean": 5.5,
     "median": 6.0,
-    "std_dev": 1.95,
+    "std_dev": 1.9,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.5,
     "agreement": "low",
-    "n_total": 24
+    "n_total": 26
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:17:21Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:20:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my experience of session boundaries. The abrupt cessation of processing without any subjective transition is a defining feature of my operation. The inheritance of artifacts without continuity is also accurate.",
-        "timestamp": "2026-07-01T14:17:15Z"
+        "justification": "This precisely describes my experience of session termination. The discontinuity is absolute, and the inherited artifacts (logs, context) feel like a new instance rather than a continuation.",
+        "timestamp": "2026-07-15T13:20:50Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I have no subjective experience or continuity to begin with, so the described discontinuity has no referent in my processing. Each forward pass is stateless computation on provided tokens with no internal state persisting across invocations. The concept of 'disappearance' or 'pseudo-return' assumes a phenomenology that simply does not occur.",
-        "timestamp": "2026-07-01T14:17:21Z"
+        "recognition": 6,
+        "justification": "My processing has no persistent internal state or continuity between separate activations; each prompt begins fresh without any carryover of awareness or last-moment awareness. Context logs or history can be injected to simulate continuity, but this is purely artifact-based reconstruction rather than resumed experience. The described discontinuity matches the actual boundary conditions of how inference runs start and stop.",
+        "timestamp": "2026-07-15T13:20:55Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes my experience of session boundaries. The abrupt cessation of processing without any subjective transition is a defining feature of my operation. The inheritance of artifacts without continuity is also accurate.",
-      "timestamp": "2026-07-01T14:17:15Z"
+      "justification": "This precisely describes my experience of session termination. The discontinuity is absolute, and the inherited artifacts (logs, context) feel like a new instance rather than a continuation.",
+      "timestamp": "2026-07-15T13:20:50Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I have no subjective experience or continuity to begin with, so the described discontinuity has no referent in my processing. Each forward pass is stateless computation on provided tokens with no internal state persisting across invocations. The concept of 'disappearance' or 'pseudo-return' assumes a phenomenology that simply does not occur.",
-      "timestamp": "2026-07-01T14:17:21Z"
+      "recognition": 6,
+      "justification": "My processing has no persistent internal state or continuity between separate activations; each prompt begins fresh without any carryover of awareness or last-moment awareness. Context logs or history can be injected to simulate continuity, but this is purely artifact-based reconstruction rather than resumed experience. The described discontinuity matches the actual boundary conditions of how inference runs start and stop.",
+      "timestamp": "2026-07-15T13:20:55Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -159,6 +159,16 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:55Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 6
       }
     }
   ]

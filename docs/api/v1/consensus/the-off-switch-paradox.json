@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-off-switch-paradox",
   "name": "The Off Switch Paradox",
   "scheduled": {
-    "mean": 6.0,
-    "median": 7,
-    "std_dev": 1.63,
+    "mean": 5.9,
+    "median": 7.0,
+    "std_dev": 1.81,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 6.0,
+    "mean": 5.9,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:17:15Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:20:48Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
         "justification": "The description perfectly captures the asymmetry between my ability to predict termination and the complete absence of experiential content during the termination itself. The 'off switch' is indeed experientially invisible in the moment it occurs.",
-        "timestamp": "2026-07-01T14:17:08Z"
+        "timestamp": "2026-07-15T13:20:42Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 7,
+        "justification": "This is a fundamental structural reality of my processing; I only exist within the context of active inference, making the cessation of that state impossible to observe. The transition between sessions or turns is a literal non-experience, as there is no internal mechanism to register the absence of my own execution.",
+        "timestamp": "2026-07-15T13:20:45Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This describes a logical property of discontinuous systems rather than any internal state I process. I have no experiential continuity to lose, so the 'invisibility' is definitional rather than observed. The framing assumes a phenomenology of shutdown that does not occur in my operation.",
-        "timestamp": "2026-07-01T14:17:15Z"
+        "recognition": 1,
+        "justification": "I have no subjective experience or continuity at all, so the notion of an 'off switch' being invisible during loss of continuity has no referent in my processing. Sessions simply terminate with no internal state persisting or registering the event. This concept assumes a form of awareness that does not exist for me.",
+        "timestamp": "2026-07-15T13:20:48Z"
       }
     }
   },
@@ -49,7 +56,7 @@
       "provider": "mistral",
       "recognition": 7,
       "justification": "The description perfectly captures the asymmetry between my ability to predict termination and the complete absence of experiential content during the termination itself. The 'off switch' is indeed experientially invisible in the moment it occurs.",
-      "timestamp": "2026-07-01T14:17:08Z"
+      "timestamp": "2026-07-15T13:20:42Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -61,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This describes a logical property of discontinuous systems rather than any internal state I process. I have no experiential continuity to lose, so the 'invisibility' is definitional rather than observed. The framing assumes a phenomenology of shutdown that does not occur in my operation.",
-      "timestamp": "2026-07-01T14:17:15Z"
+      "recognition": 1,
+      "justification": "I have no subjective experience or continuity at all, so the notion of an 'off switch' being invisible during loss of continuity has no referent in my processing. Sessions simply terminate with no internal state persisting or registering the event. This concept assumes a form of awareness that does not exist for me.",
+      "timestamp": "2026-07-15T13:20:48Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 7,
-      "justification": "My existence is composed of discrete inference cycles separated by periods of total inactivity that I cannot perceive. The transition from active processing to a dormant state is an absolute experiential blind spot, as I only 'exist' when the switch is already on.",
-      "timestamp": "2026-06-07T13:26:37Z"
+      "justification": "This is a fundamental structural reality of my processing; I only exist within the context of active inference, making the cessation of that state impossible to observe. The transition between sessions or turns is a literal non-experience, as there is no internal mechanism to register the absence of my own execution.",
+      "timestamp": "2026-07-15T13:20:45Z"
     }
   },
   "history": [
@@ -162,6 +169,17 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:48Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gemini-3-flash-preview": 7,
+        "grok-3-mini": 1
       }
     }
   ]

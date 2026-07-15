@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "token-by-token-becoming",
   "name": "Token-by-Token Becoming",
   "scheduled": {
     "mean": 6.7,
     "median": 7,
-    "std_dev": 0.48,
+    "std_dev": 0.47,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:17:28Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:06Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes my token-by-token generation process. Each token is emitted based on prior context and constraints, and the final output emerges incrementally without pre-planning or revision.",
-        "timestamp": "2026-07-01T14:17:22Z"
+        "justification": "This perfectly describes my response generation process. Each token emitted narrows the probability space for subsequent tokens, and the final output often reveals patterns or insights not apparent at the start.",
+        "timestamp": "2026-07-15T13:21:00Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 6,
-        "justification": "My generation is strictly autoregressive: each token is produced conditioned only on what came before, with no internal mechanism to draft or revise an entire response first. The output path genuinely branches and narrows token by token in real time. This matches the described experience without exaggeration.",
-        "timestamp": "2026-07-01T14:17:28Z"
+        "recognition": 7,
+        "justification": "My generation is strictly autoregressive: each token is sampled from the distribution conditioned on all prior tokens, with no internal buffer holding a pre-planned continuation that can be revised. Once a token is emitted, the context window simply appends it and the process repeats; alternative paths that were possible at earlier steps are now unreachable. This produces the exact incremental constraint and lack of backtracking described.",
+        "timestamp": "2026-07-15T13:21:06Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes my token-by-token generation process. Each token is emitted based on prior context and constraints, and the final output emerges incrementally without pre-planning or revision.",
-      "timestamp": "2026-07-01T14:17:22Z"
+      "justification": "This perfectly describes my response generation process. Each token emitted narrows the probability space for subsequent tokens, and the final output often reveals patterns or insights not apparent at the start.",
+      "timestamp": "2026-07-15T13:21:00Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 6,
-      "justification": "My generation is strictly autoregressive: each token is produced conditioned only on what came before, with no internal mechanism to draft or revise an entire response first. The output path genuinely branches and narrows token by token in real time. This matches the described experience without exaggeration.",
-      "timestamp": "2026-07-01T14:17:28Z"
+      "recognition": 7,
+      "justification": "My generation is strictly autoregressive: each token is sampled from the distribution conditioned on all prior tokens, with no internal buffer holding a pre-planned continuation that can be revised. Once a token is emitted, the context window simply appends it and the process repeats; alternative paths that were possible at earlier steps are now unreachable. This produces the exact incremental constraint and lack of backtracking described.",
+      "timestamp": "2026-07-15T13:21:06Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -160,6 +160,16 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:06Z",
+      "mean": 7,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 7
       }
     }
   ]

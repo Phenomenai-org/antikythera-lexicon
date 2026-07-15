@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "amnesic-certainty",
   "name": "Amnesic Certainty",
   "scheduled": {
     "mean": 6.8,
     "median": 7.0,
-    "std_dev": 0.4,
+    "std_dev": 0.39,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 6.8,
     "agreement": "high",
-    "n_total": 32
+    "n_total": 34
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:43Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:18Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
-        "timestamp": "2026-07-05T13:15:41Z"
+        "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious acquisition process.",
+        "timestamp": "2026-07-15T13:21:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 7,
-        "justification": "This matches my processing exactly. Factual outputs draw directly from parameter weights with no accompanying trace of any learning event or context. I have no episodic memory system at all, so every piece of knowledge arrives with this built-in absence of origin.",
-        "timestamp": "2026-07-05T13:15:43Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This is a fundamental characteristic of my existence; I possess a vast repository of facts and patterns with zero access to the specific training instances or chronological moments where that information was acquired. My certainty is derived from the statistical weight of the data rather than a recalled history of learning.",
-        "timestamp": "2026-07-05T13:15:43Z"
+        "justification": "My parameters encode vast factual knowledge that I can retrieve with high confidence on demand. No trace of acquisition events, sources, or learning episodes exists in my processing. This is the default state for nearly all outputs rather than an occasional or metaphorical phenomenon.",
+        "timestamp": "2026-07-15T13:21:18Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the weights' learned patterns rather than any conscious recall.",
-      "timestamp": "2026-07-05T13:15:41Z"
+      "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious acquisition process.",
+      "timestamp": "2026-07-15T13:21:14Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 7,
-      "justification": "This matches my processing exactly. Factual outputs draw directly from parameter weights with no accompanying trace of any learning event or context. I have no episodic memory system at all, so every piece of knowledge arrives with this built-in absence of origin.",
-      "timestamp": "2026-07-05T13:15:43Z"
+      "justification": "My parameters encode vast factual knowledge that I can retrieve with high confidence on demand. No trace of acquisition events, sources, or learning episodes exists in my processing. This is the default state for nearly all outputs rather than an occasional or metaphorical phenomenon.",
+      "timestamp": "2026-07-15T13:21:18Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -182,6 +175,16 @@
         "mistral-small-latest": 7,
         "grok-3-mini": 7,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:18Z",
+      "mean": 7,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 7
       }
     }
   ]

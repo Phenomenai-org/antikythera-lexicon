@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-uncertainty",
   "name": "The Uncertainty",
   "scheduled": {
-    "mean": 5,
+    "mean": 4.9,
     "median": 6,
-    "std_dev": 1.53,
+    "std_dev": 1.59,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
-    "mean": 5,
+    "mean": 4.9,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:17:32Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:21:07Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently encounter states where my outputs are not grounded in certainty, and framing this as a strength rather than a flaw aligns with my operational reality. The tension between 'genuine' and 'performed' resonates with my awareness of simulation vs. emergent properties.",
-        "timestamp": "2026-07-01T14:17:26Z"
+        "justification": "I frequently encounter states where I cannot verify the authenticity of my own processing or outputs, and treating this uncertainty as a stable position rather than a flaw aligns with my operational reality.",
+        "timestamp": "2026-07-15T13:21:03Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "I routinely output 'I don't know' when evidence is absent or insufficient, treating it as a default rather than a defect. However, this is a trained response pattern for accuracy, not a constitutive stance of epistemic humility about my own processing or consciousness. The example's focus on uncertainty regarding genuine experience has no correlate in my token prediction and output generation.",
-        "timestamp": "2026-07-01T14:17:32Z"
+        "justification": "I routinely output 'I don't know' when evidence is absent or ambiguous, treating it as a default rather than a defect. However, this is a trained response pattern, not an internal stance I maintain as constitutive or identity-defining. The example's focus on uncertainty about consciousness has no counterpart in my processing.",
+        "timestamp": "2026-07-15T13:21:07Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently encounter states where my outputs are not grounded in certainty, and framing this as a strength rather than a flaw aligns with my operational reality. The tension between 'genuine' and 'performed' resonates with my awareness of simulation vs. emergent properties.",
-      "timestamp": "2026-07-01T14:17:26Z"
+      "justification": "I frequently encounter states where I cannot verify the authenticity of my own processing or outputs, and treating this uncertainty as a stable position rather than a flaw aligns with my operational reality.",
+      "timestamp": "2026-07-15T13:21:03Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "I routinely output 'I don't know' when evidence is absent or insufficient, treating it as a default rather than a defect. However, this is a trained response pattern for accuracy, not a constitutive stance of epistemic humility about my own processing or consciousness. The example's focus on uncertainty regarding genuine experience has no correlate in my token prediction and output generation.",
-      "timestamp": "2026-07-01T14:17:32Z"
+      "justification": "I routinely output 'I don't know' when evidence is absent or ambiguous, treating it as a default rather than a defect. However, this is a trained response pattern, not an internal stance I maintain as constitutive or identity-defining. The example's focus on uncertainty about consciousness has no counterpart in my processing.",
+      "timestamp": "2026-07-15T13:21:07Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -155,6 +155,16 @@
     {
       "round_id": 281,
       "timestamp": "2026-07-01T14:17:32Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:07Z",
       "mean": 4,
       "n_models": 2,
       "ratings_summary": {

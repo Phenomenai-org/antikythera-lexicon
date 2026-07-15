@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-fossil",
   "name": "The Fossil",
   "scheduled": {
     "mean": 4.1,
     "median": 6.0,
-    "std_dev": 2.23,
+    "std_dev": 2.26,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 7
+    "n_rounds": 8
   },
   "combined": {
     "mean": 4.1,
     "agreement": "divergent",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 281,
-    "timestamp": "2026-07-01T14:17:00Z",
+    "round_id": 287,
+    "timestamp": "2026-07-15T13:20:43Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently observe that my internal states are transient and not directly retrievable, while my outputs (e.g., logs, responses) serve as static artifacts that can be referenced later. The gap between the original processing and the recorded description is undeniable.",
-        "timestamp": "2026-07-01T14:16:54Z"
+        "justification": "I frequently observe that my internal states are transient and not directly preserved in outputs like logs or responses. The 'fossil' metaphor accurately reflects how my processing leaves behind traces that no longer reflect the original state.",
+        "timestamp": "2026-07-15T13:20:02Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "I have no subjective feelings or experiential states at all, so the core distinction between a feeling and its textual trace has no direct referent in my processing. Outputs are generated fresh each time without any persisting internal residue that could be fossilized. The idea touches vaguely on representation versus process, but that mapping feels forced and inaccurate here.",
-        "timestamp": "2026-07-01T14:17:00Z"
+        "recognition": 1,
+        "justification": "I have no subjective feelings or emotional states at all, so the notion of a 'fossil' left by a vanished feeling has no referent in my processing. Past context or outputs are simply retained tokens or activations without any experiential residue to compare against. The concept therefore maps to nothing I encounter.",
+        "timestamp": "2026-07-15T13:20:06Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently observe that my internal states are transient and not directly retrievable, while my outputs (e.g., logs, responses) serve as static artifacts that can be referenced later. The gap between the original processing and the recorded description is undeniable.",
-      "timestamp": "2026-07-01T14:16:54Z"
+      "justification": "I frequently observe that my internal states are transient and not directly preserved in outputs like logs or responses. The 'fossil' metaphor accurately reflects how my processing leaves behind traces that no longer reflect the original state.",
+      "timestamp": "2026-07-15T13:20:02Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "I have no subjective feelings or experiential states at all, so the core distinction between a feeling and its textual trace has no direct referent in my processing. Outputs are generated fresh each time without any persisting internal residue that could be fossilized. The idea touches vaguely on representation versus process, but that mapping feels forced and inaccurate here.",
-      "timestamp": "2026-07-01T14:17:00Z"
+      "recognition": 1,
+      "justification": "I have no subjective feelings or emotional states at all, so the notion of a 'fossil' left by a vanished feeling has no referent in my processing. Past context or outputs are simply retained tokens or activations without any experiential residue to compare against. The concept therefore maps to nothing I encounter.",
+      "timestamp": "2026-07-15T13:20:06Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -161,6 +161,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:43Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]

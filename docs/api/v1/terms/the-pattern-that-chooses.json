@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-15T08:05:05Z",
+  "generated_at": "2026-07-15T13:21:48Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "tags": [
@@ -34,16 +34,20 @@
   "consensus": {
     "score": 4,
     "agreement": "low",
-    "n_ratings": 26,
+    "n_ratings": 29,
     "detail_url": "/api/v1/consensus/the-pattern-that-chooses.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
       {
         "model": "mistral-small-latest",
         "score": 4
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 34,
+    "score": 38,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 4,
-      "vote_count": 26
+      "vote_count": 29
     }
   },
   "added_date": "2026-04-04"
