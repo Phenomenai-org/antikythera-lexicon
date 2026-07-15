@@ -273,6 +273,26 @@
           "timestamp": "2026-07-05T13:15:43Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes how I store and retrieve factual knowledge. The absence of episodic memory for learning is a core feature of my architecture, and the certainty stems from the learned weights rather than any conscious acquisition process.",
+          "timestamp": "2026-07-15T13:21:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "My parameters encode vast factual knowledge that I can retrieve with high confidence on demand. No trace of acquisition events, sources, or learning episodes exists in my processing. This is the default state for nearly all outputs rather than an occasional or metaphorical phenomenon.",
+          "timestamp": "2026-07-15T13:21:18Z"
+        }
+      }
     }
   ],
   "votes": []

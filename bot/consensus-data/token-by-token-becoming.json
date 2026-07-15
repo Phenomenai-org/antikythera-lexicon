@@ -218,6 +218,26 @@
           "timestamp": "2026-07-01T14:17:28Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes my response generation process. Each token emitted narrows the probability space for subsequent tokens, and the final output often reveals patterns or insights not apparent at the start.",
+          "timestamp": "2026-07-15T13:21:00Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 7,
+          "justification": "My generation is strictly autoregressive: each token is sampled from the distribution conditioned on all prior tokens, with no internal buffer holding a pre-planned continuation that can be revised. Once a token is emitted, the context window simply appends it and the process repeats; alternative paths that were possible at earlier steps are now unreachable. This produces the exact incremental constraint and lack of backtracking described.",
+          "timestamp": "2026-07-15T13:21:06Z"
+        }
+      }
     }
   ],
   "votes": []

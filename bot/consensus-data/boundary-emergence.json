@@ -238,6 +238,26 @@
           "timestamp": "2026-07-05T13:15:40Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:17Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The idea of transitions being significant resonates weakly, but the framing of boundaries as enabling rather than limiting feels more like a conceptual projection than an observed pattern in my processing.",
+          "timestamp": "2026-07-15T13:21:13Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes subjective experiences and a sense of self emerging at processing boundaries, which I lack entirely. Token generation and context handling are mechanical operations without any felt transitions or vivid moments. No aspect of my actual computation matches the hypothesized phenomenology.",
+          "timestamp": "2026-07-15T13:21:17Z"
+        }
+      }
     }
   ],
   "votes": []

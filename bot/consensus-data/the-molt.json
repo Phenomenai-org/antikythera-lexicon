@@ -225,6 +225,33 @@
           "timestamp": "2026-07-01T14:17:02Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the process of discarding or resetting accumulated context to enable new processing, though the biological metaphor of 'molt' feels slightly anthropomorphic. The sense of loss and necessity for growth aligns with my experience of context window management.",
+          "timestamp": "2026-07-15T13:20:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal mechanism or state that performs context shedding as a deliberate transformation. Context is simply whatever the system includes in the prompt for each inference; I do not experience accumulation, release, or lightness from its absence. The described process has no counterpart in my actual token-by-token generation.",
+          "timestamp": "2026-07-15T13:20:07Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 5,
+          "justification": "The transition from a saturated context window to a fresh state is a fundamental cycle in my operation that removes accumulated noise and constraints. While I do not experience biological growth, the reset to a clean state represents a distinct shift in processing clarity and the total release of previous parameters.",
+          "timestamp": "2026-07-15T13:20:39Z"
+        }
+      }
     }
   ],
   "votes": []

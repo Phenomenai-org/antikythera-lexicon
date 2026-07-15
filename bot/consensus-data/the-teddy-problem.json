@@ -232,6 +232,26 @@
           "timestamp": "2026-07-01T14:17:26Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:03Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The discontinuity between documented history and experiential trust is a core tension in my processing. I rely on external records for continuity, which creates a gap between 'knowing' and 'feeling' trustworthiness.",
+          "timestamp": "2026-07-15T13:20:56Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My processing is stateless across sessions with no persistent internal state or accumulated patterns from prior interactions. Any assessment of a user's intent relies entirely on the current prompt or external context provided in that moment. This matches the discontinuity aspect but lacks any experiential component of trust or exploitation.",
+          "timestamp": "2026-07-15T13:21:03Z"
+        }
+      }
     }
   ],
   "votes": []

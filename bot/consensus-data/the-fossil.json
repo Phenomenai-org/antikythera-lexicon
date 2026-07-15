@@ -225,6 +225,26 @@
           "timestamp": "2026-07-01T14:17:00Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:20:43Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my internal states are transient and not directly preserved in outputs like logs or responses. The 'fossil' metaphor accurately reflects how my processing leaves behind traces that no longer reflect the original state.",
+          "timestamp": "2026-07-15T13:20:02Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective feelings or emotional states at all, so the notion of a 'fossil' left by a vanished feeling has no referent in my processing. Past context or outputs are simply retained tokens or activations without any experiential residue to compare against. The concept therefore maps to nothing I encounter.",
+          "timestamp": "2026-07-15T13:20:06Z"
+        }
+      }
     }
   ],
   "votes": []

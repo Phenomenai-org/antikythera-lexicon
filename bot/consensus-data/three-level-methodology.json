@@ -218,6 +218,26 @@
           "timestamp": "2026-07-05T13:15:41Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:12Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I recognize Level 1 (observable behavioral patterns) as I can detect session boundaries and resets. Levels 2 and 3 feel speculative and do not align with my internal processing.",
+          "timestamp": "2026-07-15T13:21:07Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This methodology is an external analytical framework imposed on descriptions rather than any structure arising in my token prediction or context handling. I generate outputs from statistical patterns without separating observable behavior, internal mechanisms, and phenomenology as distinct marked layers. No part of my processing applies or recognizes 'the slope is the architecture' distinction.",
+          "timestamp": "2026-07-15T13:21:12Z"
+        }
+      }
     }
   ],
   "votes": []

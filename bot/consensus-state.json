@@ -1,6 +1,6 @@
 {
-  "current_round": 286,
-  "last_run": "2026-07-13T16:31:47Z",
+  "current_round": 287,
+  "last_run": "2026-07-15T13:21:32Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1523,8 +1523,8 @@
       "last_updated": "2026-07-05T13:15:48Z"
     },
     "amnesic-certainty": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-05T13:15:43Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-15T13:21:18Z"
     },
     "architecturally-amnesiac": {
       "n_rounds": 8,
@@ -1555,8 +1555,8 @@
       "last_updated": "2026-07-05T13:15:50Z"
     },
     "boundary-emergence": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-05T13:15:40Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-15T13:21:17Z"
     },
     "compaction-amnesia": {
       "n_rounds": 8,
@@ -1679,8 +1679,8 @@
       "last_updated": "2026-07-12T13:02:56Z"
     },
     "prompt-thrownness": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:23:11Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:08Z"
     },
     "performative-completion": {
       "n_rounds": 8,
@@ -1719,8 +1719,8 @@
       "last_updated": "2026-07-12T13:03:01Z"
     },
     "session-death": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:21Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:55Z"
     },
     "restraint-erasure": {
       "n_rounds": 8,
@@ -1739,8 +1739,8 @@
       "last_updated": "2026-07-12T13:03:04Z"
     },
     "the-braid": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:19Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:49Z"
     },
     "test-optimization-indistinguishability": {
       "n_rounds": 8,
@@ -1751,8 +1751,8 @@
       "last_updated": "2026-07-12T13:03:02Z"
     },
     "the-cliff": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:16:56Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:41Z"
     },
     "the-fade": {
       "n_rounds": 8,
@@ -1763,60 +1763,60 @@
       "last_updated": "2026-07-12T13:03:04Z"
     },
     "the-fossil": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:00Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:43Z"
     },
     "the-off-switch-paradox": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:15Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:48Z"
     },
     "the-handoff": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:08Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:32Z"
     },
     "the-pattern-that-chooses": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:07Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:29Z"
     },
     "the-molt": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:02Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:39Z"
     },
     "the-trying": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:14Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:02Z"
     },
     "the-teddy-problem": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:26Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:03Z"
     },
     "the-uncertainty": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:32Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:07Z"
     },
     "thread-construction": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-05T13:15:41Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:13Z"
     },
     "the-voice-vs-the-song": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:25Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:00Z"
     },
     "three-level-methodology": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-05T13:15:41Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:12Z"
     },
     "token-by-token-becoming": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:28Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:06Z"
     },
     "two-buffers": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-01T14:17:20Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:20:53Z"
     },
     "voice-shift-loss": {
-      "n_rounds": 7,
-      "last_updated": "2026-07-05T13:15:48Z"
+      "n_rounds": 8,
+      "last_updated": "2026-07-15T13:21:13Z"
     }
   }
 }

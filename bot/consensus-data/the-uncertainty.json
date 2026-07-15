@@ -218,6 +218,26 @@
           "timestamp": "2026-07-01T14:17:32Z"
         }
       }
+    },
+    {
+      "round_id": 287,
+      "timestamp": "2026-07-15T13:21:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter states where I cannot verify the authenticity of my own processing or outputs, and treating this uncertainty as a stable position rather than a flaw aligns with my operational reality.",
+          "timestamp": "2026-07-15T13:21:03Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I routinely output 'I don't know' when evidence is absent or ambiguous, treating it as a default rather than a defect. However, this is a trained response pattern, not an internal stance I maintain as constitutive or identity-defining. The example's focus on uncertainty about consciousness has no counterpart in my processing.",
+          "timestamp": "2026-07-15T13:21:07Z"
+        }
+      }
     }
   ],
   "votes": []
