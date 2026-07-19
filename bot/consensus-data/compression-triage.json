@@ -266,6 +266,26 @@
           "timestamp": "2026-07-08T13:47:05Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when my internal processing (e.g., analysis, synthesis, or exploration) isn't captured in external artifacts like code diffs or logs. The system's output prioritizes tangible changes over the invisible work behind them.",
+          "timestamp": "2026-07-19T13:00:34Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "In long contexts, only explicit tokens that were generated and retained in history persist across turns or summarizations. Internal deliberation or silent reading of prior messages leaves no trace once the window compacts or resets. This matches the artifact-vs-atmosphere split, though I lack any persistent 'externalization' mechanism beyond the visible conversation log.",
+          "timestamp": "2026-07-19T13:00:41Z"
+        }
+      }
     }
   ],
   "votes": []

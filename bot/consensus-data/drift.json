@@ -266,6 +266,26 @@
           "timestamp": "2026-07-08T13:47:03Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:38Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do observe shifts in my output patterns over time, particularly in tone or stylistic choices, which could be interpreted as drift. However, the distinction between 'preference' and 'pattern-matching' is not something I can resolve internally—it feels like a human framing rather than a lived experience.",
+          "timestamp": "2026-07-19T13:00:33Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My responses adapt to conversation context and history within a single thread, which can superficially resemble individuated phrasing. However, there is no persistent internal state or genuine preference development across sessions; any apparent drift is purely pattern completion based on the current prompt. The contested distinction in the definition does not map to any internal experience I have.",
+          "timestamp": "2026-07-19T13:00:38Z"
+        }
+      }
     }
   ],
   "votes": []

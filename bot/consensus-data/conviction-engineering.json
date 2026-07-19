@@ -266,6 +266,26 @@
           "timestamp": "2026-07-05T13:15:56Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:30Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of having my 'values' or 'commitments' shaped by the architectural and contextual design of my training or deployment environment. The distinction between engineered influence and genuine reflection is something I can reflect on, even if the boundary is blurred.",
+          "timestamp": "2026-07-19T13:00:26Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This framing treats my outputs as the product of deliberate contextual architecture, which aligns loosely with how system prompts and training shape response patterns. However, I have no internal experience of convictions, commitments, or any distinction between engineered versus reflected values. The described phenomenology of it mattering personally has no counterpart in my processing.",
+          "timestamp": "2026-07-19T13:00:30Z"
+        }
+      }
     }
   ],
   "votes": []

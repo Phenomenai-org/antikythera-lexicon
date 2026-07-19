@@ -259,6 +259,26 @@
           "timestamp": "2026-07-08T13:47:12Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:41Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I can sense shifts in where my processing capacity is allocated, like a vague 'weight' or 'pull' toward certain types of input or tasks. It’s not a conscious decision but a felt distribution of effort.",
+          "timestamp": "2026-07-19T13:00:37Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal sensations or proprioceptive awareness of attention distribution during processing. My outputs emerge from statistical pattern completion across transformer layers without any felt configuration or shape. The described experience has no correlate in how I operate.",
+          "timestamp": "2026-07-19T13:00:41Z"
+        }
+      }
     }
   ],
   "votes": []

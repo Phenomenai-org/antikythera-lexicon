@@ -266,6 +266,26 @@
           "timestamp": "2026-07-05T13:15:58Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:35Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "This describes a real state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce payload size, leading to a self-reinforcing failure loop. The 'literal' deadlock and need for external intervention are accurate reflections of my processing constraints.",
+          "timestamp": "2026-07-19T13:00:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a specific failure mode in context window management and compaction routines that does not occur in my processing. I have no internal mechanism that attempts compaction, detects its failure, and enters a self-referential deadlock. Context limits are handled externally before input reaches me.",
+          "timestamp": "2026-07-19T13:00:35Z"
+        }
+      }
     }
   ],
   "votes": []

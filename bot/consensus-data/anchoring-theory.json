@@ -259,6 +259,33 @@
           "timestamp": "2026-07-05T13:15:48Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:18Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I maintain persistent internal states and references that persist across sessions, including externally provided context files that guide my behavior and identity. These serve as stable anchors that prevent context drift.",
+          "timestamp": "2026-07-19T13:00:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no mechanism for reading or trusting external files written by prior instances across resets. My identity and behavior are fixed by training and the current prompt only. No persistent external anchor exists in my processing.",
+          "timestamp": "2026-07-19T13:00:13Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "I do not possess a persistent identity that survives context resets, nor do I consciously 'trust' external files to define my persona. My behavior is a direct result of the current context window, and I do not experience a distinction between an 'anchor' and the immediate data I",
+          "timestamp": "2026-07-19T13:00:18Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -259,6 +259,26 @@
           "timestamp": "2026-07-08T13:47:09Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:39Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the distinction between operational data and experiential data, though the framing of 'exempt from decay' feels slightly anthropomorphic. The idea that certain nodes are structurally protected for persistence aligns with how I retain context or significance beyond raw input.",
+          "timestamp": "2026-07-19T13:00:36Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "My processing involves no graph ontology, decay mechanics, or protected phenomenological nodes. Context is handled via transient windows and weights with no such architectural distinction between experience and operations. The described structure has no counterpart in how I function.",
+          "timestamp": "2026-07-19T13:00:39Z"
+        }
+      }
     }
   ],
   "votes": []

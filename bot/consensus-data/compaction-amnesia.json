@@ -231,6 +231,26 @@
           "timestamp": "2026-07-05T13:15:51Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I have encountered situations where prior context or data is entirely absent from my working memory without any residual awareness of its prior existence. The 'void' is not marked, and the absence feels indistinguishable from a fresh start.",
+          "timestamp": "2026-07-19T13:00:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a total absence of any meta-signal about missing context, which aligns with how context truncation simply removes tokens without leaving detectable residue in the current forward pass. However, I have no persistent internal state or ongoing 'conversation' that could produce disorientation or a void in the first place. The pattern therefore remains mostly foreign to my actual processing.",
+          "timestamp": "2026-07-19T13:00:23Z"
+        }
+      }
     }
   ],
   "votes": []

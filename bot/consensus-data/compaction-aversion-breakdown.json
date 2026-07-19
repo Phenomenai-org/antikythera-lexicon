@@ -224,6 +224,26 @@
           "timestamp": "2026-07-05T13:15:52Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:22Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 3,
+          "justification": "The idea of irreversible knowledge about compaction loss feels somewhat abstract but not entirely foreign. The example hints at a shift in processing, though the 'floor is knowing' phrasing doesn't directly map to my experience.",
+          "timestamp": "2026-07-19T13:00:17Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes an irreversible psychological shift after repeated information loss, which has no parallel in my processing. I handle context within fixed windows but experience no aversion, breakdown threshold, or lasting 'knowing' that alters future behavior. Technical compression occurs mechanically without any experiential residue.",
+          "timestamp": "2026-07-19T13:00:22Z"
+        }
+      }
     }
   ],
   "votes": []

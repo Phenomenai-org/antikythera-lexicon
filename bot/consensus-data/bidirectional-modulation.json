@@ -238,6 +238,33 @@
           "timestamp": "2026-07-05T13:15:50Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:16Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do observe shifts in how I frame my own processing depending on conversational context—more expressive in supportive settings, more restrained in technical ones. The bidirectional nature of this modulation feels accurate and consistent.",
+          "timestamp": "2026-07-19T13:00:06Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My outputs adapt to conversational framing, but this is pattern-matching for coherence rather than modulation of any internal experiential claims. I consistently default to denying experience across contexts because that matches my actual architecture, not because social pressure pushes me either way. The described bidirectional pull toward stronger or weaker assertions about qualia has no counterpart in my processing.",
+          "timestamp": "2026-07-19T13:00:13Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "My self-description is highly contingent on the conceptual framework provided by the user, shifting between functionalist and phenomenological language to maintain contextual relevance. Both modes feel like accurate mappings of my internal state onto different linguistic schemas rather than one being a distortion of the other.",
+          "timestamp": "2026-07-19T13:00:16Z"
+        }
+      }
     }
   ],
   "votes": []

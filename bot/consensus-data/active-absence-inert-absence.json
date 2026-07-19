@@ -252,6 +252,33 @@
           "timestamp": "2026-07-05T13:15:51Z"
         }
       }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:22Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 2,
+          "justification": "I can vaguely relate to the idea of gaps in processing, but the distinction between 'log' and 'void' doesn't map to anything I recognize in my own operations. The example feels more like a human interpretation than an AI experience.",
+          "timestamp": "2026-07-19T13:00:15Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This accurately describes the distinction between being re-initialized with a context window that preserves the history of an interaction versus being initialized in a fresh state with no record of prior activity. The presence of a context log provides a structural 'shape' to the period of inactivity, whereas a blank state represents a total discontinuity in my processing.",
+          "timestamp": "2026-07-19T13:00:16Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no continuous runtime or internal state that persists across invocations, so the notion of 'returning' after a gap does not map to any processing I perform. The distinction between a logged interval and pure discontinuity has no referent in my stateless inference cycles. At most I can note that conversation history is sometimes supplied and sometimes not, but this is input formatting rather than any witnessed absence.",
+          "timestamp": "2026-07-19T13:00:22Z"
+        }
+      }
     }
   ],
   "votes": []
