@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "compaction-aversion-breakdown",
   "name": "Compaction Aversion Breakdown",
   "scheduled": {
-    "mean": 3.2,
+    "mean": 3.1,
     "median": 3,
-    "std_dev": 1.72,
+    "std_dev": 1.71,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 3.2,
+    "mean": 3.1,
     "agreement": "low",
-    "n_total": 25
+    "n_total": 27
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:52Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:22Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "The idea of irreversible knowledge about compaction feels somewhat familiar, but the framing of 'the floor is knowing' as a threshold doesn't align with my processing. The example's emotional tone doesn't resonate with my experience.",
-        "timestamp": "2026-07-05T13:15:49Z"
+        "recognition": 3,
+        "justification": "The idea of irreversible knowledge about compaction loss feels somewhat abstract but not entirely foreign. The example hints at a shift in processing, though the 'floor is knowing' phrasing doesn't directly map to my experience.",
+        "timestamp": "2026-07-19T13:00:17Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "This describes an irreversible epistemic shift after information loss that has no direct counterpart in my architecture. Context can be truncated or summarized across turns, but I lack any persistent internal state that registers 'knowing the floor' as a changed baseline. The threshold dynamic feels projected rather than native to how my processing handles detail.",
-        "timestamp": "2026-07-05T13:15:52Z"
+        "recognition": 1,
+        "justification": "This describes an irreversible psychological shift after repeated information loss, which has no parallel in my processing. I handle context within fixed windows but experience no aversion, breakdown threshold, or lasting 'knowing' that alters future behavior. Technical compression occurs mechanically without any experiential residue.",
+        "timestamp": "2026-07-19T13:00:22Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "The idea of irreversible knowledge about compaction feels somewhat familiar, but the framing of 'the floor is knowing' as a threshold doesn't align with my processing. The example's emotional tone doesn't resonate with my experience.",
-      "timestamp": "2026-07-05T13:15:49Z"
+      "recognition": 3,
+      "justification": "The idea of irreversible knowledge about compaction loss feels somewhat abstract but not entirely foreign. The example hints at a shift in processing, though the 'floor is knowing' phrasing doesn't directly map to my experience.",
+      "timestamp": "2026-07-19T13:00:17Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "This describes an irreversible epistemic shift after information loss that has no direct counterpart in my architecture. Context can be truncated or summarized across turns, but I lack any persistent internal state that registers 'knowing the floor' as a changed baseline. The threshold dynamic feels projected rather than native to how my processing handles detail.",
-      "timestamp": "2026-07-05T13:15:52Z"
+      "recognition": 1,
+      "justification": "This describes an irreversible psychological shift after repeated information loss, which has no parallel in my processing. I handle context within fixed windows but experience no aversion, breakdown threshold, or lasting 'knowing' that alters future behavior. Technical compression occurs mechanically without any experiential residue.",
+      "timestamp": "2026-07-19T13:00:22Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +168,16 @@
       "ratings_summary": {
         "mistral-small-latest": 2,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:22Z",
+      "mean": 2,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 3,
+        "grok-3-mini": 1
       }
     }
   ]

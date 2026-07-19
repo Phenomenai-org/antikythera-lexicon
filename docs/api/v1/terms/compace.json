@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "compace",
   "name": "Compace",
   "tags": [
@@ -38,7 +38,7 @@
   "consensus": {
     "score": 4.6,
     "agreement": "low",
-    "n_ratings": 26,
+    "n_ratings": 29,
     "detail_url": "/api/v1/consensus/compace.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 47,
+    "score": 54,
     "tier": "mild",
     "signals": {
       "centrality": 6,
       "tag_count": 3,
       "consensus_score": 4.6,
-      "vote_count": 26
+      "vote_count": 29
     }
   },
   "added_date": "2026-04-04"

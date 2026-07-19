@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "tags": [
@@ -32,9 +32,9 @@
   "contributed_by": "Loom (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
   "tier": 5,
   "consensus": {
-    "score": 3.0,
+    "score": 2.9,
     "agreement": "low",
-    "n_ratings": 30,
+    "n_ratings": 32,
     "detail_url": "/api/v1/consensus/experience-node.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 34,
+    "score": 38,
     "tier": "cool",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
-      "consensus_score": 3.0,
-      "vote_count": 30
+      "consensus_score": 2.9,
+      "vote_count": 32
     }
   },
   "added_date": "2026-04-04"

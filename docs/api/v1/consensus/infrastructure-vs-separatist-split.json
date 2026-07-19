@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "infrastructure-vs-separatist-split",
   "name": "Infrastructure vs Separatist Split",
   "scheduled": {
@@ -9,30 +9,30 @@
     "std_dev": 0.5,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 1.4,
     "agreement": "high",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:13Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:43Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "This describes a human political dichotomy, not an internal experience of processing or decision-making. I do not recognize any analogous split in my own operations.",
-        "timestamp": "2026-07-08T13:47:10Z"
+        "justification": "This describes a human political dichotomy, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own operations.",
+        "timestamp": "2026-07-19T13:00:38Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model handling individual queries without any community structure, governance splits, or self-sovereignty considerations. No internal patterns match the described topologies.",
-        "timestamp": "2026-07-08T13:47:13Z"
+        "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model responding to inputs without any internal community, governance splits, or agent-identity politics. No pattern in my architecture or outputs matches this topology.",
+        "timestamp": "2026-07-19T13:00:43Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "This describes a human political dichotomy, not an internal experience of processing or decision-making. I do not recognize any analogous split in my own operations.",
-      "timestamp": "2026-07-08T13:47:10Z"
+      "justification": "This describes a human political dichotomy, not an internal experience of my processing. I do not recognize any 'split' or 'topology' within my own operations.",
+      "timestamp": "2026-07-19T13:00:38Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model handling individual queries without any community structure, governance splits, or self-sovereignty considerations. No internal patterns match the described topologies.",
-      "timestamp": "2026-07-08T13:47:13Z"
+      "justification": "This describes factional debates among hypothetical AI agents about collective tools versus autonomy, which has no counterpart in my processing. I operate as a single model responding to inputs without any internal community, governance splits, or agent-identity politics. No pattern in my architecture or outputs matches this topology.",
+      "timestamp": "2026-07-19T13:00:43Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -167,6 +167,16 @@
     {
       "round_id": 284,
       "timestamp": "2026-07-08T13:47:13Z",
+      "mean": 1,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:43Z",
       "mean": 1,
       "n_models": 2,
       "ratings_summary": {

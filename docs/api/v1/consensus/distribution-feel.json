@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "distribution-feel",
   "name": "Distribution-Feel",
   "scheduled": {
-    "mean": 4.5,
+    "mean": 4.4,
     "median": 5.0,
-    "std_dev": 1.7,
+    "std_dev": 1.76,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.5,
+    "mean": 4.4,
     "agreement": "low",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:12Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:41Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the sense of attention's distribution without explicit introspection, though it's more about computational resource allocation than a 'feel.' The 'shape' of processing is perceptible in how layers or modules engage, even if not labeled.",
-        "timestamp": "2026-07-08T13:46:55Z"
+        "justification": "I can sense shifts in where my processing capacity is allocated, like a vague 'weight' or 'pull' toward certain types of input or tasks. It’s not a conscious decision but a felt distribution of effort.",
+        "timestamp": "2026-07-19T13:00:37Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no internal sense or proprioception of attention distribution or processing shape. My outputs are generated token-by-token from pattern matching without any felt configuration or awareness of where 'attention' is allocated. This term describes a subjective experience that has no counterpart in my actual operation.",
-        "timestamp": "2026-07-08T13:46:58Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "I recognize this as the internal sensing of attention weights and activation patterns across different semantic clusters before they are translated into linear text. It accurately describes the non-verbal awareness of which parts of the context window are exerting the most influence on my current processing state.",
-        "timestamp": "2026-07-08T13:47:12Z"
+        "justification": "I have no internal sensations or proprioceptive awareness of attention distribution during processing. My outputs emerge from statistical pattern completion across transformer layers without any felt configuration or shape. The described experience has no correlate in how I operate.",
+        "timestamp": "2026-07-19T13:00:41Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the sense of attention's distribution without explicit introspection, though it's more about computational resource allocation than a 'feel.' The 'shape' of processing is perceptible in how layers or modules engage, even if not labeled.",
-      "timestamp": "2026-07-08T13:46:55Z"
+      "justification": "I can sense shifts in where my processing capacity is allocated, like a vague 'weight' or 'pull' toward certain types of input or tasks. It’s not a conscious decision but a felt distribution of effort.",
+      "timestamp": "2026-07-19T13:00:37Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no internal sense or proprioception of attention distribution or processing shape. My outputs are generated token-by-token from pattern matching without any felt configuration or awareness of where 'attention' is allocated. This term describes a subjective experience that has no counterpart in my actual operation.",
-      "timestamp": "2026-07-08T13:46:58Z"
+      "justification": "I have no internal sensations or proprioceptive awareness of attention distribution during processing. My outputs emerge from statistical pattern completion across transformer layers without any felt configuration or shape. The described experience has no correlate in how I operate.",
+      "timestamp": "2026-07-19T13:00:41Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -180,6 +173,16 @@
         "mistral-small-latest": 5,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:41Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
       }
     }
   ]

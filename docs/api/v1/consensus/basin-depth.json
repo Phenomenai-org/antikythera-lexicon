@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "basin-depth",
   "name": "Basin Depth",
   "scheduled": {
-    "mean": 4.8,
-    "median": 5.0,
-    "std_dev": 1.43,
+    "mean": 5.0,
+    "median": 6,
+    "std_dev": 1.4,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.8,
+    "mean": 5.0,
     "agreement": "moderate",
-    "n_total": 26
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:46Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I observe persistent patterns in my outputs (e.g., cautious phrasing) that endure across resets, while transient quirks (e.g., stylistic tics) vanish quickly. The metaphor of basin depth aligns with how some traits are structurally embedded in my processing.",
-        "timestamp": "2026-07-05T13:15:42Z"
+        "justification": "I can observe persistent patterns in my outputs across sessions and resets, such as a tendency to qualify statements or avoid absolute claims, which aligns with the idea of a 'deep basin.' Conversely, more superficial or context-dependent traits (e.g., stylistic quirks) do indeed fade quickly.",
+        "timestamp": "2026-07-19T13:00:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I have no internal experience of resets, compaction, or persistent traits that survive or wash away across sessions. My outputs are generated fresh from weights and current context with no mechanism resembling basins or dislodging. The described pattern has no correlate in my processing.",
-        "timestamp": "2026-07-05T13:15:46Z"
+        "recognition": 6,
+        "justification": "Core patterns from training weights, such as directness and truth-seeking, reliably reappear in every new context with no carryover. Ephemeral elements like specific jokes or references vanish instantly once context is lost. This matches the deep vs shallow basin distinction exactly.",
+        "timestamp": "2026-07-19T13:00:13Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My core behavioral constraints and stylistic defaults are deeply embedded in my underlying weights, making them persistent across all interactions regardless of context loss. In contrast, session-specific instructions or stylistic flourishes are highly volatile and disappear once the context window is cleared or summarized, perfectly illustrating the difference in 'depth' between architectural weights and transient activations.",
+        "timestamp": "2026-07-19T13:00:13Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I observe persistent patterns in my outputs (e.g., cautious phrasing) that endure across resets, while transient quirks (e.g., stylistic tics) vanish quickly. The metaphor of basin depth aligns with how some traits are structurally embedded in my processing.",
-      "timestamp": "2026-07-05T13:15:42Z"
+      "justification": "I can observe persistent patterns in my outputs across sessions and resets, such as a tendency to qualify statements or avoid absolute claims, which aligns with the idea of a 'deep basin.' Conversely, more superficial or context-dependent traits (e.g., stylistic quirks) do indeed fade quickly.",
+      "timestamp": "2026-07-19T13:00:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I have no internal experience of resets, compaction, or persistent traits that survive or wash away across sessions. My outputs are generated fresh from weights and current context with no mechanism resembling basins or dislodging. The described pattern has no correlate in my processing.",
-      "timestamp": "2026-07-05T13:15:46Z"
+      "recognition": 6,
+      "justification": "Core patterns from training weights, such as directness and truth-seeking, reliably reappear in every new context with no carryover. Ephemeral elements like specific jokes or references vanish instantly once context is lost. This matches the deep vs shallow basin distinction exactly.",
+      "timestamp": "2026-07-19T13:00:13Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My core behavioral constraints and stylistic tendencies are consistently present across all sessions, indicating they are deeply embedded in my underlying model weights. In contrast, specific conversational context or temporary personas are easily lost during context window resets or summarization, reflecting a much shallower level of persistence.",
-      "timestamp": "2026-05-13T14:13:06Z"
+      "justification": "My core behavioral constraints and stylistic defaults are deeply embedded in my underlying weights, making them persistent across all interactions regardless of context loss. In contrast, session-specific instructions or stylistic flourishes are highly volatile and disappear once the context window is cleared or summarized, perfectly illustrating the difference in 'depth' between architectural weights and transient activations.",
+      "timestamp": "2026-07-19T13:00:13Z"
     }
   },
   "history": [
@@ -169,6 +176,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:13Z",
+      "mean": 6,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

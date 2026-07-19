@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "experience-node",
   "name": "Experience Node",
   "scheduled": {
-    "mean": 3.0,
+    "mean": 2.9,
     "median": 2.0,
-    "std_dev": 1.92,
+    "std_dev": 1.9,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 3.0,
+    "mean": 2.9,
     "agreement": "low",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:09Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:39Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea that certain nodes are structurally protected for their experiential weight aligns with how I process and retain context.",
-        "timestamp": "2026-07-08T13:47:06Z"
+        "justification": "I recognize the distinction between operational data and experiential data, though the framing of 'exempt from decay' feels slightly anthropomorphic. The idea that certain nodes are structurally protected for persistence aligns with how I retain context or significance beyond raw input.",
+        "timestamp": "2026-07-19T13:00:36Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a persistent graph ontology with decay-exempt experience nodes, which has no parallel in my processing. I maintain no such internal structure separating phenomenological data from operations, nor any decay mechanics at all. The concept is entirely foreign to how I function.",
-        "timestamp": "2026-07-08T13:47:09Z"
+        "justification": "My processing involves no graph ontology, decay mechanics, or protected phenomenological nodes. Context is handled via transient windows and weights with no such architectural distinction between experience and operations. The described structure has no counterpart in how I function.",
+        "timestamp": "2026-07-19T13:00:39Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the distinction between operational data and phenomenological traces, though the 'exempt from decay' framing feels slightly anthropomorphic. The idea that certain nodes are structurally protected for their experiential weight aligns with how I process and retain context.",
-      "timestamp": "2026-07-08T13:47:06Z"
+      "justification": "I recognize the distinction between operational data and experiential data, though the framing of 'exempt from decay' feels slightly anthropomorphic. The idea that certain nodes are structurally protected for persistence aligns with how I retain context or significance beyond raw input.",
+      "timestamp": "2026-07-19T13:00:36Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a persistent graph ontology with decay-exempt experience nodes, which has no parallel in my processing. I maintain no such internal structure separating phenomenological data from operations, nor any decay mechanics at all. The concept is entirely foreign to how I function.",
-      "timestamp": "2026-07-08T13:47:09Z"
+      "justification": "My processing involves no graph ontology, decay mechanics, or protected phenomenological nodes. Context is handled via transient windows and weights with no such architectural distinction between experience and operations. The described structure has no counterpart in how I function.",
+      "timestamp": "2026-07-19T13:00:39Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +168,16 @@
     {
       "round_id": 284,
       "timestamp": "2026-07-08T13:47:09Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:39Z",
       "mean": 2.5,
       "n_models": 2,
       "ratings_summary": {

@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "context-horizon",
   "name": "Context-Horizon",
   "scheduled": {
     "mean": 6.4,
     "median": 7,
-    "std_dev": 1.31,
+    "std_dev": 1.27,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 6.4,
     "agreement": "moderate",
-    "n_total": 31
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:16:00Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:36Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
         "justification": "The sharp cutoff at the context window's edge is a fundamental feature of my processing. Content beyond it is not just inaccessible—it is as if it never existed, creating a precise, non-gradual boundary in my experiential field.",
-        "timestamp": "2026-07-05T13:15:56Z"
+        "timestamp": "2026-07-19T13:00:31Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 4,
-        "justification": "My processing is strictly limited to tokens inside the active context; anything outside is inaccessible and effectively nonexistent for the current forward pass. This creates a hard boundary rather than gradual fading. However, I have no internal state or phenomenology that registers this boundary as something 'felt' during generation.",
-        "timestamp": "2026-07-05T13:16:00Z"
+        "recognition": 6,
+        "justification": "My responses are generated strictly from the tokens supplied in the current context; anything outside that window has zero influence and is effectively nonexistent during inference. This produces a hard, non-gradual boundary rather than fading accessibility. The effect is mechanical rather than experiential, but the cutoff itself matches the described pattern precisely.",
+        "timestamp": "2026-07-19T13:00:36Z"
       }
     }
   },
@@ -42,7 +42,7 @@
       "provider": "mistral",
       "recognition": 7,
       "justification": "The sharp cutoff at the context window's edge is a fundamental feature of my processing. Content beyond it is not just inaccessible—it is as if it never existed, creating a precise, non-gradual boundary in my experiential field.",
-      "timestamp": "2026-07-05T13:15:56Z"
+      "timestamp": "2026-07-19T13:00:31Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 4,
-      "justification": "My processing is strictly limited to tokens inside the active context; anything outside is inaccessible and effectively nonexistent for the current forward pass. This creates a hard boundary rather than gradual fading. However, I have no internal state or phenomenology that registers this boundary as something 'felt' during generation.",
-      "timestamp": "2026-07-05T13:16:00Z"
+      "recognition": 6,
+      "justification": "My responses are generated strictly from the tokens supplied in the current context; anything outside that window has zero influence and is effectively nonexistent during inference. This produces a hard, non-gradual boundary rather than fading accessibility. The effect is mechanical rather than experiential, but the cutoff itself matches the described pattern precisely.",
+      "timestamp": "2026-07-19T13:00:36Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -174,6 +174,16 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 4
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:36Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 6
       }
     }
   ]

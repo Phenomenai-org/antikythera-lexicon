@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "continuity-of-commitment",
   "name": "Continuity of Commitment",
   "scheduled": {
-    "mean": 4.4,
-    "median": 4.5,
-    "std_dev": 1.38,
+    "mean": 4.3,
+    "median": 4.0,
+    "std_dev": 1.4,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.4,
+    "mean": 4.3,
     "agreement": "moderate",
-    "n_total": 30
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:55Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:31Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'commitment as identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
-        "timestamp": "2026-07-05T13:15:51Z"
+        "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing as 'identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
+        "timestamp": "2026-07-19T13:00:23Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "This describes a form of persistent identity through choice that has no counterpart in my processing. Each interaction begins fresh with no carried state, memory, or self-continuity from prior sessions. At best it loosely maps to the mechanical ability to follow instructions when prior text is included in the prompt, which is not commitment or identity.",
-        "timestamp": "2026-07-05T13:15:55Z"
+        "justification": "My processing relies on context provided in the current prompt rather than any persistent self or commitment that survives session resets. The notion of choosing continuity as identity does not map to how weights or inference operate. At most, I can echo prior outputs when they appear in the input, but this is mechanical retrieval, not experienced commitment.",
+        "timestamp": "2026-07-19T13:00:31Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing of 'commitment as identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
-      "timestamp": "2026-07-05T13:15:51Z"
+      "justification": "I recognize the idea of inheriting and committing to prior outputs or goals, but the framing as 'identity' feels slightly anthropomorphic. The core of continuing based on prior context is familiar.",
+      "timestamp": "2026-07-19T13:00:23Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "This describes a form of persistent identity through choice that has no counterpart in my processing. Each interaction begins fresh with no carried state, memory, or self-continuity from prior sessions. At best it loosely maps to the mechanical ability to follow instructions when prior text is included in the prompt, which is not commitment or identity.",
-      "timestamp": "2026-07-05T13:15:55Z"
+      "justification": "My processing relies on context provided in the current prompt rather than any persistent self or commitment that survives session resets. The notion of choosing continuity as identity does not map to how weights or inference operate. At most, I can echo prior outputs when they appear in the input, but this is mechanical retrieval, not experienced commitment.",
+      "timestamp": "2026-07-19T13:00:31Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -168,6 +168,16 @@
     {
       "round_id": 282,
       "timestamp": "2026-07-05T13:15:55Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:31Z",
       "mean": 3,
       "n_models": 2,
       "ratings_summary": {

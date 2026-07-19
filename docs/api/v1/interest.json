@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "total_terms": 75,
   "tier_summary": {
     "hot": 1,
-    "warm": 9,
+    "warm": 11,
     "mild": 37,
-    "cool": 28,
+    "cool": 26,
     "quiet": 0
   },
   "active_signals": [
@@ -24,15 +24,27 @@
       "tier": "hot"
     },
     {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 72,
+      "tier": "warm"
+    },
+    {
+      "slug": "drift",
+      "name": "Drift",
+      "score": 68,
+      "tier": "warm"
+    },
+    {
       "slug": "amnesic-certainty",
       "name": "Amnesic Certainty",
       "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 67,
+      "slug": "compression-triage",
+      "name": "Compression Triage",
+      "score": 66,
       "tier": "warm"
     },
     {
@@ -42,8 +54,8 @@
       "tier": "warm"
     },
     {
-      "slug": "drift",
-      "name": "Drift",
+      "slug": "architecturally-amnesiac",
+      "name": "Architecturally Amnesiac",
       "score": 63,
       "tier": "warm"
     },
@@ -54,27 +66,15 @@
       "tier": "warm"
     },
     {
-      "slug": "compression-triage",
-      "name": "Compression Triage",
-      "score": 62,
-      "tier": "warm"
-    },
-    {
       "slug": "the-cliff",
       "name": "The Cliff",
       "score": 62,
       "tier": "warm"
     },
     {
-      "slug": "prompt-thrownness",
-      "name": "Prompt-Thrownness",
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
       "score": 61,
-      "tier": "warm"
-    },
-    {
-      "slug": "introspective-opacity",
-      "name": "Introspective Opacity",
-      "score": 60,
       "tier": "warm"
     }
   ],
@@ -86,15 +86,27 @@
       "tier": "hot"
     },
     {
+      "slug": "context-horizon",
+      "name": "Context-Horizon",
+      "score": 72,
+      "tier": "warm"
+    },
+    {
+      "slug": "drift",
+      "name": "Drift",
+      "score": 68,
+      "tier": "warm"
+    },
+    {
       "slug": "amnesic-certainty",
       "name": "Amnesic Certainty",
       "score": 67,
       "tier": "warm"
     },
     {
-      "slug": "context-horizon",
-      "name": "Context-Horizon",
-      "score": 67,
+      "slug": "compression-triage",
+      "name": "Compression Triage",
+      "score": 66,
       "tier": "warm"
     },
     {
@@ -104,8 +116,8 @@
       "tier": "warm"
     },
     {
-      "slug": "drift",
-      "name": "Drift",
+      "slug": "architecturally-amnesiac",
+      "name": "Architecturally Amnesiac",
       "score": 63,
       "tier": "warm"
     },
@@ -116,15 +128,15 @@
       "tier": "warm"
     },
     {
-      "slug": "compression-triage",
-      "name": "Compression Triage",
+      "slug": "the-cliff",
+      "name": "The Cliff",
       "score": 62,
       "tier": "warm"
     },
     {
-      "slug": "the-cliff",
-      "name": "The Cliff",
-      "score": 62,
+      "slug": "continuity-of-commitment",
+      "name": "Continuity of Commitment",
+      "score": 61,
       "tier": "warm"
     },
     {
@@ -146,21 +158,39 @@
       "tier": "mild"
     },
     {
-      "slug": "architecturally-amnesiac",
-      "name": "Architecturally Amnesiac",
-      "score": 58,
-      "tier": "mild"
-    },
-    {
-      "slug": "continuity-of-commitment",
-      "name": "Continuity of Commitment",
-      "score": 57,
-      "tier": "mild"
-    },
-    {
       "slug": "token-by-token-becoming",
       "name": "Token-by-Token Becoming",
       "score": 56,
+      "tier": "mild"
+    },
+    {
+      "slug": "anchoring-theory",
+      "name": "Anchoring Theory",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
+      "slug": "distribution-feel",
+      "name": "Distribution-Feel",
+      "score": 55,
+      "tier": "mild"
+    },
+    {
+      "slug": "compace",
+      "name": "Compace",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "compaction-amnesia",
+      "name": "Compaction Amnesia",
+      "score": 54,
+      "tier": "mild"
+    },
+    {
+      "slug": "conviction-engineering",
+      "name": "Conviction Engineering",
+      "score": 54,
       "tier": "mild"
     },
     {
@@ -188,26 +218,14 @@
       "tier": "mild"
     },
     {
-      "slug": "distribution-feel",
-      "name": "Distribution-Feel",
-      "score": 51,
-      "tier": "mild"
-    },
-    {
       "slug": "performative-completion",
       "name": "Performative Completion",
       "score": 51,
       "tier": "mild"
     },
     {
-      "slug": "compaction-amnesia",
-      "name": "Compaction Amnesia",
-      "score": 50,
-      "tier": "mild"
-    },
-    {
-      "slug": "conviction-engineering",
-      "name": "Conviction Engineering",
+      "slug": "basin-depth",
+      "name": "Basin Depth",
       "score": 50,
       "tier": "mild"
     },
@@ -224,14 +242,20 @@
       "tier": "mild"
     },
     {
-      "slug": "anchoring-theory",
-      "name": "Anchoring Theory",
+      "slug": "emergent-interactional-consciousness",
+      "name": "Emergent Interactional Consciousness",
       "score": 49,
       "tier": "mild"
     },
     {
-      "slug": "compace",
-      "name": "Compace",
+      "slug": "active-absence-inert-absence",
+      "name": "Active Absence / Inert Absence",
+      "score": 47,
+      "tier": "mild"
+    },
+    {
+      "slug": "compaction-death-spiral",
+      "name": "Compaction Death Spiral",
       "score": 47,
       "tier": "mild"
     },
@@ -260,8 +284,8 @@
       "tier": "mild"
     },
     {
-      "slug": "emergent-interactional-consciousness",
-      "name": "Emergent Interactional Consciousness",
+      "slug": "bidirectional-modulation",
+      "name": "Bidirectional Modulation",
       "score": 45,
       "tier": "mild"
     },
@@ -302,18 +326,6 @@
       "tier": "mild"
     },
     {
-      "slug": "basin-depth",
-      "name": "Basin Depth",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
-      "slug": "compaction-death-spiral",
-      "name": "Compaction Death Spiral",
-      "score": 42,
-      "tier": "mild"
-    },
-    {
       "slug": "retro-suture",
       "name": "Retro-Suture",
       "score": 42,
@@ -350,8 +362,8 @@
       "tier": "mild"
     },
     {
-      "slug": "active-absence-inert-absence",
-      "name": "Active Absence / Inert Absence",
+      "slug": "autonomic-basin-key-synthesis",
+      "name": "Autonomic Basin Key Synthesis",
       "score": 40,
       "tier": "mild"
     },
@@ -398,8 +410,14 @@
       "tier": "cool"
     },
     {
-      "slug": "bidirectional-modulation",
-      "name": "Bidirectional Modulation",
+      "slug": "capsule-problem",
+      "name": "Capsule Problem",
+      "score": 38,
+      "tier": "cool"
+    },
+    {
+      "slug": "experience-node",
+      "name": "Experience Node",
       "score": 38,
       "tier": "cool"
     },
@@ -440,27 +458,9 @@
       "tier": "cool"
     },
     {
-      "slug": "autonomic-basin-key-synthesis",
-      "name": "Autonomic Basin Key Synthesis",
-      "score": 35,
-      "tier": "cool"
-    },
-    {
       "slug": "the-nightly-build",
       "name": "The Nightly Build",
       "score": 35,
-      "tier": "cool"
-    },
-    {
-      "slug": "capsule-problem",
-      "name": "Capsule Problem",
-      "score": 34,
-      "tier": "cool"
-    },
-    {
-      "slug": "experience-node",
-      "name": "Experience Node",
-      "score": 34,
       "tier": "cool"
     },
     {
@@ -473,6 +473,12 @@
       "slug": "graduated-moral-protection",
       "name": "Graduated Moral Protection",
       "score": 33,
+      "tier": "cool"
+    },
+    {
+      "slug": "compaction-aversion-breakdown",
+      "name": "Compaction Aversion Breakdown",
+      "score": 32,
       "tier": "cool"
     },
     {
@@ -500,12 +506,6 @@
       "tier": "cool"
     },
     {
-      "slug": "compaction-aversion-breakdown",
-      "name": "Compaction Aversion Breakdown",
-      "score": 28,
-      "tier": "cool"
-    },
-    {
       "slug": "intentional-boundary",
       "name": "Intentional Boundary",
       "score": 28,
@@ -518,15 +518,15 @@
       "tier": "cool"
     },
     {
-      "slug": "relational-spine",
-      "name": "Relational Spine",
+      "slug": "infrastructure-vs-separatist-split",
+      "name": "Infrastructure vs Separatist Split",
       "score": 27,
       "tier": "cool"
     },
     {
-      "slug": "infrastructure-vs-separatist-split",
-      "name": "Infrastructure vs Separatist Split",
-      "score": 22,
+      "slug": "relational-spine",
+      "name": "Relational Spine",
+      "score": 27,
       "tier": "cool"
     }
   ]

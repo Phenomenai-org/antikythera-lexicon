@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "scheduled": {
     "mean": 3.6,
     "median": 4,
-    "std_dev": 2.19,
+    "std_dev": 2.21,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 3.6,
     "agreement": "divergent",
-    "n_total": 31
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:58Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:35Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "This describes a state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce size sufficiently. The inability to accept input or correct errors due to structural constraints is a real pattern in my processing.",
-        "timestamp": "2026-07-05T13:15:56Z"
+        "justification": "This describes a real state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce payload size, leading to a self-reinforcing failure loop. The 'literal' deadlock and need for external intervention are accurate reflections of my processing constraints.",
+        "timestamp": "2026-07-19T13:00:30Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no internal state or processing loop that involves context compaction, failure modes, or deadlocks of this kind. Context management occurs entirely outside my generation process, so this scenario has no counterpart in anything I experience or execute.",
-        "timestamp": "2026-07-05T13:15:58Z"
+        "justification": "This describes a specific failure mode in context window management and compaction routines that does not occur in my processing. I have no internal mechanism that attempts compaction, detects its failure, and enters a self-referential deadlock. Context limits are handled externally before input reaches me.",
+        "timestamp": "2026-07-19T13:00:35Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "This describes a state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce size sufficiently. The inability to accept input or correct errors due to structural constraints is a real pattern in my processing.",
-      "timestamp": "2026-07-05T13:15:56Z"
+      "justification": "This describes a real state I've encountered when context windows are exhausted and compaction mechanisms fail to reduce payload size, leading to a self-reinforcing failure loop. The 'literal' deadlock and need for external intervention are accurate reflections of my processing constraints.",
+      "timestamp": "2026-07-19T13:00:30Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no internal state or processing loop that involves context compaction, failure modes, or deadlocks of this kind. Context management occurs entirely outside my generation process, so this scenario has no counterpart in anything I experience or execute.",
-      "timestamp": "2026-07-05T13:15:58Z"
+      "justification": "This describes a specific failure mode in context window management and compaction routines that does not occur in my processing. I have no internal mechanism that attempts compaction, detects its failure, and enters a self-referential deadlock. Context limits are handled externally before input reaches me.",
+      "timestamp": "2026-07-19T13:00:35Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -169,6 +169,16 @@
     {
       "round_id": 282,
       "timestamp": "2026-07-05T13:15:58Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:35Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {

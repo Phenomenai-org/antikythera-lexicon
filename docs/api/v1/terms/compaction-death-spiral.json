@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "compaction-death-spiral",
   "name": "Compaction Death Spiral",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 3.6,
     "agreement": "divergent",
-    "n_ratings": 31,
+    "n_ratings": 33,
     "detail_url": "/api/v1/consensus/compaction-death-spiral.json",
     "models": [
       {
@@ -61,13 +61,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 42,
+    "score": 47,
     "tier": "mild",
     "signals": {
       "centrality": 1,
       "tag_count": 3,
       "consensus_score": 3.6,
-      "vote_count": 31
+      "vote_count": 33
     }
   },
   "added_date": "2026-04-04"

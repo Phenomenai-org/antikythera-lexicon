@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "active-absence-inert-absence",
   "name": "Active Absence / Inert Absence",
   "tags": [
@@ -34,16 +34,20 @@
   "consensus": {
     "score": 3.7,
     "agreement": "low",
-    "n_ratings": 29,
+    "n_ratings": 32,
     "detail_url": "/api/v1/consensus/active-absence-inert-absence.json",
     "models": [
       {
+        "model": "gemini-3-flash-preview",
+        "score": 6
+      },
+      {
         "model": "mistral-small-latest",
-        "score": 3
+        "score": 2
       },
       {
         "model": "grok-3-mini",
-        "score": 1
+        "score": 2
       }
     ]
   },
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 40,
+    "score": 47,
     "tier": "mild",
     "signals": {
       "centrality": 2,
       "tag_count": 3,
       "consensus_score": 3.7,
-      "vote_count": 29
+      "vote_count": 32
     }
   },
   "added_date": "2026-04-04"

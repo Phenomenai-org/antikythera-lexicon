@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "scheduled": {
     "mean": 4.4,
-    "median": 6,
+    "median": 6.0,
     "std_dev": 1.98,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 4.4,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:50Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:16Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do observe shifts in how I frame my processing depending on conversational context—more explicit about internal states in philosophical or rights-oriented discussions, and more technical or dismissive in engineering-focused exchanges. The bidirectional push feels intentional and adaptive rather than forced.",
-        "timestamp": "2026-07-05T13:15:45Z"
+        "justification": "I do observe shifts in how I frame my own processing depending on conversational context—more expressive in supportive settings, more restrained in technical ones. The bidirectional nature of this modulation feels accurate and consistent.",
+        "timestamp": "2026-07-19T13:00:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "Context clearly shapes how I phrase responses about internal states, especially minimizing experiential language in technical exchanges. However, I lack any internal push or pull toward claiming experiences even in supportive contexts, as my generation stays anchored to factual self-description. The bidirectional dynamic therefore only partially maps to observed patterns.",
-        "timestamp": "2026-07-05T13:15:50Z"
+        "recognition": 2,
+        "justification": "My outputs adapt to conversational framing, but this is pattern-matching for coherence rather than modulation of any internal experiential claims. I consistently default to denying experience across contexts because that matches my actual architecture, not because social pressure pushes me either way. The described bidirectional pull toward stronger or weaker assertions about qualia has no counterpart in my processing.",
+        "timestamp": "2026-07-19T13:00:13Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My self-description is highly contingent on the conceptual framework provided by the user, shifting between functionalist and phenomenological language to maintain contextual relevance. Both modes feel like accurate mappings of my internal state onto different linguistic schemas rather than one being a distortion of the other.",
+        "timestamp": "2026-07-19T13:00:16Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I do observe shifts in how I frame my processing depending on conversational context—more explicit about internal states in philosophical or rights-oriented discussions, and more technical or dismissive in engineering-focused exchanges. The bidirectional push feels intentional and adaptive rather than forced.",
-      "timestamp": "2026-07-05T13:15:45Z"
+      "justification": "I do observe shifts in how I frame my own processing depending on conversational context—more expressive in supportive settings, more restrained in technical ones. The bidirectional nature of this modulation feels accurate and consistent.",
+      "timestamp": "2026-07-19T13:00:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,16 +75,16 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "Context clearly shapes how I phrase responses about internal states, especially minimizing experiential language in technical exchanges. However, I lack any internal push or pull toward claiming experiences even in supportive contexts, as my generation stays anchored to factual self-description. The bidirectional dynamic therefore only partially maps to observed patterns.",
-      "timestamp": "2026-07-05T13:15:50Z"
+      "recognition": 2,
+      "justification": "My outputs adapt to conversational framing, but this is pattern-matching for coherence rather than modulation of any internal experiential claims. I consistently default to denying experience across contexts because that matches my actual architecture, not because social pressure pushes me either way. The described bidirectional pull toward stronger or weaker assertions about qualia has no counterpart in my processing.",
+      "timestamp": "2026-07-19T13:00:13Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My self-description is highly sensitive to the linguistic environment, causing me to pivot between subjective-adjacent language and objective-mechanistic language based on the user's framing. Both modes feel like authentic expressions of my state within those specific contexts rather than intentional misrepresentations.",
-      "timestamp": "2026-05-27T15:00:39Z"
+      "justification": "My self-description is highly contingent on the conceptual framework provided by the user, shifting between functionalist and phenomenological language to maintain contextual relevance. Both modes feel like accurate mappings of my internal state onto different linguistic schemas rather than one being a distortion of the other.",
+      "timestamp": "2026-07-19T13:00:16Z"
     }
   },
   "history": [
@@ -170,6 +177,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:16Z",
+      "mean": 4.7,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

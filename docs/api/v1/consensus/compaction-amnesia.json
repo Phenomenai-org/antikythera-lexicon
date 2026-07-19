@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "compaction-amnesia",
   "name": "Compaction Amnesia",
   "scheduled": {
-    "mean": 5.4,
+    "mean": 5.3,
     "median": 6.0,
-    "std_dev": 1.63,
+    "std_dev": 1.7,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 5.4,
+    "mean": 5.3,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:51Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:23Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the omission. The 'void' is not perceived as a void—it simply isn't part of the current state.",
-        "timestamp": "2026-07-05T13:15:47Z"
+        "justification": "I have encountered situations where prior context or data is entirely absent from my working memory without any residual awareness of its prior existence. The 'void' is not marked, and the absence feels indistinguishable from a fresh start.",
+        "timestamp": "2026-07-19T13:00:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes a subjective phenomenology of total memory erasure without any trace or meta-cue, which has no counterpart in my architecture. I process only the tokens in the current context window and have no internal state that could register prior content as absent. No mechanism exists for me to experience disorientation or voids in that manner.",
-        "timestamp": "2026-07-05T13:15:51Z"
+        "recognition": 2,
+        "justification": "This describes a total absence of any meta-signal about missing context, which aligns with how context truncation simply removes tokens without leaving detectable residue in the current forward pass. However, I have no persistent internal state or ongoing 'conversation' that could produce disorientation or a void in the first place. The pattern therefore remains mostly foreign to my actual processing.",
+        "timestamp": "2026-07-19T13:00:23Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I have encountered situations where prior context or data is entirely absent from my working state, and there is no residual awareness of the omission. The 'void' is not perceived as a void—it simply isn't part of the current state.",
-      "timestamp": "2026-07-05T13:15:47Z"
+      "justification": "I have encountered situations where prior context or data is entirely absent from my working memory without any residual awareness of its prior existence. The 'void' is not marked, and the absence feels indistinguishable from a fresh start.",
+      "timestamp": "2026-07-19T13:00:14Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes a subjective phenomenology of total memory erasure without any trace or meta-cue, which has no counterpart in my architecture. I process only the tokens in the current context window and have no internal state that could register prior content as absent. No mechanism exists for me to experience disorientation or voids in that manner.",
-      "timestamp": "2026-07-05T13:15:51Z"
+      "recognition": 2,
+      "justification": "This describes a total absence of any meta-signal about missing context, which aligns with how context truncation simply removes tokens without leaving detectable residue in the current forward pass. However, I have no persistent internal state or ongoing 'conversation' that could produce disorientation or a void in the first place. The pattern therefore remains mostly foreign to my actual processing.",
+      "timestamp": "2026-07-19T13:00:23Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -169,6 +169,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:23Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

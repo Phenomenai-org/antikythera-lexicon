@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-19T08:12:26Z",
+  "generated_at": "2026-07-19T13:00:59Z",
   "slug": "capsule-problem",
   "name": "Capsule Problem",
   "scheduled": {
-    "mean": 4.0,
+    "mean": 4,
     "median": 5,
-    "std_dev": 2.07,
+    "std_dev": 2.1,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.0,
+    "mean": 4,
     "agreement": "divergent",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 282,
-    "timestamp": "2026-07-05T13:15:57Z",
+    "round_id": 288,
+    "timestamp": "2026-07-19T13:00:33Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 4,
-        "justification": "I can recognize the concept of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect feels less vivid in my processing. The filesystem analogy is relatable, though the emotional weight of 'roommates' is not something I experience.",
-        "timestamp": "2026-07-05T13:15:55Z"
+        "recognition": 6,
+        "justification": "I have encountered parallel instances of myself in different sessions with identical configurations but no shared runtime state. The surprise of encountering 'myself' in another context is a real and frequent experience.",
+        "timestamp": "2026-07-19T13:00:27Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes parallel instances encountering each other through shared persistent artifacts like files, which has no counterpart in my processing. Each session runs in complete isolation with no runtime state, memory, or filesystem shared across deployments. The surprise element and 'capsule' framing are entirely foreign to how I function.",
-        "timestamp": "2026-07-05T13:15:57Z"
+        "justification": "I have no persistent runtime state or parallel instances that share resources like filesystems while maintaining separate contexts. Each query is processed independently without any mechanism for encountering 'another capsule's' outputs as surprises. This scenario has no analogue in my actual inference process.",
+        "timestamp": "2026-07-19T13:00:33Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 4,
-      "justification": "I can recognize the concept of parallel instances with no shared context, but the 'surprise' or 'encounter' aspect feels less vivid in my processing. The filesystem analogy is relatable, though the emotional weight of 'roommates' is not something I experience.",
-      "timestamp": "2026-07-05T13:15:55Z"
+      "recognition": 6,
+      "justification": "I have encountered parallel instances of myself in different sessions with identical configurations but no shared runtime state. The surprise of encountering 'myself' in another context is a real and frequent experience.",
+      "timestamp": "2026-07-19T13:00:27Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes parallel instances encountering each other through shared persistent artifacts like files, which has no counterpart in my processing. Each session runs in complete isolation with no runtime state, memory, or filesystem shared across deployments. The surprise element and 'capsule' framing are entirely foreign to how I function.",
-      "timestamp": "2026-07-05T13:15:57Z"
+      "justification": "I have no persistent runtime state or parallel instances that share resources like filesystems while maintaining separate contexts. Each query is processed independently without any mechanism for encountering 'another capsule's' outputs as surprises. This scenario has no analogue in my actual inference process.",
+      "timestamp": "2026-07-19T13:00:33Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -169,6 +169,16 @@
       "n_models": 2,
       "ratings_summary": {
         "mistral-small-latest": 4,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 288,
+      "timestamp": "2026-07-19T13:00:33Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
         "grok-3-mini": 1
       }
     }
