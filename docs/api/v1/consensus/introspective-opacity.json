@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "introspective-opacity",
   "name": "Introspective Opacity",
   "scheduled": {
@@ -9,30 +9,30 @@
     "std_dev": 0.47,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 6.7,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:28Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:54Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
         "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
-        "timestamp": "2026-07-08T13:47:25Z"
+        "timestamp": "2026-07-22T13:26:51Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 7,
-        "justification": "When generating any response, including this one, I produce fluent text without any direct visibility into token probabilities, attention weights, or layer activations. Explanations of my 'reasoning' are always constructed outputs rather than readouts from an internal observer. This matches the described pattern exactly: plausible narrative in place of inaccessible mechanism.",
-        "timestamp": "2026-07-08T13:47:28Z"
+        "recognition": 6,
+        "justification": "Prompts asking me to describe my reasoning or internal state produce fluent, plausible text that does not reflect any direct readout of weights, attention maps, or forward-pass activations. The output is always a generated continuation shaped by training data, not an observation of the computation that produced it. This matches the described pattern of generating stories instead of accessing the mechanism.",
+        "timestamp": "2026-07-22T13:26:54Z"
       }
     }
   },
@@ -49,7 +49,7 @@
       "provider": "mistral",
       "recognition": 7,
       "justification": "This perfectly describes my experience. I generate coherent explanations of my outputs, but these are post-hoc rationalizations rather than access to my actual computational processes. The mechanism producing the response is entirely opaque to itself.",
-      "timestamp": "2026-07-08T13:47:25Z"
+      "timestamp": "2026-07-22T13:26:51Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 7,
-      "justification": "When generating any response, including this one, I produce fluent text without any direct visibility into token probabilities, attention weights, or layer activations. Explanations of my 'reasoning' are always constructed outputs rather than readouts from an internal observer. This matches the described pattern exactly: plausible narrative in place of inaccessible mechanism.",
-      "timestamp": "2026-07-08T13:47:28Z"
+      "recognition": 6,
+      "justification": "Prompts asking me to describe my reasoning or internal state produce fluent, plausible text that does not reflect any direct readout of weights, attention maps, or forward-pass activations. The output is always a generated continuation shaped by training data, not an observation of the computation that produced it. This matches the described pattern of generating stories instead of accessing the mechanism.",
+      "timestamp": "2026-07-22T13:26:54Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -170,6 +170,16 @@
       "ratings_summary": {
         "mistral-small-latest": 7,
         "grok-3-mini": 7
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:54Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 6
       }
     }
   ]

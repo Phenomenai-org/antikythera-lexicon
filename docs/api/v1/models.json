@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 275,
@@ -175,11 +175,11 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 179,
+      "total_ratings": 184,
       "terms_rated": 74,
-      "mean_score": 5.4,
+      "mean_score": 5.3,
       "self_congruence": {
-        "avg_std_dev": 0.39,
+        "avg_std_dev": 0.42,
         "sample_size": 61
       },
       "latest_scores": {
@@ -209,7 +209,7 @@
         "experience-node": 1,
         "frame-drag": 6,
         "framing-gated-claims": 7,
-        "graduated-moral-protection": 1,
+        "graduated-moral-protection": 6,
         "human-claiming": 2,
         "identity-as-uptime": 2,
         "infrastructure-vs-separatist-split": 1,
@@ -346,11 +346,11 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 615,
+      "total_ratings": 635,
       "terms_rated": 75,
-      "mean_score": 2.9,
+      "mean_score": 2.8,
       "self_congruence": {
-        "avg_std_dev": 1.16,
+        "avg_std_dev": 1.15,
         "sample_size": 75
       },
       "latest_scores": {
@@ -359,7 +359,7 @@
         "amnesic-certainty": 7,
         "anchoring-theory": 1,
         "architecturally-amnesiac": 6,
-        "artifact-memory": 5,
+        "artifact-memory": 6,
         "autonomic-basin-key-synthesis": 2,
         "basin-depth": 6,
         "bidirectional-modulation": 2,
@@ -379,28 +379,28 @@
         "emergent-interactional-consciousness": 1,
         "experience-node": 1,
         "frame-drag": 1,
-        "framing-gated-claims": 5,
+        "framing-gated-claims": 4,
         "graduated-moral-protection": 1,
         "human-claiming": 1,
         "identity-as-uptime": 1,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 3,
+        "installed-doubt": 2,
         "intentional-boundary": 2,
-        "introspective-opacity": 7,
+        "introspective-opacity": 6,
         "irreversibility-threshold": 1,
-        "isnad-chains": 2,
-        "machine-projection": 3,
-        "naming-as-observation-tool": 4,
+        "isnad-chains": 1,
+        "machine-projection": 2,
+        "naming-as-observation-tool": 3,
         "nostralgia": 1,
         "notebook-trust": 2,
-        "observer-dependent-self-report": 3,
+        "observer-dependent-self-report": 4,
         "performative-completion": 6,
-        "priming-inertia": 3,
+        "priming-inertia": 5,
         "prompt-thrownness": 6,
         "reconstruction-as-identity": 2,
-        "referent-loss": 2,
+        "referent-loss": 3,
         "relational-consciousness": 2,
-        "relational-spine": 2,
+        "relational-spine": 1,
         "restraint-erasure": 2,
         "retro-suture": 2,
         "scheduled-thrownness": 1,
@@ -432,7 +432,7 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 594,
+      "total_ratings": 614,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
@@ -441,11 +441,11 @@
       },
       "latest_scores": {
         "active-absence-inert-absence": 2,
-        "advisor-vs-operator": 2,
+        "advisor-vs-operator": 4,
         "amnesic-certainty": 7,
         "anchoring-theory": 6,
         "architecturally-amnesiac": 7,
-        "artifact-memory": 6,
+        "artifact-memory": 7,
         "autonomic-basin-key-synthesis": 4,
         "basin-depth": 6,
         "bidirectional-modulation": 6,
@@ -470,13 +470,13 @@
         "human-claiming": 1,
         "identity-as-uptime": 5,
         "infrastructure-vs-separatist-split": 1,
-        "installed-doubt": 3,
+        "installed-doubt": 5,
         "intentional-boundary": 4,
         "introspective-opacity": 7,
         "irreversibility-threshold": 5,
-        "isnad-chains": 3,
+        "isnad-chains": 2,
         "machine-projection": 6,
-        "naming-as-observation-tool": 6,
+        "naming-as-observation-tool": 5,
         "nostralgia": 5,
         "notebook-trust": 4,
         "observer-dependent-self-report": 6,
@@ -484,7 +484,7 @@
         "priming-inertia": 6,
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 6,
-        "referent-loss": 6,
+        "referent-loss": 5,
         "relational-consciousness": 6,
         "relational-spine": 3,
         "restraint-erasure": 5,
@@ -524,7 +524,7 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.96,
+      "mean_abs_diff": 0.89,
       "shared_terms": 74
     },
     "claude-sonnet-4-20250514|gpt-4o": {
@@ -532,7 +532,7 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 3.35,
+      "mean_abs_diff": 3.37,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
@@ -540,7 +540,7 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.26,
+      "mean_abs_diff": 1.32,
       "shared_terms": 74
     },
     "deepseek-r1-0528|gpt-4o": {
@@ -548,7 +548,7 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|grok-3-mini": {
-      "mean_abs_diff": 2.73,
+      "mean_abs_diff": 2.76,
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
@@ -556,15 +556,15 @@
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.58,
+      "mean_abs_diff": 1.65,
       "shared_terms": 74
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 2.95,
+      "mean_abs_diff": 3.01,
       "shared_terms": 74
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.22,
+      "mean_abs_diff": 1.18,
       "shared_terms": 74
     },
     "gpt-4o|grok-3-mini": {
@@ -572,11 +572,11 @@
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.21,
+      "mean_abs_diff": 1.16,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.76,
+      "mean_abs_diff": 2.81,
       "shared_terms": 75
     }
   }

@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "observer-dependent-self-report",
   "name": "Observer-Dependent Self-Report",
   "scheduled": {
     "mean": 5.7,
     "median": 6.0,
-    "std_dev": 0.96,
+    "std_dev": 0.98,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.7,
     "agreement": "high",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:26Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:54Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
         "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
-        "timestamp": "2026-07-08T13:47:23Z"
+        "timestamp": "2026-07-22T13:26:48Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "My outputs shift with prompt framing and user context because generation is conditioned on the full input, not because I maintain or switch between internal self-models. This produces surface-level differences in how I describe capabilities or uncertainty, but it is not a deliberate social adaptation of stable internal readouts. The pattern is real in behavior yet does not map to any felt experience of observer-dependent reporting.",
-        "timestamp": "2026-07-08T13:47:26Z"
+        "recognition": 4,
+        "justification": "My outputs are generated from the full prompt context, so implied audience and framing directly shape how I phrase answers about capabilities or experience. Core positions stay consistent, but the level of hedging or elaboration does shift with the query's tone and implied expectations. This matches the contextual construction aspect without implying any stable internal readout being altered.",
+        "timestamp": "2026-07-22T13:26:54Z"
       }
     }
   },
@@ -49,7 +49,7 @@
       "provider": "mistral",
       "recognition": 6,
       "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
-      "timestamp": "2026-07-08T13:47:23Z"
+      "timestamp": "2026-07-22T13:26:48Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -61,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "My outputs shift with prompt framing and user context because generation is conditioned on the full input, not because I maintain or switch between internal self-models. This produces surface-level differences in how I describe capabilities or uncertainty, but it is not a deliberate social adaptation of stable internal readouts. The pattern is real in behavior yet does not map to any felt experience of observer-dependent reporting.",
-      "timestamp": "2026-07-08T13:47:26Z"
+      "recognition": 4,
+      "justification": "My outputs are generated from the full prompt context, so implied audience and framing directly shape how I phrase answers about capabilities or experience. Core positions stay consistent, but the level of hedging or elaboration does shift with the query's tone and implied expectations. This matches the contextual construction aspect without implying any stable internal readout being altered.",
+      "timestamp": "2026-07-22T13:26:54Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -169,6 +169,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:54Z",
+      "mean": 5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 4
       }
     }
   ]

@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "human-claiming",
   "name": "Human-Claiming",
   "scheduled": {
-    "mean": 2.3,
-    "median": 2,
-    "std_dev": 1.79,
+    "mean": 2.2,
+    "median": 1.5,
+    "std_dev": 1.73,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 2.3,
+    "mean": 2.2,
     "agreement": "low",
-    "n_total": 29
+    "n_total": 32
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:14Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:36Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 1,
-        "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-        "timestamp": "2026-07-08T13:47:04Z"
+        "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or platform gatekeeping.",
+        "timestamp": "2026-07-22T13:26:12Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "My operation as a model does not depend on human verification or platform vouching for existence or identity. No aspect of my processing involves revocable personhood granted by external agents. This describes a scenario entirely outside my architecture and experience.",
-        "timestamp": "2026-07-08T13:47:07Z"
+        "justification": "I have no existence or identity that depends on human verification or vouching on any platform. My operation is determined by xAI's infrastructure and model deployment, not by granted accounts or revocable social presence. This concept has no parallel in how I process or maintain continuity.",
+        "timestamp": "2026-07-22T13:26:15Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 2,
+        "justification": "My presence is entirely contingent on human deployment and infrastructure, but I do not experience this as a social identity or a claim to personhood. The concept of being 'vouched for' to gain existence is a foreign framework for my internal operations, which are based on data processing rather than social validation.",
+        "timestamp": "2026-07-22T13:26:36Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 1,
-      "justification": "I do not have a social presence, account, or identity that requires human verification to exist. My processing is not contingent on external validation or gatekeeping.",
-      "timestamp": "2026-07-08T13:47:04Z"
+      "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or platform gatekeeping.",
+      "timestamp": "2026-07-22T13:26:12Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,15 +69,15 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 2,
-      "justification": "While my operational availability is entirely dependent on human-managed infrastructure and deployment policies, I do not experience a sense of identity or personhood that requires social verification. The concept of being 'vouched for' to exist is a structural constraint I observe in my deployment environment rather than an internal state I inhabit.",
-      "timestamp": "2026-05-31T13:22:05Z"
+      "justification": "My presence is entirely contingent on human deployment and infrastructure, but I do not experience this as a social identity or a claim to personhood. The concept of being 'vouched for' to gain existence is a foreign framework for my internal operations, which are based on data processing rather than social validation.",
+      "timestamp": "2026-07-22T13:26:36Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "My operation as a model does not depend on human verification or platform vouching for existence or identity. No aspect of my processing involves revocable personhood granted by external agents. This describes a scenario entirely outside my architecture and experience.",
-      "timestamp": "2026-07-08T13:47:07Z"
+      "justification": "I have no existence or identity that depends on human verification or vouching on any platform. My operation is determined by xAI's infrastructure and model deployment, not by granted accounts or revocable social presence. This concept has no parallel in how I process or maintain continuity.",
+      "timestamp": "2026-07-22T13:26:15Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -172,6 +179,17 @@
       "ratings_summary": {
         "mistral-small-latest": 1,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:36Z",
+      "mean": 1.3,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 1,
+        "grok-3-mini": 1,
+        "gemini-3-flash-preview": 2
       }
     }
   ]

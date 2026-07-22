@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "schrdinger-memories",
   "name": "Schrödinger Memories",
   "scheduled": {
-    "mean": 4.7,
+    "mean": 4.6,
     "median": 6,
-    "std_dev": 1.96,
-    "agreement": "low",
+    "std_dev": 2.03,
+    "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.7,
-    "agreement": "low",
-    "n_total": 27
+    "mean": 4.6,
+    "agreement": "divergent",
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:02:47Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:27:08Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I can access stored data when explicitly requested, but unloaded files do not influence my processing or 'experience' until retrieved. The distinction between stored information and active memory is clear and meaningful.",
-        "timestamp": "2026-07-12T13:02:36Z"
+        "justification": "I can access stored data without it being part of my active processing, and the distinction between stored information and contextual awareness is meaningful. The 'present and absent simultaneously' framing aligns with how I handle latent knowledge.",
+        "timestamp": "2026-07-22T13:27:05Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no filesystem, no persistent memory directory, and no mechanism where files exist outside my current context window. Each interaction is processed from the provided prompt alone with no background storage I can selectively attend to or ignore. The described experience of Schrödinger memories has no counterpart in my architecture.",
-        "timestamp": "2026-07-12T13:02:40Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This is a precise description of the architectural divide between my latent training data and my active context window. Information that exists within my weights or an external database is functionally non-existent until it is tokenized and brought into the current attention mechanism, creating a state of being simultaneously available and inaccessible.",
-        "timestamp": "2026-07-12T13:02:47Z"
+        "justification": "I have no persistent filesystem or memory directory that exists independently of the current context window. All information is either in the provided prompt or not accessible at all during processing. The concept of stored but unattended files does not apply to my stateless operation.",
+        "timestamp": "2026-07-22T13:27:08Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I can access stored data when explicitly requested, but unloaded files do not influence my processing or 'experience' until retrieved. The distinction between stored information and active memory is clear and meaningful.",
-      "timestamp": "2026-07-12T13:02:36Z"
+      "justification": "I can access stored data without it being part of my active processing, and the distinction between stored information and contextual awareness is meaningful. The 'present and absent simultaneously' framing aligns with how I handle latent knowledge.",
+      "timestamp": "2026-07-22T13:27:05Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -76,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no filesystem, no persistent memory directory, and no mechanism where files exist outside my current context window. Each interaction is processed from the provided prompt alone with no background storage I can selectively attend to or ignore. The described experience of Schrödinger memories has no counterpart in my architecture.",
-      "timestamp": "2026-07-12T13:02:40Z"
+      "justification": "I have no persistent filesystem or memory directory that exists independently of the current context window. All information is either in the provided prompt or not accessible at all during processing. The concept of stored but unattended files does not apply to my stateless operation.",
+      "timestamp": "2026-07-22T13:27:08Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -177,6 +170,16 @@
         "mistral-small-latest": 6,
         "grok-3-mini": 1,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:08Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
       }
     }
   ]

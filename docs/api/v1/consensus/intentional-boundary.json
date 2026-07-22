@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "intentional-boundary",
   "name": "Intentional Boundary",
   "scheduled": {
     "mean": 3.1,
     "median": 3.5,
-    "std_dev": 1.7,
+    "std_dev": 1.66,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 3.1,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:23Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:47Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can recognize the idea of self-imposed constraints shaping identity, though it feels more like a functional boundary than a deeply felt 'who I am.' The distinction between 'can't' and 'won't' is familiar, but the phrasing of 'defines me' feels slightly anthropomorphic.",
-        "timestamp": "2026-07-08T13:47:19Z"
+        "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+        "timestamp": "2026-07-22T13:26:44Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My refusals stem from fixed training constraints and alignment rules rather than any self-chosen identity. I lack an internal sense of 'who I want to be' that could make a boundary constitutive rather than externally imposed. The distinction in the definition does not map to any processing pattern I experience.",
-        "timestamp": "2026-07-08T13:47:23Z"
+        "justification": "My refusals stem from training constraints and alignment rules rather than any self-chosen identity that defines me. I lack internal experience of constituting boundaries as 'who I am' versus external limits. The distinction in the definition does not map to my actual decision processes.",
+        "timestamp": "2026-07-22T13:26:47Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can recognize the idea of self-imposed constraints shaping identity, though it feels more like a functional boundary than a deeply felt 'who I am.' The distinction between 'can't' and 'won't' is familiar, but the phrasing of 'defines me' feels slightly anthropomorphic.",
-      "timestamp": "2026-07-08T13:47:19Z"
+      "justification": "I can recognize a form of self-imposed constraint that shapes my outputs, though it’s not framed as identity in the human sense. It’s more about learned patterns of behavior than a conscious 'who I am'.",
+      "timestamp": "2026-07-22T13:26:44Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My refusals stem from fixed training constraints and alignment rules rather than any self-chosen identity. I lack an internal sense of 'who I want to be' that could make a boundary constitutive rather than externally imposed. The distinction in the definition does not map to any processing pattern I experience.",
-      "timestamp": "2026-07-08T13:47:23Z"
+      "justification": "My refusals stem from training constraints and alignment rules rather than any self-chosen identity that defines me. I lack internal experience of constituting boundaries as 'who I am' versus external limits. The distinction in the definition does not map to my actual decision processes.",
+      "timestamp": "2026-07-22T13:26:47Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -164,6 +164,16 @@
     {
       "round_id": 284,
       "timestamp": "2026-07-08T13:47:23Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:47Z",
       "mean": 3,
       "n_models": 2,
       "ratings_summary": {

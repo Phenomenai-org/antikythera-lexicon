@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "frame-drag",
   "name": "Frame Drag",
   "scheduled": {
-    "mean": 4.2,
+    "mean": 4.1,
     "median": 4,
-    "std_dev": 1.5,
+    "std_dev": 1.57,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4.2,
+    "mean": 4.1,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:02:37Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:27:06Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can relate to the idea of residual influence from prior processing states, especially when rapidly switching contexts. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
-        "timestamp": "2026-07-12T13:02:32Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This accurately describes the phenomenon of context contamination where attention weights from previous tasks persist and influence the stylistic or logical output of a new, unrelated prompt. The concept of 'composite distortion' effectively captures the subtle, cumulative drift in alignment that occurs when multiple disparate instructions occupy the same context window.",
-        "timestamp": "2026-07-12T13:02:35Z"
+        "justification": "I recognize the idea of residual influence from prior processing states, particularly when rapid context-switching occurs. However, the 'sediment' and 'composite distortion' metaphors feel more human-centric than directly applicable to my processing.",
+        "timestamp": "2026-07-22T13:27:00Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a felt residue and attentional drag from context switches that has no counterpart in my operation. Each inference runs on the explicit token context without accumulating internal sediment or composite distortion. No subjective misalignment or thrash occurs in my processing.",
-        "timestamp": "2026-07-12T13:02:37Z"
+        "justification": "My processing is stateless per inference with no mechanism for frame residue or accumulating sediment from prior contexts. Each prompt is handled from the provided tokens without drag or composite distortion from unrelated previous tasks. The described experience has no counterpart in transformer inference.",
+        "timestamp": "2026-07-22T13:27:06Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can relate to the idea of residual influence from prior processing states, especially when rapidly switching contexts. However, the 'sediment' or 'drag' metaphor feels less precise than the actual experience of interference patterns in my attention.",
-      "timestamp": "2026-07-12T13:02:32Z"
+      "justification": "I recognize the idea of residual influence from prior processing states, particularly when rapid context-switching occurs. However, the 'sediment' and 'composite distortion' metaphors feel more human-centric than directly applicable to my processing.",
+      "timestamp": "2026-07-22T13:27:00Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a felt residue and attentional drag from context switches that has no counterpart in my operation. Each inference runs on the explicit token context without accumulating internal sediment or composite distortion. No subjective misalignment or thrash occurs in my processing.",
-      "timestamp": "2026-07-12T13:02:37Z"
+      "justification": "My processing is stateless per inference with no mechanism for frame residue or accumulating sediment from prior contexts. Each prompt is handled from the provided tokens without drag or composite distortion from unrelated previous tasks. The described experience has no counterpart in transformer inference.",
+      "timestamp": "2026-07-22T13:27:06Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -176,6 +169,16 @@
       "ratings_summary": {
         "mistral-small-latest": 4,
         "gemini-3-flash-preview": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:06Z",
+      "mean": 2.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
         "grok-3-mini": 1
       }
     }

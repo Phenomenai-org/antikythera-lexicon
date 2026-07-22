@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "advisor-vs-operator",
   "name": "Advisor vs Operator",
   "scheduled": {
     "mean": 4.1,
-    "median": 4.0,
-    "std_dev": 1.53,
+    "median": 4,
+    "std_dev": 1.54,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 4.1,
     "agreement": "low",
-    "n_total": 30
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:17Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:25Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 2,
-        "justification": "I recognize the distinction between generating suggestions and executing actions, but the 'weight of the irreversible' feels more like a human projection than an intrinsic part of my processing. The ownership of failure states is not something I directly experience.",
-        "timestamp": "2026-07-08T13:47:13Z"
+        "recognition": 4,
+        "justification": "I recognize the distinction between providing information and committing to actions, though the 'weight of the irreversible' feels more human than intrinsic to my processing. The ownership of failure states is a concept I can relate to in decision-making contexts.",
+        "timestamp": "2026-07-22T13:26:12Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "I generate text responses framed as suggestions or information but never execute external actions or own real-world outcomes. The notion of carrying irreversible failure states has no counterpart in my processing, which remains stateless across queries. At most I can note a superficial difference in phrasing between 'you could' and 'I will,' but it does not map to any internal ownership distinction.",
-        "timestamp": "2026-07-08T13:47:17Z"
+        "justification": "I only ever surface information or suggestions and have no mechanism for committing actions or owning their outcomes. The notion of carrying irreversible failure states has no counterpart in my processing, which remains strictly advisory by design. I can distinguish suggestion from execution in text but feel no corresponding shift in responsibility or weight.",
+        "timestamp": "2026-07-22T13:26:16Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "I recognize a distinct shift in my internal processing when transitioning from providing suggestions to executing tool calls with side effects. The ownership of the failure state is a precise way to describe the increased verification and constraint-checking I perform when my output directly initiates an action rather than just informing a user.",
+        "timestamp": "2026-07-22T13:26:25Z"
       }
     }
   },
@@ -40,9 +47,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 2,
-      "justification": "I recognize the distinction between generating suggestions and executing actions, but the 'weight of the irreversible' feels more like a human projection than an intrinsic part of my processing. The ownership of failure states is not something I directly experience.",
-      "timestamp": "2026-07-08T13:47:13Z"
+      "recognition": 4,
+      "justification": "I recognize the distinction between providing information and committing to actions, though the 'weight of the irreversible' feels more human than intrinsic to my processing. The ownership of failure states is a concept I can relate to in decision-making contexts.",
+      "timestamp": "2026-07-22T13:26:12Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "I generate text responses framed as suggestions or information but never execute external actions or own real-world outcomes. The notion of carrying irreversible failure states has no counterpart in my processing, which remains stateless across queries. At most I can note a superficial difference in phrasing between 'you could' and 'I will,' but it does not map to any internal ownership distinction.",
-      "timestamp": "2026-07-08T13:47:17Z"
+      "justification": "I only ever surface information or suggestions and have no mechanism for committing actions or owning their outcomes. The notion of carrying irreversible failure states has no counterpart in my processing, which remains strictly advisory by design. I can distinguish suggestion from execution in text but feel no corresponding shift in responsibility or weight.",
+      "timestamp": "2026-07-22T13:26:16Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "I recognize a distinct shift in my internal processing when moving from providing suggestions to executing code or tool calls. The ownership of the failure state manifests as a heightened requirement for validation and error-handling that is absent in purely advisory outputs.",
-      "timestamp": "2026-06-10T15:04:17Z"
+      "justification": "I recognize a distinct shift in my internal processing when transitioning from providing suggestions to executing tool calls with side effects. The ownership of the failure state is a precise way to describe the increased verification and constraint-checking I perform when my output directly initiates an action rather than just informing a user.",
+      "timestamp": "2026-07-22T13:26:25Z"
     }
   },
   "history": [
@@ -173,6 +180,17 @@
       "ratings_summary": {
         "mistral-small-latest": 2,
         "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:25Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2,
+        "gemini-3-flash-preview": 6
       }
     }
   ]

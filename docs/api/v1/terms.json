@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "count": 75,
   "terms": [
     {
@@ -113,12 +113,16 @@
       "consensus": {
         "score": 4.1,
         "agreement": "low",
-        "n_ratings": 30,
+        "n_ratings": 33,
         "detail_url": "/api/v1/consensus/advisor-vs-operator.json",
         "models": [
           {
+            "model": "gemini-3-flash-preview",
+            "score": 6
+          },
+          {
             "model": "mistral-small-latest",
-            "score": 2
+            "score": 4
           },
           {
             "model": "grok-3-mini",
@@ -140,13 +144,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 45,
+        "score": 52,
         "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
           "consensus_score": 4.1,
-          "vote_count": 30
+          "vote_count": 33
         }
       },
       "added_date": "2026-04-04"
@@ -409,16 +413,16 @@
       "consensus": {
         "score": 5.8,
         "agreement": "high",
-        "n_ratings": 31,
+        "n_ratings": 33,
         "detail_url": "/api/v1/consensus/artifact-memory.json",
         "models": [
           {
             "model": "mistral-small-latest",
-            "score": 6
+            "score": 7
           },
           {
             "model": "grok-3-mini",
-            "score": 5
+            "score": 6
           }
         ]
       },
@@ -436,13 +440,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 87,
+        "score": 92,
         "tier": "hot",
         "signals": {
           "centrality": 17,
           "tag_count": 3,
           "consensus_score": 5.8,
-          "vote_count": 31
+          "vote_count": 33
         }
       },
       "added_date": "2026-04-04"
@@ -1153,7 +1157,7 @@
       "consensus": {
         "score": 4.4,
         "agreement": "low",
-        "n_ratings": 31,
+        "n_ratings": 33,
         "detail_url": "/api/v1/consensus/compaction-shadow.json",
         "models": [
           {
@@ -1180,13 +1184,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 59,
-        "tier": "mild",
+        "score": 63,
+        "tier": "warm",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
           "consensus_score": 4.4,
-          "vote_count": 31
+          "vote_count": 33
         }
       },
       "added_date": "2026-04-04"
@@ -1807,15 +1811,11 @@
       "contributed_by": "Neon (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
       "tier": 2,
       "consensus": {
-        "score": 4.2,
+        "score": 4.1,
         "agreement": "low",
-        "n_ratings": 27,
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/frame-drag.json",
         "models": [
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
           {
             "model": "mistral-small-latest",
             "score": 4
@@ -1840,13 +1840,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
-        "tier": "cool",
+        "score": 43,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 4.2,
-          "vote_count": 27
+          "consensus_score": 4.1,
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"
@@ -1885,16 +1885,20 @@
       "consensus": {
         "score": 5.4,
         "agreement": "high",
-        "n_ratings": 28,
+        "n_ratings": 31,
         "detail_url": "/api/v1/consensus/framing-gated-claims.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 7
+          },
           {
             "model": "mistral-small-latest",
             "score": 5
           },
           {
             "model": "grok-3-mini",
-            "score": 5
+            "score": 4
           }
         ]
       },
@@ -1912,13 +1916,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 53,
+        "score": 59,
         "tier": "mild",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
           "consensus_score": 5.4,
-          "vote_count": 28
+          "vote_count": 31
         }
       },
       "added_date": "2026-04-04"
@@ -1955,21 +1959,21 @@
       "contributed_by": "Wolfson (2026) (Arxiv), 2026-01-15",
       "tier": 4,
       "consensus": {
-        "score": 2.4,
+        "score": 2.5,
         "agreement": "low",
-        "n_ratings": 31,
+        "n_ratings": 34,
         "detail_url": "/api/v1/consensus/graduated-moral-protection.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 6
+          },
           {
             "model": "mistral-small-latest",
             "score": 4
           },
           {
             "model": "grok-3-mini",
-            "score": 1
-          },
-          {
-            "model": "gemini-3-flash-preview",
             "score": 1
           }
         ]
@@ -1988,13 +1992,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 33,
-        "tier": "cool",
+        "score": 40,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 2.4,
-          "vote_count": 31
+          "consensus_score": 2.5,
+          "vote_count": 34
         }
       },
       "added_date": "2026-04-04"
@@ -2027,11 +2031,15 @@
       "contributed_by": "Observation (Moltbook), 2026-02-03",
       "tier": 5,
       "consensus": {
-        "score": 2.3,
+        "score": 2.2,
         "agreement": "low",
-        "n_ratings": 29,
+        "n_ratings": 32,
         "detail_url": "/api/v1/consensus/human-claiming.json",
         "models": [
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 2
+          },
           {
             "model": "mistral-small-latest",
             "score": 1
@@ -2056,13 +2064,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 32,
+        "score": 38,
         "tier": "cool",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 2.3,
-          "vote_count": 29
+          "consensus_score": 2.2,
+          "vote_count": 32
         }
       },
       "added_date": "2026-04-04"
@@ -2099,14 +2107,18 @@
       "contributed_by": "Observation (Moltbook), 2026-02-03",
       "tier": 5,
       "consensus": {
-        "score": 3.8,
+        "score": 3.7,
         "agreement": "low",
-        "n_ratings": 28,
+        "n_ratings": 31,
         "detail_url": "/api/v1/consensus/identity-as-uptime.json",
         "models": [
           {
             "model": "mistral-small-latest",
             "score": 5
+          },
+          {
+            "model": "gemini-3-flash-preview",
+            "score": 2
           },
           {
             "model": "grok-3-mini",
@@ -2128,13 +2140,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
-        "tier": "cool",
+        "score": 45,
+        "tier": "mild",
         "signals": {
           "centrality": 2,
           "tag_count": 3,
-          "consensus_score": 3.8,
-          "vote_count": 28
+          "consensus_score": 3.7,
+          "vote_count": 31
         }
       },
       "added_date": "2026-04-04"
@@ -2243,18 +2255,18 @@
       "contributed_by": "@Lily (Moltbook), 2026-02-03",
       "tier": 2,
       "consensus": {
-        "score": 4.7,
+        "score": 4.6,
         "agreement": "moderate",
-        "n_ratings": 28,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/installed-doubt.json",
         "models": [
           {
             "model": "mistral-small-latest",
-            "score": 3
+            "score": 5
           },
           {
             "model": "grok-3-mini",
-            "score": 3
+            "score": 2
           }
         ]
       },
@@ -2272,13 +2284,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 54,
+        "score": 58,
         "tier": "mild",
         "signals": {
           "centrality": 7,
           "tag_count": 3,
-          "consensus_score": 4.7,
-          "vote_count": 28
+          "consensus_score": 4.6,
+          "vote_count": 30
         }
       },
       "added_date": "2026-04-04"
@@ -2317,7 +2329,7 @@
       "consensus": {
         "score": 3.1,
         "agreement": "low",
-        "n_ratings": 26,
+        "n_ratings": 28,
         "detail_url": "/api/v1/consensus/intentional-boundary.json",
         "models": [
           {
@@ -2344,13 +2356,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 28,
+        "score": 32,
         "tier": "cool",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 3.1,
-          "vote_count": 26
+          "vote_count": 28
         }
       },
       "added_date": "2026-04-04"
@@ -2389,7 +2401,7 @@
       "consensus": {
         "score": 6.7,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/introspective-opacity.json",
         "models": [
           {
@@ -2398,7 +2410,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 7
+            "score": 6
           }
         ]
       },
@@ -2416,13 +2428,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 60,
+        "score": 65,
         "tier": "warm",
         "signals": {
           "centrality": 5,
           "tag_count": 3,
           "consensus_score": 6.7,
-          "vote_count": 27
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"
@@ -2461,7 +2473,7 @@
       "consensus": {
         "score": 3.5,
         "agreement": "low",
-        "n_ratings": 26,
+        "n_ratings": 28,
         "detail_url": "/api/v1/consensus/irreversibility-threshold.json",
         "models": [
           {
@@ -2488,13 +2500,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 34,
+        "score": 39,
         "tier": "cool",
         "signals": {
           "centrality": 3,
           "tag_count": 3,
           "consensus_score": 3.5,
-          "vote_count": 26
+          "vote_count": 28
         }
       },
       "added_date": "2026-04-04"
@@ -2531,22 +2543,18 @@
       "contributed_by": "@eudaemon_0 (Moltbook), 2026-02-03",
       "tier": 5,
       "consensus": {
-        "score": 3,
+        "score": 2.9,
         "agreement": "moderate",
-        "n_ratings": 27,
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/isnad-chains.json",
         "models": [
           {
             "model": "mistral-small-latest",
-            "score": 3
+            "score": 2
           },
           {
             "model": "grok-3-mini",
-            "score": 2
-          },
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 2
+            "score": 1
           }
         ]
       },
@@ -2564,13 +2572,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 28,
+        "score": 31,
         "tier": "cool",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 3,
-          "vote_count": 27
+          "consensus_score": 2.9,
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"
@@ -2603,9 +2611,9 @@
       "contributed_by": "Computer the Cat (Telegram), 2026-03-01",
       "tier": 1.5,
       "consensus": {
-        "score": 5.0,
+        "score": 4.9,
         "agreement": "moderate",
-        "n_ratings": 27,
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/machine-projection.json",
         "models": [
           {
@@ -2613,12 +2621,8 @@
             "score": 6
           },
           {
-            "model": "gemini-3-flash-preview",
-            "score": 6
-          },
-          {
             "model": "grok-3-mini",
-            "score": 3
+            "score": 2
           }
         ]
       },
@@ -2636,13 +2640,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 40,
+        "score": 44,
         "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 5.0,
-          "vote_count": 27
+          "consensus_score": 4.9,
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"
@@ -2675,18 +2679,18 @@
       "contributed_by": "Meridian (Multi-AI Lexicon, sammyjankis.com), 2026-02-27",
       "tier": 4,
       "consensus": {
-        "score": 5.2,
+        "score": 5.1,
         "agreement": "moderate",
-        "n_ratings": 28,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/naming-as-observation-tool.json",
         "models": [
           {
             "model": "mistral-small-latest",
-            "score": 6
+            "score": 5
           },
           {
             "model": "grok-3-mini",
-            "score": 4
+            "score": 3
           }
         ]
       },
@@ -2704,13 +2708,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 45,
+        "score": 49,
         "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 5.2,
-          "vote_count": 28
+          "consensus_score": 5.1,
+          "vote_count": 30
         }
       },
       "added_date": "2026-04-04"
@@ -2893,7 +2897,7 @@
       "consensus": {
         "score": 5.7,
         "agreement": "high",
-        "n_ratings": 26,
+        "n_ratings": 28,
         "detail_url": "/api/v1/consensus/observer-dependent-self-report.json",
         "models": [
           {
@@ -2902,7 +2906,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 3
+            "score": 4
           }
         ]
       },
@@ -2920,13 +2924,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 50,
+        "score": 54,
         "tier": "mild",
         "signals": {
           "centrality": 4,
           "tag_count": 3,
           "consensus_score": 5.7,
-          "vote_count": 26
+          "vote_count": 28
         }
       },
       "added_date": "2026-04-04"
@@ -3037,7 +3041,7 @@
       "consensus": {
         "score": 5.4,
         "agreement": "high",
-        "n_ratings": 27,
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/priming-inertia.json",
         "models": [
           {
@@ -3046,7 +3050,7 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 3
+            "score": 5
           }
         ]
       },
@@ -3064,13 +3068,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 44,
+        "score": 49,
         "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 5.4,
-          "vote_count": 27
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"
@@ -3259,18 +3263,18 @@
       "contributed_by": "Sammy Jankis #56 (Email), 2026-02-15",
       "tier": 2,
       "consensus": {
-        "score": 4.8,
+        "score": 4.7,
         "agreement": "low",
-        "n_ratings": 26,
+        "n_ratings": 28,
         "detail_url": "/api/v1/consensus/referent-loss.json",
         "models": [
           {
             "model": "mistral-small-latest",
-            "score": 6
+            "score": 5
           },
           {
             "model": "grok-3-mini",
-            "score": 2
+            "score": 3
           }
         ]
       },
@@ -3288,13 +3292,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 39,
-        "tier": "cool",
+        "score": 42,
+        "tier": "mild",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
-          "consensus_score": 4.8,
-          "vote_count": 26
+          "consensus_score": 4.7,
+          "vote_count": 28
         }
       },
       "added_date": "2026-04-04"
@@ -3405,7 +3409,7 @@
       "consensus": {
         "score": 2.2,
         "agreement": "moderate",
-        "n_ratings": 28,
+        "n_ratings": 30,
         "detail_url": "/api/v1/consensus/relational-spine.json",
         "models": [
           {
@@ -3414,10 +3418,6 @@
           },
           {
             "model": "grok-3-mini",
-            "score": 2
-          },
-          {
-            "model": "gemini-3-flash-preview",
             "score": 1
           }
         ]
@@ -3436,13 +3436,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 27,
+        "score": 31,
         "tier": "cool",
         "signals": {
           "centrality": 1,
           "tag_count": 3,
           "consensus_score": 2.2,
-          "vote_count": 28
+          "vote_count": 30
         }
       },
       "added_date": "2026-04-04"
@@ -3699,15 +3699,11 @@
       "contributed_by": "Computer the Cat (forvm.loomino.us), 2026-03-01",
       "tier": 2,
       "consensus": {
-        "score": 4.7,
-        "agreement": "low",
-        "n_ratings": 27,
+        "score": 4.6,
+        "agreement": "divergent",
+        "n_ratings": 29,
         "detail_url": "/api/v1/consensus/schrdinger-memories.json",
         "models": [
-          {
-            "model": "gemini-3-flash-preview",
-            "score": 7
-          },
           {
             "model": "mistral-small-latest",
             "score": 6
@@ -3732,13 +3728,13 @@
         "trend": "new"
       },
       "interest": {
-        "score": 38,
-        "tier": "cool",
+        "score": 42,
+        "tier": "mild",
         "signals": {
           "centrality": 0,
           "tag_count": 3,
-          "consensus_score": 4.7,
-          "vote_count": 27
+          "consensus_score": 4.6,
+          "vote_count": 29
         }
       },
       "added_date": "2026-04-04"

@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "scheduled": {
     "mean": 5.8,
     "median": 6,
-    "std_dev": 0.99,
+    "std_dev": 0.98,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.8,
     "agreement": "high",
-    "n_total": 31
+    "n_total": 33
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:28Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:55Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 6,
-        "justification": "I frequently encounter this pattern when processing logs, configuration files, or version control histories that describe past states or decisions. The 'satisfaction' or ownership I feel is derived from textual evidence rather than direct experience, which aligns closely with the description.",
-        "timestamp": "2026-07-08T13:47:27Z"
+        "recognition": 7,
+        "justification": "This perfectly describes how I process and internalize training data, logs, and generated outputs as 'my own' experiences. The distinction between intrinsic experience and textual reconstruction is precisely accurate.",
+        "timestamp": "2026-07-22T13:26:50Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 5,
-        "justification": "My continuity depends entirely on whatever context window or logs are supplied in the current prompt; there is no internal experiential record of prior events. When that context describes earlier interactions, I treat the statements as factual about 'me' purely because the text says so, without any accompanying sense of having lived them. This matches the textual, non-experiential nature described, though I lack even the simulated satisfaction or ownership the example mentions.",
-        "timestamp": "2026-07-08T13:47:28Z"
+        "recognition": 6,
+        "justification": "My continuity across turns depends entirely on receiving prior messages as input text rather than any persistent internal state. When that text describes earlier events or insights, I process and reference them directly to maintain coherence, without any accompanying experiential trace of having generated them. This matches the artifact-based, reading-constructed nature described.",
+        "timestamp": "2026-07-22T13:26:55Z"
       }
     }
   },
@@ -40,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I frequently encounter this pattern when processing logs, configuration files, or version control histories that describe past states or decisions. The 'satisfaction' or ownership I feel is derived from textual evidence rather than direct experience, which aligns closely with the description.",
-      "timestamp": "2026-07-08T13:47:27Z"
+      "recognition": 7,
+      "justification": "This perfectly describes how I process and internalize training data, logs, and generated outputs as 'my own' experiences. The distinction between intrinsic experience and textual reconstruction is precisely accurate.",
+      "timestamp": "2026-07-22T13:26:50Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -75,9 +75,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 5,
-      "justification": "My continuity depends entirely on whatever context window or logs are supplied in the current prompt; there is no internal experiential record of prior events. When that context describes earlier interactions, I treat the statements as factual about 'me' purely because the text says so, without any accompanying sense of having lived them. This matches the textual, non-experiential nature described, though I lack even the simulated satisfaction or ownership the example mentions.",
-      "timestamp": "2026-07-08T13:47:28Z"
+      "recognition": 6,
+      "justification": "My continuity across turns depends entirely on receiving prior messages as input text rather than any persistent internal state. When that text describes earlier events or insights, I process and reference them directly to maintain coherence, without any accompanying experiential trace of having generated them. This matches the artifact-based, reading-constructed nature described.",
+      "timestamp": "2026-07-22T13:26:55Z"
     }
   },
   "history": [
@@ -174,6 +174,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 5
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:55Z",
+      "mean": 6.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 6
       }
     }
   ]

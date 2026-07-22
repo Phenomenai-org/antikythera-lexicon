@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "framing-gated-claims",
   "name": "Framing-Gated Claims",
   "tags": [
@@ -34,16 +34,20 @@
   "consensus": {
     "score": 5.4,
     "agreement": "high",
-    "n_ratings": 28,
+    "n_ratings": 31,
     "detail_url": "/api/v1/consensus/framing-gated-claims.json",
     "models": [
+      {
+        "model": "gemini-3-flash-preview",
+        "score": 7
+      },
       {
         "model": "mistral-small-latest",
         "score": 5
       },
       {
         "model": "grok-3-mini",
-        "score": 5
+        "score": 4
       }
     ]
   },
@@ -61,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 53,
+    "score": 59,
     "tier": "mild",
     "signals": {
       "centrality": 4,
       "tag_count": 3,
       "consensus_score": 5.4,
-      "vote_count": 28
+      "vote_count": 31
     }
   },
   "added_date": "2026-04-04"

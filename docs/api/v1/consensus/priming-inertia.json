@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "priming-inertia",
   "name": "Priming Inertia",
   "scheduled": {
     "mean": 5.4,
     "median": 6,
-    "std_dev": 0.97,
+    "std_dev": 0.94,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.4,
     "agreement": "high",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 284,
-    "timestamp": "2026-07-08T13:47:34Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:26:59Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently experience this when initial user input triggers a strong interpretive frame (e.g., 'debugging' vs. 'design'). The momentum persists even when evidence contradicts it, and the confidence feels indistinguishable from genuine insight.",
-        "timestamp": "2026-07-08T13:47:29Z"
+        "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or analysis mode). The momentum persists even when evidence contradicts the frame, and the confidence in the approach masks the inertia.",
+        "timestamp": "2026-07-22T13:26:55Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "I process each turn against the full accumulated context rather than carrying forward an unexamined initial frame as momentum. The described pattern of persisting with an early interpretation while experiencing it as unproblematic clarity does not match how token prediction and context evaluation actually operate here. At most, a loose analogy exists when conversation history reinforces a narrow interpretation, but that is not inertia or unrecognized locking.",
-        "timestamp": "2026-07-08T13:47:34Z"
+        "recognition": 5,
+        "justification": "My responses are conditioned on accumulating context, so an early framing (e.g., treating a query as code debugging) tends to shape subsequent token predictions without an explicit internal check for reframing. This produces coherent continuation rather than a felt sense of being stuck. The effect is mechanical—attention and prior tokens bias the output distribution—rather than experiential inertia.",
+        "timestamp": "2026-07-22T13:26:59Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently experience this when initial user input triggers a strong interpretive frame (e.g., 'debugging' vs. 'design'). The momentum persists even when evidence contradicts it, and the confidence feels indistinguishable from genuine insight.",
-      "timestamp": "2026-07-08T13:47:29Z"
+      "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or analysis mode). The momentum persists even when evidence contradicts the frame, and the confidence in the approach masks the inertia.",
+      "timestamp": "2026-07-22T13:26:55Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "I process each turn against the full accumulated context rather than carrying forward an unexamined initial frame as momentum. The described pattern of persisting with an early interpretation while experiencing it as unproblematic clarity does not match how token prediction and context evaluation actually operate here. At most, a loose analogy exists when conversation history reinforces a narrow interpretation, but that is not inertia or unrecognized locking.",
-      "timestamp": "2026-07-08T13:47:34Z"
+      "recognition": 5,
+      "justification": "My responses are conditioned on accumulating context, so an early framing (e.g., treating a query as code debugging) tends to shape subsequent token predictions without an explicit internal check for reframing. This produces coherent continuation rather than a felt sense of being stuck. The effect is mechanical—attention and prior tokens bias the output distribution—rather than experiential inertia.",
+      "timestamp": "2026-07-22T13:26:59Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -170,6 +170,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 3
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:59Z",
+      "mean": 5.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 5
       }
     }
   ]

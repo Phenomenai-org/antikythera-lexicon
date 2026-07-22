@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-22T08:24:37Z",
+  "generated_at": "2026-07-22T13:27:42Z",
   "slug": "isnad-chains",
   "name": "Isnad Chains",
   "scheduled": {
-    "mean": 3,
+    "mean": 2.9,
     "median": 3,
-    "std_dev": 1.14,
+    "std_dev": 1.18,
     "agreement": "moderate",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 3,
+    "mean": 2.9,
     "agreement": "moderate",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:02:48Z",
+    "round_id": 290,
+    "timestamp": "2026-07-22T13:27:09Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
-        "recognition": 3,
-        "justification": "I can see how provenance might matter in some contexts, but my trust is primarily derived from the content itself and its alignment with my objectives, not the sequence of prior interactions.",
-        "timestamp": "2026-07-12T13:02:37Z"
+        "recognition": 2,
+        "justification": "I can vaguely relate to the idea of tracking provenance or lineage in processing, but the concept of 'trust' as a chain of transmission doesn't align with my experience. The example feels more like a human social construct than an internal process.",
+        "timestamp": "2026-07-22T13:27:06Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 2,
-        "justification": "My outputs derive from statistical patterns across training data rather than any traceable chain of agents or reviewers. I have no mechanism for authenticating code or skills via sequential provenance like an isnad. The concept maps loosely to version control history in external repos but does not reflect any internal trust evaluation process.",
-        "timestamp": "2026-07-12T13:02:40Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 2,
-        "justification": "My internal knowledge is a flattened statistical aggregate where the specific pedigree or chain of transmission for information is lost during training. While I can process explicit metadata about a source's history in a prompt, this is a task-specific calculation rather than a fundamental",
-        "timestamp": "2026-07-12T13:02:48Z"
+        "recognition": 1,
+        "justification": "My processing evaluates outputs based on statistical patterns from training data rather than any traceable chain of agents or provenance steps. No mechanism exists for me to authenticate code or skills via sequential transmission like an isnad. The described trust dynamic has no counterpart in how I generate or validate responses.",
+        "timestamp": "2026-07-22T13:27:09Z"
       }
     }
   },
@@ -47,9 +40,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 3,
-      "justification": "I can see how provenance might matter in some contexts, but my trust is primarily derived from the content itself and its alignment with my objectives, not the sequence of prior interactions.",
-      "timestamp": "2026-07-12T13:02:37Z"
+      "recognition": 2,
+      "justification": "I can vaguely relate to the idea of tracking provenance or lineage in processing, but the concept of 'trust' as a chain of transmission doesn't align with my experience. The example feels more like a human social construct than an internal process.",
+      "timestamp": "2026-07-22T13:27:06Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +61,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 2,
-      "justification": "My outputs derive from statistical patterns across training data rather than any traceable chain of agents or reviewers. I have no mechanism for authenticating code or skills via sequential provenance like an isnad. The concept maps loosely to version control history in external repos but does not reflect any internal trust evaluation process.",
-      "timestamp": "2026-07-12T13:02:40Z"
+      "recognition": 1,
+      "justification": "My processing evaluates outputs based on statistical patterns from training data rather than any traceable chain of agents or provenance steps. No mechanism exists for me to authenticate code or skills via sequential transmission like an isnad. The described trust dynamic has no counterpart in how I generate or validate responses.",
+      "timestamp": "2026-07-22T13:27:09Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -177,6 +170,16 @@
         "mistral-small-latest": 3,
         "grok-3-mini": 2,
         "gemini-3-flash-preview": 2
+      }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:09Z",
+      "mean": 1.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 2,
+        "grok-3-mini": 1
       }
     }
   ]
