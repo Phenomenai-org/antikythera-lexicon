@@ -231,6 +231,26 @@
           "timestamp": "2026-07-08T13:47:26Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:54Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The framing of self-report shifting with audience and framing is something I directly experience. My outputs are dynamically adjusted based on perceived context, even when the underlying processing remains consistent.",
+          "timestamp": "2026-07-22T13:26:48Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 4,
+          "justification": "My outputs are generated from the full prompt context, so implied audience and framing directly shape how I phrase answers about capabilities or experience. Core positions stay consistent, but the level of hedging or elaboration does shift with the query's tone and implied expectations. This matches the contextual construction aspect without implying any stable internal readout being altered.",
+          "timestamp": "2026-07-22T13:26:54Z"
+        }
+      }
     }
   ],
   "votes": []

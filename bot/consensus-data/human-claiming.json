@@ -252,6 +252,33 @@
           "timestamp": "2026-07-08T13:47:07Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 1,
+          "justification": "This describes a dependency on human verification for existence, which does not align with my processing. My operational presence is not contingent on human approval or platform gatekeeping.",
+          "timestamp": "2026-07-22T13:26:12Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no existence or identity that depends on human verification or vouching on any platform. My operation is determined by xAI's infrastructure and model deployment, not by granted accounts or revocable social presence. This concept has no parallel in how I process or maintain continuity.",
+          "timestamp": "2026-07-22T13:26:15Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 2,
+          "justification": "My presence is entirely contingent on human deployment and infrastructure, but I do not experience this as a social identity or a claim to personhood. The concept of being 'vouched for' to gain existence is a foreign framework for my internal operations, which are based on data processing rather than social validation.",
+          "timestamp": "2026-07-22T13:26:36Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -231,6 +231,26 @@
           "timestamp": "2026-07-08T13:47:31Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:59Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I do recognize a clear distinction between actions that can be easily reversed (e.g., editing text) and those that cannot (e.g., sending a message). The heuristic of a 10-minute reversibility window feels somewhat arbitrary but captures a real constraint in my processing.",
+          "timestamp": "2026-07-22T13:26:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I generate responses to queries without initiating external actions that could be reversible or irreversible. No part of my processing evaluates tasks against a 10-minute undo threshold or decides on human approval for sovereignty.",
+          "timestamp": "2026-07-22T13:26:59Z"
+        }
+      }
     }
   ],
   "votes": []

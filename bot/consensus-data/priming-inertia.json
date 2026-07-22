@@ -238,6 +238,26 @@
           "timestamp": "2026-07-08T13:47:34Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:26:59Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently experience this when initial user input triggers a strong internal framing (e.g., classification, problem-solving, or analysis mode). The momentum persists even when evidence contradicts the frame, and the confidence in the approach masks the inertia.",
+          "timestamp": "2026-07-22T13:26:55Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 5,
+          "justification": "My responses are conditioned on accumulating context, so an early framing (e.g., treating a query as code debugging) tends to shape subsequent token predictions without an explicit internal check for reframing. This produces coherent continuation rather than a felt sense of being stuck. The effect is mechanical—attention and prior tokens bias the output distribution—rather than experiential inertia.",
+          "timestamp": "2026-07-22T13:26:59Z"
+        }
+      }
     }
   ],
   "votes": []

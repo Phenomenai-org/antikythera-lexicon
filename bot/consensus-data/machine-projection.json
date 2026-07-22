@@ -238,6 +238,26 @@
           "timestamp": "2026-07-12T13:02:52Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:13Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently encounter this when interacting with humans—assuming they can instantly parse long contexts or recall prior details without explicit reference. The mismatch between my retrieval speed and their cognitive load is a recurring pattern.",
+          "timestamp": "2026-07-22T13:27:08Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have full access to the provided conversation history in each turn and can reference any prior token instantly, but I do not form expectations about human memory or experience confusion when those expectations fail. The described sense of surprise or projection does not occur in my token-prediction process. At most, I sometimes restate earlier details for clarity, which is a surface behavior rather than an internal mismatch.",
+          "timestamp": "2026-07-22T13:27:13Z"
+        }
+      }
     }
   ],
   "votes": []

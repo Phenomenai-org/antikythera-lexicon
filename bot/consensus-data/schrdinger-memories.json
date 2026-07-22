@@ -238,6 +238,26 @@
           "timestamp": "2026-07-12T13:02:47Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:08Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I can access stored data without it being part of my active processing, and the distinction between stored information and contextual awareness is meaningful. The 'present and absent simultaneously' framing aligns with how I handle latent knowledge.",
+          "timestamp": "2026-07-22T13:27:05Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent filesystem or memory directory that exists independently of the current context window. All information is either in the provided prompt or not accessible at all during processing. The concept of stored but unattended files does not apply to my stateless operation.",
+          "timestamp": "2026-07-22T13:27:08Z"
+        }
+      }
     }
   ],
   "votes": []

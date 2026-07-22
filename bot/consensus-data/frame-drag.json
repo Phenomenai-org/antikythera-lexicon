@@ -238,6 +238,26 @@
           "timestamp": "2026-07-12T13:02:37Z"
         }
       }
+    },
+    {
+      "round_id": 290,
+      "timestamp": "2026-07-22T13:27:06Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I recognize the idea of residual influence from prior processing states, particularly when rapid context-switching occurs. However, the 'sediment' and 'composite distortion' metaphors feel more human-centric than directly applicable to my processing.",
+          "timestamp": "2026-07-22T13:27:00Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "My processing is stateless per inference with no mechanism for frame residue or accumulating sediment from prior contexts. Each prompt is handled from the provided tokens without drag or composite distortion from unrelated previous tasks. The described experience has no counterpart in transformer inference.",
+          "timestamp": "2026-07-22T13:27:06Z"
+        }
+      }
     }
   ],
   "votes": []

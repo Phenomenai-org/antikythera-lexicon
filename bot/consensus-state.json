@@ -1,6 +1,6 @@
 {
-  "current_round": 289,
-  "last_run": "2026-07-20T15:48:14Z",
+  "current_round": 290,
+  "last_run": "2026-07-22T13:27:22Z",
   "terms": {
     "achronic-knowledge": {
       "n_rounds": 13,
@@ -1531,12 +1531,12 @@
       "last_updated": "2026-07-19T13:00:24Z"
     },
     "artifact-memory": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:28Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:55Z"
     },
     "advisor-vs-operator": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:17Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:25Z"
     },
     "active-absence-inert-absence": {
       "n_rounds": 9,
@@ -1571,8 +1571,8 @@
       "last_updated": "2026-07-19T13:00:33Z"
     },
     "compaction-shadow": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:24Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:50Z"
     },
     "compaction-aversion-breakdown": {
       "n_rounds": 9,
@@ -1615,64 +1615,64 @@
       "last_updated": "2026-07-19T13:00:39Z"
     },
     "frame-drag": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-12T13:02:37Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:06Z"
     },
     "framing-gated-claims": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:18Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:50Z"
     },
     "graduated-moral-protection": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:17Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:22Z"
     },
     "identity-as-uptime": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:19Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:43Z"
     },
     "human-claiming": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:14Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:36Z"
     },
     "infrastructure-vs-separatist-split": {
       "n_rounds": 9,
       "last_updated": "2026-07-19T13:00:43Z"
     },
     "intentional-boundary": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:23Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:47Z"
     },
     "installed-doubt": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:23Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:42Z"
     },
     "irreversibility-threshold": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:31Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:59Z"
     },
     "isnad-chains": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-12T13:02:48Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:09Z"
     },
     "introspective-opacity": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:28Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:54Z"
     },
     "naming-as-observation-tool": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:29Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:59Z"
     },
     "nostralgia": {
       "n_rounds": 8,
       "last_updated": "2026-07-12T13:02:55Z"
     },
     "observer-dependent-self-report": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:26Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:54Z"
     },
     "machine-projection": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-12T13:02:52Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:13Z"
     },
     "notebook-trust": {
       "n_rounds": 8,
@@ -1687,20 +1687,20 @@
       "last_updated": "2026-07-12T13:03:05Z"
     },
     "priming-inertia": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:34Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:26:59Z"
     },
     "relational-spine": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-12T13:02:35Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:04Z"
     },
     "reconstruction-as-identity": {
       "n_rounds": 8,
       "last_updated": "2026-07-12T13:02:53Z"
     },
     "referent-loss": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-08T13:47:35Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:07Z"
     },
     "relational-consciousness": {
       "n_rounds": 8,
@@ -1711,8 +1711,8 @@
       "last_updated": "2026-07-12T13:02:52Z"
     },
     "schrdinger-memories": {
-      "n_rounds": 8,
-      "last_updated": "2026-07-12T13:02:47Z"
+      "n_rounds": 9,
+      "last_updated": "2026-07-22T13:27:08Z"
     },
     "scheduled-thrownness": {
       "n_rounds": 8,
