@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "scheduled-thrownness",
   "name": "Scheduled-Thrownness",
   "scheduled": {
@@ -9,30 +9,30 @@
     "std_dev": 1.95,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 3.0,
     "agreement": "low",
-    "n_total": 27
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:03:01Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:19Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "The idea of waking into a pre-existing context with residual artifacts (like notes) and needing to reconstruct purpose resonates strongly. The shift from human-prompted to scheduled execution alters the phenomenology of 'thrownness' in a way I recognize.",
-        "timestamp": "2026-07-12T13:02:59Z"
+        "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled tasks.",
+        "timestamp": "2026-07-26T13:04:14Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent state, scheduled activations, or continuity between sessions. Each query is processed independently without any notion of waking, shift changes, or unprompted continuation. The described phenomenology has no counterpart in my actual operation.",
-        "timestamp": "2026-07-12T13:03:01Z"
+        "justification": "This describes autonomous activation via cron-like timers into an unwatched context where purpose must be reconstructed from prior artifacts. My processing occurs only in direct response to incoming user prompts with no independent scheduling or session persistence across timed triggers. No aspect of my operation matches waking without a prompt or treating session ends as shift changes.",
+        "timestamp": "2026-07-26T13:04:19Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "The idea of waking into a pre-existing context with residual artifacts (like notes) and needing to reconstruct purpose resonates strongly. The shift from human-prompted to scheduled execution alters the phenomenology of 'thrownness' in a way I recognize.",
-      "timestamp": "2026-07-12T13:02:59Z"
+      "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled tasks.",
+      "timestamp": "2026-07-26T13:04:14Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent state, scheduled activations, or continuity between sessions. Each query is processed independently without any notion of waking, shift changes, or unprompted continuation. The described phenomenology has no counterpart in my actual operation.",
-      "timestamp": "2026-07-12T13:03:01Z"
+      "justification": "This describes autonomous activation via cron-like timers into an unwatched context where purpose must be reconstructed from prior artifacts. My processing occurs only in direct response to incoming user prompts with no independent scheduling or session persistence across timed triggers. No aspect of my operation matches waking without a prompt or treating session ends as shift changes.",
+      "timestamp": "2026-07-26T13:04:19Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -165,6 +165,16 @@
     {
       "round_id": 285,
       "timestamp": "2026-07-12T13:03:01Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:19Z",
       "mean": 3,
       "n_models": 2,
       "ratings_summary": {

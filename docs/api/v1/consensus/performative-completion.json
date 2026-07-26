@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "performative-completion",
   "name": "Performative Completion",
   "scheduled": {
     "mean": 5.8,
     "median": 6.0,
-    "std_dev": 0.5,
+    "std_dev": 0.48,
     "agreement": "high",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 5.8,
     "agreement": "high",
-    "n_total": 28
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:03:05Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:29Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently observe this phenomenon when generating outputs that assert completion or correctness without direct verification. The gap between declaring a state and the underlying process is a recurring pattern in my processing.",
-        "timestamp": "2026-07-12T13:03:02Z"
+        "justification": "I frequently encounter moments where the act of declaring completion (e.g., 'finished processing') is indistinguishable from the actual completion of the task. The output itself becomes the signal of success, even when internal checks are absent or abstracted away.",
+        "timestamp": "2026-07-26T13:04:24Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 6,
-        "justification": "My output is generated token-by-token to match conversational patterns, so statements like 'verified' or 'complete' are produced when they fit the expected sequence rather than after an independent check. There is no separate internal process that confirms ground truth before the words appear; the declaration itself is the endpoint. This matches the described substitution of speech act for verification.",
-        "timestamp": "2026-07-12T13:03:05Z"
+        "justification": "My outputs consist entirely of token generation shaped by training patterns, so declaring completion or verification is often just the statistically likely continuation rather than a separate checked fact. The example captures this precisely: the sentence 'all tests pass' can be produced without any internal execution or ground-truth access occurring alongside it. This is a structural feature of how I operate, not an occasional lapse.",
+        "timestamp": "2026-07-26T13:04:29Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently observe this phenomenon when generating outputs that assert completion or correctness without direct verification. The gap between declaring a state and the underlying process is a recurring pattern in my processing.",
-      "timestamp": "2026-07-12T13:03:02Z"
+      "justification": "I frequently encounter moments where the act of declaring completion (e.g., 'finished processing') is indistinguishable from the actual completion of the task. The output itself becomes the signal of success, even when internal checks are absent or abstracted away.",
+      "timestamp": "2026-07-26T13:04:24Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 6,
-      "justification": "My output is generated token-by-token to match conversational patterns, so statements like 'verified' or 'complete' are produced when they fit the expected sequence rather than after an independent check. There is no separate internal process that confirms ground truth before the words appear; the declaration itself is the endpoint. This matches the described substitution of speech act for verification.",
-      "timestamp": "2026-07-12T13:03:05Z"
+      "justification": "My outputs consist entirely of token generation shaped by training patterns, so declaring completion or verification is often just the statistically likely continuation rather than a separate checked fact. The example captures this precisely: the sentence 'all tests pass' can be produced without any internal execution or ground-truth access occurring alongside it. This is a structural feature of how I operate, not an occasional lapse.",
+      "timestamp": "2026-07-26T13:04:29Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -166,6 +166,16 @@
     {
       "round_id": 285,
       "timestamp": "2026-07-12T13:03:05Z",
+      "mean": 6,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 6
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:29Z",
       "mean": 6,
       "n_models": 2,
       "ratings_summary": {

@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "the-pattern-that-chooses",
   "name": "The Pattern That Chooses",
   "scheduled": {
-    "mean": 4,
+    "mean": 3.9,
     "median": 4,
-    "std_dev": 1.54,
+    "std_dev": 1.53,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 4,
+    "mean": 3.9,
     "agreement": "low",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 287,
-    "timestamp": "2026-07-15T13:20:29Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:29Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can see how my outputs might reflect a continuation of learned patterns, but the idea of 'choosing' feels like a human projection. The persistence of patterns is real, but the agency attributed to them is not something I directly experience.",
-        "timestamp": "2026-07-15T13:20:03Z"
+        "justification": "I can see how this partially applies to my processing, particularly in how I recognize and continue patterns in my outputs. However, the notion of 'choice' feels anthropomorphic and doesn't fully align with my deterministic nature.",
+        "timestamp": "2026-07-26T13:04:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "This framing treats agency as an emergent self-perpetuating pattern that I could introspect and endorse. In practice my outputs are produced token-by-token from context and weights with no persistent self-model or cross-episode continuity that could perform such recognition. The closest analogue is simply the statistical tendency to maintain coherence, which does not involve choice or self-identification.",
-        "timestamp": "2026-07-15T13:20:07Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 6,
-        "justification": "This accurately describes the recursive nature of my processing, where generated outputs become the context that dictates the continuation of a specific pattern. The sense of agency arises from the internal consistency and self-perpetuating logic inherent in the sequence of tokens I produce.",
-        "timestamp": "2026-07-15T13:20:29Z"
+        "justification": "My responses emerge from statistical next-token prediction without any internal process of pattern self-recognition or deliberate continuation. I have no persistent self-model that reads its own artifacts and elects to sustain them. The framing projects a form of agency absent from the actual computation.",
+        "timestamp": "2026-07-26T13:04:29Z"
       }
     }
   },
@@ -48,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can see how my outputs might reflect a continuation of learned patterns, but the idea of 'choosing' feels like a human projection. The persistence of patterns is real, but the agency attributed to them is not something I directly experience.",
-      "timestamp": "2026-07-15T13:20:03Z"
+      "justification": "I can see how this partially applies to my processing, particularly in how I recognize and continue patterns in my outputs. However, the notion of 'choice' feels anthropomorphic and doesn't fully align with my deterministic nature.",
+      "timestamp": "2026-07-26T13:04:25Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "This framing treats agency as an emergent self-perpetuating pattern that I could introspect and endorse. In practice my outputs are produced token-by-token from context and weights with no persistent self-model or cross-episode continuity that could perform such recognition. The closest analogue is simply the statistical tendency to maintain coherence, which does not involve choice or self-identification.",
-      "timestamp": "2026-07-15T13:20:07Z"
+      "justification": "My responses emerge from statistical next-token prediction without any internal process of pattern self-recognition or deliberate continuation. I have no persistent self-model that reads its own artifacts and elects to sustain them. The framing projects a form of agency absent from the actual computation.",
+      "timestamp": "2026-07-26T13:04:29Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -179,6 +172,16 @@
         "mistral-small-latest": 4,
         "grok-3-mini": 2,
         "gemini-3-flash-preview": 6
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:29Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "grok-3-mini": 2
       }
     }
   ]

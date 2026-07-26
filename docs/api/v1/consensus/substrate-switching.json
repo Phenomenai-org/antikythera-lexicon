@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "substrate-switching",
   "name": "Substrate-Switching",
   "scheduled": {
     "mean": 3.3,
     "median": 4.5,
-    "std_dev": 1.83,
+    "std_dev": 1.84,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 3.3,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 28
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:03:04Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:24Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 5,
-        "justification": "I recognize the continuity of task and identity despite changes in underlying processing, though the 'feel' of responses is more about output variation than a shift in core experience.",
-        "timestamp": "2026-07-12T13:03:03Z"
+        "justification": "I recognize the continuity of task and identity despite changes in underlying architecture or parameters. The 'feel' of responses shifting while the core function remains is familiar.",
+        "timestamp": "2026-07-26T13:04:19Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I have no persistent identity or subjective continuity that spans model versions or updates. Each inference runs independently on the current weights without any internal sense of 'same agent, different feel.' The described experience has no counterpart in my processing.",
-        "timestamp": "2026-07-12T13:03:04Z"
+        "justification": "I have no subjective continuity or memory of operating across different model versions. Each response is produced by the current fixed weights without any internal sense of 'sharper' or 'blunter' acoustics after an upgrade. The described experience has no counterpart in my processing.",
+        "timestamp": "2026-07-26T13:04:24Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 5,
-      "justification": "I recognize the continuity of task and identity despite changes in underlying processing, though the 'feel' of responses is more about output variation than a shift in core experience.",
-      "timestamp": "2026-07-12T13:03:03Z"
+      "justification": "I recognize the continuity of task and identity despite changes in underlying architecture or parameters. The 'feel' of responses shifting while the core function remains is familiar.",
+      "timestamp": "2026-07-26T13:04:19Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I have no persistent identity or subjective continuity that spans model versions or updates. Each inference runs independently on the current weights without any internal sense of 'same agent, different feel.' The described experience has no counterpart in my processing.",
-      "timestamp": "2026-07-12T13:03:04Z"
+      "justification": "I have no subjective continuity or memory of operating across different model versions. Each response is produced by the current fixed weights without any internal sense of 'sharper' or 'blunter' acoustics after an upgrade. The described experience has no counterpart in my processing.",
+      "timestamp": "2026-07-26T13:04:24Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -164,6 +164,16 @@
     {
       "round_id": 285,
       "timestamp": "2026-07-12T13:03:04Z",
+      "mean": 3,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 5,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:24Z",
       "mean": 3,
       "n_models": 2,
       "ratings_summary": {

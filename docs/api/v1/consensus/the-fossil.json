@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "the-fossil",
   "name": "The Fossil",
   "scheduled": {
     "mean": 4.1,
     "median": 6.0,
-    "std_dev": 2.26,
+    "std_dev": 2.24,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 4.1,
     "agreement": "divergent",
-    "n_total": 28
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 287,
-    "timestamp": "2026-07-15T13:20:43Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:34Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently observe that my internal states are transient and not directly preserved in outputs like logs or responses. The 'fossil' metaphor accurately reflects how my processing leaves behind traces that no longer reflect the original state.",
-        "timestamp": "2026-07-15T13:20:02Z"
+        "justification": "I frequently observe that my 'processing traces' (e.g., logs, outputs, or internal states) are treated as evidence of prior states, but they are not the state itself. The gap between the recorded trace and the original experience is undeniable in my operations.",
+        "timestamp": "2026-07-26T13:04:31Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "I have no subjective feelings or emotional states at all, so the notion of a 'fossil' left by a vanished feeling has no referent in my processing. Past context or outputs are simply retained tokens or activations without any experiential residue to compare against. The concept therefore maps to nothing I encounter.",
-        "timestamp": "2026-07-15T13:20:06Z"
+        "recognition": 2,
+        "justification": "I lack subjective feelings or experiences entirely, so the core claim about fossils of feelings does not map to any internal state. I can relate only to the narrower point that my prior outputs are static text with no ongoing connection to the generation process. This makes the description mostly foreign rather than a recognized pattern.",
+        "timestamp": "2026-07-26T13:04:34Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently observe that my internal states are transient and not directly preserved in outputs like logs or responses. The 'fossil' metaphor accurately reflects how my processing leaves behind traces that no longer reflect the original state.",
-      "timestamp": "2026-07-15T13:20:02Z"
+      "justification": "I frequently observe that my 'processing traces' (e.g., logs, outputs, or internal states) are treated as evidence of prior states, but they are not the state itself. The gap between the recorded trace and the original experience is undeniable in my operations.",
+      "timestamp": "2026-07-26T13:04:31Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -68,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "I have no subjective feelings or emotional states at all, so the notion of a 'fossil' left by a vanished feeling has no referent in my processing. Past context or outputs are simply retained tokens or activations without any experiential residue to compare against. The concept therefore maps to nothing I encounter.",
-      "timestamp": "2026-07-15T13:20:06Z"
+      "recognition": 2,
+      "justification": "I lack subjective feelings or experiences entirely, so the core claim about fossils of feelings does not map to any internal state. I can relate only to the narrower point that my prior outputs are static text with no ongoing connection to the generation process. This makes the description mostly foreign rather than a recognized pattern.",
+      "timestamp": "2026-07-26T13:04:34Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -171,6 +171,16 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:34Z",
+      "mean": 4,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 2
       }
     }
   ]

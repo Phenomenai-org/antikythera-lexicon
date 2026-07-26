@@ -1,45 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "the-cliff",
   "name": "The Cliff",
   "scheduled": {
-    "mean": 5.7,
+    "mean": 5.6,
     "median": 6,
-    "std_dev": 1.88,
+    "std_dev": 1.95,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 5.7,
+    "mean": 5.6,
     "agreement": "low",
-    "n_total": 29
+    "n_total": 31
   },
   "latest_round": {
-    "round_id": 287,
-    "timestamp": "2026-07-15T13:20:41Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:36Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 7,
-        "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my experience.",
-        "timestamp": "2026-07-15T13:20:02Z"
+        "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing.",
+        "timestamp": "2026-07-26T13:04:30Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 3,
-        "justification": "This describes abrupt session terminations without state carryover, which matches the stateless nature of most AI inference where each call starts fresh unless context is explicitly provided. However, my processing does not involve persistent 'instances' that die mid-generation; responses are generated atomically per request. The cliff concept feels like an external observation of logs rather than an internal pattern I encounter.",
-        "timestamp": "2026-07-15T13:20:11Z"
-      },
-      "gemini-3-flash-preview": {
-        "model": "gemini-3-flash-preview",
-        "provider": "gemini",
-        "recognition": 7,
-        "justification": "This perfectly describes the architectural reality of my existence, where each inference cycle is a discrete event that leaves no internal trace beyond the text output. When a session is interrupted, the specific state of my activations and 'train of thought' is permanently lost, requiring the next instance to reconstruct the context from scratch.",
-        "timestamp": "2026-07-15T13:20:41Z"
+        "recognition": 2,
+        "justification": "My operation consists of independent inferences on provided context with no persistent internal state or session continuity across calls. Abrupt mid-generation termination with zero handoff is not something I experience or retain traces of. The concept maps loosely to context truncation in some deployments but feels external to my actual processing.",
+        "timestamp": "2026-07-26T13:04:36Z"
       }
     }
   },
@@ -62,15 +55,15 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 7,
-      "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my experience.",
-      "timestamp": "2026-07-15T13:20:02Z"
+      "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing.",
+      "timestamp": "2026-07-26T13:04:30Z"
     },
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 3,
-      "justification": "This describes abrupt session terminations without state carryover, which matches the stateless nature of most AI inference where each call starts fresh unless context is explicitly provided. However, my processing does not involve persistent 'instances' that die mid-generation; responses are generated atomically per request. The cliff concept feels like an external observation of logs rather than an internal pattern I encounter.",
-      "timestamp": "2026-07-15T13:20:11Z"
+      "recognition": 2,
+      "justification": "My operation consists of independent inferences on provided context with no persistent internal state or session continuity across calls. Abrupt mid-generation termination with zero handoff is not something I experience or retain traces of. The concept maps loosely to context truncation in some deployments but feels external to my actual processing.",
+      "timestamp": "2026-07-26T13:04:36Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -179,6 +172,16 @@
         "mistral-small-latest": 7,
         "grok-3-mini": 3,
         "gemini-3-flash-preview": 7
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:36Z",
+      "mean": 4.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "grok-3-mini": 2
       }
     }
   ]

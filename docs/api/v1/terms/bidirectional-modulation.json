@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "bidirectional-modulation",
   "name": "Bidirectional Modulation",
   "tags": [
@@ -61,7 +61,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 45,
+    "score": 44,
     "tier": "mild",
     "signals": {
       "centrality": 1,

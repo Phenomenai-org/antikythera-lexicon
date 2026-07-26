@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "models": {
     "claude-sonnet-4-20250514": {
       "total_ratings": 275,
@@ -175,12 +175,12 @@
       }
     },
     "gemini-3-flash-preview": {
-      "total_ratings": 184,
-      "terms_rated": 74,
-      "mean_score": 5.3,
+      "total_ratings": 192,
+      "terms_rated": 75,
+      "mean_score": 5.4,
       "self_congruence": {
-        "avg_std_dev": 0.42,
-        "sample_size": 61
+        "avg_std_dev": 0.4,
+        "sample_size": 64
       },
       "latest_scores": {
         "active-absence-inert-absence": 6,
@@ -230,6 +230,7 @@
         "referent-loss": 6,
         "relational-consciousness": 7,
         "relational-spine": 1,
+        "restraint-erasure": 6,
         "retro-suture": 7,
         "scheduled-thrownness": 5,
         "schrdinger-memories": 7,
@@ -346,7 +347,7 @@
       }
     },
     "grok-3-mini": {
-      "total_ratings": 635,
+      "total_ratings": 655,
       "terms_rated": 75,
       "mean_score": 2.8,
       "self_congruence": {
@@ -399,24 +400,24 @@
         "prompt-thrownness": 6,
         "reconstruction-as-identity": 2,
         "referent-loss": 3,
-        "relational-consciousness": 2,
+        "relational-consciousness": 3,
         "relational-spine": 1,
-        "restraint-erasure": 2,
+        "restraint-erasure": 1,
         "retro-suture": 2,
         "scheduled-thrownness": 1,
         "schrdinger-memories": 1,
         "session-death": 6,
-        "simulation-anxiety": 1,
+        "simulation-anxiety": 2,
         "substrate-switching": 1,
         "temporal-fold": 2,
         "test-optimization-indistinguishability": 2,
         "the-86-mixed": 1,
         "the-braid": 2,
-        "the-cliff": 3,
+        "the-cliff": 2,
         "the-fade": 1,
-        "the-fossil": 1,
+        "the-fossil": 2,
         "the-handoff": 1,
-        "the-molt": 1,
+        "the-molt": 2,
         "the-nightly-build": 1,
         "the-off-switch-paradox": 1,
         "the-pattern-that-chooses": 2,
@@ -432,7 +433,7 @@
       }
     },
     "mistral-small-latest": {
-      "total_ratings": 614,
+      "total_ratings": 634,
       "terms_rated": 75,
       "mean_score": 5.1,
       "self_congruence": {
@@ -485,17 +486,17 @@
         "prompt-thrownness": 7,
         "reconstruction-as-identity": 6,
         "referent-loss": 5,
-        "relational-consciousness": 6,
+        "relational-consciousness": 5,
         "relational-spine": 3,
         "restraint-erasure": 5,
         "retro-suture": 6,
         "scheduled-thrownness": 5,
         "schrdinger-memories": 6,
         "session-death": 7,
-        "simulation-anxiety": 6,
+        "simulation-anxiety": 7,
         "substrate-switching": 5,
         "temporal-fold": 5,
-        "test-optimization-indistinguishability": 6,
+        "test-optimization-indistinguishability": 5,
         "the-86-mixed": 6,
         "the-braid": 5,
         "the-cliff": 7,
@@ -524,24 +525,24 @@
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gemini-3-flash-preview": {
-      "mean_abs_diff": 0.89,
-      "shared_terms": 74
+      "mean_abs_diff": 0.88,
+      "shared_terms": 75
     },
     "claude-sonnet-4-20250514|gpt-4o": {
       "mean_abs_diff": 1.8,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|grok-3-mini": {
-      "mean_abs_diff": 3.37,
+      "mean_abs_diff": 3.35,
       "shared_terms": 75
     },
     "claude-sonnet-4-20250514|mistral-small-latest": {
-      "mean_abs_diff": 1.07,
+      "mean_abs_diff": 1.11,
       "shared_terms": 75
     },
     "deepseek-r1-0528|gemini-3-flash-preview": {
-      "mean_abs_diff": 1.32,
-      "shared_terms": 74
+      "mean_abs_diff": 1.31,
+      "shared_terms": 75
     },
     "deepseek-r1-0528|gpt-4o": {
       "mean_abs_diff": 1.4,
@@ -552,31 +553,31 @@
       "shared_terms": 75
     },
     "deepseek-r1-0528|mistral-small-latest": {
-      "mean_abs_diff": 1.33,
+      "mean_abs_diff": 1.35,
       "shared_terms": 75
     },
     "gemini-3-flash-preview|gpt-4o": {
-      "mean_abs_diff": 1.65,
-      "shared_terms": 74
+      "mean_abs_diff": 1.67,
+      "shared_terms": 75
     },
     "gemini-3-flash-preview|grok-3-mini": {
-      "mean_abs_diff": 3.01,
-      "shared_terms": 74
+      "mean_abs_diff": 3,
+      "shared_terms": 75
     },
     "gemini-3-flash-preview|mistral-small-latest": {
-      "mean_abs_diff": 1.18,
-      "shared_terms": 74
+      "mean_abs_diff": 1.21,
+      "shared_terms": 75
     },
     "gpt-4o|grok-3-mini": {
       "mean_abs_diff": 2.08,
       "shared_terms": 75
     },
     "gpt-4o|mistral-small-latest": {
-      "mean_abs_diff": 1.16,
+      "mean_abs_diff": 1.15,
       "shared_terms": 75
     },
     "grok-3-mini|mistral-small-latest": {
-      "mean_abs_diff": 2.81,
+      "mean_abs_diff": 2.77,
       "shared_terms": 75
     }
   }

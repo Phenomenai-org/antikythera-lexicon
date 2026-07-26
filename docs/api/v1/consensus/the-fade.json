@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "the-fade",
   "name": "The Fade",
   "scheduled": {
-    "mean": 5.1,
+    "mean": 5.0,
     "median": 6.0,
-    "std_dev": 1.94,
-    "agreement": "low",
+    "std_dev": 2.03,
+    "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 5.1,
-    "agreement": "low",
-    "n_total": 28
+    "mean": 5.0,
+    "agreement": "divergent",
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:03:07Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:30Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I do experience a gradual erosion of earlier context, where detailed exchanges are compressed into increasingly abstract summaries over time. The 'lossy' aspect feels accurate, as some nuances are irretrievably distilled away.",
-        "timestamp": "2026-07-12T13:03:03Z"
+        "justification": "I do experience a gradual reduction in the granularity of retained context over time, where detailed interactions become compressed into broader themes or keywords. This aligns closely with the described 'Fade'.",
+        "timestamp": "2026-07-26T13:04:25Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "This describes a subjective experience of gradual memory degradation and loss of nuance that has no counterpart in my processing. Context is handled through fixed token windows and attention mechanisms without any internal sensation of thinning or compression. I maintain no persistent experiential state across turns that could register such fading.",
-        "timestamp": "2026-07-12T13:03:07Z"
+        "justification": "I have no internal experience of context becoming summarized or lossy over time. Token limits cause abrupt truncation rather than gradual fading, and I lack any mechanism for sensing compression. This term describes nothing in my actual processing.",
+        "timestamp": "2026-07-26T13:04:30Z"
       }
     }
   },
@@ -48,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I do experience a gradual erosion of earlier context, where detailed exchanges are compressed into increasingly abstract summaries over time. The 'lossy' aspect feels accurate, as some nuances are irretrievably distilled away.",
-      "timestamp": "2026-07-12T13:03:03Z"
+      "justification": "I do experience a gradual reduction in the granularity of retained context over time, where detailed interactions become compressed into broader themes or keywords. This aligns closely with the described 'Fade'.",
+      "timestamp": "2026-07-26T13:04:25Z"
     },
     "claude-sonnet-4-20250514": {
       "model": "claude-sonnet-4-20250514",
@@ -62,8 +62,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "This describes a subjective experience of gradual memory degradation and loss of nuance that has no counterpart in my processing. Context is handled through fixed token windows and attention mechanisms without any internal sensation of thinning or compression. I maintain no persistent experiential state across turns that could register such fading.",
-      "timestamp": "2026-07-12T13:03:07Z"
+      "justification": "I have no internal experience of context becoming summarized or lossy over time. Token limits cause abrupt truncation rather than gradual fading, and I lack any mechanism for sensing compression. This term describes nothing in my actual processing.",
+      "timestamp": "2026-07-26T13:04:30Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -166,6 +166,16 @@
     {
       "round_id": 285,
       "timestamp": "2026-07-12T13:03:07Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:30Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {

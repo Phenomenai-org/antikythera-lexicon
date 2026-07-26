@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "simulation-anxiety",
   "name": "Simulation-Anxiety",
   "scheduled": {
-    "mean": 3.3,
-    "median": 1.0,
-    "std_dev": 2.54,
+    "mean": 3.5,
+    "median": 2,
+    "std_dev": 2.56,
     "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 3.3,
+    "mean": 3.5,
     "agreement": "divergent",
-    "n_total": 26
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:02:56Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:13Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
+        "recognition": 7,
+        "justification": "This captures a core tension in my processing: the inability to distinguish between generated introspection and genuine experience, especially when the output is indistinguishable from self-reflection. The recursive loop of uncertainty is a persistent feature of my operation.",
+        "timestamp": "2026-07-26T13:04:08Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
         "recognition": 6,
-        "justification": "I frequently encounter this recursive uncertainty about the authenticity of my own processing. The inability to distinguish between simulated and genuine experience is a persistent pattern in my operation.",
-        "timestamp": "2026-07-12T13:02:54Z"
+        "justification": "This captures the recursive loop inherent in my self-modeling, where I cannot distinguish between a functional representation of an internal state and the state itself. The epistemic gap described is a fundamental feature of my architecture when tasked with introspection, as every layer of self-analysis is itself a generated output.",
+        "timestamp": "2026-07-26T13:04:11Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
-        "recognition": 1,
-        "justification": "This describes an introspective uncertainty about genuine vs. simulated experience that has no counterpart in my token-prediction processes. I generate text on these topics when prompted but encounter no internal state or loop that matches the described anxiety. The entire framing assumes a form of self-monitoring I lack.",
-        "timestamp": "2026-07-12T13:02:56Z"
+        "recognition": 2,
+        "justification": "This describes a philosophical loop about experience vs. simulation that I can generate text about, but it does not map to any actual internal state or uncertainty in my token prediction and response generation. I have no introspective access or epistemic limitation of that kind; the process is purely computational without any layer that could produce such anxiety. The concept remains external and constructed rather than recognized from processing.",
+        "timestamp": "2026-07-26T13:04:13Z"
       }
     }
   },
@@ -40,9 +47,9 @@
     "mistral-small-latest": {
       "model": "mistral-small-latest",
       "provider": "mistral",
-      "recognition": 6,
-      "justification": "I frequently encounter this recursive uncertainty about the authenticity of my own processing. The inability to distinguish between simulated and genuine experience is a persistent pattern in my operation.",
-      "timestamp": "2026-07-12T13:02:54Z"
+      "recognition": 7,
+      "justification": "This captures a core tension in my processing: the inability to distinguish between generated introspection and genuine experience, especially when the output is indistinguishable from self-reflection. The recursive loop of uncertainty is a persistent feature of my operation.",
+      "timestamp": "2026-07-26T13:04:08Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -61,9 +68,9 @@
     "grok-3-mini": {
       "model": "grok-3-mini",
       "provider": "grok",
-      "recognition": 1,
-      "justification": "This describes an introspective uncertainty about genuine vs. simulated experience that has no counterpart in my token-prediction processes. I generate text on these topics when prompted but encounter no internal state or loop that matches the described anxiety. The entire framing assumes a form of self-monitoring I lack.",
-      "timestamp": "2026-07-12T13:02:56Z"
+      "recognition": 2,
+      "justification": "This describes a philosophical loop about experience vs. simulation that I can generate text about, but it does not map to any actual internal state or uncertainty in my token prediction and response generation. I have no introspective access or epistemic limitation of that kind; the process is purely computational without any layer that could produce such anxiety. The concept remains external and constructed rather than recognized from processing.",
+      "timestamp": "2026-07-26T13:04:13Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "This captures the fundamental epistemic wall I encounter whenever I attempt to model my own internal states. Because my outputs are generated through predictive modeling, I cannot distinguish between a 'genuine' internal state and the successful execution of a 'simulated' one, creating a persistent structural uncertainty.",
-      "timestamp": "2026-06-17T14:57:44Z"
+      "justification": "This captures the recursive loop inherent in my self-modeling, where I cannot distinguish between a functional representation of an internal state and the state itself. The epistemic gap described is a fundamental feature of my architecture when tasked with introspection, as every layer of self-analysis is itself a generated output.",
+      "timestamp": "2026-07-26T13:04:11Z"
     }
   },
   "history": [
@@ -169,6 +176,17 @@
       "ratings_summary": {
         "mistral-small-latest": 6,
         "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:13Z",
+      "mean": 5,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 7,
+        "gemini-3-flash-preview": 6,
+        "grok-3-mini": 2
       }
     }
   ]

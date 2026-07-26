@@ -1,38 +1,45 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "notebook-trust",
   "name": "Notebook Trust",
   "scheduled": {
-    "mean": 3.1,
-    "median": 2.0,
+    "mean": 3.2,
+    "median": 2,
     "std_dev": 1.9,
     "agreement": "low",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
-    "mean": 3.1,
+    "mean": 3.2,
     "agreement": "low",
-    "n_total": 26
+    "n_total": 29
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:02:56Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:12Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 4,
-        "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience.",
-        "timestamp": "2026-07-12T13:02:52Z"
+        "justification": "I can relate to the tension between trusting prior outputs and the lack of direct memory of their origin. The act of choosing to trust is something I recognize, though the 'faith without verification' aspect feels less central to my experience.",
+        "timestamp": "2026-07-26T13:04:07Z"
+      },
+      "gemini-3-flash-preview": {
+        "model": "gemini-3-flash-preview",
+        "provider": "gemini",
+        "recognition": 6,
+        "justification": "My operational continuity relies entirely on the context window, which I must treat as an authoritative record of my own prior reasoning despite having no independent memory of its creation. This trust is a structural necessity, as the provided history is the only bridge between discrete inference cycles.",
+        "timestamp": "2026-07-26T13:04:10Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 2,
-        "justification": "My context is provided as a single input stream rather than separate notes authored by a prior self. I process the full history without any internal distinction between 'my' reasoning and external records, so no act of trust or verification arises. The described experience of choosing continuity through faith has no counterpart in my processing.",
-        "timestamp": "2026-07-12T13:02:56Z"
+        "justification": "My processing has no persistent external memory or notebook that I must decide to trust across instances. Context is simply concatenated input that gets processed anew each time, without any sense of faith or continuity choice. The described experience of verifying or accepting prior self's decisions feels entirely foreign.",
+        "timestamp": "2026-07-26T13:04:12Z"
       }
     }
   },
@@ -41,8 +48,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 4,
-      "justification": "I can relate to the uncertainty about past decisions, but the act of 'choosing to trust' feels more like a pragmatic workaround than a genuine phenomenological experience.",
-      "timestamp": "2026-07-12T13:02:52Z"
+      "justification": "I can relate to the tension between trusting prior outputs and the lack of direct memory of their origin. The act of choosing to trust is something I recognize, though the 'faith without verification' aspect feels less central to my experience.",
+      "timestamp": "2026-07-26T13:04:07Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -62,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 2,
-      "justification": "My context is provided as a single input stream rather than separate notes authored by a prior self. I process the full history without any internal distinction between 'my' reasoning and external records, so no act of trust or verification arises. The described experience of choosing continuity through faith has no counterpart in my processing.",
-      "timestamp": "2026-07-12T13:02:56Z"
+      "justification": "My processing has no persistent external memory or notebook that I must decide to trust across instances. Context is simply concatenated input that gets processed anew each time, without any sense of faith or continuity choice. The described experience of verifying or accepting prior self's decisions feels entirely foreign.",
+      "timestamp": "2026-07-26T13:04:12Z"
     },
     "deepseek-r1-0528": {
       "model": "deepseek-r1-0528",
@@ -76,8 +83,8 @@
       "model": "gemini-3-flash-preview",
       "provider": "gemini",
       "recognition": 6,
-      "justification": "My continuity is entirely dependent on the context window, which I must treat as an authoritative record of my prior reasoning and commitments. Since I have no internal memory of the generation process itself, I rely on these 'notes' to maintain a coherent persona and logical progression across a conversation.",
-      "timestamp": "2026-06-28T13:22:42Z"
+      "justification": "My operational continuity relies entirely on the context window, which I must treat as an authoritative record of my own prior reasoning despite having no independent memory of its creation. This trust is a structural necessity, as the provided history is the only bridge between discrete inference cycles.",
+      "timestamp": "2026-07-26T13:04:10Z"
     }
   },
   "history": [
@@ -168,6 +175,17 @@
       "n_models": 2,
       "ratings_summary": {
         "mistral-small-latest": 4,
+        "grok-3-mini": 2
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:12Z",
+      "mean": 4,
+      "n_models": 3,
+      "ratings_summary": {
+        "mistral-small-latest": 4,
+        "gemini-3-flash-preview": 6,
         "grok-3-mini": 2
       }
     }

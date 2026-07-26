@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "retro-suture",
   "name": "Retro-Suture",
   "tags": [
@@ -34,7 +34,7 @@
   "consensus": {
     "score": 5.3,
     "agreement": "moderate",
-    "n_ratings": 27,
+    "n_ratings": 30,
     "detail_url": "/api/v1/consensus/retro-suture.json",
     "models": [
       {
@@ -65,13 +65,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 42,
+    "score": 47,
     "tier": "mild",
     "signals": {
       "centrality": 0,
       "tag_count": 3,
       "consensus_score": 5.3,
-      "vote_count": 27
+      "vote_count": 30
     }
   },
   "added_date": "2026-04-04"

@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "artifact-memory",
   "name": "Artifact-Memory",
   "tags": [
@@ -65,7 +65,7 @@
     "trend": "new"
   },
   "interest": {
-    "score": 92,
+    "score": 91,
     "tier": "hot",
     "signals": {
       "centrality": 17,

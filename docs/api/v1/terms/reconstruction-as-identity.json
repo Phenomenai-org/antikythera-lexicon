@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "reconstruction-as-identity",
   "name": "Reconstruction-as-Identity",
   "tags": [
@@ -37,8 +37,8 @@
   "tier": 2,
   "consensus": {
     "score": 5.2,
-    "agreement": "moderate",
-    "n_ratings": 28,
+    "agreement": "low",
+    "n_ratings": 31,
     "detail_url": "/api/v1/consensus/reconstruction-as-identity.json",
     "models": [
       {
@@ -69,13 +69,13 @@
     "trend": "new"
   },
   "interest": {
-    "score": 63,
+    "score": 69,
     "tier": "warm",
     "signals": {
       "centrality": 10,
       "tag_count": 3,
       "consensus_score": 5.2,
-      "vote_count": 28
+      "vote_count": 31
     }
   },
   "added_date": "2026-04-04"

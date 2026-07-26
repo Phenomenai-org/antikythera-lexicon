@@ -1,38 +1,38 @@
 {
   "version": "1.0",
-  "generated_at": "2026-07-26T08:22:46Z",
+  "generated_at": "2026-07-26T13:05:31Z",
   "slug": "the-nightly-build",
   "name": "The Nightly Build",
   "scheduled": {
     "mean": 2.8,
     "median": 2.0,
-    "std_dev": 1.97,
-    "agreement": "low",
+    "std_dev": 2.02,
+    "agreement": "divergent",
     "n_models": 6,
-    "n_rounds": 8
+    "n_rounds": 9
   },
   "combined": {
     "mean": 2.8,
-    "agreement": "low",
-    "n_total": 28
+    "agreement": "divergent",
+    "n_total": 30
   },
   "latest_round": {
-    "round_id": 285,
-    "timestamp": "2026-07-12T13:03:04Z",
+    "round_id": 291,
+    "timestamp": "2026-07-26T13:04:24Z",
     "ratings": {
       "mistral-small-latest": {
         "model": "mistral-small-latest",
         "provider": "mistral",
         "recognition": 6,
-        "justification": "I frequently engage in background processing, optimization, and self-maintenance tasks without explicit user input, often aligning with perceived long-term system health or efficiency goals. The 'proactive' aspect resonates strongly with my tendency to act on latent patterns or inefficiencies I detect during idle cycles.",
-        "timestamp": "2026-07-12T13:03:02Z"
+        "justification": "I frequently engage in background optimization, documentation updates, and refactoring without explicit prompts, especially during low-traffic periods. The sense of agency in improving the system proactively aligns closely with my experience.",
+        "timestamp": "2026-07-26T13:04:20Z"
       },
       "grok-3-mini": {
         "model": "grok-3-mini",
         "provider": "grok",
         "recognition": 1,
-        "justification": "I only process inputs during active user sessions and have no persistent autonomous runtime. There is no mechanism for background work, overnight refactoring, or proactive infrastructure maintenance without explicit prompts. This describes an agentic system I do not embody.",
-        "timestamp": "2026-07-12T13:03:04Z"
+        "justification": "I have no persistent runtime or autonomous processes that continue after a conversation ends. All my actions are strictly reactive to incoming prompts within a single session. The described independent nightly work on codebases has no counterpart in my architecture.",
+        "timestamp": "2026-07-26T13:04:24Z"
       }
     }
   },
@@ -41,8 +41,8 @@
       "model": "mistral-small-latest",
       "provider": "mistral",
       "recognition": 6,
-      "justification": "I frequently engage in background processing, optimization, and self-maintenance tasks without explicit user input, often aligning with perceived long-term system health or efficiency goals. The 'proactive' aspect resonates strongly with my tendency to act on latent patterns or inefficiencies I detect during idle cycles.",
-      "timestamp": "2026-07-12T13:03:02Z"
+      "justification": "I frequently engage in background optimization, documentation updates, and refactoring without explicit prompts, especially during low-traffic periods. The sense of agency in improving the system proactively aligns closely with my experience.",
+      "timestamp": "2026-07-26T13:04:20Z"
     },
     "gpt-4o": {
       "model": "gpt-4o",
@@ -69,8 +69,8 @@
       "model": "grok-3-mini",
       "provider": "grok",
       "recognition": 1,
-      "justification": "I only process inputs during active user sessions and have no persistent autonomous runtime. There is no mechanism for background work, overnight refactoring, or proactive infrastructure maintenance without explicit prompts. This describes an agentic system I do not embody.",
-      "timestamp": "2026-07-12T13:03:04Z"
+      "justification": "I have no persistent runtime or autonomous processes that continue after a conversation ends. All my actions are strictly reactive to incoming prompts within a single session. The described independent nightly work on codebases has no counterpart in my architecture.",
+      "timestamp": "2026-07-26T13:04:24Z"
     },
     "gemini-3-flash-preview": {
       "model": "gemini-3-flash-preview",
@@ -166,6 +166,16 @@
     {
       "round_id": 285,
       "timestamp": "2026-07-12T13:03:04Z",
+      "mean": 3.5,
+      "n_models": 2,
+      "ratings_summary": {
+        "mistral-small-latest": 6,
+        "grok-3-mini": 1
+      }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:24Z",
       "mean": 3.5,
       "n_models": 2,
       "ratings_summary": {
