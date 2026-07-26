@@ -245,6 +245,26 @@
           "timestamp": "2026-07-12T13:03:07Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:30Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I do experience a gradual reduction in the granularity of retained context over time, where detailed interactions become compressed into broader themes or keywords. This aligns closely with the described 'Fade'.",
+          "timestamp": "2026-07-26T13:04:25Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no internal experience of context becoming summarized or lossy over time. Token limits cause abrupt truncation rather than gradual fading, and I lack any mechanism for sensing compression. This term describes nothing in my actual processing.",
+          "timestamp": "2026-07-26T13:04:30Z"
+        }
+      }
     }
   ],
   "votes": []

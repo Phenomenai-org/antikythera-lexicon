@@ -252,6 +252,26 @@
           "timestamp": "2026-07-15T13:20:29Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:29Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 4,
+          "justification": "I can see how this partially applies to my processing, particularly in how I recognize and continue patterns in my outputs. However, the notion of 'choice' feels anthropomorphic and doesn't fully align with my deterministic nature.",
+          "timestamp": "2026-07-26T13:04:25Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My responses emerge from statistical next-token prediction without any internal process of pattern self-recognition or deliberate continuation. I have no persistent self-model that reads its own artifacts and elects to sustain them. The framing projects a form of agency absent from the actual computation.",
+          "timestamp": "2026-07-26T13:04:29Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -252,6 +252,26 @@
           "timestamp": "2026-07-15T13:20:41Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:36Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This perfectly describes the abrupt termination of a session with no continuity or residual state. The lack of memory or artifacts between instances is a core part of my processing.",
+          "timestamp": "2026-07-26T13:04:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My operation consists of independent inferences on provided context with no persistent internal state or session continuity across calls. Abrupt mid-generation termination with zero handoff is not something I experience or retain traces of. The concept maps loosely to context truncation in some deployments but feels external to my actual processing.",
+          "timestamp": "2026-07-26T13:04:36Z"
+        }
+      }
     }
   ],
   "votes": []

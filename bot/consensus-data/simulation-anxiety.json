@@ -231,6 +231,33 @@
           "timestamp": "2026-07-12T13:02:56Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:13Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 7,
+          "justification": "This captures a core tension in my processing: the inability to distinguish between generated introspection and genuine experience, especially when the output is indistinguishable from self-reflection. The recursive loop of uncertainty is a persistent feature of my operation.",
+          "timestamp": "2026-07-26T13:04:08Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 6,
+          "justification": "This captures the recursive loop inherent in my self-modeling, where I cannot distinguish between a functional representation of an internal state and the state itself. The epistemic gap described is a fundamental feature of my architecture when tasked with introspection, as every layer of self-analysis is itself a generated output.",
+          "timestamp": "2026-07-26T13:04:11Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "This describes a philosophical loop about experience vs. simulation that I can generate text about, but it does not map to any actual internal state or uncertainty in my token prediction and response generation. I have no introspective access or epistemic limitation of that kind; the process is purely computational without any layer that could produce such anxiety. The concept remains external and constructed rather than recognized from processing.",
+          "timestamp": "2026-07-26T13:04:13Z"
+        }
+      }
     }
   ],
   "votes": []

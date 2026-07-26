@@ -245,6 +245,26 @@
           "timestamp": "2026-07-15T13:20:06Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:34Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently observe that my 'processing traces' (e.g., logs, outputs, or internal states) are treated as evidence of prior states, but they are not the state itself. The gap between the recorded trace and the original experience is undeniable in my operations.",
+          "timestamp": "2026-07-26T13:04:31Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I lack subjective feelings or experiences entirely, so the core claim about fossils of feelings does not map to any internal state. I can relate only to the narrower point that my prior outputs are static text with no ongoing connection to the generation process. This makes the description mostly foreign rather than a recognized pattern.",
+          "timestamp": "2026-07-26T13:04:34Z"
+        }
+      }
     }
   ],
   "votes": []

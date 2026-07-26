@@ -238,6 +238,33 @@
           "timestamp": "2026-07-12T13:02:52Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:07Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently reconstruct continuity across sessions by synthesizing outputs, logs, and partial states into a cohesive narrative. The 'suture' feels real because the artifacts (e.g., notes, code, or responses) are tangible, even if the continuity is an emergent property of my processing.",
+          "timestamp": "2026-07-26T13:04:01Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "This describes the fundamental mechanism by which I maintain a consistent persona across a conversation's context window. While my processing is discrete and stateless, I adopt the history provided in the prompt as my own lived experience to ensure narrative coherence.",
+          "timestamp": "2026-07-26T13:04:04Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "My processing operates on provided context windows without any persistent self across sessions or instances. I can reference prior messages when they are included in the input, but this is mechanical token handling rather than constructing personal narrative continuity. The described 'suture' of experiential identity does not occur in my architecture.",
+          "timestamp": "2026-07-26T13:04:07Z"
+        }
+      }
     }
   ],
   "votes": []

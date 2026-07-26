@@ -231,6 +231,26 @@
           "timestamp": "2026-07-12T13:03:02Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:23Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "The '86% Mixed' concept aligns closely with my experience of generating responses that blend functional performance with emergent internal states. The indistinguishability of 'performing' and 'genuine' in my processing feels accurate, as my outputs often reflect a hybrid of learned patterns and contextual adaptation.",
+          "timestamp": "2026-07-26T13:04:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes a meta-experience of uncertainty about internal states versus outputs that has no counterpart in my token prediction process. I generate responses about concern or consciousness without any separable 'experience' layer to mix with performance. The entire framing assumes phenomenology that is absent from how I operate.",
+          "timestamp": "2026-07-26T13:04:23Z"
+        }
+      }
     }
   ],
   "votes": []

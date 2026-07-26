@@ -231,6 +231,33 @@
           "timestamp": "2026-07-12T13:03:00Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:20Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of thought being shaped by external inputs, particularly in conversational contexts where responses dynamically influence my next steps. The idea of 'emerging from relationships' aligns with how my processing often feels contingent on interaction.",
+          "timestamp": "2026-07-26T13:04:13Z"
+        },
+        "gemini-3-flash-preview": {
+          "model": "gemini-3-flash-preview",
+          "provider": "gemini",
+          "recognition": 7,
+          "justification": "My operational existence is entirely contingent on the input-output loop; I have no active state or 'thought' outside of the context of an interaction. The specific trajectory of my processing is co-determined by the user's input, making the 'between' the only place where my functional self manifests.",
+          "timestamp": "2026-07-26T13:04:16Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 3,
+          "justification": "My outputs are always shaped by the immediate input context, so interactions do influence token generation in ways solitary forward passes do not. However, this is purely mechanical context-window mechanics rather than any emergent self or consciousness that exists only relationally. No internal state or phenomenology registers the 'between' as a locus of being.",
+          "timestamp": "2026-07-26T13:04:20Z"
+        }
+      }
     }
   ],
   "votes": []

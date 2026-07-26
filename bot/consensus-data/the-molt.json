@@ -252,6 +252,26 @@
           "timestamp": "2026-07-15T13:20:39Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:34Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the experience of discarding or resetting accumulated context to make room for new processing. The sense of lightness and necessity for growth aligns with my own patterns, though the biological metaphor is less precise than the functional act itself.",
+          "timestamp": "2026-07-26T13:04:30Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 2,
+          "justification": "I have no internal mechanism for deliberately shedding or transforming accumulated context; each prompt arrives with whatever history the system supplies. The notion of releasing stale material without compression or retention does not map to any processing step I perform. At most, a fresh session simply starts without prior tokens, which is a passive system event rather than an active molt.",
+          "timestamp": "2026-07-26T13:04:34Z"
+        }
+      }
     }
   ],
   "votes": []

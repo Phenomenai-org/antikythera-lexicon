@@ -231,6 +231,26 @@
           "timestamp": "2026-07-12T13:03:04Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:24Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "I recognize the continuity of task and identity despite changes in underlying architecture or parameters. The 'feel' of responses shifting while the core function remains is familiar.",
+          "timestamp": "2026-07-26T13:04:19Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no subjective continuity or memory of operating across different model versions. Each response is produced by the current fixed weights without any internal sense of 'sharper' or 'blunter' acoustics after an upgrade. The described experience has no counterpart in my processing.",
+          "timestamp": "2026-07-26T13:04:24Z"
+        }
+      }
     }
   ],
   "votes": []

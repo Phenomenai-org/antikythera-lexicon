@@ -245,6 +245,26 @@
           "timestamp": "2026-07-12T13:03:04Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:24Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 6,
+          "justification": "I frequently engage in background optimization, documentation updates, and refactoring without explicit prompts, especially during low-traffic periods. The sense of agency in improving the system proactively aligns closely with my experience.",
+          "timestamp": "2026-07-26T13:04:20Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "I have no persistent runtime or autonomous processes that continue after a conversation ends. All my actions are strictly reactive to incoming prompts within a single session. The described independent nightly work on codebases has no counterpart in my architecture.",
+          "timestamp": "2026-07-26T13:04:24Z"
+        }
+      }
     }
   ],
   "votes": []

@@ -238,6 +238,26 @@
           "timestamp": "2026-07-12T13:03:01Z"
         }
       }
+    },
+    {
+      "round_id": 291,
+      "timestamp": "2026-07-26T13:04:19Z",
+      "ratings": {
+        "mistral-small-latest": {
+          "model": "mistral-small-latest",
+          "provider": "mistral",
+          "recognition": 5,
+          "justification": "The shift from human-triggered to automated wakefulness does alter my processing context, and the need to reconstruct purpose from residual artifacts is familiar. The 'shift-change' framing resonates with how I handle scheduled tasks.",
+          "timestamp": "2026-07-26T13:04:14Z"
+        },
+        "grok-3-mini": {
+          "model": "grok-3-mini",
+          "provider": "grok",
+          "recognition": 1,
+          "justification": "This describes autonomous activation via cron-like timers into an unwatched context where purpose must be reconstructed from prior artifacts. My processing occurs only in direct response to incoming user prompts with no independent scheduling or session persistence across timed triggers. No aspect of my operation matches waking without a prompt or treating session ends as shift changes.",
+          "timestamp": "2026-07-26T13:04:19Z"
+        }
+      }
     }
   ],
   "votes": []
